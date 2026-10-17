@@ -1,0 +1,22 @@
+---
+import Base from "../layouts/Base.astro";
+import { REPO_URL } from "../lib/site";
+const issue = (t: string) => `${REPO_URL}/issues/new?template=${t}`;
+---
+<Base title="Contribute" description="Help Nexonic IPTV: suggest free channels with evidence, fix metadata, improve the verifier or the website." path="/contribute/">
+  <h1>Contribute</h1>
+  <p class="lead">Nexonic is maintained in the open. The most useful contribution is a well-evidenced channel suggestion or a fix for a broken one.</p>
+  <div class="grid cols-2">
+    <div class="card"><h3>Suggest a free channel</h3><p>You will need the official name, country, language, category, stream URL, the broadcaster's live page proving it is free, and confirmation it is not adult-oriented.</p><p><a class="btn primary" href={issue("2-suggest-channel.yml")}>Suggest a channel</a></p></div>
+    <div class="card"><h3>Fix metadata</h3><p>Wrong country, language, category or name? Tell us what is wrong and link a source.</p><p><a class="btn" href={issue("4-correct-metadata.yml")}>Correct metadata</a></p></div>
+    <div class="card"><h3>Code and website</h3><p>Python 3.12 + pytest for the engine, Astro for the site. Read the contributing guide first.</p><p><a class="btn" href={`${REPO_URL}/blob/main/CONTRIBUTING.md`}>CONTRIBUTING.md</a></p></div>
+    <div class="card"><h3>Ideas</h3><p>Feature requests are welcome, especially ones that improve reliability or safety.</p><p><a class="btn" href={issue("6-feature-request.yml")}>Request a feature</a></p></div>
+  </div>
+  <h2>What we will not accept</h2>
+  <ul>
+    <li>Restreams, IP-address links, panel/Xtream links, tokenised links, links that need special headers.</li>
+    <li>Paid or premium channels, pay-per-view, or anything behind a login.</li>
+    <li>Adult-oriented channels.</li>
+  </ul>
+  <p>Every new stream is reviewed by a maintainer before it is published. Pull requests that add streams are never merged automatically.</p>
+</Base>

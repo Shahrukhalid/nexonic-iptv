@@ -1,0 +1,135 @@
+---
+import "../styles/global.css";
+import { REPO_URL, SITE_NAME, TAGLINE, absolute, url } from "../lib/site";
+
+interface Props {
+  title: string;
+  description: string;
+  path: string; // canonical path, e.g. "/countries/"
+  jsonLd?: object | object[];
+  noindex?: boolean;
+}
+const { title, description, path, jsonLd, noindex = false } = Astro.props;
+const fullTitle = path === "/" ? `${SITE_NAME} — ${TAGLINE}` : `${title} · ${SITE_NAME}`;
+const canonical = absolute(path);
+const ogImage = absolute("/og.png");
+const nav = [
+  ["/", "Home"],
+  ["/countries/", "Countries"],
+  ["/channels/", "Channels"],
+  ["/playlists/", "Playlists"],
+  ["/how-to-watch/", "How to watch"],
+  ["/status/", "Status"],
+  ["/about/", "About"],
+  ["/report/", "Report"],
+];
+const current = Astro.url.pathname;
+const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="theme-color" content="#060a13" />
+    <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+    <link rel="sitemap" href={url("/sitemap.xml")} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj).replace(/</g, "\\u003c")} />)}
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site">
+      <div class="wrap">
+        <a class="brand" href={url("/")} aria-label="Nexonic IPTV home">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs><rect x="4" y="12" width="56" height="38" rx="9" fill="none" stroke="url(#g)" stroke-width="5"/><path d="M22 56h20" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/><path d="M24 22v18l16-9z" fill="url(#g)"/></svg>
+          <span>Nexonic <b>IPTV</b></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav class="main" id="main-nav" aria-label="Main">
+          <ul>
+            {nav.map(([href, label]) => (
+              <li><a href={url(href)} aria-current={current === url(href) ? "page" : undefined}>{label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="content" class="wrap">
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap cols">
+        <div>
+          <strong>Nexonic IPTV</strong>
+          <p>Free, open-source, family-friendly playlists of officially free live TV. We link to broadcasters' own streams; we host and proxy no video.</p>
+          <p>No ads, no trackers, no sign-up. Availability can change at any time and is never guaranteed.</p>
+        </div>
+        <div>
+          <ul>
+            <li><a href={url("/faq/")}>FAQ</a></li>
+            <li><a href={url("/contribute/")}>Contribute</a></li>
+            <li><a href={url("/report/")}>Report a channel</a></li>
+            <li><a href={url("/about/")}>About &amp; legal</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href={REPO_URL}>GitHub repository</a></li>
+            <li><a href={`${REPO_URL}/blob/main/docs/CONTENT_POLICY.md`}>Content policy</a></li>
+            <li><a href={`${REPO_URL}/blob/main/DISCLAIMER.md`}>Disclaimer</a></li>
+            <li><a href={`${REPO_URL}/blob/main/LICENSE`}>MIT license (code)</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="toast" role="status" aria-live="polite" id="toast"></div>
+    <script>
+      const toggle = document.querySelector(".menu-toggle");
+      const navEl = document.getElementById("main-nav");
+      toggle?.addEventListener("click", () => {
+        const open = navEl?.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", String(Boolean(open)));
+      });
+      const toast = document.getElementById("toast");
+      function show(msg: string) {
+        if (!toast) return;
+        toast.textContent = msg;
+        toast.classList.add("show");
+        setTimeout(() => toast.classList.remove("show"), 1800);
+      }
+      document.addEventListener("click", async (ev) => {
+        const btn = (ev.target as HTMLElement).closest<HTMLElement>("[data-copy]");
+        if (!btn) return;
+        const text = btn.dataset.copy ?? "";
+        try {
+          await navigator.clipboard.writeText(text);
+          show("Playlist URL copied");
+        } catch {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          ta.remove();
+          show("Playlist URL copied");
+        }
+      });
+    </script>
+  </body>
+</html>

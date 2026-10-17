@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import ChannelRow from "../components/ChannelRow.astro";
+import { CATEGORY_NAMES, STATUS_LABELS, channels, countries } from "../lib/site";
+
+const langs = [...new Map(channels.flatMap((c) => c.languages.map((l, i) => [l, c.language_names[i]] as const))).entries()]
+  .sort((a, b) => a[1].localeCompare(b[1]));
+const cats = [...new Set(channels.flatMap((c) => c.categories))].sort();
+const statuses = [...new Set(channels.map((c) => c.health.display_status))].sort();
+---
+<Base title="Channel directory" description="Search every channel in Nexonic IPTV by name, country, language, category and verification status." path="/channels/">
+  <h1>Channel directory</h1>
+  <p class="lead">Every approved channel, with its latest verification result. Filters run in your browser; nothing is sent anywhere.</p>
+  <form class="filters" role="search" onsubmit="return false">
+    <div class="search"><label for="q">Search</label><input id="q" type="search" placeholder="Channel or broadcaster" autocomplete="off" /></div>
+    <div><label for="f-country">Country</label><select id="f-country"><option value="">All</option>{countries().map((c) => <option value={c.code}>{c.name}</option>)}</select></div>
+    <div><label for="f-lang">Language</label><select id="f-lang"><option value="">All</option>{langs.map(([code, name]) => <option value={code}>{name}</option>)}</select></div>
+    <div><label for="f-cat">Category</label><select id="f-cat"><option value="">All</option>{cats.map((c) => <option value={c}>{CATEGORY_NAMES[c] ?? c}</option>)}</select></div>
+    <div><label for="f-status">Status</label><select id="f-status"><option value="">All</option>{statuses.map((s) => <option value={s}>{STATUS_LABELS[s] ?? s}</option>)}</select></div>
+  </form>
+  <p class="muted" id="count" aria-live="polite">{channels.length} channels</p>
+  <div class="channel-list" id="list">{channels.map((c) => <ChannelRow c={c} />)}</div>
+  <p class="muted" id="empty" hidden>No channels match these filters.</p>
+  <script>
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement;
+    const rows = [...document.querySelectorAll<HTMLElement>("#list .channel")];
+    const apply = () => {
+      const q = $("q").value.trim().toLowerCase();
+      const country = $("f-country").value, lang = $("f-lang").value, cat = $("f-cat").value, st = $("f-status").value;
+      let n = 0;
+      for (const r of rows) {
+        const d = r.dataset;
+        const ok = (!q || (d.name ?? "").includes(q)) && (!country || d.country === country) &&
+          (!lang || (d.langs ?? "").split(" ").includes(lang)) && (!cat || (d.cats ?? "").split(" ").includes(cat)) &&
+          (!st || d.status === st);
+        r.hidden = !ok;
+        if (ok) n++;
+      }
+      document.getElementById("count")!.textContent = `${n} channel${n === 1 ? "" : "s"}`;
+      document.getElementById("empty")!.hidden = n !== 0;
+    };
+    ["q", "f-country", "f-lang", "f-cat", "f-status"].forEach((id) => $(id).addEventListener("input", apply));
+    const params = new URLSearchParams(location.search);
+    for (const [k, id] of [["q", "q"], ["country", "f-country"], ["lang", "f-lang"], ["category", "f-cat"]]) {
+      const v = params.get(k);
+      if (v) $(id).value = v;
+    }
+    apply();
+  </script>
+</Base>

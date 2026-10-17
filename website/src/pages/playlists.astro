@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import { playlistUrl, playlists, url } from "../lib/site";
+
+const groups = [
+  ["global", "Global"],
+  ["verified", "Nexonic Verified"],
+  ["country", "By country"],
+  ["language", "By language"],
+  ["category", "By category"],
+] as const;
+---
+<Base title="All playlists" description="Every Nexonic IPTV M3U playlist: global, verified, and by country, language and category, with copy and download buttons." path="/playlists/">
+  <h1>Playlists</h1>
+  <p class="lead">All files are standard extended M3U. Channel counts come straight from the generated files.</p>
+  {groups.map(([kind, title]) => {
+    const items = playlists.filter((p) => p.kind === kind);
+    return (
+      <section>
+        <h2>{title}</h2>
+        {items.length === 0 ? (
+          <p class="muted">{kind === "verified" ? "Generated after the first live verification run (only channels that passed a check in the last 48 hours)." : "None yet."}</p>
+        ) : (
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th scope="col">Playlist</th><th scope="col">Channels</th><th scope="col">URL</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead>
+              <tbody>
+                {items.map((p) => (
+                  <tr>
+                    <td>{p.name}</td>
+                    <td>{p.count}</td>
+                    <td><code>{playlistUrl(p.path)}</code></td>
+                    <td style="white-space:nowrap">
+                      <button class="btn small primary" type="button" data-copy={playlistUrl(p.path)} aria-label={`Copy ${p.name} playlist URL`}>Copy</button>
+                      <a class="btn small" href={url(`/${p.path}`)} download aria-label={`Download ${p.name} playlist`}>Download</a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
+    );
+  })}
+</Base>

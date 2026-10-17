@@ -1,0 +1,55 @@
+---
+import Base from "../layouts/Base.astro";
+import StatusBadge from "../components/StatusBadge.astro";
+import { REPO_URL, channels, fmtTime, latestRun, stats } from "../lib/site";
+
+const counts = stats.latest_run_status_counts as Record<string, number>;
+const display = stats.display_status_counts as Record<string, number>;
+const sorted = [...channels].sort((a, b) => a.health.display_status.localeCompare(b.health.display_status) || a.name.localeCompare(b.name));
+const order = ["VERIFIED_WORKING", "GEO_RESTRICTED", "UNAVAILABLE", "TIMEOUT", "INVALID_STREAM", "AUTH_REQUIRED", "RATE_LIMITED", "UNSUPPORTED", "UNKNOWN"];
+---
+<Base title="Verification status" description="Live verification results for every Nexonic IPTV channel: latest run time, working, unavailable and geo-restricted counts." path="/status/">
+  <h1>Verification status</h1>
+  {latestRun ? (
+    <p class="lead">Latest completed run: <strong>{fmtTime(latestRun.finished_at)}</strong> ({latestRun.checked} channels, checked from {latestRun.location}).</p>
+  ) : (
+    <div class="notice" role="note">
+      <p><strong>No live verification run has been completed yet.</strong> Every channel is shown as "Not yet tested". Checks run automatically in <a href={`${REPO_URL}/actions/workflows/verify-streams.yml`}>GitHub Actions</a>; this page updates after each run.</p>
+    </div>
+  )}
+
+  <h2>Latest run</h2>
+  <div class="grid cols-4">
+    <div class="card stat"><div class="n">{counts.VERIFIED_WORKING}</div><div class="l">verified working</div></div>
+    <div class="card stat"><div class="n">{(counts.UNAVAILABLE ?? 0) + (counts.TIMEOUT ?? 0) + (counts.INVALID_STREAM ?? 0) + (counts.AUTH_REQUIRED ?? 0)}</div><div class="l">unavailable / failing</div></div>
+    <div class="card stat"><div class="n">{counts.GEO_RESTRICTED}</div><div class="l">geo-restricted from checker</div></div>
+    <div class="card stat"><div class="n">{latestRun ? (counts.UNKNOWN ?? 0) + (counts.RATE_LIMITED ?? 0) + (counts.UNSUPPORTED ?? 0) : stats.published_channels}</div><div class="l">{latestRun ? "unknown / rate-limited / unsupported" : "not yet tested"}</div></div>
+  </div>
+  {latestRun && (
+    <div class="table-wrap" style="margin-top:16px"><table>
+      <thead><tr><th scope="col">Outcome</th><th scope="col">Channels</th></tr></thead>
+      <tbody>{order.map((s) => <tr><td><code>{s}</code></td><td>{counts[s] ?? 0}</td></tr>)}</tbody>
+    </table></div>
+  )}
+  <p class="muted">A check from one network location cannot prove a stream works everywhere. Geo-restricted results mean the broadcaster limits the stream to some countries; they are not counted as failures.</p>
+
+  <h2>Current state per channel</h2>
+  <p class="muted">{Object.entries(display).map(([k, v]) => `${v} ${k.replace("-", " ")}`).join(" · ")}</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">Channel</th><th scope="col">Country</th><th scope="col">State</th><th scope="col">Last result</th><th scope="col">Last checked</th><th scope="col">Last success</th><th scope="col">Health</th></tr></thead>
+    <tbody>
+      {sorted.map((c) => (
+        <tr>
+          <td>{c.name}</td>
+          <td>{c.flag} {c.country.toUpperCase()}</td>
+          <td><StatusBadge status={c.health.display_status} /></td>
+          <td><code>{c.health.last_status}</code></td>
+          <td>{fmtTime(c.health.last_checked)}</td>
+          <td>{fmtTime(c.health.last_success)}</td>
+          <td>{c.health.score === null ? c.health.grade : `${c.health.score} (${c.health.grade})`}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table></div>
+  <p class="muted">Raw data: <a href={`${REPO_URL}/blob/main/reports/verification.md`}>verification report</a> · <a href={`${REPO_URL}/blob/main/reports/verification.json`}>JSON</a> · <a href={`${REPO_URL}/blob/main/docs/VERIFICATION.md`}>how checks work</a></p>
+</Base>

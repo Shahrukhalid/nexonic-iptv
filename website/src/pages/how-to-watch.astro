@@ -1,0 +1,68 @@
+---
+import Base from "../layouts/Base.astro";
+import { playlistFor, playlistUrl, url } from "../lib/site";
+const all = playlistFor("global", "all")!;
+const allUrl = playlistUrl(all.path);
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Watch Nexonic IPTV in VLC",
+  step: [
+    { "@type": "HowToStep", text: "Open VLC and choose Media → Open Network Stream (macOS: File → Open Network)." },
+    { "@type": "HowToStep", text: `Paste the playlist URL ${allUrl}` },
+    { "@type": "HowToStep", text: "Press Play, then open the playlist view to choose a channel." },
+  ],
+};
+---
+<Base title="How to watch" description="Step-by-step guides for watching Nexonic IPTV playlists in VLC, Kodi, Android, iPhone/iPad and Smart TV IPTV apps." path="/how-to-watch/" jsonLd={jsonLd}>
+  <h1>How to watch</h1>
+  <p class="lead">Any player that opens an M3U playlist URL works. Copy a playlist URL from the <a href={url("/playlists/")}>playlists page</a>, or use the global one:</p>
+  <div class="url-row" style="max-width:760px">
+    <label class="sr-only" for="g">Global playlist URL</label>
+    <input id="g" type="text" readonly value={allUrl} />
+    <button class="btn primary" type="button" data-copy={allUrl}>Copy URL</button>
+  </div>
+  <div class="notice info" style="margin-top:16px" role="note"><p>Playback happens in your player, directly from the broadcaster. Nexonic does not play, host or relay video, and this website has no built-in player.</p></div>
+
+  <h2 id="vlc">VLC Media Player (Windows, macOS, Linux)</h2>
+  <ol class="steps">
+    <li>Open VLC and choose <strong>Media → Open Network Stream</strong> (on macOS: <strong>File → Open Network</strong>).</li>
+    <li>Paste the playlist URL and press <strong>Play</strong>.</li>
+    <li>Open the playlist (<kbd>Ctrl</kbd>+<kbd>L</kbd> / <kbd>⌘</kbd>+<kbd>L</kbd>) to pick a channel.</li>
+  </ol>
+
+  <h2 id="kodi">Kodi</h2>
+  <ol class="steps">
+    <li>Go to <strong>Add-ons → Install from repository → PVR clients</strong> and install <strong>PVR IPTV Simple Client</strong>.</li>
+    <li>Open its settings, choose <strong>Location: Remote path (Internet address)</strong> and paste the playlist URL.</li>
+    <li>Restart Kodi (or re-enable the add-on). Channels appear under <strong>TV</strong>.</li>
+    <li>Optional: the playlists carry <code>tvg-id</code> values that match iptv-org/epg guides if you want a programme guide.</li>
+  </ol>
+
+  <h2 id="android">Android phones and Android TV</h2>
+  <ol class="steps">
+    <li>Install an IPTV player that accepts M3U URLs (for example VLC for Android, Kodi, or another reputable player from the Play Store).</li>
+    <li>Add a new playlist and choose "M3U URL" / "Remote playlist".</li>
+    <li>Paste the playlist URL and save. Choose a channel to start.</li>
+  </ol>
+
+  <h2 id="ios">iPhone, iPad and Apple TV</h2>
+  <ol class="steps">
+    <li>Install a player that supports M3U playlist URLs (VLC for Mobile opens network streams; dedicated IPTV players on the App Store add channel lists).</li>
+    <li>In VLC: <strong>Network → Open Network Stream</strong> and paste the URL. In an IPTV app: add a playlist by URL.</li>
+  </ol>
+
+  <h2 id="smart-tv">Smart TVs</h2>
+  <ol class="steps">
+    <li>Use your TV's app store to install an IPTV player that supports remote M3U playlists.</li>
+    <li>Many such apps ask you to enter the URL on a companion website; paste the Nexonic playlist URL there.</li>
+    <li>We do not recommend apps that ask for payment to unlock "channels": Nexonic is free and needs no account.</li>
+  </ol>
+
+  <h2>Troubleshooting</h2>
+  <ul>
+    <li><strong>A channel does not play.</strong> It may be limited to its home country, temporarily off-air, or changed. Check its status in the <a href={url("/channels/")}>directory</a> and <a href={url("/report/")}>report it</a> if it has been broken for a while.</li>
+    <li><strong>Only want streams that worked recently?</strong> Use the <a href={url("/playlists/")}>Nexonic Verified</a> playlist when available.</li>
+    <li><strong>Browser playback.</strong> Opening an <code>.m3u</code> link in a web browser downloads it; open it with a player instead.</li>
+  </ul>
+</Base>
