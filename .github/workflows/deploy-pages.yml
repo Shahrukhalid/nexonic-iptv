@@ -1,0 +1,64 @@
+name: Deploy website
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    # Commits made with GITHUB_TOKEN do not trigger push workflows, so redeploy after data workflows finish.
+    workflows: ["Verify streams", "Generate playlists"]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Install SVG renderer for the social preview image
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends librsvg2-bin
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Generate site data from records and verification history
+        run: |
+          pip install -r requirements.txt
+          python scripts/generate.py
+      - run: npm install --no-audit --no-fund
+        working-directory: website
+      - run: npm run build
+        working-directory: website
+      - run: npm run check-links
+        working-directory: website
+      - name: Expected assets exist
+        working-directory: website/dist
+        run: |
+          for f in index.html countries/index.html channels/index.html status/index.html sitemap.xml robots.txt \
+                   og.png favicon.svg playlists/all.m3u playlists/index.json 404.html; do
+            test -s "$f" || { echo "missing $f"; exit 1; }
+          done
+          head -1 playlists/all.m3u | grep -q '^#EXTM3U'
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: website/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
