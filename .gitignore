@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+website/node_modules/
+website/dist/
+website/.astro/
+website/src/data/
+website/public/playlists/
+reports/discovery-candidates.yaml
+.DS_Store
+website/public/og.png
+website/package-lock.json
