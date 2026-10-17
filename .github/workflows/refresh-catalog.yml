@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "scripts/expand_catalog.py"
+      - ".github/workflows/refresh-catalog.yml"
 permissions:
   contents: write
 concurrency:
@@ -36,11 +37,13 @@ jobs:
         run: python scripts/moderate.py --refresh-blocklist /tmp/database/data/blocklist.csv --channels /tmp/database/data/channels.csv
       - name: Automated admission (strict owner-domain rules)
         run: python scripts/expand_catalog.py --streams /tmp/iptv/streams --database /tmp/database/data
-      - name: Validate, moderate, generate
+      - name: Moderate, generate, validate
+        # Validate after generating: the refresh can remove records, so the playlists on disk are stale until
+        # generate.py rewrites them, and validate.py would reject their now-unapproved URLs.
         run: |
-          python scripts/validate.py
           python scripts/moderate.py
           python scripts/generate.py
+          python scripts/validate.py
       - name: Commit (signed via API)
         env:
           GITHUB_TOKEN: ${{ github.token }}
