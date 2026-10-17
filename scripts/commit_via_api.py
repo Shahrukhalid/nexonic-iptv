@@ -75,33 +75,49 @@ def main() -> int:
     if total > MAX_BYTES:
         print("Refusing: commit too large", file=sys.stderr)
         return 1
-    head = subprocess.run(
-        ["git", "rev-parse", "HEAD"], cwd=ROOT, check=True, capture_output=True, text=True
-    ).stdout.strip()
+    head = _git("rev-parse", "HEAD")
     query = """mutation($input: CreateCommitOnBranchInput!) {
       createCommitOnBranch(input: $input) { commit { oid url } } }"""
-    variables = {
-        "input": {
-            "branch": {"repositoryNameWithOwner": repo, "branchName": branch},
-            "message": {"headline": args.message},
-            "expectedHeadOid": head,
-            "fileChanges": {"additions": additions, "deletions": [{"path": p} for p in dels]},
+    for attempt in range(4):
+        variables = {
+            "input": {
+                "branch": {"repositoryNameWithOwner": repo, "branchName": branch},
+                "message": {"headline": args.message},
+                "expectedHeadOid": head,
+                "fileChanges": {"additions": additions, "deletions": [{"path": p} for p in dels]},
+            }
         }
-    }
-    r = httpx.post(
-        "https://api.github.com/graphql",
-        json={"query": query, "variables": variables},
-        headers={"Authorization": f"Bearer {token}"},
-        timeout=60,
-    )
-    r.raise_for_status()
-    body = r.json()
-    if body.get("errors"):
-        print(f"GraphQL errors: {body['errors']}", file=sys.stderr)
-        return 1
-    commit = body["data"]["createCommitOnBranch"]["commit"]
-    print(f"Committed {len(adds)} added/changed and {len(dels)} deleted file(s): {commit['url']}")
-    return 0
+        r = httpx.post(
+            "https://api.github.com/graphql",
+            json={"query": query, "variables": variables},
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=60,
+        )
+        r.raise_for_status()
+        body = r.json()
+        errors = body.get("errors") or []
+        if not errors:
+            commit = body["data"]["createCommitOnBranch"]["commit"]
+            print(f"Committed {len(adds)} added/changed and {len(dels)} deleted file(s): {commit['url']}")
+            return 0
+        if not any(e.get("type") == "STALE_DATA" for e in errors) or attempt == 3:
+            print(f"GraphQL errors: {errors}", file=sys.stderr)
+            return 1
+        # The branch moved while this job ran. Retry on the new head only if nobody else changed the files we
+        # are about to write; otherwise we would silently overwrite their work.
+        _git("fetch", "--quiet", "origin", branch)
+        new_head = _git("rev-parse", "FETCH_HEAD")
+        touched = _git("diff", "--name-only", head, new_head, "--", *args.paths).split()
+        if touched:
+            print(f"Branch moved and changed {len(touched)} of our files; refusing to overwrite.", file=sys.stderr)
+            return 1
+        print(f"Branch moved ({head[:7]} -> {new_head[:7]}) without touching our files; retrying.")
+        head = new_head
+    return 1
+
+
+def _git(*argv: str) -> str:
+    return subprocess.run(["git", *argv], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip()
 
 
 if __name__ == "__main__":
