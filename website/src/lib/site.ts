@@ -84,8 +84,7 @@ export const STATUS_LABELS: Record<string, string> = {
 
 export function fmtTime(iso: string | null | undefined): string {
   if (!iso) return "never";
-  const d = new Date(iso);
-  return d.toISOString().replace("T", " ").replace(/:\d\dZ$/, " UTC").replace(".000", "");
+  return `${iso.slice(0, 10)} ${iso.slice(11, 16)} UTC`;
 }
 
 export function countries() {

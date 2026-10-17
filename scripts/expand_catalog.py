@@ -224,7 +224,11 @@ SANCTIONED_NAME_TERMS = (
     "ren tv",
 )
 SANCTIONED_COUNTRIES = {"kp", "sy"}
-EXCLUDED_NAME_TERMS = ("scientology",)  # religious networks not tagged as such in the database
+# Religious networks not tagged as such in the database.
+EXCLUDED_NAME_TERMS = ("scientology", "supreme master", "cine dios", "prarthana", "ganj e hozour")
+# Subscription / pay services whose streams can sit on the broadcaster's own domain without being offered free.
+PAID_HOST_PATTERNS = re.compile(r"(antenaplay\.ro|telewebion\.ir)$", re.I)
+PAID_NAME_TERMS = ("fox news channel", "fox business", "formula 1", "f1 ")
 MULTI_SUFFIXES = {
     s
     for s in (
@@ -384,6 +388,9 @@ def main(argv=None) -> int:
             if any(t in lname for t in EXCLUDED_NAME_TERMS):
                 stats["excluded-category"] += 1
                 continue
+            if any(t in lname for t in PAID_NAME_TERMS):
+                stats["subscription-service"] += 1
+                continue
             cats = [c for c in ch["categories"].split(";") if c]
             if set(cats) & EXCLUDED_CATEGORIES:
                 stats["excluded-category"] += 1
@@ -398,6 +405,9 @@ def main(argv=None) -> int:
                 stats["url-policy"] += 1
                 continue
             host = (urlsplit(url).hostname or "").lower()
+            if PAID_HOST_PATTERNS.search(host):
+                stats["subscription-service"] += 1
+                continue
             if AGGREGATOR_HOSTS.search(host):
                 stats["aggregator-host"] += 1
                 continue

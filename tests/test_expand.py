@@ -35,3 +35,10 @@ def test_aggregators_excluded():
     assert ec.AGGREGATOR_HOSTS.search("amg01234-x.amagi.tv")
     assert ec.AGGREGATOR_HOSTS.search("service-stitcher.clusters.pluto.tv")
     assert not ec.AGGREGATOR_HOSTS.search("live.france24.com")
+
+
+def test_paid_and_religious_exclusions():
+    assert ec.PAID_HOST_PATTERNS.search("live77cdn2.antenaplay.ro")
+    assert any(t in "fox news channel" for t in ec.PAID_NAME_TERMS)
+    assert not any(t in "fox weather" for t in ec.PAID_NAME_TERMS)
+    assert any(t in "supreme master tv" for t in ec.EXCLUDED_NAME_TERMS)
