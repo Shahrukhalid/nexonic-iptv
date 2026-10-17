@@ -1,0 +1,27 @@
+---
+import Base from "../../layouts/Base.astro";
+import { countries, playlistFor, playlistUrl, url } from "../../lib/site";
+const cs = countries();
+---
+<Base title="Country playlists" description="Free live TV M3U playlists by country: one playlist per country with the channels its broadcasters offer free of charge." path="/countries/">
+  <h1>Country playlists</h1>
+  <p class="lead">One M3U playlist per country. Each contains only channels that the broadcaster offers free, from its own servers.</p>
+  <div class="grid cols-3" style="margin-top:20px">
+    {cs.map((c) => {
+      const pl = playlistFor("country", c.code)!;
+      const full = playlistUrl(pl.path);
+      return (
+        <article class="card country-card">
+          <span class="flag" aria-hidden="true">{c.flag}</span>
+          <h2 class="mt-0" style="font-size:1.2rem;margin:0"><a href={url(`/countries/${c.code}/`)}>{c.name}</a></h2>
+          <span class="muted">{c.count} channel{c.count === 1 ? "" : "s"} · <code>{c.code}.m3u</code></span>
+          <div class="row">
+            <button class="btn small primary" type="button" data-copy={full} aria-label={`Copy ${c.name} playlist URL`}>Copy URL</button>
+            <a class="btn small" href={url(`/${pl.path}`)} download aria-label={`Download ${c.name} playlist`}>Download</a>
+            <a class="btn small" href={url(`/countries/${c.code}/`)}>Channels</a>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+</Base>

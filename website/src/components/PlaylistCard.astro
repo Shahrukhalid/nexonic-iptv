@@ -1,0 +1,24 @@
+---
+import { playlistUrl, url } from "../lib/site";
+
+interface Props {
+  title: string;
+  path: string; // e.g. playlists/all.m3u
+  count: number;
+  description?: string;
+  feature?: boolean;
+}
+const { title, path, count, description, feature = false } = Astro.props;
+const full = playlistUrl(path);
+const id = `pl-${path.replace(/[^a-z0-9]/gi, "-")}`;
+---
+<article class:list={["card", { feature }]}>
+  <h3>{title}</h3>
+  <p>{count} channel{count === 1 ? "" : "s"}{description ? ` · ${description}` : ""}</p>
+  <div class="url-row">
+    <label class="sr-only" for={id}>Playlist URL for {title}</label>
+    <input id={id} type="text" readonly value={full} />
+    <button class="btn primary" type="button" data-copy={full}>Copy URL</button>
+    <a class="btn" href={url(`/${path}`)} download>Download</a>
+  </div>
+</article>

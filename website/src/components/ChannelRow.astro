@@ -1,0 +1,28 @@
+---
+import StatusBadge from "./StatusBadge.astro";
+import { CATEGORY_NAMES, fmtTime, type Channel } from "../lib/site";
+interface Props { c: Channel }
+const { c } = Astro.props;
+const h = c.health;
+const geo = c.geo_restricted === true ? `Region-limited${c.geo_regions.length ? ` (${c.geo_regions.map((r) => r.toUpperCase()).join(", ")})` : ""}` : c.geo_restricted === "unknown" ? "Region limits unknown" : "Intended worldwide";
+---
+<article class="card channel" data-name={`${c.name} ${c.broadcaster}`.toLowerCase()} data-country={c.country}
+  data-langs={c.languages.join(" ")} data-cats={c.categories.join(" ")} data-status={h.display_status}>
+  <div>
+    <h3>{c.name}</h3>
+    <div class="meta">{c.flag} {c.country_name} · {c.language_names.join(", ")} · {c.broadcaster}</div>
+    <div style="margin-top:6px">
+      <StatusBadge status={h.display_status} />
+      {c.categories.map((x) => <span class="tag">{CATEGORY_NAMES[x] ?? x}</span>)}
+      <span class="tag" title={c.admission === "automated" ? "Admitted automatically: stream host is on the broadcaster's own domain, and it passed a live check" : "Researched and reviewed by a maintainer"}>{c.admission === "automated" ? "Auto-admitted" : "Curated"}</span>
+    </div>
+    <div class="meta" style="margin-top:6px">
+      Last checked: {fmtTime(h.last_checked)} · Health: {h.score === null ? h.grade : `${h.score}/100 (${h.grade})`} · {geo}
+    </div>
+  </div>
+  <div class="actions">
+    <button class="btn small" type="button" data-copy={c.stream_url} aria-label={`Copy stream URL for ${c.name}`}>Copy stream</button>
+    <a class="btn small" href={c.website} rel="noopener noreferrer">Broadcaster</a>
+    <a class="btn small" href={c.evidence_url} rel="noopener noreferrer">Evidence</a>
+  </div>
+</article>

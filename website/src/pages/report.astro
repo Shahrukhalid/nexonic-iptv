@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import { REPO_URL } from "../lib/site";
+const issue = (t: string) => `${REPO_URL}/issues/new?template=${t}`;
+const items = [
+  ["Broken stream", "A channel no longer plays (and is not just limited to another country).", "1-broken-channel.yml"],
+  ["Adult-oriented content", "Highest priority. Tell us the channel and what you saw.", "3-report-adult-content.yml"],
+  ["Incorrect country or metadata", "Wrong country, language, category or name.", "4-correct-metadata.yml"],
+  ["Copyright concern / removal", "For rights holders and their representatives.", "5-copyright-concern.yml"],
+] as const;
+---
+<Base title="Report a channel" description="Report a broken stream, wrong metadata, adult content or a copyright concern to Nexonic IPTV." path="/report/">
+  <h1>Report a channel</h1>
+  <p class="lead">Reports open a GitHub issue form. A free GitHub account is needed; reports are public.</p>
+  <div class="grid cols-2">
+    {items.map(([title, text, tpl]) => (
+      <div class="card"><h3>{title}</h3><p>{text}</p><p><a class="btn primary" href={issue(tpl)}>Open form</a></p></div>
+    ))}
+  </div>
+  <div class="notice info" style="margin-top:20px" role="note">
+    <p><strong>Private reports.</strong> For a sensitive copyright or safety matter you would rather not post publicly, use GitHub's private reporting: <a href={`${REPO_URL}/security/advisories/new`}>report privately</a>. We act on adult-content and rights-holder reports first: the channel is removed from all playlists in the next generated update.</p>
+  </div>
+</Base>

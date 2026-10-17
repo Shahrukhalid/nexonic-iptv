@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/Base.astro";
+import PlaylistCard from "../../components/PlaylistCard.astro";
+import ChannelRow from "../../components/ChannelRow.astro";
+import { absolute, channels, countries, playlistFor, url } from "../../lib/site";
+
+export function getStaticPaths() {
+  return countries().map((c) => ({ params: { code: c.code }, props: { country: c } }));
+}
+const { country } = Astro.props;
+const list = channels.filter((c) => c.country === country.code);
+const pl = playlistFor("country", country.code)!;
+const names = list.slice(0, 4).map((c) => c.name).join(", ");
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: absolute("/") },
+    { "@type": "ListItem", position: 2, name: "Countries", item: absolute("/countries/") },
+    { "@type": "ListItem", position: 3, name: country.name, item: absolute(`/countries/${country.code}/`) },
+  ],
+};
+---
+<Base
+  title={`${country.name} free live TV playlist`}
+  description={`Free M3U playlist of ${list.length} live TV channel${list.length === 1 ? "" : "s"} from ${country.name} offered free by their broadcasters, including ${names}.`}
+  path={`/countries/${country.code}/`}
+  jsonLd={jsonLd}
+>
+  <p class="muted"><a href={url("/countries/")}>Countries</a> / {country.name}</p>
+  <h1><span aria-hidden="true">{country.flag}</span> {country.name}</h1>
+  <p class="lead">{list.length} free channel{list.length === 1 ? "" : "s"} from {country.name}. Paste the playlist URL into VLC, Kodi or any IPTV player.</p>
+  <div style="margin:18px 0"><PlaylistCard title={`${country.name} playlist`} path={pl.path} count={pl.count} feature /></div>
+  {list.some((c) => c.geo_restricted !== false) && (
+    <div class="notice" role="note"><p>Some of these channels are limited by the broadcaster to viewers in certain countries. They will not play elsewhere, and we do not try to get around that.</p></div>
+  )}
+  <h2>Channels</h2>
+  <div class="channel-list">{list.map((c) => <ChannelRow c={c} />)}</div>
+</Base>

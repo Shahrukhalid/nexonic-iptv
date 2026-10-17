@@ -1,0 +1,26 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/site";
+const faqs: [string, string][] = [
+  ["Is Nexonic IPTV free?", "Yes. There are no subscriptions, ads, accounts or paid tiers. The project runs on free GitHub hosting."],
+  ["Is it legal?", "Nexonic only links to streams that broadcasters offer free to the public on their own websites, and records the evidence for each one. It hosts no video and does not bypass paywalls, DRM or region limits. Laws differ by country; this is not legal advice."],
+  ["Why so few channels compared with other lists?", "We only include official free streams from the broadcaster's own servers, and we remove ones that stop working. Many large lists include restreams of paid channels or dead links."],
+  ["Why does a channel not play for me?", "Many public broadcasters limit their stream to viewers in their own country. Others go off-air at night or change addresses. Check the channel's status, and report it if it stays broken."],
+  ["What does \"Verified\" mean?", "Our checker fetched the stream's playlist, followed it to a media playlist and read a small piece of real video within the last 48 hours, from GitHub's servers. It does not guarantee playback in your location."],
+  ["What is the Health Score?", "A 0–100 reliability score built only from recorded checks over the last 14 days. With too little data it shows NOT ENOUGH DATA instead of a number."],
+  ["Are there adult channels?", "No. They are excluded by policy, by automated screening and by human review. If you ever see one, report it and it will be removed."],
+  ["Is it safe for children?", "Channels are screened, and kids channels are grouped separately, but broadcasters decide what they air. We cannot review every individual programme."],
+  ["Can I watch in my browser?", "No. The site lists playlists; playback happens in a player such as VLC or Kodi."],
+  ["Do you collect data about me?", "No analytics, cookies or trackers. GitHub Pages keeps standard server logs."],
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+};
+---
+<Base title="FAQ" description="Answers about Nexonic IPTV: cost, legality, verification, the Health Score, geo-restrictions and safety." path="/faq/" jsonLd={jsonLd}>
+  <h1>Frequently asked questions</h1>
+  {faqs.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+  <p class="muted">More in the <a href={url("/about/")}>about page</a>.</p>
+</Base>

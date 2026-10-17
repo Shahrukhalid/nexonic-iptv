@@ -1,0 +1,53 @@
+---
+import Base from "../layouts/Base.astro";
+import { REPO_URL, url } from "../lib/site";
+const doc = (p: string) => `${REPO_URL}/blob/main/${p}`;
+---
+<Base title="About, licensing and limitations" description="What Nexonic IPTV is, how channels are chosen, how the Health Score works, licensing, and the project's limits." path="/about/">
+  <h1>About Nexonic IPTV</h1>
+  <p class="lead">Nexonic IPTV is a free, open-source list of live TV channels that broadcasters themselves offer to the public at no cost. We publish links; we never host, record, proxy or restream video.</p>
+
+  <h2>How channels are chosen</h2>
+  <ul>
+    <li>The stream must come from the broadcaster's own domain, or a CDN hostname provisioned for it, and the broadcaster must offer it free on its own site. The evidence page is linked on every channel.</li>
+    <li>No pay-TV, premium sports, PPV, tokenised or credentialed links, DRM workarounds, or region-limit workarounds.</li>
+    <li>No adult-oriented channels, ever. Uncertain cases are held for human review instead of being published.</li>
+    <li>Quality over quantity: a short list that works beats a long list that does not.</li>
+  </ul>
+  <p>Read the full <a href={doc("docs/SOURCE_POLICY.md")}>source policy</a> and <a href={doc("docs/CONTENT_POLICY.md")}>content policy</a>.</p>
+
+  <h2 id="health-score">Nexonic Health Score</h2>
+  <p>A 0–100 score computed only from recorded checks in the last 14 days. Geo-restricted, rate-limited and inconclusive results are left out so they do not count against a channel.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">Part</th><th scope="col">Weight</th><th scope="col">Meaning</th></tr></thead>
+    <tbody>
+      <tr><td>Recent success rate</td><td>45%</td><td>Share of the last 10 scorable checks that succeeded</td></tr>
+      <tr><td>Streak</td><td>20%</td><td>Consecutive successes, full marks at 5</td></tr>
+      <tr><td>Latency</td><td>15%</td><td>Median manifest response: ≤500 ms full, ≥3000 ms none</td></tr>
+      <tr><td>Media readable</td><td>10%</td><td>Share of successes where real video bytes were read</td></tr>
+      <tr><td>Freshness</td><td>10%</td><td>Last success within 24 h full, within 72 h half</td></tr>
+    </tbody>
+  </table></div>
+  <p>Fewer than 3 scorable checks on 2 different days shows <strong>NOT ENOUGH DATA</strong> instead of a number. A score describes the past; it is not an uptime promise. Details: <a href={doc("docs/VERIFICATION.md")}>VERIFICATION.md</a>.</p>
+
+  <h2>Limitations</h2>
+  <ul>
+    <li>Checks run from GitHub's servers. A stream can work there and not in your country, or the reverse.</li>
+    <li>Broadcasters can change what they air at any time. We screen channels, not every individual programme, so we cannot promise every broadcast suits children.</li>
+    <li>Stream addresses change; a channel may break between checks.</li>
+  </ul>
+
+  <h2>Licensing and attribution</h2>
+  <ul>
+    <li>Code: MIT license. Channel data and reports: CC0 1.0 (public domain dedication).</li>
+    <li>Channel IDs (<code>tvg-id</code>) and the NSFW blocklist come from <a href="https://github.com/iptv-org/database">iptv-org/database</a> (public domain). Country names and flags from the same source.</li>
+    <li>Channel names and trademarks belong to their owners. Their appearance here does not imply endorsement.</li>
+    <li>See <a href={doc("NOTICE.md")}>NOTICE.md</a> and <a href={doc("DISCLAIMER.md")}>DISCLAIMER.md</a>.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>This site has no analytics, cookies, ads or third-party scripts. It is a static site served by GitHub Pages, which keeps its own server logs (see GitHub's privacy statement).</p>
+
+  <h2>Rights holders</h2>
+  <p>If you own a channel and want it removed, use the <a href={url("/report/")}>report page</a>. We remove links quickly; see the <a href={doc("docs/LEGAL.md")}>legal notes</a>.</p>
+</Base>

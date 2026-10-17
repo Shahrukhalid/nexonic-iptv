@@ -1,0 +1,90 @@
+---
+import Base from "../layouts/Base.astro";
+import PlaylistCard from "../components/PlaylistCard.astro";
+import { REPO_URL, TAGLINE, absolute, countries, fmtTime, latestRun, playlistFor, stats, url } from "../lib/site";
+
+const all = playlistFor("global", "all");
+const verified = playlistFor("verified", "verified");
+const cs = countries();
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Nexonic IPTV",
+    url: absolute("/"),
+    description: "Free, open-source, family-friendly M3U playlists of officially free live TV, organised by country.",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "Nexonic IPTV playlists",
+    description: "Curated M3U playlists of free live TV streams offered by broadcasters, with verification history.",
+    url: absolute("/playlists/"),
+    license: "https://creativecommons.org/publicdomain/zero/1.0/",
+    isAccessibleForFree: true,
+    distribution: [{ "@type": "DataDownload", encodingFormat: "audio/x-mpegurl", contentUrl: all?.url }],
+  },
+];
+---
+<Base
+  title="Free live TV playlists"
+  description="Free, open-source M3U playlists of officially free live TV from public and news broadcasters worldwide. Organised by country, language and category. No ads, no adult channels."
+  path="/"
+  jsonLd={jsonLd}
+>
+  <section class="hero">
+    <span class="eyebrow">Open source · Free forever · Family-friendly</span>
+    <h1><span class="grad">Nexonic IPTV</span></h1>
+    <p class="lead">{TAGLINE} Curated M3U playlists of live channels that broadcasters themselves offer free of charge — organised by country, checked automatically, and free of adult content.</p>
+  </section>
+
+  <section aria-labelledby="stats-h">
+    <h2 id="stats-h" class="sr-only">Project numbers</h2>
+    <div class="grid cols-4">
+      <div class="card stat"><div class="n">{stats.published_channels}</div><div class="l">approved channels</div></div>
+      <div class="card stat"><div class="n">{stats.countries}</div><div class="l">countries</div></div>
+      <div class="card stat"><div class="n">{stats.verified_playlist_channels}</div><div class="l">verified in the last 48 h</div></div>
+      <div class="card stat"><div class="n" style="font-size:1.1rem;padding-top:.6rem">{latestRun ? fmtTime(latestRun.finished_at) : "Not yet run"}</div><div class="l">latest verification run</div></div>
+    </div>
+  </section>
+
+  <h2>Start watching</h2>
+  <div class="grid cols-2">
+    {all && <PlaylistCard title="Global playlist" path={all.path} count={all.count} description="every approved channel" feature />}
+    {verified ? (
+      <PlaylistCard title="Nexonic Verified" path={verified.path} count={verified.count} description="worked in the last 48 hours" feature />
+    ) : (
+      <article class="card">
+        <h3>Nexonic Verified</h3>
+        <p>This playlist appears after the first live verification run and lists only channels that passed a check in the last 48 hours.</p>
+        <p><a href={url("/status/")}>See verification status</a></p>
+      </article>
+    )}
+  </div>
+
+  <div class="notice" style="margin-top:20px" role="note">
+    <p><strong>Availability is never guaranteed.</strong> Broadcasters change, limit or end streams at any time, and many limit streams to their own country. A successful check from our server does not mean a stream will play everywhere. We never bypass region limits.</p>
+  </div>
+
+  <h2>Country hub</h2>
+  <p class="muted">Pick a country to get a playlist of its free channels.</p>
+  <div class="grid cols-4">
+    {cs.map((c) => (
+      <a class="card country-card" href={url(`/countries/${c.code}/`)} style="text-decoration:none;color:inherit">
+        <span class="flag" aria-hidden="true">{c.flag}</span>
+        <strong>{c.name}</strong>
+        <span class="muted">{c.count} channel{c.count === 1 ? "" : "s"}</span>
+      </a>
+    ))}
+  </div>
+
+  <h2>Why Nexonic is different</h2>
+  <div class="grid cols-3">
+    <div class="card"><h3>Only official streams</h3><p>Every channel links to the broadcaster's own stream, with the evidence recorded. No restreams, no pay-TV, no tokens.</p></div>
+    <div class="card"><h3>Really checked</h3><p>We read the HLS manifest and a few bytes of real video — not just an HTTP 200. Results are timestamped and public.</p></div>
+    <div class="card"><h3>Health score</h3><p>A transparent reliability score built from actual check history. No data, no score.</p></div>
+    <div class="card"><h3>Safe by design</h3><p>Adult channels are excluded by policy, five automated layers and human review. <a href={url("/report/")}>Report anything we missed.</a></p></div>
+    <div class="card"><h3>Zero cost</h3><p>No subscriptions, ads, trackers or accounts. Hosted free on GitHub.</p></div>
+    <div class="card"><h3>Open</h3><p>Code, data and reports are on <a href={REPO_URL}>GitHub</a>. Suggest a channel with evidence and we will review it.</p></div>
+  </div>
+</Base>
