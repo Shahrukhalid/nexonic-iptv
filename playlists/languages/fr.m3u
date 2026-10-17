@@ -1,4 +1,16 @@
 #EXTM3U x-nexonic-playlist="French"
+#EXTINF:-1 tvg-id="Matele.be@SD" tvg-name="Matele" tvg-country="BE" tvg-language="French" group-title="Belgium",Matele
+https://live.matele.be/hls/live.m3u8
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-name="RTNB Divertissement" tvg-country="BI" tvg-language="English;French;Swahili" group-title="Burundi",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-name="RTNB TV" tvg-country="BI" tvg-language="French;Swahili;English" group-title="Burundi",RTNB TV
+https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="TVCBenin.bj@SD" tvg-name="TVC Benin" tvg-country="BJ" tvg-language="French" group-title="Benin",TVC Benin
+https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="Savoirmedia.ca@CFTUDT" tvg-name="Savoir media" tvg-country="CA" tvg-language="French" group-title="Canada",Savoir media
+https://hls.savoir.media/live/stream.m3u8
+#EXTINF:-1 tvg-id="LauraDaveMediaTV.cm@SD" tvg-name="Laura Dave Media TV" tvg-country="CM" tvg-language="French" group-title="Cameroon",Laura Dave Media TV
+https://streaming.lauradavemedia.com/ldm/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" tvg-name="Africanews Français" tvg-country="FR" tvg-language="French" group-title="France",Africanews Français
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" tvg-name="ARTE (Français)" tvg-country="FR" tvg-language="French" group-title="France",ARTE (Français)
@@ -7,3 +19,35 @@ https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8
+#EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-name="Le Figaro TV Ile-de-France" tvg-country="FR" tvg-language="French" group-title="France",Le Figaro TV Ile-de-France
+https://static.lefigaro.fr/secom/tnt.m3u8
+#EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-name="Trace Africa" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Africa
+https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceAfrikora.fr@SD" tvg-name="Trace Afrikora" tvg-country="FR" tvg-language="French" group-title="France",Trace Afrikora
+https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceAyiti.fr@SD" tvg-name="Trace Ayiti" tvg-country="FR" tvg-language="French" group-title="France",Trace Ayiti
+https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceCaribbean.fr@SD" tvg-name="Trace Caribbean" tvg-country="FR" tvg-language="French" group-title="France",Trace Caribbean
+https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceKitoko.fr@SD" tvg-name="Trace Kitoko" tvg-country="FR" tvg-language="French" group-title="France",Trace Kitoko
+https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-name="Trace Latina" tvg-country="FR" tvg-language="French" group-title="France",Trace Latina
+https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceMboa.fr@SD" tvg-name="Trace Mboa" tvg-country="FR" tvg-language="French" group-title="France",Trace Mboa
+https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceMuzika.fr@SD" tvg-name="Trace Muzika" tvg-country="FR" tvg-language="French" group-title="France",Trace Muzika
+https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-name="Trace Sport Stars" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceUrban.fr@AfricaFranco" tvg-name="Trace Urban" tvg-country="FR" tvg-language="French" group-title="France",Trace Urban
+https://channels.trace.plus/Traceprod/URBAN_AFRIC_FR_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceVanillaIslands.fr@SD" tvg-name="Trace Vanilla Islands" tvg-country="FR" tvg-language="French" group-title="France",Trace Vanilla Islands
+https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeStyle.fr@SD" tvg-name="TV5Monde Style" tvg-country="FR" tvg-language="French" group-title="France",TV5Monde Style
+https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
+#EXTINF:-1 tvg-id="TMA.gp@SD" tvg-name="TMA" tvg-country="GP" tvg-language="French" group-title="Guadeloupe",TMA
+http://hls.tmacaraibes.com/live/index.m3u8
+#EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-name="Monaco Info" tvg-country="MC" tvg-language="French" group-title="Monaco",Monaco Info
+https://webtv.monacoinfo.com/live/prod/index.m3u8
+#EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-name="Zitata TV" tvg-country="MQ" tvg-language="French" group-title="Martinique",Zitata TV
+https://live.zitata.tv/direct-hls/playlist.m3u8

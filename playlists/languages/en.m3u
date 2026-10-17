@@ -1,18 +1,56 @@
 #EXTM3U x-nexonic-playlist="English"
+#EXTINF:-1 tvg-id="PointeTV.ag@SD" tvg-name="Pointe TV" tvg-country="AG" tvg-language="English" group-title="Antigua and Barbuda",Pointe TV
+https://tv.pointville.ag/hls/mystream.m3u8
 #EXTINF:-1 tvg-name="Red Bull TV" tvg-country="AT" tvg-language="English" group-title="Austria",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-name="ABC News (Australia)" tvg-country="AU" tvg-language="English" group-title="Australia",ABC News (Australia)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-name="RTNB Divertissement" tvg-country="BI" tvg-language="English;French;Swahili" group-title="Burundi",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-name="RTNB TV" tvg-country="BI" tvg-language="French;Swahili;English" group-title="Burundi",RTNB TV
+https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsCalgary.ca@SD" tvg-name="CityNews Calgary" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Calgary
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsEdmonton.ca@SD" tvg-name="CityNews Edmonton" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Edmonton
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
+#EXTINF:-1 tvg-id="CityNewsToronto.ca@SD" tvg-name="CityNews Toronto" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Toronto
+https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsVancouver.ca@SD" tvg-name="CityNews Vancouver" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Vancouver
+https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
+#EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV" tvg-country="CA" tvg-language="Pashto;Tajik;English" group-title="Canada",Pamir TV
+http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-country="CN" tvg-language="English" group-title="China",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-name="CGTN Documentary" tvg-country="CN" tvg-language="English" group-title="China",CGTN Documentary
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English" tvg-country="DE" tvg-language="English" group-title="Germany",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="VantageClassic.ee@HD" tvg-name="Vantage Classic" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Classic
+https://hls.vantagetv.ee/vclassic_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageDance.ee@HD" tvg-name="Vantage Dance" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Dance
+https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageMusic.ee@HD" tvg-name="Vantage Music" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Music
+https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageRock.ee@HD" tvg-name="Vantage Rock" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Rock
+https://hls.vantagetv.ee/vrock_stream/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" tvg-name="Africanews English" tvg-country="FR" tvg-language="English" group-title="France",Africanews English
 https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-name="Euronews English" tvg-country="FR" tvg-language="English" group-title="France",Euronews English
 https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-country="FR" tvg-language="English" group-title="France",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8
+#EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-name="Trace Africa" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Africa
+https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceJama.fr@SD" tvg-name="Trace Jama" tvg-country="FR" tvg-language="English" group-title="France",Trace Jama
+https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceMziki.fr@SD" tvg-name="Trace Mziki" tvg-country="FR" tvg-language="English" group-title="France",Trace Mziki
+https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceNaija.fr@SD" tvg-name="Trace Naija" tvg-country="FR" tvg-language="English" group-title="France",Trace Naija
+https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-name="Trace Sport Stars" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Sport Stars
+https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+#EXTINF:-1 tvg-id="QTVGambia.gm@SD" tvg-name="QTV Gambia" tvg-country="GM" tvg-language="English;Wolof" group-title="Gambia",QTV Gambia
+https://player.qtv.gm/hls/live.stream.m3u8
 #EXTINF:-1 tvg-id="TVRIWorld.id@SD" tvg-name="TVRI World" tvg-country="ID" tvg-language="English" group-title="Indonesia",TVRI World
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:-1 tvg-id="RTENews.ie@SD" tvg-name="RTÉ News" tvg-country="IE" tvg-language="English" group-title="Ireland",RTÉ News
@@ -25,19 +63,171 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
 #EXTINF:-1 tvg-id="SansadTV2.in@HD" tvg-name="Sansad TV 2" tvg-country="IN" tvg-language="Hindi;English" group-title="India",Sansad TV 2
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+#EXTINF:-1 tvg-id="PeerTVSouthTyrol.it@SD" tvg-name="Peer TV South Tyrol" tvg-country="IT" tvg-language="English" group-title="Italy",Peer TV South Tyrol
+https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" tvg-name="NHK World-Japan" tvg-country="JP" tvg-language="English" group-title="Japan",NHK World-Japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-name="Arirang TV" tvg-country="KR" tvg-language="English" group-title="South Korea",Arirang TV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="EBSPlus2.kr@SD" tvg-name="EBS Plus 2" tvg-country="KR" tvg-language="English;Korean" group-title="South Korea",EBS Plus 2
+https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+#EXTINF:-1 tvg-id="TalentTV.lk@HD" tvg-name="Talent TV" tvg-country="LK" tvg-language="English" group-title="Sri Lanka",Talent TV
+https://cast.talenttv.lk/hls/mcrlo1ygwpu8x4bj/index.m3u8
+#EXTINF:-1 tvg-id="TodayRadio.lu@SD" tvg-name="Today Radio" tvg-country="LU" tvg-language="English" group-title="Luxembourg",Today Radio
+https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
+#EXTINF:-1 tvg-id="MNBWorld.mn@SD" tvg-name="MNB World" tvg-country="MN" tvg-language="English" group-title="Mongolia",MNB World
+https://live.mnb.mn/hls/mnb_world.stream.m3u8
+#EXTINF:-1 tvg-id="FortisTV.ng@SD" tvg-name="Fortis TV" tvg-country="NG" tvg-language="English" group-title="Nigeria",Fortis TV
+https://stream.fortistv.com/hls/fortis-news/index.m3u8
+#EXTINF:-1 tvg-id="NewsCentral.ng@SD" tvg-name="News Central" tvg-country="NG" tvg-language="English" group-title="Nigeria",News Central
+https://wf.newscentral.ng:8443/hls/stream.m3u8
+#EXTINF:-1 tvg-id="WairarapaTV.nz@SD" tvg-name="Wairarapa TV" tvg-country="NZ" tvg-language="English" group-title="New Zealand",Wairarapa TV
+https://stream.wairarapatv.co.nz/Broadband_High/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" tvg-country="QA" tvg-language="English" group-title="Qatar",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="Formula1AntenaPlay.ro@SD" tvg-name="Formula 1 AntenaPlay" tvg-country="RO" tvg-language="English" group-title="Romania",Formula 1 AntenaPlay
+https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8
+#EXTINF:-1 tvg-id="DanceHits80.ru@SD" tvg-name="DanceHits80" tvg-country="RU" tvg-language="English;Russian" group-title="Russia",DanceHits80
+http://dancehits80.denvs.ru:8080/index.m3u8
+#EXTINF:-1 tvg-id="TV1.rw@SD" tvg-name="TV1" tvg-country="RW" tvg-language="English;Kinyarwanda" group-title="Rwanda",TV1
+https://live.tv1.rw/index.m3u8
+#EXTINF:-1 tvg-id="DLTV1.th@SD" tvg-name="DLTV 1" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 1
+https://cdn-live.dltv.ac.th/dltv01.m3u8
+#EXTINF:-1 tvg-id="DLTV10.th@SD" tvg-name="DLTV 10" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 10
+https://cdn-live.dltv.ac.th/dltv10.m3u8
+#EXTINF:-1 tvg-id="DLTV11.th@SD" tvg-name="DLTV 11" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 11
+https://cdn-live.dltv.ac.th/dltv11.m3u8
+#EXTINF:-1 tvg-id="DLTV12.th@SD" tvg-name="DLTV 12" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 12
+https://cdn-live.dltv.ac.th/dltv12.m3u8
+#EXTINF:-1 tvg-id="DLTV13.th@SD" tvg-name="DLTV 13" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 13
+https://cdn-live.dltv.ac.th/dltv13.m3u8
+#EXTINF:-1 tvg-id="DLTV14.th@SD" tvg-name="DLTV 14" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 14
+https://cdn-live.dltv.ac.th/dltv14.m3u8
+#EXTINF:-1 tvg-id="DLTV15.th@SD" tvg-name="DLTV 15" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 15
+https://cdn-live.dltv.ac.th/dltv15.m3u8
+#EXTINF:-1 tvg-id="DLTV2.th@SD" tvg-name="DLTV 2" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 2
+https://cdn-live.dltv.ac.th/dltv02.m3u8
+#EXTINF:-1 tvg-id="DLTV3.th@SD" tvg-name="DLTV 3" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 3
+https://cdn-live.dltv.ac.th/dltv03.m3u8
+#EXTINF:-1 tvg-id="DLTV4.th@SD" tvg-name="DLTV 4" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 4
+https://cdn-live.dltv.ac.th/dltv04.m3u8
+#EXTINF:-1 tvg-id="DLTV5.th@SD" tvg-name="DLTV 5" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 5
+https://cdn-live.dltv.ac.th/dltv05.m3u8
+#EXTINF:-1 tvg-id="DLTV6.th@SD" tvg-name="DLTV 6" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 6
+https://cdn-live.dltv.ac.th/dltv06.m3u8
+#EXTINF:-1 tvg-id="DLTV7.th@SD" tvg-name="DLTV 7" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 7
+https://cdn-live.dltv.ac.th/dltv07.m3u8
+#EXTINF:-1 tvg-id="DLTV8.th@SD" tvg-name="DLTV 8" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 8
+https://cdn-live.dltv.ac.th/dltv08.m3u8
+#EXTINF:-1 tvg-id="DLTV9.th@SD" tvg-name="DLTV 9" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 9
+https://cdn-live.dltv.ac.th/dltv09.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-country="TR" tvg-language="English" group-title="Turkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="BizzTV.tt@SD" tvg-name="Bizz TV" tvg-country="TT" tvg-language="English" group-title="Trinidad and Tobago",Bizz TV
+https://stream.bizzmedia.biz/bizz_tv/index.m3u8
+#EXTINF:-1 tvg-id="SupremeMasterTV.tw@SD" tvg-name="Supreme Master TV" tvg-country="TW" tvg-language="English" group-title="Taiwan",Supreme Master TV
+https://lbs-us1.suprememastertv.com/720p.m3u8
+#EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International" tvg-country="UK" tvg-language="Pashto;Arabic;English" group-title="United Kingdom",Afghanistan International
+https://hls.afintl.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DunyaNewsUK.uk@SD" tvg-name="Dunya News UK" tvg-country="UK" tvg-language="Urdu;English" group-title="United Kingdom",Dunya News UK
+https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
+#EXTINF:-1 tvg-id="SheffieldLiveTV.uk@SD" tvg-name="Sheffield Live TV" tvg-country="UK" tvg-language="English" group-title="United Kingdom",Sheffield Live TV
+http://tv.sheffieldlive.org/hls/main.m3u8
+#EXTINF:-1 tvg-id="TraceUK.uk@HD" tvg-name="Trace UK" tvg-country="UK" tvg-language="English" group-title="United Kingdom",Trace UK
+https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
+#EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review" tvg-country="US" tvg-language="English" group-title="United States",30A Georgia Hollywood Review
+https://30a-tv.com/gh.m3u8
+#EXTINF:-1 tvg-id="30AInvestmentPitch.us@SD" tvg-name="30A Investment Pitch" tvg-country="US" tvg-language="English" group-title="United States",30A Investment Pitch
+https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+#EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us@SD" tvg-name="30A Luxe Life Discovered" tvg-country="US" tvg-language="English" group-title="United States",30A Luxe Life Discovered
+https://30a-tv.com/feeds/vidaa/luxelife.m3u8
+#EXTINF:-1 tvg-id="30ARidiculousTV.us@SD" tvg-name="30A Ridiculous TV" tvg-country="US" tvg-language="English" group-title="United States",30A Ridiculous TV
+https://30a-tv.com/feeds/720p/63.m3u8
+#EXTINF:-1 tvg-id="30ASidewalks.us@SD" tvg-name="30A Sidewalks" tvg-country="US" tvg-language="English" group-title="United States",30A Sidewalks
+https://30a-tv.com/sidewalks.m3u8
+#EXTINF:-1 tvg-id="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel" tvg-country="US" tvg-language="English" group-title="United States",30A Television Channel
+https://30a-tv.com/feeds/masters/30atv.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us@SD" tvg-name="ABC News Live" tvg-country="US" tvg-language="English" group-title="United States",ABC News Live
 https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
+#EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Originals
+https://bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg Television" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-name="CBS News 24/7" tvg-country="US" tvg-language="English" group-title="United States",CBS News 24/7
 https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+#EXTINF:-1 tvg-id="CloudflareTV.us@SD" tvg-name="Cloudflare TV" tvg-country="US" tvg-language="English" group-title="United States",Cloudflare TV
+https://cloudflare.tv/hls/live.m3u8
+#EXTINF:-1 tvg-id="CTNCourtFeed.us@SD" tvg-name="CT-N Court Feed" tvg-country="US" tvg-language="English" group-title="United States",CT-N Court Feed
+http://video.ct-n.com/live/ctnSupreme/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="CTNLiveStream2.us@SD" tvg-name="CT-N Live Stream 2" tvg-country="US" tvg-language="English" group-title="United States",CT-N Live Stream 2
+http://video.ct-n.com/live/web2stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CTNTVConneticut.us@SD" tvg-name="CT-N TV Conneticut" tvg-country="US" tvg-language="English" group-title="United States",CT-N TV Conneticut
+http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="DCCouncilHearingRoom120.us@SD" tvg-name="DC Council Hearing Room 120" tvg-country="US" tvg-language="English" group-title="United States",DC Council Hearing Room 120
+https://video.oct.dc.gov/out/u/97_12.m3u8
+#EXTINF:-1 tvg-id="DCC.us@SD" tvg-name="DCC" tvg-country="US" tvg-language="English" group-title="United States",DCC
+https://video.oct.dc.gov/out/u/15_12.m3u8
+#EXTINF:-1 tvg-id="DistrictofColumbiaNetwork.us@SD" tvg-name="District of Columbia Network" tvg-country="US" tvg-language="English" group-title="United States",District of Columbia Network
+https://video.oct.dc.gov/out/u/DCN.m3u8
+#EXTINF:-1 tvg-id="DKN.us@SD" tvg-name="DKN" tvg-country="US" tvg-language="English" group-title="United States",DKN
+https://video.oct.dc.gov/out/u/DKN.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-name="Fox Business Network" tvg-country="US" tvg-language="English" group-title="United States",Fox Business Network
+https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel" tvg-country="US" tvg-language="English" group-title="United States",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News Radio" tvg-country="US" tvg-language="English" group-title="United States",Fox News Radio
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
+#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-name="Fox Weather" tvg-country="US" tvg-language="English" group-title="United States",Fox Weather
+https://247wlive.foxweather.com/stream/index.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us@SD" tvg-name="Gillette Public Access Television Channel 189" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 189
+https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us@SD" tvg-name="Gillette Public Access Television Channel 190" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 190
+https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel192.us@SD" tvg-name="Gillette Public Access Television Channel 192" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 192
+https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8
+#EXTINF:-1 tvg-id="LawCrime.us@SD" tvg-name="Law & Crime" tvg-country="US" tvg-language="English" group-title="United States",Law & Crime
+https://cdn.lawandcrime.net/rewind/playlist.m3u8
 #EXTINF:-1 tvg-id="NASATVPublic.us@SD" tvg-name="NASA TV Public" tvg-country="US" tvg-language="English" group-title="United States",NASA TV Public
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+#EXTINF:-1 tvg-id="NatickEducationChannel.us@SD" tvg-name="Natick Education Channel" tvg-country="US" tvg-language="English" group-title="United States",Natick Education Channel
+https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="NatickGovernmentChannel.us@SD" tvg-name="Natick Government Channel" tvg-country="US" tvg-language="English" group-title="United States",Natick Government Channel
+https://livestream.telvue.com/natickpegasus3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="NatickPublicAccessChannel.us@SD" tvg-name="Natick Public Access Channel" tvg-country="US" tvg-language="English" group-title="United States",Natick Public Access Channel
+https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="NTDTV.us@West" tvg-name="NTD TV" tvg-country="US" tvg-language="Chinese;English" group-title="United States",NTD TV
+https://live.ntdtv.com/uwlive990/playlist.m3u8
+#EXTINF:-1 tvg-id="NTDTVCanada.us@East" tvg-name="NTD TV Canada" tvg-country="US" tvg-language="Chinese;English" group-title="United States",NTD TV Canada
+https://live.ntdtv.com/mllive860/playlist.m3u8
+#EXTINF:-1 tvg-id="OrangeGovernmentAccessTV.us@SD" tvg-name="Orange Government Access TV" tvg-country="US" tvg-language="English" group-title="United States",Orange Government Access TV
+https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="PalmBeachesTV.us@SD" tvg-name="Palm Beaches TV" tvg-country="US" tvg-language="English" group-title="United States",Palm Beaches TV
+https://live.feed.thepalmbeaches.tv/index.m3u8
+#EXTINF:-1 tvg-id="PBS.us@East" tvg-name="PBS" tvg-country="US" tvg-language="English" group-title="United States",PBS
+https://pbs.lls.cdn.pbs.org/est/index.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="RallyTV.us@SD" tvg-name="Rally TV" tvg-country="US" tvg-language="English" group-title="United States",Rally TV
+https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
+#EXTINF:-1 tvg-id="RCTV3.us@SD" tvg-name="RCTV3" tvg-country="US" tvg-language="English;Spanish" group-title="United States",RCTV3
+https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-name="Sound View Community Media" tvg-country="US" tvg-language="English" group-title="United States",Sound View Community Media
+https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="WCOT.us@SD" tvg-name="WCOT" tvg-country="US" tvg-language="English" group-title="United States",WCOT
+https://stream.talgov.net/WCOT/smil:WCOT.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Whiplash.us@HD" tvg-name="Whiplash" tvg-country="US" tvg-language="English" group-title="United States",Whiplash
+https://cdn.whiplash.cc/whiplash/index.m3u8
+#EXTINF:-1 tvg-id="WhiplashCinema.us@SD" tvg-name="Whiplash Cinema" tvg-country="US" tvg-language="English" group-title="United States",Whiplash Cinema
+https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
+#EXTINF:-1 tvg-id="WhiplashII.us@SD" tvg-name="Whiplash II" tvg-country="US" tvg-language="English" group-title="United States",Whiplash II
+https://cdn.whiplash.cc/whiplash-2/index.m3u8
+#EXTINF:-1 tvg-id="WindowTV.us@SD" tvg-name="Window TV" tvg-country="US" tvg-language="English" group-title="United States",Window TV
+https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8
+#EXTINF:-1 tvg-id="YumaChannel72.us@SD" tvg-name="Yuma Channel 72" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 72
+https://livestream.telvue.com/yumaaz1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="YumaChannel73.us@SD" tvg-name="Yuma Channel 73" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 73
+https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BOKTV.za@SD" tvg-name="BOKTV" tvg-country="ZA" tvg-language="English;Afrikaans" group-title="South Africa",BOKTV
+https://livestream2.bokradio.co.za/hls/Bok5c.m3u8

@@ -1,4 +1,10 @@
 #EXTM3U x-nexonic-playlist="Finland"
+#EXTINF:-1 tvg-id="NarTV.fi@SD" tvg-name="Nar-TV" tvg-country="FI" tvg-language="Swedish" group-title="General",Nar-TV
+https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="NavahangTV.fi@SD" tvg-name="Navahang TV" tvg-country="FI" tvg-language="Persian" group-title="Music",Navahang TV
+https://hls.navahang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="News",Nopola News
+https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="YleTV1.fi@SD" tvg-name="Yle TV1" tvg-country="FI" tvg-language="Finnish" group-title="General",Yle TV1
 https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
 #EXTINF:-1 tvg-id="YleTV2.fi@SD" tvg-name="Yle TV2" tvg-country="FI" tvg-language="Finnish" group-title="General",Yle TV2

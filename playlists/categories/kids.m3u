@@ -1,13 +1,23 @@
 #EXTM3U x-nexonic-playlist="Kids"
 #EXTINF:-1 tvg-id="KiKA.de@SD" tvg-name="KiKA" tvg-country="DE" tvg-language="German" group-title="Germany",KiKA
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+#EXTINF:-1 tvg-id="ETV2.ee@SD" tvg-name="ETV 2" tvg-country="EE" tvg-language="Estonian" group-title="Estonia",ETV 2
+https://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-name="Clan" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Clan
 https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8
+#EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-name="Clan Internacional" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Clan Internacional
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 #EXTINF:-1 tvg-id="YleTV2.fi@SD" tvg-name="Yle TV2" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Yle TV2
 https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
+#EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="EBSKids.kr@SD" tvg-name="EBS Kids" tvg-country="KR" tvg-language="Korean" group-title="South Korea",EBS Kids
+https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP2.pt@SD" tvg-name="RTP2" tvg-country="PT" tvg-language="Portuguese" group-title="Portugal",RTP2
 https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT EBA İlkokul" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT EBA İlkokul
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Çocuk
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8

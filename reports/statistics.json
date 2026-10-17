@@ -1,88 +1,252 @@
 {
-  "reference_time": null,
+  "reference_time": "2026-10-17T09:32:39Z",
   "records": {
     "approved": 684,
     "pending": 15,
     "rejected": 4
   },
-  "published_channels": 77,
-  "excluded_approved": 607,
-  "countries": 20,
-  "languages": 14,
-  "categories": 13,
-  "verified_playlist_channels": 0,
-  "playlist_files": 48,
-  "latest_run": null,
+  "published_channels": 463,
+  "excluded_approved": 221,
+  "countries": 93,
+  "languages": 63,
+  "categories": 15,
+  "verified_playlist_channels": 428,
+  "playlist_files": 173,
+  "latest_run": {
+    "run_id": "run-20261017T091352Z",
+    "started_at": "2026-10-17T09:13:52Z",
+    "finished_at": "2026-10-17T09:32:39Z",
+    "location": "github-actions (Linux, GitHub-hosted runner)",
+    "checked": 684,
+    "by_status": {
+      "AUTH_REQUIRED": 1,
+      "GEO_RESTRICTED": 32,
+      "INVALID_STREAM": 13,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 130,
+      "UNKNOWN": 48,
+      "UNSUPPORTED": 2,
+      "VERIFIED_WORKING": 428
+    }
+  },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 0,
-    "UNAVAILABLE": 0,
-    "GEO_RESTRICTED": 0,
-    "AUTH_REQUIRED": 0,
+    "VERIFIED_WORKING": 428,
+    "UNAVAILABLE": 130,
+    "GEO_RESTRICTED": 32,
+    "AUTH_REQUIRED": 1,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 0,
-    "INVALID_STREAM": 0,
-    "UNSUPPORTED": 0,
-    "UNKNOWN": 0,
+    "TIMEOUT": 30,
+    "INVALID_STREAM": 13,
+    "UNSUPPORTED": 2,
+    "UNKNOWN": 48,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "not-tested": 77
+    "currently-failing": 14,
+    "geo-restricted": 14,
+    "unknown": 7,
+    "verified-recently": 428
   },
   "per_country": {
     "ae": {
       "name": "United Arab Emirates",
       "flag": "🇦🇪",
-      "channels": 3
+      "channels": 6
+    },
+    "ag": {
+      "name": "Antigua and Barbuda",
+      "flag": "🇦🇬",
+      "channels": 1
+    },
+    "al": {
+      "name": "Albania",
+      "flag": "🇦🇱",
+      "channels": 2
+    },
+    "ar": {
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "channels": 4
     },
     "at": {
       "name": "Austria",
       "flag": "🇦🇹",
-      "channels": 3
+      "channels": 4
     },
     "au": {
       "name": "Australia",
       "flag": "🇦🇺",
       "channels": 1
     },
+    "az": {
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "channels": 1
+    },
+    "ba": {
+      "name": "Bosnia and Herzegovina",
+      "flag": "🇧🇦",
+      "channels": 2
+    },
+    "be": {
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "channels": 1
+    },
+    "bg": {
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "channels": 2
+    },
+    "bi": {
+      "name": "Burundi",
+      "flag": "🇧🇮",
+      "channels": 2
+    },
+    "bj": {
+      "name": "Benin",
+      "flag": "🇧🇯",
+      "channels": 1
+    },
+    "bq": {
+      "name": "Bonaire",
+      "flag": "🇧🇶",
+      "channels": 1
+    },
     "br": {
       "name": "Brazil",
       "flag": "🇧🇷",
-      "channels": 2
+      "channels": 6
+    },
+    "ca": {
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "channels": 9
+    },
+    "ch": {
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "channels": 1
+    },
+    "cl": {
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "channels": 7
+    },
+    "cm": {
+      "name": "Cameroon",
+      "flag": "🇨🇲",
+      "channels": 1
     },
     "cn": {
       "name": "China",
       "flag": "🇨🇳",
+      "channels": 12
+    },
+    "co": {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "channels": 9
+    },
+    "cw": {
+      "name": "Curacao",
+      "flag": "🇨🇼",
       "channels": 1
+    },
+    "cy": {
+      "name": "Cyprus",
+      "flag": "🇨🇾",
+      "channels": 1
+    },
+    "cz": {
+      "name": "Czech Republic",
+      "flag": "🇨🇿",
+      "channels": 3
     },
     "de": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "channels": 11
+      "channels": 18
     },
     "dk": {
       "name": "Denmark",
       "flag": "🇩🇰",
       "channels": 1
     },
+    "do": {
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "channels": 3
+    },
+    "ec": {
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "channels": 1
+    },
+    "ee": {
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "channels": 7
+    },
     "es": {
       "name": "Spain",
       "flag": "🇪🇸",
-      "channels": 5
+      "channels": 17
     },
     "fi": {
       "name": "Finland",
       "flag": "🇫🇮",
-      "channels": 2
+      "channels": 5
     },
     "fr": {
       "name": "France",
       "flag": "🇫🇷",
-      "channels": 15
+      "channels": 36
+    },
+    "ge": {
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "channels": 1
+    },
+    "gm": {
+      "name": "Gambia",
+      "flag": "🇬🇲",
+      "channels": 1
+    },
+    "gp": {
+      "name": "Guadeloupe",
+      "flag": "🇬🇵",
+      "channels": 1
+    },
+    "gq": {
+      "name": "Equatorial Guinea",
+      "flag": "🇬🇶",
+      "channels": 1
+    },
+    "gr": {
+      "name": "Greece",
+      "flag": "🇬🇷",
+      "channels": 1
+    },
+    "hn": {
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "channels": 5
+    },
+    "hr": {
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "channels": 1
+    },
+    "hu": {
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "channels": 2
     },
     "id": {
       "name": "Indonesia",
       "flag": "🇮🇩",
-      "channels": 2
+      "channels": 5
     },
     "ie": {
       "name": "Ireland",
@@ -92,16 +256,101 @@
     "in": {
       "name": "India",
       "flag": "🇮🇳",
-      "channels": 5
+      "channels": 19
+    },
+    "iq": {
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "channels": 3
+    },
+    "ir": {
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "channels": 9
+    },
+    "is": {
+      "name": "Iceland",
+      "flag": "🇮🇸",
+      "channels": 1
+    },
+    "it": {
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "channels": 7
     },
     "jp": {
       "name": "Japan",
       "flag": "🇯🇵",
       "channels": 1
     },
+    "kh": {
+      "name": "Cambodia",
+      "flag": "🇰🇭",
+      "channels": 2
+    },
     "kr": {
       "name": "South Korea",
       "flag": "🇰🇷",
+      "channels": 13
+    },
+    "kz": {
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "channels": 1
+    },
+    "lb": {
+      "name": "Lebanon",
+      "flag": "🇱🇧",
+      "channels": 1
+    },
+    "lk": {
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "channels": 1
+    },
+    "lt": {
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "channels": 4
+    },
+    "lu": {
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "channels": 2
+    },
+    "lv": {
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "channels": 1
+    },
+    "mc": {
+      "name": "Monaco",
+      "flag": "🇲🇨",
+      "channels": 1
+    },
+    "md": {
+      "name": "Moldova",
+      "flag": "🇲🇩",
+      "channels": 7
+    },
+    "mk": {
+      "name": "North Macedonia",
+      "flag": "🇲🇰",
+      "channels": 4
+    },
+    "mm": {
+      "name": "Myanmar",
+      "flag": "🇲🇲",
+      "channels": 1
+    },
+    "mn": {
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "channels": 4
+    },
+    "mq": {
+      "name": "Martinique",
+      "flag": "🇲🇶",
       "channels": 1
     },
     "mx": {
@@ -109,31 +358,194 @@
       "flag": "🇲🇽",
       "channels": 1
     },
+    "my": {
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "channels": 1
+    },
+    "ng": {
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "channels": 2
+    },
+    "nl": {
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "channels": 7
+    },
+    "no": {
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "channels": 1
+    },
+    "nz": {
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "channels": 1
+    },
+    "pe": {
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "channels": 5
+    },
+    "pk": {
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "channels": 1
+    },
+    "pl": {
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "channels": 4
+    },
+    "ps": {
+      "name": "Palestine",
+      "flag": "🇵🇸",
+      "channels": 1
+    },
     "pt": {
       "name": "Portugal",
       "flag": "🇵🇹",
       "channels": 6
+    },
+    "py": {
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "channels": 3
     },
     "qa": {
       "name": "Qatar",
       "flag": "🇶🇦",
       "channels": 3
     },
+    "ro": {
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "channels": 21
+    },
+    "rs": {
+      "name": "Serbia",
+      "flag": "🇷🇸",
+      "channels": 2
+    },
+    "ru": {
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "channels": 13
+    },
+    "rw": {
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "channels": 1
+    },
+    "sd": {
+      "name": "Sudan",
+      "flag": "🇸🇩",
+      "channels": 1
+    },
+    "sk": {
+      "name": "Slovakia",
+      "flag": "🇸🇰",
+      "channels": 1
+    },
+    "th": {
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "channels": 19
+    },
+    "tn": {
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "channels": 1
+    },
     "tr": {
       "name": "Turkiye",
       "flag": "🇹🇷",
-      "channels": 9
+      "channels": 24
+    },
+    "tt": {
+      "name": "Trinidad and Tobago",
+      "flag": "🇹🇹",
+      "channels": 1
+    },
+    "tw": {
+      "name": "Taiwan",
+      "flag": "🇹🇼",
+      "channels": 1
+    },
+    "ua": {
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "channels": 4
+    },
+    "ug": {
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "channels": 1
+    },
+    "uk": {
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "channels": 6
     },
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 4
+      "channels": 55
+    },
+    "uz": {
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "channels": 2
+    },
+    "ve": {
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "channels": 2
+    },
+    "vn": {
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "channels": 3
+    },
+    "za": {
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "channels": 1
     }
   },
   "per_language": {
+    "af": {
+      "name": "Afrikaans",
+      "channels": 1
+    },
     "ar": {
       "name": "Arabic",
-      "channels": 8
+      "channels": 18
+    },
+    "as": {
+      "name": "Assamese",
+      "channels": 1
+    },
+    "az": {
+      "name": "Azerbaijani",
+      "channels": 3
+    },
+    "bg": {
+      "name": "Bulgarian",
+      "channels": 2
+    },
+    "bn": {
+      "name": "Bengali",
+      "channels": 4
+    },
+    "bs": {
+      "name": "Bosnian",
+      "channels": 1
+    },
+    "cs": {
+      "name": "Czech",
+      "channels": 3
     },
     "da": {
       "name": "Danish",
@@ -141,97 +553,269 @@
     },
     "de": {
       "name": "German",
-      "channels": 11
+      "channels": 20
     },
     "el": {
       "name": "Greek",
-      "channels": 1
+      "channels": 3
     },
     "en": {
       "name": "English",
-      "channels": 21
+      "channels": 116
     },
     "es": {
       "name": "Spanish",
-      "channels": 9
+      "channels": 64
+    },
+    "et": {
+      "name": "Estonian",
+      "channels": 3
+    },
+    "eu": {
+      "name": "Basque",
+      "channels": 1
+    },
+    "fa": {
+      "name": "Persian",
+      "channels": 20
     },
     "fi": {
       "name": "Finnish",
-      "channels": 2
+      "channels": 3
     },
     "fr": {
       "name": "French",
-      "channels": 4
+      "channels": 26
     },
     "hi": {
       "name": "Hindi",
-      "channels": 2
+      "channels": 5
+    },
+    "hr": {
+      "name": "Croatian",
+      "channels": 1
     },
     "hu": {
       "name": "Hungarian",
-      "channels": 1
+      "channels": 3
     },
     "id": {
       "name": "Indonesian",
+      "channels": 4
+    },
+    "is": {
+      "name": "Icelandic",
       "channels": 1
     },
     "it": {
       "name": "Italian",
+      "channels": 6
+    },
+    "ka": {
+      "name": "Georgian",
       "channels": 1
+    },
+    "kk": {
+      "name": "Kazakh",
+      "channels": 1
+    },
+    "km": {
+      "name": "Khmer",
+      "channels": 2
+    },
+    "kn": {
+      "name": "Kannada",
+      "channels": 1
+    },
+    "ko": {
+      "name": "Korean",
+      "channels": 12
+    },
+    "ku": {
+      "name": "Kurdish",
+      "channels": 5
+    },
+    "lb": {
+      "name": "Luxembourgish",
+      "channels": 1
+    },
+    "lg": {
+      "name": "Ganda",
+      "channels": 1
+    },
+    "lt": {
+      "name": "Lithuanian",
+      "channels": 4
+    },
+    "lv": {
+      "name": "Latvian",
+      "channels": 1
+    },
+    "mk": {
+      "name": "Macedonian",
+      "channels": 3
+    },
+    "ml": {
+      "name": "Malayalam",
+      "channels": 1
+    },
+    "mn": {
+      "name": "Mongolian",
+      "channels": 5
+    },
+    "my": {
+      "name": "Burmese",
+      "channels": 1
+    },
+    "nl": {
+      "name": "Dutch",
+      "channels": 7
+    },
+    "no": {
+      "name": "Norwegian",
+      "channels": 1
+    },
+    "or": {
+      "name": "Odia",
+      "channels": 4
+    },
+    "pa": {
+      "name": "Punjabi",
+      "channels": 1
+    },
+    "pl": {
+      "name": "Polish",
+      "channels": 4
+    },
+    "ps": {
+      "name": "Pashto",
+      "channels": 2
     },
     "pt": {
       "name": "Portuguese",
-      "channels": 9
+      "channels": 15
+    },
+    "ro": {
+      "name": "Romanian",
+      "channels": 26
+    },
+    "ru": {
+      "name": "Russian",
+      "channels": 21
+    },
+    "rw": {
+      "name": "Kinyarwanda",
+      "channels": 1
+    },
+    "sk": {
+      "name": "Slovak",
+      "channels": 1
+    },
+    "sq": {
+      "name": "Albanian",
+      "channels": 3
+    },
+    "sr": {
+      "name": "Serbian",
+      "channels": 3
+    },
+    "sv": {
+      "name": "Swedish",
+      "channels": 1
+    },
+    "sw": {
+      "name": "Swahili",
+      "channels": 2
+    },
+    "ta": {
+      "name": "Tamil",
+      "channels": 2
+    },
+    "tg": {
+      "name": "Tajik",
+      "channels": 1
+    },
+    "th": {
+      "name": "Thai",
+      "channels": 19
     },
     "tr": {
       "name": "Turkish",
-      "channels": 7
+      "channels": 20
+    },
+    "uk": {
+      "name": "Ukrainian",
+      "channels": 4
+    },
+    "ur": {
+      "name": "Urdu",
+      "channels": 2
+    },
+    "uz": {
+      "name": "Uzbek",
+      "channels": 2
+    },
+    "vi": {
+      "name": "Vietnamese",
+      "channels": 3
+    },
+    "wo": {
+      "name": "Wolof",
+      "channels": 1
+    },
+    "zh": {
+      "name": "Chinese",
+      "channels": 14
     }
   },
   "per_category": {
     "business": {
       "name": "Business",
-      "channels": 2
+      "channels": 7
     },
     "culture": {
       "name": "Culture",
-      "channels": 10
+      "channels": 18
     },
     "documentary": {
       "name": "Documentary",
-      "channels": 8
+      "channels": 14
     },
     "education": {
       "name": "Education",
-      "channels": 2
+      "channels": 32
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 2
+      "channels": 34
     },
     "general": {
       "name": "General",
-      "channels": 16
+      "channels": 170
     },
     "kids": {
       "name": "Kids",
-      "channels": 6
+      "channels": 11
     },
     "legislative": {
       "name": "Legislative",
-      "channels": 3
+      "channels": 20
     },
     "lifestyle": {
       "name": "Lifestyle",
-      "channels": 1
+      "channels": 15
+    },
+    "movies": {
+      "name": "Movies",
+      "channels": 8
     },
     "music": {
       "name": "Music",
-      "channels": 1
+      "channels": 61
     },
     "news": {
       "name": "News",
-      "channels": 42
+      "channels": 93
     },
     "science": {
       "name": "Science",
@@ -239,7 +823,11 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 3
+      "channels": 11
+    },
+    "weather": {
+      "name": "Weather",
+      "channels": 2
     }
   }
 }

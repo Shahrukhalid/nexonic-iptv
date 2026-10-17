@@ -1,16 +1,32 @@
 #EXTM3U x-nexonic-playlist="German"
+#EXTINF:-1 tvg-id="FS1Salzburg.at@SD" tvg-name="FS1 Salzburg" tvg-country="AT" tvg-language="German" group-title="Austria",FS1 Salzburg
+https://stream.fs1.tv/hls/webstream.m3u8
 #EXTINF:-1 tvg-id="ORF2.at@SD" tvg-name="ORF 2" tvg-country="AT" tvg-language="German" group-title="Austria",ORF 2
 https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFIII.at@HD" tvg-name="ORF III" tvg-country="AT" tvg-language="German" group-title="Austria",ORF III
 https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+#EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-name="Meteonews" tvg-country="CH" tvg-language="German" group-title="Switzerland",Meteonews
+https://streaming.meteonews.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" tvg-name="3sat" tvg-country="DE" tvg-language="German" group-title="Germany",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
+#EXTINF:-1 tvg-id="ARDalpha.de@SD" tvg-name="ARD-alpha" tvg-country="DE" tvg-language="German" group-title="Germany",ARD-alpha
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="arte.de@SD" tvg-name="ARTE (Deutsch)" tvg-country="DE" tvg-language="German" group-title="Germany",ARTE (Deutsch)
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+#EXTINF:-1 tvg-id="BRFernsehen.de@Nord" tvg-name="BR Fernsehen" tvg-country="DE" tvg-language="German" group-title="Germany",BR Fernsehen
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="DasErste.de@HD" tvg-name="Das Erste" tvg-country="DE" tvg-language="German" group-title="Germany",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="DASDING908.de@SD" tvg-name="DASDING 90.8" tvg-country="DE" tvg-language="German" group-title="Germany",DASDING 90.8
+https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-id="KiKA.de@SD" tvg-name="KiKA" tvg-country="DE" tvg-language="German" group-title="Germany",KiKA
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehen.de@Hamburg" tvg-name="NDR Fernsehen" tvg-country="DE" tvg-language="German" group-title="Germany",NDR Fernsehen
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" tvg-name="NRWision" tvg-country="DE" tvg-language="German" group-title="Germany",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="OKKiel.de@SD" tvg-name="OK Kiel" tvg-country="DE" tvg-language="German" group-title="Germany",OK Kiel
+https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
 #EXTINF:-1 tvg-id="phoenix.de@HD" tvg-name="phoenix" tvg-country="DE" tvg-language="German" group-title="Germany",phoenix
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tagesschau24.de@SD" tvg-name="tagesschau24" tvg-country="DE" tvg-language="German" group-title="Germany",tagesschau24
@@ -21,3 +37,5 @@ https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr@SD" tvg-name="Euronews Deutsch" tvg-country="FR" tvg-language="German" group-title="France",Euronews Deutsch
 https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8
+#EXTINF:-1 tvg-id="PeerTVSudtirol.it@SD" tvg-name="Peer TV Sudtirol" tvg-country="IT" tvg-language="German" group-title="Italy",Peer TV Sudtirol
+https://iptv.peer.biz/live/peertv.m3u8

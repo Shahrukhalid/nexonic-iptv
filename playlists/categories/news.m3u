@@ -1,14 +1,40 @@
 #EXTM3U x-nexonic-playlist="News"
 #EXTINF:-1 tvg-id="Alarabiya.ae@SD" tvg-name="Al Arabiya" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-name="Al Arabiya Programs" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Al Arabiya Programs
+https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Hadath" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Al Hadath
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SkyNewsArabia.ae@SD" tvg-name="Sky News Arabia" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabiaVertical.ae@HD" tvg-name="Sky News Arabia Vertical" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Sky News Arabia Vertical
+https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8
+#EXTINF:-1 tvg-id="News24.al@SD" tvg-name="News 24" tvg-country="AL" tvg-language="Albanian" group-title="Albania",News 24
+https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-name="Mercurio Noticias" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Mercurio Noticias
+https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 #EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-name="ABC News (Australia)" tvg-country="AU" tvg-language="English" group-title="Australia",ABC News (Australia)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="APATv.az@SD" tvg-name="APA Tv" tvg-country="AZ" tvg-language="Azerbaijani" group-title="Azerbaijan",APA Tv
+http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 tvg-id="CityNewsCalgary.ca@SD" tvg-name="CityNews Calgary" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Calgary
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsEdmonton.ca@SD" tvg-name="CityNews Edmonton" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Edmonton
+https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
+#EXTINF:-1 tvg-id="CityNewsToronto.ca@SD" tvg-name="CityNews Toronto" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Toronto
+https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+#EXTINF:-1 tvg-id="CityNewsVancouver.ca@SD" tvg-name="CityNews Vancouver" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Vancouver
+https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
+#EXTINF:-1 tvg-id="HamdardTV.ca@SD" tvg-name="Hamdard TV" tvg-country="CA" tvg-language="Punjabi" group-title="Canada",Hamdard TV
+https://tv.hamdardtv.com/hamdard/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-country="CN" tvg-language="English" group-title="China",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
+#EXTINF:-1 tvg-id="DongguanComprehensiveNewsChannel.cn@SD" tvg-name="Dongguan Comprehensive News Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Dongguan Comprehensive News Channel
+https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
+#EXTINF:-1 tvg-id="HarbinComprehensiveNewsChannel.cn@SD" tvg-name="Harbin Comprehensive News Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Harbin Comprehensive News Channel
+https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
+#EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
+https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
 #EXTINF:-1 tvg-id="DW.de@Arabic" tvg-name="DW Arabic" tvg-country="DE" tvg-language="Arabic" group-title="Germany",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English" tvg-country="DE" tvg-language="English" group-title="Germany",DW English
@@ -21,6 +47,8 @@ https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="24Horas.es@SD" tvg-name="Canal 24 Horas" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Canal 24 Horas
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Nopola News
+https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" tvg-name="Africanews English" tvg-country="FR" tvg-language="English" group-title="France",Africanews English
 https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" tvg-name="Africanews Français" tvg-country="FR" tvg-language="French" group-title="France",Africanews Français
@@ -39,6 +67,8 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr@SD" tvg-name="Euronews Português" tvg-country="FR" tvg-language="Portuguese" group-title="France",Euronews Português
 https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
+#EXTINF:-1 tvg-id="EuronewsRussian.fr@SD" tvg-name="Euronews Russian" tvg-country="FR" tvg-language="Russian" group-title="France",Euronews Russian
+https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsGreek.fr@SD" tvg-name="Euronews Ελληνικά" tvg-country="FR" tvg-language="Greek" group-title="France",Euronews Ελληνικά
 https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-country="FR" tvg-language="Arabic" group-title="France",France 24 Arabic
@@ -49,37 +79,109 @@ https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8
+#EXTINF:-1 tvg-id="PalitraNews.ge@SD" tvg-name="Palitra News" tvg-country="GE" tvg-language="Georgian" group-title="Georgia",Palitra News
+https://live.palitranews.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
+https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
+#EXTINF:-1 tvg-id="LencaTV.hn@SD" tvg-name="Lenca TV" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Lenca TV
+https://lencatelevision.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RTENews.ie@SD" tvg-name="RTÉ News" tvg-country="IE" tvg-language="English" group-title="Ireland",RTÉ News
 https://live.rte.ie/live/a/channel3/channel3.isml/channel3.m3u8
+#EXTINF:-1 tvg-id="AajTak.in@SD" tvg-name="Aaj Tak" tvg-country="IN" tvg-language="Hindi" group-title="India",Aaj Tak
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+#EXTINF:-1 tvg-id="GuaranteeNews.in@SD" tvg-name="Guarantee News" tvg-country="IN" tvg-language="Kannada" group-title="India",Guarantee News
+https://guaranteenews.in:8443/live/gnews/index.m3u8
 #EXTINF:-1 tvg-id="IndiaToday.in@SD" tvg-name="India Today" tvg-country="IN" tvg-language="English" group-title="India",India Today
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 tvg-id="IndiaTV.in@SD" tvg-name="India TV" tvg-country="IN" tvg-language="Hindi" group-title="India",India TV
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
 #EXTINF:-1 tvg-id="NDTV24x7.in@SD" tvg-name="NDTV 24x7" tvg-country="IN" tvg-language="English" group-title="India",NDTV 24x7
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-id="NDTVProfit.in@SD" tvg-name="NDTV Profit" tvg-country="IN" tvg-language="English" group-title="India",NDTV Profit
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
+#EXTINF:-1 tvg-id="PragNews.in@SD" tvg-name="Prag News" tvg-country="IN" tvg-language="Assamese" group-title="India",Prag News
+https://hls.pragnews.com/master.m3u8
 #EXTINF:-1 tvg-id="SansadTV1.in@SD" tvg-name="Sansad TV 1" tvg-country="IN" tvg-language="Hindi" group-title="India",Sansad TV 1
 https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
 #EXTINF:-1 tvg-id="SansadTV2.in@HD" tvg-name="Sansad TV 2" tvg-country="IN" tvg-language="Hindi;English" group-title="India",Sansad TV 2
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+#EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" tvg-name="ZillarBarta News" tvg-country="IN" tvg-language="Bengali" group-title="India",ZillarBarta News
+https://server.zillarbarta.com/zillarbarta/index.m3u8
+#EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-name="Rudaw TV" tvg-country="IQ" tvg-language="Kurdish" group-title="Iraq",Rudaw TV
+https://live.rudaw.net/hls/rudaw-tv/master.m3u8
+#EXTINF:-1 tvg-id="ShamsTV.iq@SD" tvg-name="Shams TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Shams TV
+https://stream.shams.tv/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Visir.is@SD" tvg-name="Visir" tvg-country="IS" tvg-language="Icelandic" group-title="Iceland",Visir
+https://live.visir.is/hls-live/visir.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" tvg-name="NHK World-Japan" tvg-country="JP" tvg-language="English" group-title="Japan",NHK World-Japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
+#EXTINF:-1 tvg-id="KTV.kr@SD" tvg-name="KTV" tvg-country="KR" tvg-language="Korean" group-title="South Korea",KTV
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="PalestineAlYawm.lb@SD" tvg-name="Palestine Al Yawm" tvg-country="LB" tvg-language="Arabic" group-title="Lebanon",Palestine Al Yawm
+https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8
+#EXTINF:-1 tvg-id="LRTRadijas.lt@SD" tvg-name="LRT Radijas" tvg-country="LT" tvg-language="Lithuanian" group-title="Lithuania",LRT Radijas
+https://stream-live.lrt.lt/radijas/master.m3u8
+#EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-name="Monaco Info" tvg-country="MC" tvg-language="French" group-title="Monaco",Monaco Info
+https://webtv.monacoinfo.com/live/prod/index.m3u8
+#EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-name="DVB TV" tvg-country="MM" tvg-language="Burmese" group-title="Myanmar",DVB TV
+https://live-stream.dvb.no/hls/stream_src/index.m3u8
+#EXTINF:-1 tvg-id="NewsCentral.ng@SD" tvg-name="News Central" tvg-country="NG" tvg-language="English" group-title="Nigeria",News Central
+https://wf.newscentral.ng:8443/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DunyaNews.pk@SD" tvg-name="Dunya News" tvg-country="PK" tvg-language="Urdu" group-title="Pakistan",Dunya News
+https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews.pl@FAST" tvg-name="Euronews" tvg-country="PL" tvg-language="Polish" group-title="Poland",Euronews
+https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
+#EXTINF:-1 tvg-id="TVKStella.pl@SD" tvg-name="TVK Stella" tvg-country="PL" tvg-language="Polish" group-title="Poland",TVK Stella
+https://stream.tvkstella.pl/stella/stella.m3u8
+#EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-name="Al Najah News" tvg-country="PS" tvg-language="Arabic" group-title="Palestine",Al Najah News
+https://streaming.najah.edu:8443/hls/AlNajah.m3u8
 #EXTINF:-1 tvg-id="RTPNoticias.pt@HD" tvg-name="RTP Notícias" tvg-country="PT" tvg-language="Portuguese" group-title="Portugal",RTP Notícias
 https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Nanduti.py@SD" tvg-name="Nanduti" tvg-country="PY" tvg-language="Spanish" group-title="Paraguay",Nanduti
+https://nanduti.b-cdn.net/720p.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera Arabic" tvg-country="QA" tvg-language="Arabic" group-title="Qatar",Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" tvg-country="QA" tvg-language="English" group-title="Qatar",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher.qa@SD" tvg-name="Al Jazeera Mubasher" tvg-country="QA" tvg-language="Arabic" group-title="Qatar",Al Jazeera Mubasher
 https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+#EXTINF:-1 tvg-id="DottoTV.ro@SD" tvg-name="Dotto TV" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Dotto TV
+https://live.dottotv.ro/index.m3u8
+#EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-name="Govorit Moskva" tvg-country="RU" tvg-language="Russian" group-title="Russia",Govorit Moskva
+https://video.govoritmoskva.ru/rufm/index.m3u8
+#EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-name="Dabanga TV" tvg-country="SD" tvg-language="Arabic" group-title="Sudan",Dabanga TV
+https://hls.dabangasudan.org/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TopNews.th@SD" tvg-name="Top News" tvg-country="TH" tvg-language="Thai" group-title="Thailand",Top News
+https://live.topnews.co.th/hls/topnews_a_720.m3u8
+#EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="Ekoturk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",Ekoturk
+https://cdn.ekoturk.net/hls/master.m3u8
+#EXTINF:-1 tvg-id="TGRTHaber.tr@SD" tvg-name="TGRT Haber" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-name="TRT Arabi" tvg-country="TR" tvg-language="Arabic" group-title="Turkiye",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-country="TR" tvg-language="English" group-title="Turkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International" tvg-country="UK" tvg-language="Pashto;Arabic;English" group-title="United Kingdom",Afghanistan International
+https://hls.afintl.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DunyaNewsUK.uk@SD" tvg-name="Dunya News UK" tvg-country="UK" tvg-language="Urdu;English" group-title="United Kingdom",Dunya News UK
+https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
+#EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-name="IraneFarda TV" tvg-country="UK" tvg-language="Persian" group-title="United Kingdom",IraneFarda TV
+https://iranefardalive.com/stream/live.m3u8
+#EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review" tvg-country="US" tvg-language="English" group-title="United States",30A Georgia Hollywood Review
+https://30a-tv.com/gh.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive.us@SD" tvg-name="ABC News Live" tvg-country="US" tvg-language="English" group-title="United States",ABC News Live
 https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg Television" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
 #EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-name="CBS News 24/7" tvg-country="US" tvg-language="English" group-title="United States",CBS News 24/7
 https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-name="Fox News Channel" tvg-country="US" tvg-language="English" group-title="United States",Fox News Channel
+http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+#EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News Radio" tvg-country="US" tvg-language="English" group-title="United States",Fox News Radio
+https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
+#EXTINF:-1 tvg-id="NationalIranianCongressTV.us@SD" tvg-name="National Iranian Congress TV" tvg-country="US" tvg-language="Persian" group-title="United States",National Iranian Congress TV
+https://tv.iraniancongress.com/stream/tv.m3u8
+#EXTINF:-1 tvg-id="CanalI.ve@SD" tvg-name="Canal I" tvg-country="VE" tvg-language="Spanish" group-title="Venezuela",Canal I
+https://streaming.canal-i.com/canal-i/live/master.m3u8

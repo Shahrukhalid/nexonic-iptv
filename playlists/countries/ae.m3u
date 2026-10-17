@@ -1,7 +1,13 @@
 #EXTM3U x-nexonic-playlist="United Arab Emirates"
 #EXTINF:-1 tvg-id="Alarabiya.ae@SD" tvg-name="Al Arabiya" tvg-country="AE" tvg-language="Arabic" group-title="News",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaBusiness.ae@SD" tvg-name="Al Arabiya Business" tvg-country="AE" tvg-language="Arabic" group-title="Business",Al Arabiya Business
+https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-name="Al Arabiya Programs" tvg-country="AE" tvg-language="Arabic" group-title="Documentary",Al Arabiya Programs
+https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Hadath" tvg-country="AE" tvg-language="Arabic" group-title="News",Al Hadath
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SkyNewsArabia.ae@SD" tvg-name="Sky News Arabia" tvg-country="AE" tvg-language="Arabic" group-title="News",Sky News Arabia
 https://stream.skynewsarabia.com/hls/sna.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabiaVertical.ae@HD" tvg-name="Sky News Arabia Vertical" tvg-country="AE" tvg-language="Arabic" group-title="News",Sky News Arabia Vertical
+https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8
