@@ -192,7 +192,7 @@ Freshness reference (latest verification run): **2026-10-17T10:36:07Z**
 | Culture | 26 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/culture.m3u` |
 | Documentary | 15 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/documentary.m3u` |
 | Education | 41 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/education.m3u` |
-| Entertainment | 32 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
+| Entertainment | 30 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
 | General | 173 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/general.m3u` |
 | Kids | 20 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/kids.m3u` |
 | Legislative | 20 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/legislative.m3u` |
@@ -200,6 +200,6 @@ Freshness reference (latest verification run): **2026-10-17T10:36:07Z**
 | Movies | 12 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/movies.m3u` |
 | Music | 66 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/music.m3u` |
 | News | 94 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` |
-| Series | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/series.m3u` |
+| Series | 7 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/series.m3u` |
 | Sports | 12 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/sports.m3u` |
 | Weather | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/weather.m3u` |
