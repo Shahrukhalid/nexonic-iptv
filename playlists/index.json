@@ -1,28 +1,60 @@
 {
-  "reference_time": null,
+  "reference_time": "2026-10-17T09:32:39Z",
   "playlists": [
     {
       "path": "playlists/all.m3u",
       "kind": "global",
       "key": "all",
       "name": "All channels",
-      "count": 77,
+      "count": 463,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u"
+    },
+    {
+      "path": "playlists/verified.m3u",
+      "kind": "verified",
+      "key": "verified",
+      "name": "Nexonic Verified (working in the last 48 h)",
+      "count": 428,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u"
     },
     {
       "path": "playlists/countries/ae.m3u",
       "kind": "country",
       "key": "ae",
       "name": "United Arab Emirates",
-      "count": 3,
+      "count": 6,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ae.m3u"
+    },
+    {
+      "path": "playlists/countries/ag.m3u",
+      "kind": "country",
+      "key": "ag",
+      "name": "Antigua and Barbuda",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ag.m3u"
+    },
+    {
+      "path": "playlists/countries/al.m3u",
+      "kind": "country",
+      "key": "al",
+      "name": "Albania",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/al.m3u"
+    },
+    {
+      "path": "playlists/countries/ar.m3u",
+      "kind": "country",
+      "key": "ar",
+      "name": "Argentina",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ar.m3u"
     },
     {
       "path": "playlists/countries/at.m3u",
       "kind": "country",
       "key": "at",
       "name": "Austria",
-      "count": 3,
+      "count": 4,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/at.m3u"
     },
     {
@@ -34,27 +66,147 @@
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/au.m3u"
     },
     {
+      "path": "playlists/countries/az.m3u",
+      "kind": "country",
+      "key": "az",
+      "name": "Azerbaijan",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/az.m3u"
+    },
+    {
+      "path": "playlists/countries/ba.m3u",
+      "kind": "country",
+      "key": "ba",
+      "name": "Bosnia and Herzegovina",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ba.m3u"
+    },
+    {
+      "path": "playlists/countries/be.m3u",
+      "kind": "country",
+      "key": "be",
+      "name": "Belgium",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/be.m3u"
+    },
+    {
+      "path": "playlists/countries/bg.m3u",
+      "kind": "country",
+      "key": "bg",
+      "name": "Bulgaria",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/bg.m3u"
+    },
+    {
+      "path": "playlists/countries/bi.m3u",
+      "kind": "country",
+      "key": "bi",
+      "name": "Burundi",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/bi.m3u"
+    },
+    {
+      "path": "playlists/countries/bj.m3u",
+      "kind": "country",
+      "key": "bj",
+      "name": "Benin",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/bj.m3u"
+    },
+    {
+      "path": "playlists/countries/bq.m3u",
+      "kind": "country",
+      "key": "bq",
+      "name": "Bonaire",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/bq.m3u"
+    },
+    {
       "path": "playlists/countries/br.m3u",
       "kind": "country",
       "key": "br",
       "name": "Brazil",
-      "count": 2,
+      "count": 6,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/br.m3u"
+    },
+    {
+      "path": "playlists/countries/ca.m3u",
+      "kind": "country",
+      "key": "ca",
+      "name": "Canada",
+      "count": 9,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ca.m3u"
+    },
+    {
+      "path": "playlists/countries/ch.m3u",
+      "kind": "country",
+      "key": "ch",
+      "name": "Switzerland",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ch.m3u"
+    },
+    {
+      "path": "playlists/countries/cl.m3u",
+      "kind": "country",
+      "key": "cl",
+      "name": "Chile",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cl.m3u"
+    },
+    {
+      "path": "playlists/countries/cm.m3u",
+      "kind": "country",
+      "key": "cm",
+      "name": "Cameroon",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cm.m3u"
     },
     {
       "path": "playlists/countries/cn.m3u",
       "kind": "country",
       "key": "cn",
       "name": "China",
-      "count": 1,
+      "count": 12,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cn.m3u"
+    },
+    {
+      "path": "playlists/countries/co.m3u",
+      "kind": "country",
+      "key": "co",
+      "name": "Colombia",
+      "count": 9,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/co.m3u"
+    },
+    {
+      "path": "playlists/countries/cw.m3u",
+      "kind": "country",
+      "key": "cw",
+      "name": "Curacao",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cw.m3u"
+    },
+    {
+      "path": "playlists/countries/cy.m3u",
+      "kind": "country",
+      "key": "cy",
+      "name": "Cyprus",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cy.m3u"
+    },
+    {
+      "path": "playlists/countries/cz.m3u",
+      "kind": "country",
+      "key": "cz",
+      "name": "Czech Republic",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/cz.m3u"
     },
     {
       "path": "playlists/countries/de.m3u",
       "kind": "country",
       "key": "de",
       "name": "Germany",
-      "count": 11,
+      "count": 18,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u"
     },
     {
@@ -66,11 +218,35 @@
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/dk.m3u"
     },
     {
+      "path": "playlists/countries/do.m3u",
+      "kind": "country",
+      "key": "do",
+      "name": "Dominican Republic",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/do.m3u"
+    },
+    {
+      "path": "playlists/countries/ec.m3u",
+      "kind": "country",
+      "key": "ec",
+      "name": "Ecuador",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ec.m3u"
+    },
+    {
+      "path": "playlists/countries/ee.m3u",
+      "kind": "country",
+      "key": "ee",
+      "name": "Estonia",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ee.m3u"
+    },
+    {
       "path": "playlists/countries/es.m3u",
       "kind": "country",
       "key": "es",
       "name": "Spain",
-      "count": 5,
+      "count": 17,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/es.m3u"
     },
     {
@@ -78,7 +254,7 @@
       "kind": "country",
       "key": "fi",
       "name": "Finland",
-      "count": 2,
+      "count": 5,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/fi.m3u"
     },
     {
@@ -86,15 +262,79 @@
       "kind": "country",
       "key": "fr",
       "name": "France",
-      "count": 15,
+      "count": 36,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/fr.m3u"
+    },
+    {
+      "path": "playlists/countries/ge.m3u",
+      "kind": "country",
+      "key": "ge",
+      "name": "Georgia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ge.m3u"
+    },
+    {
+      "path": "playlists/countries/gm.m3u",
+      "kind": "country",
+      "key": "gm",
+      "name": "Gambia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/gm.m3u"
+    },
+    {
+      "path": "playlists/countries/gp.m3u",
+      "kind": "country",
+      "key": "gp",
+      "name": "Guadeloupe",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/gp.m3u"
+    },
+    {
+      "path": "playlists/countries/gq.m3u",
+      "kind": "country",
+      "key": "gq",
+      "name": "Equatorial Guinea",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/gq.m3u"
+    },
+    {
+      "path": "playlists/countries/gr.m3u",
+      "kind": "country",
+      "key": "gr",
+      "name": "Greece",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/gr.m3u"
+    },
+    {
+      "path": "playlists/countries/hn.m3u",
+      "kind": "country",
+      "key": "hn",
+      "name": "Honduras",
+      "count": 5,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/hn.m3u"
+    },
+    {
+      "path": "playlists/countries/hr.m3u",
+      "kind": "country",
+      "key": "hr",
+      "name": "Croatia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/hr.m3u"
+    },
+    {
+      "path": "playlists/countries/hu.m3u",
+      "kind": "country",
+      "key": "hu",
+      "name": "Hungary",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/hu.m3u"
     },
     {
       "path": "playlists/countries/id.m3u",
       "kind": "country",
       "key": "id",
       "name": "Indonesia",
-      "count": 2,
+      "count": 5,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/id.m3u"
     },
     {
@@ -110,8 +350,40 @@
       "kind": "country",
       "key": "in",
       "name": "India",
-      "count": 5,
+      "count": 19,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/in.m3u"
+    },
+    {
+      "path": "playlists/countries/iq.m3u",
+      "kind": "country",
+      "key": "iq",
+      "name": "Iraq",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/iq.m3u"
+    },
+    {
+      "path": "playlists/countries/ir.m3u",
+      "kind": "country",
+      "key": "ir",
+      "name": "Iran",
+      "count": 9,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ir.m3u"
+    },
+    {
+      "path": "playlists/countries/is.m3u",
+      "kind": "country",
+      "key": "is",
+      "name": "Iceland",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/is.m3u"
+    },
+    {
+      "path": "playlists/countries/it.m3u",
+      "kind": "country",
+      "key": "it",
+      "name": "Italy",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/it.m3u"
     },
     {
       "path": "playlists/countries/jp.m3u",
@@ -122,12 +394,116 @@
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/jp.m3u"
     },
     {
+      "path": "playlists/countries/kh.m3u",
+      "kind": "country",
+      "key": "kh",
+      "name": "Cambodia",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/kh.m3u"
+    },
+    {
       "path": "playlists/countries/kr.m3u",
       "kind": "country",
       "key": "kr",
       "name": "South Korea",
-      "count": 1,
+      "count": 13,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/kr.m3u"
+    },
+    {
+      "path": "playlists/countries/kz.m3u",
+      "kind": "country",
+      "key": "kz",
+      "name": "Kazakhstan",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/kz.m3u"
+    },
+    {
+      "path": "playlists/countries/lb.m3u",
+      "kind": "country",
+      "key": "lb",
+      "name": "Lebanon",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/lb.m3u"
+    },
+    {
+      "path": "playlists/countries/lk.m3u",
+      "kind": "country",
+      "key": "lk",
+      "name": "Sri Lanka",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/lk.m3u"
+    },
+    {
+      "path": "playlists/countries/lt.m3u",
+      "kind": "country",
+      "key": "lt",
+      "name": "Lithuania",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/lt.m3u"
+    },
+    {
+      "path": "playlists/countries/lu.m3u",
+      "kind": "country",
+      "key": "lu",
+      "name": "Luxembourg",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/lu.m3u"
+    },
+    {
+      "path": "playlists/countries/lv.m3u",
+      "kind": "country",
+      "key": "lv",
+      "name": "Latvia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/lv.m3u"
+    },
+    {
+      "path": "playlists/countries/mc.m3u",
+      "kind": "country",
+      "key": "mc",
+      "name": "Monaco",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mc.m3u"
+    },
+    {
+      "path": "playlists/countries/md.m3u",
+      "kind": "country",
+      "key": "md",
+      "name": "Moldova",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/md.m3u"
+    },
+    {
+      "path": "playlists/countries/mk.m3u",
+      "kind": "country",
+      "key": "mk",
+      "name": "North Macedonia",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mk.m3u"
+    },
+    {
+      "path": "playlists/countries/mm.m3u",
+      "kind": "country",
+      "key": "mm",
+      "name": "Myanmar",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mm.m3u"
+    },
+    {
+      "path": "playlists/countries/mn.m3u",
+      "kind": "country",
+      "key": "mn",
+      "name": "Mongolia",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mn.m3u"
+    },
+    {
+      "path": "playlists/countries/mq.m3u",
+      "kind": "country",
+      "key": "mq",
+      "name": "Martinique",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mq.m3u"
     },
     {
       "path": "playlists/countries/mx.m3u",
@@ -138,12 +514,92 @@
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/mx.m3u"
     },
     {
+      "path": "playlists/countries/my.m3u",
+      "kind": "country",
+      "key": "my",
+      "name": "Malaysia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/my.m3u"
+    },
+    {
+      "path": "playlists/countries/ng.m3u",
+      "kind": "country",
+      "key": "ng",
+      "name": "Nigeria",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ng.m3u"
+    },
+    {
+      "path": "playlists/countries/nl.m3u",
+      "kind": "country",
+      "key": "nl",
+      "name": "Netherlands",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/nl.m3u"
+    },
+    {
+      "path": "playlists/countries/no.m3u",
+      "kind": "country",
+      "key": "no",
+      "name": "Norway",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/no.m3u"
+    },
+    {
+      "path": "playlists/countries/nz.m3u",
+      "kind": "country",
+      "key": "nz",
+      "name": "New Zealand",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/nz.m3u"
+    },
+    {
+      "path": "playlists/countries/pe.m3u",
+      "kind": "country",
+      "key": "pe",
+      "name": "Peru",
+      "count": 5,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/pe.m3u"
+    },
+    {
+      "path": "playlists/countries/pk.m3u",
+      "kind": "country",
+      "key": "pk",
+      "name": "Pakistan",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/pk.m3u"
+    },
+    {
+      "path": "playlists/countries/pl.m3u",
+      "kind": "country",
+      "key": "pl",
+      "name": "Poland",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/pl.m3u"
+    },
+    {
+      "path": "playlists/countries/ps.m3u",
+      "kind": "country",
+      "key": "ps",
+      "name": "Palestine",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ps.m3u"
+    },
+    {
       "path": "playlists/countries/pt.m3u",
       "kind": "country",
       "key": "pt",
       "name": "Portugal",
       "count": 6,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/pt.m3u"
+    },
+    {
+      "path": "playlists/countries/py.m3u",
+      "kind": "country",
+      "key": "py",
+      "name": "Paraguay",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/py.m3u"
     },
     {
       "path": "playlists/countries/qa.m3u",
@@ -154,28 +610,220 @@
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/qa.m3u"
     },
     {
+      "path": "playlists/countries/ro.m3u",
+      "kind": "country",
+      "key": "ro",
+      "name": "Romania",
+      "count": 21,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ro.m3u"
+    },
+    {
+      "path": "playlists/countries/rs.m3u",
+      "kind": "country",
+      "key": "rs",
+      "name": "Serbia",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/rs.m3u"
+    },
+    {
+      "path": "playlists/countries/ru.m3u",
+      "kind": "country",
+      "key": "ru",
+      "name": "Russia",
+      "count": 13,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ru.m3u"
+    },
+    {
+      "path": "playlists/countries/rw.m3u",
+      "kind": "country",
+      "key": "rw",
+      "name": "Rwanda",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/rw.m3u"
+    },
+    {
+      "path": "playlists/countries/sd.m3u",
+      "kind": "country",
+      "key": "sd",
+      "name": "Sudan",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sd.m3u"
+    },
+    {
+      "path": "playlists/countries/sk.m3u",
+      "kind": "country",
+      "key": "sk",
+      "name": "Slovakia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sk.m3u"
+    },
+    {
+      "path": "playlists/countries/th.m3u",
+      "kind": "country",
+      "key": "th",
+      "name": "Thailand",
+      "count": 19,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/th.m3u"
+    },
+    {
+      "path": "playlists/countries/tn.m3u",
+      "kind": "country",
+      "key": "tn",
+      "name": "Tunisia",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tn.m3u"
+    },
+    {
       "path": "playlists/countries/tr.m3u",
       "kind": "country",
       "key": "tr",
       "name": "Turkiye",
-      "count": 9,
+      "count": 24,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tr.m3u"
+    },
+    {
+      "path": "playlists/countries/tt.m3u",
+      "kind": "country",
+      "key": "tt",
+      "name": "Trinidad and Tobago",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tt.m3u"
+    },
+    {
+      "path": "playlists/countries/tw.m3u",
+      "kind": "country",
+      "key": "tw",
+      "name": "Taiwan",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/tw.m3u"
+    },
+    {
+      "path": "playlists/countries/ua.m3u",
+      "kind": "country",
+      "key": "ua",
+      "name": "Ukraine",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ua.m3u"
+    },
+    {
+      "path": "playlists/countries/ug.m3u",
+      "kind": "country",
+      "key": "ug",
+      "name": "Uganda",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ug.m3u"
+    },
+    {
+      "path": "playlists/countries/uk.m3u",
+      "kind": "country",
+      "key": "uk",
+      "name": "United Kingdom",
+      "count": 6,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uk.m3u"
     },
     {
       "path": "playlists/countries/us.m3u",
       "kind": "country",
       "key": "us",
       "name": "United States",
-      "count": 4,
+      "count": 55,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/us.m3u"
+    },
+    {
+      "path": "playlists/countries/uz.m3u",
+      "kind": "country",
+      "key": "uz",
+      "name": "Uzbekistan",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uz.m3u"
+    },
+    {
+      "path": "playlists/countries/ve.m3u",
+      "kind": "country",
+      "key": "ve",
+      "name": "Venezuela",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ve.m3u"
+    },
+    {
+      "path": "playlists/countries/vn.m3u",
+      "kind": "country",
+      "key": "vn",
+      "name": "Vietnam",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/vn.m3u"
+    },
+    {
+      "path": "playlists/countries/za.m3u",
+      "kind": "country",
+      "key": "za",
+      "name": "South Africa",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/za.m3u"
+    },
+    {
+      "path": "playlists/languages/af.m3u",
+      "kind": "language",
+      "key": "af",
+      "name": "Afrikaans",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/af.m3u"
     },
     {
       "path": "playlists/languages/ar.m3u",
       "kind": "language",
       "key": "ar",
       "name": "Arabic",
-      "count": 8,
+      "count": 18,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u"
+    },
+    {
+      "path": "playlists/languages/as.m3u",
+      "kind": "language",
+      "key": "as",
+      "name": "Assamese",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/as.m3u"
+    },
+    {
+      "path": "playlists/languages/az.m3u",
+      "kind": "language",
+      "key": "az",
+      "name": "Azerbaijani",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/az.m3u"
+    },
+    {
+      "path": "playlists/languages/bg.m3u",
+      "kind": "language",
+      "key": "bg",
+      "name": "Bulgarian",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bg.m3u"
+    },
+    {
+      "path": "playlists/languages/bn.m3u",
+      "kind": "language",
+      "key": "bn",
+      "name": "Bengali",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bn.m3u"
+    },
+    {
+      "path": "playlists/languages/bs.m3u",
+      "kind": "language",
+      "key": "bs",
+      "name": "Bosnian",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bs.m3u"
+    },
+    {
+      "path": "playlists/languages/cs.m3u",
+      "kind": "language",
+      "key": "cs",
+      "name": "Czech",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/cs.m3u"
     },
     {
       "path": "playlists/languages/da.m3u",
@@ -190,7 +838,7 @@
       "kind": "language",
       "key": "de",
       "name": "German",
-      "count": 11,
+      "count": 20,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/de.m3u"
     },
     {
@@ -198,7 +846,7 @@
       "kind": "language",
       "key": "el",
       "name": "Greek",
-      "count": 1,
+      "count": 3,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/el.m3u"
     },
     {
@@ -206,7 +854,7 @@
       "kind": "language",
       "key": "en",
       "name": "English",
-      "count": 21,
+      "count": 116,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/en.m3u"
     },
     {
@@ -214,15 +862,39 @@
       "kind": "language",
       "key": "es",
       "name": "Spanish",
-      "count": 9,
+      "count": 64,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/es.m3u"
+    },
+    {
+      "path": "playlists/languages/et.m3u",
+      "kind": "language",
+      "key": "et",
+      "name": "Estonian",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/et.m3u"
+    },
+    {
+      "path": "playlists/languages/eu.m3u",
+      "kind": "language",
+      "key": "eu",
+      "name": "Basque",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/eu.m3u"
+    },
+    {
+      "path": "playlists/languages/fa.m3u",
+      "kind": "language",
+      "key": "fa",
+      "name": "Persian",
+      "count": 20,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/fa.m3u"
     },
     {
       "path": "playlists/languages/fi.m3u",
       "kind": "language",
       "key": "fi",
       "name": "Finnish",
-      "count": 2,
+      "count": 3,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/fi.m3u"
     },
     {
@@ -230,7 +902,7 @@
       "kind": "language",
       "key": "fr",
       "name": "French",
-      "count": 4,
+      "count": 26,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/fr.m3u"
     },
     {
@@ -238,15 +910,23 @@
       "kind": "language",
       "key": "hi",
       "name": "Hindi",
-      "count": 2,
+      "count": 5,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/hi.m3u"
+    },
+    {
+      "path": "playlists/languages/hr.m3u",
+      "kind": "language",
+      "key": "hr",
+      "name": "Croatian",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/hr.m3u"
     },
     {
       "path": "playlists/languages/hu.m3u",
       "kind": "language",
       "key": "hu",
       "name": "Hungarian",
-      "count": 1,
+      "count": 3,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/hu.m3u"
     },
     {
@@ -254,39 +934,343 @@
       "kind": "language",
       "key": "id",
       "name": "Indonesian",
-      "count": 1,
+      "count": 4,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/id.m3u"
+    },
+    {
+      "path": "playlists/languages/is.m3u",
+      "kind": "language",
+      "key": "is",
+      "name": "Icelandic",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/is.m3u"
     },
     {
       "path": "playlists/languages/it.m3u",
       "kind": "language",
       "key": "it",
       "name": "Italian",
-      "count": 1,
+      "count": 6,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/it.m3u"
+    },
+    {
+      "path": "playlists/languages/ka.m3u",
+      "kind": "language",
+      "key": "ka",
+      "name": "Georgian",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ka.m3u"
+    },
+    {
+      "path": "playlists/languages/kk.m3u",
+      "kind": "language",
+      "key": "kk",
+      "name": "Kazakh",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/kk.m3u"
+    },
+    {
+      "path": "playlists/languages/km.m3u",
+      "kind": "language",
+      "key": "km",
+      "name": "Khmer",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/km.m3u"
+    },
+    {
+      "path": "playlists/languages/kn.m3u",
+      "kind": "language",
+      "key": "kn",
+      "name": "Kannada",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/kn.m3u"
+    },
+    {
+      "path": "playlists/languages/ko.m3u",
+      "kind": "language",
+      "key": "ko",
+      "name": "Korean",
+      "count": 12,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ko.m3u"
+    },
+    {
+      "path": "playlists/languages/ku.m3u",
+      "kind": "language",
+      "key": "ku",
+      "name": "Kurdish",
+      "count": 5,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ku.m3u"
+    },
+    {
+      "path": "playlists/languages/lb.m3u",
+      "kind": "language",
+      "key": "lb",
+      "name": "Luxembourgish",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/lb.m3u"
+    },
+    {
+      "path": "playlists/languages/lg.m3u",
+      "kind": "language",
+      "key": "lg",
+      "name": "Ganda",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/lg.m3u"
+    },
+    {
+      "path": "playlists/languages/lt.m3u",
+      "kind": "language",
+      "key": "lt",
+      "name": "Lithuanian",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/lt.m3u"
+    },
+    {
+      "path": "playlists/languages/lv.m3u",
+      "kind": "language",
+      "key": "lv",
+      "name": "Latvian",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/lv.m3u"
+    },
+    {
+      "path": "playlists/languages/mk.m3u",
+      "kind": "language",
+      "key": "mk",
+      "name": "Macedonian",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/mk.m3u"
+    },
+    {
+      "path": "playlists/languages/ml.m3u",
+      "kind": "language",
+      "key": "ml",
+      "name": "Malayalam",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ml.m3u"
+    },
+    {
+      "path": "playlists/languages/mn.m3u",
+      "kind": "language",
+      "key": "mn",
+      "name": "Mongolian",
+      "count": 5,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/mn.m3u"
+    },
+    {
+      "path": "playlists/languages/my.m3u",
+      "kind": "language",
+      "key": "my",
+      "name": "Burmese",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/my.m3u"
+    },
+    {
+      "path": "playlists/languages/nl.m3u",
+      "kind": "language",
+      "key": "nl",
+      "name": "Dutch",
+      "count": 7,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/nl.m3u"
+    },
+    {
+      "path": "playlists/languages/no.m3u",
+      "kind": "language",
+      "key": "no",
+      "name": "Norwegian",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/no.m3u"
+    },
+    {
+      "path": "playlists/languages/or.m3u",
+      "kind": "language",
+      "key": "or",
+      "name": "Odia",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/or.m3u"
+    },
+    {
+      "path": "playlists/languages/pa.m3u",
+      "kind": "language",
+      "key": "pa",
+      "name": "Punjabi",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/pa.m3u"
+    },
+    {
+      "path": "playlists/languages/pl.m3u",
+      "kind": "language",
+      "key": "pl",
+      "name": "Polish",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/pl.m3u"
+    },
+    {
+      "path": "playlists/languages/ps.m3u",
+      "kind": "language",
+      "key": "ps",
+      "name": "Pashto",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ps.m3u"
     },
     {
       "path": "playlists/languages/pt.m3u",
       "kind": "language",
       "key": "pt",
       "name": "Portuguese",
-      "count": 9,
+      "count": 15,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/pt.m3u"
+    },
+    {
+      "path": "playlists/languages/ro.m3u",
+      "kind": "language",
+      "key": "ro",
+      "name": "Romanian",
+      "count": 26,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ro.m3u"
+    },
+    {
+      "path": "playlists/languages/ru.m3u",
+      "kind": "language",
+      "key": "ru",
+      "name": "Russian",
+      "count": 21,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ru.m3u"
+    },
+    {
+      "path": "playlists/languages/rw.m3u",
+      "kind": "language",
+      "key": "rw",
+      "name": "Kinyarwanda",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/rw.m3u"
+    },
+    {
+      "path": "playlists/languages/sk.m3u",
+      "kind": "language",
+      "key": "sk",
+      "name": "Slovak",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/sk.m3u"
+    },
+    {
+      "path": "playlists/languages/sq.m3u",
+      "kind": "language",
+      "key": "sq",
+      "name": "Albanian",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/sq.m3u"
+    },
+    {
+      "path": "playlists/languages/sr.m3u",
+      "kind": "language",
+      "key": "sr",
+      "name": "Serbian",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/sr.m3u"
+    },
+    {
+      "path": "playlists/languages/sv.m3u",
+      "kind": "language",
+      "key": "sv",
+      "name": "Swedish",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/sv.m3u"
+    },
+    {
+      "path": "playlists/languages/sw.m3u",
+      "kind": "language",
+      "key": "sw",
+      "name": "Swahili",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/sw.m3u"
+    },
+    {
+      "path": "playlists/languages/ta.m3u",
+      "kind": "language",
+      "key": "ta",
+      "name": "Tamil",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ta.m3u"
+    },
+    {
+      "path": "playlists/languages/tg.m3u",
+      "kind": "language",
+      "key": "tg",
+      "name": "Tajik",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/tg.m3u"
+    },
+    {
+      "path": "playlists/languages/th.m3u",
+      "kind": "language",
+      "key": "th",
+      "name": "Thai",
+      "count": 19,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/th.m3u"
     },
     {
       "path": "playlists/languages/tr.m3u",
       "kind": "language",
       "key": "tr",
       "name": "Turkish",
-      "count": 7,
+      "count": 20,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/tr.m3u"
+    },
+    {
+      "path": "playlists/languages/uk.m3u",
+      "kind": "language",
+      "key": "uk",
+      "name": "Ukrainian",
+      "count": 4,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/uk.m3u"
+    },
+    {
+      "path": "playlists/languages/ur.m3u",
+      "kind": "language",
+      "key": "ur",
+      "name": "Urdu",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ur.m3u"
+    },
+    {
+      "path": "playlists/languages/uz.m3u",
+      "kind": "language",
+      "key": "uz",
+      "name": "Uzbek",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/uz.m3u"
+    },
+    {
+      "path": "playlists/languages/vi.m3u",
+      "kind": "language",
+      "key": "vi",
+      "name": "Vietnamese",
+      "count": 3,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/vi.m3u"
+    },
+    {
+      "path": "playlists/languages/wo.m3u",
+      "kind": "language",
+      "key": "wo",
+      "name": "Wolof",
+      "count": 1,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/wo.m3u"
+    },
+    {
+      "path": "playlists/languages/zh.m3u",
+      "kind": "language",
+      "key": "zh",
+      "name": "Chinese",
+      "count": 14,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/zh.m3u"
     },
     {
       "path": "playlists/categories/business.m3u",
       "kind": "category",
       "key": "business",
       "name": "Business",
-      "count": 2,
+      "count": 7,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/business.m3u"
     },
     {
@@ -294,7 +1278,7 @@
       "kind": "category",
       "key": "culture",
       "name": "Culture",
-      "count": 10,
+      "count": 18,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/culture.m3u"
     },
     {
@@ -302,7 +1286,7 @@
       "kind": "category",
       "key": "documentary",
       "name": "Documentary",
-      "count": 8,
+      "count": 14,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/documentary.m3u"
     },
     {
@@ -310,7 +1294,7 @@
       "kind": "category",
       "key": "education",
       "name": "Education",
-      "count": 2,
+      "count": 32,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/education.m3u"
     },
     {
@@ -318,7 +1302,7 @@
       "kind": "category",
       "key": "entertainment",
       "name": "Entertainment",
-      "count": 2,
+      "count": 34,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u"
     },
     {
@@ -326,7 +1310,7 @@
       "kind": "category",
       "key": "general",
       "name": "General",
-      "count": 16,
+      "count": 170,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/general.m3u"
     },
     {
@@ -334,7 +1318,7 @@
       "kind": "category",
       "key": "kids",
       "name": "Kids",
-      "count": 6,
+      "count": 11,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/kids.m3u"
     },
     {
@@ -342,7 +1326,7 @@
       "kind": "category",
       "key": "legislative",
       "name": "Legislative",
-      "count": 3,
+      "count": 20,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/legislative.m3u"
     },
     {
@@ -350,15 +1334,23 @@
       "kind": "category",
       "key": "lifestyle",
       "name": "Lifestyle",
-      "count": 1,
+      "count": 15,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/lifestyle.m3u"
+    },
+    {
+      "path": "playlists/categories/movies.m3u",
+      "kind": "category",
+      "key": "movies",
+      "name": "Movies",
+      "count": 8,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/movies.m3u"
     },
     {
       "path": "playlists/categories/music.m3u",
       "kind": "category",
       "key": "music",
       "name": "Music",
-      "count": 1,
+      "count": 61,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/music.m3u"
     },
     {
@@ -366,7 +1358,7 @@
       "kind": "category",
       "key": "news",
       "name": "News",
-      "count": 42,
+      "count": 93,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u"
     },
     {
@@ -382,8 +1374,16 @@
       "kind": "category",
       "key": "sports",
       "name": "Sports",
-      "count": 3,
+      "count": 11,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/sports.m3u"
+    },
+    {
+      "path": "playlists/categories/weather.m3u",
+      "kind": "category",
+      "key": "weather",
+      "name": "Weather",
+      "count": 2,
+      "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/weather.m3u"
     }
   ]
 }

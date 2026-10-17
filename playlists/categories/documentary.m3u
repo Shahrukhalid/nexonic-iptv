@@ -1,6 +1,10 @@
 #EXTM3U x-nexonic-playlist="Documentary"
+#EXTINF:-1 tvg-id="AlArabiyaPrograms.ae@SD" tvg-name="Al Arabiya Programs" tvg-country="AE" tvg-language="Arabic" group-title="United Arab Emirates",Al Arabiya Programs
+https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ORFIII.at@HD" tvg-name="ORF III" tvg-country="AT" tvg-language="German" group-title="Austria",ORF III
 https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-name="CGTN Documentary" tvg-country="CN" tvg-language="English" group-title="China",CGTN Documentary
+https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" tvg-name="3sat" tvg-country="DE" tvg-language="German" group-title="Germany",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 #EXTINF:-1 tvg-id="arte.de@SD" tvg-name="ARTE (Deutsch)" tvg-country="DE" tvg-language="German" group-title="Germany",ARTE (Deutsch)
@@ -13,5 +17,13 @@ https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" tvg-name="ARTE (Français)" tvg-country="FR" tvg-language="French" group-title="France",ARTE (Français)
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 tvg-id="Nano.ru@HD" tvg-name="Nano" tvg-country="RU" tvg-language="Russian" group-title="Russia",Nano
+http://s1.tv-nano.com/Nano_rec/index.m3u8
 #EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-name="TRT Belgesel" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Belgesel
 https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Originals
+https://bloomberg.com/media-manifest/streams/qt.m3u8
+#EXTINF:-1 tvg-id="LawCrime.us@SD" tvg-name="Law & Crime" tvg-country="US" tvg-language="English" group-title="United States",Law & Crime
+https://cdn.lawandcrime.net/rewind/playlist.m3u8

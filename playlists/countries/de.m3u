@@ -1,10 +1,16 @@
 #EXTM3U x-nexonic-playlist="Germany"
 #EXTINF:-1 tvg-id="3sat.de@SD" tvg-name="3sat" tvg-country="DE" tvg-language="German" group-title="Culture",3sat
 https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
+#EXTINF:-1 tvg-id="ARDalpha.de@SD" tvg-name="ARD-alpha" tvg-country="DE" tvg-language="German" group-title="Education",ARD-alpha
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="arte.de@SD" tvg-name="ARTE (Deutsch)" tvg-country="DE" tvg-language="German" group-title="Culture",ARTE (Deutsch)
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+#EXTINF:-1 tvg-id="BRFernsehen.de@Nord" tvg-name="BR Fernsehen" tvg-country="DE" tvg-language="German" group-title="General",BR Fernsehen
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="DasErste.de@HD" tvg-name="Das Erste" tvg-country="DE" tvg-language="German" group-title="General",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-id="DASDING908.de@SD" tvg-name="DASDING 90.8" tvg-country="DE" tvg-language="German" group-title="Music",DASDING 90.8
+https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-id="DW.de@Arabic" tvg-name="DW Arabic" tvg-country="DE" tvg-language="Arabic" group-title="News",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English" tvg-country="DE" tvg-language="English" group-title="News",DW English
@@ -13,10 +19,18 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 tvg-id="KiKA.de@SD" tvg-name="KiKA" tvg-country="DE" tvg-language="German" group-title="Kids",KiKA
 https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehen.de@Hamburg" tvg-name="NDR Fernsehen" tvg-country="DE" tvg-language="German" group-title="General",NDR Fernsehen
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-id="NRWision.de@SD" tvg-name="NRWision" tvg-country="DE" tvg-language="German" group-title="Education",NRWision
+https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="OKKiel.de@SD" tvg-name="OK Kiel" tvg-country="DE" tvg-language="German" group-title="General",OK Kiel
+https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
 #EXTINF:-1 tvg-id="phoenix.de@HD" tvg-name="phoenix" tvg-country="DE" tvg-language="German" group-title="News",phoenix
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tagesschau24.de@SD" tvg-name="tagesschau24" tvg-country="DE" tvg-language="German" group-title="News",tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-country="DE" tvg-language="Turkish" group-title="General",YOL TV
+https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ZDF.de@SD" tvg-name="ZDF" tvg-country="DE" tvg-language="German" group-title="General",ZDF
 https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
 #EXTINF:-1 tvg-id="ZDFinfo.de@SD" tvg-name="ZDFinfo" tvg-country="DE" tvg-language="German" group-title="Documentary",ZDFinfo

@@ -1,7 +1,41 @@
 #EXTM3U x-nexonic-playlist="Legislative"
+#EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-name="Canal Gov" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="TVCamara.br@SD" tvg-name="TV Câmara" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
+https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
+#EXTINF:-1 tvg-id="CanalParlamento.es@SD" tvg-name="Canal Parlamento" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Canal Parlamento
+https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
 #EXTINF:-1 tvg-id="SansadTV1.in@SD" tvg-name="Sansad TV 1" tvg-country="IN" tvg-language="Hindi" group-title="India",Sansad TV 1
 https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
 #EXTINF:-1 tvg-id="SansadTV2.in@HD" tvg-name="Sansad TV 2" tvg-country="IN" tvg-language="Hindi;English" group-title="India",Sansad TV 2
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+#EXTINF:-1 tvg-id="KTV.kr@SD" tvg-name="KTV" tvg-country="KR" tvg-language="Korean" group-title="South Korea",KTV
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="PrivescEuTV.md@SD" tvg-name="Privesc.Eu TV" tvg-country="MD" tvg-language="Romanian" group-title="Moldova",Privesc.Eu TV
+https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
+#EXTINF:-1 tvg-id="ThaiParliamentTelevision.th@SD" tvg-name="Thai Parliament Television" tvg-country="TH" tvg-language="Thai" group-title="Thailand",Thai Parliament Television
+https://tv-live.tpchannel.org/live/tv.m3u8
+#EXTINF:-1 tvg-id="CTNCourtFeed.us@SD" tvg-name="CT-N Court Feed" tvg-country="US" tvg-language="English" group-title="United States",CT-N Court Feed
+http://video.ct-n.com/live/ctnSupreme/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="CTNLiveStream2.us@SD" tvg-name="CT-N Live Stream 2" tvg-country="US" tvg-language="English" group-title="United States",CT-N Live Stream 2
+http://video.ct-n.com/live/web2stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CTNTVConneticut.us@SD" tvg-name="CT-N TV Conneticut" tvg-country="US" tvg-language="English" group-title="United States",CT-N TV Conneticut
+http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="DCCouncilHearingRoom120.us@SD" tvg-name="DC Council Hearing Room 120" tvg-country="US" tvg-language="English" group-title="United States",DC Council Hearing Room 120
+https://video.oct.dc.gov/out/u/97_12.m3u8
+#EXTINF:-1 tvg-id="DCC.us@SD" tvg-name="DCC" tvg-country="US" tvg-language="English" group-title="United States",DCC
+https://video.oct.dc.gov/out/u/15_12.m3u8
+#EXTINF:-1 tvg-id="DistrictofColumbiaNetwork.us@SD" tvg-name="District of Columbia Network" tvg-country="US" tvg-language="English" group-title="United States",District of Columbia Network
+https://video.oct.dc.gov/out/u/DCN.m3u8
+#EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel192.us@SD" tvg-name="Gillette Public Access Television Channel 192" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 192
+https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8
+#EXTINF:-1 tvg-id="NatickGovernmentChannel.us@SD" tvg-name="Natick Government Channel" tvg-country="US" tvg-language="English" group-title="United States",Natick Government Channel
+https://livestream.telvue.com/natickpegasus3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="OrangeGovernmentAccessTV.us@SD" tvg-name="Orange Government Access TV" tvg-country="US" tvg-language="English" group-title="United States",Orange Government Access TV
+https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="YumaChannel72.us@SD" tvg-name="Yuma Channel 72" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 72
+https://livestream.telvue.com/yumaaz1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="YumaChannel73.us@SD" tvg-name="Yuma Channel 73" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 73
+https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8

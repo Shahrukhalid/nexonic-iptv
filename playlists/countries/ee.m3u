@@ -1,0 +1,15 @@
+#EXTM3U x-nexonic-playlist="Estonia"
+#EXTINF:-1 tvg-id="ETV.ee@SD" tvg-name="ETV" tvg-country="EE" tvg-language="Estonian" group-title="General",ETV
+https://sb.err.ee/live/etv.m3u8
+#EXTINF:-1 tvg-id="ETV2.ee@SD" tvg-name="ETV 2" tvg-country="EE" tvg-language="Estonian" group-title="Kids",ETV 2
+https://sb.err.ee/live/etv2.m3u8
+#EXTINF:-1 tvg-id="ETVPlus.ee@SD" tvg-name="ETV+" tvg-country="EE" tvg-language="Russian;Estonian" group-title="Entertainment",ETV+
+https://sb.err.ee/live/etvpluss.m3u8
+#EXTINF:-1 tvg-id="VantageClassic.ee@HD" tvg-name="Vantage Classic" tvg-country="EE" tvg-language="English" group-title="Music",Vantage Classic
+https://hls.vantagetv.ee/vclassic_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageDance.ee@HD" tvg-name="Vantage Dance" tvg-country="EE" tvg-language="English" group-title="Music",Vantage Dance
+https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageMusic.ee@HD" tvg-name="Vantage Music" tvg-country="EE" tvg-language="English" group-title="Music",Vantage Music
+https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageRock.ee@HD" tvg-name="Vantage Rock" tvg-country="EE" tvg-language="English" group-title="Music",Vantage Rock
+https://hls.vantagetv.ee/vrock_stream/index.m3u8
