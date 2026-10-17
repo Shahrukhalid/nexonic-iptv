@@ -1,0 +1,104 @@
+# Approved channels for SE. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: svt-barn
+  name: "SVT Barn"
+  broadcaster: "Sveriges Television"
+  country: se
+  languages:
+  - sv
+  categories:
+  - kids
+  website: "https://www.svt.se/"
+  stream:
+    url: "https://svt-live-channel.akamaized.net/l6/se/svtb/master-fmp4.m3u8?defaultSubLang=1&format=hls"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.svtplay.se/kanaler"
+    evidence_summary: "SVT Play channel page lists SVT Barn live; SVT states no login is needed on svtplay.se; host svt-live-channel.akamaized.net is SVT-named."
+    evidence_checked: null
+    notes: "SVT announced (Oct 2026) a gradual login requirement in the SVT Play apps; web (svtplay.se) still has no login per https://www.svt.se/kontakt/darfor-ber-svt-dig-logga-in. Re-check later. Channel shares slot with SVT24 in the evening. URL query params are format options, not tokens."
+  epg_id: "SVTBarnSVT24.se@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [se]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: svt1
+  name: "SVT1"
+  broadcaster: "Sveriges Television"
+  country: se
+  languages:
+  - sv
+  categories:
+  - general
+  website: "https://www.svt.se/"
+  stream:
+    url: "https://svt-live-channel.akamaized.net/l4/se/svt1/master-fmp4.m3u8?defaultSubLang=1&format=hls"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.svtplay.se/kanaler"
+    evidence_summary: "SVT Play channel page lists SVT 1 live; no login on svtplay.se per SVT; host svt-live-channel.akamaized.net is SVT-named."
+    evidence_checked: null
+    notes: "Same login caveat as SVT Barn (app login rollout announced Oct 2026)."
+  epg_id: "SVT1.se@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [se]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: svt2
+  name: "SVT2"
+  broadcaster: "Sveriges Television"
+  country: se
+  languages:
+  - sv
+  categories:
+  - general
+  website: "https://www.svt.se/"
+  stream:
+    url: "https://svt-live-channel.akamaized.net/l6/se/svt2/master-fmp4.m3u8?defaultSubLang=1&format=hls"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.svtplay.se/kanaler"
+    evidence_summary: "SVT Play channel page lists SVT 2 live; no login on svtplay.se per SVT; host svt-live-channel.akamaized.net is SVT-named."
+    evidence_checked: null
+    notes: "Same login caveat as SVT Barn (app login rollout announced Oct 2026)."
+  epg_id: "SVT2.se@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [se]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

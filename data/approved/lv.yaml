@@ -1,0 +1,37 @@
+# Approved channels for LV. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: ltv7
+  name: "LTV7"
+  broadcaster: "Latvijas Televīzija (Latvian public media, LSM)"
+  country: lv
+  languages:
+  - lv
+  categories:
+  - sports
+  - general
+  website: "https://ltv.lsm.lv/lv/ltv7/"
+  stream:
+    url: "https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://replay.lsm.lv/lv/skaties/tiesraide/ltv7"
+    evidence_summary: "ltv.lsm.lv/lv/ltv7/ redirects to the REplay.lv live page of the public broadcaster; host lsm.eu.cdns-redge.media carries the 'lsm' label."
+    evidence_checked: null
+    notes: "'ltv7_pasaule' appears to be the worldwide (rights-cleared) feed; a separate Latvia-only feed exists. Login link on site is not required for live viewing per page content."
+  epg_id: "LTV7.lv@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

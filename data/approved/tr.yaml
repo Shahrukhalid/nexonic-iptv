@@ -147,7 +147,7 @@ channels:
   - documentary
   website: https://www.trtbelgesel.net.tr
   stream:
-    url: https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
+    url: https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -306,6 +306,75 @@ channels:
     reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: gzt
+  name: "GZT"
+  broadcaster: "GZT TV (Albayrak Media Group)"
+  country: tr
+  languages:
+  - tr
+  categories:
+  - documentary
+  - series
+  website: "https://www.gzt.com/"
+  stream:
+    url: "https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.gzt.com/canli-yayin"
+    evidence_summary: "gzt.com's 'Canlı Yayın' page embeds https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8 with no login; the CDN hostname carries the gzttv brand."
+    evidence_checked: null
+    notes: "Uses the stream path from the official live page."
+  epg_id: "GZT.tr@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: kanal-7
+  name: "Kanal 7"
+  broadcaster: "Kanal 7 (Albayrak Holding)"
+  country: tr
+  languages:
+  - tr
+  categories:
+  - entertainment
+  website: "https://www.kanal7.com/"
+  stream:
+    url: "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.kanal7.com/canli-izle"
+    evidence_summary: "kanal7.com links its 'KANAL 7 CANLI YAYIN' page with no login or paywall shown; kanal7-live.daioncdn.net is a brand-labelled CDN host."
+    evidence_checked: null
+    notes: "The live player is loaded via an iframe (canli-yayin-iframe.php) whose source was not readable, so the exact m3u8 used by the page was not directly confirmed. Some programmes may be blacked out outside Turkey."
+  epg_id: "Kanal7.tr@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
     adult_screening: pass
     notes: ''
     rejection_reason: ''

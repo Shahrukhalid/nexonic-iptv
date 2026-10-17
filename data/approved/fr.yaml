@@ -10,7 +10,7 @@ channels:
   - news
   website: https://www.france24.com/en
   stream:
-    url: https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8
+    url: https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -44,7 +44,7 @@ channels:
   - news
   website: https://www.france24.com/fr
   stream:
-    url: https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8
+    url: https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -78,7 +78,7 @@ channels:
   - news
   website: https://www.france24.com/es
   stream:
-    url: https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8
+    url: https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -112,7 +112,7 @@ channels:
   - news
   website: https://www.france24.com/ar
   stream:
-    url: https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master.m3u8
+    url: https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
     protocol: hls
     quality: unknown
   source:

@@ -174,3 +174,37 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: kcl-tv
+  name: "KCL TV"
+  broadcaster: "Kozhikode Cable Communicators Ltd"
+  country: in
+  languages:
+  - ml
+  categories:
+  - entertainment
+  website: "https://kcltv.com/"
+  stream:
+    url: "https://kcltv.livebox.co.in/kclhls/live.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://kcltv.com/"
+    evidence_summary: "kcltv.com's 'Live Tv' link opens kcltv.livebox.co.in/livebox/player/?url=http://kcltv.livebox.co.in/kclhls/live.m3u8; no login or payment is mentioned."
+    evidence_checked: null
+    notes: "Website's last-update date is 2019; official link uses http while the candidate uses https on the same host."
+  epg_id: "KCLTV.in@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

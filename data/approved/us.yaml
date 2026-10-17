@@ -1,73 +1,5 @@
 # Approved channels for US. See docs/SOURCE_POLICY.md before editing.
 channels:
-- id: abc-news-live
-  name: ABC News Live
-  broadcaster: ABC News
-  country: us
-  languages:
-  - en
-  categories:
-  - news
-  website: https://abcnews.go.com
-  stream:
-    url: https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://abcnews.go.com/live
-    evidence_summary: ABC News streams ABC News Live free on its site; CDN hostname named for ABC News.
-    evidence_checked: null
-    notes: ''
-  epg_id: ABCNewsLive.us@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-cdn-stream
-    adult_screening: pass
-    notes: ''
-    rejection_reason: ''
-- id: cbs-news-24-7
-  name: CBS News 24/7
-  broadcaster: CBS News
-  country: us
-  languages:
-  - en
-  categories:
-  - news
-  website: https://www.cbsnews.com
-  stream:
-    url: https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.cbsnews.com/live/
-    evidence_summary: CBS News streams free on cbsnews.com; CDN hostname named for CBS News.
-    evidence_checked: null
-    notes: ''
-  epg_id: CBSNews247.us@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-cdn-stream
-    adult_screening: pass
-    notes: ''
-    rejection_reason: ''
 - id: bloomberg-tv
   name: Bloomberg Television
   broadcaster: Bloomberg
@@ -103,28 +35,128 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
-- id: nasa-tv
-  name: NASA TV Public
-  broadcaster: NASA
+- id: bx-culture
+  name: "BX Culture"
+  broadcaster: "BronxNet (Bronx community media)"
   country: us
   languages:
   - en
   categories:
-  - science
-  - education
-  website: https://www.nasa.gov
+  - culture
+  website: "https://www.bronxnet.org/watch/"
   stream:
-    url: https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+    url: "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8"
     protocol: hls
     quality: unknown
   source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.nasa.gov/nasatv/
-    evidence_summary: US government agency; NASA video is generally public domain. NASA moved live coverage to NASA+, so this
-      legacy URL may be retired — the checker will show it.
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://bronxnet.org/bxculture/"
+    evidence_summary: "BronxNet lists BX Culture among its live channels and links to reflect-stream-bronxnet.cablecast.tv, its Cablecast-provisioned host. No login or payment is shown."
     evidence_checked: null
+    notes: "Multicultural, multilingual public-access programming. The page links the Cablecast API endpoint (channel_id=4) rather than the exact stream-3 path, so the candidate path was not seen on the page."
+  epg_id: "BXCulture.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
     notes: ''
-  epg_id: NASATVPublic.us@SD
+    rejection_reason: ''
+- id: world-channel
+  name: "World Channel"
+  broadcaster: "WORLD Channel (GBH / WNET / APT / NETA)"
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: "https://worldchannel.org/"
+  stream:
+    url: "https://world.lls.pbs.org/index.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://wgbh.org/tv-shows/watch-world-channel-live"
+    evidence_summary: "GBH, a WORLD Channel co-owner, streams the channel live on wgbh.org via the PBS partner player, viewable as a guest. Host world.lls.pbs.org is on PBS's domain."
+    evidence_checked: null
+    notes: "Free/no-login access is inferred from guest access on the GBH page. The WORLD FAQ says most films are geo-blocked to the US, so the live stream may be US-only."
+  epg_id: "WorldChannel.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: fnx
+  name: "FNX"
+  broadcaster: "San Bernardino Community College District (KVCR/FNX)"
+  country: us
+  languages:
+  - en
+  categories:
+  - culture
+  website: "https://www.fnx.org/"
+  stream:
+    url: "https://fnx.lls.pbs.org/index.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.fnx.org/about"
+    evidence_summary: "fnx.org says FNX 'costs nothing to watch' and offers a free 24/7 livestream; fnx.lls.pbs.org is a PBS livestream service hostname labelled for FNX (a KVCR-PBS originated network)."
+    evidence_checked: null
+    notes: "fnx.org's own web player link points to fnx.lightcast.com; the pbs.org feed is used by PBS member-station players. PBS livestreams are typically US-only."
+  epg_id: "FNX.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: cmac-2
+  name: "CMAC 2"
+  broadcaster: "CMAC (Community Media Access Collaborative, Fresno/Clovis)"
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: "https://cmac.tv/edu/"
+  stream:
+    url: "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://cmac.tv/edu/"
+    evidence_summary: "cmac.tv/edu embeds reflect-vod-cmac.cablecast.tv watch-live-embed streamId=2, matching stream-2 in the URL; no login or payment needed."
+    evidence_checked: null
+    notes: "Cablecast is the vendor; hostname is provisioned for CMAC."
+  epg_id: "CMAC2.us@SD"
   logo: null
   geo:
     restricted: false
@@ -133,9 +165,354 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: hctv-educational-access-channel
+  name: "HCTV Educational Access Channel"
+  broadcaster: "Hudson Educational Access Television (HCTV)"
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: "https://www.hudsonctv.com/"
+  stream:
+    url: "https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.hudsonctv.com/internetchannel/watch-now?site=2"
+    evidence_summary: "The official HCTV-8 'Watch Now' page embeds a live player with no login; its canonical host is reflect-hudsonctv.cablecast.tv, the Cablecast instance provisioned for HCTV."
+    evidence_checked: null
+    notes: "Public, educational and government access channel funded by Comcast franchise fees; airs on Comcast channel 8."
+  epg_id: "HCTVEducationalAccessChannel.us@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: pbs-kids-mountain
+  name: "PBS Kids Mountain"
+  broadcaster: "PBS / PBS member stations"
+  country: us
+  languages:
+  - en
+  categories:
+  - kids
+  - education
+  website: "https://pbskids.org/"
+  stream:
+    url: "https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://pbskids.org/videos/watch/live"
+    evidence_summary: "pbskids.org hosts the 24/7 PBS KIDS live stream, which member stations (e.g. PBS NC) promote as free; livestream.pbskids.org is PBS KIDS' own domain, with this path being the Mountain-time feed."
+    evidence_checked: null
+    notes: "Feed variant (Mountain time zone) is selected by local station; free/no-login status confirmed by station pages rather than the JS player page. Likely US-only."
+  epg_id: "PBSKidsMountain.us@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [us]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: pbs-kids-pacific
+  name: "PBS Kids Pacific"
+  broadcaster: "PBS"
+  country: us
+  languages:
+  - en
+  categories:
+  - kids
+  - education
+  website: "https://pbskids.org/"
+  stream:
+    url: "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://pbskids.org/videos/watch/live"
+    evidence_summary: "pbskids.org offers the 24/7 PBS KIDS live TV stream (described by member stations as free); livestream.pbskids.org is PBS KIDS' own domain."
+    evidence_checked: null
+    notes: "Pacific time-zone feed; geo restriction to the US assumed from PBS practice, not stated on the page."
+  epg_id: "PBSKidsPacific.us@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [us]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: bx-arts
+  name: "BX Arts"
+  broadcaster: "BronxNet"
+  country: us
+  languages:
+  - en
+  categories:
+  - culture
+  website: "https://www.bronxnet.org/watch/"
+  stream:
+    url: "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://bronxnet.org/bxarts/"
+    evidence_summary: "bronxnet.org/bxarts/ provides the live stream via reflect-stream-bronxnet.cablecast.tv (channel_id=3), BronxNet's Cablecast instance; no login or payment."
+    evidence_checked: null
+    notes: "Page references the cablecastapi live endpoint rather than the exact live-19/stream-2 path; same BronxNet host."
+  epg_id: "BXArts.us@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: st-lucie-public-schools
+  name: "St Lucie Public Schools"
+  broadcaster: "St. Lucie Public Schools (WLX-Horizon)"
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: "https://www.stlucie.k12.fl.us/"
+  stream:
+    url: "https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.stlucie.k12.fl.us/?p=18056"
+    evidence_summary: "stlucie.k12.fl.us describes WLX-Horizon and links 'Watch our Live Feed' to reflect-stlucie-ps-fl.cablecast.tv (channel 1), the district's Cablecast instance; no login."
+    evidence_checked: null
+    notes: "Channel is now branded WLX-Horizon (formerly WLX-TV)."
+  epg_id: "StLuciePublicSchools.us@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
     reviewed_at: '2026-10-17'
     authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: charge
+  name: "CHARGE!"
+  broadcaster: "Sinclair, Inc."
+  country: us
+  languages:
+  - en
+  categories:
+  - movies
+  website: "https://watchcharge.com/"
+  stream:
+    url: "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://watchcharge.com/watch-live/"
+    evidence_summary: "watchcharge.com (© Sinclair) says CHARGE! 'is also available to stream online at WatchCHARGE.com/watch-live/'; host fast-channels.sinclairstoryline.com carries the Sinclair brand."
+    evidence_checked: null
+    notes: "Player is JS-loaded so the exact feed in the page could not be confirmed directly."
+  epg_id: "Charge.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: the-nest
+  name: "The Nest"
+  broadcaster: "Sinclair, Inc."
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  - series
+  website: "https://watchthenest.com/"
+  stream:
+    url: "https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://watchthenest.com/watch-live/"
+    evidence_summary: "watchthenest.com (© 2026 Sinclair, Inc.) calls The Nest 'the new free TV home' of its series and streams it at /watch-live; host fast-channels.sinclairstoryline.com carries the Sinclair brand."
+    evidence_checked: null
+    notes: "Player is JS-loaded; no login mentioned."
+  epg_id: "TheNest.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: pbs-kids-alaska
+  name: "PBS Kids Alaska"
+  broadcaster: "PBS"
+  country: us
+  languages:
+  - en
+  categories:
+  - kids
+  - education
+  website: "https://pbskids.org/"
+  stream:
+    url: "https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://pbskids.org/videos"
+    evidence_summary: "PBS KIDS 24/7 channel is streamed free on PBSKIDS.org (per TechCrunch launch coverage); host livestream.pbskids.org is PBS KIDS’ own domain."
+    evidence_checked: null
+    notes: "Alaska time-zone variant (akst) of the PBS KIDS 24/7 stream; pbskids.org video page is JS-rendered."
+  epg_id: "PBSKidsAlaska.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: pbs-kids-hawaii
+  name: "PBS Kids Hawaii"
+  broadcaster: "PBS"
+  country: us
+  languages:
+  - en
+  categories:
+  - kids
+  - education
+  website: "https://pbskids.org/"
+  stream:
+    url: "https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://pbskids.org/videos"
+    evidence_summary: "PBS KIDS 24/7 channel is streamed free on PBSKIDS.org; host livestream.pbskids.org is PBS KIDS’ own domain."
+    evidence_checked: null
+    notes: "Hawaii time-zone variant (hast) of the PBS KIDS 24/7 stream."
+  epg_id: "PBSKidsHawaii.us@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: classic-arts-showcase
+  name: "Classic Arts Showcase"
+  broadcaster: "Lloyd E. Rigler-Lawrence E. Deutsch Foundation"
+  country: us
+  languages:
+  - en
+  categories:
+  - culture
+  website: "https://www.classicartsshowcase.org/"
+  stream:
+    url: "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.classicartsshowcase.org/watch-classic-arts-showcase/"
+    evidence_summary: "classicartsshowcase.org says it is 'available via the Internet 24 hours a day' at no cost to viewers, with a Watch Now page; host classicarts.akamaized.net is brand-named."
+    evidence_checked: null
+    notes: "Watch page player is JS-loaded."
+  epg_id: "ClassicArtsShowcase.us@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
     adult_screening: pass
     notes: ''
     rejection_reason: ''

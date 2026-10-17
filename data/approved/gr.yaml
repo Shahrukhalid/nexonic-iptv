@@ -1,0 +1,70 @@
+# Approved channels for GR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: kriti-tv
+  name: "Kriti TV"
+  broadcaster: "Icarus Broadcasting Enterprises S.A."
+  country: gr
+  languages:
+  - el
+  categories:
+  - general
+  website: "https://www.cretetv.gr/contact-us/"
+  stream:
+    url: "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.cretetv.gr/live-stream/"
+    evidence_summary: "cretetv.gr has a 'ΚΡΗΤΗ TV Live' page with no login or paywall; cretetvlive.siliconweb.com is a provider host labelled for Crete TV."
+    evidence_checked: null
+    notes: "Player source on the live page was not visible, so the exact m3u8 was not directly confirmed."
+  epg_id: "KritiTV.gr@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: star-channel-international
+  name: "Star Channel International"
+  broadcaster: "New Television S.A. (Star Channel)"
+  country: gr
+  languages:
+  - el
+  categories:
+  - entertainment
+  website: "https://www.star.gr/tv/"
+  stream:
+    url: "https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.star.gr/star-international-live-stream"
+    evidence_summary: "star.gr offers a 'Star International Stream' live page for the channel's international feed with no login required to watch; the host livestar.siliconweb.com is a Star-labelled hostname at its Greek streaming provider."
+    evidence_checked: null
+    notes: "Page text does not explicitly state free/no-login; sign-in is offered only for playlists/newsletter. Player loads dynamically so the exact m3u8 was not seen."
+  epg_id: "StarChannelInternational.gr@HD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

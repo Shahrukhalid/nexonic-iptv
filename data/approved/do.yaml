@@ -1,0 +1,36 @@
+# Approved channels for DO. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: gi-television
+  name: "Gi Television"
+  broadcaster: "Gi Television"
+  country: do
+  languages:
+  - es
+  categories:
+  - entertainment
+  website: "https://gitelevision.com/"
+  stream:
+    url: "https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://gitelevision.com/"
+    evidence_summary: "gitelevision.com offers its 24/7 live programming on its homepage and lists this exact stream URL, hosted on the brand domain gitelevisionserver.com."
+    evidence_checked: null
+    notes: "Path segment is a static stream ID, not a signed token. Site links to a 'Planes' page (likely advertising plans); no login prompt observed. Channel is general/cultural Dominican programming, not religious."
+  epg_id: "GiTelevision.do@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

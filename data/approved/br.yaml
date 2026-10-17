@@ -68,3 +68,107 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: tv-ufop
+  name: "TV UFOP"
+  broadcaster: "Universidade Federal de Ouro Preto (with FUNDAC)"
+  country: br
+  languages:
+  - pt
+  categories:
+  - education
+  - culture
+  website: "https://tv.ufop.br/"
+  stream:
+    url: "https://app.tvufop.com.br/hls/tvufop.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.tvufop.com.br/"
+    evidence_summary: "TV UFOP's official site offers a free live player (with an alternative stream option) and uses the tvufop.com.br domain for its assets; app.tvufop.com.br is a subdomain of that same domain."
+    evidence_checked: null
+    notes: "Main player on the site embeds eduplay.rnp.br; app.tvufop.com.br is presumed to be the 'Streaming alternativo' source but the exact URL was not visible. tv.ufop.br blocked fetching."
+  epg_id: "TVUFOP.br@HD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: elemental-channel
+  name: "Elemental Channel"
+  broadcaster: "Elemental Channel"
+  country: br
+  languages:
+  - pt
+  categories:
+  - entertainment
+  website: "https://www.elementalchannel.com.br/"
+  stream:
+    url: "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.elementalchannel.com.br/"
+    evidence_summary: "The official Elemental Channel homepage offers a free 24-hour 'Transmissão ao vivo' with 'Assista Agora' buttons and links directly to this samcast playlist URL, so the stream account was provisioned for the channel."
+    evidence_checked: null
+    notes: "samcast.com.br is a shared Brazilian streaming-hosting provider (account path, not brand subdomain); ownership is established only by the official site linking the exact URL. Legal owner is not named on the site; site also links an alternative ecast.site player. No login seen."
+  epg_id: "ElementalChannel.br@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tve-rs
+  name: "TVE RS"
+  broadcaster: "Fundação Cultural Piratini / Governo do Estado do Rio Grande do Sul"
+  country: br
+  languages:
+  - pt
+  categories:
+  - culture
+  - education
+  website: "https://www.tve.com.br/"
+  stream:
+    url: "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.tve.com.br/"
+    evidence_summary: "tve.com.br, the RS state public broadcaster's site (built by PROCERGS, the state data-processing company), embeds a player sourced from streaming.procergs.com.br with no login."
+    evidence_checked: null
+    notes: "Player was seen as a blob from streaming.procergs.com.br; exact path /tve/stve not shown directly. Non-standard port 8443."
+  epg_id: "TVERS.br@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
