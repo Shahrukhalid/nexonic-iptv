@@ -1,0 +1,228 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: eldo-tv-lu
+  name: eldo.TV
+  alt_names: []
+  broadcaster: eldo.TV
+  country: lu
+  languages:
+  - lb
+  categories:
+  - entertainment
+  website: https://www.eldo.lu/
+  stream:
+    url: https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://www.eldo.lu/
+    evidence_summary: 'Automated owner-domain match: stream host stream.eldo.lu is on the broadcaster''s domain eldo.lu. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: eldoTV.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtl-gold-lu
+  name: RTL Gold
+  alt_names: []
+  broadcaster: RTL Group
+  country: lu
+  languages:
+  - lb
+  categories:
+  - music
+  website: https://play.rtl.lu/live/rtl-gold
+  stream:
+    url: https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://play.rtl.lu/live/rtl-gold
+    evidence_summary: 'Automated owner-domain match: stream host stream.rtl.lu is on the broadcaster''s domain rtl.lu. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTLGold.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtl-tele-letzebuerg-lu
+  name: RTL Tele Letzebuerg
+  alt_names:
+  - RTL Télé Lëtzebuerg
+  broadcaster: RTL Group
+  country: lu
+  languages:
+  - lb
+  categories:
+  - general
+  website: https://www.rtl.lu/tele
+  stream:
+    url: https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://www.rtl.lu/tele
+    evidence_summary: 'Automated owner-domain match: stream host live-edge.rtl.lu is on the broadcaster''s domain rtl.lu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTLTeleLetzebuerg.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtl-web-radio-tv-lu
+  name: RTL Web Radio TV
+  alt_names: []
+  broadcaster: RTL Group
+  country: lu
+  languages:
+  - lb
+  categories:
+  - general
+  website: https://play.rtl.lu/live/radio
+  stream:
+    url: https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://play.rtl.lu/live/radio
+    evidence_summary: 'Automated owner-domain match: stream host rtlradio-streaming.rtl.lu is on the broadcaster''s domain
+      rtl.lu. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTLWebRadioTV.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtl-zwee-lu
+  name: RTL Zwee
+  alt_names: []
+  broadcaster: RTL Group
+  country: lu
+  languages:
+  - lb
+  - fr
+  - de
+  categories:
+  - general
+  website: http://www.rtl.lu/tele/
+  stream:
+    url: https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: http://www.rtl.lu/tele/
+    evidence_summary: 'Automated owner-domain match: stream host live-edge.rtl.lu is on the broadcaster''s domain rtl.lu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTLZwee.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: today-radio-lu
+  name: Today Radio
+  alt_names: []
+  broadcaster: CLT-UFA S.A.
+  country: lu
+  languages:
+  - en
+  categories:
+  - music
+  website: https://today.rtl.lu/radio
+  stream:
+    url: https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://today.rtl.lu/radio
+    evidence_summary: 'Automated owner-domain match: stream host stream.rtl.lu is on the broadcaster''s domain rtl.lu. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TodayRadio.lu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

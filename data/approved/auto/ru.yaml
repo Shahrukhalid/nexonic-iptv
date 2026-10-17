@@ -1,0 +1,1026 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 15-music-ru
+  name: 15+ Music
+  alt_names: []
+  broadcaster: VXDGroup
+  country: ru
+  languages:
+  - ru
+  categories:
+  - music
+  website: https://15plusmg.ru
+  stream:
+    url: https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru_15plusmg.m3u
+    evidence_url: https://15plusmg.ru
+    evidence_summary: 'Automated owner-domain match: stream host live.15plusmg.ru is on the broadcaster''s domain 15plusmg.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 15PlusMusic.ru@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 5-minut-tishiny-ru
+  name: 5 minut tishiny
+  alt_names:
+  - Пять минут тишины
+  broadcaster: 5 minut tishiny
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/5_minut_tishiny
+  stream:
+    url: https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/5_minut_tishiny
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 5minuttishiny.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 86-ru
+  name: '86'
+  alt_names:
+  - C86 Surgut
+  broadcaster: '86'
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://sitv.ru/efir/86/
+  stream:
+    url: https://sitv.ru/hls/s86.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://sitv.ru/efir/86/
+    evidence_summary: 'Automated owner-domain match: stream host sitv.ru is on the broadcaster''s domain sitv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: 86.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: afontovo-ru
+  name: Afontovo
+  alt_names:
+  - Афонтово
+  broadcaster: Afontovo
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://afontovo.ru/
+  stream:
+    url: https://stream.afontovo.ru/hd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://afontovo.ru/
+    evidence_summary: 'Automated owner-domain match: stream host stream.afontovo.ru is on the broadcaster''s domain afontovo.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Afontovo.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: alpha-cinema-ru
+  name: alpha Cinema
+  alt_names:
+  - Альфа Синема
+  broadcaster: VXDGroup
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  - movies
+  website: https://15plusmg.ru
+  stream:
+    url: https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru_15plusmg.m3u
+    evidence_url: https://15plusmg.ru
+    evidence_summary: 'Automated owner-domain match: stream host live.15plusmg.ru is on the broadcaster''s domain 15plusmg.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: alphaCinema.ru@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: astrahan-ru-sport-ru
+  name: Astrahan.Ru Sport
+  alt_names:
+  - Астрахань спорт
+  broadcaster: Astrahan.Ru Sport
+  country: ru
+  languages:
+  - ru
+  categories:
+  - sports
+  website: https://sport.astrakhan.ru/
+  stream:
+    url: https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://sport.astrakhan.ru/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.astrakhan.ru is on the broadcaster''s domain astrakhan.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AstrahanRuSport.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: astrahan-ru-tv-ru
+  name: Astrahan.Ru TV
+  alt_names: []
+  broadcaster: Astrahan.Ru TV
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://live.astrakhan.ru/
+  stream:
+    url: https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://live.astrakhan.ru/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.astrakhan.ru is on the broadcaster''s domain astrakhan.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AstrahanRuTV.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: balabol-ru
+  name: Balabol
+  alt_names:
+  - Балабол
+  broadcaster: Balabol
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Balabol
+  stream:
+    url: https://cdn-dvr.ntv.ru/Balabol/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Balabol
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Balabol.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dancehits80-ru
+  name: DanceHits80
+  alt_names: []
+  broadcaster: DanceHits80
+  country: ru
+  languages:
+  - en
+  - ru
+  categories:
+  - music
+  website: http://denvs.ru
+  stream:
+    url: http://dancehits80.denvs.ru:8080/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: http://denvs.ru
+    evidence_summary: 'Automated owner-domain match: stream host dancehits80.denvs.ru is on the broadcaster''s domain denvs.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DanceHits80.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: gorodskoy-telekanal-ru
+  name: Gorodskoy telekanal
+  alt_names:
+  - Городской телеканал
+  broadcaster: Gorodskoy telekanal
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: http://www.gtk.tv/
+  stream:
+    url: https://gtk.tv/hls/gtyar.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: http://www.gtk.tv/
+    evidence_summary: 'Automated owner-domain match: stream host gtk.tv is on the broadcaster''s domain gtk.tv. Channel metadata
+      from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Gorodskoytelekanal.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: govorit-moskva-ru
+  name: Govorit Moskva
+  alt_names:
+  - Говорит Москва
+  broadcaster: Govorit Moskva
+  country: ru
+  languages:
+  - ru
+  categories:
+  - news
+  website: https://govoritmoskva.ru/
+  stream:
+    url: https://video.govoritmoskva.ru/rufm/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://govoritmoskva.ru/
+    evidence_summary: 'Automated owner-domain match: stream host video.govoritmoskva.ru is on the broadcaster''s domain govoritmoskva.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GovoritMoskva.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: istoki-ru
+  name: Istoki
+  alt_names:
+  - Истоки
+  broadcaster: Istoki
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://istoki.tv/
+  stream:
+    url: https://istoki.tv/live/stream1/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://istoki.tv/
+    evidence_summary: 'Automated owner-domain match: stream host istoki.tv is on the broadcaster''s domain istoki.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Istoki.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mir-belogorya-ru
+  name: Mir Belogorya
+  alt_names:
+  - Мир Белогорья
+  broadcaster: Mir Belogorya
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://mirbelogorya.ru/
+  stream:
+    url: http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://mirbelogorya.ru/
+    evidence_summary: 'Automated owner-domain match: stream host mirbelogorya.ru is on the broadcaster''s domain mirbelogorya.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MirBelogorya.ru@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ru
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nano-ru
+  name: Nano
+  alt_names:
+  - Нано
+  broadcaster: Nano
+  country: ru
+  languages:
+  - ru
+  categories:
+  - documentary
+  website: https://tv-nano.ru/
+  stream:
+    url: http://s1.tv-nano.com/Nano_rec/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://tv-nano.ru/
+    evidence_summary: 'Automated owner-domain match: stream host s1.tv-nano.com (tv-nano.com) shares the broadcaster''s domain
+      name ''tv-nano'' (tv-nano.ru). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Nano.ru@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nevskiy-ru
+  name: Nevskiy
+  alt_names:
+  - Невский
+  broadcaster: Nevskiy
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Nevskiy
+  stream:
+    url: https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Nevskiy
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Nevskiy.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: novyi-russkii-ru
+  name: Novyi Russkii
+  alt_names:
+  - Новый Русский
+  broadcaster: VXDGroup
+  country: ru
+  languages:
+  - ru
+  categories:
+  - movies
+  website: https://15plusmg.ru
+  stream:
+    url: https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru_15plusmg.m3u
+    evidence_url: https://15plusmg.ru
+    evidence_summary: 'Automated owner-domain match: stream host live.15plusmg.ru is on the broadcaster''s domain 15plusmg.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NovyiRusskii.ru@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: perviy-otdel-ru
+  name: Perviy otdel
+  alt_names:
+  - Первый отдел
+  broadcaster: Perviy otdel
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Perviy_otdel
+  stream:
+    url: https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Perviy_otdel
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Perviyotdel.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pes-ru
+  name: Pes
+  alt_names:
+  - Пёс
+  broadcaster: Pes
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Pes
+  stream:
+    url: https://cdn-dvr.ntv.ru/Pes/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Pes
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Pes.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rbk-tv-ru
+  name: RBK-TV
+  alt_names:
+  - РБК-ТВ
+  broadcaster: RBK-TV
+  country: ru
+  languages:
+  - ru
+  categories:
+  - business
+  website: https://tv.rbc.ru/
+  stream:
+    url: https://online-video.rbc.ru/spb/rbctv_spb.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://tv.rbc.ru/
+    evidence_summary: 'Automated owner-domain match: stream host online-video.rbc.ru is on the broadcaster''s domain rbc.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RBKTV.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ru-tv-kids-ru
+  name: RU.TV Kids
+  alt_names:
+  - РУ.ТВ Кидс
+  broadcaster: Russkaya Mediagruppa
+  country: ru
+  languages:
+  - ru
+  categories:
+  - kids
+  website: https://rutvkids.ru
+  stream:
+    url: https://rutvkids.ru/live/efir/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://rutvkids.ru
+    evidence_summary: 'Automated owner-domain match: stream host rutvkids.ru is on the broadcaster''s domain rutvkids.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RUTVKids.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: samara-gis-ru
+  name: Samara-GIS
+  alt_names:
+  - Самара-ГИС
+  broadcaster: Samara-GIS
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://samaragis.ru/efir/
+  stream:
+    url: https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://samaragis.ru/efir/
+    evidence_summary: 'Automated owner-domain match: stream host tv.samaragis.ru is on the broadcaster''s domain samaragis.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SamaraGIS.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: shchyolkovskoe-tv-ru
+  name: Shchyolkovskoe TV
+  alt_names:
+  - Щёлковское ТВ
+  broadcaster: Shchyolkovskoe TV
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://tv41.ru/
+  stream:
+    url: http://stream0.tv41.ru/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://tv41.ru/
+    evidence_summary: 'Automated owner-domain match: stream host stream0.tv41.ru is on the broadcaster''s domain tv41.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ShchyolkovskoeTV.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: shef-ru
+  name: Shef
+  alt_names:
+  - Шеф
+  broadcaster: Shef
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Shef
+  stream:
+    url: https://cdn-dvr.ntv.ru/Shef/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Shef
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Shef.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: skoraya-pomoshch-ru
+  name: Skoraya pomoshch
+  alt_names:
+  - Скорая помощь
+  broadcaster: Skoraya pomoshch
+  country: ru
+  languages:
+  - ru
+  categories:
+  - entertainment
+  website: https://www.ntv.ru/serial/Skoraja_pomosh
+  stream:
+    url: https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://www.ntv.ru/serial/Skoraja_pomosh
+    evidence_summary: 'Automated owner-domain match: stream host cdn-dvr.ntv.ru is on the broadcaster''s domain ntv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Skorayapomoshch.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-pro-ru
+  name: TV PRO
+  alt_names: []
+  broadcaster: TV PRO
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: http://tvpro-online.ru/
+  stream:
+    url: http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: http://tvpro-online.ru/
+    evidence_summary: 'Automated owner-domain match: stream host rtmp.tvpro-online.ru is on the broadcaster''s domain tvpro-online.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVPRO.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: univer-tv-ru
+  name: Univer TV
+  alt_names: []
+  broadcaster: Univer TV
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://universmotri.ru/
+  stream:
+    url: https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://universmotri.ru/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.universmotri.ru is on the broadcaster''s domain universmotri.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: UniverTV.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vital-drive-ru
+  name: Vital Drive
+  alt_names: []
+  broadcaster: A21 Network
+  country: ru
+  languages:
+  - ru
+  categories:
+  - sports
+  website: https://a21network.ru/
+  stream:
+    url: https://tv.a21network.ru/stream/37909/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru_catcast.m3u
+    evidence_url: https://a21network.ru/
+    evidence_summary: 'Automated owner-domain match: stream host tv.a21network.ru is on the broadcaster''s domain a21network.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VitalDrive.ru@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

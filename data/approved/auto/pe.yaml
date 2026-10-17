@@ -1,0 +1,228 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: eco-television-pe
+  name: ECO Television
+  alt_names:
+  - ECO Televisión
+  broadcaster: ECO Television
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://ecoperu.tv/
+  stream:
+    url: https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://ecoperu.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.ecoperu.tv is on the broadcaster''s domain ecoperu.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ECOTelevision.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: folklore-tv-pe
+  name: Folklore TV
+  alt_names: []
+  broadcaster: Folklore TV
+  country: pe
+  languages:
+  - es
+  categories:
+  - music
+  website: https://www.folkloretv.pe/
+  stream:
+    url: https://play.folkloretv.pe/StreamSD/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://www.folkloretv.pe/
+    evidence_summary: 'Automated owner-domain match: stream host play.folkloretv.pe is on the broadcaster''s domain folkloretv.pe.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FolkloreTV.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: huacho-peru-tv-pe
+  name: Huacho Peru TV
+  alt_names:
+  - Huacho Perú TV
+  broadcaster: Huacho Peru TV
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://huachotv.com/
+  stream:
+    url: https://tv.huachotv.com/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://huachotv.com/
+    evidence_summary: 'Automated owner-domain match: stream host tv.huachotv.com is on the broadcaster''s domain huachotv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HuachoPeruTV.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: milenial-tv-pe
+  name: Milenial TV
+  alt_names: []
+  broadcaster: Chasqui Router
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.milenial.news/
+  stream:
+    url: https://www.milenial.news/salida/milenial.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://www.milenial.news/
+    evidence_summary: 'Automated owner-domain match: stream host www.milenial.news is on the broadcaster''s domain milenial.news.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MilenialTV.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: onda-digital-pe
+  name: ONDA DIGITAL
+  alt_names:
+  - Onda Digital HD
+  broadcaster: Onda Grupo de Medios
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.OndaDigital.pe
+  stream:
+    url: https://tv.ondadigital.pe/ondadigital/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://www.OndaDigital.pe
+    evidence_summary: 'Automated owner-domain match: stream host tv.ondadigital.pe is on the broadcaster''s domain ondadigital.pe.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ONDADIGITAL.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trivu-pe
+  name: Trivu
+  alt_names: []
+  broadcaster: Trivu
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.trivutv.com/
+  stream:
+    url: https://stream2.trivutv.com/memfs/1bc8358a-665e-4bc1-a580-e4fcb54b5103.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://www.trivutv.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream2.trivutv.com is on the broadcaster''s domain trivutv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Trivu.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

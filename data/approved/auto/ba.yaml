@@ -1,0 +1,155 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: rtrs-plus-ba
+  name: RTRS plus
+  alt_names:
+  - РТРС плус
+  broadcaster: Radiotelevizija Republike Srpske
+  country: ba
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://plus.rtrs.tv/
+  stream:
+    url: https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ba.m3u
+    evidence_url: https://plus.rtrs.tv/
+    evidence_summary: 'Automated owner-domain match: stream host pluslive.rtrs.tv is on the broadcaster''s domain rtrs.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RTRSplus.ba@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtrs-tv-ba
+  name: RTRS TV
+  alt_names:
+  - Radio Televizija Republike Srpske
+  - Радио Tелевизија Републике Српске
+  - РТРС
+  broadcaster: Radiotelevizija Republike Srpske
+  country: ba
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://www.rtrs.tv/
+  stream:
+    url: https://uzivo.rtrs.tv/tv/live/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ba.m3u
+    evidence_url: https://www.rtrs.tv/
+    evidence_summary: 'Automated owner-domain match: stream host uzivo.rtrs.tv is on the broadcaster''s domain rtrs.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RTRSTV.ba@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtv-zenica-ba
+  name: RTV Zenica
+  alt_names: []
+  broadcaster: Javno preduzeće Radio televizija Zenica d.o.o. Zenica
+  country: ba
+  languages:
+  - bs
+  categories:
+  - general
+  website: http://www.rtvze.ba/
+  stream:
+    url: https://stream.rtvze.ba/live/123/123.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ba.m3u
+    evidence_url: http://www.rtvze.ba/
+    evidence_summary: 'Automated owner-domain match: stream host stream.rtvze.ba is on the broadcaster''s domain rtvze.ba.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTVZenica.ba@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: televizija-m-ba
+  name: Televizija M
+  alt_names: []
+  broadcaster: Televizija M
+  country: ba
+  languages:
+  - bs
+  categories:
+  - general
+  website: https://tv-m.net/
+  stream:
+    url: https://live.tv-m.net/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ba.m3u
+    evidence_url: https://tv-m.net/
+    evidence_summary: 'Automated owner-domain match: stream host live.tv-m.net is on the broadcaster''s domain tv-m.net. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TelevizijaM.ba@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,565 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: aaj-tak-in
+  name: Aaj Tak
+  alt_names: []
+  broadcaster: TV Today Network Ltd
+  country: in
+  languages:
+  - hi
+  categories:
+  - news
+  website: https://www.aajtak.in/livetv
+  stream:
+    url: https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.aajtak.in/livetv
+    evidence_summary: 'Automated owner-domain match: CDN hostname aajtaklive-amd.akamaized.net is named for the broadcaster''s
+      domain ''aajtak'' (aajtak.in). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AajTak.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: alankar-tv-in
+  name: Alankar TV
+  alt_names:
+  - ଅଳଙ୍କାର
+  broadcaster: Odisha Television Ltd.
+  country: in
+  languages:
+  - or
+  categories:
+  - movies
+  website: https://www.tarangplus.in/all-channels/alankar
+  stream:
+    url: https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.tarangplus.in/all-channels/alankar
+    evidence_summary: 'Automated owner-domain match: stream host livetv.tarangplus.in is on the broadcaster''s domain tarangplus.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AlankarTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: epic-bharat-in
+  name: Epic Bharat
+  alt_names:
+  - EPIC भारत
+  - Nazara TV
+  broadcaster: The Epic Company
+  country: in
+  languages:
+  - hi
+  categories:
+  - entertainment
+  website: https://www.epicon.in/live-tv/nazara-live-tv
+  stream:
+    url: https://epiconvh.akamaized.net/live/nazara/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.epicon.in/live-tv/nazara-live-tv
+    evidence_summary: 'Automated owner-domain match: CDN hostname epiconvh.akamaized.net is named for the broadcaster''s domain
+      ''epicon'' (epicon.in). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EpicBharat.in@Digital
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: guarantee-news-in
+  name: Guarantee News
+  alt_names: []
+  broadcaster: Guarantee News
+  country: in
+  languages:
+  - kn
+  categories:
+  - news
+  website: https://www.guaranteenews.com/
+  stream:
+    url: https://guaranteenews.in:8443/live/gnews/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.guaranteenews.com/
+    evidence_summary: 'Automated owner-domain match: stream host guaranteenews.in (guaranteenews.in) shares the broadcaster''s
+      domain name ''guaranteenews'' (guaranteenews.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GuaranteeNews.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: india-tv-in
+  name: India TV
+  alt_names:
+  - इंडिया टी.वी.
+  broadcaster: Independent News Service Pvt Ltd (INSPL)
+  country: in
+  languages:
+  - hi
+  categories:
+  - news
+  website: https://www.indiatvnews.com/
+  stream:
+    url: https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.indiatvnews.com/
+    evidence_summary: 'Automated owner-domain match: CDN hostname pl-indiatvnews.akamaized.net is named for the broadcaster''s
+      domain ''indiatvnews'' (indiatvnews.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IndiaTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: oli-tv-in
+  name: Oli TV
+  alt_names: []
+  broadcaster: Oli Digital
+  country: in
+  languages:
+  - ta
+  categories:
+  - entertainment
+  website: https://olidigital.in/
+  stream:
+    url: https://live.olidigital.in/olitv/olitv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://olidigital.in/
+    evidence_summary: 'Automated owner-domain match: stream host live.olidigital.in is on the broadcaster''s domain olidigital.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OliTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: prag-news-in
+  name: Prag News
+  alt_names: []
+  broadcaster: A M Television Pvt. Ltd.
+  country: in
+  languages:
+  - as
+  categories:
+  - news
+  website: https://pragnews.com/
+  stream:
+    url: https://hls.pragnews.com/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://pragnews.com/
+    evidence_summary: 'Automated owner-domain match: stream host hls.pragnews.com is on the broadcaster''s domain pragnews.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PragNews.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: prarthana-tv-in
+  name: Prarthana TV
+  alt_names: []
+  broadcaster: Odisha Television Ltd.
+  country: in
+  languages:
+  - or
+  categories:
+  - general
+  website: https://www.tarangplus.in/all-channels/prarthana-tv
+  stream:
+    url: https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.tarangplus.in/all-channels/prarthana-tv
+    evidence_summary: 'Automated owner-domain match: stream host livetv.tarangplus.in is on the broadcaster''s domain tarangplus.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PrarthanaTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tarang-music-in
+  name: Tarang Music
+  alt_names:
+  - ତରଙ୍ଗ ମ୍ୟୁଜିକ୍
+  broadcaster: Odisha Television Ltd.
+  country: in
+  languages:
+  - or
+  categories:
+  - music
+  website: https://www.tarangplus.in/all-channels/tarang-music
+  stream:
+    url: https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.tarangplus.in/all-channels/tarang-music
+    evidence_summary: 'Automated owner-domain match: stream host livetv.tarangplus.in is on the broadcaster''s domain tarangplus.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TarangMusic.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tarang-tv-in
+  name: Tarang TV
+  alt_names:
+  - ତରଙ୍ଗ ଭିଜନ୍
+  broadcaster: Odisha Television Ltd.
+  country: in
+  languages:
+  - or
+  categories:
+  - entertainment
+  website: https://www.tarangplus.in/all-channels/tarang-tv
+  stream:
+    url: https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.tarangplus.in/all-channels/tarang-tv
+    evidence_summary: 'Automated owner-domain match: stream host livetv.tarangplus.in is on the broadcaster''s domain tarangplus.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TarangTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: thendral-tv-in
+  name: Thendral TV
+  alt_names: []
+  broadcaster: Thendral TV
+  country: in
+  languages:
+  - ta
+  categories:
+  - general
+  website: https://www.thendraltv.in/
+  stream:
+    url: https://hls.thendraltv.in/thendraltv_1210b43d/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.thendraltv.in/
+    evidence_summary: 'Automated owner-domain match: stream host hls.thendraltv.in is on the broadcaster''s domain thendraltv.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ThendralTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vistaar-news-in
+  name: Vistaar News
+  alt_names: []
+  broadcaster: Vistaar News
+  country: in
+  languages:
+  - hi
+  categories:
+  - news
+  website: https://vistaarnews.com/
+  stream:
+    url: https://vistaarnews.com/livetv-stream/test.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://vistaarnews.com/
+    evidence_summary: 'Automated owner-domain match: stream host vistaarnews.com is on the broadcaster''s domain vistaarnews.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VistaarNews.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zb-cartoon-in
+  name: ZB Cartoon
+  alt_names: []
+  broadcaster: ZillarBarta Network
+  country: in
+  languages:
+  - bn
+  categories:
+  - kids
+  website: https://www.zillarbarta.com/
+  stream:
+    url: https://server.zillarbarta.com/zbcatun/video.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.zillarbarta.com/
+    evidence_summary: 'Automated owner-domain match: stream host server.zillarbarta.com is on the broadcaster''s domain zillarbarta.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZBCartoon.in@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zb-music-in
+  name: ZB Music
+  alt_names: []
+  broadcaster: ZillarBarta Network
+  country: in
+  languages:
+  - bn
+  categories:
+  - music
+  website: https://www.zillarbarta.com/
+  stream:
+    url: https://server.zillarbarta.com/zbmusic/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.zillarbarta.com/
+    evidence_summary: 'Automated owner-domain match: stream host server.zillarbarta.com is on the broadcaster''s domain zillarbarta.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZBMusic.in@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zillarbarta-news-in
+  name: ZillarBarta News
+  alt_names: []
+  broadcaster: ZillarBarta Network
+  country: in
+  languages:
+  - bn
+  categories:
+  - news
+  - entertainment
+  website: https://www.zillarbarta.com/
+  stream:
+    url: https://server.zillarbarta.com/zillarbarta/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.zillarbarta.com/
+    evidence_summary: 'Automated owner-domain match: stream host server.zillarbarta.com is on the broadcaster''s domain zillarbarta.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZillarBartaNews.in@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

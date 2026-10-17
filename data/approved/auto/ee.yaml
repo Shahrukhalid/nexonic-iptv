@@ -1,0 +1,266 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: etv-ee
+  name: ETV
+  alt_names: []
+  broadcaster: Estonian Public Broadcasting
+  country: ee
+  languages:
+  - et
+  categories:
+  - general
+  website: http://etv.err.ee/
+  stream:
+    url: https://sb.err.ee/live/etv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: http://etv.err.ee/
+    evidence_summary: 'Automated owner-domain match: stream host sb.err.ee is on the broadcaster''s domain err.ee. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ETV.ee@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: etv-2-ee
+  name: ETV 2
+  alt_names: []
+  broadcaster: ERR
+  country: ee
+  languages:
+  - et
+  categories:
+  - kids
+  - culture
+  website: http://etv2.err.ee/
+  stream:
+    url: https://sb.err.ee/live/etv2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: http://etv2.err.ee/
+    evidence_summary: 'Automated owner-domain match: stream host sb.err.ee is on the broadcaster''s domain err.ee. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ETV2.ee@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: etv-ee-2
+  name: ETV+
+  alt_names: []
+  broadcaster: ERR
+  country: ee
+  languages:
+  - ru
+  - et
+  categories:
+  - entertainment
+  website: http://etvpluss.err.ee/
+  stream:
+    url: https://sb.err.ee/live/etvpluss.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: http://etvpluss.err.ee/
+    evidence_summary: 'Automated owner-domain match: stream host sb.err.ee is on the broadcaster''s domain err.ee. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ETVPlus.ee@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vantage-classic-ee
+  name: Vantage Classic
+  alt_names: []
+  broadcaster: Lulzy Broadcasting OÜ
+  country: ee
+  languages:
+  - en
+  categories:
+  - music
+  website: https://vantagetv.ee
+  stream:
+    url: https://hls.vantagetv.ee/vclassic_stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: https://vantagetv.ee
+    evidence_summary: 'Automated owner-domain match: stream host hls.vantagetv.ee is on the broadcaster''s domain vantagetv.ee.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VantageClassic.ee@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vantage-dance-ee
+  name: Vantage Dance
+  alt_names: []
+  broadcaster: Lulzy Broadcasting OÜ
+  country: ee
+  languages:
+  - en
+  categories:
+  - music
+  website: https://vantagetv.ee
+  stream:
+    url: https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: https://vantagetv.ee
+    evidence_summary: 'Automated owner-domain match: stream host hls.vantagetv.ee is on the broadcaster''s domain vantagetv.ee.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VantageDance.ee@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vantage-music-ee
+  name: Vantage Music
+  alt_names: []
+  broadcaster: Lulzy Broadcasting OÜ
+  country: ee
+  languages:
+  - en
+  categories:
+  - music
+  website: https://vantagetv.ee
+  stream:
+    url: https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: https://vantagetv.ee
+    evidence_summary: 'Automated owner-domain match: stream host hls.vantagetv.ee is on the broadcaster''s domain vantagetv.ee.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VantageMusic.ee@HD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ee
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vantage-rock-ee
+  name: Vantage Rock
+  alt_names: []
+  broadcaster: Lulzy Broadcasting OÜ
+  country: ee
+  languages:
+  - en
+  categories:
+  - music
+  website: https://vantagetv.ee
+  stream:
+    url: https://hls.vantagetv.ee/vrock_stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ee.m3u
+    evidence_url: https://vantagetv.ee
+    evidence_summary: 'Automated owner-domain match: stream host hls.vantagetv.ee is on the broadcaster''s domain vantagetv.ee.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VantageRock.ee@HD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ee
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

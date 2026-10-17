@@ -1,0 +1,303 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: canal-gov-br
+  name: Canal Gov
+  alt_names: []
+  broadcaster: Canal Gov
+  country: br
+  languages:
+  - pt
+  categories:
+  - legislative
+  website: https://agenciagov.ebc.com.br/
+  stream:
+    url: https://canalgov-stream.ebc.com.br/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://agenciagov.ebc.com.br/
+    evidence_summary: 'Automated owner-domain match: stream host canalgov-stream.ebc.com.br is on the broadcaster''s domain
+      ebc.com.br. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalGov.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-uol-br
+  name: Canal UOL
+  alt_names: []
+  broadcaster: Canal UOL
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.uol.com.br/
+  stream:
+    url: https://video24.mais.uol.com.br/live/6146.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://www.uol.com.br/
+    evidence_summary: 'Automated owner-domain match: stream host video24.mais.uol.com.br is on the broadcaster''s domain uol.com.br.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalUOL.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cinturao-verde-br
+  name: Cinturao Verde
+  alt_names: []
+  broadcaster: Cinturao Verde
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://redecinturaoverde.com.br/canais/cinturao-verde
+  stream:
+    url: https://play.redecinturaoverde.com.br/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://redecinturaoverde.com.br/canais/cinturao-verde
+    evidence_summary: 'Automated owner-domain match: stream host play.redecinturaoverde.com.br is on the broadcaster''s domain
+      redecinturaoverde.com.br. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CinturaoVerde.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: laboral-tv-br
+  name: Laboral TV
+  alt_names:
+  - LabTV
+  broadcaster: Laboral SST
+  country: br
+  languages:
+  - pt
+  categories:
+  - business
+  website: https://tv.laboralsst.com.br
+  stream:
+    url: https://tv.laboralsst.com.br/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://tv.laboralsst.com.br
+    evidence_summary: 'Automated owner-domain match: stream host tv.laboralsst.com.br is on the broadcaster''s domain laboralsst.com.br.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LaboralTV.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mbc-brasil-tv-br
+  name: MBC Brasil TV
+  alt_names: []
+  broadcaster: MBC Brasil TV
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://mbcbrasil.tv.br/canais/rede-mbc-brasil
+  stream:
+    url: https://play.mbcbrasil.tv.br/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://mbcbrasil.tv.br/canais/rede-mbc-brasil
+    evidence_summary: 'Automated owner-domain match: stream host play.mbcbrasil.tv.br is on the broadcaster''s domain mbcbrasil.tv.br.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MBCBrasilTV.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nickonline-br
+  name: NickOnline
+  alt_names:
+  - Nickelodeon Online
+  broadcaster: x1co
+  country: br
+  languages:
+  - pt
+  categories:
+  - kids
+  website: https://x1colegal.com
+  stream:
+    url: https://x1colegal.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://x1colegal.com
+    evidence_summary: 'Automated owner-domain match: stream host x1colegal.com is on the broadcaster''s domain x1colegal.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NickOnline.br@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-cultura-br
+  name: TV Cultura
+  alt_names:
+  - TV Cultura Nacional
+  - Cultura
+  broadcaster: Fundação Padre Anchieta
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://cultura.uol.com.br/
+  stream:
+    url: https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://cultura.uol.com.br/
+    evidence_summary: 'Automated owner-domain match: stream host player-tvcultura.stream.uol.com.br is on the broadcaster''s
+      domain uol.com.br. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVCultura.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tvlatinasat-br
+  name: TVLatinaSat
+  alt_names: []
+  broadcaster: TVLatinaSat
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://latinasat.com.br/
+  stream:
+    url: https://www.latinasat.com.br/hls/live/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
+    evidence_url: https://latinasat.com.br/
+    evidence_summary: 'Automated owner-domain match: stream host www.latinasat.com.br is on the broadcaster''s domain latinasat.com.br.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVLatinaSat.br@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

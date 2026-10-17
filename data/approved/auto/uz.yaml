@@ -1,0 +1,77 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: biz-cinema-uz
+  name: BIZ Cinema
+  alt_names: []
+  broadcaster: BIZ Cinema
+  country: uz
+  languages:
+  - uz
+  categories:
+  - movies
+  website: https://biztv.uz/
+  stream:
+    url: https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uz.m3u
+    evidence_url: https://biztv.uz/
+    evidence_summary: 'Automated owner-domain match: stream host fl.biztv.media (biztv.media) shares the broadcaster''s domain
+      name ''biztv'' (biztv.uz). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BIZCinema.uz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: biz-tv-uz
+  name: BIZ TV
+  alt_names: []
+  broadcaster: BIZ TV
+  country: uz
+  languages:
+  - uz
+  categories:
+  - entertainment
+  website: https://biztv.uz/
+  stream:
+    url: https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj92in3d/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uz.m3u
+    evidence_url: https://biztv.uz/
+    evidence_summary: 'Automated owner-domain match: stream host fl.biztv.media (biztv.media) shares the broadcaster''s domain
+      name ''biztv'' (biztv.uz). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BIZTV.uz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,7234 @@
+{
+ "reference_time": null,
+ "channels": [
+  {
+   "id": "al-arabiya",
+   "name": "Al Arabiya",
+   "broadcaster": "MBC Group",
+   "country": "ae",
+   "country_name": "United Arab Emirates",
+   "flag": "🇦🇪",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.alarabiya.net",
+   "stream_url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "Alarabiya.ae@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.alarabiya.net/live-stream",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "al-hadath",
+   "name": "Al Hadath",
+   "broadcaster": "MBC Group",
+   "country": "ae",
+   "country_name": "United Arab Emirates",
+   "flag": "🇦🇪",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.alhadath.net",
+   "stream_url": "https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": null,
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.alhadath.net/live-stream",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "sky-news-arabia",
+   "name": "Sky News Arabia",
+   "broadcaster": "Sky News Arabia",
+   "country": "ae",
+   "country_name": "United Arab Emirates",
+   "flag": "🇦🇪",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.skynewsarabia.com",
+   "stream_url": "https://stream.skynewsarabia.com/hls/sna.m3u8",
+   "protocol": "hls",
+   "epg_id": "SkyNewsArabia.ae@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.skynewsarabia.com/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "orf-2",
+   "name": "ORF 2",
+   "broadcaster": "ORF",
+   "country": "at",
+   "country_name": "Austria",
+   "flag": "🇦🇹",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.orf.at",
+   "stream_url": "https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8",
+   "protocol": "hls",
+   "epg_id": "ORF2.at@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "at"
+   ],
+   "evidence_url": "https://on.orf.at/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "orf-iii",
+   "name": "ORF III",
+   "broadcaster": "ORF",
+   "country": "at",
+   "country_name": "Austria",
+   "flag": "🇦🇹",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "culture",
+    "documentary"
+   ],
+   "website": "https://www.orf.at",
+   "stream_url": "https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8",
+   "protocol": "hls",
+   "epg_id": "ORFIII.at@HD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "at"
+   ],
+   "evidence_url": "https://on.orf.at/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "red-bull-tv",
+   "name": "Red Bull TV",
+   "broadcaster": "Red Bull Media House",
+   "country": "at",
+   "country_name": "Austria",
+   "flag": "🇦🇹",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "sports",
+    "lifestyle"
+   ],
+   "website": "https://www.redbull.com/int-en/discover",
+   "stream_url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+   "protocol": "hls",
+   "epg_id": null,
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.redbull.com/int-en/discover",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "abc-news-australia",
+   "name": "ABC News (Australia)",
+   "broadcaster": "Australian Broadcasting Corporation",
+   "country": "au",
+   "country_name": "Australia",
+   "flag": "🇦🇺",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.abc.net.au/news",
+   "stream_url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "ABCNews.au@Sydney",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.abc.net.au/news/newschannel",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tv-brasil",
+   "name": "TV Brasil",
+   "broadcaster": "EBC",
+   "country": "br",
+   "country_name": "Brazil",
+   "flag": "🇧🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://tvbrasil.ebc.com.br",
+   "stream_url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVBrasil.br@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://tvbrasil.ebc.com.br/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tv-camara",
+   "name": "TV Câmara",
+   "broadcaster": "Câmara dos Deputados",
+   "country": "br",
+   "country_name": "Brazil",
+   "flag": "🇧🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "legislative"
+   ],
+   "website": "https://www.camara.leg.br",
+   "stream_url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVCamara.br@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.camara.leg.br/tv",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "cgtn",
+   "name": "CGTN",
+   "broadcaster": "China Global Television Network",
+   "country": "cn",
+   "country_name": "China",
+   "flag": "🇨🇳",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.cgtn.com",
+   "stream_url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+   "protocol": "hls",
+   "epg_id": "CGTN.cn@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.cgtn.com/tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3sat",
+   "name": "3sat",
+   "broadcaster": "ZDF, ORF, SRG, ARD",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "culture",
+    "documentary"
+   ],
+   "website": "https://www.3sat.de",
+   "stream_url": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3sat.de@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "de",
+    "at",
+    "ch"
+   ],
+   "evidence_url": "https://www.3sat.de/programm/3sat-livestream-100.html",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "arte-de",
+   "name": "ARTE (Deutsch)",
+   "broadcaster": "ARTE",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "culture",
+    "documentary"
+   ],
+   "website": "https://www.arte.tv/de",
+   "stream_url": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "arte.de@SD",
+   "geo_restricted": true,
+   "geo_regions": [],
+   "evidence_url": "https://www.arte.tv/de/live/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "das-erste",
+   "name": "Das Erste",
+   "broadcaster": "ARD",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.daserste.de",
+   "stream_url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "DasErste.de@HD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.daserste.de/live/index.html",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "dw-arabic",
+   "name": "DW Arabic",
+   "broadcaster": "Deutsche Welle",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.dw.com/ar",
+   "stream_url": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "DW.de@Arabic",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.dw.com/ar/live-tv/channel-arabic",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "dw-english",
+   "name": "DW English",
+   "broadcaster": "Deutsche Welle",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.dw.com",
+   "stream_url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "DW.de@English",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.dw.com/en/live-tv/channel-english",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "dw-espanol",
+   "name": "DW Español",
+   "broadcaster": "Deutsche Welle",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.dw.com/es",
+   "stream_url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "DW.de@Espanol",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.dw.com/es/live-tv/channel-spanish",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "kika",
+   "name": "KiKA",
+   "broadcaster": "ARD/ZDF",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://www.kika.de",
+   "stream_url": "https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "KiKA.de@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.kika.de/live-tv",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "phoenix",
+   "name": "phoenix",
+   "broadcaster": "ARD/ZDF",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "news",
+    "documentary"
+   ],
+   "website": "https://www.phoenix.de",
+   "stream_url": "https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "phoenix.de@HD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "de"
+   ],
+   "evidence_url": "https://www.phoenix.de/livestream",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tagesschau24",
+   "name": "tagesschau24",
+   "broadcaster": "ARD",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.tagesschau.de",
+   "stream_url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "tagesschau24.de@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tagesschau.de/multimedia/livestreams",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "zdf",
+   "name": "ZDF",
+   "broadcaster": "ZDF",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.zdf.de",
+   "stream_url": "https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ZDF.de@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "de"
+   ],
+   "evidence_url": "https://www.zdf.de/live-tv",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "zdfinfo",
+   "name": "ZDFinfo",
+   "broadcaster": "ZDF",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "documentary"
+   ],
+   "website": "https://www.zdf.de",
+   "stream_url": "https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ZDFinfo.de@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "de"
+   ],
+   "evidence_url": "https://www.zdf.de/live-tv",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "dr1",
+   "name": "DR1",
+   "broadcaster": "DR",
+   "country": "dk",
+   "country_name": "Denmark",
+   "flag": "🇩🇰",
+   "languages": [
+    "da"
+   ],
+   "language_names": [
+    "Danish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.dr.dk",
+   "stream_url": "https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "DR1.dk@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "dk"
+   ],
+   "evidence_url": "https://www.dr.dk/drtv/kanal/dr1_20875",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "canal-24-horas",
+   "name": "Canal 24 Horas",
+   "broadcaster": "RTVE",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.rtve.es/noticias/",
+   "stream_url": "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8",
+   "protocol": "hls",
+   "epg_id": "24Horas.es@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.rtve.es/play/videos/directo/canales-lineales/24h/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "clan",
+   "name": "Clan",
+   "broadcaster": "RTVE",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://www.rtve.es/infantil/",
+   "stream_url": "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8",
+   "protocol": "hls",
+   "epg_id": "Clan.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.rtve.es/play/videos/directo/canales-lineales/clan/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "la-1",
+   "name": "La 1",
+   "broadcaster": "RTVE",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.rtve.es",
+   "stream_url": "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8",
+   "protocol": "hls",
+   "epg_id": "La1.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.rtve.es/play/videos/directo/canales-lineales/la-1/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "la-2",
+   "name": "La 2",
+   "broadcaster": "RTVE",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "culture",
+    "documentary"
+   ],
+   "website": "https://www.rtve.es",
+   "stream_url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8",
+   "protocol": "hls",
+   "epg_id": "La2.es@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.rtve.es/play/videos/directo/canales-lineales/la-2/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "teledeporte",
+   "name": "Teledeporte",
+   "broadcaster": "RTVE",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "website": "https://www.rtve.es/deportes/",
+   "stream_url": "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8",
+   "protocol": "hls",
+   "epg_id": "Teledeporte.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.rtve.es/play/videos/directo/canales-lineales/teledeporte/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "yle-tv1",
+   "name": "Yle TV1",
+   "broadcaster": "Yle",
+   "country": "fi",
+   "country_name": "Finland",
+   "flag": "🇫🇮",
+   "languages": [
+    "fi"
+   ],
+   "language_names": [
+    "Finnish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://yle.fi",
+   "stream_url": "https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "YleTV1.fi@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "fi"
+   ],
+   "evidence_url": "https://areena.yle.fi/tv/suorat",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "yle-tv2",
+   "name": "Yle TV2",
+   "broadcaster": "Yle",
+   "country": "fi",
+   "country_name": "Finland",
+   "flag": "🇫🇮",
+   "languages": [
+    "fi"
+   ],
+   "language_names": [
+    "Finnish"
+   ],
+   "categories": [
+    "general",
+    "kids"
+   ],
+   "website": "https://yle.fi",
+   "stream_url": "https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "YleTV2.fi@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "fi"
+   ],
+   "evidence_url": "https://areena.yle.fi/tv/suorat",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "africanews-english",
+   "name": "Africanews English",
+   "broadcaster": "Africanews (Euronews)",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.africanews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "AfricanewsEnglish.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.africanews.com/live/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "africanews-french",
+   "name": "Africanews Français",
+   "broadcaster": "Africanews (Euronews)",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "fr"
+   ],
+   "language_names": [
+    "French"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://fr.africanews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "AfricanewsFrench.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://fr.africanews.com/live/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "arte-fr",
+   "name": "ARTE (Français)",
+   "broadcaster": "ARTE",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "fr"
+   ],
+   "language_names": [
+    "French"
+   ],
+   "categories": [
+    "culture",
+    "documentary"
+   ],
+   "website": "https://www.arte.tv/fr",
+   "stream_url": "https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "arte.fr@SD",
+   "geo_restricted": true,
+   "geo_regions": [],
+   "evidence_url": "https://www.arte.tv/fr/direct/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-german",
+   "name": "Euronews Deutsch",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://de.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsGerman.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://de.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-english",
+   "name": "Euronews English",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsEnglish.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-spanish",
+   "name": "Euronews Español",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://es.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsSpanish.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://es.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-french",
+   "name": "Euronews Français",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "fr"
+   ],
+   "language_names": [
+    "French"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://fr.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsFrench.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://fr.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-italian",
+   "name": "Euronews Italiano",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "it"
+   ],
+   "language_names": [
+    "Italian"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://it.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsItalian.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://it.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-hungarian",
+   "name": "Euronews Magyar",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "hu"
+   ],
+   "language_names": [
+    "Hungarian"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://hu.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsHungarian.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://hu.euronews.com/elo",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-portuguese",
+   "name": "Euronews Português",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://pt.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsPortuguese.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://pt.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "euronews-greek",
+   "name": "Euronews Ελληνικά",
+   "broadcaster": "Euronews",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "el"
+   ],
+   "language_names": [
+    "Greek"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://gr.euronews.com",
+   "stream_url": "https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "EuronewsGreek.fr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://gr.euronews.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "france-24-arabic",
+   "name": "France 24 Arabic",
+   "broadcaster": "France Médias Monde",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.france24.com/ar",
+   "stream_url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "France24.fr@Arabic",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.france24.com/ar/%D8%A7%D9%84%D8%A8%D8%AB-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "france-24-english",
+   "name": "France 24 English",
+   "broadcaster": "France Médias Monde",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.france24.com/en",
+   "stream_url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "France24.fr@English",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.france24.com/en/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "france-24-espanol",
+   "name": "France 24 Español",
+   "broadcaster": "France Médias Monde",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.france24.com/es",
+   "stream_url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "France24.fr@Spanish",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.france24.com/es/vivo",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "france-24-french",
+   "name": "France 24 Français",
+   "broadcaster": "France Médias Monde",
+   "country": "fr",
+   "country_name": "France",
+   "flag": "🇫🇷",
+   "languages": [
+    "fr"
+   ],
+   "language_names": [
+    "French"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.france24.com/fr",
+   "stream_url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "France24.fr@French",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.france24.com/fr/direct",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tvri-nasional",
+   "name": "TVRI Nasional",
+   "broadcaster": "TVRI",
+   "country": "id",
+   "country_name": "Indonesia",
+   "flag": "🇮🇩",
+   "languages": [
+    "id"
+   ],
+   "language_names": [
+    "Indonesian"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.tvri.go.id",
+   "stream_url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVRI.id@HD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tvri.go.id/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tvri-world",
+   "name": "TVRI World",
+   "broadcaster": "TVRI",
+   "country": "id",
+   "country_name": "Indonesia",
+   "flag": "🇮🇩",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "general",
+    "culture"
+   ],
+   "website": "https://www.tvri.go.id",
+   "stream_url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVRIWorld.id@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tvri.go.id/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rte-news",
+   "name": "RTÉ News",
+   "broadcaster": "RTÉ",
+   "country": "ie",
+   "country_name": "Ireland",
+   "flag": "🇮🇪",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.rte.ie",
+   "stream_url": "https://live.rte.ie/live/a/channel3/channel3.isml/channel3.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTENews.ie@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.rte.ie/player/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "india-today",
+   "name": "India Today",
+   "broadcaster": "India Today Group",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.indiatoday.in",
+   "stream_url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "IndiaToday.in@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.indiatoday.in/livetv",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "ndtv-24x7",
+   "name": "NDTV 24x7",
+   "broadcaster": "NDTV",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.ndtv.com",
+   "stream_url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "NDTV24x7.in@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.ndtv.com/video/live/channel/ndtv24x7",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "ndtv-profit",
+   "name": "NDTV Profit",
+   "broadcaster": "NDTV",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "business",
+    "news"
+   ],
+   "website": "https://www.ndtvprofit.com",
+   "stream_url": "https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8",
+   "protocol": "hls",
+   "epg_id": "NDTVProfit.in@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.ndtvprofit.com/live-tv",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "sansad-tv-1",
+   "name": "Sansad TV 1",
+   "broadcaster": "Sansad TV (Parliament of India)",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "hi"
+   ],
+   "language_names": [
+    "Hindi"
+   ],
+   "categories": [
+    "legislative",
+    "news"
+   ],
+   "website": "https://sansadtv.nic.in",
+   "stream_url": "https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8",
+   "protocol": "hls",
+   "epg_id": "SansadTV1.in@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://sansadtv.nic.in/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "sansad-tv-2",
+   "name": "Sansad TV 2",
+   "broadcaster": "Sansad TV (Parliament of India)",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "hi",
+    "en"
+   ],
+   "language_names": [
+    "Hindi",
+    "English"
+   ],
+   "categories": [
+    "legislative",
+    "news"
+   ],
+   "website": "https://sansadtv.nic.in",
+   "stream_url": "https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8",
+   "protocol": "hls",
+   "epg_id": "SansadTV2.in@HD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://sansadtv.nic.in/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "nhk-world-japan",
+   "name": "NHK World-Japan",
+   "broadcaster": "NHK",
+   "country": "jp",
+   "country_name": "Japan",
+   "flag": "🇯🇵",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news",
+    "culture"
+   ],
+   "website": "https://www3.nhk.or.jp/nhkworld/",
+   "stream_url": "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "NHKWorldJapan.jp@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www3.nhk.or.jp/nhkworld/en/live/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "arirang-tv",
+   "name": "Arirang TV",
+   "broadcaster": "Arirang International Broadcasting",
+   "country": "kr",
+   "country_name": "South Korea",
+   "flag": "🇰🇷",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "general",
+    "culture"
+   ],
+   "website": "https://www.arirang.com",
+   "stream_url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "ArirangTV.kr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.arirang.com/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "canal-once",
+   "name": "Canal Once",
+   "broadcaster": "Instituto Politécnico Nacional",
+   "country": "mx",
+   "country_name": "Mexico",
+   "flag": "🇲🇽",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "general",
+    "culture"
+   ],
+   "website": "https://canalonce.mx",
+   "stream_url": "https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "CanalOnce.mx@HD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://canalonce.mx/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-memoria",
+   "name": "RTP Memória",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://www.rtp.pt",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTPMemoria.pt@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtpmemoria",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-mundo",
+   "name": "RTP Mundo",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.rtp.pt",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTPMundo.pt",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtpinternacional",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-noticias",
+   "name": "RTP Notícias",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.rtp.pt/noticias/",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTPNoticias.pt@HD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtpnoticias",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-africa",
+   "name": "RTP África",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.rtp.pt",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTPAfrica.pt@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtpafrica",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-1",
+   "name": "RTP1",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.rtp.pt",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTP1.pt@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtp1",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "rtp-2",
+   "name": "RTP2",
+   "broadcaster": "RTP",
+   "country": "pt",
+   "country_name": "Portugal",
+   "flag": "🇵🇹",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "culture",
+    "kids"
+   ],
+   "website": "https://www.rtp.pt",
+   "stream_url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RTP2.pt@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "pt"
+   ],
+   "evidence_url": "https://www.rtp.pt/play/direto/rtp2",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "al-jazeera-arabic",
+   "name": "Al Jazeera Arabic",
+   "broadcaster": "Al Jazeera Media Network",
+   "country": "qa",
+   "country_name": "Qatar",
+   "flag": "🇶🇦",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.aljazeera.net",
+   "stream_url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "AlJazeera.qa@Arabic",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.aljazeera.net/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "al-jazeera-english",
+   "name": "Al Jazeera English",
+   "broadcaster": "Al Jazeera Media Network",
+   "country": "qa",
+   "country_name": "Qatar",
+   "flag": "🇶🇦",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.aljazeera.com",
+   "stream_url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "AlJazeera.qa@English",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.aljazeera.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "al-jazeera-mubasher",
+   "name": "Al Jazeera Mubasher",
+   "broadcaster": "Al Jazeera Media Network",
+   "country": "qa",
+   "country_name": "Qatar",
+   "flag": "🇶🇦",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://mubasher.aljazeera.net",
+   "stream_url": "https://live-hls-web-ajm.getaj.net/AJM/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "AlJazeeraMubasher.qa@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://mubasher.aljazeera.net/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-1",
+   "name": "TRT 1",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "general",
+    "entertainment"
+   ],
+   "website": "https://www.trt.net.tr",
+   "stream_url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRT1.tr@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tabii.com/tr/live-tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-arabi",
+   "name": "TRT Arabi",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "ar"
+   ],
+   "language_names": [
+    "Arabic"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.trtarabi.com",
+   "stream_url": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTArabi.tr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.trtarabi.com/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-belgesel",
+   "name": "TRT Belgesel",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "documentary"
+   ],
+   "website": "https://www.trtbelgesel.net.tr",
+   "stream_url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTBelgesel.tr@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tabii.com/tr/live-tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-eba-ilkokul",
+   "name": "TRT EBA İlkokul",
+   "broadcaster": "TRT / Ministry of National Education",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "education",
+    "kids"
+   ],
+   "website": "https://www.eba.gov.tr",
+   "stream_url": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": null,
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.eba.gov.tr/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-haber",
+   "name": "TRT Haber",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.trthaber.com",
+   "stream_url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTHaber.tr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.trthaber.com/canli-yayin-izle.html",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-muzik",
+   "name": "TRT Müzik",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "music"
+   ],
+   "website": "https://www.trt.net.tr",
+   "stream_url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": null,
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tabii.com/tr/live-tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-spor",
+   "name": "TRT Spor",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "website": "https://www.trtspor.com.tr",
+   "stream_url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTSpor.tr@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "tr"
+   ],
+   "evidence_url": "https://www.tabii.com/tr/live-tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-world",
+   "name": "TRT World",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.trtworld.com",
+   "stream_url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTWorld.tr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.trtworld.com/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "trt-cocuk",
+   "name": "TRT Çocuk",
+   "broadcaster": "TRT",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://www.trtcocuk.net.tr",
+   "stream_url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TRTCocuk.tr@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.tabii.com/tr/live-tv",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "abc-news-live",
+   "name": "ABC News Live",
+   "broadcaster": "ABC News",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://abcnews.go.com",
+   "stream_url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ABCNewsLive.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://abcnews.go.com/live",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "bloomberg-tv",
+   "name": "Bloomberg Television",
+   "broadcaster": "Bloomberg",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "business",
+    "news"
+   ],
+   "website": "https://www.bloomberg.com",
+   "stream_url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8",
+   "protocol": "hls",
+   "epg_id": "BloombergTV.us@US",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.bloomberg.com/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "cbs-news-24-7",
+   "name": "CBS News 24/7",
+   "broadcaster": "CBS News",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.cbsnews.com",
+   "stream_url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "CBSNews247.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.cbsnews.com/live/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "nasa-tv",
+   "name": "NASA TV Public",
+   "broadcaster": "NASA",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "science",
+    "education"
+   ],
+   "website": "https://www.nasa.gov",
+   "stream_url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8",
+   "protocol": "hls",
+   "epg_id": "NASATVPublic.us@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.nasa.gov/nasatv/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "id": "al-arabiya-business-ae",
+   "name": "Al Arabiya Business",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "al-arabiya-programs-ae",
+   "name": "Al Arabiya Programs",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "sky-news-arabia-vertical-ae",
+   "name": "Sky News Arabia Vertical",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shams-tv-af",
+   "name": "Shams TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pointe-tv-ag",
+   "name": "Pointe TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "albkanale-music-tv-al",
+   "name": "AlbKanale Music TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "news-24-al",
+   "name": "News 24",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "alternatv-ar",
+   "name": "AlternaTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-pulpo-tv-ar",
+   "name": "Canal Pulpo TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "itel-tv-canal-2-ar",
+   "name": "Itel TV Canal 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mercurio-noticias-ar",
+   "name": "Mercurio Noticias",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "t5-satelital-ar",
+   "name": "T5 Satelital",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-universidad-ar",
+   "name": "TV Universidad",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fs1-salzburg-at",
+   "name": "FS1 Salzburg",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "swamiji-tv-american-at",
+   "name": "Swamiji TV American",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "swamiji-tv-australian-at",
+   "name": "Swamiji TV Australian",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "swamiji-tv-european-at",
+   "name": "Swamiji TV European",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ctb-perth-au",
+   "name": "CTB Perth",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ctb-perth-movies-channel-au",
+   "name": "CTB Perth Movies Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "racing-com-au",
+   "name": "Racing.com",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "apa-tv-az",
+   "name": "APA Tv",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "baku-tv-az",
+   "name": "Baku.TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ictimai-tv-az",
+   "name": "Ictimai TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtrs-plus-ba",
+   "name": "RTRS plus",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtrs-tv-ba",
+   "name": "RTRS TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtv-zenica-ba",
+   "name": "RTV Zenica",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "televizija-m-ba",
+   "name": "Televizija M",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "matele-be",
+   "name": "Matele",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "city-tv-bg",
+   "name": "City TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-spravedliva-bulgariya-bg",
+   "name": "TV Spravedliva Bulgariya",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtnb-divertissement-bi",
+   "name": "RTNB Divertissement",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtnb-tv-bi",
+   "name": "RTNB TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "benin-web-tv-bj",
+   "name": "Benin Web TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hc2-tv-bj",
+   "name": "HC2 TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "icone-tv-bj",
+   "name": "ICONE TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvc-benin-bj",
+   "name": "TVC Benin",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ctv-bo",
+   "name": "CTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nostv-bonaire-2-bq",
+   "name": "NosTV Bonaire 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-gov-br",
+   "name": "Canal Gov",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-uol-br",
+   "name": "Canal UOL",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cinturao-verde-br",
+   "name": "Cinturao Verde",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "laboral-tv-br",
+   "name": "Laboral TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mbc-brasil-tv-br",
+   "name": "MBC Brasil TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nickonline-br",
+   "name": "NickOnline",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-cultura-br",
+   "name": "TV Cultura",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvlatinasat-br",
+   "name": "TVLatinaSat",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-by",
+   "name": "+TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "az-star-tv-ca",
+   "name": "Az Star TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "citynews-calgary-ca",
+   "name": "CityNews Calgary",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "citynews-edmonton-ca",
+   "name": "CityNews Edmonton",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "citynews-toronto-ca",
+   "name": "CityNews Toronto",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "citynews-vancouver-ca",
+   "name": "CityNews Vancouver",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "doyel-tv-ca",
+   "name": "Doyel TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hamdard-tv-ca",
+   "name": "Hamdard TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pamir-tv-ca",
+   "name": "Pamir TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "savoir-media-ca",
+   "name": "Savoir media",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-classica-ca",
+   "name": "Stingray Classica",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-djazz-ca",
+   "name": "Stingray DJAZZ",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-everything-80s-ca",
+   "name": "Stingray Everything '80s",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-hit-list-ca",
+   "name": "Stingray Hit List",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-holidayscapes-ca",
+   "name": "Stingray Holidayscapes",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-karaoke-ca",
+   "name": "Stingray Karaoke",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-naturescape-ca",
+   "name": "Stingray Naturescape",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-nothin-but-90s-ca",
+   "name": "Stingray Nothin' But 90s",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-smooth-jazz-ca",
+   "name": "Stingray Smooth Jazz",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-soul-storm-ca",
+   "name": "Stingray Soul Storm",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-the-spa-ca",
+   "name": "Stingray The Spa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stingray-today-s-k-pop-ca",
+   "name": "Stingray Today's K-Pop",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zenlife-by-stingray-ca",
+   "name": "ZenLIFE by Stingray",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "meteonews-ch",
+   "name": "Meteonews",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "arica-tv-cl",
+   "name": "Arica TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "buin-somos-todos-cl",
+   "name": "Buin Somos Todos",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "orbita-chile-tv-cl",
+   "name": "Orbita Chile TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radio-suyai-tv-cl",
+   "name": "Radio Suyai TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "solo-tv-cl",
+   "name": "Solo TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "suyai-tv-cl",
+   "name": "Suyai TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-senado-cl",
+   "name": "TV Senado",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "u-los-lagos-tv-cl",
+   "name": "U Los Lagos TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "wapp-cl",
+   "name": "Wapp",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "kemet-tv-cm",
+   "name": "Kemet TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "laura-dave-media-tv-cm",
+   "name": "Laura Dave Media TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "baicheng-tv-cn",
+   "name": "Baicheng TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cctv-1-cn",
+   "name": "CCTV+ 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cctv-2-cn",
+   "name": "CCTV+ 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cgtn-arabic-cn",
+   "name": "CGTN Arabic",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cgtn-documentary-cn",
+   "name": "CGTN Documentary",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cgtn-french-cn",
+   "name": "CGTN French",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cgtn-russian-cn",
+   "name": "CGTN Russian",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cgtn-spanish-cn",
+   "name": "CGTN Spanish",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "china-weather-channel-cn",
+   "name": "China Weather Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dongguan-comprehensive-news-channel-cn",
+   "name": "Dongguan Comprehensive News Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "guangzhou-tv-cn",
+   "name": "Guangzhou TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "harbin-comprehensive-news-channel-cn",
+   "name": "Harbin Comprehensive News Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "harbin-movie-channel-cn",
+   "name": "Harbin Movie Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hebei-tv-cn",
+   "name": "Hebei TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hunan-tv-cn",
+   "name": "Hunan TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "jiangsu-public-news-channel-cn",
+   "name": "Jiangsu Public & News Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nei-monggol-tv-cn",
+   "name": "Nei Monggol TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nei-monggol-tv-2-mongolian-culture-channel-cn",
+   "name": "Nei Monggol TV 2 Mongolian Culture Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shandong-tv-life-channel-cn",
+   "name": "Shandong TV Life Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shandong-tv-qilu-channel-cn",
+   "name": "Shandong TV Qilu Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "siping-tv-cn",
+   "name": "Siping TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "buenisima-radio-tv-co",
+   "name": "Buenisima Radio TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-cine-dios-co",
+   "name": "Canal Cine Dios",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-dos-co",
+   "name": "Canal Dos",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "emisora-comunitaria-104-1-fm-co",
+   "name": "Emisora Comunitaria 104.1 FM",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "kalu-tv-co",
+   "name": "Kalu TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mas-norte-tv-co",
+   "name": "Mas Norte TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "momento24-co",
+   "name": "Momento24",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "parranda-vallenata-co",
+   "name": "Parranda Vallenata",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "supermusica-tv-co",
+   "name": "Supermusica TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bonce-tv-cw",
+   "name": "Bonce TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "sigma-tv-cy",
+   "name": "Sigma TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "elektrika-tv-cz",
+   "name": "Elektrika TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "jc1-cz",
+   "name": "JC1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "polar-tv-cz",
+   "name": "Polar TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtm-cz",
+   "name": "RTM+",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ard-alpha-de",
+   "name": "ARD-alpha",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "br-fernsehen-de",
+   "name": "BR Fernsehen",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dasding-90-8-de",
+   "name": "DASDING 90.8",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "finest-tv-de",
+   "name": "Finest TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "magentamusik-360-de",
+   "name": "MagentaMusik 360",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ndr-fernsehen-de",
+   "name": "NDR Fernsehen",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nrwision-de",
+   "name": "NRWision",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ok-kiel-de",
+   "name": "OK Kiel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ok-trier-de",
+   "name": "OK Trier",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ok54-de",
+   "name": "OK54",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "yol-tv-de",
+   "name": "YOL TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-del-sol-do",
+   "name": "Canal del Sol",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "el-seis-6-do",
+   "name": "El Seis 6",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "larivision-tv-do",
+   "name": "Larivision TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-canal-sur-do",
+   "name": "TV Canal Sur",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zas-tv-do",
+   "name": "ZAS TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-legislativa-ec",
+   "name": "TV Legislativa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "etv-ee",
+   "name": "ETV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "etv-2-ee",
+   "name": "ETV 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "etv-ee-2",
+   "name": "ETV+",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vantage-classic-ee",
+   "name": "Vantage Classic",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vantage-dance-ee",
+   "name": "Vantage Dance",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vantage-music-ee",
+   "name": "Vantage Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vantage-rock-ee",
+   "name": "Vantage Rock",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "24-horas-canarias-es",
+   "name": "24 Horas Canarias",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "24-horas-catalunya-es",
+   "name": "24 Horas Catalunya",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "28-kanala-es",
+   "name": "28 kanala",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "9-la-loma-tv-es",
+   "name": "9 la Loma TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "alcarria-tv-es",
+   "name": "Alcarria TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bailen-tv-es",
+   "name": "Bailen TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-1-mar-menor-torre-pacheco-es",
+   "name": "Canal 1 Mar Menor Torre Pacheco",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-56-es",
+   "name": "Canal 56",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-parlamento-es",
+   "name": "Canal Parlamento",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "clan-internacional-es",
+   "name": "Clan Internacional",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "congreso-de-los-diputados-1-es",
+   "name": "Congreso de los Diputados 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "congreso-de-los-diputados-2-es",
+   "name": "Congreso de los Diputados 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "congreso-de-los-diputados-3-es",
+   "name": "Congreso de los Diputados 3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "congreso-de-los-diputados-4-es",
+   "name": "Congreso de los Diputados 4",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "congreso-de-los-diputados-5-es",
+   "name": "Congreso de los Diputados 5",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "el-toro-tv-es",
+   "name": "El Toro TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fibwi-es",
+   "name": "Fibwi",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "interalmeria-tv-es",
+   "name": "Interalmeria TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la-1-canarias-es",
+   "name": "La 1 Canarias",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la-1-catalunya-es",
+   "name": "La 1 Catalunya",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la-2-canarias-es",
+   "name": "La 2 Canarias",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la-2-catalunya-es",
+   "name": "La 2 Catalunya",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la-urban-tv-es",
+   "name": "La Urban TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "maestrat-tv-es",
+   "name": "Maestrat TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "parlamento-de-navarra-es",
+   "name": "Parlamento de Navarra",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radio-3-es",
+   "name": "Radio 3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rne-para-todos-es",
+   "name": "RNE para todos",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tele-elx-es",
+   "name": "Tele Elx",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tito-tv-es",
+   "name": "Tito TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tve-internacional-america-es",
+   "name": "TVE Internacional America",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tve-internacional-asia-oceania-es",
+   "name": "TVE Internacional Asia-Oceania",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tve-internacional-europe-es",
+   "name": "TVE Internacional Europe",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tve-star-es",
+   "name": "TVE Star",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvomix-es",
+   "name": "TVOMIX",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ventdelnord-tv-es",
+   "name": "Ventdelnord TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nar-tv-fi",
+   "name": "Nar-TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "navahang-tv-fi",
+   "name": "Navahang TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nopola-news-fi",
+   "name": "Nopola News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "4-music-fr",
+   "name": "4 Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "4kurd-fr",
+   "name": "4Kurd",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "euronews-russian-fr",
+   "name": "Euronews Russian",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "le-figaro-tv-ile-de-france-fr",
+   "name": "Le Figaro TV Ile-de-France",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "telegohelle-fr",
+   "name": "TeleGohelle",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-africa-fr",
+   "name": "Trace Africa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-afrikora-fr",
+   "name": "Trace Afrikora",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-ayiti-fr",
+   "name": "Trace Ayiti",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-brazuca-fr",
+   "name": "Trace Brazuca",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-caribbean-fr",
+   "name": "Trace Caribbean",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-jama-fr",
+   "name": "Trace Jama",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-kitoko-fr",
+   "name": "Trace Kitoko",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-latina-fr",
+   "name": "Trace Latina",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-mboa-fr",
+   "name": "Trace Mboa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-muzika-fr",
+   "name": "Trace Muzika",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-mziki-fr",
+   "name": "Trace Mziki",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-naija-fr",
+   "name": "Trace Naija",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-sport-stars-fr",
+   "name": "Trace Sport Stars",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-toca-fr",
+   "name": "Trace Toca",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-urban-fr",
+   "name": "Trace Urban",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-vanilla-islands-fr",
+   "name": "Trace Vanilla Islands",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-asia-fr",
+   "name": "TV5Monde Asia",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-europe-fr",
+   "name": "TV5Monde Europe",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-france-belgium-switzerland-monaco-fr",
+   "name": "TV5Monde France Belgium Switzerland Monaco",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-info-fr",
+   "name": "TV5Monde Info",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-pacific-fr",
+   "name": "TV5Monde Pacific",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv5monde-style-fr",
+   "name": "TV5Monde Style",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "palitra-news-ge",
+   "name": "Palitra News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "qtv-gambia-gm",
+   "name": "QTV Gambia",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tma-gp",
+   "name": "TMA",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "soltv-gq",
+   "name": "SolTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ionian-tv-gr",
+   "name": "Ionian TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mtv-guyana-gy",
+   "name": "MTV Guyana",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-51-hn",
+   "name": "Canal 51",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "icn-digital-hn",
+   "name": "ICN Digital",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "imagen-fm-105-1-hn",
+   "name": "Imagen FM 105.1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lenca-tv-hn",
+   "name": "Lenca TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radio-ideal-hn",
+   "name": "Radio Ideal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "teleceiba-hn",
+   "name": "Teleceiba",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shift-tv-hr",
+   "name": "Shift TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "atv-hu",
+   "name": "ATV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "atv-spirit-hu",
+   "name": "ATV Spirit",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "city-tv-hu",
+   "name": "City TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mora-net-tv-hu",
+   "name": "Mora-Net TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rakosmente-tv-hu",
+   "name": "Rakosmente TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tisza-tv-hu",
+   "name": "Tisza TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "biznet-adventure-id",
+   "name": "Biznet Adventure",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "biznet-kids-id",
+   "name": "Biznet Kids",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "biznet-lifestyle-id",
+   "name": "Biznet Lifestyle",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dens-food-channel-id",
+   "name": "Dens Food Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "jogja-tv-id",
+   "name": "Jogja TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "salira-tv-id",
+   "name": "Salira TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvku-id",
+   "name": "TVKU",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "aaj-tak-in",
+   "name": "Aaj Tak",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "alankar-tv-in",
+   "name": "Alankar TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "epic-bharat-in",
+   "name": "Epic Bharat",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "guarantee-news-in",
+   "name": "Guarantee News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "india-tv-in",
+   "name": "India TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "oli-tv-in",
+   "name": "Oli TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "prag-news-in",
+   "name": "Prag News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "prarthana-tv-in",
+   "name": "Prarthana TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tarang-music-in",
+   "name": "Tarang Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tarang-tv-in",
+   "name": "Tarang TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "thendral-tv-in",
+   "name": "Thendral TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vistaar-news-in",
+   "name": "Vistaar News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zb-cartoon-in",
+   "name": "ZB Cartoon",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zb-music-in",
+   "name": "ZB Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zillarbarta-news-in",
+   "name": "ZillarBarta News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "afaq-tv-iq",
+   "name": "Afaq TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "alawla-tv-iq",
+   "name": "Alawla TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "channel8-iq",
+   "name": "Channel8",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rudaw-tv-iq",
+   "name": "Rudaw TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "samarra-tv-iq",
+   "name": "Samarra TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shams-tv-iq",
+   "name": "Shams TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "247-box-tv-ir",
+   "name": "247 Box TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ava-family-ir",
+   "name": "AVA Family",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ava-series-ir",
+   "name": "AVA Series",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "eshragh-network-ir",
+   "name": "Eshragh Network",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fx-1-ir",
+   "name": "FX 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fx-2-ir",
+   "name": "FX 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "khavaran-tv-ir",
+   "name": "Khavaran TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "meta-film-tv-ir",
+   "name": "Meta Film TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "oxir-tv-ir",
+   "name": "OXIR TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "snn-tv-ir",
+   "name": "SNN TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "yourtime-tv-ir",
+   "name": "YourTime TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "k100-is",
+   "name": "K100",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "visir-is",
+   "name": "Visir",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "20-it",
+   "name": "20",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canale-5-it",
+   "name": "Canale 5",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cine34-it",
+   "name": "Cine34",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "iris-it",
+   "name": "Iris",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "italia-1-it",
+   "name": "Italia 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "italia-2-it",
+   "name": "Italia 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "la5-it",
+   "name": "La5",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "peer-tv-alto-adige-it",
+   "name": "Peer TV Alto Adige",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "peer-tv-south-tyrol-it",
+   "name": "Peer TV South Tyrol",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "peer-tv-sudtirol-it",
+   "name": "Peer TV Sudtirol",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rai-3-it",
+   "name": "Rai 3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rai-4-it",
+   "name": "Rai 4",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rai-gulp-it",
+   "name": "Rai Gulp",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rai-storia-it",
+   "name": "Rai Storia",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "telemia-it",
+   "name": "TeleMia",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "telemia-extra-it",
+   "name": "TeleMia Extra",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "teleromagna-it",
+   "name": "Teleromagna",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tgcom24-it",
+   "name": "TGCom24",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "top-crime-it",
+   "name": "Top Crime",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tr-sport-it",
+   "name": "TR Sport",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "apsara-tv11-kh",
+   "name": "Apsara TV11",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ardb-tv-kh",
+   "name": "ARDB TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ebc-general-education-kh",
+   "name": "EBC General Education",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "abn-kr",
+   "name": "ABN",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ebs-1tv-kr",
+   "name": "EBS 1TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ebs-2tv-kr",
+   "name": "EBS 2TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ebs-kids-kr",
+   "name": "EBS Kids",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ebs-plus-2-kr",
+   "name": "EBS Plus 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hlaj-dtv-kr",
+   "name": "HLAJ-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hlan-dtv-kr",
+   "name": "HLAN-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hlcn-dtv-kr",
+   "name": "HLCN-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hlcq-dtv-kr",
+   "name": "HLCQ-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hldg-dtv-kr",
+   "name": "HLDG-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hldh-dtv-kr",
+   "name": "HLDH-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hldp-dtv-kr",
+   "name": "HLDP-DTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ktv-kr",
+   "name": "KTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "oun-kr",
+   "name": "OUN",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tbs-tv-kr",
+   "name": "TBS TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ktk-kz",
+   "name": "KTK",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "qonaev-media-kz",
+   "name": "Qonaev Media",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ulytau-kz",
+   "name": "Ulytau",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "palestine-al-yawm-lb",
+   "name": "Palestine Al Yawm",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dbs-tv-lc",
+   "name": "DBS TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "asia-tv-lk",
+   "name": "Asia TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "talent-tv-lk",
+   "name": "Talent TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-klasika-lt",
+   "name": "LRT Klasika",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-lituanica-lt",
+   "name": "LRT Lituanica",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-opus-lt",
+   "name": "LRT Opus",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-plius-lt",
+   "name": "LRT Plius",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-radijas-lt",
+   "name": "LRT Radijas",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lrt-tv-lt",
+   "name": "LRT TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "eldo-tv-lu",
+   "name": "eldo.TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtl-gold-lu",
+   "name": "RTL Gold",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtl-tele-letzebuerg-lu",
+   "name": "RTL Tele Letzebuerg",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtl-web-radio-tv-lu",
+   "name": "RTL Web Radio TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtl-zwee-lu",
+   "name": "RTL Zwee",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "today-radio-lu",
+   "name": "Today Radio",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vidusdaugavas-televizija-lv",
+   "name": "Vidusdaugavas Televizija",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "monaco-info-mc",
+   "name": "Monaco Info",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "moldova-1-md",
+   "name": "Moldova 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "moldova-2-md",
+   "name": "Moldova 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "moldova-tv-md",
+   "name": "Moldova TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "privesc-eu-tv-md",
+   "name": "Privesc.Eu TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pro-tv-chisinau-md",
+   "name": "PRO TV Chisinau",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tezaur-tv-md",
+   "name": "Tezaur TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tsv-md",
+   "name": "TSV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vocea-basarabiei-tv-md",
+   "name": "Vocea Basarabiei TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cool-tv-mk",
+   "name": "Cool TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "folk-tv-mk",
+   "name": "Folk TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "jazz-tv-mk",
+   "name": "Jazz TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "m-net-hd-mk",
+   "name": "M-Net HD",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "m-net-info-mk",
+   "name": "M-Net Info",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "m-net-kids-mk",
+   "name": "M-Net Kids",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "m-net-sport-mk",
+   "name": "M-Net Sport",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nasa-tv-mk",
+   "name": "Nasa TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rock-tv-mk",
+   "name": "Rock TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "topestrada-tv-mk",
+   "name": "TopEstrada TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dvb-tv-mm",
+   "name": "DVB TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mnb-mn",
+   "name": "MNB",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mnb-mongoliin-medee-mn",
+   "name": "MNB Mongoliin Medee",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mnb-sport-mn",
+   "name": "MNB Sport",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mnb-world-mn",
+   "name": "MNB World",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-macau-mo",
+   "name": "Canal Macau",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdm-entertainment-mo",
+   "name": "TDM Entertainment",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdm-information-mo",
+   "name": "TDM Information",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdm-ou-mun-mo",
+   "name": "TDM Ou Mun",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdm-sports-mo",
+   "name": "TDM Sports",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdm-macau-satellite-mo",
+   "name": "TDM-Macau Satellite",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zitata-tv-mq",
+   "name": "Zitata TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-maldives-mv",
+   "name": "TV Maldives",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-buap-mx",
+   "name": "TV BUAP",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "unison-tv-mx",
+   "name": "Unison TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "maah-tv-my",
+   "name": "Maah TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvm-mz",
+   "name": "TVM",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fortis-tv-ng",
+   "name": "Fortis TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "news-central-ng",
+   "name": "News Central",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-10-ni",
+   "name": "Canal 10",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-cvision-ni",
+   "name": "Canal Cvision",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "a1-tv-nl",
+   "name": "A1 TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "beattv-nl",
+   "name": "BEATTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "jin-tv-nl",
+   "name": "Jin TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "qmusic-nl",
+   "name": "Qmusic",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radio-350-nl",
+   "name": "Radio 350",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radionl-tv-nl",
+   "name": "RadioNL TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtv-drenthe-nl",
+   "name": "RTV Drenthe",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "streekstad-central-nl",
+   "name": "Streekstad Central",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-rain-nl",
+   "name": "TV Rain",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-actualiteitenkanaal-nl",
+   "name": "Tweede Kamer: Actualiteitenkanaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-aletta-jacobszaal-nl",
+   "name": "Tweede Kamer: Aletta Jacobszaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-enquetezaal-nl",
+   "name": "Tweede Kamer: Enquetezaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-groen-van-prinstererzaal-nl",
+   "name": "Tweede Kamer: Groen van Prinstererzaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-klompezaal-nl",
+   "name": "Tweede Kamer: Klompezaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-max-van-der-stoelzaal-nl",
+   "name": "Tweede Kamer: Max van der Stoelzaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-plenaire-zaal-nl",
+   "name": "Tweede Kamer: Plenaire zaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-suze-groenewegzaal-nl",
+   "name": "Tweede Kamer: Suze Groenewegzaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-thorbeckezaal-nl",
+   "name": "Tweede Kamer: Thorbeckezaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-tilanuskamer-nl",
+   "name": "Tweede Kamer: Tilanuskamer",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-troelstrazaal-nl",
+   "name": "Tweede Kamer: Troelstrazaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tweede-kamer-wttewaall-van-stoetwegenzaal-nl",
+   "name": "Tweede Kamer: Wttewaall van Stoetwegenzaal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zfm-zoetermeer-tv-nl",
+   "name": "ZFM Zoetermeer TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "frikanalen-no",
+   "name": "Frikanalen",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "wairarapa-tv-nz",
+   "name": "Wairarapa TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "eco-television-pe",
+   "name": "ECO Television",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "folklore-tv-pe",
+   "name": "Folklore TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "huacho-peru-tv-pe",
+   "name": "Huacho Peru TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "milenial-tv-pe",
+   "name": "Milenial TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "onda-digital-pe",
+   "name": "ONDA DIGITAL",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trivu-pe",
+   "name": "Trivu",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dunya-news-pk",
+   "name": "Dunya News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bialogardzka-telewizja-kablowa-pl",
+   "name": "Bialogardzka Telewizja Kablowa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "btb-pl",
+   "name": "BTB",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "btb-info-pl",
+   "name": "BTB Info",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "btb-music-pl",
+   "name": "BTB Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "euronews-pl",
+   "name": "Euronews",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "radiowa-czworka-pl",
+   "name": "Radiowa Czworka",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tvk-stella-pl",
+   "name": "TVK Stella",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "al-najah-news-ps",
+   "name": "Al Najah News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-5-tv-max-py",
+   "name": "Canal 5 TV Max",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "farra-play-py",
+   "name": "Farra Play",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nanduti-py",
+   "name": "Nanduti",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "paraguay-tv-py",
+   "name": "Paraguay TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "acces-direct-ro",
+   "name": "Acces Direct",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "antena-monden-ro",
+   "name": "Antena Monden",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "asia-express-nonstop-ro",
+   "name": "Asia Express NonStop",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "banat-tv-ro",
+   "name": "Banat TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "comedy-play-ro",
+   "name": "Comedy Play",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dotto-tv-ro",
+   "name": "Dotto TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "emi-tv-ro",
+   "name": "EMI TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "formula-1-antenaplay-ro",
+   "name": "Formula 1 AntenaPlay",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hunedoara-1-ro",
+   "name": "Hunedoara 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "impact-tv-dance-ro",
+   "name": "Impact TV Dance",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "impact-tv-manele-ro",
+   "name": "Impact TV Manele",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "in-puii-mei-ro",
+   "name": "In Puii Mei",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "intermedia-tv-ro",
+   "name": "Intermedia TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "iroast-ro",
+   "name": "iRoast",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "iumor-ro",
+   "name": "iUmor",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "kanal-d-ro",
+   "name": "Kanal D",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "medicool-tv-ro",
+   "name": "MediCOOL TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mireasa-ro",
+   "name": "Mireasa",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nasul-tv-ro",
+   "name": "Nasul TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "realitatea-plus-ro",
+   "name": "Realitatea Plus",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tele7abc-hd-ro",
+   "name": "Tele7ABC HD",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tele7music-ro",
+   "name": "Tele7music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rtv-novi-pazar-rs",
+   "name": "RTV Novi Pazar",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tdi-radio-tv-rs",
+   "name": "TDI Radio TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "15-music-ru",
+   "name": "15+ Music",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "5-minut-tishiny-ru",
+   "name": "5 minut tishiny",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "86-ru",
+   "name": "86",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "afontovo-ru",
+   "name": "Afontovo",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "alpha-cinema-ru",
+   "name": "alpha Cinema",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "astrahan-ru-sport-ru",
+   "name": "Astrahan.Ru Sport",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "astrahan-ru-tv-ru",
+   "name": "Astrahan.Ru TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "balabol-ru",
+   "name": "Balabol",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dancehits80-ru",
+   "name": "DanceHits80",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "gorodskoy-telekanal-ru",
+   "name": "Gorodskoy telekanal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "govorit-moskva-ru",
+   "name": "Govorit Moskva",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "istoki-ru",
+   "name": "Istoki",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mir-belogorya-ru",
+   "name": "Mir Belogorya",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nano-ru",
+   "name": "Nano",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nevskiy-ru",
+   "name": "Nevskiy",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "novyi-russkii-ru",
+   "name": "Novyi Russkii",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "perviy-otdel-ru",
+   "name": "Perviy otdel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pes-ru",
+   "name": "Pes",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rbk-tv-ru",
+   "name": "RBK-TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ru-tv-kids-ru",
+   "name": "RU.TV Kids",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "samara-gis-ru",
+   "name": "Samara-GIS",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shchyolkovskoe-tv-ru",
+   "name": "Shchyolkovskoe TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "shef-ru",
+   "name": "Shef",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "skoraya-pomoshch-ru",
+   "name": "Skoraya pomoshch",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-pro-ru",
+   "name": "TV PRO",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "univer-tv-ru",
+   "name": "Univer TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vital-drive-ru",
+   "name": "Vital Drive",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv1-rw",
+   "name": "TV1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "asharq-news-sa",
+   "name": "Asharq News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dabanga-tv-sd",
+   "name": "Dabanga TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "aryen-tv-se",
+   "name": "Aryen TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-lux-sk",
+   "name": "TV Lux",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "legislative-assembly-of-el-salvador-sv",
+   "name": "Legislative Assembly of El Salvador",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nw-economie-tg",
+   "name": "NW Economie",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nw-info-tg",
+   "name": "NW Info",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nw-info-2-tg",
+   "name": "NW Info 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "nw-magazine-tg",
+   "name": "NW Magazine",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "charoen-cable-37-tv-th",
+   "name": "Charoen Cable 37 TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-1-th",
+   "name": "DLTV 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-10-th",
+   "name": "DLTV 10",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-11-th",
+   "name": "DLTV 11",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-12-th",
+   "name": "DLTV 12",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-13-th",
+   "name": "DLTV 13",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-14-th",
+   "name": "DLTV 14",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-15-th",
+   "name": "DLTV 15",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-2-th",
+   "name": "DLTV 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-3-th",
+   "name": "DLTV 3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-4-th",
+   "name": "DLTV 4",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-5-th",
+   "name": "DLTV 5",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-6-th",
+   "name": "DLTV 6",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-7-th",
+   "name": "DLTV 7",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-8-th",
+   "name": "DLTV 8",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dltv-9-th",
+   "name": "DLTV 9",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mcot-hd-th",
+   "name": "MCOT HD",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "stou-channel-th",
+   "name": "STOU Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "thai-parliament-television-th",
+   "name": "Thai Parliament Television",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "top-news-th",
+   "name": "Top News",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mosaique-fm-tn",
+   "name": "Mosaique FM",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "4u-tv-tr",
+   "name": "4U TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "edessa-tv-tr",
+   "name": "Edessa TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ekoturk-tr",
+   "name": "Ekoturk",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "grand-cinema-tr",
+   "name": "Grand Cinema",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ilke-tv-tr",
+   "name": "Ilke TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "power-dance-tr",
+   "name": "Power Dance",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "power-tv-tr",
+   "name": "Power TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "powerturk-akustik-tr",
+   "name": "PowerTurk Akustik",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "powerturk-slow-tr",
+   "name": "PowerTurk Slow",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "powerturk-taptaze-tr",
+   "name": "PowerTurk Taptaze",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "powerturk-tv-tr",
+   "name": "PowerTurk TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tgrt-haber-tr",
+   "name": "TGRT Haber",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tjk-tv-tr",
+   "name": "TJK TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tjk-tv-2-tr",
+   "name": "TJK TV 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-42-tr",
+   "name": "TV 42",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv-den-tr",
+   "name": "TV Den",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "zarok-tv-tr",
+   "name": "Zarok TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bizz-tv-tt",
+   "name": "Bizz TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "supreme-master-tv-tw",
+   "name": "Supreme Master TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "git-ua",
+   "name": "GIT",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "i-ua-tv-ua",
+   "name": "I-UA.tv",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "irt-ua",
+   "name": "IRT",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "orbita-tv-ua",
+   "name": "Orbita TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pershiy-xtv-media-ua",
+   "name": "Pershiy XTV Media",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "simon-ua",
+   "name": "Simon",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "telekanal-rai-ua",
+   "name": "Telekanal RAI",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tv7-ua",
+   "name": "TV7+",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "z-ua",
+   "name": "Z",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "acw-ug-tv-ug",
+   "name": "ACW UG TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bbs-tv-ug",
+   "name": "BBS TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "afghanistan-international-uk",
+   "name": "Afghanistan International",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "anand-tv-uk",
+   "name": "Anand TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dunya-news-uk-uk",
+   "name": "Dunya News UK",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "iranefarda-tv-uk",
+   "name": "IraneFarda TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "sheffield-live-tv-uk",
+   "name": "Sheffield Live TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "trace-uk-uk",
+   "name": "Trace UK",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-georgia-hollywood-review-us",
+   "name": "30A Georgia Hollywood Review",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-investment-pitch-us",
+   "name": "30A Investment Pitch",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-lionel-nation-us",
+   "name": "30A Lionel Nation",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-loomered-tv-us",
+   "name": "30A Loomered TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-luxe-life-discovered-us",
+   "name": "30A Luxe Life Discovered",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-ridiculous-tv-us",
+   "name": "30A Ridiculous TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-sidewalks-us",
+   "name": "30A Sidewalks",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-television-channel-us",
+   "name": "30A Television Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "30a-tv-classic-movies-us",
+   "name": "30A TV Classic Movies",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "atlas-us",
+   "name": "Atlas",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "avang-tv-us",
+   "name": "Avang TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "batv-us",
+   "name": "BATV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "batv-government-tv-us",
+   "name": "BATV Government TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "big-civic-channel-us",
+   "name": "BIG Civic Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "bloomberg-originals-us",
+   "name": "Bloomberg Originals",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cbs-news-detroit-us",
+   "name": "CBS News Detroit",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "city-of-loveland-tv-us",
+   "name": "City of Loveland TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "cloudflare-tv-us",
+   "name": "Cloudflare TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ct-n-court-feed-us",
+   "name": "CT-N Court Feed",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ct-n-live-stream-2-us",
+   "name": "CT-N Live Stream 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ct-n-tv-conneticut-us",
+   "name": "CT-N TV Conneticut",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dc-council-hearing-room-120-us",
+   "name": "DC Council Hearing Room 120",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dcc-us",
+   "name": "DCC",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "detroit-channel-10-us",
+   "name": "Detroit Channel 10",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "detroit-channel-22-us",
+   "name": "Detroit Channel 22",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "detroit-channel-68-us",
+   "name": "Detroit Channel 68",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "district-of-columbia-network-us",
+   "name": "District of Columbia Network",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "dkn-us",
+   "name": "DKN",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fox-business-network-us",
+   "name": "Fox Business Network",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fox-news-channel-us",
+   "name": "Fox News Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fox-news-radio-us",
+   "name": "Fox News Radio",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "fox-weather-us",
+   "name": "Fox Weather",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ganj-e-hozour-tv-us",
+   "name": "Ganj e Hozour TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "gillette-public-access-television-channel-189-us",
+   "name": "Gillette Public Access Television Channel 189",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "gillette-public-access-television-channel-190-us",
+   "name": "Gillette Public Access Television Channel 190",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "gillette-public-access-television-channel-192-us",
+   "name": "Gillette Public Access Television Channel 192",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "gunaz-tv-us",
+   "name": "GunAz TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "hktv-us",
+   "name": "HKTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "lakewood-channel-8-us",
+   "name": "Lakewood Channel 8",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "law-crime-us",
+   "name": "Law & Crime",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "littleton-8-tv-us",
+   "name": "Littleton 8 TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "livexlive-us",
+   "name": "LIVExLIVE",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "metaleitor-tv-us",
+   "name": "Metaleitor TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "mtc-us",
+   "name": "MTC",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "natick-education-channel-us",
+   "name": "Natick Education Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "natick-government-channel-us",
+   "name": "Natick Government Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "natick-public-access-channel-us",
+   "name": "Natick Public Access Channel",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "national-iranian-congress-tv-us",
+   "name": "National Iranian Congress TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ntd-tv-us",
+   "name": "NTD TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ntd-tv-asia-pacific-us",
+   "name": "NTD TV Asia-Pacific",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ntd-tv-canada-us",
+   "name": "NTD TV Canada",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "ntd-tv-china-us",
+   "name": "NTD TV China",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "orange-government-access-tv-us",
+   "name": "Orange Government Access TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "palm-beaches-tv-us",
+   "name": "Palm Beaches TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pbs-us",
+   "name": "PBS",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "pbs-kids-us",
+   "name": "PBS Kids",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rally-tv-us",
+   "name": "Rally TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "rctv3-us",
+   "name": "RCTV3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "sgtv-us",
+   "name": "SGTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "sound-view-community-media-us",
+   "name": "Sound View Community Media",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tbcn-us",
+   "name": "TBCN",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "vsctv-us",
+   "name": "VSCTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "wcot-us",
+   "name": "WCOT",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "weathernation-us",
+   "name": "WeatherNation",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "whiplash-us",
+   "name": "Whiplash",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "whiplash-cinema-us",
+   "name": "Whiplash Cinema",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "whiplash-ii-us",
+   "name": "Whiplash II",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "window-tv-us",
+   "name": "Window TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "yuma-channel-72-us",
+   "name": "Yuma Channel 72",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "yuma-channel-73-us",
+   "name": "Yuma Channel 73",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "biz-cinema-uz",
+   "name": "BIZ Cinema",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "biz-tv-uz",
+   "name": "BIZ TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "canal-i-ve",
+   "name": "Canal I",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "maxima-tv-ve",
+   "name": "Maxima TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "tam-tv-ve",
+   "name": "TAM TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "an-giang-tv-1-vn",
+   "name": "An Giang TV 1",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "an-giang-tv-2-vn",
+   "name": "An Giang TV 2",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "an-giang-tv-3-vn",
+   "name": "An Giang TV 3",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "can-tho-tv-vn",
+   "name": "Can Tho TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "qpvn-vn",
+   "name": "QPVN",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "thai-nguyen-tv-vn",
+   "name": "Thai Nguyen TV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  },
+  {
+   "id": "boktv-za",
+   "name": "BOKTV",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ]
+  }
+ ]
+}

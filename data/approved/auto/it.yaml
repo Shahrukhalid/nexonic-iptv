@@ -1,0 +1,769 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 20-it
+  name: '20'
+  alt_names:
+  - 20Mediaset
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: https://www.mediasetplay.mediaset.it/20mediaset
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/20mediaset
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 20.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canale-5-it
+  name: Canale 5
+  alt_names:
+  - Canale 10
+  - Telemilano
+  broadcaster: Mediasat
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: https://mediasetinfinity.mediaset.it/canale5
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://mediasetinfinity.mediaset.it/canale5
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Canale5.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cine34-it
+  name: Cine34
+  alt_names: []
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - movies
+  website: https://www.mediasetplay.mediaset.it/cine34
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(b6)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/cine34
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Cine34.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: iris-it
+  name: Iris
+  alt_names: []
+  broadcaster: Mediaset Italia
+  country: it
+  languages:
+  - it
+  - en
+  categories:
+  - entertainment
+  website: https://www.mediasetplay.mediaset.it/iris
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ki)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/iris
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Iris.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: italia-1-it
+  name: Italia 1
+  alt_names: []
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.mediasetplay.mediaset.it/italia1
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/italia1
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Italia1.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: italia-2-it
+  name: Italia 2
+  alt_names: []
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: https://www.mediasetplay.mediaset.it/italia2
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i2)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/italia2
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Italia2.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la5-it
+  name: La5
+  alt_names: []
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: https://www.mediasetplay.mediaset.it/la5
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(ka)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.mediasetplay.mediaset.it/la5
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: La5.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: peer-tv-alto-adige-it
+  name: Peer TV Alto Adige
+  alt_names:
+  - Peer TV
+  broadcaster: Peer GmbH / SRL
+  country: it
+  languages:
+  - it
+  categories:
+  - lifestyle
+  website: https://www.peer.tv/it
+  stream:
+    url: https://iptv.peer.biz/live/peertv-it.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.peer.tv/it
+    evidence_summary: 'Automated owner-domain match: stream host iptv.peer.biz (peer.biz) shares the broadcaster''s domain
+      name ''peer'' (peer.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PeerTVAltoAdige.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: peer-tv-south-tyrol-it
+  name: Peer TV South Tyrol
+  alt_names:
+  - Peer TV
+  broadcaster: Peer GmbH / SRL
+  country: it
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://www.peer.tv/en
+  stream:
+    url: https://iptv.peer.biz/live/peertv-en.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.peer.tv/en
+    evidence_summary: 'Automated owner-domain match: stream host iptv.peer.biz (peer.biz) shares the broadcaster''s domain
+      name ''peer'' (peer.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PeerTVSouthTyrol.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: peer-tv-sudtirol-it
+  name: Peer TV Sudtirol
+  alt_names:
+  - Peer TV Südtirol
+  - Peer TV
+  broadcaster: Peer GmbH / SRL
+  country: it
+  languages:
+  - de
+  categories:
+  - lifestyle
+  website: https://www.peer.tv/
+  stream:
+    url: https://iptv.peer.biz/live/peertv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.peer.tv/
+    evidence_summary: 'Automated owner-domain match: stream host iptv.peer.biz (peer.biz) shares the broadcaster''s domain
+      name ''peer'' (peer.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PeerTVSudtirol.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rai-3-it
+  name: Rai 3
+  alt_names:
+  - Rai Tre
+  - Third Network
+  - Rete 3
+  broadcaster: Rai
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.rai.it/rai3/
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.rai.it/rai3/
+    evidence_summary: 'Automated owner-domain match: stream host mediapolis.rai.it is on the broadcaster''s domain rai.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Rai3.it@HD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rai-4-it
+  name: Rai 4
+  alt_names: []
+  broadcaster: Rai
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.rai.it/rai4/
+  stream:
+    url: https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.rai.it/rai4/
+    evidence_summary: 'Automated owner-domain match: stream host mediapolisevent.rai.it is on the broadcaster''s domain rai.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Rai4.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rai-gulp-it
+  name: Rai Gulp
+  alt_names: []
+  broadcaster: Rai
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: http://www.raigulp.rai.it/
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: http://www.raigulp.rai.it/
+    evidence_summary: 'Automated owner-domain match: stream host mediapolis.rai.it is on the broadcaster''s domain rai.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RaiGulp.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rai-storia-it
+  name: Rai Storia
+  alt_names:
+  - Rai Edu 2
+  broadcaster: Rai
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: http://www.rai.it/raistoria/
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: http://www.rai.it/raistoria/
+    evidence_summary: 'Automated owner-domain match: stream host mediapolis.rai.it is on the broadcaster''s domain rai.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RaiStoria.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: telemia-it
+  name: TeleMia
+  alt_names: []
+  broadcaster: TeleMia
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.telemia.it/
+  stream:
+    url: https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.telemia.it/
+    evidence_summary: 'Automated owner-domain match: stream host playerssl.telemia.tv (telemia.tv) shares the broadcaster''s
+      domain name ''telemia'' (telemia.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TeleMia.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: telemia-extra-it
+  name: TeleMia Extra
+  alt_names: []
+  broadcaster: TeleMia Extra
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.telemia.it/telemia-extra/
+  stream:
+    url: https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.telemia.it/telemia-extra/
+    evidence_summary: 'Automated owner-domain match: stream host playerssl.telemia.tv (telemia.tv) shares the broadcaster''s
+      domain name ''telemia'' (telemia.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TeleMiaExtra.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: teleromagna-it
+  name: Teleromagna
+  alt_names: []
+  broadcaster: Teleromagna
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://teleromagna.it/it/live/teleromagna
+  stream:
+    url: https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://teleromagna.it/it/live/teleromagna
+    evidence_summary: 'Automated owner-domain match: stream host livetr.teleromagna.it is on the broadcaster''s domain teleromagna.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Teleromagna.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tgcom24-it
+  name: TGCom24
+  alt_names: []
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - news
+  website: https://www.tgcom24.mediaset.it/
+  stream:
+    url: https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://www.tgcom24.mediaset.it/
+    evidence_summary: 'Automated owner-domain match: CDN hostname live2-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TGCom24.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: top-crime-it
+  name: Top Crime
+  alt_names:
+  - For You
+  - ME
+  - Mediashopping
+  broadcaster: MFE - MediaForEurope
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: http://www.mediaset.it/topcrime/
+  stream:
+    url: https://live3-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(lt)/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: http://www.mediaset.it/topcrime/
+    evidence_summary: 'Automated owner-domain match: CDN hostname live3-mediaset-it.akamaized.net is named for the broadcaster''s
+      domain ''mediaset'' (mediaset.it). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TopCrime.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tr-sport-it
+  name: TR Sport
+  alt_names: []
+  broadcaster: TR Sport
+  country: it
+  languages:
+  - it
+  categories:
+  - sports
+  website: https://teleromagna.it/it/live/tr-sport
+  stream:
+    url: https://livetr.teleromagna.it/mia/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/it.m3u
+    evidence_url: https://teleromagna.it/it/live/tr-sport
+    evidence_summary: 'Automated owner-domain match: stream host livetr.teleromagna.it is on the broadcaster''s domain teleromagna.it.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TRSport.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

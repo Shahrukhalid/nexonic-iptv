@@ -1,0 +1,115 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: apa-tv-az
+  name: APA Tv
+  alt_names: []
+  broadcaster: APA Tv
+  country: az
+  languages:
+  - az
+  categories:
+  - news
+  website: https://apa.tv/
+  stream:
+    url: http://stream.apa.tv/apastream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/az.m3u
+    evidence_url: https://apa.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.apa.tv is on the broadcaster''s domain apa.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: APATv.az@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: baku-tv-az
+  name: Baku.TV
+  alt_names: []
+  broadcaster: Baku.TV
+  country: az
+  languages:
+  - az
+  categories:
+  - news
+  website: https://baku.tv/
+  stream:
+    url: https://rtmp.baku.tv/hls/bakutv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/az.m3u
+    evidence_url: https://baku.tv/
+    evidence_summary: 'Automated owner-domain match: stream host rtmp.baku.tv is on the broadcaster''s domain baku.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BakuTV.az@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ictimai-tv-az
+  name: Ictimai TV
+  alt_names:
+  - İctimai TV
+  broadcaster: Public Television and Radio Broadcasting Company
+  country: az
+  languages:
+  - az
+  categories:
+  - general
+  website: https://itv.az/
+  stream:
+    url: https://live.itv.az/itv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/az.m3u
+    evidence_url: https://itv.az/
+    evidence_summary: 'Automated owner-domain match: stream host live.itv.az is on the broadcaster''s domain itv.az. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IctimaiTV.az@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

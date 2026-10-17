@@ -1,0 +1,152 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: canal-5-tv-max-py
+  name: Canal 5 TV Max
+  alt_names: []
+  broadcaster: Tv Max Cable S.A.
+  country: py
+  languages:
+  - es
+  categories:
+  - general
+  website: https://tvmaxsa.com.py/
+  stream:
+    url: https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/py.m3u
+    evidence_url: https://tvmaxsa.com.py/
+    evidence_summary: 'Automated owner-domain match: stream host tvmaxsa.com.py is on the broadcaster''s domain tvmaxsa.com.py.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Canal5TVMax.py@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: farra-play-py
+  name: Farra Play
+  alt_names: []
+  broadcaster: Farra Play
+  country: py
+  languages:
+  - es
+  categories:
+  - music
+  website: http://www.farra.com.py/
+  stream:
+    url: https://stream.farra.com.py/live/farra_low.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/py.m3u
+    evidence_url: http://www.farra.com.py/
+    evidence_summary: 'Automated owner-domain match: stream host stream.farra.com.py is on the broadcaster''s domain farra.com.py.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FarraPlay.py@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nanduti-py
+  name: Nanduti
+  alt_names:
+  - Ñanduti
+  broadcaster: Nanduti
+  country: py
+  languages:
+  - es
+  categories:
+  - news
+  website: https://nanduti.com.py/nanduti-tv/
+  stream:
+    url: https://nanduti.b-cdn.net/720p.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/py.m3u
+    evidence_url: https://nanduti.com.py/nanduti-tv/
+    evidence_summary: 'Automated owner-domain match: CDN hostname nanduti.b-cdn.net is named for the broadcaster''s domain
+      ''nanduti'' (nanduti.com.py). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Nanduti.py@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: paraguay-tv-py
+  name: Paraguay TV
+  alt_names: []
+  broadcaster: Government of Paraguay
+  country: py
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.paraguaytv.gov.py/
+  stream:
+    url: https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/py.m3u
+    evidence_url: https://www.paraguaytv.gov.py/
+    evidence_summary: 'Automated owner-domain match: stream host stream.paraguaytv.gov.py is on the broadcaster''s domain
+      paraguaytv.gov.py. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ParaguayTV.py@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

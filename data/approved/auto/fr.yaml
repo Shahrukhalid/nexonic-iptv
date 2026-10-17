@@ -1,0 +1,1023 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 4-music-fr
+  name: 4 Music
+  alt_names: []
+  broadcaster: Persiana Media Group
+  country: fr
+  languages:
+  - fa
+  categories:
+  - music
+  website: https://4music.persiana.live/
+  stream:
+    url: https://musichls.persiana.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_persiana.m3u
+    evidence_url: https://4music.persiana.live/
+    evidence_summary: 'Automated owner-domain match: stream host musichls.persiana.live is on the broadcaster''s domain persiana.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 4Music.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 4kurd-fr
+  name: 4Kurd
+  alt_names: []
+  broadcaster: Persiana Media Group
+  country: fr
+  languages:
+  - ku
+  - fa
+  categories:
+  - music
+  website: https://4kurd.persiana.live/
+  stream:
+    url: https://4kuhls.persiana.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_persiana.m3u
+    evidence_url: https://4kurd.persiana.live/
+    evidence_summary: 'Automated owner-domain match: stream host 4kuhls.persiana.live is on the broadcaster''s domain persiana.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 4Kurd.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: euronews-russian-fr
+  name: Euronews Russian
+  alt_names:
+  - Euronews по-русски
+  - Euronews Russki
+  broadcaster: Euronews SA
+  country: fr
+  languages:
+  - ru
+  categories:
+  - news
+  website: https://ru.euronews.com/
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://ru.euronews.com/
+    evidence_summary: 'Automated owner-domain match: CDN hostname cdn-euronews.akamaized.net is named for the broadcaster''s
+      domain ''euronews'' (euronews.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EuronewsRussian.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: le-figaro-tv-ile-de-france-fr
+  name: Le Figaro TV Ile-de-France
+  alt_names:
+  - Le Figaro TV Île-de-France
+  broadcaster: Le Figaro TV Ile-de-France
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://video.lefigaro.fr/
+  stream:
+    url: https://static.lefigaro.fr/secom/tnt.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://video.lefigaro.fr/
+    evidence_summary: 'Automated owner-domain match: stream host static.lefigaro.fr is on the broadcaster''s domain lefigaro.fr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LeFigaroTVIledeFrance.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: telegohelle-fr
+  name: TeleGohelle
+  alt_names:
+  - TéléGohelle
+  broadcaster: TeleGohelle
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://telegohelle.agglo-lenslievin.fr/
+  stream:
+    url: https://videas.agglo-lenslievin.fr/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://telegohelle.agglo-lenslievin.fr/
+    evidence_summary: 'Automated owner-domain match: stream host videas.agglo-lenslievin.fr is on the broadcaster''s domain
+      agglo-lenslievin.fr. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TeleGohelle.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-africa-fr
+  name: Trace Africa
+  alt_names: []
+  broadcaster: Trace Africa
+  country: fr
+  languages:
+  - en
+  - fr
+  categories:
+  - music
+  website: http://trace.tv/trace-africa/
+  stream:
+    url: https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: http://trace.tv/trace-africa/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceAfrica.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-afrikora-fr
+  name: Trace Afrikora
+  alt_names: []
+  broadcaster: Trace Afrikora
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-afrikora/
+  stream:
+    url: https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-afrikora/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceAfrikora.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-ayiti-fr
+  name: Trace Ayiti
+  alt_names:
+  - Trace Prime
+  broadcaster: Trace Ayiti
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-ayiti/
+  stream:
+    url: https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-ayiti/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceAyiti.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-brazuca-fr
+  name: Trace Brazuca
+  alt_names: []
+  broadcaster: Trace Brazuca
+  country: fr
+  languages:
+  - pt
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-brazuca/
+  stream:
+    url: https://channels.trace.plus/Traceprod/BRAZIL_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-brazuca/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceBrazuca.fr@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-caribbean-fr
+  name: Trace Caribbean
+  alt_names: []
+  broadcaster: Trace Caribbean
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-caribbean/
+  stream:
+    url: https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-caribbean/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceCaribbean.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-jama-fr
+  name: Trace Jama
+  alt_names: []
+  broadcaster: Trace Jama
+  country: fr
+  languages:
+  - en
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-jama/
+  stream:
+    url: https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-jama/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceJama.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-kitoko-fr
+  name: Trace Kitoko
+  alt_names: []
+  broadcaster: Trace Kitoko
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-kitoko/
+  stream:
+    url: https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-kitoko/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceKitoko.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-latina-fr
+  name: Trace Latina
+  alt_names: []
+  broadcaster: Trace Latina
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/television/trace-latina
+  stream:
+    url: https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/television/trace-latina
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceLatina.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-mboa-fr
+  name: Trace Mboa
+  alt_names: []
+  broadcaster: Trace Mboa
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://fr.trace.tv/
+  stream:
+    url: https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://fr.trace.tv/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceMboa.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-muzika-fr
+  name: Trace Muzika
+  alt_names: []
+  broadcaster: Trace Muzika
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.tv/traceprime/
+  stream:
+    url: https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.tv/traceprime/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceMuzika.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-mziki-fr
+  name: Trace Mziki
+  alt_names: []
+  broadcaster: Trace Mziki
+  country: fr
+  languages:
+  - en
+  categories:
+  - music
+  website: https://trace.tv/trace-mziki/
+  stream:
+    url: https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.tv/trace-mziki/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceMziki.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-naija-fr
+  name: Trace Naija
+  alt_names: []
+  broadcaster: Trace Naija
+  country: fr
+  languages:
+  - en
+  categories:
+  - music
+  website: http://trace.tv/trace-naija/
+  stream:
+    url: https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: http://trace.tv/trace-naija/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceNaija.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-sport-stars-fr
+  name: Trace Sport Stars
+  alt_names: []
+  broadcaster: Trace Sport Stars
+  country: fr
+  languages:
+  - en
+  - fr
+  categories:
+  - sports
+  website: http://www.trace.tv/fr/tv/sport
+  stream:
+    url: https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: http://www.trace.tv/fr/tv/sport
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceSportStars.fr@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-toca-fr
+  name: Trace Toca
+  alt_names: []
+  broadcaster: Trace Toca
+  country: fr
+  languages:
+  - pt
+  categories:
+  - music
+  website: https://fr.trace.tv/trace-toca/
+  stream:
+    url: https://channels.trace.plus/Traceprod/TOCA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://fr.trace.tv/trace-toca/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceToca.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-urban-fr
+  name: Trace Urban
+  alt_names:
+  - Trace TV
+  broadcaster: TPG Capital Trace Partners
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://fr.trace.tv/trace-urban/
+  stream:
+    url: https://channels.trace.plus/Traceprod/URBAN_AFRIC_FR_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://fr.trace.tv/trace-urban/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceUrban.fr@AfricaFranco
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-vanilla-islands-fr
+  name: Trace Vanilla Islands
+  alt_names: []
+  broadcaster: Trace Vanilla Islands
+  country: fr
+  languages:
+  - fr
+  categories:
+  - music
+  website: https://trace.company/activities/television/trace-vanillaislands/
+  stream:
+    url: https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.company/activities/television/trace-vanillaislands/
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster''s
+      domain name ''trace'' (trace.company). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceVanillaIslands.fr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-asia-fr
+  name: TV5Monde Asia
+  alt_names:
+  - TV5Monde Asie
+  broadcaster: TV5Monde Asia
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://apac.tv5monde.com/
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://apac.tv5monde.com/
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondeAsia.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-europe-fr
+  name: TV5Monde Europe
+  alt_names: []
+  broadcaster: TV5Monde Europe
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://europe.tv5monde.com/
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://europe.tv5monde.com/
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondeEurope.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-france-belgium-switzerland-monaco-fr
+  name: TV5Monde France Belgium Switzerland Monaco
+  alt_names:
+  - TV5Monde France Belgique Suisse Monaco
+  - TV5Monde France Belgium Switzerland
+  - TV5Monde
+  broadcaster: TV5Monde France Belgium Switzerland Monaco
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://live.tv5monde.com/fbs.html
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://live.tv5monde.com/fbs.html
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-info-fr
+  name: TV5Monde Info
+  alt_names: []
+  broadcaster: TV5Monde Info
+  country: fr
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://maghreb-orient.tv5monde.com/en/direct-tv5monde-info
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://maghreb-orient.tv5monde.com/en/direct-tv5monde-info
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondeInfo.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-pacific-fr
+  name: TV5Monde Pacific
+  alt_names:
+  - TV5Monde Pacifique
+  broadcaster: TV5Monde Pacific
+  country: fr
+  languages:
+  - fr
+  - en
+  categories:
+  - general
+  website: https://apac.tv5monde.com/
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(pacifique)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://apac.tv5monde.com/
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondePacific.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv5monde-style-fr
+  name: TV5Monde Style
+  alt_names: []
+  broadcaster: TV5Monde Style
+  country: fr
+  languages:
+  - fr
+  categories:
+  - lifestyle
+  website: https://apac.tv5monde.com/channels
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
+    evidence_url: https://apac.tv5monde.com/channels
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5MondeStyle.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

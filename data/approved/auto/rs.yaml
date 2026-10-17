@@ -1,0 +1,78 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: rtv-novi-pazar-rs
+  name: RTV Novi Pazar
+  alt_names: []
+  broadcaster: Radio Televizija Novi Pazar d.o.o.
+  country: rs
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://rtvnp.rs/
+  stream:
+    url: https://tv.rtvnp.rs/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/rs.m3u
+    evidence_url: https://rtvnp.rs/
+    evidence_summary: 'Automated owner-domain match: stream host tv.rtvnp.rs is on the broadcaster''s domain rtvnp.rs. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTVNoviPazar.rs@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdi-radio-tv-rs
+  name: TDI Radio TV
+  alt_names:
+  - ТДИ Радио Телевизиjа
+  broadcaster: Maxim Media Plus doo
+  country: rs
+  languages:
+  - sr
+  categories:
+  - music
+  website: http://www.tdiradio.com/
+  stream:
+    url: https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/rs.m3u
+    evidence_url: http://www.tdiradio.com/
+    evidence_summary: 'Automated owner-domain match: stream host peer2.tdiradio.com is on the broadcaster''s domain tdiradio.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TDIRadioTV.rs@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

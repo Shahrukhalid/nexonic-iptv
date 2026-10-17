@@ -1,0 +1,116 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: canal-i-ve
+  name: Canal I
+  alt_names: []
+  broadcaster: Wilmer Ruperti
+  country: ve
+  languages:
+  - es
+  categories:
+  - news
+  website: http://canal-i.com/
+  stream:
+    url: https://streaming.canal-i.com/canal-i/live/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ve.m3u
+    evidence_url: http://canal-i.com/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.canal-i.com is on the broadcaster''s domain canal-i.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalI.ve@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: maxima-tv-ve
+  name: Maxima TV
+  alt_names:
+  - Máxima TV
+  broadcaster: Maxima TV
+  country: ve
+  languages:
+  - es
+  categories:
+  - entertainment
+  website: https://maximatv.net/
+  stream:
+    url: https://maximatv.net/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ve.m3u
+    evidence_url: https://maximatv.net/
+    evidence_summary: 'Automated owner-domain match: stream host maximatv.net is on the broadcaster''s domain maximatv.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MaximaTV.ve@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tam-tv-ve
+  name: TAM TV
+  alt_names:
+  - Televisora Andina de Mérida
+  broadcaster: TAM TV
+  country: ve
+  languages:
+  - es
+  categories:
+  - general
+  website: https://tamtv.com.ve/
+  stream:
+    url: https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ve.m3u
+    evidence_url: https://tamtv.com.ve/
+    evidence_summary: 'Automated owner-domain match: stream host rtmp.tamtv.com.ve is on the broadcaster''s domain tamtv.com.ve.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TAMTV.ve@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

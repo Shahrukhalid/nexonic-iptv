@@ -1,0 +1,304 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: moldova-1-md
+  name: Moldova 1
+  alt_names: []
+  broadcaster: Teleradio-Moldova
+  country: md
+  languages:
+  - ro
+  - ru
+  categories:
+  - general
+  website: https://trm.md/ro/moldova-1
+  stream:
+    url: https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://trm.md/ro/moldova-1
+    evidence_summary: 'Automated owner-domain match: stream host v0.trm.md is on the broadcaster''s domain trm.md. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Moldova1.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: moldova-2-md
+  name: Moldova 2
+  alt_names: []
+  broadcaster: Teleradio-Moldova
+  country: md
+  languages:
+  - ro
+  - ru
+  categories:
+  - general
+  website: https://trm.md/ro/moldova-2
+  stream:
+    url: https://v0.trm.md/static/streaming-playlists/hls/d5fafab0-9c37-4746-9e7a-b2d6c0427015/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://trm.md/ro/moldova-2
+    evidence_summary: 'Automated owner-domain match: stream host v0.trm.md is on the broadcaster''s domain trm.md. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Moldova2.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: moldova-tv-md
+  name: Moldova TV
+  alt_names: []
+  broadcaster: Moldova TV
+  country: md
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://moldovatv.ro/
+  stream:
+    url: https://moldovatv.ro/live-tv/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://moldovatv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host moldovatv.ro is on the broadcaster''s domain moldovatv.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MoldovaTV.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: privesc-eu-tv-md
+  name: Privesc.Eu TV
+  alt_names: []
+  broadcaster: Privesc.Eu TV
+  country: md
+  languages:
+  - ro
+  categories:
+  - legislative
+  website: https://www.privesc.eu/tv
+  stream:
+    url: https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://www.privesc.eu/tv
+    evidence_summary: 'Automated owner-domain match: stream host cachestar.privesc.eu is on the broadcaster''s domain privesc.eu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PrivescEuTV.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pro-tv-chisinau-md
+  name: PRO TV Chisinau
+  alt_names:
+  - PRO TV Chișinău
+  broadcaster: PRO Digital SRL
+  country: md
+  languages:
+  - ro
+  categories:
+  - general
+  - news
+  website: https://protv.md/
+  stream:
+    url: https://stream.protv.md/live/sursa-1/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://protv.md/
+    evidence_summary: 'Automated owner-domain match: stream host stream.protv.md is on the broadcaster''s domain protv.md.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PROTVChisinau.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tezaur-tv-md
+  name: Tezaur TV
+  alt_names: []
+  broadcaster: Tezaur TV
+  country: md
+  languages:
+  - ro
+  categories:
+  - music
+  website: https://tezaurtv.md
+  stream:
+    url: https://tezaurtv.md/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://tezaurtv.md
+    evidence_summary: 'Automated owner-domain match: stream host tezaurtv.md is on the broadcaster''s domain tezaurtv.md.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TezaurTV.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tsv-md
+  name: TSV
+  alt_names:
+  - ТСВ
+  broadcaster: TSV
+  country: md
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://tsv.md/
+  stream:
+    url: https://tsv.md/stream/hls/tsv-online/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://tsv.md/
+    evidence_summary: 'Automated owner-domain match: stream host tsv.md is on the broadcaster''s domain tsv.md. Channel metadata
+      from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TSV.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vocea-basarabiei-tv-md
+  name: Vocea Basarabiei TV
+  alt_names: []
+  broadcaster: Vocea Basarabiei TV
+  country: md
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://voceabasarabiei.md/vb-tv
+  stream:
+    url: https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/md.m3u
+    evidence_url: https://voceabasarabiei.md/vb-tv
+    evidence_summary: 'Automated owner-domain match: stream host media.voceabasarabiei.md is on the broadcaster''s domain
+      voceabasarabiei.md. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VoceaBasarabieiTV.md@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

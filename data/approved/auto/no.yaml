@@ -1,0 +1,40 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: frikanalen-no
+  name: Frikanalen
+  alt_names: []
+  broadcaster: Frikanalen
+  country: 'no'
+  languages:
+  - 'no'
+  categories:
+  - general
+  website: https://www.frikanalen.no/
+  stream:
+    url: https://frikanalen.no/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/no.m3u
+    evidence_url: https://www.frikanalen.no/
+    evidence_summary: 'Automated owner-domain match: stream host frikanalen.no is on the broadcaster''s domain frikanalen.no.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Frikanalen.no@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

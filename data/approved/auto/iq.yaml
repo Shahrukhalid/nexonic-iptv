@@ -1,0 +1,234 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: afaq-tv-iq
+  name: Afaq TV
+  alt_names:
+  - قناة آفاق الفضائية
+  broadcaster: Nouri al-Maliki
+  country: iq
+  languages:
+  - ar
+  - en
+  categories:
+  - general
+  website: https://www.afaq.tv/
+  stream:
+    url: https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: https://www.afaq.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.afaq.iq (afaq.iq) shares the broadcaster''s domain
+      name ''afaq'' (afaq.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AfaqTV.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: alawla-tv-iq
+  name: Alawla TV
+  alt_names:
+  - 1TV
+  - قناة الاولى العراقية
+  broadcaster: Alawla TV
+  country: iq
+  languages:
+  - ar
+  categories:
+  - general
+  website: https://alawla.tv/live.html
+  stream:
+    url: https://live.alawla.tv/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: https://alawla.tv/live.html
+    evidence_summary: 'Automated owner-domain match: stream host live.alawla.tv is on the broadcaster''s domain alawla.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AlawlaTV.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: channel8-iq
+  name: Channel8
+  alt_names: []
+  broadcaster: Patriotic Union of Kurdistan
+  country: iq
+  languages:
+  - ku
+  - ar
+  - en
+  categories:
+  - news
+  website: https://channel8.com/english/
+  stream:
+    url: https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: https://channel8.com/english/
+    evidence_summary: 'Automated owner-domain match: stream host live.channel8.com is on the broadcaster''s domain channel8.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Channel8.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rudaw-tv-iq
+  name: Rudaw TV
+  alt_names:
+  - Rûdaw TV
+  broadcaster: Rudaw TV
+  country: iq
+  languages:
+  - ku
+  categories:
+  - news
+  website: https://rudaw.net/
+  stream:
+    url: https://live.rudaw.net/hls/rudaw-tv/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: https://rudaw.net/
+    evidence_summary: 'Automated owner-domain match: stream host live.rudaw.net is on the broadcaster''s domain rudaw.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RudawTV.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: samarra-tv-iq
+  name: Samarra TV
+  alt_names:
+  - قناة سامراء الفضائية
+  broadcaster: Samarra TV
+  country: iq
+  languages:
+  - ar
+  categories:
+  - general
+  website: http://www.samarra.tv/
+  stream:
+    url: https://samarra.tv/proxy.php/hls/main3/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: http://www.samarra.tv/
+    evidence_summary: 'Automated owner-domain match: stream host samarra.tv is on the broadcaster''s domain samarra.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SamarraTV.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: shams-tv-iq
+  name: Shams TV
+  alt_names:
+  - شمس
+  broadcaster: Shams TV
+  country: iq
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://shams.tv
+  stream:
+    url: https://stream.shams.tv/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/iq.m3u
+    evidence_url: https://shams.tv
+    evidence_summary: 'Automated owner-domain match: stream host stream.shams.tv is on the broadcaster''s domain shams.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ShamsTV.iq@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

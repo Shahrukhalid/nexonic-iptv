@@ -1,0 +1,821 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: acces-direct-ro
+  name: Acces Direct
+  alt_names: []
+  broadcaster: Acces Direct
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/acces-direct-live
+  stream:
+    url: https://live77cdn2.antenaplay.ro/live2_fast/ch6/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/acces-direct-live
+    evidence_summary: 'Automated owner-domain match: stream host live77cdn2.antenaplay.ro is on the broadcaster''s domain
+      antenaplay.ro. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AccesDirect.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: antena-monden-ro
+  name: Antena Monden
+  alt_names: []
+  broadcaster: Intact Media Group
+  country: ro
+  languages:
+  - ro
+  categories:
+  - lifestyle
+  website: https://antenaplay.ro/
+  stream:
+    url: https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/
+    evidence_summary: 'Automated owner-domain match: stream host stream1.antenaplay.ro is on the broadcaster''s domain antenaplay.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AntenaMonden.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: asia-express-nonstop-ro
+  name: Asia Express NonStop
+  alt_names: []
+  broadcaster: Antena TV Group
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/asia-express-nonstop
+  stream:
+    url: https://live4dai.antenaplay.ro/live2_sport05/live2_sport05_600k.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/asia-express-nonstop
+    evidence_summary: 'Automated owner-domain match: stream host live4dai.antenaplay.ro is on the broadcaster''s domain antenaplay.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AsiaExpressNonStop.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: banat-tv-ro
+  name: Banat TV
+  alt_names: []
+  broadcaster: Banat TV
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.btv.ro/
+  stream:
+    url: https://www.btv.ro/hls/banat-tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://www.btv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host www.btv.ro is on the broadcaster''s domain btv.ro. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BanatTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: comedy-play-ro
+  name: Comedy Play
+  alt_names: []
+  broadcaster: Comedy Play
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/
+  stream:
+    url: https://stream1.antenaplay.ro/live/ComedyPlay/chunklist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/
+    evidence_summary: 'Automated owner-domain match: stream host stream1.antenaplay.ro is on the broadcaster''s domain antenaplay.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ComedyPlay.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dotto-tv-ro
+  name: Dotto TV
+  alt_names: []
+  broadcaster: Dotto TV Media
+  country: ro
+  languages:
+  - ro
+  categories:
+  - news
+  website: https://dottotv.ro/
+  stream:
+    url: https://live.dottotv.ro/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://dottotv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host live.dottotv.ro is on the broadcaster''s domain dottotv.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DottoTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: emi-tv-ro
+  name: EMI TV
+  alt_names:
+  - N Sat TV Regional
+  - N Sat TV
+  broadcaster: EMI TV
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: https://www.emitv.ro/
+  stream:
+    url: https://astra.emitv.ro/hls/emi/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://www.emitv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host astra.emitv.ro is on the broadcaster''s domain emitv.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EMITV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: formula-1-antenaplay-ro
+  name: Formula 1 AntenaPlay
+  alt_names: []
+  broadcaster: Formula 1 AntenaPlay
+  country: ro
+  languages:
+  - en
+  categories:
+  - sports
+  website: https://antenaplay.ro/live/formula-1-live
+  stream:
+    url: https://live4dai.antenaplay.ro/live2_sdi09/live2_sdi09_600k.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/formula-1-live
+    evidence_summary: 'Automated owner-domain match: stream host live4dai.antenaplay.ro is on the broadcaster''s domain antenaplay.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Formula1AntenaPlay.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hunedoara-1-ro
+  name: Hunedoara 1
+  alt_names: []
+  broadcaster: Hunedoara 1
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://netstreaming.eu/hunedoara1.htm
+  stream:
+    url: https://netstreaming.eu/hd1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://netstreaming.eu/hunedoara1.htm
+    evidence_summary: 'Automated owner-domain match: stream host netstreaming.eu is on the broadcaster''s domain netstreaming.eu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Hunedoara1.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: impact-tv-dance-ro
+  name: Impact TV Dance
+  alt_names: []
+  broadcaster: Impact TV Dance
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: http://tvimpact.live/
+  stream:
+    url: https://online.tvimpact.live/hls/dancetv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: http://tvimpact.live/
+    evidence_summary: 'Automated owner-domain match: stream host online.tvimpact.live is on the broadcaster''s domain tvimpact.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ImpactTVDance.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: impact-tv-manele-ro
+  name: Impact TV Manele
+  alt_names: []
+  broadcaster: Impact TV Manele
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: http://tvimpact.live/
+  stream:
+    url: https://online.tvimpact.live/hls/impact_tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: http://tvimpact.live/
+    evidence_summary: 'Automated owner-domain match: stream host online.tvimpact.live is on the broadcaster''s domain tvimpact.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ImpactTVManele.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: in-puii-mei-ro
+  name: In Puii Mei
+  alt_names: []
+  broadcaster: In Puii Mei
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/in-puii-mei-live
+  stream:
+    url: https://live77cdn2.antenaplay.ro/live2_fast/ch7/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/in-puii-mei-live
+    evidence_summary: 'Automated owner-domain match: stream host live77cdn2.antenaplay.ro is on the broadcaster''s domain
+      antenaplay.ro. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: InPuiiMei.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: intermedia-tv-ro
+  name: Intermedia TV
+  alt_names: []
+  broadcaster: Intermedia TV
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: http://www.intermediatv.ro/
+  stream:
+    url: https://live.intermediatv.ro/ram/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: http://www.intermediatv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host live.intermediatv.ro is on the broadcaster''s domain intermediatv.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IntermediaTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: iroast-ro
+  name: iRoast
+  alt_names: []
+  broadcaster: iRoast
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/iroast
+  stream:
+    url: https://live77cdn2.antenaplay.ro/live2_fast/ch3/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/iroast
+    evidence_summary: 'Automated owner-domain match: stream host live77cdn2.antenaplay.ro is on the broadcaster''s domain
+      antenaplay.ro. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: iRoast.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: iumor-ro
+  name: iUmor
+  alt_names: []
+  broadcaster: iUmor
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/iumor
+  stream:
+    url: https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/iumor
+    evidence_summary: 'Automated owner-domain match: stream host live77cdn2.antenaplay.ro is on the broadcaster''s domain
+      antenaplay.ro. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: iUmor.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: kanal-d-ro
+  name: Kanal D
+  alt_names:
+  - Kanal D România
+  broadcaster: Dogan Media International SA
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.kanald.ro/
+  stream:
+    url: https://stream1.kanald.ro/iphone/knd-live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://www.kanald.ro/
+    evidence_summary: 'Automated owner-domain match: stream host stream1.kanald.ro is on the broadcaster''s domain kanald.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: KanalD.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: medicool-tv-ro
+  name: MediCOOL TV
+  alt_names: []
+  broadcaster: Digital Antena Group
+  country: ro
+  languages:
+  - ro
+  categories:
+  - lifestyle
+  website: https://antenaplay.ro/live/medicool-tv
+  stream:
+    url: https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/medicool-tv
+    evidence_summary: 'Automated owner-domain match: stream host live77cdn2.antenaplay.ro is on the broadcaster''s domain
+      antenaplay.ro. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MediCOOLTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mireasa-ro
+  name: Mireasa
+  alt_names: []
+  broadcaster: Mireasa
+  country: ro
+  languages:
+  - ro
+  categories:
+  - entertainment
+  website: https://antenaplay.ro/live/mireasa
+  stream:
+    url: https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://antenaplay.ro/live/mireasa
+    evidence_summary: 'Automated owner-domain match: stream host stream1.antenaplay.ro is on the broadcaster''s domain antenaplay.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Mireasa.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nasul-tv-ro
+  name: Nasul TV
+  alt_names:
+  - Nașul TV
+  broadcaster: Radu Moraru
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.nasul.tv/
+  stream:
+    url: https://live.nasul.tv/live/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://www.nasul.tv/
+    evidence_summary: 'Automated owner-domain match: stream host live.nasul.tv is on the broadcaster''s domain nasul.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NasulTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: realitatea-plus-ro
+  name: Realitatea Plus
+  alt_names: []
+  broadcaster: Realitatea Plus
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.realitatea.net/
+  stream:
+    url: https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://www.realitatea.net/
+    evidence_summary: 'Automated owner-domain match: stream host stream.realitatea.net is on the broadcaster''s domain realitatea.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RealitateaPlus.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tele7abc-hd-ro
+  name: Tele7ABC HD
+  alt_names: []
+  broadcaster: Tele7ABC HD
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://tele7abc.ro/
+  stream:
+    url: https://live.tele7abc.ro/hls/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://tele7abc.ro/
+    evidence_summary: 'Automated owner-domain match: stream host live.tele7abc.ro is on the broadcaster''s domain tele7abc.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Tele7ABCHD.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tele7music-ro
+  name: Tele7music
+  alt_names: []
+  broadcaster: Tele7music
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: https://tele7music.ro/
+  stream:
+    url: https://live.tele7music.ro/hls/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://tele7music.ro/
+    evidence_summary: 'Automated owner-domain match: stream host live.tele7music.ro is on the broadcaster''s domain tele7music.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Tele7music.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

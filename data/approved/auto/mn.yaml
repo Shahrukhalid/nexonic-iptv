@@ -1,0 +1,152 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: mnb-mn
+  name: MNB
+  alt_names: []
+  broadcaster: Mongolian National Broadcaster
+  country: mn
+  languages:
+  - mn
+  categories:
+  - general
+  website: http://www.mnb.mn/
+  stream:
+    url: https://live.mnb.mn/hls/mnb.stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mn.m3u
+    evidence_url: http://www.mnb.mn/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnb.mn is on the broadcaster''s domain mnb.mn. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNB.mn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mnb-mongoliin-medee-mn
+  name: MNB Mongoliin Medee
+  alt_names:
+  - Монголын мэдээ
+  broadcaster: Mongolian National Broadcaster
+  country: mn
+  languages:
+  - mn
+  categories:
+  - general
+  website: http://www.mnb.mn/
+  stream:
+    url: https://live.mnb.mn/hls/mn2.stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mn.m3u
+    evidence_url: http://www.mnb.mn/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnb.mn is on the broadcaster''s domain mnb.mn. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNBMongoliinMedee.mn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mnb-sport-mn
+  name: MNB Sport
+  alt_names: []
+  broadcaster: Mongolian National Broadcaster
+  country: mn
+  languages:
+  - mn
+  categories:
+  - sports
+  website: http://www.mnb.mn/
+  stream:
+    url: https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mn.m3u
+    evidence_url: http://www.mnb.mn/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnb.mn is on the broadcaster''s domain mnb.mn. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNBSport.mn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mnb-world-mn
+  name: MNB World
+  alt_names: []
+  broadcaster: Mongolian National Broadcaster
+  country: mn
+  languages:
+  - en
+  categories:
+  - general
+  website: https://www.mnb.mn/live/world
+  stream:
+    url: https://live.mnb.mn/hls/mnb_world.stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mn.m3u
+    evidence_url: https://www.mnb.mn/live/world
+    evidence_summary: 'Automated owner-domain match: stream host live.mnb.mn is on the broadcaster''s domain mnb.mn. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNBWorld.mn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

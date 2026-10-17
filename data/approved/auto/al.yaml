@@ -1,0 +1,77 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: albkanale-music-tv-al
+  name: AlbKanale Music TV
+  alt_names: []
+  broadcaster: AlbKanale Music TV
+  country: al
+  languages:
+  - sq
+  categories:
+  - music
+  website: https://albportal.net/
+  stream:
+    url: https://albportal.net/albkanalemusic.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/al.m3u
+    evidence_url: https://albportal.net/
+    evidence_summary: 'Automated owner-domain match: stream host albportal.net is on the broadcaster''s domain albportal.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AlbKanaleMusicTV.al@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: news-24-al
+  name: News 24
+  alt_names: []
+  broadcaster: Focus Media Group
+  country: al
+  languages:
+  - sq
+  categories:
+  - news
+  website: https://balkanweb.com/
+  stream:
+    url: https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/al.m3u
+    evidence_url: https://balkanweb.com/
+    evidence_summary: 'Automated owner-domain match: stream host tv.balkanweb.com is on the broadcaster''s domain balkanweb.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: News24.al@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

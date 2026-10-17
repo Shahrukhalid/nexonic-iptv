@@ -1,0 +1,413 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 247-box-tv-ir
+  name: 247 Box TV
+  alt_names: []
+  broadcaster: 247 Box TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://247box.live/
+  stream:
+    url: https://hls.247box.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://247box.live/
+    evidence_summary: 'Automated owner-domain match: stream host hls.247box.live is on the broadcaster''s domain 247box.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 247BoxTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ava-family-ir
+  name: AVA Family
+  alt_names:
+  - آوا فامیلی
+  broadcaster: Mostafa Bayram
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://avafamily.avatv.live/
+  stream:
+    url: https://familyhls.avatv.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://avafamily.avatv.live/
+    evidence_summary: 'Automated owner-domain match: stream host familyhls.avatv.live is on the broadcaster''s domain avatv.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AVAFamily.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ava-series-ir
+  name: AVA Series
+  alt_names: []
+  broadcaster: AVA Series
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: http://avaseries.wns.live/
+  stream:
+    url: https://avaserieshls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: http://avaseries.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host avaserieshls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AVASeries.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: eshragh-network-ir
+  name: Eshragh Network
+  alt_names:
+  - شبکهٔ اشراق
+  broadcaster: Eshragh Network
+  country: ir
+  languages:
+  - fa
+  categories:
+  - general
+  website: https://telewebion.com/live/eshragh
+  stream:
+    url: https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_telewebion.m3u
+    evidence_url: https://telewebion.com/live/eshragh
+    evidence_summary: 'Automated owner-domain match: stream host ncdn.telewebion.ir (telewebion.ir) shares the broadcaster''s
+      domain name ''telewebion'' (telewebion.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EshraghNetwork.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fx-1-ir
+  name: FX 1
+  alt_names: []
+  broadcaster: FX 1
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://fxtv.wns.live/
+  stream:
+    url: https://fxtvhls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: https://fxtv.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host fxtvhls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FX1.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fx-2-ir
+  name: FX 2
+  alt_names: []
+  broadcaster: FX 2
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://fxtv2.wns.live/
+  stream:
+    url: https://toonixhls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: https://fxtv2.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host toonixhls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FX2.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: khavaran-tv-ir
+  name: Khavaran TV
+  alt_names:
+  - شبکه خراسان جنوبی
+  broadcaster: Khavaran TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - general
+  website: https://telewebion.com/live/khavaran
+  stream:
+    url: https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_telewebion.m3u
+    evidence_url: https://telewebion.com/live/khavaran
+    evidence_summary: 'Automated owner-domain match: stream host ncdn.telewebion.ir (telewebion.ir) shares the broadcaster''s
+      domain name ''telewebion'' (telewebion.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: KhavaranTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: meta-film-tv-ir
+  name: Meta Film TV
+  alt_names: []
+  broadcaster: Meta Film TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - movies
+  website: https://metafilm.wns.live/
+  stream:
+    url: https://metafilmhls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: https://metafilm.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host metafilmhls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MetaFilmTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: oxir-tv-ir
+  name: OXIR TV
+  alt_names: []
+  broadcaster: OXIR TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://oxir.live/
+  stream:
+    url: https://hls.oxir.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://oxir.live/
+    evidence_summary: 'Automated owner-domain match: stream host hls.oxir.live is on the broadcaster''s domain oxir.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OXIRTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: snn-tv-ir
+  name: SNN TV
+  alt_names: []
+  broadcaster: SNN TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - news
+  website: https://snn.ir/
+  stream:
+    url: https://live2.snn.ir/hls/snn2_hd720/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://snn.ir/
+    evidence_summary: 'Automated owner-domain match: stream host live2.snn.ir is on the broadcaster''s domain snn.ir. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SNNTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: yourtime-tv-ir
+  name: YourTime TV
+  alt_names: []
+  broadcaster: YourTime TV
+  country: ir
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://www.yourtime.tv/
+  stream:
+    url: https://hls.yourtime.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://www.yourtime.tv/
+    evidence_summary: 'Automated owner-domain match: stream host hls.yourtime.live (yourtime.live) shares the broadcaster''s
+      domain name ''yourtime'' (yourtime.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: YourTimeTV.ir@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

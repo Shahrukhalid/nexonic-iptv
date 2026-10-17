@@ -1,0 +1,225 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: canal-51-hn
+  name: Canal 51
+  alt_names: []
+  broadcaster: Canal 51
+  country: hn
+  languages:
+  - es
+  categories:
+  - general
+  website: https://cn51hn.com/
+  stream:
+    url: https://live.cn51hn.com/live/cn51.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: https://cn51hn.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.cn51hn.com is on the broadcaster''s domain cn51hn.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Canal51.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: icn-digital-hn
+  name: ICN Digital
+  alt_names: []
+  broadcaster: ICN Digital
+  country: hn
+  languages:
+  - es
+  categories:
+  - news
+  website: https://icndigital.com/
+  stream:
+    url: https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: https://icndigital.com/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.icndigital.com is on the broadcaster''s domain
+      icndigital.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ICNDigital.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: imagen-fm-105-1-hn
+  name: Imagen FM 105.1
+  alt_names: []
+  broadcaster: Imagen FM 105.1
+  country: hn
+  languages:
+  - es
+  categories:
+  - music
+  website: https://www.imagenfm105-1.com/
+  stream:
+    url: https://streaming.imagenfm105-1.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: https://www.imagenfm105-1.com/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.imagenfm105-1.com is on the broadcaster''s domain
+      imagenfm105-1.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ImagenFM1051.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: lenca-tv-hn
+  name: Lenca TV
+  alt_names: []
+  broadcaster: Lenca TV
+  country: hn
+  languages:
+  - es
+  categories:
+  - news
+  website: http://www.lencatelevision.com/
+  stream:
+    url: https://lencatelevision.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: http://www.lencatelevision.com/
+    evidence_summary: 'Automated owner-domain match: stream host lencatelevision.com is on the broadcaster''s domain lencatelevision.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: LencaTV.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radio-ideal-hn
+  name: Radio Ideal
+  alt_names: []
+  broadcaster: Radio Ideal
+  country: hn
+  languages:
+  - es
+  categories:
+  - music
+  website: http://www.idealfm104-7.com/
+  stream:
+    url: https://www.idealfm104-7.com/hls/0/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: http://www.idealfm104-7.com/
+    evidence_summary: 'Automated owner-domain match: stream host www.idealfm104-7.com is on the broadcaster''s domain idealfm104-7.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RadioIdeal.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: teleceiba-hn
+  name: Teleceiba
+  alt_names: []
+  broadcaster: Teleceiba
+  country: hn
+  languages:
+  - es
+  categories:
+  - general
+  website: http://teleceiba.com/
+  stream:
+    url: https://teleceiba.com/stream/tlcb720.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hn.m3u
+    evidence_url: http://teleceiba.com/
+    evidence_summary: 'Automated owner-domain match: stream host teleceiba.com is on the broadcaster''s domain teleceiba.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Teleceiba.hn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,639 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 4u-tv-tr
+  name: 4U TV
+  alt_names:
+  - ۴یو تی‌وی
+  broadcaster: 4U TV
+  country: tr
+  languages:
+  - fa
+  categories:
+  - entertainment
+  website: https://4utv.tv/en/
+  stream:
+    url: https://hls.4utv.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://4utv.tv/en/
+    evidence_summary: 'Automated owner-domain match: stream host hls.4utv.live (4utv.live) shares the broadcaster''s domain
+      name ''4utv'' (4utv.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 4UTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: edessa-tv-tr
+  name: Edessa TV
+  alt_names: []
+  broadcaster: Edessa TV
+  country: tr
+  languages:
+  - tr
+  categories:
+  - entertainment
+  website: http://www.edessatv.com/
+  stream:
+    url: https://canli.edessatv.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: http://www.edessatv.com/
+    evidence_summary: 'Automated owner-domain match: stream host canli.edessatv.com is on the broadcaster''s domain edessatv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EdessaTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ekoturk-tr
+  name: Ekoturk
+  alt_names:
+  - Ekotürk
+  broadcaster: Ekoturk
+  country: tr
+  languages:
+  - tr
+  categories:
+  - news
+  website: https://www.ekoturk.com/
+  stream:
+    url: https://cdn.ekoturk.net/hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.ekoturk.com/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.ekoturk.net (ekoturk.net) shares the broadcaster''s domain
+      name ''ekoturk'' (ekoturk.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Ekoturk.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: grand-cinema-tr
+  name: Grand Cinema
+  alt_names: []
+  broadcaster: Grand Cinema
+  country: tr
+  languages:
+  - fa
+  categories:
+  - movies
+  website: https://grandcinema.wns.live/
+  stream:
+    url: https://gcinemahls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: https://grandcinema.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host gcinemahls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GrandCinema.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ilke-tv-tr
+  name: Ilke TV
+  alt_names: []
+  broadcaster: Ilke TV
+  country: tr
+  languages:
+  - tr
+  - ku
+  categories:
+  - general
+  website: https://www.ilketv.com.tr
+  stream:
+    url: https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.ilketv.com.tr
+    evidence_summary: 'Automated owner-domain match: stream host stream.ilketv.com.tr is on the broadcaster''s domain ilketv.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IlkeTV.tr@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: power-dance-tr
+  name: Power Dance
+  alt_names: []
+  broadcaster: Power Dance
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.powerapp.com.tr/radios/powerdance/
+  stream:
+    url: https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/radios/powerdance/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerDance.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: power-tv-tr
+  name: Power TV
+  alt_names: []
+  broadcaster: Power TV
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.powerapp.com.tr/powerfm/sayfalar/power-tv.html
+  stream:
+    url: https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/powerfm/sayfalar/power-tv.html
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: powerturk-akustik-tr
+  name: PowerTurk Akustik
+  alt_names:
+  - PowerTürk Akustik
+  broadcaster: PowerTurk Akustik
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.powerapp.com.tr/radios/powerturkakustik/
+  stream:
+    url: https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/radios/powerturkakustik/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerTurkAkustik.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: powerturk-slow-tr
+  name: PowerTurk Slow
+  alt_names:
+  - PowerTürk Slow
+  broadcaster: PowerTurk Slow
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.powerapp.com.tr/radios/powerturkslow/
+  stream:
+    url: https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/radios/powerturkslow/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerTurkSlow.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: powerturk-taptaze-tr
+  name: PowerTurk Taptaze
+  alt_names:
+  - PowerTürk Taptaze
+  broadcaster: PowerTurk Taptaze
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.powerapp.com.tr/radios/powerturktaptaze/
+  stream:
+    url: https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/radios/powerturktaptaze/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerTurkTaptaze.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: powerturk-tv-tr
+  name: PowerTurk TV
+  alt_names:
+  - PowerTürk TV
+  broadcaster: PowerTurk TV
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.powerapp.com.tr/powerturk/
+  stream:
+    url: https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/powerturk/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: PowerTurkTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tgrt-haber-tr
+  name: TGRT Haber
+  alt_names: []
+  broadcaster: Ihlas Holding
+  country: tr
+  languages:
+  - tr
+  categories:
+  - news
+  website: https://www.tgrthaber.com.tr/
+  stream:
+    url: https://canli.tgrthaber.com/tgrt.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.tgrthaber.com.tr/
+    evidence_summary: 'Automated owner-domain match: stream host canli.tgrthaber.com (tgrthaber.com) shares the broadcaster''s
+      domain name ''tgrthaber'' (tgrthaber.com.tr). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TGRTHaber.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tjk-tv-tr
+  name: TJK TV
+  alt_names: []
+  broadcaster: TJK TV
+  country: tr
+  languages:
+  - tr
+  categories:
+  - sports
+  website: https://www.tjk.org/
+  stream:
+    url: https://tjktv-live.tjk.org/tjktv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.tjk.org/
+    evidence_summary: 'Automated owner-domain match: stream host tjktv-live.tjk.org is on the broadcaster''s domain tjk.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TJKTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tjk-tv-2-tr
+  name: TJK TV 2
+  alt_names: []
+  broadcaster: TJK TV 2
+  country: tr
+  languages:
+  - tr
+  categories:
+  - sports
+  website: https://www.tjk.org/
+  stream:
+    url: https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.tjk.org/
+    evidence_summary: 'Automated owner-domain match: stream host tjktv-live.tjk.org is on the broadcaster''s domain tjk.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TJKTV2.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-42-tr
+  name: TV 42
+  alt_names: []
+  broadcaster: TV 42
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.tv42.com.tr/
+  stream:
+    url: https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.tv42.com.tr/
+    evidence_summary: 'Automated owner-domain match: stream host canli.tv42.com.tr is on the broadcaster''s domain tv42.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV42.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-den-tr
+  name: TV Den
+  alt_names: []
+  broadcaster: TV Den
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://tvden.com.tr/
+  stream:
+    url: http://canli.tvden.com.tr/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://tvden.com.tr/
+    evidence_summary: 'Automated owner-domain match: stream host canli.tvden.com.tr is on the broadcaster''s domain tvden.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TVDen.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zarok-tv-tr
+  name: Zarok TV
+  alt_names: []
+  broadcaster: Başkent Vizyon Radio Television Broadcasting Corporation
+  country: tr
+  languages:
+  - ku
+  categories:
+  - general
+  website: https://zaroktv.com.tr/
+  stream:
+    url: https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://zaroktv.com.tr/
+    evidence_summary: 'Automated owner-domain match: stream host zindikurmanci.zaroktv.com.tr is on the broadcaster''s domain
+      zaroktv.com.tr. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZarokTV.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

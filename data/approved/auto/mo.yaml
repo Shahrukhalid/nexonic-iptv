@@ -1,0 +1,231 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: canal-macau-mo
+  name: Canal Macau
+  alt_names: []
+  broadcaster: Teledifusao de Macau
+  country: mo
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.tdm.com.mo/en/
+  stream:
+    url: https://live3.tdm.com.mo/ch2/ch2.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: https://www.tdm.com.mo/en/
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CanalMacau.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdm-entertainment-mo
+  name: TDM Entertainment
+  alt_names:
+  - 澳門綜藝
+  broadcaster: TDM Entertainment
+  country: mo
+  languages:
+  - zh
+  categories:
+  - entertainment
+  website: http://tdm.com.mo/
+  stream:
+    url: https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: http://tdm.com.mo/
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TDMEntertainment.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdm-information-mo
+  name: TDM Information
+  alt_names:
+  - 澳門資訊頻道
+  - TDMInformação
+  broadcaster: TDM Information
+  country: mo
+  languages:
+  - zh
+  categories:
+  - news
+  website: http://new.tdm.com.mo/c_tv/?ch=info
+  stream:
+    url: https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: http://new.tdm.com.mo/c_tv/?ch=info
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TDMInformation.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdm-ou-mun-mo
+  name: TDM Ou Mun
+  alt_names:
+  - 澳視澳門
+  broadcaster: TDM Ou Mun
+  country: mo
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://new.tdm.com.mo/c_tv/?ch=ctvp
+  stream:
+    url: https://live3.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: http://new.tdm.com.mo/c_tv/?ch=ctvp
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TDMOuMun.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdm-sports-mo
+  name: TDM Sports
+  alt_names:
+  - 澳門體育頻道
+  broadcaster: TDM Sports
+  country: mo
+  languages:
+  - zh
+  categories:
+  - sports
+  website: http://new.tdm.com.mo/c_tv/?ch=sport
+  stream:
+    url: https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: http://new.tdm.com.mo/c_tv/?ch=sport
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TDMSports.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tdm-macau-satellite-mo
+  name: TDM-Macau Satellite
+  alt_names:
+  - 澳門-MACAU
+  broadcaster: TDM-Macau Satellite
+  country: mo
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://new.tdm.com.mo/c_tv/?ch=sat
+  stream:
+    url: https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mo.m3u
+    evidence_url: http://new.tdm.com.mo/c_tv/?ch=sat
+    evidence_summary: 'Automated owner-domain match: stream host live3.tdm.com.mo is on the broadcaster''s domain com.mo.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TDMMacauSatellite.mo@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,115 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: apsara-tv11-kh
+  name: Apsara TV11
+  alt_names:
+  - ទូរទស្សន៍អប្សរា
+  broadcaster: Apsara Media Services
+  country: kh
+  languages:
+  - km
+  categories:
+  - general
+  website: https://ams.com.kh/
+  stream:
+    url: https://live.ams.com.kh/app/stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kh.m3u
+    evidence_url: https://ams.com.kh/
+    evidence_summary: 'Automated owner-domain match: stream host live.ams.com.kh is on the broadcaster''s domain ams.com.kh.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ApsaraTV11.kh@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ardb-tv-kh
+  name: ARDB TV
+  alt_names: []
+  broadcaster: Agricultural and Rural Development Bank
+  country: kh
+  languages:
+  - km
+  categories:
+  - lifestyle
+  website: https://ardbtv.ardb.com.kh/
+  stream:
+    url: https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kh.m3u
+    evidence_url: https://ardbtv.ardb.com.kh/
+    evidence_summary: 'Automated owner-domain match: stream host ardbtv.ardb.com.kh is on the broadcaster''s domain ardb.com.kh.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ARDBTV.kh@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ebc-general-education-kh
+  name: EBC General Education
+  alt_names: []
+  broadcaster: Educational Broadcasting Cambodia
+  country: kh
+  languages:
+  - km
+  categories:
+  - education
+  website: https://ebc.edu.kh/
+  stream:
+    url: https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kh.m3u
+    evidence_url: https://ebc.edu.kh/
+    evidence_summary: 'Automated owner-domain match: stream host iptv.ebc.edu.kh is on the broadcaster''s domain edu.kh. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: EBCGeneralEducation.kh@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

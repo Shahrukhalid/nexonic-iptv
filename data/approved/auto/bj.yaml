@@ -1,0 +1,154 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: benin-web-tv-bj
+  name: Benin Web TV
+  alt_names:
+  - Bénin Web TV
+  broadcaster: Benin Web TV
+  country: bj
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://beninwebtv.com/
+  stream:
+    url: https://stream.beninwebtv.bj/2/live/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bj.m3u
+    evidence_url: https://beninwebtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream.beninwebtv.bj (beninwebtv.bj) shares the broadcaster''s
+      domain name ''beninwebtv'' (beninwebtv.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BeninWebTV.bj@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hc2-tv-bj
+  name: HC2 TV
+  alt_names: []
+  broadcaster: HC2 TV
+  country: bj
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://hc2tv.bj/
+  stream:
+    url: https://stream.hc2tv.bj/2/live/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bj.m3u
+    evidence_url: https://hc2tv.bj/
+    evidence_summary: 'Automated owner-domain match: stream host stream.hc2tv.bj is on the broadcaster''s domain hc2tv.bj.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HC2TV.bj@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: icone-tv-bj
+  name: ICONE TV
+  alt_names: []
+  broadcaster: ICONE TV
+  country: bj
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://iconetv.bj/
+  stream:
+    url: https://lecteur.iconetv.bj/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bj.m3u
+    evidence_url: https://iconetv.bj/
+    evidence_summary: 'Automated owner-domain match: stream host lecteur.iconetv.bj is on the broadcaster''s domain iconetv.bj.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ICONETV.bj@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tvc-benin-bj
+  name: TVC Benin
+  alt_names:
+  - TVC Bénin
+  - TV Carrefour
+  broadcaster: Entertainment Media
+  country: bj
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://www.tvcbenin.com/
+  stream:
+    url: https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bj.m3u
+    evidence_url: https://www.tvcbenin.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.tvcbenin.com is on the broadcaster''s domain tvcbenin.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVCBenin.bj@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

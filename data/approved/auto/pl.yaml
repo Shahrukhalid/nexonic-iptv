@@ -1,0 +1,273 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: bialogardzka-telewizja-kablowa-pl
+  name: Bialogardzka Telewizja Kablowa
+  alt_names:
+  - BTK
+  - Białogardzka Telewizja Kablowa
+  broadcaster: Bialogardzka Telewizja Kablowa
+  country: pl
+  languages:
+  - pl
+  categories:
+  - entertainment
+  website: https://btk.bsmbialogard.pl/
+  stream:
+    url: https://bsmbialogard.pl/live/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://btk.bsmbialogard.pl/
+    evidence_summary: 'Automated owner-domain match: stream host bsmbialogard.pl is on the broadcaster''s domain bsmbialogard.pl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BialogardzkaTelewizjaKablowa.pl@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: btb-pl
+  name: BTB
+  alt_names:
+  - Telewizja BTB
+  - Bombaska Telewizja Boża
+  broadcaster: Telewizja BTB
+  country: pl
+  languages:
+  - pl
+  categories:
+  - general
+  website: https://btb.j00r.us/
+  stream:
+    url: https://emisja.btb.j00r.us/iptv/session/1/hls.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://btb.j00r.us/
+    evidence_summary: 'Automated owner-domain match: stream host emisja.btb.j00r.us is on the broadcaster''s domain j00r.us.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BTB.pl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: btb-info-pl
+  name: BTB Info
+  alt_names: []
+  broadcaster: Telewizja BTB
+  country: pl
+  languages:
+  - pl
+  - en
+  categories:
+  - documentary
+  - news
+  website: https://btb.j00r.us
+  stream:
+    url: https://emisja2.btb.j00r.us/iptv/session/4/hls.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://btb.j00r.us
+    evidence_summary: 'Automated owner-domain match: stream host emisja2.btb.j00r.us is on the broadcaster''s domain j00r.us.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BTBInfo.pl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: btb-music-pl
+  name: BTB Music
+  alt_names: []
+  broadcaster: Telewizja BTB
+  country: pl
+  languages:
+  - pl
+  categories:
+  - music
+  website: https://btb.j00r.us
+  stream:
+    url: https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://btb.j00r.us
+    evidence_summary: 'Automated owner-domain match: stream host panel.btb.j00r.us is on the broadcaster''s domain j00r.us.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BTBMusic.pl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: euronews-pl
+  name: Euronews
+  alt_names:
+  - Euronews Polski
+  broadcaster: Euronews
+  country: pl
+  languages:
+  - pl
+  categories:
+  - news
+  website: https://pl.euronews.com/
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://pl.euronews.com/
+    evidence_summary: 'Automated owner-domain match: CDN hostname cdn-euronews.akamaized.net is named for the broadcaster''s
+      domain ''euronews'' (euronews.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Euronews.pl@FAST
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radiowa-czworka-pl
+  name: Radiowa Czworka
+  alt_names:
+  - Radiowa Czwórka
+  - Polskie Radio Program IV
+  broadcaster: Polskie Radio
+  country: pl
+  languages:
+  - pl
+  categories:
+  - entertainment
+  website: https://www.polskieradio.pl
+  stream:
+    url: https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://www.polskieradio.pl
+    evidence_summary: 'Automated owner-domain match: stream host stream14.polskieradio.pl is on the broadcaster''s domain
+      polskieradio.pl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RadiowaCzworka.pl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tvk-stella-pl
+  name: TVK Stella
+  alt_names:
+  - TV Stella
+  broadcaster: TVK Stella
+  country: pl
+  languages:
+  - pl
+  categories:
+  - general
+  - news
+  website: https://tvkstella.pl
+  stream:
+    url: https://stream.tvkstella.pl/stella/stella.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
+    evidence_url: https://tvkstella.pl
+    evidence_summary: 'Automated owner-domain match: stream host stream.tvkstella.pl is on the broadcaster''s domain tvkstella.pl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVKStella.pl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
