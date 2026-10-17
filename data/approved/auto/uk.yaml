@@ -1,0 +1,228 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: afghanistan-international-uk
+  name: Afghanistan International
+  alt_names: []
+  broadcaster: Afghanistan International
+  country: uk
+  languages:
+  - ps
+  - ar
+  - en
+  categories:
+  - news
+  website: https://www.afintl.com/
+  stream:
+    url: https://hls.afintl.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uk.m3u
+    evidence_url: https://www.afintl.com/
+    evidence_summary: 'Automated owner-domain match: stream host hls.afintl.com is on the broadcaster''s domain afintl.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AfghanistanInternational.uk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: anand-tv-uk
+  name: Anand TV
+  alt_names: []
+  broadcaster: Anand TV
+  country: uk
+  languages:
+  - ml
+  categories:
+  - general
+  website: https://anandmedia.net/livetv
+  stream:
+    url: https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uk.m3u
+    evidence_url: https://anandmedia.net/livetv
+    evidence_summary: 'Automated owner-domain match: stream host live-anandtv.anandmedia.net is on the broadcaster''s domain
+      anandmedia.net. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: AnandTV.uk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dunya-news-uk-uk
+  name: Dunya News UK
+  alt_names: []
+  broadcaster: Dunya News UK
+  country: uk
+  languages:
+  - ur
+  - en
+  categories:
+  - news
+  website: https://dunyanews.tv/
+  stream:
+    url: https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pk.m3u
+    evidence_url: https://dunyanews.tv/
+    evidence_summary: 'Automated owner-domain match: stream host ukintl.dunyanews.tv is on the broadcaster''s domain dunyanews.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: DunyaNewsUK.uk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: iranefarda-tv-uk
+  name: IraneFarda TV
+  alt_names: []
+  broadcaster: IraneFarda TV
+  country: uk
+  languages:
+  - fa
+  categories:
+  - news
+  website: http://iranefardalive.com/
+  stream:
+    url: https://iranefardalive.com/stream/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uk.m3u
+    evidence_url: http://iranefardalive.com/
+    evidence_summary: 'Automated owner-domain match: stream host iranefardalive.com is on the broadcaster''s domain iranefardalive.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IraneFardaTV.uk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: sheffield-live-tv-uk
+  name: Sheffield Live TV
+  alt_names: []
+  broadcaster: Sheffield Live TV
+  country: uk
+  languages:
+  - en
+  categories:
+  - general
+  website: https://web.sheffieldlive.org/tv/
+  stream:
+    url: http://tv.sheffieldlive.org/hls/main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uk.m3u
+    evidence_url: https://web.sheffieldlive.org/tv/
+    evidence_summary: 'Automated owner-domain match: stream host tv.sheffieldlive.org is on the broadcaster''s domain sheffieldlive.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SheffieldLiveTV.uk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: trace-uk-uk
+  name: Trace UK
+  alt_names: []
+  broadcaster: Trace Plus Inc
+  country: uk
+  languages:
+  - en
+  categories:
+  - music
+  website: https://trace.plus/app
+  stream:
+    url: https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u
+    evidence_url: https://trace.plus/app
+    evidence_summary: 'Automated owner-domain match: stream host channels.trace.plus is on the broadcaster''s domain trace.plus.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TraceUK.uk@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

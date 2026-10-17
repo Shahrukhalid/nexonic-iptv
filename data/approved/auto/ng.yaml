@@ -1,0 +1,77 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: fortis-tv-ng
+  name: Fortis TV
+  alt_names: []
+  broadcaster: Fortis TV
+  country: ng
+  languages:
+  - en
+  categories:
+  - general
+  website: https://fortistv.com/
+  stream:
+    url: https://stream.fortistv.com/hls/fortis-news/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ng.m3u
+    evidence_url: https://fortistv.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream.fortistv.com is on the broadcaster''s domain fortistv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FortisTV.ng@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: news-central-ng
+  name: News Central
+  alt_names: []
+  broadcaster: News Central Media Limited
+  country: ng
+  languages:
+  - en
+  categories:
+  - news
+  website: http://newscentral.africa/
+  stream:
+    url: https://wf.newscentral.ng:8443/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ng.m3u
+    evidence_url: http://newscentral.africa/
+    evidence_summary: 'Automated owner-domain match: stream host wf.newscentral.ng (newscentral.ng) shares the broadcaster''s
+      domain name ''newscentral'' (newscentral.africa). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NewsCentral.ng@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

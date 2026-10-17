@@ -1,0 +1,40 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: maah-tv-my
+  name: Maah TV
+  alt_names: []
+  broadcaster: Maah TV
+  country: my
+  languages:
+  - fa
+  categories:
+  - movies
+  website: https://maahtv.com/
+  stream:
+    url: https://hls.maahtv.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/my.m3u
+    evidence_url: https://maahtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host hls.maahtv.live (maahtv.live) shares the broadcaster''s domain
+      name ''maahtv'' (maahtv.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MaahTV.my@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

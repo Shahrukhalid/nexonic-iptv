@@ -1,0 +1,427 @@
+# Automated candidates quarantined by moderation. Never published.
+channels:
+- id: 30a-we-love-cars-us
+  name: 30A We Love Cars
+  alt_names: []
+  broadcaster: 30A We Love Cars
+  country: us
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://30a-tv.com/30a/we-love-cars/
+  stream:
+    url: https://30a-tv.com/feeds/vidaa/cars.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/we-love-cars/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30AWeLoveCars.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
+      [''love''] need manual review'
+    rejection_reason: ''
+- id: capital-21-mx
+  name: Capital 21
+  alt_names:
+  - XHCDM-TDT
+  broadcaster: Capital 21
+  country: mx
+  languages:
+  - es
+  categories:
+  - culture
+  - entertainment
+  website: https://www.capital21.cdmx.gob.mx/
+  stream:
+    url: https://video.cdmx.gob.mx/redes/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mx.m3u
+    evidence_url: https://www.capital21.cdmx.gob.mx/
+    evidence_summary: 'Automated owner-domain match: stream host video.cdmx.gob.mx is on the broadcaster''s domain cdmx.gob.mx.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Capital21.mx@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''21''] need manual review; broadcaster: ambiguous term(s)
+      [''21''] need manual review'
+    rejection_reason: ''
+- id: detroit-channel-21-us
+  name: Detroit Channel 21
+  alt_names: []
+  broadcaster: Detroit Channel 21
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=3
+  stream:
+    url: https://reflect-detroit-vod.cablecast.tv/live-9/live/stream-4/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=3
+    evidence_summary: 'Automated owner-domain match: stream host reflect-detroit-vod.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DetroitChannel21.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''21''] need manual review; broadcaster: ambiguous term(s)
+      [''21''] need manual review'
+    rejection_reason: ''
+- id: love-tv-mk
+  name: Love TV
+  alt_names: []
+  broadcaster: Love TV
+  country: mk
+  languages:
+  - mk
+  categories:
+  - music
+  website: https://stream.nasatv.com.mk/lovetv/
+  stream:
+    url: https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://stream.nasatv.com.mk/lovetv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: LoveTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
+      [''love''] need manual review'
+    rejection_reason: ''
+- id: master-chefs-academy-tv-uk
+  name: Master Chefs Academy TV
+  alt_names:
+  - MCA TV
+  - أكاديمية ماستر شيف TV
+  broadcaster: International Union of Arab Master Chefs Ltd
+  country: uk
+  languages:
+  - ar
+  - en
+  categories:
+  - lifestyle
+  - education
+  website: https://platform-iuoamc.uk/tv
+  stream:
+    url: https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/uk.m3u
+    evidence_url: https://platform-iuoamc.uk/tv
+    evidence_summary: 'Automated owner-domain match: stream host platform-iuoamc.uk is on the broadcaster''s domain platform-iuoamc.uk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MasterChefsAcademyTV.uk@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name ''أكاديمية ماستر شيف TV'' matches an NSFW-listed channel name in iptv-org/database'
+    rejection_reason: ''
+- id: ntk-tv-ua
+  name: NTK TV
+  alt_names:
+  - TV
+  broadcaster: NTK TV
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: https://www.ntktv.ua/
+  stream:
+    url: https://stream.ntktv.ua/s/ntk/ntk.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://www.ntktv.ua/
+    evidence_summary: 'Automated owner-domain match: stream host stream.ntktv.ua is on the broadcaster''s domain ntktv.ua.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NTKTV.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name ''TV'' matches an NSFW-listed channel name in iptv-org/database'
+    rejection_reason: ''
+- id: power-love-tr
+  name: Power Love
+  alt_names: []
+  broadcaster: Power Love
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.powerapp.com.tr/radios/powerlove/
+  stream:
+    url: https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tr.m3u
+    evidence_url: https://www.powerapp.com.tr/radios/powerlove/
+    evidence_summary: 'Automated owner-domain match: stream host livetv.powerapp.com.tr is on the broadcaster''s domain powerapp.com.tr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PowerLove.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
+      [''love''] need manual review'
+    rejection_reason: ''
+- id: radio-1-ru
+  name: Radio 1
+  alt_names:
+  - Радио 1
+  broadcaster: Radio 1
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://radio1.ru/
+  stream:
+    url: https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://radio1.ru/
+    evidence_summary: 'Automated owner-domain match: stream host stream.radio1.ru is on the broadcaster''s domain radio1.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Radio1.ru@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ru
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name ''Радио 1'' matches an NSFW-listed channel name in iptv-org/database'
+    rejection_reason: ''
+- id: s1-ru
+  name: S1
+  alt_names:
+  - С1
+  broadcaster: S1
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://sitv.ru/efir/c1/
+  stream:
+    url: https://sitv.ru/hls/stv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://sitv.ru/efir/c1/
+    evidence_summary: 'Automated owner-domain match: stream host sitv.ru is on the broadcaster''s domain sitv.ru. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: S1.ru@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name ''С1'' matches an NSFW-listed channel name in iptv-org/database'
+    rejection_reason: ''
+- id: stingray-hot-country-ca
+  name: Stingray Hot Country
+  alt_names: []
+  broadcaster: Stingray Hot Country
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/008/hot-country
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/008/hot-country
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayHotCountry.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name: ambiguous term(s) [''hot''] need manual review; broadcaster: ambiguous term(s)
+      [''hot''] need manual review'
+    rejection_reason: ''
+- id: vergina-tv-gr
+  name: Vergina TV
+  alt_names:
+  - Βεργίνα TV
+  broadcaster: Vergina TV
+  country: gr
+  languages:
+  - el
+  categories:
+  - news
+  - entertainment
+  website: https://www.verginanews.gr/
+  stream:
+    url: https://verginanews.gr:8443/hls_live/stream1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/gr.m3u
+    evidence_url: https://www.verginanews.gr/
+    evidence_summary: 'Automated owner-domain match: stream host verginanews.gr is on the broadcaster''s domain verginanews.gr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VerginaTV.gr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Quarantined by moderation: name ''Βεργίνα TV'' matches an NSFW-listed channel name in iptv-org/database'
+    rejection_reason: ''

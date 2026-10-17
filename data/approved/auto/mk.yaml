@@ -1,0 +1,374 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: cool-tv-mk
+  name: Cool TV
+  alt_names: []
+  broadcaster: Cool TV
+  country: mk
+  languages:
+  - mk
+  categories:
+  - general
+  website: https://stream.nasatv.com.mk/cooltv/
+  stream:
+    url: https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://stream.nasatv.com.mk/cooltv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CoolTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: folk-tv-mk
+  name: Folk TV
+  alt_names: []
+  broadcaster: Folk TV
+  country: mk
+  languages:
+  - mk
+  categories:
+  - music
+  website: https://stream.nasatv.com.mk/folktv/
+  stream:
+    url: https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://stream.nasatv.com.mk/folktv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: FolkTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: jazz-tv-mk
+  name: Jazz TV
+  alt_names: []
+  broadcaster: Jazz TV
+  country: mk
+  languages:
+  - mk
+  categories:
+  - music
+  website: https://stream.nasatv.com.mk/jazztv/
+  stream:
+    url: https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://stream.nasatv.com.mk/jazztv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: JazzTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: m-net-hd-mk
+  name: M-Net HD
+  alt_names: []
+  broadcaster: M-Net HD
+  country: mk
+  languages:
+  - mk
+  categories:
+  - general
+  website: https://mnet.mk/
+  stream:
+    url: https://live.mnet.mk/hls/mnet.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://mnet.mk/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnet.mk is on the broadcaster''s domain mnet.mk. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNetHD.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: m-net-info-mk
+  name: M-Net Info
+  alt_names: []
+  broadcaster: M-Net Info
+  country: mk
+  languages:
+  - mk
+  categories:
+  - news
+  website: https://info.mnet.mk/
+  stream:
+    url: https://live.mnet.mk/hls/mnet-info.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://info.mnet.mk/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnet.mk is on the broadcaster''s domain mnet.mk. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNetInfo.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: m-net-kids-mk
+  name: M-Net Kids
+  alt_names: []
+  broadcaster: M-Net Kids
+  country: mk
+  languages:
+  - mk
+  categories:
+  - kids
+  website: https://kids.mnet.mk/
+  stream:
+    url: http://ares.mnet.mk/hls/mnet-kids.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://kids.mnet.mk/
+    evidence_summary: 'Automated owner-domain match: stream host ares.mnet.mk is on the broadcaster''s domain mnet.mk. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNetKids.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: m-net-sport-mk
+  name: M-Net Sport
+  alt_names: []
+  broadcaster: M-Net Sport
+  country: mk
+  languages:
+  - mk
+  categories:
+  - sports
+  website: http://sport.mnet.mk/
+  stream:
+    url: https://live.mnet.mk/hls/mnet-sport.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: http://sport.mnet.mk/
+    evidence_summary: 'Automated owner-domain match: stream host live.mnet.mk is on the broadcaster''s domain mnet.mk. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MNetSport.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nasa-tv-mk
+  name: Nasa TV
+  alt_names:
+  - Наша ТВ
+  broadcaster: Risto Gogovski
+  country: mk
+  languages:
+  - mk
+  categories:
+  - general
+  website: https://nasatv.com.mk/
+  stream:
+    url: https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://nasatv.com.mk/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NasaTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rock-tv-mk
+  name: Rock TV
+  alt_names: []
+  broadcaster: Rock TV
+  country: mk
+  languages:
+  - mk
+  categories:
+  - music
+  website: https://stream.nasatv.com.mk/rocktv/
+  stream:
+    url: https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://stream.nasatv.com.mk/rocktv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.nasatv.com.mk is on the broadcaster''s domain nasatv.com.mk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RockTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: topestrada-tv-mk
+  name: TopEstrada TV
+  alt_names: []
+  broadcaster: TopEstrada TV
+  country: mk
+  languages:
+  - sq
+  categories:
+  - music
+  website: https://topestrada.tv/
+  stream:
+    url: http://live.topestrada.com/live/topestrada/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mk.m3u
+    evidence_url: https://topestrada.tv/
+    evidence_summary: 'Automated owner-domain match: stream host live.topestrada.com (topestrada.com) shares the broadcaster''s
+      domain name ''topestrada'' (topestrada.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TopEstradaTV.mk@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

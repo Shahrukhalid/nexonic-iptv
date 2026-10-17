@@ -1,0 +1,2614 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 30a-georgia-hollywood-review-us
+  name: 30A Georgia Hollywood Review
+  alt_names: []
+  broadcaster: 30A Georgia Hollywood Review
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  - news
+  website: https://30a-tv.com/30a/georgia-hollywood-review-tv/
+  stream:
+    url: https://30a-tv.com/gh.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/georgia-hollywood-review-tv/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30AGeorgiaHollywoodReview.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-investment-pitch-us
+  name: 30A Investment Pitch
+  alt_names: []
+  broadcaster: 30A Investment Pitch
+  country: us
+  languages:
+  - en
+  categories:
+  - business
+  website: https://30a-tv.com/30a/investment-pitch-news/
+  stream:
+    url: https://30a-tv.com/feeds/xodglobal/30atv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/investment-pitch-news/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30AInvestmentPitch.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-lionel-nation-us
+  name: 30A Lionel Nation
+  alt_names: []
+  broadcaster: 30A Lionel Nation
+  country: us
+  languages:
+  - en
+  categories:
+  - news
+  website: https://30a-tv.com/30a/lionel-nation-tv/
+  stream:
+    url: https://30a-tv.com/ln.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/lionel-nation-tv/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ALionelNation.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-loomered-tv-us
+  name: 30A Loomered TV
+  alt_names: []
+  broadcaster: 30A Loomered TV
+  country: us
+  languages:
+  - en
+  categories:
+  - news
+  - documentary
+  website: https://30a-tv.com/m3u8-channels/
+  stream:
+    url: https://30a-tv.com/loomer.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/m3u8-channels/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ALoomeredTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-luxe-life-discovered-us
+  name: 30A Luxe Life Discovered
+  alt_names: []
+  broadcaster: 30A Luxe Life Discovered
+  country: us
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://30a-tv.com/m3u8-channels/
+  stream:
+    url: https://30a-tv.com/feeds/vidaa/luxelife.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/m3u8-channels/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ALuxeLifeDiscovered.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-ridiculous-tv-us
+  name: 30A Ridiculous TV
+  alt_names: []
+  broadcaster: 30A Ridiculous TV
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  website: https://30a-tv.com/30a/funny-crazy-videos/
+  stream:
+    url: https://30a-tv.com/feeds/720p/63.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/funny-crazy-videos/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ARidiculousTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-sidewalks-us
+  name: 30A Sidewalks
+  alt_names: []
+  broadcaster: 30A Sidewalks
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  website: https://30a-tv.com/30a/sidewalks-on-30atv/
+  stream:
+    url: https://30a-tv.com/sidewalks.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/30a/sidewalks-on-30atv/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ASidewalks.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-television-channel-us
+  name: 30A Television Channel
+  alt_names: []
+  broadcaster: 30A Television Channel
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  website: https://30a-tv.com/
+  stream:
+    url: https://30a-tv.com/feeds/masters/30atv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ATelevisionChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 30a-tv-classic-movies-us
+  name: 30A TV Classic Movies
+  alt_names: []
+  broadcaster: 30A TV Classic Movies
+  country: us
+  languages:
+  - en
+  categories:
+  - movies
+  website: https://30a-tv.com/m3u8-channels/
+  stream:
+    url: https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_30a.m3u
+    evidence_url: https://30a-tv.com/m3u8-channels/
+    evidence_summary: 'Automated owner-domain match: stream host 30a-tv.com is on the broadcaster''s domain 30a-tv.com. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 30ATVClassicMovies.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: atlas-us
+  name: Atlas
+  alt_names: []
+  broadcaster: Whiplash
+  country: us
+  languages:
+  - en
+  categories:
+  - documentary
+  website: https://whiplash.cc/
+  stream:
+    url: https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://whiplash.cc/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.whiplash.cc is on the broadcaster''s domain whiplash.cc.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Atlas.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: avang-tv-us
+  name: Avang TV
+  alt_names:
+  - آونگ
+  broadcaster: Avang TV
+  country: us
+  languages:
+  - fa
+  categories:
+  - music
+  website: http://www.avang.com/
+  stream:
+    url: https://hls.avang.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://www.avang.com/
+    evidence_summary: 'Automated owner-domain match: stream host hls.avang.live (avang.live) shares the broadcaster''s domain
+      name ''avang'' (avang.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AvangTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: batv-us
+  name: BATV
+  alt_names: []
+  broadcaster: BATV
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://reflect-batv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+  stream:
+    url: https://reflect-batv.cablecast.tv/live-5/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://reflect-batv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-batv.cablecast.tv is on the broadcaster''s domain
+      cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BATV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: batv-government-tv-us
+  name: BATV Government TV
+  alt_names: []
+  broadcaster: BATV Government TV
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://reflect-batv.cablecast.tv/CablecastPublicSite/watch/3?channel=3
+  stream:
+    url: https://reflect-batv.cablecast.tv/live-3/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://reflect-batv.cablecast.tv/CablecastPublicSite/watch/3?channel=3
+    evidence_summary: 'Automated owner-domain match: stream host reflect-batv.cablecast.tv is on the broadcaster''s domain
+      cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BATVGovernmentTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: big-civic-channel-us
+  name: BIG Civic Channel
+  alt_names:
+  - Brookline Interactive Group Civic Channel
+  broadcaster: BIG Civic Channel
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: http://brookline-interactive-group.cablecast.tv:8080/CablecastPublicSite/watch/2?channel=2
+  stream:
+    url: https://reflect-brookline-interactive-group.cablecast.tv/live-5/live/stream-2/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://brookline-interactive-group.cablecast.tv:8080/CablecastPublicSite/watch/2?channel=2
+    evidence_summary: 'Automated owner-domain match: stream host reflect-brookline-interactive-group.cablecast.tv is on the
+      broadcaster''s domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BIGCivicChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: bloomberg-originals-us
+  name: Bloomberg Originals
+  alt_names: []
+  broadcaster: Bloomberg L.P.
+  country: us
+  languages:
+  - en
+  categories:
+  - documentary
+  - business
+  website: https://www.bloomberg.com/originals/live
+  stream:
+    url: https://bloomberg.com/media-manifest/streams/qt.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.bloomberg.com/originals/live
+    evidence_summary: 'Automated owner-domain match: stream host bloomberg.com is on the broadcaster''s domain bloomberg.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BloombergOriginals.us@US
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cbs-news-detroit-us
+  name: CBS News Detroit
+  alt_names: []
+  broadcaster: CBS Broadcasting Inc.
+  country: us
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.cbsnews.com/detroit/live/
+  stream:
+    url: https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_cbsn.m3u
+    evidence_url: https://www.cbsnews.com/detroit/live/
+    evidence_summary: 'Automated owner-domain match: stream host cbsn-det.cbsnstream.cbsnews.com is on the broadcaster''s
+      domain cbsnews.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CBSNewsDetroit.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: city-of-loveland-tv-us
+  name: City of Loveland TV
+  alt_names: []
+  broadcaster: City of Loveland TV
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://reflect-cityofloveland-co.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+  stream:
+    url: https://reflect-cityofloveland-co.cablecast.tv/live-3/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://reflect-cityofloveland-co.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-cityofloveland-co.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityofLovelandTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cloudflare-tv-us
+  name: Cloudflare TV
+  alt_names: []
+  broadcaster: Cloudflare TV
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://cloudflare.tv/
+  stream:
+    url: https://cloudflare.tv/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://cloudflare.tv/
+    evidence_summary: 'Automated owner-domain match: stream host cloudflare.tv is on the broadcaster''s domain cloudflare.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CloudflareTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ct-n-court-feed-us
+  name: CT-N Court Feed
+  alt_names: []
+  broadcaster: CT-N Court Feed
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://ct-n.com/contact.asp
+  stream:
+    url: http://video.ct-n.com/live/ctnSupreme/playlist_DVR.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://ct-n.com/contact.asp
+    evidence_summary: 'Automated owner-domain match: stream host video.ct-n.com is on the broadcaster''s domain ct-n.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CTNCourtFeed.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ct-n-live-stream-2-us
+  name: CT-N Live Stream 2
+  alt_names: []
+  broadcaster: CT-N Live Stream 2
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://ct-n.com/contact.asp
+  stream:
+    url: http://video.ct-n.com/live/web2stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://ct-n.com/contact.asp
+    evidence_summary: 'Automated owner-domain match: stream host video.ct-n.com is on the broadcaster''s domain ct-n.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CTNLiveStream2.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ct-n-tv-conneticut-us
+  name: CT-N TV Conneticut
+  alt_names: []
+  broadcaster: CT-N TV Conneticut
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://ct-n.com/contact.asp
+  stream:
+    url: http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://ct-n.com/contact.asp
+    evidence_summary: 'Automated owner-domain match: stream host video.ct-n.com is on the broadcaster''s domain ct-n.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CTNTVConneticut.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dc-council-hearing-room-120-us
+  name: DC Council Hearing Room 120
+  alt_names: []
+  broadcaster: DC Council Hearing Room 120
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://video.oct.dc.gov/120/jw.html
+  stream:
+    url: https://video.oct.dc.gov/out/u/97_12.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://video.oct.dc.gov/120/jw.html
+    evidence_summary: 'Automated owner-domain match: stream host video.oct.dc.gov is on the broadcaster''s domain dc.gov.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DCCouncilHearingRoom120.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dcc-us
+  name: DCC
+  alt_names: []
+  broadcaster: DCC
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://video.oct.dc.gov/DCC/jw.html
+  stream:
+    url: https://video.oct.dc.gov/out/u/15_12.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://video.oct.dc.gov/DCC/jw.html
+    evidence_summary: 'Automated owner-domain match: stream host video.oct.dc.gov is on the broadcaster''s domain dc.gov.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DCC.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: detroit-channel-10-us
+  name: Detroit Channel 10
+  alt_names: []
+  broadcaster: Detroit Channel 10
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/watch/6?channel=1
+  stream:
+    url: https://reflect-detroit-vod.cablecast.tv/live-2/live/stream-6/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/watch/6?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-detroit-vod.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DetroitChannel10.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: detroit-channel-22-us
+  name: Detroit Channel 22
+  alt_names: []
+  broadcaster: Detroit Channel 22
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=2
+  stream:
+    url: https://reflect-detroit-vod.cablecast.tv/live-3/live/stream-3/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=2
+    evidence_summary: 'Automated owner-domain match: stream host reflect-detroit-vod.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DetroitChannel22.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: detroit-channel-68-us
+  name: Detroit Channel 68
+  alt_names: []
+  broadcaster: Detroit Channel 68
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=4
+  stream:
+    url: https://reflect-detroit-vod.cablecast.tv/live-10/live/stream-5/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=4
+    evidence_summary: 'Automated owner-domain match: stream host reflect-detroit-vod.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DetroitChannel68.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: district-of-columbia-network-us
+  name: District of Columbia Network
+  alt_names: []
+  broadcaster: District of Columbia Network
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://entertainment.dc.gov/page/district-columbia-network-dcn
+  stream:
+    url: https://video.oct.dc.gov/out/u/DCN.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://entertainment.dc.gov/page/district-columbia-network-dcn
+    evidence_summary: 'Automated owner-domain match: stream host video.oct.dc.gov is on the broadcaster''s domain dc.gov.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DistrictofColumbiaNetwork.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dkn-us
+  name: DKN
+  alt_names: []
+  broadcaster: DKN
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://video.oct.dc.gov/DKN/jw.html
+  stream:
+    url: https://video.oct.dc.gov/out/u/DKN.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://video.oct.dc.gov/DKN/jw.html
+    evidence_summary: 'Automated owner-domain match: stream host video.oct.dc.gov is on the broadcaster''s domain dc.gov.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DKN.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fox-business-network-us
+  name: Fox Business Network
+  alt_names:
+  - Fox Business
+  broadcaster: Fox Corporation
+  country: us
+  languages:
+  - en
+  categories:
+  - business
+  website: https://www.foxbusiness.com/
+  stream:
+    url: https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.foxbusiness.com/
+    evidence_summary: 'Automated owner-domain match: stream host 247preview.foxbusiness.com is on the broadcaster''s domain
+      foxbusiness.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FoxBusinessNetwork.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fox-news-channel-us
+  name: Fox News Channel
+  alt_names: []
+  broadcaster: Fox Corporation
+  country: us
+  languages:
+  - en
+  categories:
+  - news
+  website: http://www.foxnews.com/
+  stream:
+    url: http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://www.foxnews.com/
+    evidence_summary: 'Automated owner-domain match: stream host 247preview.foxnews.com is on the broadcaster''s domain foxnews.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FoxNewsChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fox-news-radio-us
+  name: Fox News Radio
+  alt_names: []
+  broadcaster: Fox Corporation
+  country: us
+  languages:
+  - en
+  categories:
+  - news
+  website: https://radio.foxnews.com/
+  stream:
+    url: https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://radio.foxnews.com/
+    evidence_summary: 'Automated owner-domain match: stream host radiovid.foxnews.com is on the broadcaster''s domain foxnews.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FoxNewsRadio.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fox-weather-us
+  name: Fox Weather
+  alt_names: []
+  broadcaster: Fox Corporation
+  country: us
+  languages:
+  - en
+  categories:
+  - weather
+  website: https://www.foxweather.com/
+  stream:
+    url: https://247wlive.foxweather.com/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.foxweather.com/
+    evidence_summary: 'Automated owner-domain match: stream host 247wlive.foxweather.com is on the broadcaster''s domain foxweather.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: FoxWeather.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ganj-e-hozour-tv-us
+  name: Ganj e Hozour TV
+  alt_names: []
+  broadcaster: Ganj e Hozour TV
+  country: us
+  languages:
+  - fa
+  categories:
+  - general
+  website: http://www.parvizshahbazi.com/
+  stream:
+    url: https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://www.parvizshahbazi.com/
+    evidence_summary: 'Automated owner-domain match: stream host media.parvizshahbazi.com is on the broadcaster''s domain
+      parvizshahbazi.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GanjeHozourTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: gillette-public-access-television-channel-189-us
+  name: Gillette Public Access Television Channel 189
+  alt_names:
+  - GPA-TV Channel 189
+  broadcaster: Gillette Public Access Television Channel 189
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://play.champds.com/gillettewy/live/7
+  stream:
+    url: https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://play.champds.com/gillettewy/live/7
+    evidence_summary: 'Automated owner-domain match: stream host securestream11.champds.com is on the broadcaster''s domain
+      champds.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GillettePublicAccessTelevisionChannel189.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: gillette-public-access-television-channel-190-us
+  name: Gillette Public Access Television Channel 190
+  alt_names:
+  - GPA-TV Channel 190
+  broadcaster: Gillette Public Access Television Channel 190
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://play.champds.com/gillettewy/live/5
+  stream:
+    url: https://securestream11.champds.com/LIVE/GilletteWYLIVE/GilletteWYLIVE.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://play.champds.com/gillettewy/live/5
+    evidence_summary: 'Automated owner-domain match: stream host securestream11.champds.com is on the broadcaster''s domain
+      champds.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GillettePublicAccessTelevisionChannel190.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: gillette-public-access-television-channel-192-us
+  name: Gillette Public Access Television Channel 192
+  alt_names:
+  - GPA-TV Channel 192
+  broadcaster: Gillette Public Access Television Channel 192
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://play.champds.com/gillettewy/live/6
+  stream:
+    url: https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://play.champds.com/gillettewy/live/6
+    evidence_summary: 'Automated owner-domain match: stream host securestream11.champds.com is on the broadcaster''s domain
+      champds.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GillettePublicAccessTelevisionChannel192.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: gunaz-tv-us
+  name: GunAz TV
+  alt_names:
+  - GünAz TV
+  broadcaster: Ahmad Obali
+  country: us
+  languages:
+  - az
+  categories:
+  - general
+  website: https://www.gunaz.tv/
+  stream:
+    url: https://tv.gunaz.tv/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.gunaz.tv/
+    evidence_summary: 'Automated owner-domain match: stream host tv.gunaz.tv is on the broadcaster''s domain gunaz.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GunAzTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hktv-us
+  name: HKTV
+  alt_names: []
+  broadcaster: HKTV
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://reflect-hktv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+  stream:
+    url: https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://reflect-hktv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-hktv.cablecast.tv is on the broadcaster''s domain
+      cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HKTV.us@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - us
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: lakewood-channel-8-us
+  name: Lakewood Channel 8
+  alt_names: []
+  broadcaster: Lakewood Channel 8
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://www.lakewood.org/Government/Departments/City-Managers-Office/Communications/Videos/Meeting-Videos
+  stream:
+    url: https://live8fd.lakewood.org/live-2/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.lakewood.org/Government/Departments/City-Managers-Office/Communications/Videos/Meeting-Videos
+    evidence_summary: 'Automated owner-domain match: stream host live8fd.lakewood.org is on the broadcaster''s domain lakewood.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LakewoodChannel8.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: law-crime-us
+  name: Law & Crime
+  alt_names: []
+  broadcaster: Law & Crime
+  country: us
+  languages:
+  - en
+  categories:
+  - documentary
+  website: https://lawandcrime.com/
+  stream:
+    url: https://cdn.lawandcrime.net/rewind/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_stirr.m3u
+    evidence_url: https://lawandcrime.com/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.lawandcrime.net (lawandcrime.net) shares the broadcaster''s
+      domain name ''lawandcrime'' (lawandcrime.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LawCrime.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: littleton-8-tv-us
+  name: Littleton 8 TV
+  alt_names: []
+  broadcaster: Littleton 8 TV
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://www.littletongov.org/my-littleton/littleton-8-tv
+  stream:
+    url: https://ch8.littletongov.org/live-2/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.littletongov.org/my-littleton/littleton-8-tv
+    evidence_summary: 'Automated owner-domain match: stream host ch8.littletongov.org is on the broadcaster''s domain littletongov.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Littleton8TV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: livexlive-us
+  name: LIVExLIVE
+  alt_names: []
+  broadcaster: LIVExLIVE
+  country: us
+  languages:
+  - en
+  categories:
+  - music
+  website: https://www.liveone.com/
+  stream:
+    url: https://livestream.liveone.com/lc1/p1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.liveone.com/
+    evidence_summary: 'Automated owner-domain match: stream host livestream.liveone.com is on the broadcaster''s domain liveone.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LIVExLIVE.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: metaleitor-tv-us
+  name: Metaleitor TV
+  alt_names: []
+  broadcaster: Metaleitor TV
+  country: us
+  languages:
+  - es
+  categories:
+  - music
+  website: https://new.opencaster.com/player?user=MetaleitorTv
+  stream:
+    url: https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://new.opencaster.com/player?user=MetaleitorTv
+    evidence_summary: 'Automated owner-domain match: stream host vs20.live.opencaster.com is on the broadcaster''s domain
+      opencaster.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MetaleitorTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mtc-us
+  name: MTC
+  alt_names:
+  - Melli TV
+  broadcaster: MTC
+  country: us
+  languages:
+  - fa
+  categories:
+  - general
+  website: https://mtc.wns.live/
+  stream:
+    url: https://mtchls.wns.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_wnslive.m3u
+    evidence_url: https://mtc.wns.live/
+    evidence_summary: 'Automated owner-domain match: stream host mtchls.wns.live is on the broadcaster''s domain wns.live.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MTC.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: natick-education-channel-us
+  name: Natick Education Channel
+  alt_names: []
+  broadcaster: Natick Education Channel
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/440
+  stream:
+    url: https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/440
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NatickEducationChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: natick-government-channel-us
+  name: Natick Government Channel
+  alt_names: []
+  broadcaster: Natick Government Channel
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/438
+  stream:
+    url: https://livestream.telvue.com/natickpegasus3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/438
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NatickGovernmentChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: natick-public-access-channel-us
+  name: Natick Public Access Channel
+  alt_names: []
+  broadcaster: Natick Public Access Channel
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/categories/1296/stream/439
+  stream:
+    url: https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/categories/1296/stream/439
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NatickPublicAccessChannel.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: national-iranian-congress-tv-us
+  name: National Iranian Congress TV
+  alt_names:
+  - تلویزیون کنگره ملی ایرانیان
+  broadcaster: National Iranian Congress
+  country: us
+  languages:
+  - fa
+  categories:
+  - news
+  website: https://iraniancongress.com
+  stream:
+    url: https://tv.iraniancongress.com/stream/tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir.m3u
+    evidence_url: https://iraniancongress.com
+    evidence_summary: 'Automated owner-domain match: stream host tv.iraniancongress.com is on the broadcaster''s domain iraniancongress.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NationalIranianCongressTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ntd-tv-us
+  name: NTD TV
+  alt_names: []
+  broadcaster: Epoch Media Group
+  country: us
+  languages:
+  - zh
+  - en
+  categories:
+  - general
+  website: https://www.ntdtv.com/
+  stream:
+    url: https://live.ntdtv.com/uwlive990/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.ntdtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.ntdtv.com is on the broadcaster''s domain ntdtv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NTDTV.us@West
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ntd-tv-asia-pacific-us
+  name: NTD TV Asia-Pacific
+  alt_names: []
+  broadcaster: Epoch Media Group
+  country: us
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://www.ntdtv.com.tw/
+  stream:
+    url: https://live.ntdtv.com/aplive200/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://www.ntdtv.com.tw/
+    evidence_summary: 'Automated owner-domain match: stream host live.ntdtv.com (ntdtv.com) shares the broadcaster''s domain
+      name ''ntdtv'' (ntdtv.com.tw). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NTDTVAsiaPacific.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ntd-tv-canada-us
+  name: NTD TV Canada
+  alt_names: []
+  broadcaster: Epoch Media Group
+  country: us
+  languages:
+  - zh
+  - en
+  categories:
+  - general
+  website: http://ca.ntdtv.com/
+  stream:
+    url: https://live.ntdtv.com/mllive860/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: http://ca.ntdtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.ntdtv.com is on the broadcaster''s domain ntdtv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NTDTVCanada.us@East
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ntd-tv-china-us
+  name: NTD TV China
+  alt_names: []
+  broadcaster: Epoch Media Group
+  country: us
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.ntdtv.com/
+  stream:
+    url: https://live.ntdtv.com/cnlive900/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.ntdtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.ntdtv.com is on the broadcaster''s domain ntdtv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NTDTVChina.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: orange-government-access-tv-us
+  name: Orange Government Access TV
+  alt_names: []
+  broadcaster: Orange Government Access TV
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://videoplayer.telvue.com/player/BUJHRRxhCf0u3AtXMrx7Sx7CjdW8zUFT/stream/851?autostart=false&showtabssearch=true
+  stream:
+    url: https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://videoplayer.telvue.com/player/BUJHRRxhCf0u3AtXMrx7Sx7CjdW8zUFT/stream/851?autostart=false&showtabssearch=true
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OrangeGovernmentAccessTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: palm-beaches-tv-us
+  name: Palm Beaches TV
+  alt_names: []
+  broadcaster: Palm Beach County Film & Television Commission
+  country: us
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://www.thepalmbeaches.tv/
+  stream:
+    url: https://live.feed.thepalmbeaches.tv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.thepalmbeaches.tv/
+    evidence_summary: 'Automated owner-domain match: stream host live.feed.thepalmbeaches.tv is on the broadcaster''s domain
+      thepalmbeaches.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PalmBeachesTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pbs-us
+  name: PBS
+  alt_names: []
+  broadcaster: PBS Member Public Television Stations
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  website: https://www.pbs.org/
+  stream:
+    url: https://pbs.lls.cdn.pbs.org/est/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_pbs.m3u
+    evidence_url: https://www.pbs.org/
+    evidence_summary: 'Automated owner-domain match: stream host pbs.lls.cdn.pbs.org is on the broadcaster''s domain pbs.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PBS.us@East
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - us
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pbs-kids-us
+  name: PBS Kids
+  alt_names: []
+  broadcaster: PBS Member Public Television Stations
+  country: us
+  languages:
+  - en
+  categories:
+  - education
+  - kids
+  website: https://pbskids.org/
+  stream:
+    url: https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://pbskids.org/
+    evidence_summary: 'Automated owner-domain match: stream host livestream.pbskids.org is on the broadcaster''s domain pbskids.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PBSKids.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rally-tv-us
+  name: Rally TV
+  alt_names: []
+  broadcaster: Rally TV
+  country: us
+  languages:
+  - en
+  categories:
+  - sports
+  website: https://www.rally.tv/
+  stream:
+    url: https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://www.rally.tv/
+    evidence_summary: 'Automated owner-domain match: CDN hostname rally-tv-live.akamaized.net is named for the broadcaster''s
+      domain ''rally'' (rally.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RallyTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rctv3-us
+  name: RCTV3
+  alt_names: []
+  broadcaster: RCTV3
+  country: us
+  languages:
+  - en
+  - es
+  categories:
+  - general
+  website: https://www.cityofrc.us/your-government/city-council-agendas
+  stream:
+    url: https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.cityofrc.us/your-government/city-council-agendas
+    evidence_summary: 'Automated owner-domain match: stream host vod.cityofrc.us is on the broadcaster''s domain cityofrc.us.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RCTV3.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: sgtv-us
+  name: SGTV
+  alt_names: []
+  broadcaster: SGTV
+  country: us
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://www.seminolecountyfl.gov/departments-services/county-managers-office/sgtv/watch-sgtv.stml
+  stream:
+    url: https://live.seminolecountyfl.gov/live-2/live/stream-1/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.seminolecountyfl.gov/departments-services/county-managers-office/sgtv/watch-sgtv.stml
+    evidence_summary: 'Automated owner-domain match: stream host live.seminolecountyfl.gov is on the broadcaster''s domain
+      seminolecountyfl.gov. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SGTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: sound-view-community-media-us
+  name: Sound View Community Media
+  alt_names: []
+  broadcaster: Sound View Community Media
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://videoplayer.telvue.com/player/TZ8khYX7RlRx6tH0saPsaK0nFpap97BM/home?autostart=false&showtabssearch=true
+  stream:
+    url: https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://videoplayer.telvue.com/player/TZ8khYX7RlRx6tH0saPsaK0nFpap97BM/home?autostart=false&showtabssearch=true
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SoundViewCommunityMedia.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tbcn-us
+  name: TBCN
+  alt_names: []
+  broadcaster: TBCN
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://reflect-tampa-bay-community.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+  stream:
+    url: https://reflect-tampa-bay-community.cablecast.tv/live-16/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://reflect-tampa-bay-community.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-tampa-bay-community.cablecast.tv is on the broadcaster''s
+      domain cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TBCN.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: vsctv-us
+  name: VSCTV
+  alt_names: []
+  broadcaster: VSCTV
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://reflect-vsctv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+  stream:
+    url: https://reflect-vsctv.cablecast.tv/live-3/live/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://reflect-vsctv.cablecast.tv/CablecastPublicSite/watch/1?channel=1
+    evidence_summary: 'Automated owner-domain match: stream host reflect-vsctv.cablecast.tv is on the broadcaster''s domain
+      cablecast.tv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VSCTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: wcot-us
+  name: WCOT
+  alt_names: []
+  broadcaster: WCOT
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://www.talgov.com/cotnews/wcot
+  stream:
+    url: https://stream.talgov.net/WCOT/smil:WCOT.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://www.talgov.com/cotnews/wcot
+    evidence_summary: 'Automated owner-domain match: stream host stream.talgov.net (talgov.net) shares the broadcaster''s
+      domain name ''talgov'' (talgov.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WCOT.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: weathernation-us
+  name: WeatherNation
+  alt_names: []
+  broadcaster: WeatherNation
+  country: us
+  languages:
+  - en
+  categories:
+  - weather
+  website: http://www.weathernationtv.com/
+  stream:
+    url: https://stream.weathernationtv.com/WNTVStirr_eokxldieulowixkdimn/ND1/playlistSCTE35.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_stirr.m3u
+    evidence_url: http://www.weathernationtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream.weathernationtv.com is on the broadcaster''s domain
+      weathernationtv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WeatherNation.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: whiplash-us
+  name: Whiplash
+  alt_names: []
+  broadcaster: Whiplash
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://whiplash.cc/
+  stream:
+    url: https://cdn.whiplash.cc/whiplash/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://whiplash.cc/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.whiplash.cc is on the broadcaster''s domain whiplash.cc.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Whiplash.us@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: whiplash-cinema-us
+  name: Whiplash Cinema
+  alt_names: []
+  broadcaster: Whiplash
+  country: us
+  languages:
+  - en
+  categories:
+  - movies
+  website: https://whiplash.cc/
+  stream:
+    url: https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://whiplash.cc/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.whiplash.cc is on the broadcaster''s domain whiplash.cc.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WhiplashCinema.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: whiplash-ii-us
+  name: Whiplash II
+  alt_names:
+  - Whiplash 2
+  broadcaster: Whiplash
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://whiplash.cc/
+  stream:
+    url: https://cdn.whiplash.cc/whiplash-2/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://whiplash.cc/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.whiplash.cc is on the broadcaster''s domain whiplash.cc.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WhiplashII.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: window-tv-us
+  name: Window TV
+  alt_names: []
+  broadcaster: Whiplash
+  country: us
+  languages:
+  - en
+  categories:
+  - general
+  website: https://whiplash.cc/
+  stream:
+    url: https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://whiplash.cc/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.whiplash.cc is on the broadcaster''s domain whiplash.cc.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WindowTV.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: yuma-channel-72-us
+  name: Yuma Channel 72
+  alt_names: []
+  broadcaster: Yuma Channel 72
+  country: us
+  languages:
+  - en
+  - es
+  categories:
+  - legislative
+  website: https://videoplayer.telvue.com/player/OXn5XvCPQqemD7cvXwSX1qzONyLLA3Uq/home
+  stream:
+    url: https://livestream.telvue.com/yumaaz1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://videoplayer.telvue.com/player/OXn5XvCPQqemD7cvXwSX1qzONyLLA3Uq/home
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: YumaChannel72.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: yuma-channel-73-us
+  name: Yuma Channel 73
+  alt_names: []
+  broadcaster: Yuma Channel 73
+  country: us
+  languages:
+  - en
+  - es
+  categories:
+  - legislative
+  website: https://videoplayer.telvue.com/player/OXn5XvCPQqemD7cvXwSX1qzONyLLA3Uq/home
+  stream:
+    url: https://livestream.telvue.com/yumaaz2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us_local.m3u
+    evidence_url: https://videoplayer.telvue.com/player/OXn5XvCPQqemD7cvXwSX1qzONyLLA3Uq/home
+    evidence_summary: 'Automated owner-domain match: stream host livestream.telvue.com is on the broadcaster''s domain telvue.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: YumaChannel73.us@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

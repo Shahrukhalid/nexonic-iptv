@@ -1,0 +1,115 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: nar-tv-fi
+  name: Nar-TV
+  alt_names:
+  - När-TV
+  broadcaster: Nar-TV
+  country: fi
+  languages:
+  - sv
+  categories:
+  - general
+  website: https://nartv.fi/
+  stream:
+    url: https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fi.m3u
+    evidence_url: https://nartv.fi/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.nartv.fi is on the broadcaster''s domain nartv.fi.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NarTV.fi@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: navahang-tv-fi
+  name: Navahang TV
+  alt_names: []
+  broadcaster: Navahang TV
+  country: fi
+  languages:
+  - fa
+  categories:
+  - music
+  website: https://www.navahang.com/
+  stream:
+    url: https://hls.navahang.live/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fi.m3u
+    evidence_url: https://www.navahang.com/
+    evidence_summary: 'Automated owner-domain match: stream host hls.navahang.live (navahang.live) shares the broadcaster''s
+      domain name ''navahang'' (navahang.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NavahangTV.fi@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nopola-news-fi
+  name: Nopola News
+  alt_names: []
+  broadcaster: Nopola News
+  country: fi
+  languages:
+  - fi
+  categories:
+  - news
+  website: https://www.nopolanews.fi/
+  stream:
+    url: https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fi.m3u
+    evidence_url: https://www.nopolanews.fi/
+    evidence_summary: 'Automated owner-domain match: stream host virta2.nopolanews.fi is on the broadcaster''s domain nopolanews.fi.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NopolaNews.fi@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

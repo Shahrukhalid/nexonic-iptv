@@ -1,0 +1,40 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: monaco-info-mc
+  name: Monaco Info
+  alt_names: []
+  broadcaster: Government of Monaco
+  country: mc
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://monacoinfo.com/
+  stream:
+    url: https://webtv.monacoinfo.com/live/prod/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mc.m3u
+    evidence_url: https://monacoinfo.com/
+    evidence_summary: 'Automated owner-domain match: stream host webtv.monacoinfo.com is on the broadcaster''s domain monacoinfo.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MonacoInfo.mc@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,775 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: charoen-cable-37-tv-th
+  name: Charoen Cable 37 TV
+  alt_names: []
+  broadcaster: Charoen Cable 37 TV
+  country: th
+  languages:
+  - th
+  categories:
+  - general
+  website: https://www.cabletv.co.th/
+  stream:
+    url: http://www5.cabletv.co.th/StreamToCTV/cablechannel/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.cabletv.co.th/
+    evidence_summary: 'Automated owner-domain match: stream host www5.cabletv.co.th is on the broadcaster''s domain cabletv.co.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CharoenCable37TV.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-1-th
+  name: DLTV 1
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV1
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv01.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV1
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV1.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-10-th
+  name: DLTV 10
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV10
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv10.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV10
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV10.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-11-th
+  name: DLTV 11
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV11
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv11.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV11
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV11.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-12-th
+  name: DLTV 12
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV12
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv12.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV12
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV12.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-13-th
+  name: DLTV 13
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV13
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv13.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV13
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV13.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-14-th
+  name: DLTV 14
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV14
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv14.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV14
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV14.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-15-th
+  name: DLTV 15
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV15
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv15.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV15
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV15.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-2-th
+  name: DLTV 2
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV2
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv02.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV2
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV2.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-3-th
+  name: DLTV 3
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV3
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv03.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV3
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV3.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-4-th
+  name: DLTV 4
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV4
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv04.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV4
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV4.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-5-th
+  name: DLTV 5
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV5
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv05.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV5
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV5.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-6-th
+  name: DLTV 6
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV6
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv06.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV6
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV6.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-7-th
+  name: DLTV 7
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV7
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv07.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV7
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV7.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-8-th
+  name: DLTV 8
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV8
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv08.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV8
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV8.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dltv-9-th
+  name: DLTV 9
+  alt_names:
+  - สถานีวิทยุโทรทัศน์การศึกษาทางไกลผ่านดาวเทียม
+  broadcaster: Distance Learning Foundation
+  country: th
+  languages:
+  - th
+  - en
+  categories:
+  - education
+  website: https://www.dltv.ac.th/DLTV9
+  stream:
+    url: https://cdn-live.dltv.ac.th/dltv09.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.dltv.ac.th/DLTV9
+    evidence_summary: 'Automated owner-domain match: stream host cdn-live.dltv.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DLTV9.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mcot-hd-th
+  name: MCOT HD
+  alt_names:
+  - บริษัท อสมท จำกัด (มหาชน)
+  broadcaster: Ministry of Finance
+  country: th
+  languages:
+  - th
+  categories:
+  - general
+  website: https://tv.mcot.net/mcothd
+  stream:
+    url: https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://tv.mcot.net/mcothd
+    evidence_summary: 'Automated owner-domain match: stream host mcothd-streaming-edge-cdn.mcot.net is on the broadcaster''s
+      domain mcot.net. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MCOTHD.th@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stou-channel-th
+  name: STOU Channel
+  alt_names: []
+  broadcaster: STOU Channel
+  country: th
+  languages:
+  - th
+  categories:
+  - general
+  website: http://stouonline.stou.ac.th/tv/
+  stream:
+    url: https://stream1.stou.ac.th/live/stou_720p/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: http://stouonline.stou.ac.th/tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream1.stou.ac.th is on the broadcaster''s domain ac.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: STOUChannel.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: thai-parliament-television-th
+  name: Thai Parliament Television
+  alt_names:
+  - TPTV
+  broadcaster: National Assembly of Thailand
+  country: th
+  languages:
+  - th
+  categories:
+  - legislative
+  website: https://www.tpchannel.org/
+  stream:
+    url: https://tv-live.tpchannel.org/live/tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.tpchannel.org/
+    evidence_summary: 'Automated owner-domain match: stream host tv-live.tpchannel.org is on the broadcaster''s domain tpchannel.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ThaiParliamentTelevision.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: top-news-th
+  name: Top News
+  alt_names: []
+  broadcaster: Top News
+  country: th
+  languages:
+  - th
+  categories:
+  - news
+  website: https://www.topnews.co.th/
+  stream:
+    url: https://live.topnews.co.th/hls/topnews_a_720.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://www.topnews.co.th/
+    evidence_summary: 'Automated owner-domain match: stream host live.topnews.co.th is on the broadcaster''s domain topnews.co.th.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TopNews.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

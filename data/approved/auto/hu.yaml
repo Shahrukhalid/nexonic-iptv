@@ -1,0 +1,228 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: atv-hu
+  name: ATV
+  alt_names: []
+  broadcaster: ATV Zrt.
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: http://www.atv.hu/
+  stream:
+    url: https://streamservers.atv.hu/atvlive/atvstream_1_aac/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: http://www.atv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host streamservers.atv.hu is on the broadcaster''s domain atv.hu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ATV.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: atv-spirit-hu
+  name: ATV Spirit
+  alt_names: []
+  broadcaster: ATV Zrt.
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: http://www.atv.hu/
+  stream:
+    url: https://streamservers.atv.hu/atvliveedge/_definst_/atvstream_2_aac/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: http://www.atv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host streamservers.atv.hu is on the broadcaster''s domain atv.hu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ATVSpirit.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: city-tv-hu
+  name: City TV
+  alt_names: []
+  broadcaster: City TV
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: https://citytv.hu/
+  stream:
+    url: https://citytv.hu/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: https://citytv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host citytv.hu is on the broadcaster''s domain citytv.hu. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityTV.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mora-net-tv-hu
+  name: Mora-Net TV
+  alt_names:
+  - Móra-Net TV
+  broadcaster: Mora-Net TV
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: https://moranettv.hu/
+  stream:
+    url: https://stream.moranettv.hu/live/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: https://moranettv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host stream.moranettv.hu is on the broadcaster''s domain moranettv.hu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MoraNetTV.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rakosmente-tv-hu
+  name: Rakosmente TV
+  alt_names:
+  - Rákosmente TV
+  - RMTV
+  broadcaster: Rakosmente TV
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: http://www.rakosmentetv.hu/
+  stream:
+    url: http://rakosmentetv.hu:8080/hls/rmtv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: http://www.rakosmentetv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host rakosmentetv.hu is on the broadcaster''s domain rakosmentetv.hu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RakosmenteTV.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tisza-tv-hu
+  name: Tisza TV
+  alt_names: []
+  broadcaster: Tisza TV
+  country: hu
+  languages:
+  - hu
+  categories:
+  - general
+  website: https://www.tiszatv.hu/
+  stream:
+    url: https://www.tiszatv.hu/onlinetv/tiszatv_1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/hu.m3u
+    evidence_url: https://www.tiszatv.hu/
+    evidence_summary: 'Automated owner-domain match: stream host www.tiszatv.hu is on the broadcaster''s domain tiszatv.hu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TiszaTV.hu@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,78 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: acw-ug-tv-ug
+  name: ACW UG TV
+  alt_names: []
+  broadcaster: ACW UG TV
+  country: ug
+  languages:
+  - en
+  categories:
+  - general
+  - music
+  website: https://live.acwugtv.com/
+  stream:
+    url: https://live.acwugtv.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ug.m3u
+    evidence_url: https://live.acwugtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.acwugtv.com is on the broadcaster''s domain acwugtv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ACWUGTV.ug@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: bbs-tv-ug
+  name: BBS TV
+  alt_names: []
+  broadcaster: Buganda Kingdom
+  country: ug
+  languages:
+  - lg
+  categories:
+  - general
+  website: https://www.bbstv.ug/
+  stream:
+    url: https://bbstv.ug/hls/ch01/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ug.m3u
+    evidence_url: https://www.bbstv.ug/
+    evidence_summary: 'Automated owner-domain match: stream host bbstv.ug is on the broadcaster''s domain bbstv.ug. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BBSTV.ug@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

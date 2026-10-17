@@ -1,0 +1,1323 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: 24-horas-canarias-es
+  name: 24 Horas Canarias
+  alt_names:
+  - Canal 24 Horas Canarias
+  broadcaster: RTVE SA
+  country: es
+  languages:
+  - es
+  categories:
+  - news
+  - general
+  website: https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/5473142.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 24HorasCanarias.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 24-horas-catalunya-es
+  name: 24 Horas Catalunya
+  alt_names:
+  - Canal 24 Horas Catalunya
+  broadcaster: RTVE SA
+  country: es
+  languages:
+  - ca
+  - es
+  categories:
+  - news
+  - general
+  website: https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/4952053.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 24HorasCatalunya.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 28-kanala-es
+  name: 28 kanala
+  alt_names: []
+  broadcaster: 28 kanala
+  country: es
+  languages:
+  - eu
+  categories:
+  - general
+  website: https://28kanala.eus/
+  stream:
+    url: https://streaming.28kanala.eus/hls/z.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://28kanala.eus/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.28kanala.eus is on the broadcaster''s domain 28kanala.eus.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 28kanala.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: 9-la-loma-tv-es
+  name: 9 la Loma TV
+  alt_names: []
+  broadcaster: 9 la Loma TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://9laloma.tv/
+  stream:
+    url: https://9laloma.tv/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://9laloma.tv/
+    evidence_summary: 'Automated owner-domain match: stream host 9laloma.tv is on the broadcaster''s domain 9laloma.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: 9laLomaTV.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: alcarria-tv-es
+  name: Alcarria TV
+  alt_names: []
+  broadcaster: Alcarria TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.alcarria.tv/
+  stream:
+    url: https://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.alcarria.tv/
+    evidence_summary: 'Automated owner-domain match: stream host cls.alcarria.tv is on the broadcaster''s domain alcarria.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: AlcarriaTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: bailen-tv-es
+  name: Bailen TV
+  alt_names:
+  - Bailén TV
+  broadcaster: Bailen TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://bailen.tv/
+  stream:
+    url: http://cpd.bailen.tv:8080/Playlist_CANAL_24H/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://bailen.tv/
+    evidence_summary: 'Automated owner-domain match: stream host cpd.bailen.tv is on the broadcaster''s domain bailen.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: BailenTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-1-mar-menor-torre-pacheco-es
+  name: Canal 1 Mar Menor Torre Pacheco
+  alt_names: []
+  broadcaster: Consorcio del Mar Menor
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  - news
+  website: https://www.tuwebtv.es/
+  stream:
+    url: https://directo.tuwebtv.es/canal1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.tuwebtv.es/
+    evidence_summary: 'Automated owner-domain match: stream host directo.tuwebtv.es is on the broadcaster''s domain tuwebtv.es.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Canal1MarMenorTorrePacheco.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-56-es
+  name: Canal 56
+  alt_names: []
+  broadcaster: Canal 56
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://canal56.com/
+  stream:
+    url: https://videos.canal56.com/directe/stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://canal56.com/
+    evidence_summary: 'Automated owner-domain match: stream host videos.canal56.com is on the broadcaster''s domain canal56.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Canal56.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-parlamento-es
+  name: Canal Parlamento
+  alt_names: []
+  broadcaster: Congress of Deputies
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/web/guest/actualidad/canal-parlamento
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/web/guest/actualidad/canal-parlamento
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CanalParlamento.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: clan-internacional-es
+  name: Clan Internacional
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - kids
+  - general
+  website: http://www.rtve.es/infantil/
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: http://www.rtve.es/infantil/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream-rtveplayplus.rtve.es is on the broadcaster''s
+      domain rtve.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ClanInternacional.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: congreso-de-los-diputados-1-es
+  name: Congreso de los Diputados 1
+  alt_names: []
+  broadcaster: Congreso de los Diputados 1
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/en/home
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/en/home
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CongresodelosDiputados1.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: congreso-de-los-diputados-2-es
+  name: Congreso de los Diputados 2
+  alt_names: []
+  broadcaster: Congreso de los Diputados 2
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/en/home
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2038275/canal2/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/en/home
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CongresodelosDiputados2.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: congreso-de-los-diputados-3-es
+  name: Congreso de los Diputados 3
+  alt_names: []
+  broadcaster: Congreso de los Diputados 3
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/en/home
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/en/home
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CongresodelosDiputados3.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: congreso-de-los-diputados-4-es
+  name: Congreso de los Diputados 4
+  alt_names: []
+  broadcaster: Congreso de los Diputados 4
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/en/home
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/en/home
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CongresodelosDiputados4.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: congreso-de-los-diputados-5-es
+  name: Congreso de los Diputados 5
+  alt_names: []
+  broadcaster: Congreso de los Diputados 5
+  country: es
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.congreso.es/en/home
+  stream:
+    url: https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.congreso.es/en/home
+    evidence_summary: 'Automated owner-domain match: CDN hostname congresodirecto.akamaized.net is named for the broadcaster''s
+      domain ''congreso'' (congreso.es). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CongresodelosDiputados5.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: el-toro-tv-es
+  name: El Toro TV
+  alt_names:
+  - Intereconomia TV
+  broadcaster: Intereconomia Corporation
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://eltorotv.com/
+  stream:
+    url: https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://eltorotv.com/
+    evidence_summary: 'Automated owner-domain match: stream host streaming-1.eltorotv.com is on the broadcaster''s domain
+      eltorotv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ElToroTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: fibwi-es
+  name: Fibwi
+  alt_names: []
+  broadcaster: Fibwi
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://fibwi.live/
+  stream:
+    url: https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://fibwi.live/
+    evidence_summary: 'Automated owner-domain match: stream host hostcdn3.fibwi.com (fibwi.com) shares the broadcaster''s
+      domain name ''fibwi'' (fibwi.live). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Fibwi.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: interalmeria-tv-es
+  name: Interalmeria TV
+  alt_names:
+  - Interalmería TV
+  broadcaster: Interalmeria TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.interalmeria.tv/directo/
+  stream:
+    url: https://interalmeria.tv/directo/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.interalmeria.tv/directo/
+    evidence_summary: 'Automated owner-domain match: stream host interalmeria.tv is on the broadcaster''s domain interalmeria.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: InteralmeriaTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la-1-canarias-es
+  name: La 1 Canarias
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: http://www.rtve.es/television/tve-canarias/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/5190066.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: http://www.rtve.es/television/tve-canarias/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: La1Canarias.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la-1-catalunya-es
+  name: La 1 Catalunya
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  - ca
+  categories:
+  - general
+  website: https://www.rtve.es/television/catalunya/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/3293681.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/television/catalunya/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: La1Catalunya.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la-2-canarias-es
+  name: La 2 Canarias
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: http://www.rtve.es/television/tve-canarias/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/5468585.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: http://www.rtve.es/television/tve-canarias/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: La2Canarias.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la-2-catalunya-es
+  name: La 2 Catalunya
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - ca
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es/television/catalunya/
+  stream:
+    url: https://ztnr.rtve.es/ztnr/3987218.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/television/catalunya/
+    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: La2Catalunya.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: la-urban-tv-es
+  name: La Urban TV
+  alt_names: []
+  broadcaster: La Urban TV
+  country: es
+  languages:
+  - es
+  categories:
+  - music
+  website: https://www.urbanrevolution.es/emision-en-directo-de-la-urban-tv/
+  stream:
+    url: https://urbanrevolution.es:8443/live/TV/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.urbanrevolution.es/emision-en-directo-de-la-urban-tv/
+    evidence_summary: 'Automated owner-domain match: stream host urbanrevolution.es is on the broadcaster''s domain urbanrevolution.es.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: LaUrbanTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: maestrat-tv-es
+  name: Maestrat TV
+  alt_names: []
+  broadcaster: Maestrat TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.maestrat.tv/
+  stream:
+    url: https://stream.maestrat.tv/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.maestrat.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.maestrat.tv is on the broadcaster''s domain maestrat.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MaestratTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: parlamento-de-navarra-es
+  name: Parlamento de Navarra
+  alt_names: []
+  broadcaster: Parlamento de Navarra
+  country: es
+  languages:
+  - es
+  - eu
+  categories:
+  - legislative
+  website: https://www.parlamentodenavarra.es/
+  stream:
+    url: https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.parlamentodenavarra.es/
+    evidence_summary: 'Automated owner-domain match: stream host broadcasting.parlamentodenavarra.es is on the broadcaster''s
+      domain parlamentodenavarra.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ParlamentodeNavarra.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radio-3-es
+  name: Radio 3
+  alt_names:
+  - Radio 3 Webcam
+  - RNE Radio 3
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - culture
+  website: https://www.rtve.es/play/videos/directo/canales-lineales/radio-3-webcam/
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/radio-3-webcam/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream.rtve.es is on the broadcaster''s domain rtve.es.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Radio3.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rne-para-todos-es
+  name: RNE para todos
+  alt_names:
+  - Radio Nacional de España Para Todos
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es/play/videos/directo/canales-lineales/rne-para-todos/
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/rne-para-todos/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream.rtve.es is on the broadcaster''s domain rtve.es.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RNEparatodos.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tele-elx-es
+  name: Tele Elx
+  alt_names: []
+  broadcaster: Tele Elx
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://teleelx.es/
+  stream:
+    url: https://tvdirecto.teleelx.es/stream/teleelx.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://teleelx.es/
+    evidence_summary: 'Automated owner-domain match: stream host tvdirecto.teleelx.es is on the broadcaster''s domain teleelx.es.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TeleElx.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tito-tv-es
+  name: Tito TV
+  alt_names: []
+  broadcaster: Tito TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://tvomix.com/
+  stream:
+    url: https://cloud.tvomix.com/TITOTV/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://tvomix.com/
+    evidence_summary: 'Automated owner-domain match: stream host cloud.tvomix.com is on the broadcaster''s domain tvomix.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TitoTV.es@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tve-internacional-america-es
+  name: TVE Internacional America
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es/play/tve-internacional/
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/tve-internacional/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream-rtveplayplus.rtve.es is on the broadcaster''s
+      domain rtve.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVEInternacionalAmerica.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tve-internacional-asia-oceania-es
+  name: TVE Internacional Asia-Oceania
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es/play/tve-internacional/
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_576.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/tve-internacional/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream-rtveplayplus.rtve.es is on the broadcaster''s
+      domain rtve.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVEInternacionalAsiaOceania.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tve-internacional-europe-es
+  name: TVE Internacional Europe
+  alt_names: []
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  - en
+  categories:
+  - general
+  website: https://www.rtve.es/play/tve-internacional/
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_576.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/play/tve-internacional/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream-rtveplayplus.rtve.es is on the broadcaster''s
+      domain rtve.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVEInternacionalEurope.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tve-star-es
+  name: TVE Star
+  alt_names:
+  - Star TVE
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - entertainment
+  website: https://www.rtve.es/comercial/distribucion-canales/star/
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.rtve.es/comercial/distribucion-canales/star/
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream-rtveplayplus.rtve.es is on the broadcaster''s
+      domain rtve.es. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVEStar.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tvomix-es
+  name: TVOMIX
+  alt_names:
+  - teveo
+  - mix
+  broadcaster: TVOMIX
+  country: es
+  languages:
+  - es
+  categories:
+  - music
+  website: https://tvomix.com
+  stream:
+    url: https://cloud.tvomix.com/TVOMIX/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://tvomix.com
+    evidence_summary: 'Automated owner-domain match: stream host cloud.tvomix.com is on the broadcaster''s domain tvomix.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVOMIX.es@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ventdelnord-tv-es
+  name: Ventdelnord TV
+  alt_names: []
+  broadcaster: Ventdelnord TV
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.ventdelnord.tv/
+  stream:
+    url: http://ventdelnord.tv:8080/hls/directe.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
+    evidence_url: https://www.ventdelnord.tv/
+    evidence_summary: 'Automated owner-domain match: stream host ventdelnord.tv is on the broadcaster''s domain ventdelnord.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: VentdelnordTV.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

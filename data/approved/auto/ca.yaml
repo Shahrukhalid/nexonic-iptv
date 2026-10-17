@@ -1,0 +1,826 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: az-star-tv-ca
+  name: Az Star TV
+  alt_names: []
+  broadcaster: Az Star TV
+  country: ca
+  languages:
+  - az
+  categories:
+  - general
+  website: https://www.azstartv.com/
+  stream:
+    url: http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://www.azstartv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.azstartv.com is on the broadcaster''s domain azstartv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AzStarTV.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: citynews-calgary-ca
+  name: CityNews Calgary
+  alt_names: []
+  broadcaster: Rogers Sports & Media
+  country: ca
+  languages:
+  - en
+  categories:
+  - news
+  website: https://calgary.citynews.ca/video/
+  stream:
+    url: https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://calgary.citynews.ca/video/
+    evidence_summary: 'Automated owner-domain match: CDN hostname citynewsregional.akamaized.net is named for the broadcaster''s
+      domain ''citynews'' (citynews.ca). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityNewsCalgary.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: citynews-edmonton-ca
+  name: CityNews Edmonton
+  alt_names: []
+  broadcaster: Rogers Sports & Media
+  country: ca
+  languages:
+  - en
+  categories:
+  - news
+  website: https://edmonton.citynews.ca/video/
+  stream:
+    url: https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2Mbps.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://edmonton.citynews.ca/video/
+    evidence_summary: 'Automated owner-domain match: CDN hostname citynewsregional.akamaized.net is named for the broadcaster''s
+      domain ''citynews'' (citynews.ca). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityNewsEdmonton.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: citynews-toronto-ca
+  name: CityNews Toronto
+  alt_names: []
+  broadcaster: Rogers Sports & Media
+  country: ca
+  languages:
+  - en
+  categories:
+  - news
+  website: https://toronto.citynews.ca/video/
+  stream:
+    url: https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://toronto.citynews.ca/video/
+    evidence_summary: 'Automated owner-domain match: CDN hostname citynewsregional.akamaized.net is named for the broadcaster''s
+      domain ''citynews'' (citynews.ca). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityNewsToronto.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: citynews-vancouver-ca
+  name: CityNews Vancouver
+  alt_names: []
+  broadcaster: Rogers Sports & Media
+  country: ca
+  languages:
+  - en
+  categories:
+  - news
+  website: https://vancouver.citynews.ca/video/
+  stream:
+    url: https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://vancouver.citynews.ca/video/
+    evidence_summary: 'Automated owner-domain match: CDN hostname citynewsregional.akamaized.net is named for the broadcaster''s
+      domain ''citynews'' (citynews.ca). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CityNewsVancouver.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: doyel-tv-ca
+  name: Doyel TV
+  alt_names:
+  - শ্রেষ্ঠত্বে বাংলাদেশ
+  broadcaster: Doyel TV
+  country: ca
+  languages:
+  - bn
+  categories:
+  - culture
+  website: http://doyeltv.com/
+  stream:
+    url: https://3d46w.doyeltv.com/memfs/aa3aa6f7-ec12-41a2-8183-a891e157bbf8.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: http://doyeltv.com/
+    evidence_summary: 'Automated owner-domain match: stream host 3d46w.doyeltv.com is on the broadcaster''s domain doyeltv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DoyelTV.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hamdard-tv-ca
+  name: Hamdard TV
+  alt_names: []
+  broadcaster: Hamdard TV
+  country: ca
+  languages:
+  - pa
+  categories:
+  - news
+  website: https://www.hamdardtv.com/
+  stream:
+    url: https://tv.hamdardtv.com/hamdard/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.hamdardtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host tv.hamdardtv.com is on the broadcaster''s domain hamdardtv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HamdardTV.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pamir-tv-ca
+  name: Pamir TV
+  alt_names: []
+  broadcaster: Pamir TV
+  country: ca
+  languages:
+  - ps
+  - tg
+  - en
+  categories:
+  - culture
+  - music
+  website: http://www.pamirtv.com/
+  stream:
+    url: http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: http://www.pamirtv.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.stream.cdn.pamirtv.com is on the broadcaster''s domain
+      pamirtv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: PamirTV.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: savoir-media-ca
+  name: Savoir media
+  alt_names:
+  - Savoir média
+  broadcaster: Savoir media
+  country: ca
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://savoir.media/
+  stream:
+    url: https://hls.savoir.media/live/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca.m3u
+    evidence_url: https://savoir.media/
+    evidence_summary: 'Automated owner-domain match: stream host hls.savoir.media is on the broadcaster''s domain savoir.media.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Savoirmedia.ca@CFTUDT
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-classica-ca
+  name: Stingray Classica
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  - de
+  - es
+  - fr
+  categories:
+  - music
+  website: https://classica.stingray.com/
+  stream:
+    url: https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://classica.stingray.com/
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayClassica.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-djazz-ca
+  name: Stingray DJAZZ
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://djazz.stingray.com/
+  stream:
+    url: https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://djazz.stingray.com/
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayDJAZZ.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-everything-80s-ca
+  name: Stingray Everything '80s
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/BS/channels/128/everything-80s
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/BS/channels/128/everything-80s
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayEverything80s.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-hit-list-ca
+  name: Stingray Hit List
+  alt_names: []
+  broadcaster: Stingray Hit List
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/CA/channels/007/hit-list
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/CA/channels/007/hit-list
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayHitList.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-holidayscapes-ca
+  name: Stingray Holidayscapes
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://www.stingray.com/consumer/products/stingray-holidayscapes/
+  stream:
+    url: https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://www.stingray.com/consumer/products/stingray-holidayscapes/
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayHolidayscapes.ca@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-karaoke-ca
+  name: Stingray Karaoke
+  alt_names: []
+  broadcaster: Stingray Karaoke
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://karaoke.stingray.com/en/
+  stream:
+    url: https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://karaoke.stingray.com/en/
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayKaraoke.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-naturescape-ca
+  name: Stingray Naturescape
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  - tr
+  categories:
+  - music
+  website: https://www.stingray.com/stingray-naturescape
+  stream:
+    url: https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://www.stingray.com/stingray-naturescape
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayNaturescape.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-nothin-but-90s-ca
+  name: Stingray Nothin' But 90s
+  alt_names: []
+  broadcaster: Stingray Nothin' But 90s
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/042/nothin-but-90s
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/042/nothin-but-90s
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayNothinBut90s.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-smooth-jazz-ca
+  name: Stingray Smooth Jazz
+  alt_names: []
+  broadcaster: Stingray Smooth Jazz
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/040/smooth-jazz
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/040/smooth-jazz
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingraySmoothJazz.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-soul-storm-ca
+  name: Stingray Soul Storm
+  alt_names: []
+  broadcaster: Stingray Soul Storm
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/134/soul-storm
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/134/soul-storm
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingraySoulStorm.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-the-spa-ca
+  name: Stingray The Spa
+  alt_names: []
+  broadcaster: Stingray The Spa
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/022/the-spa
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/022/the-spa
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayTheSpa.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: stingray-today-s-k-pop-ca
+  name: Stingray Today's K-Pop
+  alt_names: []
+  broadcaster: Stingray Today's K-Pop
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/317/todays-k-pop
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/317/todays-k-pop
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StingrayTodaysKPop.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zenlife-by-stingray-ca
+  name: ZenLIFE by Stingray
+  alt_names: []
+  broadcaster: Stingray Group Inc.
+  country: ca
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://stingray.com/consumer/products/zen-life/
+  stream:
+    url: https://lotus.stingray.com/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://stingray.com/consumer/products/zen-life/
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZenLIFEbyStingray.ca@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

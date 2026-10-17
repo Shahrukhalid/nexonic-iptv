@@ -1,0 +1,414 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: ard-alpha-de
+  name: ARD-alpha
+  alt_names:
+  - BR-alpha
+  broadcaster: Bayerischer Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - education
+  website: https://www.br.de/fernsehen/ard-alpha/
+  stream:
+    url: https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.br.de/fernsehen/ard-alpha/
+    evidence_summary: 'Automated owner-domain match: stream host mcdn.br.de is on the broadcaster''s domain br.de. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ARDalpha.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: br-fernsehen-de
+  name: BR Fernsehen
+  alt_names: []
+  broadcaster: Bayerischer Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.br.de/br-fernsehen/index.html
+  stream:
+    url: https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.br.de/br-fernsehen/index.html
+    evidence_summary: 'Automated owner-domain match: stream host mcdn.br.de is on the broadcaster''s domain br.de. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BRFernsehen.de@Nord
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dasding-90-8-de
+  name: DASDING 90.8
+  alt_names: []
+  broadcaster: Sudwestrundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - music
+  website: https://www.dasding.de/index.html
+  stream:
+    url: https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.dasding.de/index.html
+    evidence_summary: 'Automated owner-domain match: CDN hostname swrdasdingvr-hls.akamaized.net is named for the broadcaster''s
+      domain ''dasding'' (dasding.de). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DASDING908.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: finest-tv-de
+  name: Finest TV
+  alt_names: []
+  broadcaster: Finest TV
+  country: de
+  languages:
+  - de
+  - tr
+  categories:
+  - music
+  website: https://www.finest.tv/
+  stream:
+    url: https://media.finest.tv/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.finest.tv/
+    evidence_summary: 'Automated owner-domain match: stream host media.finest.tv is on the broadcaster''s domain finest.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: FinestTV.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: magentamusik-360-de
+  name: MagentaMusik 360
+  alt_names: []
+  broadcaster: Deutsche Telekom
+  country: de
+  languages:
+  - de
+  categories:
+  - music
+  website: https://www.magentamusik.de/
+  stream:
+    url: https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.magentamusik.de/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.magentamusik.de is on the broadcaster''s domain
+      magentamusik.de. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MagentaMusik360.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ndr-fernsehen-de
+  name: NDR Fernsehen
+  alt_names: []
+  broadcaster: Norddeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.ndr.de/fernsehen/
+  stream:
+    url: https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.ndr.de/fernsehen/
+    evidence_summary: 'Automated owner-domain match: stream host mcdn.ndr.de is on the broadcaster''s domain ndr.de. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NDRFernsehen.de@Hamburg
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nrwision-de
+  name: NRWision
+  alt_names: []
+  broadcaster: NRWision
+  country: de
+  languages:
+  - de
+  categories:
+  - education
+  website: https://www.nrwision.de/
+  stream:
+    url: https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.nrwision.de/
+    evidence_summary: 'Automated owner-domain match: stream host fms.nrwision.de is on the broadcaster''s domain nrwision.de.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NRWision.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ok-kiel-de
+  name: OK Kiel
+  alt_names: []
+  broadcaster: OK Kiel
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.oksh.de/ki/
+  stream:
+    url: https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.oksh.de/ki/
+    evidence_summary: 'Automated owner-domain match: stream host live-cdn.oksh.de is on the broadcaster''s domain oksh.de.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OKKiel.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ok-trier-de
+  name: OK Trier
+  alt_names: []
+  broadcaster: OK Trier
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://ok54.de/
+  stream:
+    url: https://s.ok54.de/ott/webstream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://ok54.de/
+    evidence_summary: 'Automated owner-domain match: stream host s.ok54.de is on the broadcaster''s domain ok54.de. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OKTrier.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ok54-de
+  name: OK54
+  alt_names: []
+  broadcaster: OK54
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://ok54.de/
+  stream:
+    url: https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://ok54.de/
+    evidence_summary: 'Automated owner-domain match: stream host s.ok54.de is on the broadcaster''s domain ok54.de. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OK54.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: yol-tv-de
+  name: YOL TV
+  alt_names: []
+  broadcaster: YOL TV
+  country: de
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.yoltv.eu/
+  stream:
+    url: https://live.yoltv.com/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://www.yoltv.eu/
+    evidence_summary: 'Automated owner-domain match: stream host live.yoltv.com (yoltv.com) shares the broadcaster''s domain
+      name ''yoltv'' (yoltv.eu). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: YOLTV.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

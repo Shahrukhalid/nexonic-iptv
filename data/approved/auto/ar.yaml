@@ -1,0 +1,232 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: alternatv-ar
+  name: AlternaTV
+  alt_names:
+  - ALTERNATV
+  - Alterna TV
+  broadcaster: AlternaTV
+  country: ar
+  languages:
+  - es
+  categories:
+  - music
+  - culture
+  - entertainment
+  - documentary
+  - movies
+  - general
+  website: https://tv.alterna.ar/
+  stream:
+    url: https://tv.alterna.ar/stream/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://tv.alterna.ar/
+    evidence_summary: 'Automated owner-domain match: stream host tv.alterna.ar is on the broadcaster''s domain alterna.ar.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: AlternaTV.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-pulpo-tv-ar
+  name: Canal Pulpo TV
+  alt_names: []
+  broadcaster: Canal Pulpo TV
+  country: ar
+  languages:
+  - es
+  categories:
+  - entertainment
+  website: https://new.opencaster.com/player?user=canalpulpotv
+  stream:
+    url: https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://new.opencaster.com/player?user=canalpulpotv
+    evidence_summary: 'Automated owner-domain match: stream host vs20.live.opencaster.com is on the broadcaster''s domain
+      opencaster.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalPulpoTV.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: itel-tv-canal-2-ar
+  name: Itel TV Canal 2
+  alt_names: []
+  broadcaster: Itel S.A.
+  country: ar
+  languages:
+  - es
+  categories:
+  - general
+  website: https://iteltv.com.ar/
+  stream:
+    url: https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://iteltv.com.ar/
+    evidence_summary: 'Automated owner-domain match: stream host proxystream.iteltv.com.ar is on the broadcaster''s domain
+      iteltv.com.ar. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ItelTVCanal2.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mercurio-noticias-ar
+  name: Mercurio Noticias
+  alt_names: []
+  broadcaster: Mercurio Noticias
+  country: ar
+  languages:
+  - es
+  categories:
+  - news
+  website: https://videostream.shockmedia.com.ar/public/mercuriotv
+  stream:
+    url: https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://videostream.shockmedia.com.ar/public/mercuriotv
+    evidence_summary: 'Automated owner-domain match: stream host videostream.shockmedia.com.ar is on the broadcaster''s domain
+      shockmedia.com.ar. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: MercurioNoticias.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: t5-satelital-ar
+  name: T5 Satelital
+  alt_names: []
+  broadcaster: T5 Satelital
+  country: ar
+  languages:
+  - es
+  categories:
+  - general
+  website: https://t5satelital.com/
+  stream:
+    url: https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://t5satelital.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream.t5satelital.blog (t5satelital.blog) shares the broadcaster''s
+      domain name ''t5satelital'' (t5satelital.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: T5Satelital.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-universidad-ar
+  name: TV Universidad
+  alt_names: []
+  broadcaster: TV Universidad
+  country: ar
+  languages:
+  - es
+  categories:
+  - education
+  website: https://tv.unlp.edu.ar/
+  stream:
+    url: https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ar.m3u
+    evidence_url: https://tv.unlp.edu.ar/
+    evidence_summary: 'Automated owner-domain match: stream host stratus.stream.cespi.unlp.edu.ar is on the broadcaster''s
+      domain edu.ar. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVUniversidad.ar@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

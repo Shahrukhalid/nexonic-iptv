@@ -1,0 +1,590 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: abn-kr
+  name: ABN
+  alt_names:
+  - 아름방송네트워크
+  broadcaster: ABN
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: https://www.abn.co.kr/
+  stream:
+    url: https://vod2.abn.co.kr/IPHONE/abn.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://www.abn.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host vod2.abn.co.kr is on the broadcaster''s domain abn.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ABN.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ebs-1tv-kr
+  name: EBS 1TV
+  alt_names: []
+  broadcaster: Government of South Korea
+  country: kr
+  languages:
+  - ko
+  categories:
+  - education
+  website: https://www.ebs.co.kr/tv/home
+  stream:
+    url: https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://www.ebs.co.kr/tv/home
+    evidence_summary: 'Automated owner-domain match: stream host ebsonair.ebs.co.kr is on the broadcaster''s domain ebs.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: EBS1TV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ebs-2tv-kr
+  name: EBS 2TV
+  alt_names: []
+  broadcaster: Government of South Korea
+  country: kr
+  languages:
+  - ko
+  categories:
+  - education
+  website: http://www.ebs.co.kr/ebs2tv/introduce
+  stream:
+    url: https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://www.ebs.co.kr/ebs2tv/introduce
+    evidence_summary: 'Automated owner-domain match: stream host ebsonair.ebs.co.kr is on the broadcaster''s domain ebs.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: EBS2TV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ebs-kids-kr
+  name: EBS Kids
+  alt_names:
+  - EBS 키즈
+  broadcaster: Government of South Korea
+  country: kr
+  languages:
+  - ko
+  categories:
+  - kids
+  website: http://www.ebs.co.kr/kids
+  stream:
+    url: https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://www.ebs.co.kr/kids
+    evidence_summary: 'Automated owner-domain match: stream host ebsonair.ebs.co.kr is on the broadcaster''s domain ebs.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: EBSKids.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ebs-plus-2-kr
+  name: EBS Plus 2
+  alt_names:
+  - EBS 플러스 2
+  broadcaster: Government of South Korea
+  country: kr
+  languages:
+  - en
+  - ko
+  categories:
+  - education
+  website: https://primary.ebs.co.kr/main/primary
+  stream:
+    url: https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://primary.ebs.co.kr/main/primary
+    evidence_summary: 'Automated owner-domain match: stream host ebsonair.ebs.co.kr is on the broadcaster''s domain ebs.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EBSPlus2.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hlaj-dtv-kr
+  name: HLAJ-DTV
+  alt_names:
+  - Jeju MBC TV
+  - 제주문화방송
+  - 濟州文化放送
+  broadcaster: Jeju MBC
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: https://jejumbc.com/
+  stream:
+    url: https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://jejumbc.com/
+    evidence_summary: 'Automated owner-domain match: stream host wowza.jejumbc.com is on the broadcaster''s domain jejumbc.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLAJDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hlan-dtv-kr
+  name: HLAN-DTV
+  alt_names:
+  - Chuncheon MBC TV
+  - 춘천문화방송
+  - 春川文化放送
+  broadcaster: Chuncheon MBC
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: http://chmbc.co.kr/
+  stream:
+    url: https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://chmbc.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host stream.chmbc.co.kr is on the broadcaster''s domain chmbc.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLANDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hlcn-dtv-kr
+  name: HLCN-DTV
+  alt_names:
+  - Gwangju MBC TV
+  - 광주문화방송
+  - 光州文化放送
+  broadcaster: Gwangju MBC
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: https://kjmbc.co.kr/
+  stream:
+    url: https://media.kjmbc.co.kr/hls/live/stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://kjmbc.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host media.kjmbc.co.kr is on the broadcaster''s domain kjmbc.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HLCNDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hlcq-dtv-kr
+  name: HLCQ-DTV
+  alt_names:
+  - Daejeon MBC TV
+  - 대전문화방송
+  - 大田文化放送
+  broadcaster: Daejeon MBC
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: https://tjmbc.co.kr/
+  stream:
+    url: https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://tjmbc.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host ns1.tjmbc.co.kr is on the broadcaster''s domain tjmbc.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLCQDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hldg-dtv-kr
+  name: HLDG-DTV
+  alt_names:
+  - KNN TV
+  - Korea New Network
+  - 주식회사 케이엔엔
+  - 주식회사 부산방송
+  - 株式會社 釜山放送
+  broadcaster: Pusan Broadcasting Corporation
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: https://www.knn.co.kr/
+  stream:
+    url: https://stream1.knn.co.kr/hls/9ly4534y7dm2xfa123r2_tv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://www.knn.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host stream1.knn.co.kr is on the broadcaster''s domain knn.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLDGDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hldh-dtv-kr
+  name: HLDH-DTV
+  alt_names:
+  - KBC TV
+  - 광주방송
+  - 光州放送
+  broadcaster: Kwangju Broadcasting Corporation
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: http://www.ikbc.co.kr/
+  stream:
+    url: https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://www.ikbc.co.kr/
+    evidence_summary: 'Automated owner-domain match: stream host vod.ikbc.co.kr is on the broadcaster''s domain ikbc.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLDHDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hldp-dtv-kr
+  name: HLDP-DTV
+  alt_names:
+  - UBC TV
+  - 울산방송
+  - 蔚山放送
+  broadcaster: Ulsan Broadcasting Corporation
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: http://web.ubc.co.kr/wp/tv
+  stream:
+    url: https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://web.ubc.co.kr/wp/tv
+    evidence_summary: 'Automated owner-domain match: stream host stream.ubc.co.kr is on the broadcaster''s domain ubc.co.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: HLDPDTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ktv-kr
+  name: KTV
+  alt_names:
+  - Korea TV
+  - 國民放送
+  broadcaster: KTV
+  country: kr
+  languages:
+  - ko
+  categories:
+  - legislative
+  - news
+  website: https://www.ktv.go.kr/
+  stream:
+    url: https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: https://www.ktv.go.kr/
+    evidence_summary: 'Automated owner-domain match: stream host hlive.ktv.go.kr is on the broadcaster''s domain ktv.go.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: KTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: oun-kr
+  name: OUN
+  alt_names:
+  - OUN 방송대학TV
+  - Open University Network
+  broadcaster: Korea National Open University
+  country: kr
+  languages:
+  - ko
+  categories:
+  - education
+  website: http://oun.knou.ac.kr/
+  stream:
+    url: https://live.knou.ac.kr/knou1/live1/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://oun.knou.ac.kr/
+    evidence_summary: 'Automated owner-domain match: stream host live.knou.ac.kr is on the broadcaster''s domain ac.kr. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OUN.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tbs-tv-kr
+  name: TBS TV
+  alt_names: []
+  broadcaster: TBS TV
+  country: kr
+  languages:
+  - ko
+  categories:
+  - general
+  website: http://tbs.seoul.kr/
+  stream:
+    url: https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kr.m3u
+    evidence_url: http://tbs.seoul.kr/
+    evidence_summary: 'Automated owner-domain match: stream host cdntv.tbs.seoul.kr is on the broadcaster''s domain seoul.kr.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TBSTV.kr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

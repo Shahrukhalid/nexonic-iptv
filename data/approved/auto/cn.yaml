@@ -1,0 +1,797 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: baicheng-tv-cn
+  name: Baicheng TV
+  alt_names:
+  - 白城新闻综合频道
+  broadcaster: Baicheng TV
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.jlntv.cn/newpc/wlt/dszb/folder3130/folder3140/
+  stream:
+    url: https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://www.jlntv.cn/newpc/wlt/dszb/folder3130/folder3140/
+    evidence_summary: 'Automated owner-domain match: stream host stream2.jlntv.cn is on the broadcaster''s domain jlntv.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BaichengTV.cn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - cn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cctv-1-cn
+  name: CCTV+ 1
+  alt_names: []
+  broadcaster: China Central Television
+  country: cn
+  languages:
+  - zh
+  categories:
+  - news
+  website: https://www.cctvplus.com/
+  stream:
+    url: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cctv.m3u
+    evidence_url: https://www.cctvplus.com/
+    evidence_summary: 'Automated owner-domain match: stream host cd-live-stream.news.cctvplus.com is on the broadcaster''s
+      domain cctvplus.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CCTVPlus1.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cctv-2-cn
+  name: CCTV+ 2
+  alt_names: []
+  broadcaster: China Central Television
+  country: cn
+  languages:
+  - zh
+  categories:
+  - news
+  website: https://www.cctvplus.com/
+  stream:
+    url: https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cctv.m3u
+    evidence_url: https://www.cctvplus.com/
+    evidence_summary: 'Automated owner-domain match: stream host cd-live-stream.news.cctvplus.com is on the broadcaster''s
+      domain cctvplus.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CCTVPlus2.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cgtn-arabic-cn
+  name: CGTN Arabic
+  alt_names:
+  - CGTN العربية
+  broadcaster: China Media Group
+  country: cn
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://arabic.cgtn.com/
+  stream:
+    url: https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cgtn.m3u
+    evidence_url: https://arabic.cgtn.com/
+    evidence_summary: 'Automated owner-domain match: stream host arabic-livews.cgtn.com is on the broadcaster''s domain cgtn.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CGTNArabic.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cgtn-documentary-cn
+  name: CGTN Documentary
+  alt_names: []
+  broadcaster: China Media Group
+  country: cn
+  languages:
+  - en
+  categories:
+  - documentary
+  website: https://www.cgtn.com/channel/documentary
+  stream:
+    url: https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cgtn.m3u
+    evidence_url: https://www.cgtn.com/channel/documentary
+    evidence_summary: 'Automated owner-domain match: stream host english-livebkali.cgtn.com is on the broadcaster''s domain
+      cgtn.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CGTNDocumentary.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cgtn-french-cn
+  name: CGTN French
+  alt_names:
+  - CGTN Français
+  broadcaster: China Media Group
+  country: cn
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://francais.cgtn.com/
+  stream:
+    url: https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cgtn.m3u
+    evidence_url: https://francais.cgtn.com/
+    evidence_summary: 'Automated owner-domain match: stream host francais-livews.cgtn.com is on the broadcaster''s domain
+      cgtn.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: CGTNFrench.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cgtn-russian-cn
+  name: CGTN Russian
+  alt_names:
+  - CGTN Pусский
+  broadcaster: China Media Group
+  country: cn
+  languages:
+  - ru
+  categories:
+  - news
+  website: https://russian.cgtn.com/
+  stream:
+    url: https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cgtn.m3u
+    evidence_url: https://russian.cgtn.com/
+    evidence_summary: 'Automated owner-domain match: stream host russian-livews.cgtn.com is on the broadcaster''s domain cgtn.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CGTNRussian.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: cgtn-spanish-cn
+  name: CGTN Spanish
+  alt_names:
+  - CGTN Español
+  broadcaster: China Media Group
+  country: cn
+  languages:
+  - es
+  categories:
+  - news
+  website: https://espanol.cgtn.com/
+  stream:
+    url: https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn_cgtn.m3u
+    evidence_url: https://espanol.cgtn.com/
+    evidence_summary: 'Automated owner-domain match: stream host espanol-livews.cgtn.com is on the broadcaster''s domain cgtn.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CGTNSpanish.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: china-weather-channel-cn
+  name: China Weather Channel
+  alt_names:
+  - 中国气象频道
+  broadcaster: China Meteorological Administration
+  country: cn
+  languages:
+  - zh
+  categories:
+  - weather
+  website: http://www.weathertv.cn/
+  stream:
+    url: http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.weathertv.cn/
+    evidence_summary: 'Automated owner-domain match: stream host hls.weathertv.cn is on the broadcaster''s domain weathertv.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ChinaWeatherChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: dongguan-comprehensive-news-channel-cn
+  name: Dongguan Comprehensive News Channel
+  alt_names:
+  - 东莞广播电视台
+  broadcaster: Dongguan Comprehensive News Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - news
+  website: https://dgrtv.sun0769.com/index.php/online2/4
+  stream:
+    url: https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://dgrtv.sun0769.com/index.php/online2/4
+    evidence_summary: 'Automated owner-domain match: stream host stream.sun0769.com is on the broadcaster''s domain sun0769.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DongguanComprehensiveNewsChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: guangzhou-tv-cn
+  name: Guangzhou TV
+  alt_names: []
+  broadcaster: Guangzhou TV
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://www.gztv.com/
+  stream:
+    url: https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.gztv.com/
+    evidence_summary: 'Automated owner-domain match: stream host tencentplaybusiness.gztv.com is on the broadcaster''s domain
+      gztv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GuangzhouTV.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: harbin-comprehensive-news-channel-cn
+  name: Harbin Comprehensive News Channel
+  alt_names:
+  - 新闻综合频道
+  broadcaster: Harbin Comprehensive News Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - news
+  website: https://www.hrbtv.net/folder79/folder81/
+  stream:
+    url: https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://www.hrbtv.net/folder79/folder81/
+    evidence_summary: 'Automated owner-domain match: stream host stream.hrbtv.net is on the broadcaster''s domain hrbtv.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HarbinComprehensiveNewsChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: harbin-movie-channel-cn
+  name: Harbin Movie Channel
+  alt_names: []
+  broadcaster: Harbin Movie Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - movies
+  website: https://www.hrbtv.net/folder79/folder87/
+  stream:
+    url: https://stream.hrbtv.net/yspd/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://www.hrbtv.net/folder79/folder87/
+    evidence_summary: 'Automated owner-domain match: stream host stream.hrbtv.net is on the broadcaster''s domain hrbtv.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HarbinMovieChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hebei-tv-cn
+  name: Hebei TV
+  alt_names:
+  - 河北电视台
+  broadcaster: Hebei TV
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://www.hebtv.com.cn/
+  stream:
+    url: https://event.pull.hebtv.com/live/live101.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.hebtv.com.cn/
+    evidence_summary: 'Automated owner-domain match: stream host event.pull.hebtv.com (hebtv.com) shares the broadcaster''s
+      domain name ''hebtv'' (hebtv.com.cn). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HebeiTV.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: hunan-tv-cn
+  name: Hunan TV
+  alt_names: []
+  broadcaster: Hunan TV
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.mgtv.com/tv/
+  stream:
+    url: http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://www.mgtv.com/tv/
+    evidence_summary: 'Automated owner-domain match: stream host hlsal-ldvt.qing.mgtv.com is on the broadcaster''s domain
+      mgtv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: HunanTV.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: jiangsu-public-news-channel-cn
+  name: Jiangsu Public & News Channel
+  alt_names:
+  - 江苏公共新闻
+  broadcaster: Jiangsu Public & News Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://live.jstv.com/
+  stream:
+    url: https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://live.jstv.com/
+    evidence_summary: 'Automated owner-domain match: stream host jiangning-tv-playing-t.cm.jstv.com is on the broadcaster''s
+      domain jstv.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: JiangsuPublicNewsChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nei-monggol-tv-cn
+  name: Nei Monggol TV
+  alt_names:
+  - 内蒙古广播电视台
+  broadcaster: Nei Monggol TV
+  country: cn
+  languages:
+  - zh
+  - mn
+  categories:
+  - general
+  website: http://www.nmtv.cn/
+  stream:
+    url: http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.nmtv.cn/
+    evidence_summary: 'Automated owner-domain match: stream host play1-qk.nmtv.cn is on the broadcaster''s domain nmtv.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NeiMonggolTV.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: nei-monggol-tv-2-mongolian-culture-channel-cn
+  name: Nei Monggol TV 2 Mongolian Culture Channel
+  alt_names: []
+  broadcaster: Nei Monggol TV 2 Mongolian Culture Channel
+  country: cn
+  languages:
+  - zh
+  - mn
+  categories:
+  - culture
+  website: http://www.nmtv.cn/
+  stream:
+    url: http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.nmtv.cn/
+    evidence_summary: 'Automated owner-domain match: stream host play1-qk.nmtv.cn is on the broadcaster''s domain nmtv.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: NeiMonggolTV2MongolianCultureChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: shandong-tv-life-channel-cn
+  name: Shandong TV Life Channel
+  alt_names: []
+  broadcaster: Shandong TV Life Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://www.iqilu.com/
+  stream:
+    url: http://livealone302.iqilu.com/iqilu/shpd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.iqilu.com/
+    evidence_summary: 'Automated owner-domain match: stream host livealone302.iqilu.com is on the broadcaster''s domain iqilu.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ShandongTVLifeChannel.cn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - cn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: shandong-tv-qilu-channel-cn
+  name: Shandong TV Qilu Channel
+  alt_names: []
+  broadcaster: Shandong TV Qilu Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: http://www.iqilu.com/
+  stream:
+    url: http://livealone302.iqilu.com/iqilu/qlpd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.iqilu.com/
+    evidence_summary: 'Automated owner-domain match: stream host livealone302.iqilu.com is on the broadcaster''s domain iqilu.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ShandongTVQiluChannel.cn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - cn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: siping-tv-cn
+  name: Siping TV
+  alt_names:
+  - 四平广播电视台
+  broadcaster: Siping TV
+  country: cn
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.jlntv.cn/newpc/wlt/dszb/folder3130/folder3136/
+  stream:
+    url: http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: https://www.jlntv.cn/newpc/wlt/dszb/folder3130/folder3136/
+    evidence_summary: 'Automated owner-domain match: stream host stream2.jlntv.cn is on the broadcaster''s domain jlntv.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SipingTV.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

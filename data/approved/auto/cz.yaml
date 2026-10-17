@@ -1,0 +1,153 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: elektrika-tv-cz
+  name: Elektrika TV
+  alt_names: []
+  broadcaster: Elektrika TV
+  country: cz
+  languages:
+  - cs
+  categories:
+  - general
+  website: https://elektrika.tv/
+  stream:
+    url: https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cz.m3u
+    evidence_url: https://elektrika.tv/
+    evidence_summary: 'Automated owner-domain match: stream host rtmp.elektrika.cz (elektrika.cz) shares the broadcaster''s
+      domain name ''elektrika'' (elektrika.tv). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ElektrikaTV.cz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: jc1-cz
+  name: JC1
+  alt_names:
+  - JČ1
+  - Televize jižní Čechy
+  broadcaster: JC1
+  country: cz
+  languages:
+  - cs
+  categories:
+  - general
+  website: https://jc1.cz/
+  stream:
+    url: https://stream.jc1.cz/hls/jc1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cz.m3u
+    evidence_url: https://jc1.cz/
+    evidence_summary: 'Automated owner-domain match: stream host stream.jc1.cz is on the broadcaster''s domain jc1.cz. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: JC1.cz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: polar-tv-cz
+  name: Polar TV
+  alt_names: []
+  broadcaster: Polar TV
+  country: cz
+  languages:
+  - cs
+  categories:
+  - general
+  website: https://polar.cz/
+  stream:
+    url: https://stream.polar.cz/polar/polarlive-1/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cz.m3u
+    evidence_url: https://polar.cz/
+    evidence_summary: 'Automated owner-domain match: stream host stream.polar.cz is on the broadcaster''s domain polar.cz.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PolarTV.cz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtm-cz
+  name: RTM+
+  alt_names: []
+  broadcaster: RTM+
+  country: cz
+  languages:
+  - cs
+  categories:
+  - general
+  website: http://www.rtmplus.cz/
+  stream:
+    url: https://www.rtmplus.cz/live/1-playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cz.m3u
+    evidence_url: http://www.rtmplus.cz/
+    evidence_summary: 'Automated owner-domain match: stream host www.rtmplus.cz is on the broadcaster''s domain rtmplus.cz.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RTMPlus.cz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

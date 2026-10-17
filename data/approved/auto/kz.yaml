@@ -1,0 +1,117 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: ktk-kz
+  name: KTK
+  alt_names: []
+  broadcaster: KTK
+  country: kz
+  languages:
+  - kk
+  - ru
+  categories:
+  - general
+  website: https://www.ktk.kz/
+  stream:
+    url: https://wz-kt.ktk.kz/ktklive/smil:ktk-live.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kz.m3u
+    evidence_url: https://www.ktk.kz/
+    evidence_summary: 'Automated owner-domain match: stream host wz-kt.ktk.kz is on the broadcaster''s domain ktk.kz. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: KTK.kz@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: qonaev-media-kz
+  name: Qonaev Media
+  alt_names: []
+  broadcaster: TRK Yuzhnaya Stolicza
+  country: kz
+  languages:
+  - kk
+  - ru
+  categories:
+  - entertainment
+  website: https://qonaevtv.kz/
+  stream:
+    url: https://s.qonaevtv.kz/live/qonaev/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kz.m3u
+    evidence_url: https://qonaevtv.kz/
+    evidence_summary: 'Automated owner-domain match: stream host s.qonaevtv.kz is on the broadcaster''s domain qonaevtv.kz.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: QonaevMedia.kz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ulytau-kz
+  name: Ulytau
+  alt_names: []
+  broadcaster: Ulytau
+  country: kz
+  languages:
+  - kk
+  - ru
+  categories:
+  - general
+  website: https://ulytau.tv/
+  stream:
+    url: https://ulytau.tv/hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kz.m3u
+    evidence_url: https://ulytau.tv/
+    evidence_summary: 'Automated owner-domain match: stream host ulytau.tv is on the broadcaster''s domain ulytau.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Ulytau.kz@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

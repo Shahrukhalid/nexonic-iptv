@@ -1,0 +1,82 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: rtnb-divertissement-bi
+  name: RTNB Divertissement
+  alt_names:
+  - RTNB 2
+  broadcaster: RTNB Divertissement
+  country: bi
+  languages:
+  - en
+  - fr
+  - sw
+  categories:
+  - entertainment
+  website: https://www.rtnb.bi/
+  stream:
+    url: https://tv2-stream.rtnb.bi/hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bi.m3u
+    evidence_url: https://www.rtnb.bi/
+    evidence_summary: 'Automated owner-domain match: stream host tv2-stream.rtnb.bi is on the broadcaster''s domain rtnb.bi.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTNBDivertissement.bi@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtnb-tv-bi
+  name: RTNB TV
+  alt_names: []
+  broadcaster: RTNB TV
+  country: bi
+  languages:
+  - fr
+  - sw
+  - en
+  categories:
+  - general
+  website: https://rtnb.bi/
+  stream:
+    url: https://tv1-stream.rtnb.bi/hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bi.m3u
+    evidence_url: https://rtnb.bi/
+    evidence_summary: 'Automated owner-domain match: stream host tv1-stream.rtnb.bi is on the broadcaster''s domain rtnb.bi.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTNBTV.bi@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

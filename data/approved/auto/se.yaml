@@ -1,0 +1,40 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: aryen-tv-se
+  name: Aryen TV
+  alt_names: []
+  broadcaster: Aryen TV
+  country: se
+  languages:
+  - ku
+  categories:
+  - general
+  website: https://www.aryen.tv/
+  stream:
+    url: https://aryen.tv/live/tv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/se.m3u
+    evidence_url: https://www.aryen.tv/
+    evidence_summary: 'Automated owner-domain match: stream host aryen.tv is on the broadcaster''s domain aryen.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: AryenTV.se@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

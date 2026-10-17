@@ -1,0 +1,342 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: buenisima-radio-tv-co
+  name: Buenisima Radio TV
+  alt_names:
+  - Buenísima Radio TV
+  broadcaster: Der Medios & Marketing
+  country: co
+  languages:
+  - es
+  categories:
+  - music
+  website: https://canal.mediaserver.com.co/live/buenisimatv.m3u8
+  stream:
+    url: https://canal.mediaserver.com.co/live/buenisimatv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://canal.mediaserver.com.co/live/buenisimatv.m3u8
+    evidence_summary: 'Automated owner-domain match: stream host canal.mediaserver.com.co is on the broadcaster''s domain
+      mediaserver.com.co. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BuenisimaRadioTV.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-cine-dios-co
+  name: Canal Cine Dios
+  alt_names: []
+  broadcaster: Canal Cine Dios
+  country: co
+  languages:
+  - es
+  categories:
+  - movies
+  website: https://mediaserver.com.co/canal-cine-dios/
+  stream:
+    url: https://canal.mediaserver.com.co/live/cinedios.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://mediaserver.com.co/canal-cine-dios/
+    evidence_summary: 'Automated owner-domain match: stream host canal.mediaserver.com.co is on the broadcaster''s domain
+      mediaserver.com.co. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalCineDios.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: canal-dos-co
+  name: Canal Dos
+  alt_names:
+  - Mi Canal 2
+  broadcaster: Canal Dos
+  country: co
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.micanal2.tv/
+  stream:
+    url: https://stream2.micanal2.tv/hls/canal2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://www.micanal2.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream2.micanal2.tv is on the broadcaster''s domain micanal2.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanalDos.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: emisora-comunitaria-104-1-fm-co
+  name: Emisora Comunitaria 104.1 FM
+  alt_names:
+  - Emisora Comunitaria de Florencia
+  broadcaster: Emisora Comunitaria 104.1 FM
+  country: co
+  languages:
+  - es
+  categories:
+  - general
+  website: https://104florencia.co/
+  stream:
+    url: https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://104florencia.co/
+    evidence_summary: 'Automated owner-domain match: stream host 104florencia.co is on the broadcaster''s domain 104florencia.co.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EmisoraComunitaria1041FM.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: kalu-tv-co
+  name: Kalu TV
+  alt_names: []
+  broadcaster: Kalu Telecomunicaciones
+  country: co
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.kaludecolombia.com/kalu-tv
+  stream:
+    url: https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://www.kaludecolombia.com/kalu-tv
+    evidence_summary: 'Automated owner-domain match: stream host tv.kaludecolombia.com is on the broadcaster''s domain kaludecolombia.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: KaluTV.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: mas-norte-tv-co
+  name: Mas Norte TV
+  alt_names:
+  - Más Norte TV
+  - +Norte TV
+  broadcaster: ARNOProducciones
+  country: co
+  languages:
+  - es
+  categories:
+  - general
+  website: https://arnoproducciones.com/
+  stream:
+    url: https://live.arnoproducciones.com/hls/norte.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://arnoproducciones.com/
+    evidence_summary: 'Automated owner-domain match: stream host live.arnoproducciones.com is on the broadcaster''s domain
+      arnoproducciones.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: MasNorteTV.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: momento24-co
+  name: Momento24
+  alt_names: []
+  broadcaster: HV Multiplay
+  country: co
+  languages:
+  - es
+  categories:
+  - news
+  website: https://www.hvmultiplay.co/phone/momento24.html
+  stream:
+    url: https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://www.hvmultiplay.co/phone/momento24.html
+    evidence_summary: 'Automated owner-domain match: stream host backupmaxmedia.hvmultiplay.com (hvmultiplay.com) shares the
+      broadcaster''s domain name ''hvmultiplay'' (hvmultiplay.co). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Momento24.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: parranda-vallenata-co
+  name: Parranda Vallenata
+  alt_names: []
+  broadcaster: HV Multiplay
+  country: co
+  languages:
+  - es
+  categories:
+  - music
+  website: https://www.hvmultiplay.co/phone/parrandavallenata.html
+  stream:
+    url: https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://www.hvmultiplay.co/phone/parrandavallenata.html
+    evidence_summary: 'Automated owner-domain match: stream host backupmaxmedia.hvmultiplay.com (hvmultiplay.com) shares the
+      broadcaster''s domain name ''hvmultiplay'' (hvmultiplay.co). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ParrandaVallenata.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: supermusica-tv-co
+  name: Supermusica TV
+  alt_names:
+  - Supermúsica TV
+  broadcaster: Supermusica TV
+  country: co
+  languages:
+  - es
+  categories:
+  - music
+  website: https://www.hvmultiplay.co/phone/supermusica.html
+  stream:
+    url: https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/co.m3u
+    evidence_url: https://www.hvmultiplay.co/phone/supermusica.html
+    evidence_summary: 'Automated owner-domain match: stream host backupmaxmedia.hvmultiplay.com (hvmultiplay.com) shares the
+      broadcaster''s domain name ''hvmultiplay'' (hvmultiplay.co). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SupermusicaTV.co@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

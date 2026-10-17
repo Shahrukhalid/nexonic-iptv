@@ -1,0 +1,80 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: asia-tv-lk
+  name: Asia TV
+  alt_names: []
+  broadcaster: Asia TV
+  country: lk
+  languages:
+  - si
+  - ta
+  - en
+  categories:
+  - entertainment
+  - general
+  website: https://www.asiatvnet.com/
+  stream:
+    url: https://stream.asiatvnet.com/1/live/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lk.m3u
+    evidence_url: https://www.asiatvnet.com/
+    evidence_summary: 'Automated owner-domain match: stream host stream.asiatvnet.com is on the broadcaster''s domain asiatvnet.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AsiaTV.lk@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: talent-tv-lk
+  name: Talent TV
+  alt_names: []
+  broadcaster: Kapital Strategic Holdings Pvt Ltd
+  country: lk
+  languages:
+  - en
+  categories:
+  - sports
+  website: https://talenttv.lk/
+  stream:
+    url: https://cast.talenttv.lk/hls/mcrlo1ygwpu8x4bj/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lk.m3u
+    evidence_url: https://talenttv.lk/
+    evidence_summary: 'Automated owner-domain match: stream host cast.talenttv.lk is on the broadcaster''s domain talenttv.lk.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TalentTV.lk@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,340 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: arica-tv-cl
+  name: Arica TV
+  alt_names: []
+  broadcaster: Arica TV
+  country: cl
+  languages:
+  - es
+  categories:
+  - general
+  website: https://arica.tv/
+  stream:
+    url: https://envivo.arica.tv/hls/Live2025AricaTV.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://arica.tv/
+    evidence_summary: 'Automated owner-domain match: stream host envivo.arica.tv is on the broadcaster''s domain arica.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AricaTV.cl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: buin-somos-todos-cl
+  name: Buin Somos Todos
+  alt_names: []
+  broadcaster: Buin Somos Todos
+  country: cl
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.buin.cl/senal-online/
+  stream:
+    url: https://bst.buin.cl/0.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://www.buin.cl/senal-online/
+    evidence_summary: 'Automated owner-domain match: stream host bst.buin.cl is on the broadcaster''s domain buin.cl. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: BuinSomosTodos.cl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: orbita-chile-tv-cl
+  name: Orbita Chile TV
+  alt_names:
+  - Órbita Chile TV
+  broadcaster: Concepción
+  country: cl
+  languages:
+  - es
+  categories:
+  - movies
+  - music
+  website: https://orbitachiletv.org/
+  stream:
+    url: https://orbitachiletv.org/hls/0/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://orbitachiletv.org/
+    evidence_summary: 'Automated owner-domain match: stream host orbitachiletv.org is on the broadcaster''s domain orbitachiletv.org.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: OrbitaChileTV.cl@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radio-suyai-tv-cl
+  name: Radio Suyai TV
+  alt_names:
+  - Radio Suyai
+  broadcaster: Suyai TV
+  country: cl
+  languages:
+  - es
+  categories:
+  - culture
+  - music
+  website: https://radio.suyaitv.cl
+  stream:
+    url: https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://radio.suyaitv.cl
+    evidence_summary: 'Automated owner-domain match: stream host trun.suyaitv.cl is on the broadcaster''s domain suyaitv.cl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RadioSuyaiTV.cl@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: solo-tv-cl
+  name: Solo TV
+  alt_names: []
+  broadcaster: Solo Multimedios
+  country: cl
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.solotv.cl
+  stream:
+    url: https://sproxy.solotv.cl/hls/live/fhd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://www.solotv.cl
+    evidence_summary: 'Automated owner-domain match: stream host sproxy.solotv.cl is on the broadcaster''s domain solotv.cl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SoloTV.cl@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: suyai-tv-cl
+  name: Suyai TV
+  alt_names: []
+  broadcaster: Suyai TV
+  country: cl
+  languages:
+  - es
+  categories:
+  - culture
+  website: https://suyaitv.cl
+  stream:
+    url: https://trun.suyaitv.cl/memfs/1255a743-cd41-40a8-86c4-d264ee16ebf3.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://suyaitv.cl
+    evidence_summary: 'Automated owner-domain match: stream host trun.suyaitv.cl is on the broadcaster''s domain suyaitv.cl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SuyaiTV.cl@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-senado-cl
+  name: TV Senado
+  alt_names: []
+  broadcaster: TV Senado
+  country: cl
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.senado.cl/
+  stream:
+    url: https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://www.senado.cl/
+    evidence_summary: 'Automated owner-domain match: stream host janus-tv-ply.senado.cl is on the broadcaster''s domain senado.cl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVSenado.cl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: u-los-lagos-tv-cl
+  name: U Los Lagos TV
+  alt_names: []
+  broadcaster: U Los Lagos TV
+  country: cl
+  languages:
+  - es
+  categories:
+  - general
+  website: http://medios.ulagos.cl/
+  stream:
+    url: http://tv.ulagos.cl/web/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: http://medios.ulagos.cl/
+    evidence_summary: 'Automated owner-domain match: stream host tv.ulagos.cl is on the broadcaster''s domain ulagos.cl. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: ULosLagosTV.cl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: wapp-cl
+  name: Wapp
+  alt_names: []
+  broadcaster: Wapp
+  country: cl
+  languages:
+  - es
+  categories:
+  - lifestyle
+  website: https://www.wapptv.cl/
+  stream:
+    url: https://stream.wapptv.cl/video/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
+    evidence_url: https://www.wapptv.cl/
+    evidence_summary: 'Automated owner-domain match: stream host stream.wapptv.cl is on the broadcaster''s domain wapptv.cl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Wapp.cl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

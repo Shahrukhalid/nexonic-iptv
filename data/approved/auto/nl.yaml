@@ -1,0 +1,823 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: a1-tv-nl
+  name: A1 TV
+  alt_names: []
+  broadcaster: A1 Mediagroep
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  website: https://www.a1mediagroep.nl/
+  stream:
+    url: https://stream.a1mediagroep.nl/hls/a1tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.a1mediagroep.nl/
+    evidence_summary: 'Automated owner-domain match: stream host stream.a1mediagroep.nl is on the broadcaster''s domain a1mediagroep.nl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: A1TV.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: beattv-nl
+  name: BEATTV
+  alt_names:
+  - BE@TTV
+  broadcaster: BEATTV
+  country: nl
+  languages:
+  - nl
+  categories:
+  - music
+  - entertainment
+  website: https://beatfm.nl/
+  stream:
+    url: https://tv.beatfm.nl/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://beatfm.nl/
+    evidence_summary: 'Automated owner-domain match: stream host tv.beatfm.nl is on the broadcaster''s domain beatfm.nl. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BEATTV.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: jin-tv-nl
+  name: Jin TV
+  alt_names: []
+  broadcaster: Jin TV
+  country: nl
+  languages:
+  - ku
+  categories:
+  - culture
+  website: https://jintv.net/en/contact/
+  stream:
+    url: https://live.jintv.org/medialive/jintv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://jintv.net/en/contact/
+    evidence_summary: 'Automated owner-domain match: stream host live.jintv.org (jintv.org) shares the broadcaster''s domain
+      name ''jintv'' (jintv.net). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: JinTV.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: qmusic-nl
+  name: Qmusic
+  alt_names: []
+  broadcaster: DPG Media B.V.
+  country: nl
+  languages:
+  - nl
+  categories:
+  - music
+  website: https://qmusic.nl
+  stream:
+    url: https://stream.qmusic.nl/qmusic/videohls.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://qmusic.nl
+    evidence_summary: 'Automated owner-domain match: stream host stream.qmusic.nl is on the broadcaster''s domain qmusic.nl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Qmusic.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radio-350-nl
+  name: Radio 350
+  alt_names: []
+  broadcaster: Radio 350
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  website: https://www.radio350.nl/
+  stream:
+    url: https://stream.radio350.nl/hls/radio350.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.radio350.nl/
+    evidence_summary: 'Automated owner-domain match: stream host stream.radio350.nl is on the broadcaster''s domain radio350.nl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: Radio350.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: radionl-tv-nl
+  name: RadioNL TV
+  alt_names: []
+  broadcaster: RadioNL TV
+  country: nl
+  languages:
+  - nl
+  categories:
+  - music
+  website: https://www.radionl.tv/
+  stream:
+    url: https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.radionl.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.radionl.tv is on the broadcaster''s domain radionl.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: RadioNLTV.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: rtv-drenthe-nl
+  name: RTV Drenthe
+  alt_names: []
+  broadcaster: RTV Drenthe
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  website: https://www.rtvdrenthe.nl/
+  stream:
+    url: https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.rtvdrenthe.nl/
+    evidence_summary: 'Automated owner-domain match: stream host cdn.rtvdrenthe.nl is on the broadcaster''s domain rtvdrenthe.nl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RTVDrenthe.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: streekstad-central-nl
+  name: Streekstad Central
+  alt_names: []
+  broadcaster: Streekstad Central
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  website: https://streekstadcentraal.nl/
+  stream:
+    url: https://videostreams.streekstadcentraal.nl/hls/streekstad_alkmaar/streekstad_alkmaar.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://streekstadcentraal.nl/
+    evidence_summary: 'Automated owner-domain match: stream host videostreams.streekstadcentraal.nl is on the broadcaster''s
+      domain streekstadcentraal.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: StreekstadCentral.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv-rain-nl
+  name: TV Rain
+  alt_names:
+  - Дождь
+  broadcaster: TVR Studios B.V.
+  country: nl
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://tvrain.ru/
+  stream:
+    url: https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://tvrain.ru/
+    evidence_summary: 'Automated owner-domain match: stream host wl.tvrain.tv (tvrain.tv) shares the broadcaster''s domain
+      name ''tvrain'' (tvrain.ru). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVRain.nl@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - nl
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-actualiteitenkanaal-nl
+  name: 'Tweede Kamer: Actualiteitenkanaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Actualiteitenkanaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/actualiteitenkanaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/evenementenkanaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/actualiteitenkanaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerActualiteitenkanaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-aletta-jacobszaal-nl
+  name: 'Tweede Kamer: Aletta Jacobszaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Aletta Jacobszaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/aletta-jacobszaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/alettajacobszaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/aletta-jacobszaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerAlettaJacobszaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-enquetezaal-nl
+  name: 'Tweede Kamer: Enquetezaal'
+  alt_names:
+  - 'Tweede Kamer: Enquêtezaal'
+  broadcaster: 'Tweede Kamer: Enquetezaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/enquetezaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/enquetezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/enquetezaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerEnquetezaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-groen-van-prinstererzaal-nl
+  name: 'Tweede Kamer: Groen van Prinstererzaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Groen van Prinstererzaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/groen-van-prinstererzaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/groenvanprinstererzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/groen-van-prinstererzaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerGroenvanPrinstererzaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-klompezaal-nl
+  name: 'Tweede Kamer: Klompezaal'
+  alt_names:
+  - 'Tweede Kamer: Klompézaal'
+  broadcaster: 'Tweede Kamer: Klompezaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/klompezaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/klompezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/klompezaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerKlompezaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-max-van-der-stoelzaal-nl
+  name: 'Tweede Kamer: Max van der Stoelzaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Max van der Stoelzaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/max-van-der-stoelzaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/maxvanderstoelzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/max-van-der-stoelzaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerMaxvanderStoelzaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-plenaire-zaal-nl
+  name: 'Tweede Kamer: Plenaire zaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Plenaire zaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/plenaire-zaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/plenairezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/plenaire-zaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerPlenairezaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-suze-groenewegzaal-nl
+  name: 'Tweede Kamer: Suze Groenewegzaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Suze Groenewegzaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/suze-groenewegzaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/suzegroenewegzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/suze-groenewegzaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerSuzeGroenewegzaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-thorbeckezaal-nl
+  name: 'Tweede Kamer: Thorbeckezaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Thorbeckezaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/thorbeckezaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/thorbeckezaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerThorbeckezaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-tilanuskamer-nl
+  name: 'Tweede Kamer: Tilanuskamer'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Tilanuskamer'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/tilanuskamer
+  stream:
+    url: https://livestream.tweedekamer.nl/live/tilanuskamer/73/prog_index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/tilanuskamer
+    evidence_summary: 'Automated owner-domain match: stream host livestream.tweedekamer.nl is on the broadcaster''s domain
+      tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerTilanuskamer.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-troelstrazaal-nl
+  name: 'Tweede Kamer: Troelstrazaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Troelstrazaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/troelstrazaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/troelstrazaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerTroelstrazaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tweede-kamer-wttewaall-van-stoetwegenzaal-nl
+  name: 'Tweede Kamer: Wttewaall van Stoetwegenzaal'
+  alt_names: []
+  broadcaster: 'Tweede Kamer: Wttewaall van Stoetwegenzaal'
+  country: nl
+  languages:
+  - nl
+  categories:
+  - legislative
+  website: https://www.tweedekamer.nl/vergaderingen/livedebat/wttewaall-van-stoetwegenzaal
+  stream:
+    url: https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.tweedekamer.nl/vergaderingen/livedebat/wttewaall-van-stoetwegenzaal
+    evidence_summary: 'Automated owner-domain match: stream host livestreaming.b67buv2.tweedekamer.nl is on the broadcaster''s
+      domain tweedekamer.nl. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: TweedeKamerWttewaallvanStoetwegenzaal.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: zfm-zoetermeer-tv-nl
+  name: ZFM Zoetermeer TV
+  alt_names: []
+  broadcaster: ZFM Zoetermeer TV
+  country: nl
+  languages:
+  - nl
+  categories:
+  - music
+  website: https://www.zfmzoetermeer.nl/
+  stream:
+    url: https://zfmzoetermeer.nl/live/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/nl.m3u
+    evidence_url: https://www.zfmzoetermeer.nl/
+    evidence_summary: 'Automated owner-domain match: stream host zfmzoetermeer.nl is on the broadcaster''s domain zfmzoetermeer.nl.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZFMZoetermeerTV.nl@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

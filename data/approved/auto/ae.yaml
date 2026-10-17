@@ -1,0 +1,118 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: al-arabiya-business-ae
+  name: Al Arabiya Business
+  alt_names:
+  - العربية أسواق
+  broadcaster: MBC Group
+  country: ae
+  languages:
+  - ar
+  categories:
+  - business
+  website: https://www.alarabiya.net/aswaq
+  stream:
+    url: https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ae.m3u
+    evidence_url: https://www.alarabiya.net/aswaq
+    evidence_summary: 'Automated owner-domain match: stream host live.alarabiya.net is on the broadcaster''s domain alarabiya.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AlArabiyaBusiness.ae@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: al-arabiya-programs-ae
+  name: Al Arabiya Programs
+  alt_names:
+  - العربية برامج
+  broadcaster: Al Arabiya
+  country: ae
+  languages:
+  - ar
+  categories:
+  - documentary
+  - news
+  website: https://www.alarabiya.net/programs
+  stream:
+    url: https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ae.m3u
+    evidence_url: https://www.alarabiya.net/programs
+    evidence_summary: 'Automated owner-domain match: stream host live.alarabiya.net is on the broadcaster''s domain alarabiya.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AlArabiyaPrograms.ae@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: sky-news-arabia-vertical-ae
+  name: Sky News Arabia Vertical
+  alt_names:
+  - Sky News عربية Vertical
+  broadcaster: Sky News Arabia FZ LLC
+  country: ae
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.skynewsarabia.com/
+  stream:
+    url: https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ae.m3u
+    evidence_url: https://www.skynewsarabia.com/
+    evidence_summary: 'Automated owner-domain match: stream host live-stream.skynewsarabia.com is on the broadcaster''s domain
+      skynewsarabia.com. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SkyNewsArabiaVertical.ae@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

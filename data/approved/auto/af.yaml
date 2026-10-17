@@ -1,0 +1,41 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: shams-tv-af
+  name: Shams TV
+  alt_names:
+  - شبکه آموزشی شمس
+  broadcaster: Shams TV
+  country: af
+  languages:
+  - ps
+  categories:
+  - education
+  website: https://www.darya.net/
+  stream:
+    url: https://fflive-darya-educationtv.b-cdn.net/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/af.m3u
+    evidence_url: https://www.darya.net/
+    evidence_summary: 'Automated owner-domain match: CDN hostname fflive-darya-educationtv.b-cdn.net is named for the broadcaster''s
+      domain ''darya'' (darya.net). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ShamsTV.af@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

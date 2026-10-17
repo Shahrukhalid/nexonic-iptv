@@ -1,0 +1,41 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: legislative-assembly-of-el-salvador-sv
+  name: Legislative Assembly of El Salvador
+  alt_names:
+  - Asamblea Legislativa de la República de El Salvador
+  broadcaster: Legislative Assembly of El Salvador
+  country: sv
+  languages:
+  - es
+  categories:
+  - legislative
+  website: https://www.asamblea.gob.sv/
+  stream:
+    url: https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/sv.m3u
+    evidence_url: https://www.asamblea.gob.sv/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.asamblea.gob.sv is on the broadcaster''s domain
+      asamblea.gob.sv. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: LegislativeAssemblyofElSalvador.sv@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

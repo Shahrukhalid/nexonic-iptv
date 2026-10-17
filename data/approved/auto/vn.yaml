@@ -1,0 +1,243 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: an-giang-tv-1-vn
+  name: An Giang TV 1
+  alt_names:
+  - ATV1
+  - Kien Giang TV
+  - KG-PTTH
+  broadcaster: An Giang Radio - Television Station
+  country: vn
+  languages:
+  - vi
+  categories:
+  - general
+  website: https://angiangtv.vn/
+  stream:
+    url: https://tv.angiangtv.vn/live/kgtv/kgtv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: https://angiangtv.vn/
+    evidence_summary: 'Automated owner-domain match: stream host tv.angiangtv.vn is on the broadcaster''s domain angiangtv.vn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AnGiangTV1.vn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - vn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: an-giang-tv-2-vn
+  name: An Giang TV 2
+  alt_names:
+  - An Giang TV
+  - AnGiangTV
+  - ATV
+  - ATV2
+  broadcaster: An Giang Radio - Television Station
+  country: vn
+  languages:
+  - vi
+  categories:
+  - entertainment
+  website: https://angiangtv.vn/
+  stream:
+    url: https://tv.angiangtv.vn/live/kgtv2/kgtv2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: https://angiangtv.vn/
+    evidence_summary: 'Automated owner-domain match: stream host tv.angiangtv.vn is on the broadcaster''s domain angiangtv.vn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AnGiangTV2.vn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - vn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: an-giang-tv-3-vn
+  name: An Giang TV 3
+  alt_names:
+  - ATV 3
+  - Kien Giang TV 1
+  - KG1-PTTH
+  broadcaster: An Giang Radio - Television Station
+  country: vn
+  languages:
+  - vi
+  categories:
+  - entertainment
+  website: https://angiangtv.vn/
+  stream:
+    url: https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: https://angiangtv.vn/
+    evidence_summary: 'Automated owner-domain match: stream host tv.angiangtv.vn is on the broadcaster''s domain angiangtv.vn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AnGiangTV3.vn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - vn
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: can-tho-tv-vn
+  name: Can Tho TV
+  alt_names:
+  - CầnThơ1
+  - CanTho1
+  - THTPCT1
+  - THTPCT
+  - THCT43
+  broadcaster: CầnThơ TV
+  country: vn
+  languages:
+  - vi
+  categories:
+  - general
+  website: https://canthotv.vn/can-tho-1/
+  stream:
+    url: https://live.canthotv.vn/live/tv/chunklist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: https://canthotv.vn/can-tho-1/
+    evidence_summary: 'Automated owner-domain match: stream host live.canthotv.vn is on the broadcaster''s domain canthotv.vn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CanThoTV.vn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: qpvn-vn
+  name: QPVN
+  alt_names: []
+  broadcaster: QPVN
+  country: vn
+  languages:
+  - vi
+  categories:
+  - general
+  website: http://www.qpvn.vn/
+  stream:
+    url: https://qpvn.vn/live/qpvn/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: http://www.qpvn.vn/
+    evidence_summary: 'Automated owner-domain match: stream host qpvn.vn is on the broadcaster''s domain qpvn.vn. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: QPVN.vn@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: thai-nguyen-tv-vn
+  name: Thai Nguyen TV
+  alt_names: []
+  broadcaster: Thai Nguyen TV
+  country: vn
+  languages:
+  - vi
+  categories:
+  - general
+  website: https://thainguyentv.vn/
+  stream:
+    url: https://streaming.thainguyentv.vn/hls/livestream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: https://thainguyentv.vn/
+    evidence_summary: 'Automated owner-domain match: stream host streaming.thainguyentv.vn is on the broadcaster''s domain
+      thainguyentv.vn. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ThaiNguyenTV.vn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -1,0 +1,344 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: git-ua
+  name: GIT
+  alt_names:
+  - ГІТ
+  - Громадське Інтерактивне Телебачення
+  broadcaster: GIT
+  country: ua
+  languages:
+  - uk
+  categories:
+  - news
+  website: https://uagit.tv/
+  stream:
+    url: https://stream.uagit.tv/gittv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://uagit.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.uagit.tv is on the broadcaster''s domain uagit.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: GIT.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: i-ua-tv-ua
+  name: I-UA.tv
+  alt_names: []
+  broadcaster: I-UA.tv
+  country: ua
+  languages:
+  - uk
+  categories:
+  - news
+  website: https://i-ua.tv/
+  stream:
+    url: https://kie2.cdn.i-ua.tv/hlsme/iuatv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://i-ua.tv/
+    evidence_summary: 'Automated owner-domain match: stream host kie2.cdn.i-ua.tv is on the broadcaster''s domain i-ua.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IUAtv.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: irt-ua
+  name: IRT
+  alt_names:
+  - ІРТ
+  - ИРТ
+  broadcaster: IRT
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: https://www.irt.ua/
+  stream:
+    url: https://stream.irt.ua/memfs/8fac7cbb-3356-4a03-bb77-4439b727ebd2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://www.irt.ua/
+    evidence_summary: 'Automated owner-domain match: stream host stream.irt.ua is on the broadcaster''s domain irt.ua. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IRT.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: orbita-tv-ua
+  name: Orbita TV
+  alt_names:
+  - Орбіта ТВ
+  broadcaster: Orbita TV
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: http://orbita.dn.ua/
+  stream:
+    url: http://ftp.orbita.dn.ua/hls/orbita.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: http://orbita.dn.ua/
+    evidence_summary: 'Automated owner-domain match: stream host ftp.orbita.dn.ua is on the broadcaster''s domain dn.ua. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: OrbitaTV.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: pershiy-xtv-media-ua
+  name: Pershiy XTV Media
+  alt_names: []
+  broadcaster: XTV Media
+  country: ua
+  languages:
+  - uk
+  categories:
+  - news
+  website: https://trk1tv.xtvmedia.pp.ua/
+  stream:
+    url: https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://trk1tv.xtvmedia.pp.ua/
+    evidence_summary: 'Automated owner-domain match: stream host hls.xtvmedia.pp.ua is on the broadcaster''s domain pp.ua.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: PershiyXTVMedia.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: simon-ua
+  name: Simon
+  alt_names: []
+  broadcaster: Simon
+  country: ua
+  languages:
+  - uk
+  - ru
+  categories:
+  - general
+  website: https://simon.ua/
+  stream:
+    url: https://hls.simon.ua/live-HD/live/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://simon.ua/
+    evidence_summary: 'Automated owner-domain match: stream host hls.simon.ua is on the broadcaster''s domain simon.ua. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Simon.ua@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ua
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: telekanal-rai-ua
+  name: Telekanal RAI
+  alt_names:
+  - Телерадіокомпанія РАІ
+  broadcaster: RAI Media Group
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: https://rai.ua/
+  stream:
+    url: https://stream.rai.ua/rai/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://rai.ua/
+    evidence_summary: 'Automated owner-domain match: stream host stream.rai.ua is on the broadcaster''s domain rai.ua. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TelekanalRAI.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: tv7-ua
+  name: TV7+
+  alt_names: []
+  broadcaster: Vinskevich Anatoly Anatolievich
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: http://tv7plus.com/
+  stream:
+    url: https://tv7plus.com/hls/tv7_site.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: http://tv7plus.com/
+    evidence_summary: 'Automated owner-domain match: stream host tv7plus.com is on the broadcaster''s domain tv7plus.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV7Plus.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: z-ua
+  name: Z
+  alt_names: []
+  broadcaster: Zaporozhye City Council
+  country: ua
+  languages:
+  - uk
+  categories:
+  - general
+  website: https://ztv.zp.ua/
+  stream:
+    url: https://stream.ztv.zp.ua/hls/live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ua.m3u
+    evidence_url: https://ztv.zp.ua/
+    evidence_summary: 'Automated owner-domain match: stream host stream.ztv.zp.ua is on the broadcaster''s domain zp.ua. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Z.ua@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

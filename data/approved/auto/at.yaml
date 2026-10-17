@@ -1,0 +1,151 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: fs1-salzburg-at
+  name: FS1 Salzburg
+  alt_names: []
+  broadcaster: FS1 Salzburg
+  country: at
+  languages:
+  - de
+  categories:
+  - general
+  website: https://fs1.tv/info/kontakt-anfahrt/
+  stream:
+    url: https://stream.fs1.tv/hls/webstream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/at.m3u
+    evidence_url: https://fs1.tv/info/kontakt-anfahrt/
+    evidence_summary: 'Automated owner-domain match: stream host stream.fs1.tv is on the broadcaster''s domain fs1.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: FS1Salzburg.at@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: swamiji-tv-american-at
+  name: Swamiji TV American
+  alt_names: []
+  broadcaster: Swamiji TV American
+  country: at
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://swamiji.tv/
+  stream:
+    url: https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/at.m3u
+    evidence_url: https://swamiji.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.swamiji.tv is on the broadcaster''s domain swamiji.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SwamijiTVAmerican.at@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: swamiji-tv-australian-at
+  name: Swamiji TV Australian
+  alt_names: []
+  broadcaster: Swamiji TV Australian
+  country: at
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://swamiji.tv/
+  stream:
+    url: https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/at.m3u
+    evidence_url: https://swamiji.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.swamiji.tv is on the broadcaster''s domain swamiji.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SwamijiTVAustralian.at@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: swamiji-tv-european-at
+  name: Swamiji TV European
+  alt_names: []
+  broadcaster: Swamiji TV European
+  country: at
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://swamiji.tv/
+  stream:
+    url: https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/at.m3u
+    evidence_url: https://swamiji.tv/
+    evidence_summary: 'Automated owner-domain match: stream host stream.swamiji.tv is on the broadcaster''s domain swamiji.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: Not 24/7 according to iptv-org.
+    method: automated-domain-match
+  epg_id: SwamijiTVEuropean.at@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

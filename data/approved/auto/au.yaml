@@ -1,0 +1,114 @@
+# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
+# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
+channels:
+- id: ctb-perth-au
+  name: CTB Perth
+  alt_names: []
+  broadcaster: Community Television Broadcasting Ltd
+  country: au
+  languages:
+  - en
+  categories:
+  - general
+  website: https://ctbperth.net.au/
+  stream:
+    url: https://live.ctbperth.net.au/hls/0/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/au.m3u
+    evidence_url: https://ctbperth.net.au/
+    evidence_summary: 'Automated owner-domain match: stream host live.ctbperth.net.au is on the broadcaster''s domain ctbperth.net.au.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CTBPerth.au@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: ctb-perth-movies-channel-au
+  name: CTB Perth Movies Channel
+  alt_names: []
+  broadcaster: Community Television Broadcasting Ltd
+  country: au
+  languages:
+  - en
+  categories:
+  - movies
+  website: https://movies.ctbperth.net.au/
+  stream:
+    url: https://movies.ctbperth.net.au/hls/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/au.m3u
+    evidence_url: https://movies.ctbperth.net.au/
+    evidence_summary: 'Automated owner-domain match: stream host movies.ctbperth.net.au is on the broadcaster''s domain ctbperth.net.au.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: CTBPerthMoviesChannel.au@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: racing-com-au
+  name: Racing.com
+  alt_names: []
+  broadcaster: Seven West Media
+  country: au
+  languages:
+  - en
+  categories:
+  - sports
+  website: http://www.racing.com/
+  stream:
+    url: https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/au.m3u
+    evidence_url: http://www.racing.com/
+    evidence_summary: 'Automated owner-domain match: CDN hostname racingvic-i.akamaized.net is named for the broadcaster''s
+      domain ''racing'' (racing.com). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Racingcom.au@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
