@@ -1,0 +1,27 @@
+name: Copyright concern / removal request
+description: For rights holders or their authorised representatives.
+title: "Removal: <channel name>"
+labels: ["removal-request", "priority"]
+body:
+  - type: markdown
+    attributes:
+      value: Nexonic hosts no video; it lists links to streams. We remove links on request from the rights holder. For a private request use the "Private report" link instead of this public form.
+  - type: input
+    id: channel
+    attributes: { label: Channel name or id }
+    validations: { required: true }
+  - type: input
+    id: owner
+    attributes: { label: Rights holder you represent }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: Details of the request }
+    validations: { required: true }
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am the rights holder or authorised to act for them.
+          required: true

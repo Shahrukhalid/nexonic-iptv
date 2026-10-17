@@ -1,0 +1,26 @@
+name: Report broken channel
+description: A channel in a Nexonic playlist no longer plays.
+title: "Broken: <channel name>"
+labels: ["broken-stream"]
+body:
+  - type: markdown
+    attributes:
+      value: Please check the channel's status on the website first. Many public broadcasters limit streams to their own country — that is not a broken stream.
+  - type: input
+    id: channel
+    attributes: { label: Channel name or id, placeholder: "e.g. dw-english" }
+    validations: { required: true }
+  - type: input
+    id: playlist
+    attributes: { label: Playlist you used, placeholder: "e.g. playlists/countries/de.m3u" }
+  - type: input
+    id: country
+    attributes: { label: Country you are watching from }
+    validations: { required: true }
+  - type: input
+    id: player
+    attributes: { label: Player and version, placeholder: "VLC 3.0.21" }
+  - type: textarea
+    id: details
+    attributes: { label: What happens?, description: Error message, since when, does it work on the broadcaster's own website? }
+    validations: { required: true }

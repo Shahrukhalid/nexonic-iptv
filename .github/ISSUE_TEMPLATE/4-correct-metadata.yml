@@ -1,0 +1,17 @@
+name: Correct channel metadata
+description: Wrong country, language, category, name or other details.
+title: "Metadata: <channel name>"
+labels: ["metadata"]
+body:
+  - type: input
+    id: channel
+    attributes: { label: Channel name or id }
+    validations: { required: true }
+  - type: dropdown
+    id: field
+    attributes: { label: What is wrong?, multiple: true, options: [Country, Language, Category, Name, Broadcaster, EPG id, Region limits, Other] }
+    validations: { required: true }
+  - type: textarea
+    id: fix
+    attributes: { label: Correct value and source, description: Link to an official source. }
+    validations: { required: true }
