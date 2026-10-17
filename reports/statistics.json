@@ -1,49 +1,50 @@
 {
-  "reference_time": "2026-10-17T09:32:39Z",
+  "reference_time": "2026-10-17T10:36:07Z",
   "records": {
     "approved": 666,
     "pending": 15,
     "rejected": 4
   },
-  "published_channels": 445,
-  "excluded_approved": 221,
-  "countries": 92,
+  "published_channels": 454,
+  "excluded_approved": 212,
+  "countries": 93,
   "languages": 63,
   "categories": 15,
   "verified_playlist_channels": 410,
-  "playlist_files": 172,
+  "playlist_files": 173,
   "latest_run": {
-    "run_id": "run-20261017T091352Z",
-    "started_at": "2026-10-17T09:13:52Z",
-    "finished_at": "2026-10-17T09:32:39Z",
+    "run_id": "run-20261017T102728Z",
+    "started_at": "2026-10-17T10:27:28Z",
+    "finished_at": "2026-10-17T10:36:07Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 666,
     "by_status": {
       "AUTH_REQUIRED": 1,
-      "GEO_RESTRICTED": 32,
+      "GEO_RESTRICTED": 33,
       "INVALID_STREAM": 13,
       "TIMEOUT": 30,
-      "UNAVAILABLE": 130,
-      "UNKNOWN": 48,
+      "UNAVAILABLE": 132,
+      "UNKNOWN": 45,
       "UNSUPPORTED": 2,
       "VERIFIED_WORKING": 410
     }
   },
   "latest_run_status_counts": {
     "VERIFIED_WORKING": 410,
-    "UNAVAILABLE": 130,
-    "GEO_RESTRICTED": 32,
+    "UNAVAILABLE": 132,
+    "GEO_RESTRICTED": 33,
     "AUTH_REQUIRED": 1,
     "RATE_LIMITED": 0,
     "TIMEOUT": 30,
     "INVALID_STREAM": 13,
     "UNSUPPORTED": 2,
-    "UNKNOWN": 48,
+    "UNKNOWN": 45,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "currently-failing": 14,
     "geo-restricted": 14,
+    "previously-working": 9,
     "unknown": 7,
     "verified-recently": 410
   },
@@ -86,7 +87,7 @@
     "ba": {
       "name": "Bosnia and Herzegovina",
       "flag": "🇧🇦",
-      "channels": 2
+      "channels": 3
     },
     "be": {
       "name": "Belgium",
@@ -141,7 +142,7 @@
     "cn": {
       "name": "China",
       "flag": "🇨🇳",
-      "channels": 12
+      "channels": 14
     },
     "co": {
       "name": "Colombia",
@@ -271,7 +272,7 @@
     "is": {
       "name": "Iceland",
       "flag": "🇮🇸",
-      "channels": 1
+      "channels": 2
     },
     "it": {
       "name": "Italy",
@@ -291,7 +292,7 @@
     "kr": {
       "name": "South Korea",
       "flag": "🇰🇷",
-      "channels": 13
+      "channels": 14
     },
     "kz": {
       "name": "Kazakhstan",
@@ -371,7 +372,7 @@
     "nl": {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "channels": 7
+      "channels": 8
     },
     "no": {
       "name": "Norway",
@@ -438,6 +439,11 @@
       "flag": "🇷🇼",
       "channels": 1
     },
+    "sa": {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "channels": 1
+    },
     "sd": {
       "name": "Sudan",
       "flag": "🇸🇩",
@@ -451,7 +457,7 @@
     "th": {
       "name": "Thailand",
       "flag": "🇹🇭",
-      "channels": 19
+      "channels": 20
     },
     "tn": {
       "name": "Tunisia",
@@ -486,7 +492,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 52
+      "channels": 53
     },
     "uz": {
       "name": "Uzbekistan",
@@ -516,7 +522,7 @@
     },
     "ar": {
       "name": "Arabic",
-      "channels": 18
+      "channels": 19
     },
     "as": {
       "name": "Assamese",
@@ -556,7 +562,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 112
+      "channels": 113
     },
     "es": {
       "name": "Spanish",
@@ -600,7 +606,7 @@
     },
     "is": {
       "name": "Icelandic",
-      "channels": 1
+      "channels": 2
     },
     "it": {
       "name": "Italian",
@@ -624,7 +630,7 @@
     },
     "ko": {
       "name": "Korean",
-      "channels": 12
+      "channels": 13
     },
     "ku": {
       "name": "Kurdish",
@@ -664,7 +670,7 @@
     },
     "nl": {
       "name": "Dutch",
-      "channels": 7
+      "channels": 8
     },
     "no": {
       "name": "Norwegian",
@@ -712,7 +718,7 @@
     },
     "sr": {
       "name": "Serbian",
-      "channels": 3
+      "channels": 4
     },
     "sv": {
       "name": "Swedish",
@@ -732,7 +738,7 @@
     },
     "th": {
       "name": "Thai",
-      "channels": 19
+      "channels": 20
     },
     "tr": {
       "name": "Turkish",
@@ -760,13 +766,13 @@
     },
     "zh": {
       "name": "Chinese",
-      "channels": 14
+      "channels": 16
     }
   },
   "per_category": {
     "business": {
       "name": "Business",
-      "channels": 6
+      "channels": 7
     },
     "culture": {
       "name": "Culture",
@@ -786,7 +792,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 165
+      "channels": 168
     },
     "kids": {
       "name": "Kids",
@@ -802,15 +808,15 @@
     },
     "movies": {
       "name": "Movies",
-      "channels": 7
+      "channels": 8
     },
     "music": {
       "name": "Music",
-      "channels": 61
+      "channels": 63
     },
     "news": {
       "name": "News",
-      "channels": 92
+      "channels": 95
     },
     "science": {
       "name": "Science",
