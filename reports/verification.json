@@ -4,7 +4,7 @@
     "started_at": "2026-10-17T09:13:52Z",
     "finished_at": "2026-10-17T09:32:39Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 684,
+    "checked": 666,
     "by_status": {
       "AUTH_REQUIRED": 1,
       "GEO_RESTRICTED": 32,
@@ -13,7 +13,7 @@
       "UNAVAILABLE": 130,
       "UNKNOWN": 48,
       "UNSUPPORTED": 2,
-      "VERIFIED_WORKING": 428
+      "VERIFIED_WORKING": 410
     },
     "results": [
       {
@@ -586,30 +586,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "acces-direct-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:26:56Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 102,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 11.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "acw-ug-tv-ug",
         "status": "UNAVAILABLE",
         "checked_at": "2026-10-17T09:30:04Z",
@@ -1144,33 +1120,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "antena-monden-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:26:56Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 500,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "data",
-            "video"
-          ],
-          "max_resolution": "360p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 7,
-          "target_duration": 20.0,
-          "variants": 1
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "apa-tv-az",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:14:15Z",
@@ -1369,31 +1318,6 @@
           "run_id": "run-20261017T091352Z"
         },
         "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "asia-express-nonstop-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:26:57Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 823,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "data",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 10,
-          "target_duration": 10.0
-        },
-        "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
@@ -2321,31 +2245,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "canal-cine-dios-co",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:16:35Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 210,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 2,
-          "target_duration": 5.0,
-          "variants": 1
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "canal-cvision-ni",
         "status": "UNAVAILABLE",
         "checked_at": "2026-10-17T09:25:52Z",
@@ -3094,31 +2993,6 @@
           "segments_listed": 8,
           "target_duration": 3.0,
           "variants": 5
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "comedy-play-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:26:58Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 487,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "data",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 7,
-          "target_duration": 19.0
         },
         "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
@@ -4670,33 +4544,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "eshragh-network-ir",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:20:41Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 635,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "max_resolution": "1080p",
-          "redirected_to_host": "live-aburayhan1111.telewebion.net",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 300,
-          "target_duration": 2.0,
-          "variants": 4
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "etv-2-ee",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:17:11Z",
@@ -5116,31 +4963,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "formula-1-antenaplay-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:03Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 225,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "data",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 10,
-          "target_duration": 10.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "fortis-tv-ng",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:25:46Z",
@@ -5160,56 +4982,6 @@
           "segment_container": "mpeg-ts",
           "segments_listed": 10,
           "target_duration": 4.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "fox-business-network-us",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:30:39Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 231,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "video"
-          ],
-          "max_resolution": "240p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 13.0,
-          "variants": 2
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "fox-news-channel-us",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:30:40Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 155,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "video"
-          ],
-          "max_resolution": "240p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 13.0,
-          "variants": 2
         },
         "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
@@ -5421,32 +5193,6 @@
           "segment_container": "mpeg-ts",
           "segments_listed": 20,
           "target_duration": 5.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "ganj-e-hozour-tv-us",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:30:43Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 55,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "max_resolution": "1080p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 4,
-          "target_duration": 7.0,
-          "variants": 1
         },
         "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
@@ -6183,30 +5929,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "in-puii-mei-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:05Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 59,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 11.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "india-today",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:32:21Z",
@@ -6373,30 +6095,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "iroast-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:07Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 325,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 11.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "irt-ua",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:29:55Z",
@@ -6500,30 +6198,6 @@
           "segments_listed": 3,
           "target_duration": 8.0,
           "variants": 1
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "iumor-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:08Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 101,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 11.0
         },
         "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
@@ -6719,33 +6393,6 @@
           "run_id": "run-20261017T091352Z"
         },
         "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "khavaran-tv-ir",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:20:46Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 574,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "max_resolution": "1080p",
-          "redirected_to_host": "live-aburayhan1110.telewebion.net",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 300,
-          "target_duration": 2.0,
-          "variants": 4
-        },
-        "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
@@ -7485,30 +7132,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "medicool-tv-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:10Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 285,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 6,
-          "target_duration": 11.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "mercurio-noticias-ar",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:14:03Z",
@@ -7650,33 +7273,6 @@
           "segment_container": "mpeg-ts",
           "segments_listed": 4,
           "target_duration": 6.0,
-          "variants": 1
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "mireasa-ro",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:27:11Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 489,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "data",
-            "video"
-          ],
-          "max_resolution": "480p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 7,
-          "target_duration": 15.0,
           "variants": 1
         },
         "method": "httpx+ffprobe",
@@ -9594,32 +9190,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "prarthana-tv-in",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:20:05Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 390,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "max_resolution": "720p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 4,
-          "target_duration": 6.0,
-          "variants": 3
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "privesc-eu-tv-md",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T09:22:13Z",
@@ -11321,32 +10891,6 @@
           "segment_container": "mpeg-ts",
           "segments_listed": 6,
           "target_duration": 10.0
-        },
-        "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "supreme-master-tv-tw",
-        "status": "VERIFIED_WORKING",
-        "checked_at": "2026-10-17T09:29:54Z",
-        "level": 5,
-        "http_status": 200,
-        "latency_ms": 565,
-        "error": "",
-        "media_readable": true,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "ffprobe": "ok",
-          "ffprobe_streams": [
-            "audio",
-            "video"
-          ],
-          "max_resolution": "720p",
-          "run_id": "run-20261017T091352Z",
-          "segment_container": "mpeg-ts",
-          "segments_listed": 200,
-          "target_duration": 17.0,
-          "variants": 1
         },
         "method": "httpx+ffprobe",
         "location": "github-actions (Linux, GitHub-hosted runner)"

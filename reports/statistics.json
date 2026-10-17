@@ -1,23 +1,23 @@
 {
   "reference_time": "2026-10-17T09:32:39Z",
   "records": {
-    "approved": 684,
+    "approved": 666,
     "pending": 15,
     "rejected": 4
   },
-  "published_channels": 463,
+  "published_channels": 445,
   "excluded_approved": 221,
-  "countries": 93,
+  "countries": 92,
   "languages": 63,
   "categories": 15,
-  "verified_playlist_channels": 428,
-  "playlist_files": 173,
+  "verified_playlist_channels": 410,
+  "playlist_files": 172,
   "latest_run": {
     "run_id": "run-20261017T091352Z",
     "started_at": "2026-10-17T09:13:52Z",
     "finished_at": "2026-10-17T09:32:39Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 684,
+    "checked": 666,
     "by_status": {
       "AUTH_REQUIRED": 1,
       "GEO_RESTRICTED": 32,
@@ -26,11 +26,11 @@
       "UNAVAILABLE": 130,
       "UNKNOWN": 48,
       "UNSUPPORTED": 2,
-      "VERIFIED_WORKING": 428
+      "VERIFIED_WORKING": 410
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 428,
+    "VERIFIED_WORKING": 410,
     "UNAVAILABLE": 130,
     "GEO_RESTRICTED": 32,
     "AUTH_REQUIRED": 1,
@@ -45,7 +45,7 @@
     "currently-failing": 14,
     "geo-restricted": 14,
     "unknown": 7,
-    "verified-recently": 428
+    "verified-recently": 410
   },
   "per_country": {
     "ae": {
@@ -146,7 +146,7 @@
     "co": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "channels": 9
+      "channels": 8
     },
     "cw": {
       "name": "Curacao",
@@ -256,7 +256,7 @@
     "in": {
       "name": "India",
       "flag": "🇮🇳",
-      "channels": 19
+      "channels": 18
     },
     "iq": {
       "name": "Iraq",
@@ -266,7 +266,7 @@
     "ir": {
       "name": "Iran",
       "flag": "🇮🇷",
-      "channels": 9
+      "channels": 7
     },
     "is": {
       "name": "Iceland",
@@ -421,7 +421,7 @@
     "ro": {
       "name": "Romania",
       "flag": "🇷🇴",
-      "channels": 21
+      "channels": 11
     },
     "rs": {
       "name": "Serbia",
@@ -468,11 +468,6 @@
       "flag": "🇹🇹",
       "channels": 1
     },
-    "tw": {
-      "name": "Taiwan",
-      "flag": "🇹🇼",
-      "channels": 1
-    },
     "ua": {
       "name": "Ukraine",
       "flag": "🇺🇦",
@@ -491,7 +486,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 55
+      "channels": 52
     },
     "uz": {
       "name": "Uzbekistan",
@@ -561,11 +556,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 116
+      "channels": 112
     },
     "es": {
       "name": "Spanish",
-      "channels": 64
+      "channels": 63
     },
     "et": {
       "name": "Estonian",
@@ -577,7 +572,7 @@
     },
     "fa": {
       "name": "Persian",
-      "channels": 20
+      "channels": 17
     },
     "fi": {
       "name": "Finnish",
@@ -677,7 +672,7 @@
     },
     "or": {
       "name": "Odia",
-      "channels": 4
+      "channels": 3
     },
     "pa": {
       "name": "Punjabi",
@@ -697,7 +692,7 @@
     },
     "ro": {
       "name": "Romanian",
-      "channels": 26
+      "channels": 17
     },
     "ru": {
       "name": "Russian",
@@ -771,7 +766,7 @@
   "per_category": {
     "business": {
       "name": "Business",
-      "channels": 7
+      "channels": 6
     },
     "culture": {
       "name": "Culture",
@@ -787,11 +782,11 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 34
+      "channels": 27
     },
     "general": {
       "name": "General",
-      "channels": 170
+      "channels": 165
     },
     "kids": {
       "name": "Kids",
@@ -803,11 +798,11 @@
     },
     "lifestyle": {
       "name": "Lifestyle",
-      "channels": 15
+      "channels": 13
     },
     "movies": {
       "name": "Movies",
-      "channels": 8
+      "channels": 7
     },
     "music": {
       "name": "Music",
@@ -815,7 +810,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 93
+      "channels": 92
     },
     "science": {
       "name": "Science",
@@ -823,7 +818,7 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 11
+      "channels": 10
     },
     "weather": {
       "name": "Weather",
