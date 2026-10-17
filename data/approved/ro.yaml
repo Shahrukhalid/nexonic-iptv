@@ -1,0 +1,70 @@
+# Approved channels for RO. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: atomic-academy-tv
+  name: "Atomic Academy TV"
+  broadcaster: "Atomic Media Advertising (Atomic TV / NACO Network)"
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: "https://atomicacademytv.ro/"
+  stream:
+    url: "https://atomic.streamnet.ro/academia.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://atomicacademytv.ro/"
+    evidence_summary: "atomicacademytv.ro embeds https://atomic.streamnet.ro/academia.m3u8 with a 'press play' player and no login or payment; the host label carries the Atomic brand."
+    evidence_checked: null
+    notes: "streamnet.ro ownership not separately verified; the stream is referenced directly by the official page."
+  epg_id: "AtomicAcademyTV.ro@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: atomic-tv
+  name: "Atomic TV"
+  broadcaster: "Atomic Media Advertising (Atomic TV)"
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: "https://www.atomictv.ro/"
+  stream:
+    url: "https://atomic.streamnet.ro/atomictv.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.atomictv.ro/live/"
+    evidence_summary: "atomictv.ro/live links https://atomic.streamnet.ro/atomictv.m3u8 with no login or payment; the subdomain carries the Atomic brand."
+    evidence_checked: null
+    notes: "Site footer: 'Powered by NACO NETWORK'."
+  epg_id: "AtomicTV.ro@SD"
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

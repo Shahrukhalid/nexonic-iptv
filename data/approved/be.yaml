@@ -1,0 +1,36 @@
+# Approved channels for BE. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: fun-vision
+  name: "Fun Vision"
+  broadcaster: "Fun Radio (Belgium)"
+  country: be
+  languages:
+  - fr
+  categories:
+  - music
+  website: "https://www.funradio.be/funvision/"
+  stream:
+    url: "https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.funradio.be/funvision/"
+    evidence_summary: "funradio.be/funvision shows a live player (funradio.be/rise-api/videoplayers/live.php) whose source is funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8; no login or payment."
+    evidence_checked: null
+    notes: "Legal owner not stated on the page (see Mentions légales)."
+  epg_id: "FunVision.be@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -174,3 +174,344 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: 3cat-cameres-del-temps
+  name: "3Cat Cameres del temps"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - weather
+  website: "https://www.3cat.cat/3cat/directes/beauties/"
+  stream:
+    url: "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/beauties/"
+    evidence_summary: "3Cat's official live page streams the internet-only 'Càmeres del temps' weather-camera channel with no paywall or login. Host directes-tv-int.3catdirectes.cat belongs to 3Cat."
+    evidence_checked: null
+    notes: "Host label 'int' suggests the international (non-geo-blocked) variant, but this was not confirmed. Free access inferred from the public live page; no login requirement was shown."
+  epg_id: "3CatCameresdeltemps.es@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3cat-exclusiu-1
+  name: "3Cat Exclusiu 1"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - news
+  website: "https://www.3cat.cat/3cat/directes/oca1/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/oca1/"
+    evidence_summary: "The CCMA-authored 3cat.cat page offers the 'canal ocasional' live online ('exclusiva per a internet') with no login mentioned; the host is on 3Cat's 3catdirectes.cat domain."
+    evidence_checked: null
+    notes: "Occasional channel: live only during special events (e.g. press conferences), so it may be offline at times. The official page names it 'canal ocasional'. Some 3Cat live content can be geo-limited by rights."
+  epg_id: "3CatExclusiu1.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: el-33
+  name: "El 33"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - culture
+  website: "https://www.3cat.cat/3cat/directes/33/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/33/"
+    evidence_summary: "The CCMA-authored 3cat.cat page 'Canal 33 en directe - L'emissió online, a 3Cat' streams the channel with no login mentioned; the host is on 3Cat's own domain."
+    evidence_checked: null
+    notes: "Stream path 'c33-super3' reflects the shared 33/SX3 frequency, so children's programming may air in some slots. Some programmes may be geo-limited to Spain for rights reasons."
+  epg_id: "El33.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3cat-plats-bruts
+  name: "3Cat Plats bruts"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - series
+  website: "https://www.3cat.cat/3cat/directes/fc1/"
+  stream:
+    url: "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/fc1/"
+    evidence_summary: "3Cat streams the 24h 'Plats bruts' thematic channel live on 3cat.cat (launch announced on 3cat.cat); the stream host fast-tailor.3catdirectes.cat is on 3Cat's own streaming domain."
+    evidence_checked: null
+    notes: "Host label 'fast-tailor' suggests a FAST/SSAI feed; it is on 3Cat's own domain and the channel is offered on 3cat.cat, but the exact feed used by the web player was not confirmed. No login/geo notice seen on the live page; channel launched as beta."
+  epg_id: "3CatPlatsbruts.es@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3cat-exclusiu-2
+  name: "3Cat Exclusiu 2"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - news
+  website: "https://www.3cat.cat/3cat/directes/oca2/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/oca2/"
+    evidence_summary: "3cat.cat carries this as an internet-exclusive live broadcast with no login shown; host directes-tv-cat.3catdirectes.cat is 3Cat's own streaming domain."
+    evidence_checked: null
+    notes: "Occasional-events channel; may be off-air between events. Geo restrictions for specific events possible."
+  epg_id: "3CatExclusiu2.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: esport3
+  name: "Esport3"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - sports
+  website: "https://www.3cat.cat/esport3/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/esport3/"
+    evidence_summary: "3cat.cat's Esport3 live page streams the channel with no login or paywall noted; host directes-tv-cat.3catdirectes.cat belongs to 3Cat."
+    evidence_checked: null
+    notes: "3Cat states only TV3CAT is unrestricted worldwide; Esport3 sports rights likely limit some events to Spain."
+  epg_id: "Esport3.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3cat-exclusiu-3
+  name: "3Cat Exclusiu 3"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - general
+  website: "https://www.3cat.cat/3cat/directes/oca3/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/oca3/"
+    evidence_summary: "3Cat's official 'directes/oca3' page streams this internet-exclusive channel; 3catdirectes.cat is the public broadcaster's own streaming domain."
+    evidence_checked: null
+    notes: "Occasional-event channel, may be off-air outside events. 3Cat says some live content is restricted to Catalonia/Spain."
+  epg_id: "3CatExclusiu3.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: sx3
+  name: "SX3"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - kids
+  website: "https://www.3cat.cat/tv3/sx3/"
+  stream:
+    url: "https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/sx3/"
+    evidence_summary: "3Cat's 'SX3 en directe' page streams the children's channel; 3catdirectes.cat is 3Cat's own streaming domain."
+    evidence_checked: null
+    notes: "Host label 'directes-tv-cat' suggests a Catalonia/Spain-only feed. 3Cat offers free accounts; the apps may ask for one, but the live web page does not mention login."
+  epg_id: "SX3.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3catinfo
+  name: "3CatInfo"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - news
+  website: "https://www.3cat.cat/3catinfo/"
+  stream:
+    url: "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/3catinfo-tv/"
+    evidence_summary: "3Cat's live page streams 3CatInfo; 3catdirectes.cat is 3Cat's own streaming domain."
+    evidence_checked: null
+    notes: "Host label 'directes-tv-int' suggests the international (unrestricted) feed."
+  epg_id: "3CatInfo.es@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tv3
+  name: "TV3"
+  broadcaster: "Corporació Catalana de Mitjans Audiovisuals (3Cat)"
+  country: es
+  languages:
+  - ca
+  categories:
+  - general
+  - series
+  website: "https://www.3cat.cat/"
+  stream:
+    url: "https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.3cat.cat/3cat/directes/tv3/"
+    evidence_summary: "Official 'TV3 en directe' page on 3cat.cat; 3Cat FAQ (https://3cat.cat/corporatiu/ca/preguntes-frequents-3cat/) says live streams need no registration and are free; host directes3-tv-cat.3catdirectes.cat is 3Cat's."
+    evidence_checked: null
+    notes: "FAQ says live can be watched worldwide except rights-restricted programmes; the 'tv-cat' feed may black out bought-in films/series outside Catalonia."
+  epg_id: "TV3.es@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [es]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

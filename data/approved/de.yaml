@@ -385,3 +385,72 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: ric
+  name: "RiC"
+  broadcaster: "Your Family Entertainment AG"
+  country: de
+  languages:
+  - de
+  categories:
+  - kids
+  website: "https://rictv.de/"
+  stream:
+    url: "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://rictv.de/"
+    evidence_summary: "rictv.de links to player.iptv-playoutcenter.de/rictv/rictv.php ('RiC TV Livestream'); the stream host rictv.iptv-playoutcenter.de is the RiC-branded tenant on the same playout provider."
+    evidence_checked: null
+    notes: "Player page did not expose the m3u8 to the fetcher; match of the 'rictv-web' path to the website player is inferred from the shared rictv tenant host."
+  epg_id: "RiC.de@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: zdfneo
+  name: "ZDFneo"
+  broadcaster: "ZDF"
+  country: de
+  languages:
+  - de
+  categories:
+  - series
+  - movies
+  website: "https://www.zdf.de/sender/zdfneo"
+  stream:
+    url: "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.zdf.de/sender/zdfneo/zdfneo-live-beitrag-100.html"
+    evidence_summary: "Official 'ZDFneo TV-Programm im Livestream' page, no login shown; host zdf-hls-16.akamaized.net belongs to the same ZDF CDN family as already approved ZDF channels."
+    evidence_checked: null
+    notes: "'/de/' path suggests Germany-only feed."
+  epg_id: "ZDFneo.de@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [de]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

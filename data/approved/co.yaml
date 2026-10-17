@@ -1,0 +1,36 @@
+# Approved channels for CO. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: senal-colombia
+  name: "Señal Colombia"
+  broadcaster: "RTVC Sistema de Medios Públicos"
+  country: co
+  languages:
+  - es
+  categories:
+  - general
+  website: "https://www.senalcolombia.tv/"
+  stream:
+    url: "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.senalcolombia.tv/senal-en-vivo"
+    evidence_summary: "senalcolombia.tv/senal-en-vivo is the official 'En vivo' page of the state public broadcaster; streaming.rtvc.gov.co is RTVC's government domain."
+    evidence_checked: null
+    notes: "At check time the page showed 'Streaming no disponible' (possibly a rights blackout); the stream URL itself was not visible in the page text. Login links exist on the site but are not required for live viewing."
+  epg_id: "SenalColombia.co@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

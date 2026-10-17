@@ -1,0 +1,36 @@
+# Approved channels for NO. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: nrk-super
+  name: "NRK Super"
+  broadcaster: "NRK (Norsk rikskringkasting)"
+  country: no
+  languages:
+  - no
+  categories:
+  - kids
+  website: "https://tv.nrk.no/direkte/nrksuper"
+  stream:
+    url: "https://nrk-live-no.akamaized.net/nrksuper/muxed.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://tv.nrk.no/direkte/nrksuper"
+    evidence_summary: "NRK offers NRK Super live at tv.nrk.no/direkte/nrksuper; info.nrk.no/tv states login is optional and viewing is free. Host nrk-live-no.akamaized.net is NRK's branded Akamai CDN."
+    evidence_checked: null
+    notes: "Live channels are geo-limited to Norway (EEA travel access requires NRK login with Norwegian ID). Evidence page seen via search result; direct fetch was blocked."
+  epg_id: "NRKSuper.no@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [no]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

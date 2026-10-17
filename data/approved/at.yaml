@@ -106,3 +106,72 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: orf-kids
+  name: "ORF Kids"
+  broadcaster: "ORF"
+  country: at
+  languages:
+  - de
+  categories:
+  - kids
+  website: "https://kids.orf.at/"
+  stream:
+    url: "https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd"
+    protocol: dash
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://kids.orf.at/"
+    evidence_summary: "kids.orf.at offers 'ORF KIDS Live' with a play button and no login; host mdn.ors.at belongs to ORS, ORF's transmission subsidiary (same CDN as approved ORF 2/ORF III)."
+    evidence_checked: null
+    notes: "Launched 1 Jan 2024 as an online-only linear channel; geo-blocking of individual programmes possible."
+  epg_id: "ORFKids.at@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: servustv
+  name: "ServusTV"
+  broadcaster: "Red Bull Media House (ServusTV)"
+  country: at
+  languages:
+  - de
+  categories:
+  - general
+  - movies
+  website: "https://www.servustv.com/"
+  stream:
+    url: "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://www.servustv.com/jetzt-live/"
+    evidence_summary: "Official live page servustv.com/jetzt-live; netzwelt.de lists it as free with no registration; host stv-live.akamaized.net ('lingeoSTVATwebPri') is ServusTV's Austrian web feed."
+    evidence_checked: null
+    notes: "Live page is JS-rendered; free/no-login status confirmed via third-party guide (netzwelt.de)."
+  epg_id: "ServusTV.at@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [at, de]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

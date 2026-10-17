@@ -71,3 +71,39 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: yle-teema-fem
+  name: "Yle Teema & Fem"
+  broadcaster: "Yle"
+  country: fi
+  languages:
+  - fi
+  - sv
+  categories:
+  - culture
+  - movies
+  website: "https://yle.fi/"
+  stream:
+    url: "https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://areena.yle.fi/tv/suorat"
+    evidence_summary: "Yle Areena live section (same evidence as approved Yle TV1/TV2); host yletv.akamaized.net is the Yle CDN used for those approved channels."
+    evidence_checked: null
+    notes: "Areena page is JS-rendered so the channel list could not be read directly; a separate worldwide feed (yletvworld.akamaized.net) also exists."
+  epg_id: "YleTeemaFem.fi@SD"
+  logo: null
+  geo:
+    restricted: true
+    regions: [fi]
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -1,0 +1,70 @@
+# Approved channels for KZ. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: abai-tv
+  name: "Abai TV"
+  broadcaster: "Qazaqstan RTRK (Government of Kazakhstan)"
+  country: kz
+  languages:
+  - kk
+  categories:
+  - culture
+  website: "https://abaitv.kz/"
+  stream:
+    url: "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://abaitv.kz/kz/live"
+    evidence_summary: "abaitv.kz offers a live broadcast section ('Тікелей эфир') with no paywall or login, via the Qazaqstan RTRK player (player.rtrk.kz). Host abaitv-stream.qazcdn.com is a brand-labelled Kazakh CDN hostname."
+    evidence_checked: null
+    notes: "The official page did not explicitly show the qazcdn hostname; ownership rests on the brand-labelled CDN host plus the official free live page."
+  epg_id: "AbaiTV.kz@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: balapan
+  name: "Balapan"
+  broadcaster: "Qazaqstan Radio and Television Corporation (RTRK Qazaqstan)"
+  country: kz
+  languages:
+  - kk
+  categories:
+  - kids
+  website: "https://balapan.tv/"
+  stream:
+    url: "https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8"
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: "https://balapan.tv/live"
+    evidence_summary: "balapan.tv/live (RTRK Qazaqstan) embeds its live player from player.rtrk.kz with no login; the host balapantv-stream.qazcdn.com is labelled with the channel brand."
+    evidence_checked: null
+    notes: "qazcdn.com ownership by RTRK inferred from brand labelling; the m3u8 loads dynamically and was not seen in static page content."
+  epg_id: "Balapan.kz@SD"
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: "maintainer curation (web research; official live page and stream checked)"
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
