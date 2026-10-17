@@ -113,44 +113,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: eshragh-network-ir
-  name: Eshragh Network
-  alt_names:
-  - شبکهٔ اشراق
-  broadcaster: Eshragh Network
-  country: ir
-  languages:
-  - fa
-  categories:
-  - general
-  website: https://telewebion.com/live/eshragh
-  stream:
-    url: https://ncdn.telewebion.ir/eshragh/live/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_telewebion.m3u
-    evidence_url: https://telewebion.com/live/eshragh
-    evidence_summary: 'Automated owner-domain match: stream host ncdn.telewebion.ir (telewebion.ir) shares the broadcaster''s
-      domain name ''telewebion'' (telewebion.com). Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: EshraghNetwork.ir@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: fx-1-ir
   name: FX 1
   alt_names: []
@@ -211,44 +173,6 @@ channels:
     notes: ''
     method: automated-domain-match
   epg_id: FX2.ir@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: khavaran-tv-ir
-  name: Khavaran TV
-  alt_names:
-  - شبکه خراسان جنوبی
-  broadcaster: Khavaran TV
-  country: ir
-  languages:
-  - fa
-  categories:
-  - general
-  website: https://telewebion.com/live/khavaran
-  stream:
-    url: https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ir_telewebion.m3u
-    evidence_url: https://telewebion.com/live/khavaran
-    evidence_summary: 'Automated owner-domain match: stream host ncdn.telewebion.ir (telewebion.ir) shares the broadcaster''s
-      domain name ''telewebion'' (telewebion.com). Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: KhavaranTV.ir@SD
   logo: null
   geo:
     restricted: unknown

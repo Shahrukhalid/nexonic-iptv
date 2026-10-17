@@ -3,7 +3,7 @@
 - Run: `run-20261017T091352Z`
 - Started: 2026-10-17T09:13:52Z (UTC) · Finished: 2026-10-17T09:32:39Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 684
+- Channels checked: 666
 
 Results describe reachability **from the checker's network location at that time** only.
 
@@ -16,7 +16,7 @@ Results describe reachability **from the checker's network location at that time
 | `UNAVAILABLE` | 130 |
 | `UNKNOWN` | 48 |
 | `UNSUPPORTED` | 2 |
-| `VERIFIED_WORKING` | 428 |
+| `VERIFIED_WORKING` | 410 |
 
 | Channel | Status | Level | HTTP | Latency | Checked (UTC) | Note |
 |---|---|---:|---:|---:|---|---|
@@ -47,7 +47,6 @@ Results describe reachability **from the checker's network location at that time
 | ABC News (Australia) | `VERIFIED_WORKING` | 5 | 200 | 251 ms | 2026-10-17T09:13:54Z | 720p |
 | ABC News Live | `UNAVAILABLE` | 3 | 200 | 80 ms | 2026-10-17T09:32:37Z | variant playlist: HTTP 404 (stream not found) |
 | ABN | `VERIFIED_WORKING` | 5 | 200 | 946 ms | 2026-10-17T09:21:13Z |  |
-| Acces Direct | `VERIFIED_WORKING` | 5 | 200 | 102 ms | 2026-10-17T09:26:56Z |  |
 | ACW UG TV | `UNAVAILABLE` | 1 | – | – | 2026-10-17T09:30:04Z | DNS resolution failed for live.acwugtv.com: [Errno -2] Name or service not known |
 | Afaq TV | `TIMEOUT` | 2 | – | – | 2026-10-17T09:20:21Z | no response within 12s |
 | Afghanistan International | `VERIFIED_WORKING` | 5 | 200 | 471 ms | 2026-10-17T09:30:06Z |  |
@@ -72,7 +71,6 @@ Results describe reachability **from the checker's network location at that time
 | An Giang TV 2 | `GEO_RESTRICTED` | 2 | 403 | 221 ms | 2026-10-17T09:31:18Z | HTTP 403 for a stream known or hinted to be region-limited |
 | An Giang TV 3 | `GEO_RESTRICTED` | 2 | 403 | 220 ms | 2026-10-17T09:31:19Z | HTTP 403 for a stream known or hinted to be region-limited |
 | Anand TV | `VERIFIED_WORKING` | 5 | 200 | 981 ms | 2026-10-17T09:30:07Z | 720p |
-| Antena Monden | `VERIFIED_WORKING` | 5 | 200 | 500 ms | 2026-10-17T09:26:56Z | 360p |
 | APA Tv | `VERIFIED_WORKING` | 5 | 200 | 395 ms | 2026-10-17T09:14:15Z | 1080p |
 | Apsara TV11 | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:21:08Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
 | ARD-alpha | `VERIFIED_WORKING` | 5 | 200 | 138 ms | 2026-10-17T09:16:51Z | 1080p |
@@ -83,7 +81,6 @@ Results describe reachability **from the checker's network location at that time
 | ARTE (Français) | `GEO_RESTRICTED` | 2 | 403 | 321 ms | 2026-10-17T09:32:05Z | HTTP 403 for a stream known or hinted to be region-limited |
 | Aryen TV | `TIMEOUT` | 2 | – | – | 2026-10-17T09:27:53Z | no response within 12s |
 | Asharq News | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:27:50Z | connection error: ConnectError: All connection attempts failed |
-| Asia Express NonStop | `VERIFIED_WORKING` | 5 | 200 | 823 ms | 2026-10-17T09:26:57Z |  |
 | Asia TV | `UNAVAILABLE` | 2 | 521 | 70 ms | 2026-10-17T09:21:47Z | HTTP 521 (server error) |
 | Astrahan.Ru Sport | `VERIFIED_WORKING` | 5 | 200 | 1734 ms | 2026-10-17T09:27:22Z | 1080p |
 | Astrahan.Ru TV | `VERIFIED_WORKING` | 5 | 200 | 169 ms | 2026-10-17T09:27:22Z | 1080p |
@@ -129,7 +126,6 @@ Results describe reachability **from the checker's network location at that time
 | Canal 5 TV Max | `VERIFIED_WORKING` | 5 | 200 | 131 ms | 2026-10-17T09:26:54Z |  |
 | Canal 51 | `UNKNOWN` | 2 | 403 | 125 ms | 2026-10-17T09:19:17Z | HTTP 403 forbidden (could be regional limits or access control) |
 | Canal 56 | `VERIFIED_WORKING` | 5 | 200 | 683 ms | 2026-10-17T09:17:34Z |  |
-| Canal Cine Dios | `VERIFIED_WORKING` | 5 | 200 | 210 ms | 2026-10-17T09:16:35Z |  |
 | Canal Cvision | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:25:52Z | connection error: ConnectError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_s |
 | Canal del Sol | `VERIFIED_WORKING` | 5 | 200 | 172 ms | 2026-10-17T09:17:03Z |  |
 | Canal Dos | `VERIFIED_WORKING` | 5 | 200 | 558 ms | 2026-10-17T09:16:36Z |  |
@@ -166,7 +162,6 @@ Results describe reachability **from the checker's network location at that time
 | Clan | `GEO_RESTRICTED` | 2 | 403 | 47 ms | 2026-10-17T09:31:36Z | HTTP 403 for a stream known or hinted to be region-limited |
 | Clan Internacional | `VERIFIED_WORKING` | 5 | 200 | 387 ms | 2026-10-17T09:17:35Z |  |
 | Cloudflare TV | `VERIFIED_WORKING` | 5 | 200 | 225 ms | 2026-10-17T09:30:33Z | 1080p |
-| Comedy Play | `VERIFIED_WORKING` | 5 | 200 | 487 ms | 2026-10-17T09:26:58Z |  |
 | Congreso de los Diputados 1 | `UNAVAILABLE` | 3 | 200 | 502 ms | 2026-10-17T09:17:39Z | variant playlist: HTTP 404 (stream not found) |
 | Congreso de los Diputados 2 | `UNAVAILABLE` | 3 | 200 | 388 ms | 2026-10-17T09:17:39Z | variant playlist: HTTP 404 (stream not found) |
 | Congreso de los Diputados 3 | `UNAVAILABLE` | 3 | 200 | 374 ms | 2026-10-17T09:17:40Z | variant playlist: HTTP 404 (stream not found) |
@@ -232,7 +227,6 @@ Results describe reachability **from the checker's network location at that time
 | EMI TV | `VERIFIED_WORKING` | 5 | 200 | 1013 ms | 2026-10-17T09:27:02Z |  |
 | Emisora Comunitaria 104.1 FM | `VERIFIED_WORKING` | 5 | 200 | 524 ms | 2026-10-17T09:16:37Z | 480p |
 | Epic Bharat | `VERIFIED_WORKING` | 5 | 200 | 648 ms | 2026-10-17T09:19:56Z | 1080p |
-| Eshragh Network | `VERIFIED_WORKING` | 5 | 200 | 635 ms | 2026-10-17T09:20:41Z | 1080p |
 | ETV 2 | `VERIFIED_WORKING` | 5 | 200 | 133 ms | 2026-10-17T09:17:11Z |  |
 | ETV | `VERIFIED_WORKING` | 5 | 200 | 717 ms | 2026-10-17T09:17:08Z |  |
 | ETV+ | `VERIFIED_WORKING` | 5 | 200 | 133 ms | 2026-10-17T09:17:14Z |  |
@@ -251,10 +245,7 @@ Results describe reachability **from the checker's network location at that time
 | Finest TV | `TIMEOUT` | 2 | – | – | 2026-10-17T09:16:53Z | no response within 12s |
 | Folk TV | `VERIFIED_WORKING` | 5 | 200 | 126 ms | 2026-10-17T09:22:22Z |  |
 | Folklore TV | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:26:41Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
-| Formula 1 AntenaPlay | `VERIFIED_WORKING` | 5 | 200 | 225 ms | 2026-10-17T09:27:03Z |  |
 | Fortis TV | `VERIFIED_WORKING` | 5 | 200 | 432 ms | 2026-10-17T09:25:46Z |  |
-| Fox Business Network | `VERIFIED_WORKING` | 5 | 200 | 231 ms | 2026-10-17T09:30:39Z | 240p |
-| Fox News Channel | `VERIFIED_WORKING` | 5 | 200 | 155 ms | 2026-10-17T09:30:40Z | 240p |
 | Fox News Radio | `VERIFIED_WORKING` | 5 | 200 | 162 ms | 2026-10-17T09:30:42Z | 720p |
 | Fox Weather | `VERIFIED_WORKING` | 5 | 200 | 75 ms | 2026-10-17T09:30:42Z | 720p |
 | France 24 Arabic | `UNKNOWN` | 2 | 403 | 21 ms | 2026-10-17T09:31:38Z | HTTP 403 forbidden (could be regional limits or access control) |
@@ -265,7 +256,6 @@ Results describe reachability **from the checker's network location at that time
 | FS1 Salzburg | `VERIFIED_WORKING` | 5 | 200 | 426 ms | 2026-10-17T09:14:06Z |  |
 | FX 1 | `VERIFIED_WORKING` | 5 | 200 | 545 ms | 2026-10-17T09:20:44Z |  |
 | FX 2 | `VERIFIED_WORKING` | 5 | 200 | 562 ms | 2026-10-17T09:20:45Z |  |
-| Ganj e Hozour TV | `VERIFIED_WORKING` | 5 | 200 | 55 ms | 2026-10-17T09:30:43Z | 1080p |
 | Gillette Public Access Television Channel 189 | `VERIFIED_WORKING` | 5 | 200 | 185 ms | 2026-10-17T09:30:43Z |  |
 | Gillette Public Access Television Channel 190 | `VERIFIED_WORKING` | 5 | 200 | 49 ms | 2026-10-17T09:30:45Z |  |
 | Gillette Public Access Television Channel 192 | `VERIFIED_WORKING` | 5 | 200 | 52 ms | 2026-10-17T09:30:45Z |  |
@@ -300,7 +290,6 @@ Results describe reachability **from the checker's network location at that time
 | Imagen FM 105.1 | `VERIFIED_WORKING` | 5 | 200 | 1662 ms | 2026-10-17T09:19:18Z | 720p |
 | Impact TV Dance | `VERIFIED_WORKING` | 5 | 200 | 399 ms | 2026-10-17T09:27:05Z |  |
 | Impact TV Manele | `VERIFIED_WORKING` | 5 | 200 | 119 ms | 2026-10-17T09:27:05Z |  |
-| In Puii Mei | `VERIFIED_WORKING` | 5 | 200 | 59 ms | 2026-10-17T09:27:05Z |  |
 | India Today | `VERIFIED_WORKING` | 5 | 200 | 364 ms | 2026-10-17T09:32:21Z | 720p |
 | India TV | `VERIFIED_WORKING` | 5 | 200 | 410 ms | 2026-10-17T09:19:58Z | 720p |
 | Interalmeria TV | `VERIFIED_WORKING` | 5 | 200 | 405 ms | 2026-10-17T09:17:55Z |  |
@@ -308,13 +297,11 @@ Results describe reachability **from the checker's network location at that time
 | Ionian TV | `VERIFIED_WORKING` | 5 | 200 | 798 ms | 2026-10-17T09:19:15Z | 1080p |
 | IraneFarda TV | `VERIFIED_WORKING` | 5 | 200 | 339 ms | 2026-10-17T09:30:09Z |  |
 | Iris | `UNAVAILABLE` | 1 | – | – | 2026-10-17T09:20:54Z | DNS resolution failed for live3-mediaset-it.akamaized.net: [Errno -2] Name or service not  |
-| iRoast | `VERIFIED_WORKING` | 5 | 200 | 325 ms | 2026-10-17T09:27:07Z |  |
 | IRT | `VERIFIED_WORKING` | 5 | 200 | 618 ms | 2026-10-17T09:29:55Z | 576p |
 | Istoki | `VERIFIED_WORKING` | 5 | 200 | 712 ms | 2026-10-17T09:27:30Z | 576p |
 | Italia 1 | `UNAVAILABLE` | 1 | – | – | 2026-10-17T09:20:54Z | DNS resolution failed for live3-mediaset-it.akamaized.net: [Errno -2] Name or service not  |
 | Italia 2 | `UNAVAILABLE` | 1 | – | – | 2026-10-17T09:20:54Z | DNS resolution failed for live3-mediaset-it.akamaized.net: [Errno -2] Name or service not  |
 | Itel TV Canal 2 | `VERIFIED_WORKING` | 5 | 200 | 634 ms | 2026-10-17T09:14:02Z |  |
-| iUmor | `VERIFIED_WORKING` | 5 | 200 | 101 ms | 2026-10-17T09:27:08Z |  |
 | Jazz TV | `UNAVAILABLE` | 2 | 404 | 126 ms | 2026-10-17T09:22:22Z | HTTP 404 (stream not found) |
 | JC1 | `VERIFIED_WORKING` | 5 | 200 | 584 ms | 2026-10-17T09:16:45Z |  |
 | Jiangsu Public & News Channel | `VERIFIED_WORKING` | 5 | 200 | 1657 ms | 2026-10-17T09:16:24Z |  |
@@ -324,7 +311,6 @@ Results describe reachability **from the checker's network location at that time
 | Kalu TV | `VERIFIED_WORKING` | 5 | 200 | 412 ms | 2026-10-17T09:16:37Z | 720p |
 | Kanal D | `VERIFIED_WORKING` | 5 | 200 | 602 ms | 2026-10-17T09:27:10Z | 720p |
 | Kemet TV | `UNAVAILABLE` | 2 | 404 | 827 ms | 2026-10-17T09:16:03Z | HTTP 404 (stream not found) |
-| Khavaran TV | `VERIFIED_WORKING` | 5 | 200 | 574 ms | 2026-10-17T09:20:46Z | 1080p |
 | KiKA | `VERIFIED_WORKING` | 5 | 200 | 376 ms | 2026-10-17T09:31:34Z | 1080p |
 | KTK | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:21:39Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
 | KTV | `VERIFIED_WORKING` | 5 | 200 | 1338 ms | 2026-10-17T09:21:33Z | 1080p |
@@ -364,14 +350,12 @@ Results describe reachability **from the checker's network location at that time
 | Maxima TV | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:31:16Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
 | MBC Brasil TV | `INVALID_STREAM` | 3 | 200 | 931 ms | 2026-10-17T09:15:03Z | manifest: body does not start with #EXTM3U |
 | MCOT HD | `VERIFIED_WORKING` | 5 | 200 | 447 ms | 2026-10-17T09:29:03Z |  |
-| MediCOOL TV | `VERIFIED_WORKING` | 5 | 200 | 285 ms | 2026-10-17T09:27:10Z |  |
 | Mercurio Noticias | `VERIFIED_WORKING` | 5 | 200 | 190 ms | 2026-10-17T09:14:03Z |  |
 | Meta Film TV | `VERIFIED_WORKING` | 5 | 200 | 355 ms | 2026-10-17T09:20:48Z |  |
 | Metaleitor TV | `VERIFIED_WORKING` | 5 | 200 | 182 ms | 2026-10-17T09:30:49Z |  |
 | Meteonews | `VERIFIED_WORKING` | 5 | 200 | 608 ms | 2026-10-17T09:15:48Z |  |
 | Milenial TV | `VERIFIED_WORKING` | 5 | 200 | 115 ms | 2026-10-17T09:26:44Z |  |
 | Mir Belogorya | `VERIFIED_WORKING` | 5 | 200 | 665 ms | 2026-10-17T09:27:31Z | 1080p |
-| Mireasa | `VERIFIED_WORKING` | 5 | 200 | 489 ms | 2026-10-17T09:27:11Z | 480p |
 | MNB | `VERIFIED_WORKING` | 5 | 200 | 736 ms | 2026-10-17T09:22:33Z |  |
 | MNB Mongoliin Medee | `VERIFIED_WORKING` | 5 | 200 | 225 ms | 2026-10-17T09:22:33Z |  |
 | MNB Sport | `VERIFIED_WORKING` | 5 | 200 | 369 ms | 2026-10-17T09:22:35Z |  |
@@ -455,7 +439,6 @@ Results describe reachability **from the checker's network location at that time
 | PowerTurk Taptaze | `VERIFIED_WORKING` | 5 | 200 | 146 ms | 2026-10-17T09:29:22Z | 1080p |
 | PowerTurk TV | `VERIFIED_WORKING` | 5 | 200 | 178 ms | 2026-10-17T09:29:24Z | 1080p |
 | Prag News | `VERIFIED_WORKING` | 5 | 200 | 386 ms | 2026-10-17T09:20:02Z | 720p |
-| Prarthana TV | `VERIFIED_WORKING` | 5 | 200 | 390 ms | 2026-10-17T09:20:05Z | 720p |
 | Privesc.Eu TV | `VERIFIED_WORKING` | 5 | 200 | 558 ms | 2026-10-17T09:22:13Z | 1080p |
 | PRO TV Chisinau | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:22:18Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
 | Qmusic | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:26:02Z | connection error: ConnectError: All connection attempts failed |
@@ -542,7 +525,6 @@ Results describe reachability **from the checker's network location at that time
 | STOU Channel | `UNAVAILABLE` | 2 | 404 | 1641 ms | 2026-10-17T09:29:07Z | HTTP 404 (stream not found) |
 | Streekstad Central | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:26:10Z | connection error: ConnectError: All connection attempts failed |
 | Supermusica TV | `VERIFIED_WORKING` | 5 | 200 | 471 ms | 2026-10-17T09:16:40Z |  |
-| Supreme Master TV | `VERIFIED_WORKING` | 5 | 200 | 565 ms | 2026-10-17T09:29:54Z | 720p |
 | Suyai TV | `VERIFIED_WORKING` | 5 | 200 | 171 ms | 2026-10-17T09:15:58Z |  |
 | Swamiji TV American | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:14:08Z | connection error: ConnectError: All connection attempts failed |
 | Swamiji TV Australian | `UNAVAILABLE` | 2 | – | – | 2026-10-17T09:14:09Z | connection error: ConnectError: All connection attempts failed |

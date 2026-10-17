@@ -1042,81 +1042,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: fox-business-network-us
-  name: Fox Business Network
-  alt_names:
-  - Fox Business
-  broadcaster: Fox Corporation
-  country: us
-  languages:
-  - en
-  categories:
-  - business
-  website: https://www.foxbusiness.com/
-  stream:
-    url: https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
-    evidence_url: https://www.foxbusiness.com/
-    evidence_summary: 'Automated owner-domain match: stream host 247preview.foxbusiness.com is on the broadcaster''s domain
-      foxbusiness.com. Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: FoxBusinessNetwork.us@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: fox-news-channel-us
-  name: Fox News Channel
-  alt_names: []
-  broadcaster: Fox Corporation
-  country: us
-  languages:
-  - en
-  categories:
-  - news
-  website: http://www.foxnews.com/
-  stream:
-    url: http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
-    evidence_url: http://www.foxnews.com/
-    evidence_summary: 'Automated owner-domain match: stream host 247preview.foxnews.com is on the broadcaster''s domain foxnews.com.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: FoxNewsChannel.us@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: fox-news-radio-us
   name: Fox News Radio
   alt_names: []
@@ -1177,43 +1102,6 @@ channels:
     notes: ''
     method: automated-domain-match
   epg_id: FoxWeather.us@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: ganj-e-hozour-tv-us
-  name: Ganj e Hozour TV
-  alt_names: []
-  broadcaster: Ganj e Hozour TV
-  country: us
-  languages:
-  - fa
-  categories:
-  - general
-  website: http://www.parvizshahbazi.com/
-  stream:
-    url: https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
-    evidence_url: http://www.parvizshahbazi.com/
-    evidence_summary: 'Automated owner-domain match: stream host media.parvizshahbazi.com is on the broadcaster''s domain
-      parvizshahbazi.com. Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: GanjeHozourTV.us@SD
   logo: null
   geo:
     restricted: unknown
