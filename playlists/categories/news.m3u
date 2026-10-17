@@ -49,6 +49,12 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 #EXTINF:-1 tvg-id="tagesschau24.de@SD" tvg-name="tagesschau24" tvg-country="DE" tvg-language="German" group-title="Germany",tagesschau24
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-id="3CatExclusiu1.es@SD" tvg-name="3Cat Exclusiu 1" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Exclusiu 1
+https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatExclusiu2.es@SD" tvg-name="3Cat Exclusiu 2" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Exclusiu 2
+https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatInfo.es@SD" tvg-name="3CatInfo" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3CatInfo
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="24Horas.es@SD" tvg-name="Canal 24 Horas" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Canal 24 Horas
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
 #EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Nopola News
@@ -76,21 +82,19 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsGreek.fr@SD" tvg-name="Euronews Ελληνικά" tvg-country="FR" tvg-language="Greek" group-title="France",Euronews Ελληνικά
 https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-country="FR" tvg-language="Arabic" group-title="France",France 24 Arabic
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master.m3u8
+https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-country="FR" tvg-language="English" group-title="France",France 24 English
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-country="FR" tvg-language="Spanish" group-title="France",France 24 Español
-https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8
+https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="PalitraNews.ge@SD" tvg-name="Palitra News" tvg-country="GE" tvg-language="Georgian" group-title="Georgia",Palitra News
 https://live.palitranews.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
 https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
 #EXTINF:-1 tvg-id="LencaTV.hn@SD" tvg-name="Lenca TV" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Lenca TV
 https://lencatelevision.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RTENews.ie@SD" tvg-name="RTÉ News" tvg-country="IE" tvg-language="English" group-title="Ireland",RTÉ News
-https://live.rte.ie/live/a/channel3/channel3.isml/channel3.m3u8
 #EXTINF:-1 tvg-id="AajTak.in@SD" tvg-name="Aaj Tak" tvg-country="IN" tvg-language="Hindi" group-title="India",Aaj Tak
 https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8
 #EXTINF:-1 tvg-id="GuaranteeNews.in@SD" tvg-name="Guarantee News" tvg-country="IN" tvg-language="Kannada" group-title="India",Guarantee News
@@ -139,8 +143,6 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
 https://stream.tvkstella.pl/stella/stella.m3u8
 #EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-name="Al Najah News" tvg-country="PS" tvg-language="Arabic" group-title="Palestine",Al Najah News
 https://streaming.najah.edu:8443/hls/AlNajah.m3u8
-#EXTINF:-1 tvg-id="RTPNoticias.pt@HD" tvg-name="RTP Notícias" tvg-country="PT" tvg-language="Portuguese" group-title="Portugal",RTP Notícias
-https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Nanduti.py@SD" tvg-name="Nanduti" tvg-country="PY" tvg-language="Spanish" group-title="Paraguay",Nanduti
 https://nanduti.b-cdn.net/720p.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera Arabic" tvg-country="QA" tvg-language="Arabic" group-title="Qatar",Al Jazeera Arabic
@@ -177,12 +179,8 @@ https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
 https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review" tvg-country="US" tvg-language="English" group-title="United States",30A Georgia Hollywood Review
 https://30a-tv.com/gh.m3u8
-#EXTINF:-1 tvg-id="ABCNewsLive.us@SD" tvg-name="ABC News Live" tvg-country="US" tvg-language="English" group-title="United States",ABC News Live
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg Television" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Television
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-name="CBS News 24/7" tvg-country="US" tvg-language="English" group-title="United States",CBS News 24/7
-https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
 #EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-name="Fox News Radio" tvg-country="US" tvg-language="English" group-title="United States",Fox News Radio
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 #EXTINF:-1 tvg-id="NationalIranianCongressTV.us@SD" tvg-name="National Iranian Congress TV" tvg-country="US" tvg-language="Persian" group-title="United States",National Iranian Congress TV

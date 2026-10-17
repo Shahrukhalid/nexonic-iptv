@@ -1,6 +1,10 @@
 #EXTM3U x-nexonic-playlist="Education"
 #EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-name="TV Universidad" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
+#EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-name="TV UFOP" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV UFOP
+https://app.tvufop.com.br/hls/tvufop.m3u8
+#EXTINF:-1 tvg-id="TVERS.br@SD" tvg-name="TVE RS" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVE RS
+https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="ARDalpha.de@SD" tvg-name="ARD-alpha" tvg-country="DE" tvg-language="German" group-title="Germany",ARD-alpha
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="NRWision.de@SD" tvg-name="NRWision" tvg-country="DE" tvg-language="German" group-title="Germany",NRWision
@@ -51,15 +55,29 @@ https://cdn-live.dltv.ac.th/dltv09.m3u8
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="CloudflareTV.us@SD" tvg-name="Cloudflare TV" tvg-country="US" tvg-language="English" group-title="United States",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+#EXTINF:-1 tvg-id="CMAC2.us@SD" tvg-name="CMAC 2" tvg-country="US" tvg-language="English" group-title="United States",CMAC 2
+https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="DKN.us@SD" tvg-name="DKN" tvg-country="US" tvg-language="English" group-title="United States",DKN
 https://video.oct.dc.gov/out/u/DKN.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us@SD" tvg-name="Gillette Public Access Television Channel 189" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 189
 https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
-#EXTINF:-1 tvg-id="NASATVPublic.us@SD" tvg-name="NASA TV Public" tvg-country="US" tvg-language="English" group-title="United States",NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+#EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us@SD" tvg-name="HCTV Educational Access Channel" tvg-country="US" tvg-language="English" group-title="United States",HCTV Educational Access Channel
+https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="NatickEducationChannel.us@SD" tvg-name="Natick Education Channel" tvg-country="US" tvg-language="English" group-title="United States",Natick Education Channel
 https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="PBS.us@East" tvg-name="PBS" tvg-country="US" tvg-language="English" group-title="United States",PBS
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="PBSKidsAlaska.us@SD" tvg-name="PBS Kids Alaska" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids Alaska
+https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsHawaii.us@SD" tvg-name="PBS Kids Hawaii" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids Hawaii
+https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8
+#EXTINF:-1 tvg-id="PBSKidsMountain.us@SD" tvg-name="PBS Kids Mountain" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids Mountain
+https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
+#EXTINF:-1 tvg-id="PBSKidsPacific.us@SD" tvg-name="PBS Kids Pacific" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids Pacific
+https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
+#EXTINF:-1 tvg-id="StLuciePublicSchools.us@SD" tvg-name="St Lucie Public Schools" tvg-country="US" tvg-language="English" group-title="United States",St Lucie Public Schools
+https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8
+#EXTINF:-1 tvg-id="WorldChannel.us@SD" tvg-name="World Channel" tvg-country="US" tvg-language="English" group-title="United States",World Channel
+https://world.lls.pbs.org/index.m3u8

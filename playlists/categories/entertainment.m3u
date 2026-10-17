@@ -1,16 +1,24 @@
 #EXTM3U x-nexonic-playlist="Entertainment"
 #EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-name="RTNB Divertissement" tvg-country="BI" tvg-language="English;French;Swahili" group-title="Burundi",RTNB Divertissement
 https://tv2-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="BonceTV.cw@SD" tvg-name="Bonce TV" tvg-country="CW" tvg-language="Dutch" group-title="Curacao",Bonce TV
 https://seswa.bonce.tv/hls/bonceswa.m3u8
+#EXTINF:-1 tvg-id="GiTelevision.do@SD" tvg-name="Gi Television" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Gi Television
+https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
 #EXTINF:-1 tvg-id="ETVPlus.ee@SD" tvg-name="ETV+" tvg-country="EE" tvg-language="Russian;Estonian" group-title="Estonia",ETV+
 https://sb.err.ee/live/etvpluss.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@SD" tvg-name="TVE Star" tvg-country="ES" tvg-language="Spanish" group-title="Spain",TVE Star
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 #EXTINF:-1 tvg-id="SolTV.gq@SD" tvg-name="SolTV" tvg-country="GQ" tvg-language="Spanish" group-title="Equatorial Guinea",SolTV
 https://stream.solmediaeg.com/soltv/soltv.m3u8
+#EXTINF:-1 tvg-id="StarChannelInternational.gr@HD" tvg-name="Star Channel International" tvg-country="GR" tvg-language="Greek" group-title="Greece",Star Channel International
+https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 #EXTINF:-1 tvg-id="EpicBharat.in@Digital" tvg-name="Epic Bharat" tvg-country="IN" tvg-language="Hindi" group-title="India",Epic Bharat
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
+#EXTINF:-1 tvg-id="KCLTV.in@SD" tvg-name="KCL TV" tvg-country="IN" tvg-language="Malayalam" group-title="India",KCL TV
+https://kcltv.livebox.co.in/kclhls/live.m3u8
 #EXTINF:-1 tvg-id="OliTV.in@SD" tvg-name="Oli TV" tvg-country="IN" tvg-language="Tamil" group-title="India",Oli TV
 https://live.olidigital.in/olitv/olitv/index.m3u8
 #EXTINF:-1 tvg-id="TarangTV.in@SD" tvg-name="Tarang TV" tvg-country="IN" tvg-language="Odia" group-title="India",Tarang TV
@@ -35,12 +43,12 @@ https://tv.beatfm.nl/live.m3u8
 https://bsmbialogard.pl/live/index.m3u8
 #EXTINF:-1 tvg-id="RadiowaCzworka.pl@SD" tvg-name="Radiowa Czworka" tvg-country="PL" tvg-language="Polish" group-title="Poland",Radiowa Czworka
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPMemoria.pt@SD" tvg-name="RTP Memória" tvg-country="PT" tvg-language="Portuguese" group-title="Portugal",RTP Memória
-https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4UTV.tr@SD" tvg-name="4U TV" tvg-country="TR" tvg-language="Persian" group-title="Turkiye",4U TV
 https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="EdessaTV.tr@SD" tvg-name="Edessa TV" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",Edessa TV
 https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Kanal7.tr@SD" tvg-name="Kanal 7" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",Kanal 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-name="TRT 1" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="30AGeorgiaHollywoodReview.us@SD" tvg-name="30A Georgia Hollywood Review" tvg-country="US" tvg-language="English" group-title="United States",30A Georgia Hollywood Review
@@ -51,5 +59,7 @@ https://30a-tv.com/feeds/720p/63.m3u8
 https://30a-tv.com/sidewalks.m3u8
 #EXTINF:-1 tvg-id="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel" tvg-country="US" tvg-language="English" group-title="United States",30A Television Channel
 https://30a-tv.com/feeds/masters/30atv.m3u8
+#EXTINF:-1 tvg-id="TheNest.us@SD" tvg-name="The Nest" tvg-country="US" tvg-language="English" group-title="United States",The Nest
+https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8
 #EXTINF:-1 tvg-id="BIZTV.uz@SD" tvg-name="BIZ TV" tvg-country="UZ" tvg-language="Uzbek" group-title="Uzbekistan",BIZ TV
 https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj92in3d/index.m3u8
