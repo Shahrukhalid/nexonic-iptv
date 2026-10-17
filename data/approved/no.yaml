@@ -3,9 +3,9 @@ channels:
 - id: nrk-super
   name: "NRK Super"
   broadcaster: "NRK (Norsk rikskringkasting)"
-  country: no
+  country: 'no'
   languages:
-  - no
+  - 'no'
   categories:
   - kids
   website: "https://tv.nrk.no/direkte/nrksuper"
@@ -23,7 +23,7 @@ channels:
   logo: null
   geo:
     restricted: true
-    regions: [no]
+    regions: ['no']
   is_nsfw: false
   first_discovered: '2026-10-17'
   review:
