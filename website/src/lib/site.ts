@@ -70,7 +70,7 @@ export const CATEGORY_NAMES: Record<string, string> = {
   business: "Business", culture: "Culture", documentary: "Documentary", education: "Education",
   entertainment: "Entertainment", general: "General", kids: "Kids", legislative: "Legislative",
   lifestyle: "Lifestyle", movies: "Movies", music: "Music", news: "News", science: "Science",
-  sports: "Sports", weather: "Weather",
+  series: "Series", sports: "Sports", weather: "Weather",
 };
 
 export const STATUS_LABELS: Record<string, string> = {
