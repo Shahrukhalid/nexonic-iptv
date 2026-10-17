@@ -187,3 +187,20 @@ def test_status_values_serialise(status):
 
     d = CheckResult("x", status, "2026-10-17T00:00:00Z").to_dict()
     assert CheckResult.from_dict(d).status is status
+
+
+def test_channel_hard_timeout(record):
+    import time as _t
+
+    def slow(req):
+        _t.sleep(0.5)
+        return httpx.Response(200, text=MEDIA)
+
+    lim = Limits(timeout=5, retries=0, per_host_interval=0, channel_timeout=0.2)
+    assert run(slow, record, limits=lim).status is Status.TIMEOUT
+
+
+def test_run_budget_marks_not_tested(record):
+    lim = Limits(timeout=2, retries=0, per_host_interval=0, run_budget=-1)
+    r = run(happy, record, limits=lim)
+    assert r.status is Status.NOT_TESTED and "budget" in r.error
