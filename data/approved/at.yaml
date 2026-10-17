@@ -1,0 +1,108 @@
+# Approved channels for AT. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: orf-2
+  name: ORF 2
+  broadcaster: ORF
+  country: at
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.orf.at
+  stream:
+    url: https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://on.orf.at/
+    evidence_summary: Austrian public broadcaster; ors.at is ORF's transmission subsidiary (ORS). Austria only.
+    evidence_checked: null
+    notes: ''
+  epg_id: ORF2.at@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - at
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: orf-iii
+  name: ORF III
+  broadcaster: ORF
+  country: at
+  languages:
+  - de
+  categories:
+  - culture
+  - documentary
+  website: https://www.orf.at
+  stream:
+    url: https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://on.orf.at/
+    evidence_summary: Austria only.
+    evidence_checked: null
+    notes: ''
+  epg_id: ORFIII.at@HD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - at
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: red-bull-tv
+  name: Red Bull TV
+  broadcaster: Red Bull Media House
+  country: at
+  languages:
+  - en
+  categories:
+  - sports
+  - lifestyle
+  website: https://www.redbull.com/int-en/discover
+  stream:
+    url: https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.redbull.com/int-en/discover
+    evidence_summary: Free action-sports and lifestyle channel; 'rbmn' = Red Bull Media Network CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

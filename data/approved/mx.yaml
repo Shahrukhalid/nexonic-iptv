@@ -1,0 +1,37 @@
+# Approved channels for MX. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: canal-once
+  name: Canal Once
+  broadcaster: Instituto Politécnico Nacional
+  country: mx
+  languages:
+  - es
+  categories:
+  - general
+  - culture
+  website: https://canalonce.mx
+  stream:
+    url: https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://canalonce.mx/
+    evidence_summary: Mexican public broadcaster; host canaloncelive.tv is Canal Once's streaming domain.
+    evidence_checked: null
+    notes: ''
+  epg_id: CanalOnce.mx@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

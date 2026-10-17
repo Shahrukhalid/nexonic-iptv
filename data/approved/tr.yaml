@@ -1,0 +1,311 @@
+# Approved channels for TR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: trt-world
+  name: TRT World
+  broadcaster: TRT
+  country: tr
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.trtworld.com
+  stream:
+    url: https://tv-trtworld.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.trtworld.com/live
+    evidence_summary: Turkey's public broadcaster; host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTWorld.tr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-1
+  name: TRT 1
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  - entertainment
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-trt1.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: Host trt.com.tr. Some programmes may be blocked outside Turkey.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRT1.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-haber
+  name: TRT Haber
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - news
+  website: https://www.trthaber.com
+  stream:
+    url: https://tv-trthaber.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.trthaber.com/canli-yayin-izle.html
+    evidence_summary: Host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTHaber.tr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-cocuk
+  name: TRT Çocuk
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - kids
+  website: https://www.trtcocuk.net.tr
+  stream:
+    url: https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: Public children's channel; host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTCocuk.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-belgesel
+  name: TRT Belgesel
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - documentary
+  website: https://www.trtbelgesel.net.tr
+  stream:
+    url: https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: Host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTBelgesel.tr@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-muzik
+  name: TRT Müzik
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - music
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: Public music channel; host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-arabi
+  name: TRT Arabi
+  broadcaster: TRT
+  country: tr
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.trtarabi.com
+  stream:
+    url: https://tv-trtarabi.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.trtarabi.com/live
+    evidence_summary: Host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTArabi.tr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-spor
+  name: TRT Spor
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - sports
+  website: https://www.trtspor.com.tr
+  stream:
+    url: https://tv-trtspor1.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: Public sports channel; region-limited (rights).
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTSpor.tr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - tr
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: trt-eba-ilkokul
+  name: TRT EBA İlkokul
+  broadcaster: TRT / Ministry of National Education
+  country: tr
+  languages:
+  - tr
+  categories:
+  - education
+  - kids
+  website: https://www.eba.gov.tr
+  stream:
+    url: https://tv-e-okul00.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.eba.gov.tr/
+    evidence_summary: Primary-school education channel; host trt.com.tr.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -1,0 +1,176 @@
+# Approved channels for IN. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: sansad-tv-1
+  name: Sansad TV 1
+  broadcaster: Sansad TV (Parliament of India)
+  country: in
+  languages:
+  - hi
+  categories:
+  - legislative
+  - news
+  website: https://sansadtv.nic.in
+  stream:
+    url: https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://sansadtv.nic.in/
+    evidence_summary: Parliamentary channel; host media.nic.in is India's National Informatics Centre (government).
+    evidence_checked: null
+    notes: ''
+  epg_id: SansadTV1.in@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: sansad-tv-2
+  name: Sansad TV 2
+  broadcaster: Sansad TV (Parliament of India)
+  country: in
+  languages:
+  - hi
+  - en
+  categories:
+  - legislative
+  - news
+  website: https://sansadtv.nic.in
+  stream:
+    url: https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://sansadtv.nic.in/
+    evidence_summary: Parliamentary channel; government host.
+    evidence_checked: null
+    notes: ''
+  epg_id: SansadTV2.in@HD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: ndtv-24x7
+  name: NDTV 24x7
+  broadcaster: NDTV
+  country: in
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.ndtv.com
+  stream:
+    url: https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.ndtv.com/video/live/channel/ndtv24x7
+    evidence_summary: NDTV streams its channels free on ndtv.com; CDN hostname named for NDTV. iptv-org labels it 'Not 24/7'.
+    evidence_checked: null
+    notes: ''
+  epg_id: NDTV24x7.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: ndtv-profit
+  name: NDTV Profit
+  broadcaster: NDTV
+  country: in
+  languages:
+  - en
+  categories:
+  - business
+  - news
+  website: https://www.ndtvprofit.com
+  stream:
+    url: https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.ndtvprofit.com/live-tv
+    evidence_summary: CDN hostname named for NDTV Profit.
+    evidence_checked: null
+    notes: ''
+  epg_id: NDTVProfit.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: india-today
+  name: India Today
+  broadcaster: India Today Group
+  country: in
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.indiatoday.in
+  stream:
+    url: https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.indiatoday.in/livetv
+    evidence_summary: CDN hostname named for India Today. iptv-org labels this URL 'Not 24/7'.
+    evidence_checked: null
+    notes: ''
+  epg_id: IndiaToday.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -1,0 +1,36 @@
+# Approved channels for AU. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: abc-news-australia
+  name: ABC News (Australia)
+  broadcaster: Australian Broadcasting Corporation
+  country: au
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.abc.net.au/news
+  stream:
+    url: https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.abc.net.au/news/newschannel
+    evidence_summary: Public broadcaster; CDN hostname named for ABC News.
+    evidence_checked: null
+    notes: ''
+  epg_id: ABCNews.au@Sydney
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

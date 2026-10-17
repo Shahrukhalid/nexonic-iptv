@@ -1,0 +1,70 @@
+# Approved channels for BR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tv-brasil
+  name: TV Brasil
+  broadcaster: EBC
+  country: br
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://tvbrasil.ebc.com.br
+  stream:
+    url: https://tvbrasil-stream.ebc.com.br/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://tvbrasil.ebc.com.br/
+    evidence_summary: Brazil's public broadcaster (EBC); host ebc.com.br.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVBrasil.br@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tv-camara
+  name: TV Câmara
+  broadcaster: Câmara dos Deputados
+  country: br
+  languages:
+  - pt
+  categories:
+  - legislative
+  website: https://www.camara.leg.br
+  stream:
+    url: https://stream3.camara.gov.br/tv1/manifest.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.camara.leg.br/tv
+    evidence_summary: Chamber of Deputies channel; government host camara.gov.br.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVCamara.br@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

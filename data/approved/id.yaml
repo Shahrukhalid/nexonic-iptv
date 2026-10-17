@@ -1,0 +1,71 @@
+# Approved channels for ID. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tvri-nasional
+  name: TVRI Nasional
+  broadcaster: TVRI
+  country: id
+  languages:
+  - id
+  categories:
+  - general
+  website: https://www.tvri.go.id
+  stream:
+    url: https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.tvri.go.id/
+    evidence_summary: Indonesia's public broadcaster; host tvri.go.id (government domain).
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRI.id@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tvri-world
+  name: TVRI World
+  broadcaster: TVRI
+  country: id
+  languages:
+  - en
+  categories:
+  - general
+  - culture
+  website: https://www.tvri.go.id
+  stream:
+    url: https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.tvri.go.id/
+    evidence_summary: Host tvri.go.id.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRIWorld.id@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

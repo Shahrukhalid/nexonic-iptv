@@ -1,0 +1,104 @@
+# Approved channels for AE. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: al-arabiya
+  name: Al Arabiya
+  broadcaster: MBC Group
+  country: ae
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.alarabiya.net
+  stream:
+    url: https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.alarabiya.net/live-stream
+    evidence_summary: Host alarabiya.net.
+    evidence_checked: null
+    notes: ''
+  epg_id: Alarabiya.ae@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: al-hadath
+  name: Al Hadath
+  broadcaster: MBC Group
+  country: ae
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.alhadath.net
+  stream:
+    url: https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.alhadath.net/live-stream
+    evidence_summary: Host alarabiya.net.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: sky-news-arabia
+  name: Sky News Arabia
+  broadcaster: Sky News Arabia
+  country: ae
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.skynewsarabia.com
+  stream:
+    url: https://stream.skynewsarabia.com/hls/sna.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.skynewsarabia.com/live
+    evidence_summary: Host skynewsarabia.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: SkyNewsArabia.ae@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
