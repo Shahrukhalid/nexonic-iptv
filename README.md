@@ -65,7 +65,8 @@ Player guides: [How to watch](https://shahrukhalid.github.io/nexonic-iptv/how-to
 - **Nexonic Health Score** — a transparent 0–100 score from recorded history; "NOT ENOUGH DATA" until it is earned.
 - **Nexonic Safe** — adult content excluded by schema, five automated moderation layers, human review and tests
   ([content policy](docs/CONTENT_POLICY.md)).
-- **Country Hub** — one playlist and one web page per country, plus language and category playlists.
+- **Country Hub** — one playlist and one web page per country, plus language and category playlists (including a
+  `series` playlist for TV-series, telenovela and drama channels).
 - **Status page** — public, timestamped results from every run.
 - **Zero cost** — no ads, subscriptions, trackers or accounts; runs on free GitHub Actions and Pages.
 

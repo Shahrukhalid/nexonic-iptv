@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.1.0 — 2026-10-17
+- **49 new hand-curated channels** (now 116 manual records in 27 countries), each with the broadcaster's official
+  free live page as evidence and a manifest-plus-segment stream check run from a browser outside the
+  broadcaster's country (geo-limited channels are labelled). Highlights: 3Cat
+  (TV3, El 33, SX3, 3CatInfo, Esport3, Plats Bruts and event channels), SVT1/SVT2/SVT Barn, NRK Super, ZDFneo,
+  ServusTV, Yle Teema & Fem, ORF Kids, PBS Kids (four time zones), WORLD Channel, FNX, Classic Arts Showcase, Kanal 7,
+  GZT, Señal Colombia, Balapan, Abai TV, LTV7 and Star Channel International.
+- **New `series` category** (`playlists/categories/series.m3u`) for channels that mainly air TV series, telenovelas
+  and dramas. iptv-org's `series` category now maps to it during automated admission.
+- **Fixes to existing channels:**
+  - France 24 (4 channels): `master.m3u8` now returns HTTP 403; switched to the per-bitrate playlist on the same
+    official host.
+  - TRT Belgesel: moved off the failing `-dai` host.
+  - RTP (6 channels) moved to `pending`: RTP now serves live streams only through signed, expiring URLs (`tk=`),
+    which the source policy does not allow.
+  - ABC News Live and CBS News 24/7 moved to `pending`: their stored URLs return HTTP 404.
+  - NASA TV moved to `rejected` (the channel has been phased out); RTÉ News moved to `rejected` (DRM-protected).
+- Catalog refresh workflow: validation now runs after the playlists are regenerated, so removals no longer fail
+  the job.
+
 ## 1.0.0 — 2026-10-17
 Initial release.
 - Automated admission tier: 532 channels from 100 countries whose stream host is on the broadcaster's own domain
