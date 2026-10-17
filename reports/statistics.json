@@ -1,53 +1,52 @@
 {
-  "reference_time": "2026-10-17T10:36:07Z",
+  "reference_time": "2026-10-17T11:42:35Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 493,
-  "excluded_approved": 212,
-  "countries": 92,
+  "published_channels": 494,
+  "excluded_approved": 211,
+  "countries": 93,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 410,
-  "playlist_files": 173,
+  "verified_playlist_channels": 438,
+  "playlist_files": 174,
   "latest_run": {
-    "run_id": "run-20261017T102728Z",
-    "started_at": "2026-10-17T10:27:28Z",
-    "finished_at": "2026-10-17T10:36:07Z",
+    "run_id": "run-20261017T113409Z",
+    "started_at": "2026-10-17T11:34:09Z",
+    "finished_at": "2026-10-17T11:42:35Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 656,
+    "checked": 705,
     "by_status": {
-      "AUTH_REQUIRED": 1,
-      "GEO_RESTRICTED": 33,
-      "INVALID_STREAM": 7,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 129,
-      "UNKNOWN": 45,
+      "AUTH_REQUIRED": 2,
+      "GEO_RESTRICTED": 46,
+      "INVALID_STREAM": 6,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 131,
+      "UNKNOWN": 50,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 410
+      "VERIFIED_WORKING": 438
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 410,
-    "UNAVAILABLE": 129,
-    "GEO_RESTRICTED": 33,
-    "AUTH_REQUIRED": 1,
+    "VERIFIED_WORKING": 438,
+    "UNAVAILABLE": 131,
+    "GEO_RESTRICTED": 46,
+    "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
-    "INVALID_STREAM": 7,
+    "TIMEOUT": 31,
+    "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 45,
+    "UNKNOWN": 50,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 5,
-    "geo-restricted": 14,
-    "not-tested": 49,
+    "currently-failing": 11,
+    "geo-restricted": 28,
     "previously-working": 9,
-    "unknown": 6,
-    "verified-recently": 410
+    "unknown": 8,
+    "verified-recently": 438
   },
   "per_country": {
     "ae": {
@@ -229,6 +228,11 @@
       "name": "Greece",
       "flag": "🇬🇷",
       "channels": 3
+    },
+    "gy": {
+      "name": "Guyana",
+      "flag": "🇬🇾",
+      "channels": 1
     },
     "hn": {
       "name": "Honduras",
@@ -562,7 +566,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 123
+      "channels": 124
     },
     "es": {
       "name": "Spanish",
@@ -792,7 +796,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 173
+      "channels": 174
     },
     "kids": {
       "name": "Kids",
