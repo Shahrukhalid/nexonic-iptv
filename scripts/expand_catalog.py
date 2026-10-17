@@ -178,7 +178,7 @@ CATEGORY_MAP = {
     "public": "general",
     "relax": "lifestyle",
     "science": "science",
-    "series": "entertainment",
+    "series": "series",
     "sports": "sports",
     "travel": "lifestyle",
     "weather": "weather",
