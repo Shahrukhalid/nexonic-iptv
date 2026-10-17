@@ -1,0 +1,84 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  python:
+    name: Data, moderation and tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - name: Lint and format
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Unit tests (mocked network only)
+        run: pytest
+      - name: Validate schema, provenance and playlists
+        run: python scripts/validate.py
+      - name: Adult-content moderation
+        run: python scripts/moderate.py
+      - name: Generated files are up to date and deterministic (pull requests)
+        if: github.event_name == 'pull_request'
+        run: python scripts/generate.py --check
+      - name: Generation is deterministic (two fresh builds are identical)
+        run: |
+          python scripts/generate.py
+          cp -r playlists /tmp/p1
+          python scripts/generate.py
+          diff -r /tmp/p1 playlists
+      - name: Secret scan
+        run: python scripts/scan_secrets.py
+  website:
+    name: Website build and links
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Generate site data from records and verification history
+        run: |
+          pip install -r requirements.txt
+          python scripts/generate.py
+      - run: npm install --no-audit --no-fund
+        working-directory: website
+      - run: npm run build
+        working-directory: website
+      - run: npm run check-links
+        working-directory: website
+  security:
+    name: Workflow lint and gitleaks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: actionlint
+        run: docker run --rm -v "$PWD:/repo" -w /repo rhysd/actionlint:1.7.12 -color
+      - name: gitleaks (full history)
+        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.24.0 git /repo --redact --no-banner
