@@ -1,0 +1,48 @@
+name: Refresh catalog
+on:
+  schedule:
+    - cron: "41 4 1 * *" # monthly, 1st day 04:41 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/expand_catalog.py"
+permissions:
+  contents: write
+concurrency:
+  group: data-writer
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository_owner == 'Shahrukhalid'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Fetch public-domain source data (iptv-org)
+        run: |
+          git clone --depth 1 --filter=blob:none https://github.com/iptv-org/iptv.git /tmp/iptv
+          git clone --depth 1 --filter=blob:none https://github.com/iptv-org/database.git /tmp/database
+      - name: Refresh NSFW blocklists
+        run: python scripts/moderate.py --refresh-blocklist /tmp/database/data/blocklist.csv --channels /tmp/database/data/channels.csv
+      - name: Automated admission (strict owner-domain rules)
+        run: python scripts/expand_catalog.py --streams /tmp/iptv/streams --database /tmp/database/data
+      - name: Validate, moderate, generate
+        run: |
+          python scripts/validate.py
+          python scripts/moderate.py
+          python scripts/generate.py
+      - name: Commit (signed via API)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          COMMIT_BRANCH: main
+        run: python scripts/commit_via_api.py --message "Refresh automated catalog" data reports playlists PLAYLISTS.md README.md
