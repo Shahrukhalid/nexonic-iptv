@@ -1,3 +1,11 @@
 #EXTM3U x-nexonic-playlist="Swedish"
 #EXTINF:-1 tvg-id="NarTV.fi@SD" tvg-name="Nar-TV" tvg-country="FI" tvg-language="Swedish" group-title="Finland",Nar-TV
 https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="YleTeemaFem.fi@SD" tvg-name="Yle Teema & Fem" tvg-country="FI" tvg-language="Finnish;Swedish" group-title="Finland",Yle Teema & Fem
+https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/playlist.m3u8
+#EXTINF:-1 tvg-id="SVTBarnSVT24.se@SD" tvg-name="SVT Barn" tvg-country="SE" tvg-language="Swedish" group-title="Sweden",SVT Barn
+https://svt-live-channel.akamaized.net/l6/se/svtb/master-fmp4.m3u8?defaultSubLang=1&format=hls
+#EXTINF:-1 tvg-id="SVT1.se@SD" tvg-name="SVT1" tvg-country="SE" tvg-language="Swedish" group-title="Sweden",SVT1
+https://svt-live-channel.akamaized.net/l4/se/svt1/master-fmp4.m3u8?defaultSubLang=1&format=hls
+#EXTINF:-1 tvg-id="SVT2.se@SD" tvg-name="SVT2" tvg-country="SE" tvg-language="Swedish" group-title="Sweden",SVT2
+https://svt-live-channel.akamaized.net/l6/se/svt2/master-fmp4.m3u8?defaultSubLang=1&format=hls

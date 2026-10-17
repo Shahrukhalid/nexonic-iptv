@@ -1,6 +1,10 @@
 #EXTM3U x-nexonic-playlist="Culture"
 #EXTINF:-1 tvg-id="ORFIII.at@HD" tvg-name="ORF III" tvg-country="AT" tvg-language="German" group-title="Austria",ORF III
 https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+#EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-name="TV UFOP" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV UFOP
+https://app.tvufop.com.br/hls/tvufop.m3u8
+#EXTINF:-1 tvg-id="TVERS.br@SD" tvg-name="TVE RS" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVE RS
+https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="DoyelTV.ca@SD" tvg-name="Doyel TV" tvg-country="CA" tvg-language="Bengali" group-title="Canada",Doyel TV
 https://3d46w.doyeltv.com/memfs/aa3aa6f7-ec12-41a2-8183-a891e157bbf8.m3u8
 #EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV" tvg-country="CA" tvg-language="Pashto;Tajik;English" group-title="Canada",Pamir TV
@@ -17,8 +21,12 @@ https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 #EXTINF:-1 tvg-id="ETV2.ee@SD" tvg-name="ETV 2" tvg-country="EE" tvg-language="Estonian" group-title="Estonia",ETV 2
 https://sb.err.ee/live/etv2.m3u8
+#EXTINF:-1 tvg-id="El33.es@SD" tvg-name="El 33" tvg-country="ES" tvg-language="Catalan" group-title="Spain",El 33
+https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="La2.es@SD" tvg-name="La 2" tvg-country="ES" tvg-language="Spanish" group-title="Spain",La 2
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
+#EXTINF:-1 tvg-id="YleTeemaFem.fi@SD" tvg-name="Yle Teema & Fem" tvg-country="FI" tvg-language="Finnish;Swedish" group-title="Finland",Yle Teema & Fem
+https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/playlist.m3u8
 #EXTINF:-1 tvg-id="arte.fr@SD" tvg-name="ARTE (Français)" tvg-country="FR" tvg-language="French" group-title="France",ARTE (Français)
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 tvg-id="SaliraTV.id@SD" tvg-name="Salira TV" tvg-country="ID" tvg-language="Indonesian" group-title="Indonesia",Salira TV
@@ -29,9 +37,17 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-name="Arirang TV" tvg-country="KR" tvg-language="English" group-title="South Korea",Arirang TV
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AbaiTV.kz@SD" tvg-name="Abai TV" tvg-country="KZ" tvg-language="Kazakh" group-title="Kazakhstan",Abai TV
+https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 #EXTINF:-1 tvg-id="JinTV.nl@SD" tvg-name="Jin TV" tvg-country="NL" tvg-language="Kurdish" group-title="Netherlands",Jin TV
 https://live.jintv.org/medialive/jintv.m3u8
-#EXTINF:-1 tvg-id="RTP2.pt@SD" tvg-name="RTP2" tvg-country="PT" tvg-language="Portuguese" group-title="Portugal",RTP2
-https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BXArts.us@SD" tvg-name="BX Arts" tvg-country="US" tvg-language="English" group-title="United States",BX Arts
+https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8
+#EXTINF:-1 tvg-id="BXCulture.us@SD" tvg-name="BX Culture" tvg-country="US" tvg-language="English" group-title="United States",BX Culture
+https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8
+#EXTINF:-1 tvg-id="ClassicArtsShowcase.us@SD" tvg-name="Classic Arts Showcase" tvg-country="US" tvg-language="English" group-title="United States",Classic Arts Showcase
+https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
+#EXTINF:-1 tvg-id="FNX.us@SD" tvg-name="FNX" tvg-country="US" tvg-language="English" group-title="United States",FNX
+https://fnx.lls.pbs.org/index.m3u8

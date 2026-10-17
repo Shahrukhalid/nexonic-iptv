@@ -1,6 +1,12 @@
 #EXTM3U x-nexonic-playlist="Movies"
+#EXTINF:-1 tvg-id="ServusTV.at@SD" tvg-name="ServusTV" tvg-country="AT" tvg-language="German" group-title="Austria",ServusTV
+https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8
 #EXTINF:-1 tvg-id="HarbinMovieChannel.cn@SD" tvg-name="Harbin Movie Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Harbin Movie Channel
 https://stream.hrbtv.net/yspd/playlist.m3u8
+#EXTINF:-1 tvg-id="ZDFneo.de@SD" tvg-name="ZDFneo" tvg-country="DE" tvg-language="German" group-title="Germany",ZDFneo
+https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8
+#EXTINF:-1 tvg-id="YleTeemaFem.fi@SD" tvg-name="Yle Teema & Fem" tvg-country="FI" tvg-language="Finnish;Swedish" group-title="Finland",Yle Teema & Fem
+https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/playlist.m3u8
 #EXTINF:-1 tvg-id="AlankarTV.in@SD" tvg-name="Alankar TV" tvg-country="IN" tvg-language="Odia" group-title="India",Alankar TV
 https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MetaFilmTV.ir@SD" tvg-name="Meta Film TV" tvg-country="IR" tvg-language="Persian" group-title="Iran",Meta Film TV
@@ -11,6 +17,8 @@ https://hls.maahtv.live/hls/stream.m3u8
 https://gcinemahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-name="30A TV Classic Movies" tvg-country="US" tvg-language="English" group-title="United States",30A TV Classic Movies
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
+#EXTINF:-1 tvg-id="Charge.us@SD" tvg-name="CHARGE!" tvg-country="US" tvg-language="English" group-title="United States",CHARGE!
+https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 #EXTINF:-1 tvg-id="WhiplashCinema.us@SD" tvg-name="Whiplash Cinema" tvg-country="US" tvg-language="English" group-title="United States",Whiplash Cinema
 https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
 #EXTINF:-1 tvg-id="BIZCinema.uz@SD" tvg-name="BIZ Cinema" tvg-country="UZ" tvg-language="Uzbek" group-title="Uzbekistan",BIZ Cinema

@@ -3,7 +3,7 @@
 - Run: `run-20261017T102728Z`
 - Started: 2026-10-17T10:27:28Z (UTC) · Finished: 2026-10-17T10:36:07Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 666
+- Channels checked: 656
 
 Results describe reachability **from the checker's network location at that time** only.
 
@@ -11,11 +11,11 @@ Results describe reachability **from the checker's network location at that time
 |---|---:|
 | `AUTH_REQUIRED` | 1 |
 | `GEO_RESTRICTED` | 33 |
-| `INVALID_STREAM` | 13 |
+| `INVALID_STREAM` | 7 |
 | `TIMEOUT` | 30 |
-| `UNAVAILABLE` | 132 |
+| `UNAVAILABLE` | 129 |
 | `UNKNOWN` | 45 |
-| `UNSUPPORTED` | 2 |
+| `UNSUPPORTED` | 1 |
 | `VERIFIED_WORKING` | 410 |
 
 | Channel | Status | Level | HTTP | Latency | Checked (UTC) | Note |
@@ -45,7 +45,6 @@ Results describe reachability **from the checker's network location at that time
 | A1 TV | `VERIFIED_WORKING` | 5 | 200 | 427 ms | 2026-10-17T10:31:52Z |  |
 | Aaj Tak | `VERIFIED_WORKING` | 5 | 200 | 214 ms | 2026-10-17T10:30:22Z |  |
 | ABC News (Australia) | `VERIFIED_WORKING` | 5 | 200 | 183 ms | 2026-10-17T10:27:28Z | 720p |
-| ABC News Live | `UNAVAILABLE` | 3 | 200 | 87 ms | 2026-10-17T10:36:06Z | variant playlist: HTTP 404 (stream not found) |
 | ABN | `VERIFIED_WORKING` | 5 | 200 | 3008 ms | 2026-10-17T10:30:55Z |  |
 | ACW UG TV | `UNAVAILABLE` | 1 | – | – | 2026-10-17T10:34:33Z | DNS resolution failed for live.acwugtv.com: [Errno -2] Name or service not known |
 | Afaq TV | `TIMEOUT` | 2 | – | – | 2026-10-17T10:30:34Z | no response within 10s |
@@ -137,7 +136,6 @@ Results describe reachability **from the checker's network location at that time
 | Canal Pulpo TV | `UNAVAILABLE` | 2 | 404 | 298 ms | 2026-10-17T10:27:30Z | HTTP 404 (stream not found) |
 | Canal UOL | `VERIFIED_WORKING` | 5 | 200 | 466 ms | 2026-10-17T10:27:51Z | 1080p |
 | Canale 5 | `UNAVAILABLE` | 1 | – | – | 2026-10-17T10:30:46Z | DNS resolution failed for live3-mediaset-it.akamaized.net: [Errno -2] Name or service not  |
-| CBS News 24/7 | `UNAVAILABLE` | 4 | 200 | 228 ms | 2026-10-17T10:36:07Z | segment: HTTP 404 (stream not found) |
 | CBS News Detroit | `UNAVAILABLE` | 3 | 200 | 98 ms | 2026-10-17T10:34:48Z | variant playlist: HTTP 404 (stream not found) |
 | CCTV+ 1 | `VERIFIED_WORKING` | 5 | 200 | 449 ms | 2026-10-17T10:28:22Z | 600p |
 | CCTV+ 2 | `VERIFIED_WORKING` | 5 | 200 | 306 ms | 2026-10-17T10:28:22Z | 600p |
@@ -372,7 +370,6 @@ Results describe reachability **from the checker's network location at that time
 | Nanduti | `VERIFIED_WORKING` | 5 | 200 | 788 ms | 2026-10-17T10:32:38Z |  |
 | Nano | `VERIFIED_WORKING` | 5 | 200 | 773 ms | 2026-10-17T10:32:51Z | 576p |
 | Nar-TV | `VERIFIED_WORKING` | 5 | 200 | 800 ms | 2026-10-17T10:29:18Z | 360p |
-| NASA TV Public | `UNAVAILABLE` | 2 | 404 | 262 ms | 2026-10-17T10:36:07Z | HTTP 404 (stream not found) |
 | Nasa TV | `VERIFIED_WORKING` | 5 | 200 | 418 ms | 2026-10-17T10:31:31Z |  |
 | Nasul TV | `VERIFIED_WORKING` | 5 | 200 | 596 ms | 2026-10-17T10:32:43Z |  |
 | Natick Education Channel | `VERIFIED_WORKING` | 5 | 200 | 223 ms | 2026-10-17T10:35:00Z | 720p |
@@ -464,7 +461,6 @@ Results describe reachability **from the checker's network location at that time
 | Red Bull TV | `VERIFIED_WORKING` | 5 | 200 | 194 ms | 2026-10-17T10:27:28Z | 1080p |
 | RNE para todos | `UNKNOWN` | 2 | 403 | 31 ms | 2026-10-17T10:29:13Z | HTTP 403 forbidden (could be regional limits or access control) |
 | Rock TV | `UNAVAILABLE` | 2 | 404 | 137 ms | 2026-10-17T10:31:31Z | HTTP 404 (stream not found) |
-| RTÉ News | `UNSUPPORTED` | 3 | 200 | 375 ms | 2026-10-17T10:35:41Z | DRM (SAMPLE-AES com.apple.streamingkeydelivery) |
 | RTL Gold | `UNAVAILABLE` | 2 | – | – | 2026-10-17T10:31:16Z | connection error: ConnectError: All connection attempts failed |
 | RTL Tele Letzebuerg | `UNAVAILABLE` | 2 | – | – | 2026-10-17T10:31:16Z | connection error: ConnectError: All connection attempts failed |
 | RTL Web Radio TV | `UNAVAILABLE` | 2 | – | – | 2026-10-17T10:31:16Z | connection error: ConnectError: All connection attempts failed |
@@ -472,12 +468,6 @@ Results describe reachability **from the checker's network location at that time
 | RTM+ | `TIMEOUT` | 2 | – | – | 2026-10-17T10:28:41Z | no response within 10s |
 | RTNB Divertissement | `VERIFIED_WORKING` | 5 | 200 | 687 ms | 2026-10-17T10:27:44Z | 480p |
 | RTNB TV | `VERIFIED_WORKING` | 5 | 200 | 1211 ms | 2026-10-17T10:27:44Z | 480p |
-| RTP1 | `INVALID_STREAM` | 3 | 204 | 36 ms | 2026-10-17T10:35:58Z | manifest: body does not start with #EXTM3U |
-| RTP2 | `INVALID_STREAM` | 3 | 204 | 34 ms | 2026-10-17T10:35:59Z | manifest: body does not start with #EXTM3U |
-| RTP África | `INVALID_STREAM` | 3 | 204 | 33 ms | 2026-10-17T10:36:01Z | manifest: body does not start with #EXTM3U |
-| RTP Memória | `INVALID_STREAM` | 3 | 204 | 34 ms | 2026-10-17T10:35:59Z | manifest: body does not start with #EXTM3U |
-| RTP Mundo | `INVALID_STREAM` | 3 | 204 | 43 ms | 2026-10-17T10:36:00Z | manifest: body does not start with #EXTM3U |
-| RTP Notícias | `INVALID_STREAM` | 3 | 204 | 36 ms | 2026-10-17T10:35:59Z | manifest: body does not start with #EXTM3U |
 | RTRS plus | `VERIFIED_WORKING` | 5 | 200 | 878 ms | 2026-10-17T10:27:39Z | 720p |
 | RTRS TV | `VERIFIED_WORKING` | 5 | 200 | 563 ms | 2026-10-17T10:27:39Z |  |
 | RTV Drenthe | `VERIFIED_WORKING` | 5 | 200 | 299 ms | 2026-10-17T10:31:56Z | 1080p |

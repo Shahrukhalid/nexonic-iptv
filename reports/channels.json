@@ -616,6 +616,44 @@
    }
   },
   {
+   "id": "orf-kids",
+   "name": "ORF Kids",
+   "broadcaster": "ORF",
+   "country": "at",
+   "country_name": "Austria",
+   "flag": "🇦🇹",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://kids.orf.at/",
+   "stream_url": "https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd",
+   "protocol": "dash",
+   "epg_id": "ORFKids.at@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://kids.orf.at/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "red-bull-tv",
    "name": "Red Bull TV",
    "broadcaster": "Red Bull Media House",
@@ -652,6 +690,48 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 195
+   }
+  },
+  {
+   "id": "servustv",
+   "name": "ServusTV",
+   "broadcaster": "Red Bull Media House (ServusTV)",
+   "country": "at",
+   "country_name": "Austria",
+   "flag": "🇦🇹",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "general",
+    "movies"
+   ],
+   "website": "https://www.servustv.com/",
+   "stream_url": "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ServusTV.at@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "at",
+    "de"
+   ],
+   "evidence_url": "https://www.servustv.com/jetzt-live/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -842,6 +922,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 602
+   }
+  },
+  {
+   "id": "fun-vision",
+   "name": "Fun Vision",
+   "broadcaster": "Fun Radio (Belgium)",
+   "country": "be",
+   "country_name": "Belgium",
+   "flag": "🇧🇪",
+   "languages": [
+    "fr"
+   ],
+   "language_names": [
+    "French"
+   ],
+   "categories": [
+    "music"
+   ],
+   "website": "https://www.funradio.be/funvision/",
+   "stream_url": "https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8",
+   "protocol": "hls",
+   "epg_id": "FunVision.be@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.funradio.be/funvision/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -1195,6 +1313,44 @@
    }
   },
   {
+   "id": "elemental-channel",
+   "name": "Elemental Channel",
+   "broadcaster": "Elemental Channel",
+   "country": "br",
+   "country_name": "Brazil",
+   "flag": "🇧🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://www.elementalchannel.com.br/",
+   "stream_url": "https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "ElementalChannel.br@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.elementalchannel.com.br/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "tv-brasil",
    "name": "TV Brasil",
    "broadcaster": "EBC",
@@ -1306,6 +1462,84 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 1108
+   }
+  },
+  {
+   "id": "tv-ufop",
+   "name": "TV UFOP",
+   "broadcaster": "Universidade Federal de Ouro Preto (with FUNDAC)",
+   "country": "br",
+   "country_name": "Brazil",
+   "flag": "🇧🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "education",
+    "culture"
+   ],
+   "website": "https://tv.ufop.br/",
+   "stream_url": "https://app.tvufop.com.br/hls/tvufop.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVUFOP.br@HD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.tvufop.com.br/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "tve-rs",
+   "name": "TVE RS",
+   "broadcaster": "Fundação Cultural Piratini / Governo do Estado do Rio Grande do Sul",
+   "country": "br",
+   "country_name": "Brazil",
+   "flag": "🇧🇷",
+   "languages": [
+    "pt"
+   ],
+   "language_names": [
+    "Portuguese"
+   ],
+   "categories": [
+    "culture",
+    "education"
+   ],
+   "website": "https://www.tve.com.br/",
+   "stream_url": "https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "TVERS.br@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.tve.com.br/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -2841,6 +3075,44 @@
    }
   },
   {
+   "id": "senal-colombia",
+   "name": "Señal Colombia",
+   "broadcaster": "RTVC Sistema de Medios Públicos",
+   "country": "co",
+   "country_name": "Colombia",
+   "flag": "🇨🇴",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.senalcolombia.tv/",
+   "stream_url": "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "SenalColombia.co@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.senalcolombia.tv/senal-en-vivo",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "supermusica-tv-co",
    "name": "Supermusica TV",
    "broadcaster": "Supermusica TV",
@@ -3610,6 +3882,44 @@
    }
   },
   {
+   "id": "ric",
+   "name": "RiC",
+   "broadcaster": "Your Family Entertainment AG",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://rictv.de/",
+   "stream_url": "https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "RiC.de@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://rictv.de/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "tagesschau24",
    "name": "tagesschau24",
    "broadcaster": "ARD",
@@ -3766,6 +4076,47 @@
    }
   },
   {
+   "id": "zdfneo",
+   "name": "ZDFneo",
+   "broadcaster": "ZDF",
+   "country": "de",
+   "country_name": "Germany",
+   "flag": "🇩🇪",
+   "languages": [
+    "de"
+   ],
+   "language_names": [
+    "German"
+   ],
+   "categories": [
+    "series",
+    "movies"
+   ],
+   "website": "https://www.zdf.de/sender/zdfneo",
+   "stream_url": "https://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ZDFneo.de@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "de"
+   ],
+   "evidence_url": "https://www.zdf.de/sender/zdfneo/zdfneo-live-beitrag-100.html",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "dr1",
    "name": "DR1",
    "broadcaster": "DR",
@@ -3879,6 +4230,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 256
+   }
+  },
+  {
+   "id": "gi-television",
+   "name": "Gi Television",
+   "broadcaster": "Gi Television",
+   "country": "do",
+   "country_name": "Dominican Republic",
+   "flag": "🇩🇴",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://gitelevision.com/",
+   "stream_url": "https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "GiTelevision.do@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://gitelevision.com/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -4269,6 +4658,240 @@
    }
   },
   {
+   "id": "3cat-cameres-del-temps",
+   "name": "3Cat Cameres del temps",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "weather"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/beauties/",
+   "stream_url": "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatCameresdeltemps.es@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/beauties/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3cat-exclusiu-1",
+   "name": "3Cat Exclusiu 1",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/oca1/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatExclusiu1.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/oca1/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3cat-exclusiu-2",
+   "name": "3Cat Exclusiu 2",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/oca2/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatExclusiu2.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/oca2/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3cat-exclusiu-3",
+   "name": "3Cat Exclusiu 3",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/oca3/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatExclusiu3.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/oca3/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3cat-plats-bruts",
+   "name": "3Cat Plats bruts",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "series"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/fc1/",
+   "stream_url": "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatPlatsbruts.es@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/fc1/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "3catinfo",
+   "name": "3CatInfo",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "news"
+   ],
+   "website": "https://www.3cat.cat/3catinfo/",
+   "stream_url": "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "3CatInfo.es@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/3catinfo-tv/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "alcarria-tv-es",
    "name": "Alcarria TV",
    "broadcaster": "Alcarria TV",
@@ -4502,6 +5125,46 @@
    }
   },
   {
+   "id": "el-33",
+   "name": "El 33",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "website": "https://www.3cat.cat/3cat/directes/33/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "El33.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/33/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "el-toro-tv-es",
    "name": "El Toro TV",
    "broadcaster": "Intereconomia Corporation",
@@ -4537,6 +5200,46 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 601
+   }
+  },
+  {
+   "id": "esport3",
+   "name": "Esport3",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "sports"
+   ],
+   "website": "https://www.3cat.cat/esport3/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "Esport3.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/esport3/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -4657,6 +5360,46 @@
    }
   },
   {
+   "id": "sx3",
+   "name": "SX3",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://www.3cat.cat/tv3/sx3/",
+   "stream_url": "https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "SX3.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/sx3/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "tele-elx-es",
    "name": "Tele Elx",
    "broadcaster": "Tele Elx",
@@ -4770,6 +5513,47 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 496
+   }
+  },
+  {
+   "id": "tv3",
+   "name": "TV3",
+   "broadcaster": "Corporació Catalana de Mitjans Audiovisuals (3Cat)",
+   "country": "es",
+   "country_name": "Spain",
+   "flag": "🇪🇸",
+   "languages": [
+    "ca"
+   ],
+   "language_names": [
+    "Catalan"
+   ],
+   "categories": [
+    "general",
+    "series"
+   ],
+   "website": "https://www.3cat.cat/",
+   "stream_url": "https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "TV3.es@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "es"
+   ],
+   "evidence_url": "https://www.3cat.cat/3cat/directes/tv3/",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -5000,6 +5784,49 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 1007
+   }
+  },
+  {
+   "id": "yle-teema-fem",
+   "name": "Yle Teema & Fem",
+   "broadcaster": "Yle",
+   "country": "fi",
+   "country_name": "Finland",
+   "flag": "🇫🇮",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "language_names": [
+    "Finnish",
+    "Swedish"
+   ],
+   "categories": [
+    "culture",
+    "movies"
+   ],
+   "website": "https://yle.fi/",
+   "stream_url": "https://yletv.akamaized.net/hls/live/622367/yletvteemafemfin/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "YleTeemaFem.fi@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "fi"
+   ],
+   "evidence_url": "https://areena.yle.fi/tv/suorat",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -5635,7 +6462,7 @@
     "news"
    ],
    "website": "https://www.france24.com/ar",
-   "stream_url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master.m3u8",
+   "stream_url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8",
    "protocol": "hls",
    "epg_id": "France24.fr@Arabic",
    "geo_restricted": false,
@@ -5673,7 +6500,7 @@
     "news"
    ],
    "website": "https://www.france24.com/en",
-   "stream_url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8",
+   "stream_url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
    "protocol": "hls",
    "epg_id": "France24.fr@English",
    "geo_restricted": false,
@@ -5711,7 +6538,7 @@
     "news"
    ],
    "website": "https://www.france24.com/es",
-   "stream_url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8",
+   "stream_url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8",
    "protocol": "hls",
    "epg_id": "France24.fr@Spanish",
    "geo_restricted": false,
@@ -5749,7 +6576,7 @@
     "news"
    ],
    "website": "https://www.france24.com/fr",
-   "stream_url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8",
+   "stream_url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
    "protocol": "hls",
    "epg_id": "France24.fr@French",
    "geo_restricted": false,
@@ -6653,6 +7480,82 @@
    }
   },
   {
+   "id": "kriti-tv",
+   "name": "Kriti TV",
+   "broadcaster": "Icarus Broadcasting Enterprises S.A.",
+   "country": "gr",
+   "country_name": "Greece",
+   "flag": "🇬🇷",
+   "languages": [
+    "el"
+   ],
+   "language_names": [
+    "Greek"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.cretetv.gr/contact-us/",
+   "stream_url": "https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "KritiTV.gr@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.cretetv.gr/live-stream/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "star-channel-international",
+   "name": "Star Channel International",
+   "broadcaster": "New Television S.A. (Star Channel)",
+   "country": "gr",
+   "country_name": "Greece",
+   "flag": "🇬🇷",
+   "languages": [
+    "el"
+   ],
+   "language_names": [
+    "Greek"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://www.star.gr/tv/",
+   "stream_url": "https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8",
+   "protocol": "hls",
+   "epg_id": "StarChannelInternational.gr@HD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.star.gr/star-international-live-stream",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "icn-digital-hn",
    "name": "ICN Digital",
    "broadcaster": "ICN Digital",
@@ -7149,44 +8052,6 @@
    }
   },
   {
-   "id": "rte-news",
-   "name": "RTÉ News",
-   "broadcaster": "RTÉ",
-   "country": "ie",
-   "country_name": "Ireland",
-   "flag": "🇮🇪",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "news"
-   ],
-   "website": "https://www.rte.ie",
-   "stream_url": "https://live.rte.ie/live/a/channel3/channel3.isml/channel3.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTENews.ie@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://www.rte.ie/player/live",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "unknown",
-    "last_checked": "2026-10-17T10:35:41Z",
-    "last_success": null,
-    "last_status": "UNSUPPORTED",
-    "checks_in_window": 0,
-    "success_rate": null,
-    "median_latency_ms": null
-   }
-  },
-  {
    "id": "aaj-tak-in",
    "name": "Aaj Tak",
    "broadcaster": "TV Today Network Ltd",
@@ -7412,6 +8277,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 354
+   }
+  },
+  {
+   "id": "kcl-tv",
+   "name": "KCL TV",
+   "broadcaster": "Kozhikode Cable Communicators Ltd",
+   "country": "in",
+   "country_name": "India",
+   "flag": "🇮🇳",
+   "languages": [
+    "ml"
+   ],
+   "language_names": [
+    "Malayalam"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://kcltv.com/",
+   "stream_url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
+   "protocol": "hls",
+   "epg_id": "KCLTV.in@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://kcltv.com/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -9250,6 +10153,82 @@
    }
   },
   {
+   "id": "abai-tv",
+   "name": "Abai TV",
+   "broadcaster": "Qazaqstan RTRK (Government of Kazakhstan)",
+   "country": "kz",
+   "country_name": "Kazakhstan",
+   "flag": "🇰🇿",
+   "languages": [
+    "kk"
+   ],
+   "language_names": [
+    "Kazakh"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "website": "https://abaitv.kz/",
+   "stream_url": "https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "AbaiTV.kz@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://abaitv.kz/kz/live",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "balapan",
+   "name": "Balapan",
+   "broadcaster": "Qazaqstan Radio and Television Corporation (RTRK Qazaqstan)",
+   "country": "kz",
+   "country_name": "Kazakhstan",
+   "flag": "🇰🇿",
+   "languages": [
+    "kk"
+   ],
+   "language_names": [
+    "Kazakh"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://balapan.tv/",
+   "stream_url": "https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "Balapan.kz@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://balapan.tv/live",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "ulytau-kz",
    "name": "Ulytau",
    "broadcaster": "Ulytau",
@@ -9593,6 +10572,45 @@
     "checks_in_window": 2,
     "success_rate": 0.5,
     "median_latency_ms": 184
+   }
+  },
+  {
+   "id": "ltv7",
+   "name": "LTV7",
+   "broadcaster": "Latvijas Televīzija (Latvian public media, LSM)",
+   "country": "lv",
+   "country_name": "Latvia",
+   "flag": "🇱🇻",
+   "languages": [
+    "lv"
+   ],
+   "language_names": [
+    "Latvian"
+   ],
+   "categories": [
+    "sports",
+    "general"
+   ],
+   "website": "https://ltv.lsm.lv/lv/ltv7/",
+   "stream_url": "https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "LTV7.lv@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://replay.lsm.lv/lv/skaties/tiesraide/ltv7",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -10822,6 +11840,46 @@
    }
   },
   {
+   "id": "nrk-super",
+   "name": "NRK Super",
+   "broadcaster": "NRK (Norsk rikskringkasting)",
+   "country": "no",
+   "country_name": "Norway",
+   "flag": "🇳🇴",
+   "languages": [
+    "no"
+   ],
+   "language_names": [
+    "Norwegian"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://tv.nrk.no/direkte/nrksuper",
+   "stream_url": "https://nrk-live-no.akamaized.net/nrksuper/muxed.m3u8",
+   "protocol": "hls",
+   "epg_id": "NRKSuper.no@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "no"
+   ],
+   "evidence_url": "https://tv.nrk.no/direkte/nrksuper",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "wairarapa-tv-nz",
    "name": "Wairarapa TV",
    "broadcaster": "Wairarapa TV",
@@ -11279,237 +12337,6 @@
    }
   },
   {
-   "id": "rtp-memoria",
-   "name": "RTP Memória",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "entertainment"
-   ],
-   "website": "https://www.rtp.pt",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTPMemoria.pt@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtpmemoria",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:35:59Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
-   "id": "rtp-mundo",
-   "name": "RTP Mundo",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "general"
-   ],
-   "website": "https://www.rtp.pt",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTPMundo.pt",
-   "geo_restricted": false,
-   "geo_regions": [],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtpinternacional",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:36:00Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
-   "id": "rtp-noticias",
-   "name": "RTP Notícias",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "news"
-   ],
-   "website": "https://www.rtp.pt/noticias/",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTPNoticias.pt@HD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtpnoticias",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:35:59Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
-   "id": "rtp-africa",
-   "name": "RTP África",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "general"
-   ],
-   "website": "https://www.rtp.pt",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTPAfrica.pt@SD",
-   "geo_restricted": false,
-   "geo_regions": [],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtpafrica",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:36:01Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
-   "id": "rtp-1",
-   "name": "RTP1",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "general"
-   ],
-   "website": "https://www.rtp.pt",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTP1.pt@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtp1",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:35:58Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
-   "id": "rtp-2",
-   "name": "RTP2",
-   "broadcaster": "RTP",
-   "country": "pt",
-   "country_name": "Portugal",
-   "flag": "🇵🇹",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "culture",
-    "kids"
-   ],
-   "website": "https://www.rtp.pt",
-   "stream_url": "https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8",
-   "protocol": "hls",
-   "epg_id": "RTP2.pt@SD",
-   "geo_restricted": true,
-   "geo_regions": [
-    "pt"
-   ],
-   "evidence_url": "https://www.rtp.pt/play/direto/rtp2",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:35:59Z",
-    "last_success": null,
-    "last_status": "INVALID_STREAM",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
    "id": "canal-5-tv-max-py",
    "name": "Canal 5 TV Max",
    "broadcaster": "Tv Max Cable S.A.",
@@ -11735,6 +12562,82 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 1688
+   }
+  },
+  {
+   "id": "atomic-academy-tv",
+   "name": "Atomic Academy TV",
+   "broadcaster": "Atomic Media Advertising (Atomic TV / NACO Network)",
+   "country": "ro",
+   "country_name": "Romania",
+   "flag": "🇷🇴",
+   "languages": [
+    "ro"
+   ],
+   "language_names": [
+    "Romanian"
+   ],
+   "categories": [
+    "music"
+   ],
+   "website": "https://atomicacademytv.ro/",
+   "stream_url": "https://atomic.streamnet.ro/academia.m3u8",
+   "protocol": "hls",
+   "epg_id": "AtomicAcademyTV.ro@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://atomicacademytv.ro/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "atomic-tv",
+   "name": "Atomic TV",
+   "broadcaster": "Atomic Media Advertising (Atomic TV)",
+   "country": "ro",
+   "country_name": "Romania",
+   "flag": "🇷🇴",
+   "languages": [
+    "ro"
+   ],
+   "language_names": [
+    "Romanian"
+   ],
+   "categories": [
+    "music"
+   ],
+   "website": "https://www.atomictv.ro/",
+   "stream_url": "https://atomic.streamnet.ro/atomictv.m3u8",
+   "protocol": "hls",
+   "epg_id": "AtomicTV.ro@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.atomictv.ro/live/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -12848,6 +13751,126 @@
    }
   },
   {
+   "id": "svt-barn",
+   "name": "SVT Barn",
+   "broadcaster": "Sveriges Television",
+   "country": "se",
+   "country_name": "Sweden",
+   "flag": "🇸🇪",
+   "languages": [
+    "sv"
+   ],
+   "language_names": [
+    "Swedish"
+   ],
+   "categories": [
+    "kids"
+   ],
+   "website": "https://www.svt.se/",
+   "stream_url": "https://svt-live-channel.akamaized.net/l6/se/svtb/master-fmp4.m3u8?defaultSubLang=1&format=hls",
+   "protocol": "hls",
+   "epg_id": "SVTBarnSVT24.se@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "se"
+   ],
+   "evidence_url": "https://www.svtplay.se/kanaler",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "svt1",
+   "name": "SVT1",
+   "broadcaster": "Sveriges Television",
+   "country": "se",
+   "country_name": "Sweden",
+   "flag": "🇸🇪",
+   "languages": [
+    "sv"
+   ],
+   "language_names": [
+    "Swedish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.svt.se/",
+   "stream_url": "https://svt-live-channel.akamaized.net/l4/se/svt1/master-fmp4.m3u8?defaultSubLang=1&format=hls",
+   "protocol": "hls",
+   "epg_id": "SVT1.se@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "se"
+   ],
+   "evidence_url": "https://www.svtplay.se/kanaler",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "svt2",
+   "name": "SVT2",
+   "broadcaster": "Sveriges Television",
+   "country": "se",
+   "country_name": "Sweden",
+   "flag": "🇸🇪",
+   "languages": [
+    "sv"
+   ],
+   "language_names": [
+    "Swedish"
+   ],
+   "categories": [
+    "general"
+   ],
+   "website": "https://www.svt.se/",
+   "stream_url": "https://svt-live-channel.akamaized.net/l6/se/svt2/master-fmp4.m3u8?defaultSubLang=1&format=hls",
+   "protocol": "hls",
+   "epg_id": "SVT2.se@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "se"
+   ],
+   "evidence_url": "https://www.svtplay.se/kanaler",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "tv-lux-sk",
    "name": "TV Lux",
    "broadcaster": "TV Lux",
@@ -13868,6 +14891,45 @@
    }
   },
   {
+   "id": "gzt",
+   "name": "GZT",
+   "broadcaster": "GZT TV (Albayrak Media Group)",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "documentary",
+    "series"
+   ],
+   "website": "https://www.gzt.com/",
+   "stream_url": "https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": "GZT.tr@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.gzt.com/canli-yayin",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "ilke-tv-tr",
    "name": "Ilke TV",
    "broadcaster": "Ilke TV",
@@ -13905,6 +14967,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 483
+   }
+  },
+  {
+   "id": "kanal-7",
+   "name": "Kanal 7",
+   "broadcaster": "Kanal 7 (Albayrak Holding)",
+   "country": "tr",
+   "country_name": "Turkiye",
+   "flag": "🇹🇷",
+   "languages": [
+    "tr"
+   ],
+   "language_names": [
+    "Turkish"
+   ],
+   "categories": [
+    "entertainment"
+   ],
+   "website": "https://www.kanal7.com/",
+   "stream_url": "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+   "protocol": "hls",
+   "epg_id": "Kanal7.tr@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.kanal7.com/canli-izle",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -14305,7 +15405,7 @@
     "documentary"
    ],
    "website": "https://www.trtbelgesel.net.tr",
-   "stream_url": "https://tv-trtbelgesel-dai.medya.trt.com.tr/master.m3u8",
+   "stream_url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
    "protocol": "hls",
    "epg_id": "TRTBelgesel.tr@SD",
    "geo_restricted": "unknown",
@@ -15367,44 +16467,6 @@
    }
   },
   {
-   "id": "abc-news-live",
-   "name": "ABC News Live",
-   "broadcaster": "ABC News",
-   "country": "us",
-   "country_name": "United States",
-   "flag": "🇺🇸",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "news"
-   ],
-   "website": "https://abcnews.go.com",
-   "stream_url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
-   "protocol": "hls",
-   "epg_id": "ABCNewsLive.us@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://abcnews.go.com/live",
-   "authorization_basis": "official-cdn-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:36:06Z",
-    "last_success": null,
-    "last_status": "UNAVAILABLE",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
-   }
-  },
-  {
    "id": "atlas-us",
    "name": "Atlas",
    "broadcaster": "Whiplash",
@@ -15559,9 +16621,9 @@
    }
   },
   {
-   "id": "cbs-news-24-7",
-   "name": "CBS News 24/7",
-   "broadcaster": "CBS News",
+   "id": "bx-arts",
+   "name": "BX Arts",
+   "broadcaster": "BronxNet",
    "country": "us",
    "country_name": "United States",
    "flag": "🇺🇸",
@@ -15572,27 +16634,141 @@
     "English"
    ],
    "categories": [
-    "news"
+    "culture"
    ],
-   "website": "https://www.cbsnews.com",
-   "stream_url": "https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8",
+   "website": "https://www.bronxnet.org/watch/",
+   "stream_url": "https://reflect-stream-bronxnet.cablecast.tv/live-19/live/stream-2/live.m3u8",
    "protocol": "hls",
-   "epg_id": "CBSNews247.us@SD",
-   "geo_restricted": "unknown",
+   "epg_id": "BXArts.us@SD",
+   "geo_restricted": false,
    "geo_regions": [],
-   "evidence_url": "https://www.cbsnews.com/live/",
+   "evidence_url": "https://bronxnet.org/bxarts/",
    "authorization_basis": "official-cdn-stream",
    "admission": "curated",
    "in_verified_playlist": false,
    "health": {
     "score": null,
     "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:36:07Z",
+    "display_status": "not-tested",
+    "last_checked": null,
     "last_success": null,
-    "last_status": "UNAVAILABLE",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "bx-culture",
+   "name": "BX Culture",
+   "broadcaster": "BronxNet (Bronx community media)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "website": "https://www.bronxnet.org/watch/",
+   "stream_url": "https://reflect-stream-bronxnet.cablecast.tv/live-7/live/stream-3/live.m3u8",
+   "protocol": "hls",
+   "epg_id": "BXCulture.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://bronxnet.org/bxculture/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "charge",
+   "name": "CHARGE!",
+   "broadcaster": "Sinclair, Inc.",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "movies"
+   ],
+   "website": "https://watchcharge.com/",
+   "stream_url": "https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "Charge.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://watchcharge.com/watch-live/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "classic-arts-showcase",
+   "name": "Classic Arts Showcase",
+   "broadcaster": "Lloyd E. Rigler-Lawrence E. Deutsch Foundation",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "website": "https://www.classicartsshowcase.org/",
+   "stream_url": "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8",
+   "protocol": "hls",
+   "epg_id": "ClassicArtsShowcase.us@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.classicartsshowcase.org/watch-classic-arts-showcase/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
     "median_latency_ms": null
    }
   },
@@ -15632,6 +16808,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 144
+   }
+  },
+  {
+   "id": "cmac-2",
+   "name": "CMAC 2",
+   "broadcaster": "CMAC (Community Media Access Collaborative, Fresno/Clovis)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "education"
+   ],
+   "website": "https://cmac.tv/edu/",
+   "stream_url": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8",
+   "protocol": "hls",
+   "epg_id": "CMAC2.us@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://cmac.tv/edu/",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -15901,6 +17115,44 @@
    }
   },
   {
+   "id": "fnx",
+   "name": "FNX",
+   "broadcaster": "San Bernardino Community College District (KVCR/FNX)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "website": "https://www.fnx.org/",
+   "stream_url": "https://fnx.lls.pbs.org/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "FNX.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.fnx.org/about",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "fox-news-radio-us",
    "name": "Fox News Radio",
    "broadcaster": "Fox Corporation",
@@ -16129,6 +17381,44 @@
    }
   },
   {
+   "id": "hctv-educational-access-channel",
+   "name": "HCTV Educational Access Channel",
+   "broadcaster": "Hudson Educational Access Television (HCTV)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "education"
+   ],
+   "website": "https://www.hudsonctv.com/",
+   "stream_url": "https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8",
+   "protocol": "hls",
+   "epg_id": "HCTVEducationalAccessChannel.us@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.hudsonctv.com/internetchannel/watch-now?site=2",
+   "authorization_basis": "official-cdn-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "law-crime-us",
    "name": "Law & Crime",
    "broadcaster": "Law & Crime",
@@ -16240,45 +17530,6 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 603
-   }
-  },
-  {
-   "id": "nasa-tv",
-   "name": "NASA TV Public",
-   "broadcaster": "NASA",
-   "country": "us",
-   "country_name": "United States",
-   "flag": "🇺🇸",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "science",
-    "education"
-   ],
-   "website": "https://www.nasa.gov",
-   "stream_url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8",
-   "protocol": "hls",
-   "epg_id": "NASATVPublic.us@SD",
-   "geo_restricted": false,
-   "geo_regions": [],
-   "evidence_url": "https://www.nasa.gov/nasatv/",
-   "authorization_basis": "public-sector-stream",
-   "admission": "curated",
-   "in_verified_playlist": false,
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-17T10:36:07Z",
-    "last_success": null,
-    "last_status": "UNAVAILABLE",
-    "checks_in_window": 2,
-    "success_rate": 0.0,
-    "median_latency_ms": null
    }
   },
   {
@@ -16745,6 +17996,166 @@
    }
   },
   {
+   "id": "pbs-kids-alaska",
+   "name": "PBS Kids Alaska",
+   "broadcaster": "PBS",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "kids",
+    "education"
+   ],
+   "website": "https://pbskids.org/",
+   "stream_url": "https://livestream.pbskids.org/out/v1/94b88ad58fc14f84a9382341f1c00b82/akst.m3u8",
+   "protocol": "hls",
+   "epg_id": "PBSKidsAlaska.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://pbskids.org/videos",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "pbs-kids-hawaii",
+   "name": "PBS Kids Hawaii",
+   "broadcaster": "PBS",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "kids",
+    "education"
+   ],
+   "website": "https://pbskids.org/",
+   "stream_url": "https://livestream.pbskids.org/out/v1/aa31792fee094b24b09045483f04d150/hast.m3u8",
+   "protocol": "hls",
+   "epg_id": "PBSKidsHawaii.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://pbskids.org/videos",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "pbs-kids-mountain",
+   "name": "PBS Kids Mountain",
+   "broadcaster": "PBS / PBS member stations",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "kids",
+    "education"
+   ],
+   "website": "https://pbskids.org/",
+   "stream_url": "https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8",
+   "protocol": "hls",
+   "epg_id": "PBSKidsMountain.us@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "us"
+   ],
+   "evidence_url": "https://pbskids.org/videos/watch/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "pbs-kids-pacific",
+   "name": "PBS Kids Pacific",
+   "broadcaster": "PBS",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "kids",
+    "education"
+   ],
+   "website": "https://pbskids.org/",
+   "stream_url": "https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8",
+   "protocol": "hls",
+   "epg_id": "PBSKidsPacific.us@SD",
+   "geo_restricted": true,
+   "geo_regions": [
+    "us"
+   ],
+   "evidence_url": "https://pbskids.org/videos/watch/live",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
    "id": "rally-tv-us",
    "name": "Rally TV",
    "broadcaster": "Rally TV",
@@ -16858,6 +18269,83 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 236
+   }
+  },
+  {
+   "id": "st-lucie-public-schools",
+   "name": "St Lucie Public Schools",
+   "broadcaster": "St. Lucie Public Schools (WLX-Horizon)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "education"
+   ],
+   "website": "https://www.stlucie.k12.fl.us/",
+   "stream_url": "https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8",
+   "protocol": "hls",
+   "epg_id": "StLuciePublicSchools.us@SD",
+   "geo_restricted": false,
+   "geo_regions": [],
+   "evidence_url": "https://www.stlucie.k12.fl.us/?p=18056",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   }
+  },
+  {
+   "id": "the-nest",
+   "name": "The Nest",
+   "broadcaster": "Sinclair, Inc.",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "entertainment",
+    "series"
+   ],
+   "website": "https://watchthenest.com/",
+   "stream_url": "https://fast-channels.sinclairstoryline.com/THENEST/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "TheNest.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://watchthenest.com/watch-live/",
+   "authorization_basis": "official-broadcaster-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {
@@ -17048,6 +18536,44 @@
     "checks_in_window": 2,
     "success_rate": 1.0,
     "median_latency_ms": 51
+   }
+  },
+  {
+   "id": "world-channel",
+   "name": "World Channel",
+   "broadcaster": "WORLD Channel (GBH / WNET / APT / NETA)",
+   "country": "us",
+   "country_name": "United States",
+   "flag": "🇺🇸",
+   "languages": [
+    "en"
+   ],
+   "language_names": [
+    "English"
+   ],
+   "categories": [
+    "education"
+   ],
+   "website": "https://worldchannel.org/",
+   "stream_url": "https://world.lls.pbs.org/index.m3u8",
+   "protocol": "hls",
+   "epg_id": "WorldChannel.us@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://wgbh.org/tv-shows/watch-world-channel-live",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
    }
   },
   {

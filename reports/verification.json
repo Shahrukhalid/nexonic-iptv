@@ -4,15 +4,15 @@
     "started_at": "2026-10-17T10:27:28Z",
     "finished_at": "2026-10-17T10:36:07Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 666,
+    "checked": 656,
     "by_status": {
       "AUTH_REQUIRED": 1,
       "GEO_RESTRICTED": 33,
-      "INVALID_STREAM": 13,
+      "INVALID_STREAM": 7,
       "TIMEOUT": 30,
-      "UNAVAILABLE": 132,
+      "UNAVAILABLE": 129,
       "UNKNOWN": 45,
-      "UNSUPPORTED": 2,
+      "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 410
     },
     "results": [
@@ -547,24 +547,6 @@
           "variants": 4
         },
         "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "abc-news-live",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-17T10:36:06Z",
-        "level": 3,
-        "http_status": 200,
-        "latency_ms": 87,
-        "error": "variant playlist: HTTP 404 (stream not found)",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "max_resolution": "720p",
-          "run_id": "run-20261017T102728Z",
-          "variants": 10
-        },
-        "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
@@ -2483,27 +2465,6 @@
         "media_readable": null,
         "details": {
           "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "cbs-news-24-7",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-17T10:36:07Z",
-        "level": 4,
-        "http_status": 200,
-        "latency_ms": 228,
-        "error": "segment: HTTP 404 (stream not found)",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "max_resolution": "720p",
-          "note": "playlist has EXT-X-ENDLIST (not a live window)",
-          "run_id": "run-20261017T102728Z",
-          "segments_listed": 10,
-          "target_duration": 7.0,
-          "variants": 6
         },
         "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
@@ -7700,21 +7661,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "nasa-tv",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-17T10:36:07Z",
-        "level": 2,
-        "http_status": 404,
-        "latency_ms": 262,
-        "error": "HTTP 404 (stream not found)",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "nasa-tv-mk",
         "status": "VERIFIED_WORKING",
         "checked_at": "2026-10-17T10:31:31Z",
@@ -9716,24 +9662,6 @@
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
-        "channel_id": "rte-news",
-        "status": "UNSUPPORTED",
-        "checked_at": "2026-10-17T10:35:41Z",
-        "level": 3,
-        "http_status": 200,
-        "latency_ms": 375,
-        "error": "DRM (SAMPLE-AES com.apple.streamingkeydelivery)",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/vnd.apple.mpegurl",
-          "max_resolution": "1080p",
-          "run_id": "run-20261017T102728Z",
-          "variants": 7
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
         "channel_id": "rtl-gold-lu",
         "status": "UNAVAILABLE",
         "checked_at": "2026-10-17T10:31:16Z",
@@ -9858,102 +9786,6 @@
           "variants": 4
         },
         "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-1",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:35:58Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 36,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-2",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:35:59Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 34,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-africa",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:36:01Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 33,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-memoria",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:35:59Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 34,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-mundo",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:36:00Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 43,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "rtp-noticias",
-        "status": "INVALID_STREAM",
-        "checked_at": "2026-10-17T10:35:59Z",
-        "level": 3,
-        "http_status": 204,
-        "latency_ms": 36,
-        "error": "manifest: body does not start with #EXTM3U",
-        "media_readable": null,
-        "details": {
-          "content_type": "application/x-mpegurl",
-          "run_id": "run-20261017T102728Z"
-        },
-        "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {

@@ -1,6 +1,18 @@
 #EXTM3U x-nexonic-playlist="Spain"
 #EXTINF:-1 tvg-id="28kanala.es@SD" tvg-name="28 kanala" tvg-country="ES" tvg-language="Basque" group-title="General",28 kanala
 https://streaming.28kanala.eus/hls/z.m3u8
+#EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-name="3Cat Cameres del temps" tvg-country="ES" tvg-language="Catalan" group-title="Weather",3Cat Cameres del temps
+https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatExclusiu1.es@SD" tvg-name="3Cat Exclusiu 1" tvg-country="ES" tvg-language="Catalan" group-title="News",3Cat Exclusiu 1
+https://directes-tv-cat.3catdirectes.cat/live-content/oca1-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatExclusiu2.es@SD" tvg-name="3Cat Exclusiu 2" tvg-country="ES" tvg-language="Catalan" group-title="News",3Cat Exclusiu 2
+https://directes-tv-cat.3catdirectes.cat/live-content/oca2-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatExclusiu3.es@SD" tvg-name="3Cat Exclusiu 3" tvg-country="ES" tvg-language="Catalan" group-title="General",3Cat Exclusiu 3
+https://directes-tv-cat.3catdirectes.cat/live-content/oca3-hls/master.m3u8
+#EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-name="3Cat Plats bruts" tvg-country="ES" tvg-language="Catalan" group-title="Series",3Cat Plats bruts
+https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
+#EXTINF:-1 tvg-id="3CatInfo.es@SD" tvg-name="3CatInfo" tvg-country="ES" tvg-language="Catalan" group-title="News",3CatInfo
+https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-name="Alcarria TV" tvg-country="ES" tvg-language="Spanish" group-title="General",Alcarria TV
 https://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="24Horas.es@SD" tvg-name="Canal 24 Horas" tvg-country="ES" tvg-language="Spanish" group-title="News",Canal 24 Horas
@@ -13,20 +25,28 @@ https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3
 https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8
 #EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-name="Clan Internacional" tvg-country="ES" tvg-language="Spanish" group-title="Kids",Clan Internacional
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
+#EXTINF:-1 tvg-id="El33.es@SD" tvg-name="El 33" tvg-country="ES" tvg-language="Catalan" group-title="Culture",El 33
+https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="ElToroTV.es@SD" tvg-name="El Toro TV" tvg-country="ES" tvg-language="Spanish" group-title="General",El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
+#EXTINF:-1 tvg-id="Esport3.es@SD" tvg-name="Esport3" tvg-country="ES" tvg-language="Catalan" group-title="Sports",Esport3
+https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 tvg-id="InteralmeriaTV.es@SD" tvg-name="Interalmeria TV" tvg-country="ES" tvg-language="Spanish" group-title="General",Interalmeria TV
 https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-id="La1.es@SD" tvg-name="La 1" tvg-country="ES" tvg-language="Spanish" group-title="General",La 1
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8
 #EXTINF:-1 tvg-id="La2.es@SD" tvg-name="La 2" tvg-country="ES" tvg-language="Spanish" group-title="Culture",La 2
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
+#EXTINF:-1 tvg-id="SX3.es@SD" tvg-name="SX3" tvg-country="ES" tvg-language="Catalan" group-title="Kids",SX3
+https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-country="ES" tvg-language="Spanish" group-title="General",Tele Elx
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 #EXTINF:-1 tvg-id="Teledeporte.es@SD" tvg-name="Teledeporte" tvg-country="ES" tvg-language="Spanish" group-title="Sports",Teledeporte
 https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
 #EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-country="ES" tvg-language="Spanish" group-title="General",Tito TV
 https://cloud.tvomix.com/TITOTV/index.m3u8
+#EXTINF:-1 tvg-id="TV3.es@SD" tvg-name="TV3" tvg-country="ES" tvg-language="Catalan" group-title="General",TV3
+https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" tvg-name="TVE Internacional America" tvg-country="ES" tvg-language="Spanish" group-title="General",TVE Internacional America
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@SD" tvg-name="TVE Star" tvg-country="ES" tvg-language="Spanish" group-title="Entertainment",TVE Star
