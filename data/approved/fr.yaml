@@ -1,0 +1,513 @@
+# Approved channels for FR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: france-24-english
+  name: France 24 English
+  broadcaster: France Médias Monde
+  country: fr
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.france24.com/en
+  stream:
+    url: https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.france24.com/en/live
+    evidence_summary: France's international news channel streams free worldwide; host is france24.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: France24.fr@English
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: france-24-french
+  name: France 24 Français
+  broadcaster: France Médias Monde
+  country: fr
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://www.france24.com/fr
+  stream:
+    url: https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.france24.com/fr/direct
+    evidence_summary: Host is france24.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: France24.fr@French
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: france-24-espanol
+  name: France 24 Español
+  broadcaster: France Médias Monde
+  country: fr
+  languages:
+  - es
+  categories:
+  - news
+  website: https://www.france24.com/es
+  stream:
+    url: https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.france24.com/es/vivo
+    evidence_summary: Host is france24.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: France24.fr@Spanish
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: france-24-arabic
+  name: France 24 Arabic
+  broadcaster: France Médias Monde
+  country: fr
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.france24.com/ar
+  stream:
+    url: https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.france24.com/ar/%D8%A7%D9%84%D8%A8%D8%AB-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1
+    evidence_summary: Host is france24.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: France24.fr@Arabic
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-english
+  name: Euronews English
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.euronews.com/live
+    evidence_summary: Euronews offers its live channel free on euronews.com; CDN hostname named for Euronews.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsEnglish.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-french
+  name: Euronews Français
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://fr.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://fr.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsFrench.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-german
+  name: Euronews Deutsch
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - de
+  categories:
+  - news
+  website: https://de.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://de.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsGerman.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-spanish
+  name: Euronews Español
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - es
+  categories:
+  - news
+  website: https://es.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://es.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsSpanish.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-italian
+  name: Euronews Italiano
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - it
+  categories:
+  - news
+  website: https://it.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://it.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsItalian.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-portuguese
+  name: Euronews Português
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - pt
+  categories:
+  - news
+  website: https://pt.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://pt.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsPortuguese.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-greek
+  name: Euronews Ελληνικά
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - el
+  categories:
+  - news
+  website: https://gr.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://gr.euronews.com/live
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsGreek.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: euronews-hungarian
+  name: Euronews Magyar
+  broadcaster: Euronews
+  country: fr
+  languages:
+  - hu
+  categories:
+  - news
+  website: https://hu.euronews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/euronews-hu/25075/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://hu.euronews.com/elo
+    evidence_summary: Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: EuronewsHungarian.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: africanews-english
+  name: Africanews English
+  broadcaster: Africanews (Euronews)
+  country: fr
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.africanews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.africanews.com/live/
+    evidence_summary: Africanews is a Euronews brand (country follows iptv-org/database). Served from the Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: AfricanewsEnglish.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: africanews-french
+  name: Africanews Français
+  broadcaster: Africanews (Euronews)
+  country: fr
+  languages:
+  - fr
+  categories:
+  - news
+  website: https://fr.africanews.com
+  stream:
+    url: https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://fr.africanews.com/live/
+    evidence_summary: Served from the Euronews CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: AfricanewsFrench.fr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: arte-fr
+  name: ARTE (Français)
+  broadcaster: ARTE
+  country: fr
+  languages:
+  - fr
+  categories:
+  - culture
+  - documentary
+  website: https://www.arte.tv/fr
+  stream:
+    url: https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.arte.tv/fr/direct/
+    evidence_summary: Region-limited simulcast on ARTE's CDN.
+    evidence_checked: null
+    notes: ''
+  epg_id: arte.fr@SD
+  logo: null
+  geo:
+    restricted: true
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

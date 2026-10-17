@@ -1,0 +1,104 @@
+# Approved channels for QA. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: al-jazeera-english
+  name: Al Jazeera English
+  broadcaster: Al Jazeera Media Network
+  country: qa
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.aljazeera.com
+  stream:
+    url: https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.aljazeera.com/live
+    evidence_summary: Al Jazeera streams free on aljazeera.com; getaj.net is Al Jazeera's streaming domain.
+    evidence_checked: null
+    notes: ''
+  epg_id: AlJazeera.qa@English
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: al-jazeera-arabic
+  name: Al Jazeera Arabic
+  broadcaster: Al Jazeera Media Network
+  country: qa
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.aljazeera.net
+  stream:
+    url: https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.aljazeera.net/live
+    evidence_summary: getaj.net is Al Jazeera's streaming domain.
+    evidence_checked: null
+    notes: ''
+  epg_id: AlJazeera.qa@Arabic
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: al-jazeera-mubasher
+  name: Al Jazeera Mubasher
+  broadcaster: Al Jazeera Media Network
+  country: qa
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://mubasher.aljazeera.net
+  stream:
+    url: https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://mubasher.aljazeera.net/live
+    evidence_summary: getaj.net is Al Jazeera's streaming domain.
+    evidence_checked: null
+    notes: ''
+  epg_id: AlJazeeraMubasher.qa@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

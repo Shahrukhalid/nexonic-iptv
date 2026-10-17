@@ -1,0 +1,387 @@
+# Approved channels for DE. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: dw-english
+  name: DW English
+  broadcaster: Deutsche Welle
+  country: de
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.dw.com
+  stream:
+    url: https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.dw.com/en/live-tv/channel-english
+    evidence_summary: Germany's international public broadcaster streams its channels free worldwide on dw.com; the CDN hostname
+      'dwamdstream' is provisioned for DW.
+    evidence_checked: null
+    notes: ''
+  epg_id: DW.de@English
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: dw-espanol
+  name: DW Español
+  broadcaster: Deutsche Welle
+  country: de
+  languages:
+  - es
+  categories:
+  - news
+  website: https://www.dw.com/es
+  stream:
+    url: https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.dw.com/es/live-tv/channel-spanish
+    evidence_summary: Same DW CDN family as DW English.
+    evidence_checked: null
+    notes: ''
+  epg_id: DW.de@Espanol
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: dw-arabic
+  name: DW Arabic
+  broadcaster: Deutsche Welle
+  country: de
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://www.dw.com/ar
+  stream:
+    url: https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.dw.com/ar/live-tv/channel-arabic
+    evidence_summary: Same DW CDN family as DW English.
+    evidence_checked: null
+    notes: ''
+  epg_id: DW.de@Arabic
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tagesschau24
+  name: tagesschau24
+  broadcaster: ARD
+  country: de
+  languages:
+  - de
+  categories:
+  - news
+  website: https://www.tagesschau.de
+  stream:
+    url: https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.tagesschau.de/multimedia/livestreams
+    evidence_summary: ARD news channel; CDN hostname named for tagesschau.
+    evidence_checked: null
+    notes: ''
+  epg_id: tagesschau24.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: das-erste
+  name: Das Erste
+  broadcaster: ARD
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.daserste.de
+  stream:
+    url: https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.daserste.de/live/index.html
+    evidence_summary: Host ard-mcdn.de belongs to ARD. The 'int' path is the international feed; some programmes may be blacked
+      out abroad.
+    evidence_checked: null
+    notes: ''
+  epg_id: DasErste.de@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: zdf
+  name: ZDF
+  broadcaster: ZDF
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.zdf.de
+  stream:
+    url: https://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.zdf.de/live-tv
+    evidence_summary: Public broadcaster; ZDF's own CDN hostnames. Intended for viewers in Germany.
+    evidence_checked: null
+    notes: ''
+  epg_id: ZDF.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: zdfinfo
+  name: ZDFinfo
+  broadcaster: ZDF
+  country: de
+  languages:
+  - de
+  categories:
+  - documentary
+  website: https://www.zdf.de
+  stream:
+    url: https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.zdf.de/live-tv
+    evidence_summary: ZDF documentary channel; Germany only.
+    evidence_checked: null
+    notes: ''
+  epg_id: ZDFinfo.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: phoenix
+  name: phoenix
+  broadcaster: ARD/ZDF
+  country: de
+  languages:
+  - de
+  categories:
+  - news
+  - documentary
+  website: https://www.phoenix.de
+  stream:
+    url: https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.phoenix.de/livestream
+    evidence_summary: Joint ARD/ZDF events and documentary channel; Germany only.
+    evidence_checked: null
+    notes: ''
+  epg_id: phoenix.de@HD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: 3sat
+  name: 3sat
+  broadcaster: ZDF, ORF, SRG, ARD
+  country: de
+  languages:
+  - de
+  categories:
+  - culture
+  - documentary
+  website: https://www.3sat.de
+  stream:
+    url: https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.3sat.de/programm/3sat-livestream-100.html
+    evidence_summary: Public cultural channel; 'dach' feed for Germany, Austria and Switzerland.
+    evidence_checked: null
+    notes: ''
+  epg_id: 3sat.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+    - at
+    - ch
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: kika
+  name: KiKA
+  broadcaster: ARD/ZDF
+  country: de
+  languages:
+  - de
+  categories:
+  - kids
+  website: https://www.kika.de
+  stream:
+    url: https://kikahls.akamaized.net/hls/live/2022690/livetvkika_ww/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.kika.de/live-tv
+    evidence_summary: Public children's channel; 'ww' (worldwide) feed. Some programmes may be replaced outside Germany.
+    evidence_checked: null
+    notes: ''
+  epg_id: KiKA.de@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: arte-de
+  name: ARTE (Deutsch)
+  broadcaster: ARTE
+  country: de
+  languages:
+  - de
+  categories:
+  - culture
+  - documentary
+  website: https://www.arte.tv/de
+  stream:
+    url: https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.arte.tv/de/live/
+    evidence_summary: Franco-German public cultural channel; simulcast CDN named for ARTE. Region-limited.
+    evidence_checked: null
+    notes: ''
+  epg_id: arte.de@SD
+  logo: null
+  geo:
+    restricted: true
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

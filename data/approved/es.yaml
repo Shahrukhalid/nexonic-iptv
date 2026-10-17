@@ -1,0 +1,176 @@
+# Approved channels for ES. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: la-1
+  name: La 1
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/la-1/
+    evidence_summary: Spain's public broadcaster; host rtve.es; Spain only.
+    evidence_checked: null
+    notes: ''
+  epg_id: La1.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: la-2
+  name: La 2
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - culture
+  - documentary
+  website: https://www.rtve.es
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/la-2/
+    evidence_summary: Host rtve.es.
+    evidence_checked: null
+    notes: ''
+  epg_id: La2.es@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: canal-24-horas
+  name: Canal 24 Horas
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - news
+  website: https://www.rtve.es/noticias/
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/24h/
+    evidence_summary: RTVE news channel; host rtve.es.
+    evidence_checked: null
+    notes: ''
+  epg_id: 24Horas.es@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: clan
+  name: Clan
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - kids
+  website: https://www.rtve.es/infantil/
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/clan/clan_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/clan/
+    evidence_summary: Public children's channel; Spain only.
+    evidence_checked: null
+    notes: ''
+  epg_id: Clan.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: teledeporte
+  name: Teledeporte
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - sports
+  website: https://www.rtve.es/deportes/
+  stream:
+    url: https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.rtve.es/play/videos/directo/canales-lineales/teledeporte/
+    evidence_summary: Public sports channel; Spain only (rights).
+    evidence_checked: null
+    notes: ''
+  epg_id: Teledeporte.es@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - es
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

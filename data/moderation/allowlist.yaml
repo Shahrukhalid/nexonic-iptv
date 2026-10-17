@@ -1,0 +1,5 @@
+# Maintainer overrides for *ambiguous* (weak) terms only, per channel id, after a human checked the channel.
+# Strong adult terms can never be overridden. Each entry needs a comment with the reviewer and date.
+weak_term_overrides: {}
+# example:
+#   some-channel-id: ["love"]   # reviewed by @maintainer on 2026-10-17: romance-free news show title

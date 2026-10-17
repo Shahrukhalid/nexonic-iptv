@@ -1,0 +1,73 @@
+# Approved channels for FI. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: yle-tv1
+  name: Yle TV1
+  broadcaster: Yle
+  country: fi
+  languages:
+  - fi
+  categories:
+  - general
+  website: https://yle.fi
+  stream:
+    url: https://yletv.akamaized.net/hls/live/622365/yletv1fin/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://areena.yle.fi/tv/suorat
+    evidence_summary: Finnish public broadcaster; CDN hostname named for Yle; Finland only.
+    evidence_checked: null
+    notes: ''
+  epg_id: YleTV1.fi@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fi
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: yle-tv2
+  name: Yle TV2
+  broadcaster: Yle
+  country: fi
+  languages:
+  - fi
+  categories:
+  - general
+  - kids
+  website: https://yle.fi
+  stream:
+    url: https://yletv.akamaized.net/hls/live/622366/yletv2fin/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://areena.yle.fi/tv/suorat
+    evidence_summary: Finland only.
+    evidence_checked: null
+    notes: ''
+  epg_id: YleTV2.fi@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - fi
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

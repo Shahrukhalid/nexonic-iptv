@@ -1,0 +1,36 @@
+# Approved channels for CN. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: cgtn
+  name: CGTN
+  broadcaster: China Global Television Network
+  country: cn
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.cgtn.com
+  stream:
+    url: https://english-livebkali.cgtn.com/live/encgtn.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.cgtn.com/tv
+    evidence_summary: State broadcaster's English channel; host cgtn.com.
+    evidence_checked: null
+    notes: ''
+  epg_id: CGTN.cn@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

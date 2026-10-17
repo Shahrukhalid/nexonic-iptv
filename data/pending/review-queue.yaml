@@ -1,0 +1,142 @@
+# Candidates awaiting review. Never published.
+channels:
+- id: rai-1
+  name: Rai 1
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=rainet/4.0.5
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/rai1
+    evidence_summary: 'Pending: Rai''s relinker URL carries a ''forceUserAgent'' parameter that selects a device profile.
+      We must confirm this is an accepted public access path and not a user-agent workaround before approval.'
+    evidence_checked: null
+    notes: ''
+  epg_id: Rai1.it@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: 'Pending: Rai''s relinker URL carries a ''forceUserAgent'' parameter that selects a device profile. We must confirm
+      this is an accepted public access path and not a user-agent workaround before approval.'
+    rejection_reason: ''
+- id: rai-news-24
+  name: Rai News 24
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - news
+  website: https://www.rainews.it
+  stream:
+    url: https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/rainews24
+    evidence_summary: 'Pending: the CloudFront distribution d3k8wzt41aflvx is not documented as Rai-operated. Ownership must
+      be established.'
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiNews24.it@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: the CloudFront distribution d3k8wzt41aflvx is not documented as Rai-operated. Ownership must be established.'
+    rejection_reason: ''
+- id: qatar-tv
+  name: Qatar Television
+  broadcaster: Qatar Media Corporation
+  country: qa
+  languages:
+  - ar
+  categories:
+  - general
+  website: https://www.qmc.qa
+  stream:
+    url: https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.qmc.qa/
+    evidence_summary: 'Pending: need an official page on a QMC domain that plays this stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: QatarTelevision.qa@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: need an official page on a QMC domain that plays this stream.'
+    rejection_reason: ''
+- id: cpac
+  name: CPAC (English)
+  broadcaster: Cable Public Affairs Channel
+  country: ca
+  languages:
+  - en
+  categories:
+  - legislative
+  website: https://www.cpac.ca
+  stream:
+    url: https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.cpac.ca/
+    evidence_summary: 'Pending: CloudFront host with no documented CPAC ownership; URL taken from discovery only.'
+    evidence_checked: null
+    notes: ''
+  epg_id: CPACEnglish.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: pending
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: CloudFront host with no documented CPAC ownership; URL taken from discovery only.'
+    rejection_reason: ''

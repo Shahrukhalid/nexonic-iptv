@@ -1,0 +1,9 @@
+# Nexonic's own denylist. Matches here are REJECTED and can never be published.
+# Add entries when a channel is removed for adult content or a rights holder's request (link the issue in a comment).
+channel_ids: []
+# Channel names, compared after normalisation (lowercase, accents and punctuation removed).
+names: []
+# Regular expressions matched against the stream hostname.
+host_patterns:
+  - "(^|\\.)xxx$"          # .xxx top-level domain
+  - "(^|\\.)(porn|sex|adult)\\."

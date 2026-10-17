@@ -1,0 +1,139 @@
+# Rejected candidates kept so they are not re-added. Never published.
+channels:
+- id: dw-english-restream-ip
+  name: DW English (restream)
+  broadcaster: unknown third party
+  country: de
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.dw.com
+  stream:
+    url: http://170.83.16.50/DW/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.dw.com/en/live-tv/channel-english
+    evidence_summary: Rejected candidate. Restream on a bare IP address not operated by Deutsche Welle.
+    evidence_checked: null
+    notes: ''
+  epg_id: DW.de@English
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: Restream on a bare IP address not operated by Deutsche Welle.
+    rejection_reason: Unauthorized third-party restream (bare IP host). Use the official dw-english record.
+- id: al-jazeera-english-pishow
+  name: Al Jazeera English (pishow)
+  broadcaster: unknown third party
+  country: qa
+  languages:
+  - en
+  categories:
+  - news
+  website: https://www.aljazeera.com
+  stream:
+    url: https://cdn-7.pishow.tv/live/429/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.aljazeera.com/live
+    evidence_summary: Rejected candidate. Third-party restream service.
+    evidence_checked: null
+    notes: ''
+  epg_id: AlJazeera.qa@English
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: Third-party restream service.
+    rejection_reason: Third-party restream service (pishow.tv); not the broadcaster's distribution.
+- id: abc-tv-australia-mjh
+  name: ABC TV (via mjh.nz)
+  broadcaster: third-party redirect service
+  country: au
+  languages:
+  - en
+  categories:
+  - general
+  website: https://www.abc.net.au
+  stream:
+    url: https://c.mjh.nz/abc-nsw.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://iview.abc.net.au/
+    evidence_summary: Rejected candidate. Redirect service operated by a third party.
+    evidence_checked: null
+    notes: ''
+  epg_id: ABCTV.au@NSW
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: Redirect service operated by a third party.
+    rejection_reason: Third-party redirect service; Nexonic links only to broadcaster-controlled hosts.
+- id: pluto-tv-roku-embed
+  name: Pluto TV channel (Roku embed URL)
+  broadcaster: Paramount (Pluto TV)
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  website: https://pluto.tv
+  stream:
+    url: https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fb5844bf5514d0007945bda/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://pluto.tv/
+    evidence_summary: Rejected candidate. FAST platform feeds.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: none
+    adult_screening: pass
+    notes: FAST platform feeds.
+    rejection_reason: FAST platform feed for Pluto TV's own apps; the URL impersonates a Roku device (deviceType=rokuChannel).
+      Spoofed device parameters are not allowed.

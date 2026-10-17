@@ -1,0 +1,38 @@
+# Approved channels for KR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: arirang-tv
+  name: Arirang TV
+  broadcaster: Arirang International Broadcasting
+  country: kr
+  languages:
+  - en
+  categories:
+  - general
+  - culture
+  website: https://www.arirang.com
+  stream:
+    url: http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/tree/master/streams
+    evidence_url: https://www.arirang.com/
+    evidence_summary: Korea's public international broadcaster; the stream path is named for Arirang on an Akamai edge host.
+      Plain HTTP.
+    evidence_checked: null
+    notes: ''
+  epg_id: ArirangTV.kr@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewed_at: '2026-10-17'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
