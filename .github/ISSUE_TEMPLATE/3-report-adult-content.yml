@@ -1,0 +1,16 @@
+name: Report adult-oriented content
+description: Highest priority. A channel in Nexonic shows adult-oriented content.
+title: "Adult content: <channel name>"
+labels: ["adult-content", "priority"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Do not paste explicit material. Maintainers remove reported channels from all playlists while reviewing.
+  - type: input
+    id: channel
+    attributes: { label: Channel name or id }
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes: { label: What did you see, and when (with time zone)? }
+    validations: { required: true }

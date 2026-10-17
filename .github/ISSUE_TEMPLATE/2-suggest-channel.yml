@@ -1,0 +1,54 @@
+name: Suggest a free channel
+description: Propose a channel that the broadcaster offers free to the public.
+title: "Suggest: <channel name>"
+labels: ["channel-suggestion", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Nexonic only lists streams the **broadcaster itself** offers free of charge, from its own servers. Restreams, IP-address links, tokenised links, pay-TV and adult channels are rejected. A maintainer reviews every suggestion before anything is published.
+  - type: input
+    id: name
+    attributes: { label: Official channel name }
+    validations: { required: true }
+  - type: input
+    id: country
+    attributes: { label: Country (ISO 3166-1 alpha-2), placeholder: "de" }
+    validations: { required: true }
+  - type: input
+    id: language
+    attributes: { label: Language(s) (ISO 639-1), placeholder: "de, en" }
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Main category
+      options: [News, General, Entertainment, Kids, Education, Documentary, Culture, Music, Sports, Lifestyle, Business, Legislative, Science, Weather, Movies]
+    validations: { required: true }
+  - type: input
+    id: stream
+    attributes: { label: Stream URL (.m3u8), description: Must be on the broadcaster's domain or its CDN. No tokens or credentials. }
+    validations: { required: true }
+  - type: input
+    id: website
+    attributes: { label: Official broadcaster website }
+    validations: { required: true }
+  - type: input
+    id: evidence
+    attributes: { label: Evidence of free availability, description: Link to the broadcaster's own page that plays this live stream free of charge. }
+    validations: { required: true }
+  - type: dropdown
+    id: geo
+    attributes: { label: Region limits, options: ["Works worldwide", "Limited to some countries", "Not sure"] }
+    validations: { required: true }
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: The channel is NOT adult-oriented.
+          required: true
+        - label: The broadcaster offers this stream free, without login or subscription.
+          required: true
+        - label: The URL is not a restream, a panel/Xtream link, or a tokenised link.
+          required: true
