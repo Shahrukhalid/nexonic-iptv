@@ -18,7 +18,15 @@ import _bootstrap  # noqa: F401
 from nexonic import generate, reports
 from nexonic.records import ROOT, load_history, load_records
 
-OUTPUTS = ["playlists", "PLAYLISTS.md", "README.md", "reports/channels.json", "reports/statistics.json"]
+OUTPUTS = [
+    "playlists",
+    "PLAYLISTS.md",
+    "README.md",
+    "reports/channels.json",
+    "reports/statistics.json",
+    "reports/verification.json",
+    "reports/verification.md",
+]
 
 
 def build(root: Path) -> int:
@@ -32,6 +40,9 @@ def build(root: Path) -> int:
     generate.write(plan, root)
     (root / "PLAYLISTS.md").write_text(generate.playlists_markdown(plan), encoding="utf-8")
     stats = reports.statistics(records, plan, history)
+    vdata, vmd = reports.verification_report(records, history)
+    reports.write_json("verification.json", vdata, root)
+    (root / "reports" / "verification.md").write_text(vmd, encoding="utf-8")
     reports.write_json("statistics.json", stats, root)
     readme_src = ROOT / "README.md"
     if readme_src.exists():

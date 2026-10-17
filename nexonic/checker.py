@@ -48,18 +48,20 @@ GEO_HINTS = ("geo", "country", "region", "territor", "not available in your", "l
 
 @dataclass
 class Limits:
-    timeout: float = 12.0
+    timeout: float = 10.0
     manifest_bytes: int = 512 * 1024
     segment_bytes: int = 188 * 1024
     max_bytes: int = 1024 * 1024
     max_requests: int = 5
     max_redirects: int = 3
-    retries: int = 2
+    retries: int = 1
     backoff_base: float = 1.0
     per_host_interval: float = 1.0
-    concurrency: int = 6
+    concurrency: int = 12
     use_ffprobe: bool = False
-    ffprobe_timeout: float = 25.0
+    ffprobe_timeout: float = 15.0
+    channel_timeout: float = 60.0  # hard cap per channel; exceeded -> TIMEOUT
+    run_budget: float = 40 * 60.0  # channels not started within the budget are recorded NOT_TESTED
 
 
 class Budget:
@@ -445,11 +447,24 @@ async def check_all(
     fetcher = Fetcher(client, limits, gate, resolver=resolver)
     sem = asyncio.Semaphore(limits.concurrency)
     location = location_label()
+    deadline = time.monotonic() + limits.run_budget
 
     async def one(ch: Channel) -> CheckResult:
         async with sem:
+            if time.monotonic() > deadline:
+                return CheckResult(
+                    ch.id, Status.NOT_TESTED, utc_now_iso(), error="run time budget exhausted", location=location
+                )
             try:
-                return await check_channel(fetcher, ch, location)
+                return await asyncio.wait_for(check_channel(fetcher, ch, location), limits.channel_timeout)
+            except TimeoutError:
+                return CheckResult(
+                    ch.id,
+                    Status.TIMEOUT,
+                    utc_now_iso(),
+                    error=f"channel check exceeded {limits.channel_timeout:.0f}s",
+                    location=location,
+                )
             except Exception as exc:  # never let one channel abort the run; record honestly
                 return CheckResult(
                     ch.id, Status.UNKNOWN, utc_now_iso(), error=f"checker error: {exc!r}"[:300], location=location

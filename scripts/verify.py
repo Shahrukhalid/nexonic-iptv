@@ -26,8 +26,9 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--ids", nargs="*", help="only check these channel ids")
     ap.add_argument("--ffprobe", action="store_true", help="also probe with FFprobe (if installed)")
-    ap.add_argument("--concurrency", type=int, default=6)
-    ap.add_argument("--timeout", type=float, default=12.0)
+    ap.add_argument("--concurrency", type=int, default=12)
+    ap.add_argument("--timeout", type=float, default=10.0)
+    ap.add_argument("--budget-minutes", type=float, default=40.0, help="stop starting new checks after this")
     args = ap.parse_args(argv)
 
     records = load_records()
@@ -42,7 +43,12 @@ def main(argv: list[str] | None = None) -> int:
         if missing:
             print(f"Unknown or non-approved ids: {', '.join(sorted(missing))}", file=sys.stderr)
             return 2
-    limits = Limits(timeout=args.timeout, concurrency=max(1, min(args.concurrency, 10)), use_ffprobe=args.ffprobe)
+    limits = Limits(
+        timeout=args.timeout,
+        concurrency=max(1, min(args.concurrency, 16)),
+        use_ffprobe=args.ffprobe,
+        run_budget=args.budget_minutes * 60,
+    )
     run_id = utc_now().strftime("run-%Y%m%dT%H%M%SZ")
     print(f"Verifying {len(channels)} channels ({run_id}) ...")
     results = asyncio.run(check_all(channels, limits))
