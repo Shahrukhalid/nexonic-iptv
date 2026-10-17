@@ -146,6 +146,7 @@ CATEGORIES: dict[str, str] = {
     "music": "Music",
     "news": "News",
     "science": "Science",
+    "series": "Series",
     "sports": "Sports",
     "weather": "Weather",
 }
