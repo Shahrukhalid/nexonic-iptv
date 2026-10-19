@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-10-18T08:10:12Z",
+  "reference_time": "2026-10-19T09:01:19Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 496,
-  "excluded_approved": 209,
+  "published_channels": 511,
+  "excluded_approved": 194,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 440,
+  "verified_playlist_channels": 451,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261018T080135Z",
-    "started_at": "2026-10-18T08:01:35Z",
-    "finished_at": "2026-10-18T08:10:12Z",
+    "run_id": "run-20261019T085148Z",
+    "started_at": "2026-10-19T08:51:49Z",
+    "finished_at": "2026-10-19T09:01:19Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 46,
-      "INVALID_STREAM": 5,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 132,
-      "UNKNOWN": 50,
+      "GEO_RESTRICTED": 47,
+      "INVALID_STREAM": 6,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 126,
+      "UNKNOWN": 42,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 440
+      "VERIFIED_WORKING": 451
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 440,
-    "UNAVAILABLE": 132,
-    "GEO_RESTRICTED": 46,
+    "VERIFIED_WORKING": 451,
+    "UNAVAILABLE": 126,
+    "GEO_RESTRICTED": 47,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 29,
-    "INVALID_STREAM": 5,
+    "TIMEOUT": 30,
+    "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 50,
+    "UNKNOWN": 42,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 12,
+    "currently-failing": 14,
     "geo-restricted": 28,
-    "previously-working": 8,
-    "unknown": 8,
-    "verified-recently": 440
+    "previously-working": 13,
+    "unknown": 5,
+    "verified-recently": 451
   },
   "per_country": {
     "ae": {
@@ -67,7 +67,7 @@
     "ar": {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "channels": 5
+      "channels": 6
     },
     "at": {
       "name": "Austria",
@@ -122,7 +122,7 @@
     "ca": {
       "name": "Canada",
       "flag": "🇨🇦",
-      "channels": 9
+      "channels": 22
     },
     "ch": {
       "name": "Switzerland",
@@ -377,7 +377,7 @@
     "nl": {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "channels": 8
+      "channels": 9
     },
     "no": {
       "name": "Norway",
@@ -563,7 +563,7 @@
     },
     "de": {
       "name": "German",
-      "channels": 24
+      "channels": 25
     },
     "el": {
       "name": "Greek",
@@ -571,11 +571,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 124
+      "channels": 137
     },
     "es": {
       "name": "Spanish",
-      "channels": 66
+      "channels": 68
     },
     "et": {
       "name": "Estonian",
@@ -595,7 +595,7 @@
     },
     "fr": {
       "name": "French",
-      "channels": 27
+      "channels": 28
     },
     "hi": {
       "name": "Hindi",
@@ -679,7 +679,7 @@
     },
     "nl": {
       "name": "Dutch",
-      "channels": 8
+      "channels": 9
     },
     "no": {
       "name": "Norwegian",
@@ -751,7 +751,7 @@
     },
     "tr": {
       "name": "Turkish",
-      "channels": 22
+      "channels": 23
     },
     "uk": {
       "name": "Ukrainian",
@@ -785,11 +785,11 @@
     },
     "culture": {
       "name": "Culture",
-      "channels": 26
+      "channels": 27
     },
     "documentary": {
       "name": "Documentary",
-      "channels": 15
+      "channels": 16
     },
     "education": {
       "name": "Education",
@@ -797,11 +797,11 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 31
+      "channels": 32
     },
     "general": {
       "name": "General",
-      "channels": 175
+      "channels": 176
     },
     "kids": {
       "name": "Kids",
@@ -813,15 +813,15 @@
     },
     "lifestyle": {
       "name": "Lifestyle",
-      "channels": 13
+      "channels": 14
     },
     "movies": {
       "name": "Movies",
-      "channels": 12
+      "channels": 13
     },
     "music": {
       "name": "Music",
-      "channels": 66
+      "channels": 80
     },
     "news": {
       "name": "News",
