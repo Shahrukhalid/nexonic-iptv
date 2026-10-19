@@ -1,12 +1,38 @@
 #EXTM3U x-nexonic-playlist="Music"
 #EXTINF:-1 tvg-id="AlbKanaleMusicTV.al@HD" tvg-name="AlbKanale Music TV" tvg-country="AL" tvg-language="Albanian" group-title="Albania",AlbKanale Music TV
 https://albportal.net/albkanalemusic.m3u8
+#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
+https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="FunVision.be@SD" tvg-name="Fun Vision" tvg-country="BE" tvg-language="French" group-title="Belgium",Fun Vision
 https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8
 #EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-name="City TV" tvg-country="BG" tvg-language="Bulgarian" group-title="Bulgaria",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 #EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV" tvg-country="CA" tvg-language="Pashto;Tajik;English" group-title="Canada",Pamir TV
 http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+#EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayDJAZZ.ca@SD" tvg-name="Stingray DJAZZ" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray DJAZZ
+https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayEverything80s.ca@SD" tvg-name="Stingray Everything '80s" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Everything '80s
+https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayHitList.ca@SD" tvg-name="Stingray Hit List" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Hit List
+https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayHolidayscapes.ca@HD" tvg-name="Stingray Holidayscapes" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Holidayscapes
+https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-name="Stingray Karaoke" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Karaoke
+https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayNaturescape.ca@SD" tvg-name="Stingray Naturescape" tvg-country="CA" tvg-language="English;Turkish" group-title="Canada",Stingray Naturescape
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayNothinBut90s.ca@SD" tvg-name="Stingray Nothin' But 90s" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Nothin' But 90s
+https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingraySmoothJazz.ca@SD" tvg-name="Stingray Smooth Jazz" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Smooth Jazz
+https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingraySoulStorm.ca@SD" tvg-name="Stingray Soul Storm" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Soul Storm
+https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayTheSpa.ca@SD" tvg-name="Stingray The Spa" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray The Spa
+https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayTodaysKPop.ca@SD" tvg-name="Stingray Today's K-Pop" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Today's K-Pop
+https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="RadioSuyaiTV.cl@HD" tvg-name="Radio Suyai TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Radio Suyai TV
 https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8
 #EXTINF:-1 tvg-id="BuenisimaRadioTV.co@SD" tvg-name="Buenisima Radio TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Buenisima Radio TV
@@ -91,6 +117,8 @@ https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 http://live.topestrada.com/live/topestrada/playlist.m3u8
 #EXTINF:-1 tvg-id="BEATTV.nl@SD" tvg-name="BEATTV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",BEATTV
 https://tv.beatfm.nl/live.m3u8
+#EXTINF:-1 tvg-id="Qmusic.nl@SD" tvg-name="Qmusic" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",Qmusic
+https://stream.qmusic.nl/qmusic/videohls.m3u8
 #EXTINF:-1 tvg-id="RadioNLTV.nl@SD" tvg-name="RadioNL TV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",RadioNL TV
 https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZFMZoetermeerTV.nl@SD" tvg-name="ZFM Zoetermeer TV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",ZFM Zoetermeer TV
