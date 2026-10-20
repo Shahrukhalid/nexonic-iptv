@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-10-19T09:01:19Z",
+  "reference_time": "2026-10-20T08:40:42Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 511,
-  "excluded_approved": 194,
+  "published_channels": 514,
+  "excluded_approved": 191,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 451,
+  "verified_playlist_channels": 444,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261019T085148Z",
-    "started_at": "2026-10-19T08:51:49Z",
-    "finished_at": "2026-10-19T09:01:19Z",
+    "run_id": "run-20261020T083134Z",
+    "started_at": "2026-10-20T08:31:34Z",
+    "finished_at": "2026-10-20T08:40:42Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 47,
+      "GEO_RESTRICTED": 46,
       "INVALID_STREAM": 6,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 126,
-      "UNKNOWN": 42,
+      "TIMEOUT": 34,
+      "UNAVAILABLE": 129,
+      "UNKNOWN": 43,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 451
+      "VERIFIED_WORKING": 444
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 451,
-    "UNAVAILABLE": 126,
-    "GEO_RESTRICTED": 47,
+    "VERIFIED_WORKING": 444,
+    "UNAVAILABLE": 129,
+    "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
+    "TIMEOUT": 34,
     "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 42,
+    "UNKNOWN": 43,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 14,
+    "currently-failing": 9,
     "geo-restricted": 28,
-    "previously-working": 13,
-    "unknown": 5,
-    "verified-recently": 451
+    "previously-working": 27,
+    "unknown": 6,
+    "verified-recently": 444
   },
   "per_country": {
     "ae": {
@@ -82,7 +82,7 @@
     "az": {
       "name": "Azerbaijan",
       "flag": "🇦🇿",
-      "channels": 1
+      "channels": 2
     },
     "ba": {
       "name": "Bosnia and Herzegovina",
@@ -317,7 +317,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 2
+      "channels": 3
     },
     "lv": {
       "name": "Latvia",
@@ -507,7 +507,7 @@
     "ve": {
       "name": "Venezuela",
       "flag": "🇻🇪",
-      "channels": 2
+      "channels": 3
     },
     "vn": {
       "name": "Vietnam",
@@ -535,7 +535,7 @@
     },
     "az": {
       "name": "Azerbaijani",
-      "channels": 3
+      "channels": 4
     },
     "bg": {
       "name": "Bulgarian",
@@ -575,7 +575,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 68
+      "channels": 69
     },
     "et": {
       "name": "Estonian",
@@ -647,7 +647,7 @@
     },
     "lb": {
       "name": "Luxembourgish",
-      "channels": 1
+      "channels": 2
     },
     "lg": {
       "name": "Ganda",
@@ -797,7 +797,7 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 32
+      "channels": 34
     },
     "general": {
       "name": "General",
@@ -825,7 +825,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 94
+      "channels": 95
     },
     "series": {
       "name": "Series",
