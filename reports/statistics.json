@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-10-20T08:40:42Z",
+  "reference_time": "2026-10-21T08:43:19Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 514,
-  "excluded_approved": 191,
+  "published_channels": 516,
+  "excluded_approved": 189,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 444,
+  "verified_playlist_channels": 445,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261020T083134Z",
-    "started_at": "2026-10-20T08:31:34Z",
-    "finished_at": "2026-10-20T08:40:42Z",
+    "run_id": "run-20261021T083355Z",
+    "started_at": "2026-10-21T08:33:55Z",
+    "finished_at": "2026-10-21T08:43:19Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 46,
       "INVALID_STREAM": 6,
-      "TIMEOUT": 34,
-      "UNAVAILABLE": 129,
-      "UNKNOWN": 43,
+      "TIMEOUT": 36,
+      "UNAVAILABLE": 119,
+      "UNKNOWN": 50,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 444
+      "VERIFIED_WORKING": 445
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 444,
-    "UNAVAILABLE": 129,
+    "VERIFIED_WORKING": 445,
+    "UNAVAILABLE": 119,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 34,
+    "TIMEOUT": 36,
     "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 43,
+    "UNKNOWN": 50,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 9,
+    "currently-failing": 6,
     "geo-restricted": 28,
     "previously-working": 27,
-    "unknown": 6,
-    "verified-recently": 444
+    "unknown": 10,
+    "verified-recently": 445
   },
   "per_country": {
     "ae": {
@@ -317,7 +317,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 3
+      "channels": 4
     },
     "lv": {
       "name": "Latvia",
@@ -497,7 +497,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 64
+      "channels": 65
     },
     "uz": {
       "name": "Uzbekistan",
@@ -571,7 +571,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 137
+      "channels": 138
     },
     "es": {
       "name": "Spanish",
@@ -647,7 +647,7 @@
     },
     "lb": {
       "name": "Luxembourgish",
-      "channels": 2
+      "channels": 3
     },
     "lg": {
       "name": "Ganda",
@@ -801,7 +801,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 176
+      "channels": 177
     },
     "kids": {
       "name": "Kids",
@@ -821,7 +821,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 80
+      "channels": 81
     },
     "news": {
       "name": "News",
