@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-10-21T08:43:19Z",
+  "reference_time": "2026-10-22T08:44:48Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 516,
-  "excluded_approved": 189,
+  "published_channels": 519,
+  "excluded_approved": 186,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 445,
+  "verified_playlist_channels": 435,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261021T083355Z",
-    "started_at": "2026-10-21T08:33:55Z",
-    "finished_at": "2026-10-21T08:43:19Z",
+    "run_id": "run-20261022T083608Z",
+    "started_at": "2026-10-22T08:36:08Z",
+    "finished_at": "2026-10-22T08:44:48Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 46,
       "INVALID_STREAM": 6,
-      "TIMEOUT": 36,
-      "UNAVAILABLE": 119,
-      "UNKNOWN": 50,
+      "TIMEOUT": 34,
+      "UNAVAILABLE": 132,
+      "UNKNOWN": 49,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 445
+      "VERIFIED_WORKING": 435
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 445,
-    "UNAVAILABLE": 119,
+    "VERIFIED_WORKING": 435,
+    "UNAVAILABLE": 132,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 36,
+    "TIMEOUT": 34,
     "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 50,
+    "UNKNOWN": 49,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 6,
+    "currently-failing": 13,
     "geo-restricted": 28,
-    "previously-working": 27,
-    "unknown": 10,
-    "verified-recently": 445
+    "previously-working": 35,
+    "unknown": 8,
+    "verified-recently": 435
   },
   "per_country": {
     "ae": {
@@ -192,7 +192,7 @@
     "es": {
       "name": "Spain",
       "flag": "🇪🇸",
-      "channels": 27
+      "channels": 28
     },
     "fi": {
       "name": "Finland",
@@ -412,7 +412,7 @@
     "py": {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "channels": 3
+      "channels": 4
     },
     "qa": {
       "name": "Qatar",
@@ -422,7 +422,7 @@
     "ro": {
       "name": "Romania",
       "flag": "🇷🇴",
-      "channels": 13
+      "channels": 14
     },
     "rs": {
       "name": "Serbia",
@@ -575,7 +575,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 69
+      "channels": 71
     },
     "et": {
       "name": "Estonian",
@@ -583,7 +583,7 @@
     },
     "eu": {
       "name": "Basque",
-      "channels": 1
+      "channels": 2
     },
     "fa": {
       "name": "Persian",
@@ -707,7 +707,7 @@
     },
     "ro": {
       "name": "Romanian",
-      "channels": 19
+      "channels": 20
     },
     "ru": {
       "name": "Russian",
@@ -801,7 +801,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 177
+      "channels": 178
     },
     "kids": {
       "name": "Kids",
@@ -809,7 +809,7 @@
     },
     "legislative": {
       "name": "Legislative",
-      "channels": 20
+      "channels": 21
     },
     "lifestyle": {
       "name": "Lifestyle",
@@ -821,7 +821,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 81
+      "channels": 82
     },
     "news": {
       "name": "News",
