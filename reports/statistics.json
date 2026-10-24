@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-10-23T08:41:39Z",
+  "reference_time": "2026-10-24T08:15:33Z",
   "records": {
     "approved": 705,
     "pending": 23,
@@ -10,12 +10,12 @@
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 450,
+  "verified_playlist_channels": 434,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261023T083237Z",
-    "started_at": "2026-10-23T08:32:37Z",
-    "finished_at": "2026-10-23T08:41:39Z",
+    "run_id": "run-20261024T080656Z",
+    "started_at": "2026-10-24T08:06:56Z",
+    "finished_at": "2026-10-24T08:15:33Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
@@ -23,31 +23,31 @@
       "GEO_RESTRICTED": 46,
       "INVALID_STREAM": 6,
       "RATE_LIMITED": 1,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 126,
-      "UNKNOWN": 43,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 135,
+      "UNKNOWN": 49,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 450
+      "VERIFIED_WORKING": 434
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 450,
-    "UNAVAILABLE": 126,
+    "VERIFIED_WORKING": 434,
+    "UNAVAILABLE": 135,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 1,
-    "TIMEOUT": 30,
+    "TIMEOUT": 31,
     "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 43,
+    "UNKNOWN": 49,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 17,
+    "currently-failing": 16,
     "geo-restricted": 28,
-    "previously-working": 18,
-    "unknown": 6,
-    "verified-recently": 450
+    "previously-working": 33,
+    "unknown": 8,
+    "verified-recently": 434
   },
   "per_country": {
     "ae": {
