@@ -1,53 +1,52 @@
 {
-  "reference_time": "2026-10-24T08:15:33Z",
+  "reference_time": "2026-10-25T08:33:30Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 519,
-  "excluded_approved": 186,
+  "published_channels": 511,
+  "excluded_approved": 194,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 434,
+  "verified_playlist_channels": 438,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261024T080656Z",
-    "started_at": "2026-10-24T08:06:56Z",
-    "finished_at": "2026-10-24T08:15:33Z",
+    "run_id": "run-20261025T082421Z",
+    "started_at": "2026-10-25T08:24:21Z",
+    "finished_at": "2026-10-25T08:33:30Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 46,
       "INVALID_STREAM": 6,
-      "RATE_LIMITED": 1,
       "TIMEOUT": 31,
-      "UNAVAILABLE": 135,
-      "UNKNOWN": 49,
+      "UNAVAILABLE": 134,
+      "UNKNOWN": 47,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 434
+      "VERIFIED_WORKING": 438
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 434,
-    "UNAVAILABLE": 135,
+    "VERIFIED_WORKING": 438,
+    "UNAVAILABLE": 134,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
-    "RATE_LIMITED": 1,
+    "RATE_LIMITED": 0,
     "TIMEOUT": 31,
     "INVALID_STREAM": 6,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 49,
+    "UNKNOWN": 47,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 16,
+    "currently-failing": 10,
     "geo-restricted": 28,
-    "previously-working": 33,
-    "unknown": 8,
-    "verified-recently": 434
+    "previously-working": 30,
+    "unknown": 5,
+    "verified-recently": 438
   },
   "per_country": {
     "ae": {
@@ -228,7 +227,7 @@
     "gr": {
       "name": "Greece",
       "flag": "🇬🇷",
-      "channels": 3
+      "channels": 2
     },
     "gy": {
       "name": "Guyana",
@@ -323,7 +322,7 @@
     "lv": {
       "name": "Latvia",
       "flag": "🇱🇻",
-      "channels": 2
+      "channels": 1
     },
     "mc": {
       "name": "Monaco",
@@ -473,7 +472,7 @@
     "tr": {
       "name": "Turkiye",
       "flag": "🇹🇷",
-      "channels": 26
+      "channels": 23
     },
     "tt": {
       "name": "Trinidad and Tobago",
@@ -498,7 +497,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 65
+      "channels": 62
     },
     "uz": {
       "name": "Uzbekistan",
@@ -568,11 +567,11 @@
     },
     "el": {
       "name": "Greek",
-      "channels": 5
+      "channels": 4
     },
     "en": {
       "name": "English",
-      "channels": 138
+      "channels": 135
     },
     "es": {
       "name": "Spanish",
@@ -660,7 +659,7 @@
     },
     "lv": {
       "name": "Latvian",
-      "channels": 2
+      "channels": 1
     },
     "mk": {
       "name": "Macedonian",
@@ -752,7 +751,7 @@
     },
     "tr": {
       "name": "Turkish",
-      "channels": 23
+      "channels": 20
     },
     "uk": {
       "name": "Ukrainian",
@@ -786,27 +785,27 @@
     },
     "culture": {
       "name": "Culture",
-      "channels": 27
+      "channels": 25
     },
     "documentary": {
       "name": "Documentary",
-      "channels": 16
+      "channels": 15
     },
     "education": {
       "name": "Education",
-      "channels": 41
+      "channels": 39
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 34
+      "channels": 33
     },
     "general": {
       "name": "General",
-      "channels": 178
+      "channels": 176
     },
     "kids": {
       "name": "Kids",
-      "channels": 20
+      "channels": 19
     },
     "legislative": {
       "name": "Legislative",
@@ -834,7 +833,7 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 12
+      "channels": 11
     },
     "weather": {
       "name": "Weather",
