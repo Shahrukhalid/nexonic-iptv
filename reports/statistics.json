@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-10-25T08:33:30Z",
+  "reference_time": "2026-10-26T09:02:12Z",
   "records": {
     "approved": 705,
     "pending": 23,
@@ -10,43 +10,44 @@
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 438,
+  "verified_playlist_channels": 440,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261025T082421Z",
-    "started_at": "2026-10-25T08:24:21Z",
-    "finished_at": "2026-10-25T08:33:30Z",
+    "run_id": "run-20261026T085356Z",
+    "started_at": "2026-10-26T08:53:56Z",
+    "finished_at": "2026-10-26T09:02:12Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 46,
-      "INVALID_STREAM": 6,
-      "TIMEOUT": 31,
-      "UNAVAILABLE": 134,
-      "UNKNOWN": 47,
+      "INVALID_STREAM": 7,
+      "RATE_LIMITED": 1,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 132,
+      "UNKNOWN": 46,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 438
+      "VERIFIED_WORKING": 440
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 438,
-    "UNAVAILABLE": 134,
+    "VERIFIED_WORKING": 440,
+    "UNAVAILABLE": 132,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
-    "RATE_LIMITED": 0,
-    "TIMEOUT": 31,
-    "INVALID_STREAM": 6,
+    "RATE_LIMITED": 1,
+    "TIMEOUT": 30,
+    "INVALID_STREAM": 7,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 47,
+    "UNKNOWN": 46,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 10,
+    "currently-failing": 13,
     "geo-restricted": 28,
-    "previously-working": 30,
-    "unknown": 5,
-    "verified-recently": 438
+    "previously-working": 24,
+    "unknown": 6,
+    "verified-recently": 440
   },
   "per_country": {
     "ae": {
@@ -142,7 +143,7 @@
     "cn": {
       "name": "China",
       "flag": "🇨🇳",
-      "channels": 14
+      "channels": 13
     },
     "co": {
       "name": "Colombia",
@@ -322,7 +323,7 @@
     "lv": {
       "name": "Latvia",
       "flag": "🇱🇻",
-      "channels": 1
+      "channels": 2
     },
     "mc": {
       "name": "Monaco",
@@ -659,7 +660,7 @@
     },
     "lv": {
       "name": "Latvian",
-      "channels": 1
+      "channels": 2
     },
     "mk": {
       "name": "Macedonian",
@@ -775,7 +776,7 @@
     },
     "zh": {
       "name": "Chinese",
-      "channels": 16
+      "channels": 15
     }
   },
   "per_category": {
@@ -801,7 +802,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 176
+      "channels": 177
     },
     "kids": {
       "name": "Kids",
@@ -825,7 +826,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 95
+      "channels": 94
     },
     "series": {
       "name": "Series",
@@ -833,7 +834,7 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 11
+      "channels": 12
     },
     "weather": {
       "name": "Weather",
