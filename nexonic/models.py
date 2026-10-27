@@ -58,7 +58,8 @@ class Source(_Strict):
     notes: str = ""
     # "manual": researched and reviewed by a maintainer. "automated-domain-match": admitted by
     # scripts/expand_catalog.py under strict owner-domain rules; published only after a successful live check.
-    method: Literal["manual", "automated-domain-match"] = "manual"
+    # "community-suggestion": proposed by a visitor; stays in data/pending until a maintainer reviews it.
+    method: Literal["manual", "automated-domain-match", "community-suggestion"] = "manual"
 
 
 class Geo(_Strict):
