@@ -59,7 +59,6 @@ score = 100 × ( 0.45 × success rate of the last 10 scorable checks
               + 0.10 × share of successes where media bytes were read
               + 0.10 × freshness        (last success ≤24 h → 1, ≤72 h → 0.5, else 0) )
 ```
-
 Grades: ≥85 Excellent, ≥70 Good, ≥50 Fair, else Poor. With fewer than 3 scorable checks on 2 distinct UTC days the
 score is `NOT ENOUGH DATA`. Display states: verified recently (working, ≤48 h), previously working, currently failing
 (3+ consecutive failures), geo-restricted, not yet tested.
