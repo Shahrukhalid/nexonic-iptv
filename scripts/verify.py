@@ -16,6 +16,7 @@ import sys
 
 import _bootstrap  # noqa: F401
 
+from nexonic.config import load_pipeline
 from nexonic.checker import Limits, check_all
 from nexonic.records import load_history, load_records, merge_results, save_history
 from nexonic.reports import verification_report, write_json
@@ -26,9 +27,12 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--ids", nargs="*", help="only check these channel ids")
     ap.add_argument("--ffprobe", action="store_true", help="also probe with FFprobe (if installed)")
-    ap.add_argument("--concurrency", type=int, default=12)
-    ap.add_argument("--timeout", type=float, default=10.0)
-    ap.add_argument("--budget-minutes", type=float, default=40.0, help="stop starting new checks after this")
+    cfg = load_pipeline().verify  # defaults come from config/pipeline.toml; flags override
+    ap.add_argument("--concurrency", type=int, default=cfg.concurrency)
+    ap.add_argument("--timeout", type=float, default=cfg.timeout)
+    ap.add_argument(
+        "--budget-minutes", type=float, default=cfg.budget_minutes, help="stop starting new checks after this"
+    )
     args = ap.parse_args(argv)
 
     records = load_records()
@@ -45,7 +49,11 @@ def main(argv: list[str] | None = None) -> int:
             return 2
     limits = Limits(
         timeout=args.timeout,
-        concurrency=max(1, min(args.concurrency, 16)),
+        concurrency=max(1, min(args.concurrency, cfg.max_concurrency)),
+        retries=cfg.retries,
+        backoff_base=cfg.backoff_base,
+        per_host_interval=cfg.per_host_interval,
+        channel_timeout=cfg.channel_timeout,
         use_ffprobe=args.ffprobe,
         run_budget=args.budget_minutes * 60,
     )

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import importlib
 import sys
 from pathlib import Path
 
@@ -78,3 +79,14 @@ def dataset(tmp_path):
         return write_dataset(tmp_path, approved, pending, rejected)
 
     return _make
+
+
+def load_script(name: str):
+    """Import scripts/<name>.py (scripts/_bootstrap.py drops the scripts directory from sys.path after import)."""
+    scripts = str(ROOT / "scripts")
+    sys.path.insert(0, scripts)
+    try:
+        return importlib.import_module(name)
+    finally:
+        if scripts in sys.path:
+            sys.path.remove(scripts)
