@@ -27,3 +27,10 @@ def test_empty_code_rejected(tmp_path):
     f.write_text("code,name,flag\n,Germany,x\n", encoding="utf-8")
     with pytest.raises(ReferenceDataError, match="line 2"):
         load_countries(f)
+
+
+def test_header_only_file_rejected(tmp_path):
+    f = tmp_path / "countries.csv"
+    f.write_text("code,name,flag\n", encoding="utf-8")
+    with pytest.raises(ReferenceDataError, match="no country rows"):
+        load_countries(f)

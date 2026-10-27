@@ -222,3 +222,40 @@ def test_channels_on_one_host_do_not_time_out_while_queued(record):
 
     results = asyncio.run(go())
     assert [r.status for r in results] == [Status.VERIFIED_WORKING] * 4
+
+
+def test_malformed_url_is_invalid_stream_not_a_batch_failure(record):
+    def h(req):
+        raise AssertionError("must not fetch")
+
+    r = run(h, record, **{"stream.url": "https://[broken/live.m3u8"})
+    assert r.status is Status.INVALID_STREAM
+
+
+def test_shared_cdn_gate_waits_do_not_count_against_channel_timeout(record):
+    """Distinct origins that redirect to one CDN queue on the CDN's gate; that wait must not cause TIMEOUT."""
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        if request.url.host.startswith("origin"):
+            n = request.url.host.split(".")[0]
+            return httpx.Response(302, headers={"location": f"https://cdn.example-cdn.net/{n}/master.m3u8"})
+        return happy(request)
+
+    chans = [
+        Channel.model_validate(
+            record(
+                id=f"example-news-{i}",
+                name=f"Example News {i}",
+                **{"stream.url": f"https://origin{i}.example.de/m.m3u8"},
+            )
+        )
+        for i in range(6)
+    ]
+    lim = Limits(timeout=2, retries=0, per_host_interval=0.15, channel_timeout=0.9, concurrency=6)
+
+    async def go():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handler), follow_redirects=False) as client:
+            return await check_all(chans, lim, client=client, resolver=resolver)
+
+    results = asyncio.run(go())
+    assert [r.status for r in results] == [Status.VERIFIED_WORKING] * 6

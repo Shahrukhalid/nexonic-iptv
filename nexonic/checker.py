@@ -20,6 +20,8 @@ import os
 import random
 import shutil
 import time
+from contextlib import asynccontextmanager
+from contextvars import ContextVar
 from dataclasses import dataclass
 from urllib.parse import urljoin, urlsplit
 
@@ -107,6 +109,42 @@ class HostGate:
         self._last[host] = time.monotonic()
 
 
+class GateWait:
+    """Time one channel check has spent queued on a HostGate (any request host, including redirect targets)."""
+
+    def __init__(self) -> None:
+        self.total = 0.0
+        self.since: float | None = None  # start of the wait in progress, if any
+
+    def waited(self, now: float) -> float:
+        return self.total + (now - self.since if self.since is not None else 0.0)
+
+
+_gate_wait: ContextVar[GateWait | None] = ContextVar("nexonic_gate_wait", default=None)
+
+
+def _active(start: float, gw: GateWait) -> float:
+    now = time.monotonic()
+    return (now - start) - gw.waited(now)
+
+
+async def _with_active_timeout(coro, limit: float, gw: GateWait):
+    """Run ``coro`` but apply ``limit`` to time spent doing real work, not queued on a HostGate."""
+    task = asyncio.ensure_future(coro)
+    start = time.monotonic()
+    try:
+        while True:
+            done, _ = await asyncio.wait({task}, timeout=max(limit - _active(start, gw), 0))
+            if _active(start, gw) >= limit:  # also catches a result that arrived after the cap (blocked loop)
+                raise TimeoutError
+            if done:
+                return task.result()
+    finally:
+        if not task.done():
+            task.cancel()
+            await asyncio.gather(task, return_exceptions=True)
+
+
 @dataclass
 class FetchResult:
     url: str  # final URL after redirects
@@ -122,6 +160,28 @@ class Fetcher:
         self.limits = limits
         self.gate = gate
         self.resolver = resolver
+
+    @asynccontextmanager
+    async def _turn(self, host: str):
+        """Hold the host's gate for one request, recording the time spent queued for it."""
+        gw = _gate_wait.get()
+        lock = self.gate.lock(host)
+        if gw is not None:
+            gw.since = time.monotonic()
+        try:
+            await lock.acquire()
+            try:
+                await self.gate.wait_turn(host)
+            except BaseException:
+                lock.release()
+                raise
+        finally:
+            if gw is not None:
+                gw.total, gw.since = gw.waited(time.monotonic()), None
+        try:
+            yield
+        finally:
+            lock.release()
 
     async def get(
         self, url: str, budget: Budget, max_bytes: int, byte_range: bool = False, derived: bool = False
@@ -142,8 +202,7 @@ class Fetcher:
             if byte_range:
                 headers["Range"] = f"bytes=0-{max_bytes - 1}"
             host = parts.hostname or ""
-            async with self.gate.lock(host):
-                await self.gate.wait_turn(host)
+            async with self._turn(host):
                 start = time.monotonic()
                 try:
                     async with self.client.stream("GET", current, headers=headers) as resp:
@@ -449,20 +508,26 @@ async def check_all(
     fetcher = Fetcher(client, limits, gate, resolver=resolver)
     sem = asyncio.Semaphore(limits.concurrency)
     # One channel at a time per stream host. Without this, many channels on one CDN take every global slot and
-    # queue behind each other in HostGate, and that queueing time counts against ``channel_timeout`` (false TIMEOUTs).
+    # queue behind each other in HostGate. Gate waits are also excluded from ``channel_timeout`` (see GateWait).
     host_slots: dict[str, asyncio.Semaphore] = {}
     location = location_label()
     deadline = time.monotonic() + limits.run_budget
 
     async def one(ch: Channel) -> CheckResult:
-        host = (urlsplit(ch.stream.url).hostname or "").lower()
+        try:
+            host = (urlsplit(ch.stream.url).hostname or "").lower()
+        except ValueError:  # malformed URL (e.g. unbalanced "["): check_channel's policy check classifies it
+            host = ""
         async with host_slots.setdefault(host, asyncio.Semaphore(1)), sem:
             if time.monotonic() > deadline:
                 return CheckResult(
                     ch.id, Status.NOT_TESTED, utc_now_iso(), error="run time budget exhausted", location=location
                 )
+            gw = GateWait()
+            _gate_wait.set(gw)  # each ``one()`` runs in its own task, so this is per-channel
             try:
-                return await asyncio.wait_for(check_channel(fetcher, ch, location), limits.channel_timeout)
+                # Time queued on any host's HostGate (the stream host or a redirect/CDN target) is not charged.
+                return await _with_active_timeout(check_channel(fetcher, ch, location), limits.channel_timeout, gw)
             except TimeoutError:
                 return CheckResult(
                     ch.id,

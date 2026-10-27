@@ -30,6 +30,8 @@ def load_countries(path: Path) -> dict[str, dict[str, str]]:
                 out[code.lower()] = {"name": name, "flag": (row.get("flag") or "").strip()}
     except FileNotFoundError as exc:
         raise ReferenceDataError(f"reference data file not found: {path}") from exc
+    if not out:
+        raise ReferenceDataError(f"{path.name}: no country rows (truncated file?)")
     return out
 
 
