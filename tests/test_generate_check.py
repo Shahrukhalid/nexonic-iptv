@@ -16,6 +16,10 @@ def repo(tmp_path, monkeypatch):
     for name in ("README.md", "PLAYLISTS.md"):
         shutil.copy(ROOT / name, tmp_path / name)
     monkeypatch.setattr(gen, "ROOT", tmp_path)
+    # Bring the copied outputs up to date with the current data, so the tests do not depend on whether the
+    # committed outputs were regenerated yet (data-only pull requests leave them stale until after merge).
+    monkeypatch.delenv("GITHUB_EVENT_NAME", raising=False)
+    assert gen.main([]) == 0
     return tmp_path
 
 
