@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import sys
+import tempfile
 from pathlib import Path
 
 import yaml
@@ -28,22 +29,37 @@ from nexonic.safety import check_url_policy, resolve_public
 
 def read_source(src: str) -> str:
     if src.startswith(("http://", "https://")):
-        import httpx
+        from dataclasses import replace
+        from urllib.parse import urlsplit
+
+        from nexonic.config import load_pipeline
+        from nexonic.fetch import FetchError, download
 
         pol = check_url_policy(src)
         if not pol.ok:
             raise SystemExit(f"source URL rejected: {pol.reason}")
-        from urllib.parse import urlsplit
-
         p = urlsplit(src)
         resolve_public(p.hostname, p.port or 443)
-        with httpx.Client(timeout=20, follow_redirects=False) as client:
-            r = client.get(src)
-            r.raise_for_status()
-            if len(r.content) > 20 * 1024 * 1024:
-                raise SystemExit("source too large")
-            return r.text
+        # Same retry/backoff as the catalogue refresh; redirects are only followed within the source's own host.
+        cfg = replace(load_pipeline().discovery, allowed_hosts=[p.hostname], max_archive_mb=20)
+        with tempfile.TemporaryFile() as fh:
+            try:
+                download(src, fh, cfg)
+            except FetchError as exc:
+                raise SystemExit(f"could not fetch source: {exc}") from exc
+            fh.seek(0)
+            return fh.read().decode("utf-8", errors="replace")
     return Path(src).read_text(encoding="utf-8", errors="replace")
+
+
+def _unchanged(path: Path, doc: dict) -> bool:
+    """True when the file already holds the same candidates; the date alone never triggers a rewrite."""
+    try:
+        old = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except (OSError, yaml.YAMLError):
+        return False
+    strip = lambda d: {k: v for k, v in (d or {}).items() if k != "generated_on"}  # noqa: E731
+    return strip(old) == strip(doc)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -80,14 +96,17 @@ def main(argv: list[str] | None = None) -> int:
                 "broadcaster, then add to data/pending/ with review.status: pending",
             }
         )
-    args.out.parent.mkdir(parents=True, exist_ok=True)
     doc = {
         "generated_on": dt.date.today().isoformat(),
         "source": args.source,
         "warning": "Candidates are unreviewed. Do not publish without evidence.",
         "candidates": candidates,
     }
-    args.out.write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
+    if _unchanged(args.out, doc):
+        print(f"{args.out} is already up to date")
+    else:
+        args.out.parent.mkdir(parents=True, exist_ok=True)
+        args.out.write_text(yaml.safe_dump(doc, sort_keys=False, allow_unicode=True), encoding="utf-8")
     clean = sum(1 for c in candidates if not c["prescreen_problems"])
     print(f"{len(candidates)} candidates written to {args.out} ({clean} without pre-screen problems)")
     return 0

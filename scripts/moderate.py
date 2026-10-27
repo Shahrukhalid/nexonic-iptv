@@ -4,6 +4,7 @@
     python scripts/moderate.py                       # report; exit 1 if any APPROVED record is not PASS
     python scripts/moderate.py --refresh-blocklist path/to/iptv-org/database/data/blocklist.csv \
                                --channels path/to/iptv-org/database/data/channels.csv
+    python scripts/moderate.py --refresh-remote      # same refresh, downloading iptv-org/database over HTTPS
 """
 
 from __future__ import annotations
@@ -11,6 +12,7 @@ from __future__ import annotations
 import argparse
 import csv
 import sys
+import tempfile
 from pathlib import Path
 
 import _bootstrap  # noqa: F401
@@ -19,8 +21,24 @@ from nexonic.moderation import MODERATION_DIR, Decision, screen
 from nexonic.records import load_records
 
 
+def _existing(path: Path) -> int:
+    if not path.exists():
+        return 0
+    return sum(1 for line in path.read_text(encoding="utf-8").splitlines() if line and not line.startswith("#"))
+
+
+def _guard_shrink(path: Path, new: int) -> None:
+    """A truncated or partial download must never weaken the NSFW lists."""
+    old = _existing(path)
+    if old >= 20 and new < old * 0.5:
+        raise SystemExit(
+            f"refusing to refresh {path.name}: {new} entries replace {old} (looks like a partial download)"
+        )
+
+
 def refresh(blocklist: Path, channels: Path | None) -> None:
     ids = sorted({r["channel"] for r in csv.DictReader(blocklist.open(encoding="utf-8")) if r["reason"] == "nsfw"})
+    _guard_shrink(MODERATION_DIR / "iptv-org-nsfw-blocklist.txt", len(ids))
     header = (
         "# Channel IDs blocked by iptv-org/database with reason 'nsfw'.\n"
         "# Source: https://github.com/iptv-org/database/blob/master/data/blocklist.csv (Unlicense)\n"
@@ -29,6 +47,7 @@ def refresh(blocklist: Path, channels: Path | None) -> None:
     print(f"wrote {len(ids)} blocklist ids")
     if channels:
         nsfw = [r for r in csv.DictReader(channels.open(encoding="utf-8")) if r["is_nsfw"] == "TRUE"]
+        _guard_shrink(MODERATION_DIR / "iptv-org-nsfw-channels.txt", len({r["id"] for r in nsfw}))
         (MODERATION_DIR / "iptv-org-nsfw-channels.txt").write_text(
             "# Channel IDs with is_nsfw=TRUE in iptv-org/database (Unlicense)\n"
             + "\n".join(sorted({r["id"] for r in nsfw}))
@@ -48,7 +67,20 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--refresh-blocklist", type=Path)
     ap.add_argument("--channels", type=Path)
+    ap.add_argument("--refresh-remote", action="store_true", help="refresh the blocklists from a downloaded copy")
     args = ap.parse_args(argv)
+    if args.refresh_remote:
+        from nexonic.config import load_pipeline
+        from nexonic.fetch import FetchError, fetch_iptv_org
+
+        with tempfile.TemporaryDirectory() as tmp:
+            try:
+                db = fetch_iptv_org(load_pipeline().discovery, Path(tmp), ("database",))["database"]
+            except FetchError as exc:
+                print(f"Could not download iptv-org/database: {exc}", file=sys.stderr)
+                return 1
+            refresh(db / "blocklist.csv", db / "channels.csv")
+        return 0
     if args.refresh_blocklist:
         refresh(args.refresh_blocklist, args.channels)
         return 0

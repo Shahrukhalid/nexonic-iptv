@@ -1,0 +1,45 @@
+# Pipeline settings for the automation scripts. Every value shown is the built-in default; delete a line to fall
+# back to it. Set NEXONIC_PIPELINE_CONFIG to point at a different file. See docs/AUTOMATION.md.
+
+[verify]                      # scripts/verify.py (command-line flags override these)
+timeout = 10.0                # seconds per request
+concurrency = 12              # parallel channels (hard maximum is max_concurrency)
+max_concurrency = 16
+retries = 1                   # per request, timeouts / connection errors / 429 / 5xx only
+backoff_base = 1.0            # seconds; doubles on each retry
+per_host_interval = 1.0       # minimum seconds between requests to the same host
+channel_timeout = 60.0        # hard cap per channel
+budget_minutes = 40.0         # no new checks are started after this
+
+[quarantine]                  # nexonic/lifecycle.py
+consecutive_failures = 3      # N: consecutive failed checks ...
+distinct_days = 2             # M: ... spread over at least this many distinct UTC days
+intermittent_window_days = 7  # mixed working/failing results inside this window = "intermittent"
+
+[guard]                       # scripts/validate.py publication guard
+max_drop_percent = 10.0       # fail if the published channel count falls by more than this
+max_added = 300               # fail if more than this many channels are added in one run
+max_verified_drop_percent = 50.0
+min_baseline = 50             # percentage rules are skipped when the previous count is below this
+override = false              # true publishes anyway (or set NEXONIC_GUARD_OVERRIDE=1 for one run)
+
+[changes]
+history_days = 30             # daily summaries kept in state/change-history.json
+max_listed = 200              # entries per list in reports/changes.json
+
+[discovery]                   # scripts/expand_catalog.py and scripts/moderate.py --refresh-remote
+timeout = 30.0
+retries = 4
+backoff_base = 2.0
+max_archive_mb = 300
+allowed_hosts = ["github.com", "codeload.github.com", "raw.githubusercontent.com"]
+
+[[discovery.sources]]
+name = "iptv"
+repo = "iptv-org/iptv"
+ref = "master"
+
+[[discovery.sources]]
+name = "database"
+repo = "iptv-org/database"
+ref = "master"

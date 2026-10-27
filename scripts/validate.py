@@ -4,6 +4,7 @@
 Checks: schema, folder/status consistency, duplicate ids/URLs/names, URL policy, moderation of approved records,
 strict M3U syntax of every generated file, that every playlist entry belongs to a publishable approved record, that
 no pending/rejected record appears anywhere, no duplicates inside a playlist, and index counts.
+Finally the publication guard compares the new channel counts with the last commit (see nexonic/guard.py).
 Writes reports/validation.json.
 """
 
@@ -14,10 +15,24 @@ import sys
 
 import _bootstrap  # noqa: F401
 
-from nexonic import m3u
+from nexonic import config, guard, m3u
 from nexonic.moderation import publication_gate
 from nexonic.records import ROOT, load_records, normalise_url
 from nexonic.safety import check_url_policy
+
+
+def check_guard(root, index: dict, cfg) -> tuple[list[dict], list[dict], guard.GuardResult]:
+    """Publication guard: compare the new channel counts with the last committed ones."""
+    verdict = guard.evaluate(guard.baseline_index(root), index, cfg)
+    errors, warnings = [], []
+    for problem in verdict.violations:
+        if verdict.ok:
+            warnings.append({"stage": "publication-guard", "warning": f"{problem} (override active)"})
+        else:
+            errors.append({"stage": "publication-guard", "error": f"{problem}. {guard.HELP}"})
+    if verdict.skipped:
+        warnings.append({"stage": "publication-guard", "warning": "no committed baseline found; guard skipped"})
+    return errors, warnings, verdict
 
 
 def main() -> int:
@@ -88,8 +103,13 @@ def main() -> int:
         if not (ROOT / rel).exists():
             errors.append({"stage": "index", "file": rel, "error": "listed in index but missing"})
 
+    g_errors, g_warnings, verdict = check_guard(ROOT, index, config.load_pipeline().guard)
+    errors.extend(g_errors)
+    warnings.extend(g_warnings)
+
     report = {
         "ok": not errors,
+        "guard": verdict.to_dict(),
         "records": {k: len(v) for k, v in records.channels.items()},
         "playlist_files_checked": len(files),
         "errors": errors,
