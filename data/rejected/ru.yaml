@@ -1,0 +1,43 @@
+# Rejected candidates for RU kept so they are not re-added. Never published.
+channels:
+- id: radio-1-ru
+  name: Radio 1
+  alt_names:
+  - Радио 1
+  broadcaster: Radio 1
+  country: ru
+  languages:
+  - ru
+  categories:
+  - general
+  website: https://radio1.ru/
+  stream:
+    url: https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
+    evidence_url: https://radio1.ru/
+    evidence_summary: 'Automated owner-domain match: stream host stream.radio1.ru is on the broadcaster''s domain radio1.ru.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: manual
+  epg_id: Radio1.ru@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ru
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Not shown to be family-friendly: radio1.ru is a Moscow-region news and entertainment portal labelled 18+ with
+      sexual and violent-topic headlines, and no live video page was found.'
+    rejection_reason: 'Not shown to be family-friendly: radio1.ru is a Moscow-region news and entertainment portal labelled
+      18+ with sexual and violent-topic headlines, and no live video page was found.'

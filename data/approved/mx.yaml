@@ -35,3 +35,42 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: capital-21-mx
+  name: Capital 21
+  alt_names:
+  - XHCDM-TDT
+  broadcaster: Capital 21
+  country: mx
+  languages:
+  - es
+  categories:
+  - culture
+  - entertainment
+  website: https://www.capital21.cdmx.gob.mx/
+  stream:
+    url: https://video.cdmx.gob.mx/redes/stream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mx.m3u
+    evidence_url: https://www.capital21.cdmx.gob.mx/en-vivo
+    evidence_summary: Capital 21 is the public television of Mexico City; its own en-vivo page offers the live transmission
+      with no login shown, and the stream host video.cdmx.gob.mx is on the same government domain.
+    evidence_checked: null
+    notes: The player source on the live page was not visible, so the exact m3u8 was not directly confirmed.
+    method: manual
+  epg_id: Capital21.mx@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -17,7 +17,8 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.rtvutrecht.nl/tv-radio
-    evidence_summary: 'Pending: stream URL is plain http; need confirmation of an https endpoint and the TV live page.'
+    evidence_summary: 'Pending: rtvutrecht.nl/tv-radio could not be opened during review (robots disallowed) and the stored
+      stream URL is plain http. Maintainer must confirm the TV live page, a working https endpoint, and that no login is needed.'
     evidence_checked: null
     notes: ''
   epg_id: RTVUtrecht.nl
@@ -33,5 +34,6 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: stream URL is plain http; need confirmation of an https endpoint and the TV live page.'
+    notes: 'Pending: rtvutrecht.nl/tv-radio could not be opened during review (robots disallowed) and the stored stream URL
+      is plain http. Maintainer must confirm the TV live page, a working https endpoint, and that no login is needed.'
     rejection_reason: ''

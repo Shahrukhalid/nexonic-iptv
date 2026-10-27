@@ -1,0 +1,41 @@
+# Rejected candidates for CA kept so they are not re-added. Never published.
+channels:
+- id: stingray-hot-country-ca
+  name: Stingray Hot Country
+  alt_names: []
+  broadcaster: Stingray Hot Country
+  country: ca
+  languages:
+  - en
+  categories:
+  - music
+  website: https://music.stingray.com/en/channels/008/hot-country
+  stream:
+    url: https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
+    evidence_url: https://music.stingray.com/en/channels/008/hot-country
+    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: manual
+  epg_id: StingrayHotCountry.ca@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: uncertain
+    notes: 'Aggregator feed, not an owner-published stream: the URL is Stingray''s Samsung TV Plus ad-insertion manifest (path
+      samsungtvplus), and the Stingray channel page offers only a free trial (source policy section 2).'
+    rejection_reason: 'Aggregator feed, not an owner-published stream: the URL is Stingray''s Samsung TV Plus ad-insertion
+      manifest (path samsungtvplus), and the Stingray channel page offers only a free trial (source policy section 2).'

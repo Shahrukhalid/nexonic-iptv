@@ -1,5 +1,6 @@
 # Maintainer overrides for *ambiguous* (weak) terms only, per channel id, after a human checked the channel.
 # Strong adult terms can never be overridden. Each entry needs a comment with the reviewer and date.
-weak_term_overrides: {}
+weak_term_overrides:
+  capital-21-mx: ["21"]   # reviewed on 2026-10-27: Mexico City public TV; '21' is the channel number in the name
 # example:
 #   some-channel-id: ["love"]   # reviewed by @maintainer on 2026-10-17: romance-free news show title
