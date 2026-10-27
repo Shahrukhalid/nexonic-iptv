@@ -8,6 +8,7 @@ python scripts/generate.py --check   # exit 1 if committed outputs are out of da
 from __future__ import annotations
 
 import argparse
+import json
 import shutil
 import sys
 import tempfile
@@ -15,7 +16,7 @@ from pathlib import Path
 
 import _bootstrap  # noqa: F401
 
-from nexonic import generate, reports
+from nexonic import changes, config, generate, reports
 from nexonic.records import ROOT, load_history, load_records
 
 OUTPUTS = [
@@ -26,6 +27,8 @@ OUTPUTS = [
     "reports/statistics.json",
     "reports/verification.json",
     "reports/verification.md",
+    "reports/changes.json",
+    "reports/changes.md",
 ]
 
 
@@ -36,14 +39,36 @@ def build(root: Path) -> int:
             print(f"ERROR {e}", file=sys.stderr)
         return 2
     history = load_history()
-    plan = generate.plan(records, history)
+    cfg = config.load_pipeline()
+    state_in, state_out = ROOT / "state", root / "state"
+    state = changes.load_state(state_in / changes.SNAPSHOT_FILE)
+    restored = {
+        cid: e["restored_at"]
+        for cid, e in ((state.get("current") or {}).get("channels") or {}).items()
+        if e.get("restored_at")
+    }
+    plan = generate.plan(records, history, cfg.quarantine, restored)
+    current = changes.build_snapshot(records, plan, state.get("current"))
+    plan.last_metadata_update = {
+        cid: e["meta_changed_at"] for cid, e in current["channels"].items() if "meta_changed_at" in e
+    }
+    baseline, new_state = changes.advance(state, current)
     generate.write(plan, root)
     (root / "PLAYLISTS.md").write_text(generate.playlists_markdown(plan), encoding="utf-8")
     stats = reports.statistics(records, plan, history)
     vdata, vmd = reports.verification_report(records, history)
+    try:
+        discovery = json.loads((state_in / changes.DISCOVERY_FILE).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        discovery = None
+    report = changes.build_report(records, plan, history, baseline, current, discovery, cfg.changes)
     reports.write_json("verification.json", vdata, root)
-    (root / "reports" / "verification.md").write_text(vmd, encoding="utf-8")
+    (root / "reports" / "verification.md").write_text(vmd + changes.summary_markdown(report), encoding="utf-8")
     reports.write_json("statistics.json", stats, root)
+    reports.write_json("changes.json", report, root)
+    (root / "reports" / "changes.md").write_text(changes.to_markdown(report), encoding="utf-8")
+    changes.write_json_if_changed(state_out / changes.SNAPSHOT_FILE, new_state)
+    changes.update_history(state_out / changes.HISTORY_FILE, report, cfg.changes)
     readme_src = ROOT / "README.md"
     if readme_src.exists():
         text = generate.update_readme(readme_src.read_text(encoding="utf-8"), generate.readme_block(plan, stats))
@@ -52,6 +77,8 @@ def build(root: Path) -> int:
         f"Published {len(plan.published)} channels in {len(plan.files)} playlist files; "
         f"{len(plan.verified_ids)} in verified.m3u; {len(plan.excluded)} approved records excluded."
     )
+    for item in report["attention"]:
+        print(f"ATTENTION {item}")
     reasons: dict[str, int] = {}
     for ex in plan.excluded:
         key = "; ".join(ex["reasons"])[:120]
