@@ -1,0 +1,42 @@
+name: Bug report
+description: Something is wrong in the scripts, generated files or website (not a single broken channel).
+title: "Bug: <summary>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For a single channel that does not play, use the **Report broken channel** form instead.
+        Many public broadcasters limit streams to their own country, which is not a bug.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Commands you ran, the page you opened or the playlist you loaded.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Playlists or generated files
+        - Verification or lifecycle (verify.py, quarantine)
+        - Validation or publication guard
+        - Website
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Operating system, Python or Node version, browser or player, as relevant.

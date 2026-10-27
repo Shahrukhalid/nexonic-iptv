@@ -1,6 +1,6 @@
-# 📺 Nexonic IPTV
+# Nexonic IPTV: free IPTV playlists of official live TV streams (M3U)
 
-**Free Live TV • Verified IPTV Playlists • Worldwide**
+**Free-to-air IPTV and public live TV streams, organised by country, language and category, and verified every day.**
 
 [![CI](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/ci.yml)
 [![Verify streams](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/verify-streams.yml/badge.svg)](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/verify-streams.yml)
@@ -8,28 +8,66 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Data: CC0](https://img.shields.io/badge/data-CC0-lightgrey)](data/LICENSE)
 
-Nexonic IPTV is a free, open-source collection of M3U playlists of live TV channels that **broadcasters themselves
-offer free to the public** — public broadcasters, international news channels and parliaments — organised by country,
-language and category. Every stream is checked automatically, every channel carries its evidence, and adult-oriented
-channels are excluded.
+Nexonic IPTV is an open-source **IPTV playlist** collection: **M3U playlists of international TV channels** that
+broadcasters themselves offer free to the public, such as public broadcasters, news channels and parliaments. Use them
+as **free-to-air IPTV** in VLC, Kodi or any IPTV player. There is a playlist for every country, so you can get
+**country-specific IPTV** (for example Germany, India or the United States), plus playlists by language and category.
+Every stream is checked automatically, every channel records its evidence, and adult-oriented channels are excluded.
 
-🌐 **Website:** https://shahrukhalid.github.io/nexonic-iptv/
+Website: https://shahrukhalid.github.io/nexonic-iptv/
 
 > Quality over quantity: a short list of official streams that work beats thousands of dead or questionable links.
 
+## Contents
+
+- [Quick start](#quick-start)
+- [How the playlists are organised](#how-the-playlists-are-organised)
+- [Current numbers](#current-numbers)
+- [Features](#features)
+- [How verification works](#how-verification-works)
+- [Scope and legal limits](#scope-and-legal-limits)
+- [Contributing](#contributing)
+- [FAQ](#faq)
+- [Attribution and licenses](#attribution-and-licenses)
+
 ## Quick start
 
-Paste a playlist URL into [VLC](https://www.videolan.org/), Kodi (PVR IPTV Simple Client) or any IPTV player:
+Copy a playlist URL and add it as a network stream or M3U source in your player.
 
 | Playlist | URL |
 |---|---|
-| Global (all approved channels) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
-| **Nexonic Verified** (worked in the last 48 h) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
-| By country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/<code>.m3u` (e.g. `de`, `fr`, `in`) |
+| All approved channels | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
+| **Nexonic Verified** (passed a check in the last 48 hours) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| One country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u` (replace `de` with a country code) |
+| One language | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u` (replace `ar` with a language code) |
+| One category | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` (replace `news` with a category) |
 
-The same files are available at `https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists/…`.
-`verified.m3u` exists only after a verification run has found working streams. Full list: [PLAYLISTS.md](PLAYLISTS.md).
-Player guides: [How to watch](https://shahrukhalid.github.io/nexonic-iptv/how-to-watch/).
+**VLC:** Media, then Open Network Stream, paste a URL and press Play. The channel list opens in the playlist view.
+
+**Kodi:** install the PVR IPTV Simple Client add-on, open its settings, choose remote path and paste the URL as the M3U
+playlist URL.
+
+**IPTV apps and Smart TVs:** add the URL as an M3U or "playlist URL" source. Setup guides for Android, iOS and Smart TVs
+are on the [How to watch](https://shahrukhalid.github.io/nexonic-iptv/how-to-watch/) page.
+
+The same files are served from
+`https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists/` if you prefer raw GitHub URLs. Every
+playlist is listed in [PLAYLISTS.md](PLAYLISTS.md) and on the
+[playlists page](https://shahrukhalid.github.io/nexonic-iptv/playlists/).
+
+## How the playlists are organised
+
+- **Country:** `playlists/countries/<code>.m3u` uses the two-letter ISO 3166-1 code and holds the channels of that
+  country's broadcasters. Each country also has a page on the website.
+- **Language:** `playlists/languages/<code>.m3u` uses the ISO 639-1 code and groups channels by broadcast language,
+  whichever country they come from.
+- **Category:** `playlists/categories/<category>.m3u` groups channels by genre, for example `news`, `kids`,
+  `documentary` or `series`.
+- **All and Verified:** `all.m3u` holds every published channel. `verified.m3u` holds only channels that passed a
+  real check in the last 48 hours and are not quarantined.
+
+All files are generated by `scripts/generate.py` from the records in `data/approved/`, so they always agree with the
+channel data. Do not edit them by hand.
 
 ## Current numbers
 
@@ -54,72 +92,75 @@ Player guides: [How to watch](https://shahrukhalid.github.io/nexonic-iptv/how-to
 
 ## Features
 
-- **Official streams only** — the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
+- **Official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
-- **Two tiers** — *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
-  iptv-org data whose stream is served from the broadcaster's own domain; auto-admitted channels appear only after
-  they pass a live check, and are refreshed monthly.
-- **Nexonic Verified** — a playlist of channels that passed a real check in the last 48 hours.
-- **Layered verification** — URL policy → DNS → bounded HTTP → HLS manifest → media bytes (+ optional FFprobe), with
-  SSRF protection and polite rate limits ([verification](docs/VERIFICATION.md)).
-- **Nexonic Health Score** — a transparent 0–100 score from recorded history; "NOT ENOUGH DATA" until it is earned.
-- **Nexonic Safe** — adult content excluded by schema, five automated moderation layers, human review and tests
+- **Two tiers:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
+  iptv-org data whose stream is served from the broadcaster's own domain. Auto-admitted channels appear only after
+  they pass a live check. Catalog discovery currently runs monthly.
+- **Nexonic Verified:** a playlist of channels that passed a real check in the last 48 hours.
+- **Layered verification:** URL policy, DNS, bounded HTTP, HLS manifest, media bytes (and optional FFprobe), with SSRF
+  protection and polite rate limits.
+- **Lifecycle and quarantine:** each channel has a state derived from its check history, and repeatedly failing
+  channels are quarantined and restored automatically.
+- **Nexonic Health Score:** a transparent 0-100 score from recorded history; "NOT ENOUGH DATA" until it is earned.
+- **Nexonic Safe:** adult content excluded by schema, five automated moderation layers, human review and tests
   ([content policy](docs/CONTENT_POLICY.md)).
-- **Country Hub** — one playlist and one web page per country, plus language and category playlists (including a
-  `series` playlist for TV-series, telenovela and drama channels).
-- **Status page** — public, timestamped results from every run.
-- **Zero cost** — no ads, subscriptions, trackers or accounts; runs on free GitHub Actions and Pages.
+- **Country Hub:** one playlist and one web page per country, plus language and category playlists.
+- **Status page and change report:** public, timestamped results from every run, and a daily
+  [change report](reports/changes.md).
+- **Zero cost:** no ads, subscriptions, trackers or accounts; runs on free GitHub Actions and Pages.
 
-## Compatibility
+## How verification works
 
-Standard extended M3U (`#EXTINF` with `tvg-id`, `tvg-name`, `tvg-country`, `tvg-language`, `group-title`). Streams are
-HLS. Tested with the strict parser in `nexonic/m3u.py`; works with VLC, Kodi PVR IPTV Simple Client and common IPTV
-apps. `tvg-id` values match [iptv-org/epg](https://github.com/iptv-org/epg) so you can add a programme guide.
+Stream verification runs every day at 03:17 UTC ([verify-streams.yml](.github/workflows/verify-streams.yml)). Each
+channel goes through the layered check described in [docs/VERIFICATION.md](docs/VERIFICATION.md): URL policy, DNS,
+manifest, playlist parsing and a read of real video bytes. An HTTP 200 alone is never treated as proof.
 
-## Availability limitations
+Results feed a **lifecycle state** for every published channel: `working`, `intermittent`, `unreachable`, `invalid`,
+`restricted` or `unknown`. A channel that fails several checks in a row over at least two days is **quarantined** and
+leaves `verified.m3u`. One successful check restores it automatically. A **publication guard** stops a run from
+publishing if the channel count drops sharply or jumps unexpectedly, and each run writes a
+[change report](reports/changes.md). Thresholds live in [config/pipeline.toml](config/pipeline.toml); the full pipeline
+is explained in [docs/AUTOMATION.md](docs/AUTOMATION.md).
 
-- Broadcasters can change or end streams at any time; nothing here is guaranteed.
+Results describe reachability from GitHub-hosted runners at the time of the run. They do not prove that a stream plays
+in your location.
+
+## Scope and legal limits
+
+- Nexonic hosts no video. It links only to streams that broadcasters publish free for the public, with a documented
+  basis for each. It does not bypass DRM, paywalls, logins or region limits.
 - Many public broadcasters limit streams to their own country. Those channels are labelled region-limited and will not
-  play elsewhere — Nexonic never bypasses that.
-- Checks run from GitHub-hosted runners (mostly in the US). A result from one location does not prove a stream plays
-  everywhere.
-- Broadcasters decide what they air; channels are screened, individual programmes are not.
-
-## Adult-content policy
-
-No adult-oriented channel is ever published. Uncertain cases are quarantined for review. If you see anything
-inappropriate, [report it](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=3-report-adult-content.yml)
-— it will be removed from all playlists.
-
-## Legal
-
-Nexonic hosts no video and links only to streams that broadcasters publish free for the public, with a documented
-basis for each. It does not bypass DRM, paywalls, logins or region limits. Rights holders can request removal through
-the [copyright form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=5-copyright-concern.yml) or
-privately ([SECURITY.md](SECURITY.md)). See [DISCLAIMER.md](DISCLAIMER.md) and [docs/LEGAL.md](docs/LEGAL.md).
-
-## Attribution and licenses
-
-- Code: [MIT](LICENSE). Data, playlists, reports and verification history (`data/`, `playlists/`, `reports/`,
-  `state/`): [CC0 1.0](data/LICENSE). Scope table: [NOTICE.md](NOTICE.md#licensing-scope).
-- Channel IDs, country names/flags and NSFW blocklists: [iptv-org/database](https://github.com/iptv-org/database)
-  (public domain). See [NOTICE.md](NOTICE.md).
-- Channel names and trademarks belong to their owners.
+  play elsewhere.
+- Broadcasters can change or end streams at any time; nothing here is guaranteed.
+- No adult-oriented channel is ever published. Uncertain cases are quarantined for review. If you see anything
+  inappropriate, [report it](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=3-report-adult-content.yml)
+  and it will be removed from all playlists.
+- Rights holders can request removal through the
+  [copyright form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=5-copyright-concern.yml) or
+  privately ([SECURITY.md](SECURITY.md)). See [DISCLAIMER.md](DISCLAIMER.md) and [docs/LEGAL.md](docs/LEGAL.md).
+- Technical details: playlists use standard extended M3U (`tvg-id`, `tvg-name`, `tvg-country`, `tvg-language`,
+  `group-title`) with HLS streams. `tvg-id` values match [iptv-org/epg](https://github.com/iptv-org/epg) so you can add
+  a programme guide.
 
 ## Contributing
 
-Suggest a channel with evidence using the
-[issue form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml), or open a pull
-request — see [CONTRIBUTING.md](CONTRIBUTING.md). Report a broken stream
-[here](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=1-broken-channel.yml).
+- **Suggest a channel** with the
+  [channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml).
+  Official evidence that the broadcaster offers the stream free is required.
+- **Report a broken stream** with the
+  [broken channel form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=1-broken-channel.yml).
+- **Report a bug** in the scripts or website with the
+  [bug report form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=7-bug-report.yml).
+- **Open a pull request:** see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```bash
 pip install -r requirements-dev.txt
 pytest                         # unit tests, mocked network
-python scripts/validate.py     # schema, provenance, playlist checks
+python scripts/validate.py     # schema, provenance, playlist checks, publication guard
 python scripts/moderate.py     # adult-content screening
 python scripts/verify.py       # live checks (internet required)
-python scripts/generate.py     # rebuild playlists
+python scripts/generate.py     # rebuild playlists, reports and the numbers above
 ```
 
 ## Roadmap
@@ -131,7 +172,16 @@ python scripts/generate.py     # rebuild playlists
 
 ## FAQ
 
-See [FAQ.md](FAQ.md).
+Common questions about cost, legality, verification and playback are answered in [FAQ.md](FAQ.md) and on the
+[website FAQ](https://shahrukhalid.github.io/nexonic-iptv/faq/).
+
+## Attribution and licenses
+
+- Code: [MIT](LICENSE). Data, playlists, reports and verification history (`data/`, `playlists/`, `reports/`,
+  `state/`): [CC0 1.0](data/LICENSE). Scope table: [NOTICE.md](NOTICE.md#licensing-scope).
+- Channel IDs, country names/flags and NSFW blocklists: [iptv-org/database](https://github.com/iptv-org/database)
+  (public domain). See [NOTICE.md](NOTICE.md).
+- Channel names and trademarks belong to their owners.
 
 ## About this repository
 

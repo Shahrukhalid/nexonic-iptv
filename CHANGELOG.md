@@ -1,6 +1,14 @@
 # Changelog
 
 ## Unreleased
+- Pipeline (#4): channel lifecycle states (`working`, `intermittent`, `unreachable`, `invalid`, `restricted`,
+  `unknown`), quarantine of repeatedly failing channels with automatic restore, a publication guard in
+  `scripts/validate.py`, a daily change report (`reports/changes.md`, `reports/changes.json`), settings in
+  `config/pipeline.toml` and documentation in `docs/AUTOMATION.md`.
+- Catalog (#3): 35 new official free channels.
+- Docs: README rewritten around playlist setup, how playlists are organised, verification and legal limits, with a
+  contents list; FAQ and CONTRIBUTING explain how to suggest a channel, report a broken stream and how review and
+  authorization work; new bug report issue form; issue template contact links to the FAQ and Discussions.
 - Verifier: channels that share a stream host are now checked one at a time, so time spent waiting for a busy host
   no longer counts against the 60 s per-channel limit (this could produce false `TIMEOUT` results for CDNs that host
   many channels). DNS pre-check uses port 80 for `http://` URLs.

@@ -25,3 +25,26 @@ programmes; we cannot review every broadcast.
 **Can I add an EPG?** Playlists use iptv-org `tvg-id` values; point your player at a guide built with iptv-org/epg.
 
 **Can I use the data?** Yes — data is CC0 and code is MIT.
+
+**How do I suggest a channel?** Use the
+[channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml).
+You must include official evidence: a page on the broadcaster's own website that plays the stream free of charge,
+the stream URL, the country, language and category, and confirmation that the channel is not adult-oriented. Streams
+from restreamers, IP addresses, tokens or logins are not accepted. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**How do I report a broken stream?** Use the
+[broken channel form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=1-broken-channel.yml) with the
+channel, the playlist, your country and player. First check that the channel is not limited to its home country and
+whether it plays on the broadcaster's own site. Channels that keep failing are quarantined and leave `verified.m3u`
+automatically, and they are restored after a successful check.
+
+**How are suggestions reviewed and authorized?** Contributed channels go to `data/pending/`. A maintainer checks that
+the evidence page is the broadcaster's own, that the stream host belongs to the broadcaster or its CDN, that the
+stream is free without a login or DRM, and that the content is not adult-oriented. Only then is the record moved to
+`data/approved/`. Streams are never merged automatically. Rights holders can ask for removal with the
+[copyright form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=5-copyright-concern.yml).
+
+**What is quarantine?** A channel that fails several checks in a row over at least two days is quarantined and removed
+from `verified.m3u` until it works again. Details: [docs/AUTOMATION.md](docs/AUTOMATION.md).
+
+**How often are streams checked?** Every day at 03:17 UTC. Catalog discovery from public data currently runs monthly.
