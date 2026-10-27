@@ -1,0 +1,67 @@
+{
+  "reference_time": "2026-10-27T09:05:07Z",
+  "baseline_reference_time": null,
+  "baseline_available": false,
+  "note": "Results describe reachability from the checker's network location at the reference time only.",
+  "counts": {
+    "published": 545,
+    "verified_playlist": 460,
+    "excluded": 195,
+    "pending_authorization": 55,
+    "quarantined": 147,
+    "duplicates_excluded_total": 0,
+    "new_candidates": 0,
+    "new_published": 0,
+    "updated": 0,
+    "duplicates_removed": 0,
+    "newly_failing": 0,
+    "newly_quarantined": 0,
+    "restored": 0,
+    "removed": 0
+  },
+  "lifecycle_counts": {
+    "intermittent": 85,
+    "restricted": 28,
+    "unknown": 40,
+    "unreachable": 9,
+    "working": 383
+  },
+  "latest_run": {
+    "run_id": "run-20261027T085853Z",
+    "started_at": "2026-10-27T08:58:53Z",
+    "finished_at": "2026-10-27T09:05:07Z",
+    "location": "github-actions (Linux, GitHub-hosted runner)",
+    "checked": 705,
+    "by_status": {
+      "AUTH_REQUIRED": 2,
+      "GEO_RESTRICTED": 46,
+      "INVALID_STREAM": 8,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 123,
+      "UNKNOWN": 43,
+      "UNSUPPORTED": 1,
+      "VERIFIED_WORKING": 451
+    }
+  },
+  "discovery": null,
+  "integrity": {
+    "ok": true,
+    "record_errors": 0,
+    "playlist_index_matches_files": true,
+    "published_streams_unique": true,
+    "playlist_files": 177,
+    "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
+  },
+  "attention": [],
+  "lists": {
+    "new_candidates": [],
+    "new_published": [],
+    "updated": [],
+    "duplicates_removed": [],
+    "newly_failing": [],
+    "newly_quarantined": [],
+    "restored": [],
+    "removed": []
+  },
+  "truncated": {}
+}

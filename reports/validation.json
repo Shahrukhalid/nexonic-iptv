@@ -1,11 +1,25 @@
 {
   "ok": true,
+  "guard": {
+    "ok": true,
+    "skipped": false,
+    "overridden": false,
+    "baseline": {
+      "published": 510,
+      "verified": 451
+    },
+    "current": {
+      "published": 545,
+      "verified": 460
+    },
+    "violations": []
+  },
   "records": {
-    "approved": 705,
-    "pending": 23,
+    "approved": 740,
+    "pending": 55,
     "rejected": 6
   },
-  "playlist_files_checked": 175,
+  "playlist_files_checked": 177,
   "errors": [],
   "warnings": [
     {
@@ -160,6 +174,71 @@
     },
     {
       "stage": "provenance",
+      "id": "wdr-fernsehen",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "mdr-sachsen",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "mdr-sachsen-anhalt",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "mdr-thueringen",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rbb-berlin",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rbb-brandenburg",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "swr-baden-wuerttemberg",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "swr-rheinland-pfalz",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "one-ard",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "ndr-mecklenburg-vorpommern",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "ndr-niedersachsen",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "ndr-schleswig-holstein",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "br-fernsehen-sued",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
       "id": "dr1",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
@@ -241,6 +320,16 @@
     {
       "stage": "provenance",
       "id": "tv3",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "telemadrid",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "la-otra",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
@@ -345,6 +434,16 @@
     },
     {
       "stage": "provenance",
+      "id": "rthk-tv-31",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rthk-tv-32",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
       "id": "tvri-nasional",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
@@ -385,12 +484,62 @@
     },
     {
       "stage": "provenance",
+      "id": "tv2000",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-2",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-5",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-movie",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-premium",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-yoyo",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-scuola",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rai-sport",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
       "id": "nhk-world-japan",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
       "stage": "provenance",
       "id": "arirang-tv",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "ebs-plus-1",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "ebs-english",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
@@ -411,6 +560,11 @@
     {
       "stage": "provenance",
       "id": "canal-once",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "rtv-noord",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
@@ -441,6 +595,31 @@
     {
       "stage": "provenance",
       "id": "atomic-tv",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "tvr-1",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "tvr-2",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "tvr-3",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "tvr-info",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "tvr-international",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
@@ -511,6 +690,16 @@
     {
       "stage": "provenance",
       "id": "kanal-7",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "trt-2",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "s4c",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
