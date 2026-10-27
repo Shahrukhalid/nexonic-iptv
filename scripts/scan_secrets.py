@@ -14,7 +14,7 @@ PATTERNS = {
     "AWS access key": re.compile(r"\b(AKIA|ASIA)[0-9A-Z]{16}\b"),
     "Google API key": re.compile(r"\bAIza[0-9A-Za-z_-]{35}\b"),
     "Slack token": re.compile(r"\bxox[abprs]-[0-9A-Za-z-]{10,}\b"),
-    "Anthropic/OpenAI key": re.compile(r"\bsk-(ant-)?[A-Za-z0-9_-]{32,}\b"),
+    "sk- style API key": re.compile(r"\bsk-(ant-)?[A-Za-z0-9_-]{32,}\b"),
     "Private key": re.compile(r"-----BEGIN (RSA |EC |OPENSSH |DSA |PGP )?PRIVATE KEY( BLOCK)?-----"),
     "Generic secret assignment": re.compile(
         r"(?i)\b(api[_-]?key|secret|passwd|password|access[_-]?token)\b\s*[:=]\s*['\"][A-Za-z0-9/+_\-]{16,}['\"]"

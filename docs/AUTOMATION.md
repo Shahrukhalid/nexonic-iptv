@@ -113,7 +113,9 @@ python scripts/moderate.py                  # screening of every record
 python scripts/verify.py --ids dw-english   # live checks (needs network; add --ffprobe if installed)
 python scripts/generate.py                  # playlists, reports, changes report, state snapshot
 python scripts/validate.py                  # schema, URL policy, M3U syntax, publication guard
-python scripts/generate.py --check          # outputs are up to date
+python scripts/generate.py --check          # outputs are up to date (on pull requests: deterministic and valid)
+python scripts/review.py list               # pending records; approve <id> / reject <id> --reason TEXT
+python scripts/verify.py --location-label asia-pk --only restricted   # second location, see REGIONAL_CHECKS.md
 pytest && ruff check . && ruff format --check .
 ```
 
@@ -138,3 +140,23 @@ It (1) makes "Refresh catalog" run daily at 01:41 UTC and download the iptv-org 
 does not cause a second verification run (the 03:17 run follows it), (4) adds the `guard_override` manual input and (5)
 prints `reports/changes.md` in the Summary step. Without the patch, discovery stays monthly and the change report is
 still produced and committed by the existing steps.
+
+## Pull request checks
+`python scripts/generate.py --check` is strict by default: it exits 1 when committed outputs differ from a fresh build.
+When `GITHUB_EVENT_NAME` is `pull_request` (the CI step for pull requests), the outputs are regenerated on `main` after
+the merge, so a data-only pull request would always fail that comparison. In that mode the check instead requires that
+generation succeeds, that two fresh builds into separate temporary directories are identical, and that the generated
+files pass the rules of `scripts/validate.py`. It prints every output that will change after the merge and does not
+fail for them.
+
+## Reviewing pending records
+`scripts/review.py list` shows the records in `data/pending`. `approve <id> [--reviewer NAME]` moves one to
+`data/approved/<cc>.yaml` (automated records to `data/approved/auto/<cc>.yaml`) and `reject <id> --reason TEXT` to
+`data/rejected/<cc>.yaml`. A record needs an authorization basis and a passed adult-content screening to be approved;
+state them with `--basis` and `--confirm-screening` after checking the evidence. Only the moved record's text changes
+in the files involved, the data is validated afterwards and the change is rolled back if that fails. Records suggested
+by visitors carry `source.method: community-suggestion` and are published only after a maintainer approves them.
+
+## Regional checks
+See [REGIONAL_CHECKS.md](REGIONAL_CHECKS.md) for second-location verification (`state/regional/`, `works_in`,
+`playlists/regions/`).

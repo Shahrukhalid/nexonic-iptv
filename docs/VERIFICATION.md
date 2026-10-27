@@ -46,7 +46,9 @@ isolated GitHub-hosted runner with no secrets.
 
 ## Location caveat
 GitHub-hosted runners are mostly in the United States. A `GEO_RESTRICTED` or `UNKNOWN` (403) result for a channel
-intended for another country is expected and is excluded from the Health Score.
+intended for another country is expected and is excluded from the Health Score. A second location can re-check those channels; see
+[REGIONAL_CHECKS.md](REGIONAL_CHECKS.md). Its results are kept apart from `state/history.json` and only add `works_in`
+to a channel that stays `restricted`.
 
 ## Nexonic Health Score
 Computed by `nexonic/health.py` from results in the last 14 days, excluding neutral outcomes

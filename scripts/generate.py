@@ -3,12 +3,19 @@
 
 python scripts/generate.py           # write outputs
 python scripts/generate.py --check   # exit 1 if committed outputs are out of date (used in CI)
+
+With GITHUB_EVENT_NAME=pull_request, --check is lenient about stale committed outputs: they are regenerated on main
+after a merge (Generate playlists workflow). It then verifies that generation succeeds, is deterministic (two fresh
+builds are identical) and passes the validation rules, and lists the outputs that will change after the merge.
 """
 
 from __future__ import annotations
 
 import argparse
+import contextlib
+import io
 import json
+import os
 import shutil
 import sys
 import tempfile
@@ -16,7 +23,8 @@ from pathlib import Path
 
 import _bootstrap  # noqa: F401
 
-from nexonic import changes, config, generate, reports
+from nexonic import changes, config, generate, reports, validation
+from nexonic import regional as regional_mod
 from nexonic.records import ROOT, load_history, load_records
 
 OUTPUTS = [
@@ -30,6 +38,8 @@ OUTPUTS = [
     "reports/changes.json",
     "reports/changes.md",
 ]
+# Written by the same build; compared only for determinism (they are committed by the verification workflow).
+STATE_OUTPUTS = ["state/lifecycle.json", "state/change-history.json"]
 
 
 def build(root: Path) -> int:
@@ -40,6 +50,11 @@ def build(root: Path) -> int:
         return 2
     history = load_history()
     cfg = config.load_pipeline()
+    try:
+        regional = regional_mod.load_all(ROOT / "state" / "regional")
+    except regional_mod.RegionalError as exc:
+        print(f"ERROR {exc}", file=sys.stderr)
+        return 2
     state_in, state_out = ROOT / "state", root / "state"
     state = changes.load_state(state_in / changes.SNAPSHOT_FILE)
     restored = {
@@ -47,7 +62,7 @@ def build(root: Path) -> int:
         for cid, e in ((state.get("current") or {}).get("channels") or {}).items()
         if e.get("restored_at")
     }
-    plan = generate.plan(records, history, cfg.quarantine, restored)
+    plan = generate.plan(records, history, cfg.quarantine, restored, regional)
     current = changes.build_snapshot(records, plan, state.get("current"))
     plan.last_metadata_update = {
         cid: e["meta_changed_at"] for cid, e in current["channels"].items() if "meta_changed_at" in e
@@ -88,9 +103,9 @@ def build(root: Path) -> int:
     return 0
 
 
-def _snapshot(root: Path) -> dict[str, bytes]:
+def _snapshot(root: Path, items: list[str] = OUTPUTS) -> dict[str, bytes]:
     out = {}
-    for item in OUTPUTS:
+    for item in items:
         p = root / item
         files = sorted(p.rglob("*")) if p.is_dir() else [p]
         for f in files:
@@ -99,22 +114,75 @@ def _snapshot(root: Path) -> dict[str, bytes]:
     return out
 
 
+def _fresh_build(tmp_root: Path, quiet: bool = False) -> int:
+    (tmp_root / "reports").mkdir(parents=True, exist_ok=True)
+    if (ROOT / "playlists").exists():
+        shutil.copytree(ROOT / "playlists", tmp_root / "playlists", dirs_exist_ok=True)
+    if quiet:
+        with contextlib.redirect_stdout(io.StringIO()):
+            return build(tmp_root)
+    return build(tmp_root)
+
+
+def _differences(fresh: dict[str, bytes], committed: dict[str, bytes]) -> list[str]:
+    return sorted(k for k in fresh.keys() | committed.keys() if fresh.get(k) != committed.get(k))
+
+
+def check_pull_request() -> int:
+    """Pull request mode: generation must work, be deterministic and valid; stale committed outputs are only listed."""
+    with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
+        first, second = Path(a), Path(b)
+        rc = _fresh_build(first)
+        if rc:
+            return rc
+        rc = _fresh_build(second, quiet=True)
+        if rc:
+            return rc
+        both = OUTPUTS + STATE_OUTPUTS
+        unstable = _differences(_snapshot(first, both), _snapshot(second, both))
+        if unstable:
+            print("Generation is not deterministic: two builds of the same inputs differ.", file=sys.stderr)
+            for d in unstable:
+                print(f"  {d}", file=sys.stderr)
+            return 1
+        report = validation.collect(first)
+        for e in report["errors"]:
+            print(f"ERROR {e}", file=sys.stderr)
+        for w in report["warnings"][:5]:
+            print(f"WARNING {w}")
+        if len(report["warnings"]) > 5:
+            print(f"... and {len(report['warnings']) - 5} more warning(s); run scripts/validate.py for the full list.")
+        if report["errors"]:
+            print(f"Validation of the generated outputs failed ({len(report['errors'])} error(s)).", file=sys.stderr)
+            return 1
+        stale = _differences(_snapshot(first), _snapshot(ROOT))
+    print("Generation succeeded, is deterministic and passes the validation rules.")
+    if stale:
+        print(
+            "Pull request mode: these committed outputs differ from a fresh build. They are regenerated on main "
+            "after the merge (Generate playlists workflow), so this does not fail the check:"
+        )
+        for d in stale:
+            print(f"  will change after merge: {d}")
+    else:
+        print("Committed outputs already match a fresh build; nothing will change after the merge.")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__)
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--check", action="store_true")
     args = ap.parse_args(argv)
     if not args.check:
         return build(ROOT)
+    if os.environ.get("GITHUB_EVENT_NAME") == "pull_request":
+        return check_pull_request()
     with tempfile.TemporaryDirectory() as tmp:
         tmp_root = Path(tmp)
-        (tmp_root / "reports").mkdir()
-        if (ROOT / "playlists").exists():
-            shutil.copytree(ROOT / "playlists", tmp_root / "playlists")
-        rc = build(tmp_root)
+        rc = _fresh_build(tmp_root)
         if rc:
             return rc
-        fresh, committed = _snapshot(tmp_root), _snapshot(ROOT)
-        diff = sorted(k for k in fresh.keys() | committed.keys() if fresh.get(k) != committed.get(k))
+        diff = _differences(_snapshot(tmp_root), _snapshot(ROOT))
         if diff:
             print("Generated outputs are out of date. Run: python scripts/generate.py", file=sys.stderr)
             for d in diff:
