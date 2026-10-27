@@ -1,0 +1,36 @@
+# Candidates awaiting review for MD. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tvr-moldova
+  name: TVR Moldova
+  broadcaster: Televiziunea Română
+  country: md
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tvr.ro/
+    evidence_summary: 'Pending: TVR channel for Moldova; need a TVR page that plays this stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRMoldova.md
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: TVR channel for Moldova; need a TVR page that plays this stream.'
+    rejection_reason: ''
