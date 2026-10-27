@@ -725,3 +725,9 @@ Results describe reachability **from the checker's network location at that time
 | ZFM Zoetermeer TV | `UNAVAILABLE` | 2 | 404 | 647 ms | 2026-10-27T09:01:12Z | HTTP 404 (stream not found) |
 | ZillarBarta News | `VERIFIED_WORKING` | 5 | 200 | 1061 ms | 2026-10-27T09:03:16Z | 720p |
 | Zitata TV | `VERIFIED_WORKING` | 5 | 200 | 566 ms | 2026-10-27T09:01:02Z |  |
+
+## Changes since the previous run
+
+Baseline snapshot created; changes are reported from the next verification run on.
+
+Published 545 · verified playlist 460 · quarantined 147 · pending authorization 55 · integrity OK. Details: `reports/changes.md`.

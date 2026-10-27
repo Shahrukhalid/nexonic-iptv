@@ -1,17 +1,17 @@
 {
   "reference_time": "2026-10-27T09:05:07Z",
   "records": {
-    "approved": 705,
-    "pending": 23,
+    "approved": 740,
+    "pending": 55,
     "rejected": 6
   },
-  "published_channels": 510,
+  "published_channels": 545,
   "excluded_approved": 195,
-  "countries": 94,
-  "languages": 64,
+  "countries": 95,
+  "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 451,
-  "playlist_files": 175,
+  "verified_playlist_channels": 460,
+  "playlist_files": 177,
   "latest_run": {
     "run_id": "run-20261027T085853Z",
     "started_at": "2026-10-27T08:58:53Z",
@@ -44,6 +44,7 @@
   "display_status_counts": {
     "currently-failing": 8,
     "geo-restricted": 28,
+    "not-tested": 35,
     "previously-working": 17,
     "unknown": 6,
     "verified-recently": 451
@@ -167,7 +168,7 @@
     "de": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "channels": 20
+      "channels": 33
     },
     "dk": {
       "name": "Denmark",
@@ -192,7 +193,7 @@
     "es": {
       "name": "Spain",
       "flag": "🇪🇸",
-      "channels": 28
+      "channels": 30
     },
     "fi": {
       "name": "Finland",
@@ -233,6 +234,11 @@
       "name": "Guyana",
       "flag": "🇬🇾",
       "channels": 1
+    },
+    "hk": {
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "channels": 2
     },
     "hn": {
       "name": "Honduras",
@@ -277,7 +283,7 @@
     "it": {
       "name": "Italy",
       "flag": "🇮🇹",
-      "channels": 7
+      "channels": 15
     },
     "jp": {
       "name": "Japan",
@@ -292,7 +298,7 @@
     "kr": {
       "name": "South Korea",
       "flag": "🇰🇷",
-      "channels": 14
+      "channels": 16
     },
     "kz": {
       "name": "Kazakhstan",
@@ -377,7 +383,7 @@
     "nl": {
       "name": "Netherlands",
       "flag": "🇳🇱",
-      "channels": 9
+      "channels": 10
     },
     "no": {
       "name": "Norway",
@@ -422,7 +428,7 @@
     "ro": {
       "name": "Romania",
       "flag": "🇷🇴",
-      "channels": 14
+      "channels": 19
     },
     "rs": {
       "name": "Serbia",
@@ -472,7 +478,7 @@
     "tr": {
       "name": "Turkiye",
       "flag": "🇹🇷",
-      "channels": 23
+      "channels": 24
     },
     "tt": {
       "name": "Trinidad and Tobago",
@@ -492,7 +498,7 @@
     "uk": {
       "name": "United Kingdom",
       "flag": "🇬🇧",
-      "channels": 6
+      "channels": 7
     },
     "us": {
       "name": "United States",
@@ -557,13 +563,17 @@
       "name": "Czech",
       "channels": 3
     },
+    "cy": {
+      "name": "Welsh",
+      "channels": 1
+    },
     "da": {
       "name": "Danish",
       "channels": 1
     },
     "de": {
       "name": "German",
-      "channels": 25
+      "channels": 38
     },
     "el": {
       "name": "Greek",
@@ -571,11 +581,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 135
+      "channels": 137
     },
     "es": {
       "name": "Spanish",
-      "channels": 70
+      "channels": 72
     },
     "et": {
       "name": "Estonian",
@@ -619,7 +629,7 @@
     },
     "it": {
       "name": "Italian",
-      "channels": 6
+      "channels": 14
     },
     "ka": {
       "name": "Georgian",
@@ -639,7 +649,7 @@
     },
     "ko": {
       "name": "Korean",
-      "channels": 13
+      "channels": 15
     },
     "ku": {
       "name": "Kurdish",
@@ -679,7 +689,7 @@
     },
     "nl": {
       "name": "Dutch",
-      "channels": 9
+      "channels": 10
     },
     "no": {
       "name": "Norwegian",
@@ -707,7 +717,7 @@
     },
     "ro": {
       "name": "Romanian",
-      "channels": 20
+      "channels": 25
     },
     "ru": {
       "name": "Russian",
@@ -751,7 +761,7 @@
     },
     "tr": {
       "name": "Turkish",
-      "channels": 20
+      "channels": 21
     },
     "uk": {
       "name": "Ukrainian",
@@ -775,7 +785,7 @@
     },
     "zh": {
       "name": "Chinese",
-      "channels": 15
+      "channels": 17
     }
   },
   "per_category": {
@@ -785,7 +795,7 @@
     },
     "culture": {
       "name": "Culture",
-      "channels": 25
+      "channels": 27
     },
     "documentary": {
       "name": "Documentary",
@@ -793,19 +803,19 @@
     },
     "education": {
       "name": "Education",
-      "channels": 38
+      "channels": 41
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 33
+      "channels": 35
     },
     "general": {
       "name": "General",
-      "channels": 177
+      "channels": 201
     },
     "kids": {
       "name": "Kids",
-      "channels": 19
+      "channels": 20
     },
     "legislative": {
       "name": "Legislative",
@@ -817,7 +827,7 @@
     },
     "movies": {
       "name": "Movies",
-      "channels": 13
+      "channels": 14
     },
     "music": {
       "name": "Music",
@@ -825,7 +835,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 94
+      "channels": 96
     },
     "series": {
       "name": "Series",
@@ -833,7 +843,7 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 12
+      "channels": 13
     },
     "weather": {
       "name": "Weather",

@@ -83,12 +83,36 @@ https://stream.jc1.cz/hls/jc1.m3u8
 https://stream.polar.cz/polar/polarlive-1/playlist.m3u8
 #EXTINF:-1 tvg-id="BRFernsehen.de@Nord" tvg-name="BR Fernsehen" tvg-country="DE" tvg-language="German" group-title="Germany",BR Fernsehen
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
+#EXTINF:-1 tvg-name="BR Fernsehen Süd" tvg-country="DE" tvg-language="German" group-title="Germany",BR Fernsehen Süd
+https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="DasErste.de@HD" tvg-name="Das Erste" tvg-country="DE" tvg-language="German" group-title="Germany",Das Erste
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-name="MDR Sachsen" tvg-country="DE" tvg-language="German" group-title="Germany",MDR Sachsen
+https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
+#EXTINF:-1 tvg-name="MDR Sachsen-Anhalt" tvg-country="DE" tvg-language="German" group-title="Germany",MDR Sachsen-Anhalt
+https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8
+#EXTINF:-1 tvg-name="MDR Thüringen" tvg-country="DE" tvg-language="German" group-title="Germany",MDR Thüringen
+https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehen.de@Hamburg" tvg-name="NDR Fernsehen" tvg-country="DE" tvg-language="German" group-title="Germany",NDR Fernsehen
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-name="NDR Fernsehen Mecklenburg-Vorpommern" tvg-country="DE" tvg-language="German" group-title="Germany",NDR Fernsehen Mecklenburg-Vorpommern
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
+#EXTINF:-1 tvg-name="NDR Fernsehen Niedersachsen" tvg-country="DE" tvg-language="German" group-title="Germany",NDR Fernsehen Niedersachsen
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+#EXTINF:-1 tvg-name="NDR Fernsehen Schleswig-Holstein" tvg-country="DE" tvg-language="German" group-title="Germany",NDR Fernsehen Schleswig-Holstein
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
 #EXTINF:-1 tvg-id="OKKiel.de@SD" tvg-name="OK Kiel" tvg-country="DE" tvg-language="German" group-title="Germany",OK Kiel
 https://live-cdn.oksh.de/play/hls/kieltv/index.m3u8
+#EXTINF:-1 tvg-name="rbb Fernsehen Berlin" tvg-country="DE" tvg-language="German" group-title="Germany",rbb Fernsehen Berlin
+https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8
+#EXTINF:-1 tvg-name="rbb Fernsehen Brandenburg" tvg-country="DE" tvg-language="German" group-title="Germany",rbb Fernsehen Brandenburg
+https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8
+#EXTINF:-1 tvg-id="SWRFernsehenBadenWurttemberg.de" tvg-name="SWR Fernsehen Baden-Württemberg" tvg-country="DE" tvg-language="German" group-title="Germany",SWR Fernsehen Baden-Württemberg
+https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8
+#EXTINF:-1 tvg-id="SWRFernsehenRheinlandPfalz.de" tvg-name="SWR Fernsehen Rheinland-Pfalz" tvg-country="DE" tvg-language="German" group-title="Germany",SWR Fernsehen Rheinland-Pfalz
+https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
+#EXTINF:-1 tvg-name="WDR Fernsehen" tvg-country="DE" tvg-language="German" group-title="Germany",WDR Fernsehen
+https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
 #EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-country="DE" tvg-language="Turkish" group-title="Germany",YOL TV
 https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ZDF.de@SD" tvg-name="ZDF" tvg-country="DE" tvg-language="German" group-title="Germany",ZDF
@@ -119,8 +143,12 @@ https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-id="La1.es@SD" tvg-name="La 1" tvg-country="ES" tvg-language="Spanish" group-title="Spain",La 1
 https://rtvelivestream.rtve.es/rtvesec/la1/la1_main.m3u8
+#EXTINF:-1 tvg-id="LaOtra.es" tvg-name="La Otra" tvg-country="ES" tvg-language="Spanish" group-title="Spain",La Otra
+https://laotra-1-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tele Elx
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
+#EXTINF:-1 tvg-id="Telemadrid.es" tvg-name="Telemadrid" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Telemadrid
+https://telemadrid-23-secure2.akamaized.net/master.m3u8
 #EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tito TV
 https://cloud.tvomix.com/TITOTV/index.m3u8
 #EXTINF:-1 tvg-id="TV3.es@SD" tvg-name="TV3" tvg-country="ES" tvg-language="Catalan" group-title="Spain",TV3
@@ -141,6 +169,10 @@ https://player.qtv.gm/hls/live.stream.m3u8
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+#EXTINF:-1 tvg-id="RTHKTV32.hk" tvg-name="RTHK TV 32" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 32
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
 #EXTINF:-1 tvg-id="Teleceiba.hn@SD" tvg-name="Teleceiba" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Teleceiba
 https://teleceiba.com/stream/tlcb720.m3u8
 #EXTINF:-1 tvg-id="CityTV.hu@SD" tvg-name="City TV" tvg-country="HU" tvg-language="Hungarian" group-title="Hungary",City TV
@@ -157,12 +189,16 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 https://hls.thendraltv.in/thendraltv_1210b43d/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Rai2.it" tvg-name="Rai 2" tvg-country="IT" tvg-language="Italian" group-title="Italy",Rai 2
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
 #EXTINF:-1 tvg-id="TeleMia.it@SD" tvg-name="TeleMia" tvg-country="IT" tvg-language="Italian" group-title="Italy",TeleMia
 https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
 #EXTINF:-1 tvg-id="TeleMiaExtra.it@SD" tvg-name="TeleMia Extra" tvg-country="IT" tvg-language="Italian" group-title="Italy",TeleMia Extra
 https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8
 #EXTINF:-1 tvg-id="Teleromagna.it@SD" tvg-name="Teleromagna" tvg-country="IT" tvg-language="Italian" group-title="Italy",Teleromagna
 https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8
+#EXTINF:-1 tvg-name="TV2000" tvg-country="IT" tvg-language="Italian" group-title="Italy",TV2000
+https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-name="ABN" tvg-country="KR" tvg-language="Korean" group-title="South Korea",ABN
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-name="Arirang TV" tvg-country="KR" tvg-language="English" group-title="South Korea",Arirang TV
@@ -223,6 +259,8 @@ https://stream.a1mediagroep.nl/hls/a1tv.m3u8
 https://stream.radio350.nl/hls/radio350.m3u8
 #EXTINF:-1 tvg-id="RTVDrenthe.nl@SD" tvg-name="RTV Drenthe" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
+#EXTINF:-1 tvg-id="RTVNoord.nl" tvg-name="RTV Noord" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",RTV Noord
+https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRain.nl@SD" tvg-name="TV Rain" tvg-country="NL" tvg-language="Russian" group-title="Netherlands",TV Rain
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Frikanalen.no@SD" tvg-name="Frikanalen" tvg-country="NO" tvg-language="Norwegian" group-title="Norway",Frikanalen
@@ -259,6 +297,14 @@ https://live.nasul.tv/live/stream.m3u8
 https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-name="Tele7ABC HD" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Tele7ABC HD
 https://live.tele7abc.ro/hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="TVR1.ro" tvg-name="TVR 1" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR 1
+https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVR2.ro" tvg-name="TVR 2" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR 2
+https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVR3.ro" tvg-name="TVR 3" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR 3
+https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-name="TVR International" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR International
+https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVNoviPazar.rs@SD" tvg-name="RTV Novi Pazar" tvg-country="RS" tvg-language="Serbian" group-title="Serbia",RTV Novi Pazar
 https://tv.rtvnp.rs/stream.m3u8
 #EXTINF:-1 tvg-id="86.ru@SD" tvg-name="86" tvg-country="RU" tvg-language="Russian" group-title="Russia",86
@@ -315,6 +361,8 @@ https://stream.rai.ua/rai/stream.m3u8
 https://bbstv.ug/hls/ch01/index.m3u8
 #EXTINF:-1 tvg-id="AnandTV.uk@SD" tvg-name="Anand TV" tvg-country="UK" tvg-language="Malayalam" group-title="United Kingdom",Anand TV
 https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
+#EXTINF:-1 tvg-id="S4C.uk" tvg-name="S4C" tvg-country="UK" tvg-language="Welsh;English" group-title="United Kingdom",S4C
+https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk@SD" tvg-name="Sheffield Live TV" tvg-country="UK" tvg-language="English" group-title="United Kingdom",Sheffield Live TV
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us@SD" tvg-name="Gillette Public Access Television Channel 190" tvg-country="US" tvg-language="English" group-title="United States",Gillette Public Access Television Channel 190
