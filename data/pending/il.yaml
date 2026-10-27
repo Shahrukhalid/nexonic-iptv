@@ -1,0 +1,36 @@
+# Candidates awaiting review for IL. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: kan-11
+  name: Kan 11
+  broadcaster: Kan
+  country: il
+  languages:
+  - he
+  categories:
+  - general
+  website: https://www.kan.org.il
+  stream:
+    url: https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.kan.org.il/live/
+    evidence_summary: 'Pending: Israeli public broadcaster; stream host is a third-party CDN, not documented as Kan-provisioned.'
+    evidence_checked: null
+    notes: ''
+  epg_id: Kan11.il
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: Israeli public broadcaster; stream host is a third-party CDN, not documented as Kan-provisioned.'
+    rejection_reason: ''

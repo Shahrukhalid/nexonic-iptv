@@ -29,7 +29,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -63,7 +63,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -97,7 +97,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -131,7 +131,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -166,7 +166,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -201,7 +201,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -236,7 +236,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -272,7 +272,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -310,7 +310,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -344,7 +344,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -379,7 +379,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-cdn-stream
     adult_screening: pass
@@ -451,6 +451,461 @@ channels:
     reviewer: "maintainer curation (web research; official live page and stream checked)"
     reviewed_at: '2026-10-17'
     authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: wdr-fernsehen
+  name: WDR Fernsehen
+  broadcaster: Westdeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.wdr.de
+  stream:
+    url: https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for WDR.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: mdr-sachsen
+  name: MDR Sachsen
+  broadcaster: Mitteldeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.mdr.de
+  stream:
+    url: https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for MDR.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: mdr-sachsen-anhalt
+  name: MDR Sachsen-Anhalt
+  broadcaster: Mitteldeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.mdr.de
+  stream:
+    url: https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for MDR.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: mdr-thueringen
+  name: MDR Thüringen
+  broadcaster: Mitteldeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.mdr.de
+  stream:
+    url: https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for MDR.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rbb-berlin
+  name: rbb Fernsehen Berlin
+  broadcaster: Rundfunk Berlin-Brandenburg
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.rbb-online.de
+  stream:
+    url: https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for rbb.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rbb-brandenburg
+  name: rbb Fernsehen Brandenburg
+  broadcaster: Rundfunk Berlin-Brandenburg
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.rbb-online.de
+  stream:
+    url: https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for rbb.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: swr-baden-wuerttemberg
+  name: SWR Fernsehen Baden-Württemberg
+  broadcaster: Südwestrundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.swr.de
+  stream:
+    url: https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for SWR.
+    evidence_checked: null
+    notes: ''
+  epg_id: SWRFernsehenBadenWurttemberg.de
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: swr-rheinland-pfalz
+  name: SWR Fernsehen Rheinland-Pfalz
+  broadcaster: Südwestrundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.swr.de
+  stream:
+    url: https://swrrpd-hls.akamaized.net/hls/live/2018676/swrrpd/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; CDN hostname named for SWR.
+    evidence_checked: null
+    notes: ''
+  epg_id: SWRFernsehenRheinlandPfalz.de
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: one-ard
+  name: ONE
+  broadcaster: ARD
+  country: de
+  languages:
+  - de
+  categories:
+  - entertainment
+  website: https://www.one.ard.de
+  stream:
+    url: https://mcdn-one.ard.de/ardone/hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ardmediathek.de/live
+    evidence_summary: German public broadcaster (ARD); ARD Mediathek live page; stream on ard.de.
+    evidence_checked: null
+    notes: ''
+  epg_id: One.de
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: ndr-mecklenburg-vorpommern
+  name: NDR Fernsehen Mecklenburg-Vorpommern
+  broadcaster: Norddeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.ndr.de
+  stream:
+    url: https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ndr.de/fernsehen/
+    evidence_summary: German public broadcaster (ARD); NDR television page; stream on ndr.de.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: ndr-niedersachsen
+  name: NDR Fernsehen Niedersachsen
+  broadcaster: Norddeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.ndr.de
+  stream:
+    url: https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ndr.de/fernsehen/
+    evidence_summary: German public broadcaster (ARD); NDR television page; stream on ndr.de.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: ndr-schleswig-holstein
+  name: NDR Fernsehen Schleswig-Holstein
+  broadcaster: Norddeutscher Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.ndr.de
+  stream:
+    url: https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ndr.de/fernsehen/
+    evidence_summary: German public broadcaster (ARD); NDR television page; stream on ndr.de.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: br-fernsehen-sued
+  name: BR Fernsehen Süd
+  broadcaster: Bayerischer Rundfunk
+  country: de
+  languages:
+  - de
+  categories:
+  - general
+  website: https://www.br.de
+  stream:
+    url: https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.br.de/br-fernsehen/index.html
+    evidence_summary: German public broadcaster (ARD); BR Fernsehen page; stream on br.de.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - de
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: ''
     rejection_reason: ''

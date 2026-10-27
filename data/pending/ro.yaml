@@ -1,0 +1,138 @@
+# Candidates awaiting review for RO. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tvr-cluj
+  name: TVR Cluj
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tvr.ro/
+    evidence_summary: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRCluj.ro
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    rejection_reason: ''
+- id: tvr-craiova
+  name: TVR Craiova
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tvr.ro/
+    evidence_summary: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRCraiova.ro
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    rejection_reason: ''
+- id: tvr-timisoara
+  name: TVR Timișoara
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tvr.ro/
+    evidence_summary: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRTimisoara.ro
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    rejection_reason: ''
+- id: tvr-targu-mures
+  name: TVR Târgu-Mureș
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tvr.ro/
+    evidence_summary: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRTarguMures.ro
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: TVR regional studio; need a TVR+ live page for this regional stream.'
+    rejection_reason: ''
