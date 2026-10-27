@@ -236,7 +236,7 @@ def build_report(
         "duplicates_excluded_total": dup_total,
         **{k: len(v) for k, v in lists.items()},
     }
-    return {
+    report = {
         "reference_time": current["reference_time"],
         "baseline_reference_time": base_ref,
         "baseline_available": baseline is not None,
@@ -252,6 +252,18 @@ def build_report(
         "lists": {k: _cap(v, cfg.max_listed) for k, v in lists.items()},
         "truncated": {k: len(v) - cfg.max_listed for k, v in lists.items() if len(v) > cfg.max_listed},
     }
+    if plan.regional:  # only present when another location has reported results
+        names = {c.id: c for c in plan.published}
+        elsewhere = [
+            {"id": cid, "name": names[cid].name, "country": names[cid].country, "works_in": labels}
+            for cid, labels in sorted(plan.works_in.items())
+        ]
+        counts["restricted_confirmed_elsewhere"] = len(elsewhere)
+        report["regional"] = {
+            "locations": sorted(plan.regional),
+            "restricted_confirmed_elsewhere": _cap(elsewhere, cfg.max_listed),
+        }
+    return report
 
 
 _TITLES = {
@@ -287,6 +299,12 @@ def summary_markdown(rep: dict) -> str:
         f"{'OK' if rep['integrity']['ok'] else 'FAILED'}. Details: `reports/changes.md`.",
         "",
     ]
+    if "regional" in rep:
+        lines += [
+            f"Restricted channels confirmed working elsewhere: {c['restricted_confirmed_elsewhere']} "
+            f"(locations: {', '.join(rep['regional']['locations'])}).",
+            "",
+        ]
     if rep["attention"]:
         lines += ["**Needs attention:**", ""] + [f"- {a}" for a in rep["attention"]] + [""]
     return "\n".join(lines)
@@ -315,6 +333,8 @@ def to_markdown(rep: dict, rows: int = 25) -> str:
     ]
     if rep["baseline_available"]:
         lines += [f"| {_TITLES[k]} | {c[k]} |" for k in LIST_KEYS]
+    if "regional" in rep:
+        lines += [f"| Restricted channels confirmed working elsewhere | {c['restricted_confirmed_elsewhere']} |"]
     lines += ["", "## Lifecycle of published channels", "", "| State | Channels |", "|---|---:|"]
     lines += [f"| {k} | {v} |" for k, v in rep["lifecycle_counts"].items()]
     lines += ["", "## Integrity", ""]
@@ -333,6 +353,24 @@ def to_markdown(rep: dict, rows: int = 25) -> str:
     if rep["discovery"]:
         lines += ["", "## Discovery (latest catalogue refresh)", "", "| Outcome | Count |", "|---|---:|"]
         lines += [f"| {k} | {v} |" for k, v in sorted(rep["discovery"].items())]
+    if "regional" in rep:
+        total = rep["counts"]["restricted_confirmed_elsewhere"]
+        lines += [
+            "",
+            f"## Restricted channels confirmed working elsewhere ({total})",
+            "",
+            "Restricted from the main checker's location (lifecycle stays `restricted`, not in `verified.m3u`), but "
+            "verified working from the named location in the last 48 hours.",
+            "",
+        ]
+        if total:
+            lines += ["| Channel | Country | Works in |", "|---|---|---|"]
+            for it in rep["regional"]["restricted_confirmed_elsewhere"][:rows]:
+                lines.append(f"| {it['name']} (`{it['id']}`) | {it['country']} | {', '.join(it['works_in'])} |")
+            if total > rows:
+                lines.append(f"\n{total - rows} more in `reports/changes.json`.")
+        else:
+            lines.append("None at the moment.")
     for key in LIST_KEYS:
         items = rep["lists"][key]
         if not items:
