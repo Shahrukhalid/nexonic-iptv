@@ -11,10 +11,13 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from . import config, health, m3u
+from . import config, health, lifecycle, m3u
+from .config import QuarantineConfig
+from .dedup import identity_key, stream_key
+from .lifecycle import LifecycleInfo
 from .models import Channel
 from .moderation import publication_gate
-from .records import ROOT, LoadResult, normalise_url
+from .records import ROOT, LoadResult
 from .reference import CATEGORIES, LANGUAGES, countries
 from .status import CheckResult, Status
 from .timeutil import iso, parse_iso
@@ -32,6 +35,8 @@ class Plan:
     files: dict[str, str] = field(default_factory=dict)  # rel path -> content
     index: list[dict] = field(default_factory=list)
     health: dict[str, health.Health] = field(default_factory=dict)
+    lifecycle: dict[str, LifecycleInfo] = field(default_factory=dict)
+    last_metadata_update: dict[str, str] = field(default_factory=dict)  # channel id -> date, set by the caller
 
 
 def reference_time(history: dict[str, list[CheckResult]], ids: set[str]) -> dt.datetime | None:
@@ -60,7 +65,7 @@ def _render(channels: list[Channel], group_fn, title: str) -> str:
     seen_urls: set[str] = set()
     entries = []
     for ch in sorted(channels, key=sort_key):
-        u = normalise_url(ch.stream.url)
+        u = stream_key(ch.stream.url)
         if ch.id in seen_ids or u in seen_urls:
             continue  # duplicates within one playlist are never written
         seen_ids.add(ch.id)
@@ -69,31 +74,48 @@ def _render(channels: list[Channel], group_fn, title: str) -> str:
     return m3u.render(entries, {"x-nexonic-playlist": title})
 
 
-def plan(records: LoadResult, history: dict[str, list[CheckResult]]) -> Plan:
+def plan(
+    records: LoadResult,
+    history: dict[str, list[CheckResult]],
+    quarantine: QuarantineConfig | None = None,
+    previous_restored: dict[str, str] | None = None,
+) -> Plan:
+    quarantine = quarantine or config.load_pipeline().quarantine
+    previous_restored = previous_restored or {}
     approved = records.approved
     ref = reference_time(history, {c.id for c in approved})
     p = Plan(reference=ref)
     cnames = countries()
 
-    seen_urls: dict[str, str] = {}
-    for ch in sorted(approved, key=sort_key):
+    seen_streams: dict[str, str] = {}
+    seen_idents: dict[tuple[str, str], str] = {}
+    # Curated records win over automated ones when two records describe the same stream or channel.
+    for ch in sorted(approved, key=lambda c: (c.automated, *sort_key(c))):
         ok, problems = publication_gate(ch)
         results = history.get(ch.id, [])
         p.health[ch.id] = health.compute(results, ref)
+        info = lifecycle.evaluate(results, ref, quarantine, previous_restored.get(ch.id))
+        p.lifecycle[ch.id] = info
         if ok and health.is_stale(results, ref):
             ok, problems = False, ["stale: failed its last 3+ checks and has not worked for 7+ days"]
         if ok and ch.automated and not any(r.status is Status.VERIFIED_WORKING for r in results):
             ok, problems = False, ["automated record awaiting its first successful live check"]
-        key = normalise_url(ch.stream.url)
-        if ok and key in seen_urls:
-            ok, problems = False, [f"duplicate stream URL of {seen_urls[key]}"]
+        skey, ikey = stream_key(ch.stream.url), identity_key(ch)
+        if ok and skey in seen_streams:
+            ok, problems = False, [f"duplicate stream URL of {seen_streams[skey]}"]
+        elif ok and ikey in seen_idents:
+            ok, problems = False, [f"duplicate channel identity of {seen_idents[ikey]}"]
         if not ok:
-            p.excluded.append({"id": ch.id, "name": ch.name, "reasons": problems})
+            p.excluded.append({"id": ch.id, "name": ch.name, "reasons": problems, "lifecycle": info.state.value})
             continue
-        seen_urls[key] = ch.id
+        seen_streams[skey] = ch.id
+        seen_idents[ikey] = ch.id
         p.published.append(ch)
-        if health.is_verified_fresh(results, ref):
+        if lifecycle.in_verified(results, ref, quarantine):
             p.verified_ids.add(ch.id)
+    order = {c.id: sort_key(c) for c in approved}
+    p.excluded.sort(key=lambda e: order[e["id"]])
+    p.published.sort(key=sort_key)
 
     def country_group(c: Channel) -> str:
         return cnames[c.country]["name"]
@@ -154,6 +176,7 @@ def channel_export(p: Plan) -> list[dict]:
     out = []
     for ch in sorted(p.published, key=sort_key):
         h = p.health[ch.id]
+        info = p.lifecycle[ch.id]
         out.append(
             {
                 "id": ch.id,
@@ -176,6 +199,21 @@ def channel_export(p: Plan) -> list[dict]:
                 "admission": "automated" if ch.automated else "curated",
                 "in_verified_playlist": ch.id in p.verified_ids,
                 "health": h.to_dict(),
+                "lifecycle": info.state.value,
+                "quarantined": info.quarantined,
+                "restored_at": info.restored_at,
+                "last_validated": info.last_validated,
+                "last_metadata_update": p.last_metadata_update.get(ch.id, ch.review.reviewed_at.isoformat()),
+                "provenance": {
+                    "source_reference": ch.source.reference_url,
+                    "evidence_url": ch.source.evidence_url,
+                    "evidence_summary": ch.source.evidence_summary,
+                    "evidence_checked": ch.source.evidence_checked.isoformat() if ch.source.evidence_checked else None,
+                    "discovery_method": ch.source.method,
+                    "first_discovered": ch.first_discovered.isoformat(),
+                    "authorization_basis": ch.review.authorization_basis.value,
+                    "reviewed_at": ch.review.reviewed_at.isoformat(),
+                },
             }
         )
     return out
