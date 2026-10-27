@@ -15,8 +15,10 @@ channels:
     quality: unknown
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtcg.me/
-    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_url: https://rtcg.me/tv/gledaj-tvcg-1.html
+    evidence_summary: 'Pending: rtcg.me/tv/gledaj-tvcg-1.html links its player at https://rtcg.spectar.tv/tvcg1.html, not
+      to the morescreens.com host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared
+      stream, that it is free without login, and whether it is geo-limited.'
     evidence_checked: null
     notes: ''
   epg_id: TVCG1.me
@@ -33,7 +35,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    notes: 'Pending: rtcg.me/tv/gledaj-tvcg-1.html links its player at https://rtcg.spectar.tv/tvcg1.html, not to the morescreens.com
+      host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared stream, that it
+      is free without login, and whether it is geo-limited.'
     rejection_reason: ''
 - id: tvcg-2
   name: TVCG 2
@@ -50,8 +54,10 @@ channels:
     quality: unknown
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtcg.me/
-    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_url: https://rtcg.me/tv/gledaj-tvcg-2.html
+    evidence_summary: 'Pending: rtcg.me/tv/gledaj-tvcg-2.html links its player at https://rtcg.spectar.tv/tvcg2.html, not
+      to the morescreens.com host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared
+      stream, that it is free without login, and whether it is geo-limited.'
     evidence_checked: null
     notes: ''
   epg_id: TVCG2.me
@@ -68,7 +74,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    notes: 'Pending: rtcg.me/tv/gledaj-tvcg-2.html links its player at https://rtcg.spectar.tv/tvcg2.html, not to the morescreens.com
+      host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared stream, that it
+      is free without login, and whether it is geo-limited.'
     rejection_reason: ''
 - id: tvcg-3
   name: TVCG 3
@@ -85,8 +93,10 @@ channels:
     quality: unknown
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtcg.me/
-    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_url: https://rtcg.me/tv/gledaj-tvcg3.html
+    evidence_summary: 'Pending: rtcg.me/tv/gledaj-tvcg3.html links its player at https://rtcg.spectar.tv/tvcg3.html, not to
+      the morescreens.com host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared
+      stream, that it is free without login, and whether it is geo-limited.'
     evidence_checked: null
     notes: ''
   epg_id: TVCG3.me
@@ -103,7 +113,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    notes: 'Pending: rtcg.me/tv/gledaj-tvcg3.html links its player at https://rtcg.spectar.tv/tvcg3.html, not to the morescreens.com
+      host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared stream, that it
+      is free without login, and whether it is geo-limited.'
     rejection_reason: ''
 - id: tvcg-mne
   name: TVCG MNE
@@ -120,8 +132,10 @@ channels:
     quality: unknown
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtcg.me/
-    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_url: https://rtcg.me/tv/gledaj-tvcgmne.html
+    evidence_summary: 'Pending: rtcg.me/tv/gledaj-tvcgmne.html links its player at https://rtcg.spectar.tv/tvcgmne.html, not
+      to the morescreens.com host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared
+      stream, that it is free without login, and whether it is geo-limited.'
     evidence_checked: null
     notes: ''
   epg_id: TVCGMNE.me
@@ -137,5 +151,7 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    notes: 'Pending: rtcg.me/tv/gledaj-tvcgmne.html links its player at https://rtcg.spectar.tv/tvcgmne.html, not to the morescreens.com
+      host stored here. Maintainer must confirm the rtcg-live-open morescreens.com path is an RTCG-declared stream, that it
+      is free without login, and whether it is geo-limited.'
     rejection_reason: ''
