@@ -1,14 +1,14 @@
 {
-  "reference_time": "2026-10-27T09:05:07Z",
+  "reference_time": "2026-10-27T11:10:42Z",
   "baseline_reference_time": null,
   "baseline_available": false,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 545,
-    "verified_playlist": 460,
+    "verified_playlist": 479,
     "excluded": 195,
     "pending_authorization": 55,
-    "quarantined": 147,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
@@ -20,25 +20,25 @@
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 85,
-    "restricted": 28,
-    "unknown": 40,
-    "unreachable": 9,
-    "working": 383
+    "intermittent": 81,
+    "restricted": 43,
+    "unknown": 6,
+    "unreachable": 17,
+    "working": 398
   },
   "latest_run": {
-    "run_id": "run-20261027T085853Z",
-    "started_at": "2026-10-27T08:58:53Z",
-    "finished_at": "2026-10-27T09:05:07Z",
+    "run_id": "run-20261027T110427Z",
+    "started_at": "2026-10-27T11:04:27Z",
+    "finished_at": "2026-10-27T11:10:42Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 705,
+    "checked": 740,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 46,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 8,
-      "TIMEOUT": 31,
-      "UNAVAILABLE": 123,
-      "UNKNOWN": 43,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 137,
+      "UNKNOWN": 50,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 451
     }
