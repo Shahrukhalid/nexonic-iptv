@@ -28,7 +28,7 @@ def stream_key(url: str) -> str:
 def fold_name(name: str) -> str:
     t = unicodedata.normalize("NFKD", name)
     t = "".join(c for c in t if not unicodedata.combining(c)).casefold()
-    return re.sub(r"[^a-z0-9+\u0080-￿]+", "", t)
+    return re.sub(r"[^a-z0-9+\x80-\U0010ffff]+", "", t)
 
 
 def identity_key(ch: Channel) -> tuple[str, str]:
