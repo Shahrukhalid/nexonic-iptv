@@ -9,15 +9,15 @@
       "verified": 479
     },
     "current": {
-      "published": 545,
+      "published": 547,
       "verified": 479
     },
     "violations": []
   },
   "records": {
-    "approved": 740,
-    "pending": 55,
-    "rejected": 6
+    "approved": 742,
+    "pending": 43,
+    "rejected": 16
   },
   "playlist_files_checked": 177,
   "errors": [],
@@ -434,6 +434,11 @@
     },
     {
       "stage": "provenance",
+      "id": "vouli-tv",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
       "id": "rthk-tv-31",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
@@ -560,6 +565,11 @@
     {
       "stage": "provenance",
       "id": "canal-once",
+      "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
+    },
+    {
+      "stage": "provenance",
+      "id": "capital-21-mx",
       "warning": "evidence_url not yet confirmed by a maintainer (source.evidence_checked)"
     },
     {
