@@ -84,3 +84,23 @@ def test_repository_data_is_valid():
     res = load_records()
     assert res.errors == []
     assert len(res.approved) > 0
+
+
+def test_community_suggestion_method_validates(record):
+    pending = record(**{"source.method": "community-suggestion"})
+    pending["review"].update(status="pending", authorization_basis="none", adult_screening="uncertain")
+    ch = Channel.model_validate(pending)
+    assert ch.source.method == "community-suggestion"
+    assert not ch.automated  # never treated as an automated admission
+
+
+def test_unknown_source_method_rejected(record):
+    with pytest.raises(ValidationError):
+        Channel.model_validate(record(**{"source.method": "scraped"}))
+
+
+def test_community_suggestion_in_pending_folder_loads(dataset, record):
+    pending = record(**{"source.method": "community-suggestion"})
+    pending["review"].update(status="pending", authorization_basis="none", adult_screening="uncertain")
+    res = load_records(dataset([], [pending]))
+    assert not res.errors and len(res.channels["pending"]) == 1
