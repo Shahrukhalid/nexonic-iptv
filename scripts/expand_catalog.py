@@ -17,6 +17,11 @@ The generator publishes an automated record only after it has passed at least on
 so nothing reaches a playlist on the strength of this script alone.
 
     python scripts/expand_catalog.py --streams DIR --database DIR [--extra-m3u FILE ...]
+    python scripts/expand_catalog.py            # no paths: downloads the iptv-org data over HTTPS (retries, backoff)
+
+Re-running on unchanged input rewrites nothing: records keep their ``first_discovered`` / ``reviewed_at`` dates, files
+are only written when their content changes, and ordering is stable. A summary of each run (no timestamps) is kept
+in state/discovery.json for the daily change report.
 """
 
 from __future__ import annotations
@@ -24,8 +29,10 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import json
 import re
 import sys
+import tempfile
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
@@ -35,9 +42,12 @@ import yaml
 
 import _bootstrap  # noqa: F401
 
+from nexonic.config import load_pipeline
+from nexonic.dedup import stream_key
+from nexonic.fetch import FetchError, fetch_iptv_org
 from nexonic.models import Channel
 from nexonic.moderation import Decision, screen
-from nexonic.records import DATA, load_records, normalise_url
+from nexonic.records import DATA, STATE, load_records
 from nexonic.reference import LANGUAGES, countries
 from nexonic.safety import check_url_policy
 
@@ -333,29 +343,75 @@ def resolution_rank(title: str) -> int:
     return int(m.group(1)) if m else 0
 
 
+def _write_if_changed(path: Path, text: str) -> bool:
+    if path.exists() and path.read_text(encoding="utf-8") == text:
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
+def _undated(ch: Channel) -> dict:
+    d = ch.model_dump(mode="json")
+    d.pop("first_discovered", None)
+    d["review"].pop("reviewed_at", None)
+    return d
+
+
+def _stabilise(rec: dict, prior: Channel | None) -> None:
+    """Keep the dates of an unchanged record so that re-running discovery produces no diff."""
+    if prior is None:
+        return
+    rec["first_discovered"] = prior.first_discovered.isoformat()
+    try:
+        same = _undated(Channel.model_validate(rec)) == _undated(prior)
+    except Exception:  # noqa: BLE001 - an invalid record is reported by the caller
+        return
+    if same:
+        rec["review"]["reviewed_at"] = prior.review.reviewed_at.isoformat()
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--streams", type=Path, required=True, help="directory with iptv-org/iptv streams/*.m3u")
-    ap.add_argument("--database", type=Path, required=True, help="directory with iptv-org/database data/*.csv")
+    ap.add_argument("--streams", type=Path, help="directory with iptv-org/iptv streams/*.m3u (default: download)")
+    ap.add_argument("--database", type=Path, help="directory with iptv-org/database data/*.csv (default: download)")
     ap.add_argument("--extra-m3u", type=Path, nargs="*", default=[], help="other M3U lists (tvg-id must match)")
     ap.add_argument("--date", default=dt.date.today().isoformat())
     args = ap.parse_args(argv)
+    if args.streams and args.database:
+        return run(args, args.streams, args.database)
+    cfg = load_pipeline().discovery
+    need = tuple(n for n, given in (("iptv", args.streams), ("database", args.database)) if not given)
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            got = fetch_iptv_org(cfg, Path(tmp), need)
+        except FetchError as exc:
+            print(f"Could not download the iptv-org data: {exc}", file=sys.stderr)
+            return 1
+        return run(args, args.streams or got["streams"], args.database or got["database"])
 
-    db = args.database
+
+def run(args, streams_dir: Path, database_dir: Path) -> int:
+    db = database_dir
     channels = {r["id"]: r for r in csv.DictReader((db / "channels.csv").open(encoding="utf-8"))}
     feeds = {(r["channel"], r["id"]): r for r in csv.DictReader((db / "feeds.csv").open(encoding="utf-8"))}
     main_feed = {r["channel"]: r for r in feeds.values() if r["is_main"] == "TRUE"}
     blocked = {r["channel"] for r in csv.DictReader((db / "blocklist.csv").open(encoding="utf-8"))}
 
     # The script regenerates data/approved/auto/ from scratch, so its own previous output is ignored here.
-    existing = [c for c in load_records().all() if not c.automated or c.review.status.value != "approved"]
+    loaded = load_records(DATA).all()
+    prior_auto = {c.id: c for c in loaded if c.automated and c.review.status.value == "approved"}
+    prior_quarantine = {
+        c.id: c for c in loaded if c.review.status.value == "pending" and c.review.notes[:11] == "Quarantined"
+    }
+    existing = [c for c in loaded if not c.automated or c.review.status.value != "approved"]
     existing = [c for c in existing if c.review.notes[:11] != "Quarantined"]
-    known_urls = {normalise_url(c.stream.url) for c in existing}
+    known_urls = {stream_key(c.stream.url) for c in existing}
     known_epg = {(c.epg_id or "").split("@")[0] for c in existing if c.epg_id}
     known_ids = {c.id for c in existing}
     known_names = {(c.country, c.name.casefold()) for c in existing}
 
-    sources = sorted(args.streams.glob("*.m3u")) + list(args.extra_m3u)
+    sources = sorted(streams_dir.glob("*.m3u")) + list(args.extra_m3u)
     candidates: dict[str, list] = defaultdict(list)
     stats = defaultdict(int)
     for src in sources:
@@ -440,11 +496,11 @@ def main(argv=None) -> int:
             )
 
         feed, title, url, why, srcname = max(items, key=rank)
-        if normalise_url(url) in known_urls or (country, ch["name"].casefold()) in known_names:
+        if stream_key(url) in known_urls or (country, ch["name"].casefold()) in known_names:
             stats["duplicate-of-existing"] += 1
             continue
         known_names.add((country, ch["name"].casefold()))
-        known_urls.add(normalise_url(url))
+        known_urls.add(stream_key(url))
         f = feeds.get((cid, feed)) or main_feed.get(cid) or {}
         langs = []
         for code in (f.get("languages") or "").split(";"):
@@ -517,35 +573,40 @@ def main(argv=None) -> int:
                 adult_screening="uncertain",
                 notes="Quarantined by moderation: " + "; ".join(res.reasons),
             )
+            _stabilise(rec, prior_quarantine.get(rid))
             pending.append(rec)
             stats["moderation-quarantine"] += 1
             continue
+        _stabilise(rec, prior_auto.get(rid))
         out_records[country].append(rec)
         stats["admitted"] += 1
 
     auto_dir = DATA / "approved" / "auto"
     auto_dir.mkdir(parents=True, exist_ok=True)
-    for old in auto_dir.glob("*.yaml"):
-        old.unlink()
     header = (
         "# Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live\n"
         "# check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.\n"
     )
     for cc, recs in sorted(out_records.items()):
         recs.sort(key=lambda r: (r["name"].casefold(), r["id"]))
-        (auto_dir / f"{cc}.yaml").write_text(
+        _write_if_changed(
+            auto_dir / f"{cc}.yaml",
             header + yaml.safe_dump({"channels": recs}, sort_keys=False, allow_unicode=True, width=120),
-            encoding="utf-8",
         )
+    for old in auto_dir.glob("*.yaml"):
+        if old.stem not in out_records:
+            old.unlink()
     qpath = DATA / "pending" / "auto-quarantine.yaml"
     if pending:
-        qpath.write_text(
+        _write_if_changed(
+            qpath,
             "# Automated candidates quarantined by moderation. Never published.\n"
             + yaml.safe_dump({"channels": pending}, sort_keys=False, allow_unicode=True, width=120),
-            encoding="utf-8",
         )
     elif qpath.exists():
         qpath.unlink()
+    summary = {"schema": 1, "stats": dict(sorted(stats.items())), "countries_with_admitted_channels": len(out_records)}
+    _write_if_changed(STATE / "discovery.json", json.dumps(summary, indent=1, sort_keys=True) + "\n")
     for k, v in sorted(stats.items()):
         print(f"{k:32} {v}")
     print(f"countries with admitted channels: {len(out_records)}")
