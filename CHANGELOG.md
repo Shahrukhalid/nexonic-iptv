@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+- Verifier: channels that share a stream host are now checked one at a time, so time spent waiting for a busy host
+  no longer counts against the 60 s per-channel limit (this could produce false `TIMEOUT` results for CDNs that host
+  many channels). DNS pre-check uses port 80 for `http://` URLs.
+- Reference data: a missing or malformed `countries.csv` now fails with a clear `ReferenceDataError`.
+- Website: Astro 5.18.2 -> 7.3.8 (fixes the npm audit advisories in Astro, esbuild, sharp and zod).
+- Deploy workflow: `pages: write` / `id-token: write` granted to the deploy job only.
+- LICENSE is the plain MIT text (so GitHub can detect it); the code/data licensing scope is in NOTICE.md.
+
 ## 1.1.0 — 2026-10-17
 - **49 new hand-curated channels** (now 116 manual records in 27 countries), each with the broadcaster's official
   free live page as evidence and a manifest-plus-segment stream check run from a browser outside the

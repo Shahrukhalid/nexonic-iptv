@@ -27,9 +27,11 @@
 `NOT_TESTED` is used when no check has run. Nothing is ever recorded as `VERIFIED_WORKING` without passing level 4.
 
 ## Politeness and resource limits
-- Global concurrency 6; one in-flight request per host and ≥1 s between requests to the same host.
+- Global concurrency 12 (`--concurrency`, max 16); one channel at a time per stream host, one in-flight request per
+  host and ≥1 s between requests to the same host. Waiting for a busy host does not count against the 60 s
+  per-channel limit.
 - Per channel at most 5 requests and 1 MiB. Segment reads use `Range`. No full broadcasts are downloaded or stored.
-- Retries: at most 2, exponential backoff with jitter, only for timeouts, connection errors, 429 and 5xx.
+- Retries: at most 1 per request, exponential backoff with jitter, only for timeouts, connection errors, 429 and 5xx.
 - Identifying user agent: `NexonicIPTV-Verifier/1.0 (+repo URL)`. No cookies, credentials or spoofed headers.
 - Daily schedule (one run per day) to respect broadcasters and GitHub Actions quotas.
 

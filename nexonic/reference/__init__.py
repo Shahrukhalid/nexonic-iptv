@@ -7,6 +7,32 @@ from functools import lru_cache
 from pathlib import Path
 
 _HERE = Path(__file__).resolve().parent
+_COUNTRY_COLUMNS = ("code", "name", "flag")
+
+
+class ReferenceDataError(RuntimeError):
+    """The bundled reference data is missing or malformed (a packaging or editing error, never user input)."""
+
+
+def load_countries(path: Path) -> dict[str, dict[str, str]]:
+    """Read a countries CSV. Fails loudly: a silently empty or partial table would mislabel every playlist."""
+    out: dict[str, dict[str, str]] = {}
+    try:
+        with open(path, encoding="utf-8", newline="") as fh:
+            reader = csv.DictReader(fh)
+            missing = [c for c in _COUNTRY_COLUMNS if c not in (reader.fieldnames or [])]
+            if missing:
+                raise ReferenceDataError(f"{path.name}: missing column(s) {', '.join(missing)}")
+            for n, row in enumerate(reader, start=2):
+                code, name = (row.get("code") or "").strip(), (row.get("name") or "").strip()
+                if not code or not name:
+                    raise ReferenceDataError(f"{path.name} line {n}: empty code or name")
+                out[code.lower()] = {"name": name, "flag": (row.get("flag") or "").strip()}
+    except FileNotFoundError as exc:
+        raise ReferenceDataError(f"reference data file not found: {path}") from exc
+    if not out:
+        raise ReferenceDataError(f"{path.name}: no country rows (truncated file?)")
+    return out
 
 
 @lru_cache(maxsize=1)
@@ -15,11 +41,7 @@ def countries() -> dict[str, dict[str, str]]:
 
     Data: iptv-org/database data/countries.csv (public domain).
     """
-    out: dict[str, dict[str, str]] = {}
-    with open(_HERE / "countries.csv", encoding="utf-8", newline="") as fh:
-        for row in csv.DictReader(fh):
-            out[row["code"].lower()] = {"name": row["name"], "flag": row["flag"]}
-    return out
+    return load_countries(_HERE / "countries.csv")
 
 
 # ISO 639-1 codes Nexonic supports. Extend this table when a new language is added.
