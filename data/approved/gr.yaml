@@ -68,3 +68,40 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: vouli-tv
+  name: Vouli TV
+  broadcaster: Hellenic Parliament
+  country: gr
+  languages:
+  - el
+  categories:
+  - legislative
+  website: https://www.hellenicparliament.gr
+  stream:
+    url: https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.hellenicparliament.gr/enimerosi/vouli-tileorasi
+    evidence_summary: The Hellenic Parliament's own TV page lists WebTV-1/2/3 with no login and points WebTV-1 to the player
+      on diavlos-cache.cnt.grnet.gr, described on the page as transmitted from the National Infrastructures for Research and
+      Technology (GRNET).
+    evidence_checked: null
+    notes: The stored playlist path (webtv-1b.sdp) was not directly confirmed against the player on the page.
+    method: manual
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
