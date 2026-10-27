@@ -16,8 +16,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.eitb.eus/es/television/
-    evidence_summary: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB1 must
-      be confirmed.'
+    evidence_summary: 'Pending: eitb.eus lists ETB1 On (https://etbon.eus/ch/etb-1on) as the live page, but it is script-driven
+      and shows no access terms. Maintainer must confirm ETB ON plays this multimedia.eitb.eus stream free, without login,
+      tokens or geo limits.'
     evidence_checked: null
     notes: ''
   epg_id: ETB1.es
@@ -33,7 +34,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB1 must be confirmed.'
+    notes: 'Pending: eitb.eus lists ETB1 On (https://etbon.eus/ch/etb-1on) as the live page, but it is script-driven and shows
+      no access terms. Maintainer must confirm ETB ON plays this multimedia.eitb.eus stream free, without login, tokens or
+      geo limits.'
     rejection_reason: ''
 - id: etb2
   name: ETB2
@@ -51,8 +54,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.eitb.eus/es/television/
-    evidence_summary: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB2 must
-      be confirmed.'
+    evidence_summary: 'Pending: eitb.eus lists ETB2 On (https://etbon.eus/ch/etb-2on) as the live page, but it is script-driven
+      and shows no access terms. Maintainer must confirm ETB ON plays this multimedia.eitb.eus stream free, without login,
+      tokens or geo limits.'
     evidence_checked: null
     notes: ''
   epg_id: ETB2.es
@@ -68,7 +72,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB2 must be confirmed.'
+    notes: 'Pending: eitb.eus lists ETB2 On (https://etbon.eus/ch/etb-2on) as the live page, but it is script-driven and shows
+      no access terms. Maintainer must confirm ETB ON plays this multimedia.eitb.eus stream free, without login, tokens or
+      geo limits.'
     rejection_reason: ''
 - id: aragon-tv
   name: Aragón TV
@@ -86,8 +92,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.cartv.es/
-    evidence_summary: 'Pending: regional public broadcaster; need the live page and confirmation that aranova.es is its declared
-      CDN.'
+    evidence_summary: 'Pending: cartv.es redirects to aragonplay.es/cartv, which links a Directos page (https://www.aragonplay.es/directos);
+      neither page showed the stream host or access terms. Maintainer must confirm the live page is free without login and
+      that aranova.es is the declared CDN.'
     evidence_checked: null
     notes: ''
   epg_id: AragonTV.es
@@ -103,7 +110,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: regional public broadcaster; need the live page and confirmation that aranova.es is its declared CDN.'
+    notes: 'Pending: cartv.es redirects to aragonplay.es/cartv, which links a Directos page (https://www.aragonplay.es/directos);
+      neither page showed the stream host or access terms. Maintainer must confirm the live page is free without login and
+      that aranova.es is the declared CDN.'
     rejection_reason: ''
 - id: tve-internacional-europa-asia
   name: TVE Internacional Europa-Asia
@@ -121,7 +130,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.rtve.es/play/
-    evidence_summary: 'Pending: host is on rtve.es but the exact RTVE Play live page for TVE Internacional must be confirmed.'
+    evidence_summary: 'Pending: rtve.es/play could not be opened during review (access blocked). Maintainer must confirm the
+      exact RTVE Play live page for TVE Internacional Europa-Asia and that it plays this rtve.es stream free, without login
+      or token.'
     evidence_checked: null
     notes: ''
   epg_id: null
@@ -137,5 +148,6 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: host is on rtve.es but the exact RTVE Play live page for TVE Internacional must be confirmed.'
+    notes: 'Pending: rtve.es/play could not be opened during review (access blocked). Maintainer must confirm the exact RTVE
+      Play live page for TVE Internacional Europa-Asia and that it plays this rtve.es stream free, without login or token.'
     rejection_reason: ''

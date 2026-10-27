@@ -16,7 +16,8 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.kan.org.il/live/
-    evidence_summary: 'Pending: Israeli public broadcaster; stream host is a third-party CDN, not documented as Kan-provisioned.'
+    evidence_summary: 'Pending: the kan.org.il live page could not be opened during review (request refused). Maintainer must
+      confirm it plays this stream, that medonecdn.net is Kan''s declared CDN, and whether it is limited to Israel.'
     evidence_checked: null
     notes: ''
   epg_id: Kan11.il
@@ -32,5 +33,6 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: Israeli public broadcaster; stream host is a third-party CDN, not documented as Kan-provisioned.'
+    notes: 'Pending: the kan.org.il live page could not be opened during review (request refused). Maintainer must confirm
+      it plays this stream, that medonecdn.net is Kan''s declared CDN, and whether it is limited to Israel.'
     rejection_reason: ''
