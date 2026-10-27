@@ -1,53 +1,52 @@
 {
-  "reference_time": "2026-10-26T09:02:12Z",
+  "reference_time": "2026-10-27T09:05:07Z",
   "records": {
     "approved": 705,
     "pending": 23,
     "rejected": 6
   },
-  "published_channels": 511,
-  "excluded_approved": 194,
+  "published_channels": 510,
+  "excluded_approved": 195,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 440,
+  "verified_playlist_channels": 451,
   "playlist_files": 175,
   "latest_run": {
-    "run_id": "run-20261026T085356Z",
-    "started_at": "2026-10-26T08:53:56Z",
-    "finished_at": "2026-10-26T09:02:12Z",
+    "run_id": "run-20261027T085853Z",
+    "started_at": "2026-10-27T08:58:53Z",
+    "finished_at": "2026-10-27T09:05:07Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 705,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 46,
-      "INVALID_STREAM": 7,
-      "RATE_LIMITED": 1,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 132,
-      "UNKNOWN": 46,
+      "INVALID_STREAM": 8,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 123,
+      "UNKNOWN": 43,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 440
+      "VERIFIED_WORKING": 451
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 440,
-    "UNAVAILABLE": 132,
+    "VERIFIED_WORKING": 451,
+    "UNAVAILABLE": 123,
     "GEO_RESTRICTED": 46,
     "AUTH_REQUIRED": 2,
-    "RATE_LIMITED": 1,
-    "TIMEOUT": 30,
-    "INVALID_STREAM": 7,
+    "RATE_LIMITED": 0,
+    "TIMEOUT": 31,
+    "INVALID_STREAM": 8,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 46,
+    "UNKNOWN": 43,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 13,
+    "currently-failing": 8,
     "geo-restricted": 28,
-    "previously-working": 24,
+    "previously-working": 17,
     "unknown": 6,
-    "verified-recently": 440
+    "verified-recently": 451
   },
   "per_country": {
     "ae": {
@@ -68,7 +67,7 @@
     "ar": {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "channels": 6
+      "channels": 5
     },
     "at": {
       "name": "Austria",
@@ -576,7 +575,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 71
+      "channels": 70
     },
     "et": {
       "name": "Estonian",
@@ -794,7 +793,7 @@
     },
     "education": {
       "name": "Education",
-      "channels": 39
+      "channels": 38
     },
     "entertainment": {
       "name": "Entertainment",
