@@ -100,7 +100,8 @@ privately ([SECURITY.md](SECURITY.md)). See [DISCLAIMER.md](DISCLAIMER.md) and [
 
 ## Attribution and licenses
 
-- Code: [MIT](LICENSE). Data, playlists and reports: [CC0 1.0](data/LICENSE).
+- Code: [MIT](LICENSE). Data, playlists, reports and verification history (`data/`, `playlists/`, `reports/`,
+  `state/`): [CC0 1.0](data/LICENSE). Scope table: [NOTICE.md](NOTICE.md#licensing-scope).
 - Channel IDs, country names/flags and NSFW blocklists: [iptv-org/database](https://github.com/iptv-org/database)
   (public domain). See [NOTICE.md](NOTICE.md).
 - Channel names and trademarks belong to their owners.

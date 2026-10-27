@@ -1,5 +1,16 @@
 # Notices and attribution
 
+## Licensing scope
+Nexonic IPTV is dual-licensed by content type:
+
+| What | Where | License |
+|---|---|---|
+| Source code, workflows and website source | everything not listed below | [MIT](LICENSE) |
+| Channel data, generated playlists, reports and verification history | `data/`, `playlists/`, `reports/`, `state/` | [CC0 1.0](data/LICENSE) (public-domain dedication) |
+
+Channel names and marks belong to their respective owners. GitHub's licence badge can only show one licence, so it
+shows MIT; the table above is authoritative.
+
 ## Third-party data
 | Data | Source | License | Used for |
 |---|---|---|---|
