@@ -1,0 +1,38 @@
+# Candidates awaiting review for DK. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: folketinget-tv
+  name: Folketinget TV
+  broadcaster: Folketinget
+  country: dk
+  languages:
+  - da
+  categories:
+  - legislative
+  website: https://www.ft.dk
+  stream:
+    url: https://cdnapi.kaltura.com/p/2158211/sp/327418300/playManifest/entryId/1_24gfa7qq/protocol/https/format/applehttp/a.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.ft.dk/da/aktuelt/tv-fra-folketinget/tv_kanalen_folketinget
+    evidence_summary: 'Pending: Folketinget live TV page exists; the stream is served from a Kaltura partner endpoint that
+      must be confirmed as the Parliament''s own.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVfromtheDanishParliament.dk
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: Folketinget live TV page exists; the stream is served from a Kaltura partner endpoint that must be confirmed
+      as the Parliament''s own.'
+    rejection_reason: ''
