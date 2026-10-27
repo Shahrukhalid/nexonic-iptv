@@ -34,8 +34,9 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
-    notes: 'Pending: Rai''s relinker URL carries a ''forceUserAgent'' parameter that selects a device profile. We must confirm
-      this is an accepted public access path and not a user-agent workaround before approval.'
+    notes: 'Pending: raiplay.it could not be opened during review (access blocked). The relinker URL carries forceUserAgent=rainet/4.0.5
+      and sibling Rai channels return HTTP 403 outside Italy. Maintainer must confirm RaiPlay plays this URL for any browser
+      without a forced user agent; if it only works with the forced profile, reject under source policy section 2.'
     rejection_reason: ''
 - id: rai-news-24
   name: Rai News 24
@@ -70,7 +71,8 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: the CloudFront distribution d3k8wzt41aflvx is not documented as Rai-operated. Ownership must be established.'
+    notes: 'Pending: raiplay.it could not be opened during review (access blocked) and the CloudFront distribution d3k8wzt41aflvx
+      is not documented as Rai-operated. Maintainer must establish ownership and the RaiPlay live page.'
     rejection_reason: ''
 - id: qatar-tv
   name: Qatar Television
@@ -104,7 +106,8 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: need an official page on a QMC domain that plays this stream.'
+    notes: 'Pending: no page on a QMC domain that plays this stream was found during review; QMC distributes through its own
+      app. Maintainer must find an official QMC web page offering this channel free without login.'
     rejection_reason: ''
 - id: cpac
   name: CPAC (English)
@@ -138,213 +141,8 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: CloudFront host with no documented CPAC ownership; URL taken from discovery only.'
-    rejection_reason: ''
-- id: rtp-1
-  name: RTP1
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - general
-  website: https://www.rtp.pt
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtp1
-    evidence_summary: Portugal's public broadcaster; host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTP1.pt@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
-    rejection_reason: ''
-- id: rtp-2
-  name: RTP2
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - culture
-  - kids
-  website: https://www.rtp.pt
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtp2
-    evidence_summary: Host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTP2.pt@SD
-  logo: null
-  geo:
-    restricted: true
-    regions:
-    - pt
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
-    rejection_reason: ''
-- id: rtp-noticias
-  name: RTP Notícias
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - news
-  website: https://www.rtp.pt/noticias/
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtpnoticias
-    evidence_summary: Host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTPNoticias.pt@HD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
-    rejection_reason: ''
-- id: rtp-memoria
-  name: RTP Memória
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - entertainment
-  website: https://www.rtp.pt
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtpmemoria
-    evidence_summary: Archive programming channel; host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTPMemoria.pt@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
-    rejection_reason: ''
-- id: rtp-mundo
-  name: RTP Mundo
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - general
-  website: https://www.rtp.pt
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtpinternacional
-    evidence_summary: International channel (formerly RTP Internacional); host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTPMundo.pt
-  logo: null
-  geo:
-    restricted: false
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
-    rejection_reason: ''
-- id: rtp-africa
-  name: RTP África
-  broadcaster: RTP
-  country: pt
-  languages:
-  - pt
-  categories:
-  - general
-  website: https://www.rtp.pt
-  stream:
-    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
-    evidence_url: https://www.rtp.pt/play/direto/rtpafrica
-    evidence_summary: Host rtp.pt.
-    evidence_checked: null
-    notes: ''
-  epg_id: RTPAfrica.pt@SD
-  logo: null
-  geo:
-    restricted: false
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: initial-curation (maintainer confirmation pending)
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: pass
-    notes: "RTP now serves its live streams only with signed, expiring URLs (tk= token) from rtp.pt/play; the untokenized URL returns HTTP 204. Tokenized URLs are not allowed by the source policy."
+    notes: 'Pending: cpac.ca shows no live stream information in the page content and the CloudFront host has no documented
+      CPAC ownership. Maintainer must find the CPAC live page and confirm the host is CPAC''s, free without login.'
     rejection_reason: ''
 - id: abc-news-live
   name: ABC News Live
@@ -378,7 +176,8 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: pass
-    notes: "Stored URL fails (variant playlist HTTP 404). The current official stream could not be confirmed from outside the US."
+    notes: 'Pending: stored URL fails (variant playlist HTTP 404) and abcnews.go.com/live now redirects to abcnews.com/live.
+      Maintainer must supply the current official stream URL and confirm it is free without a TV-provider sign-in.'
     rejection_reason: ''
 - id: cbs-news-24-7
   name: CBS News 24/7
@@ -412,5 +211,6 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: pass
-    notes: "Stored URL fails (segments HTTP 404). The current official stream could not be confirmed from outside the US."
+    notes: 'Pending: stored URL fails (segments HTTP 404); cbsnews.com/live describes CBS News 24/7 as free to watch but names
+      no stream host. Maintainer must supply the current official stream URL and confirm no login is needed.'
     rejection_reason: ''

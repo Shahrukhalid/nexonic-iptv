@@ -35,48 +35,9 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
-      [''love''] need manual review'
-    rejection_reason: ''
-- id: capital-21-mx
-  name: Capital 21
-  alt_names:
-  - XHCDM-TDT
-  broadcaster: Capital 21
-  country: mx
-  languages:
-  - es
-  categories:
-  - culture
-  - entertainment
-  website: https://www.capital21.cdmx.gob.mx/
-  stream:
-    url: https://video.cdmx.gob.mx/redes/stream.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/mx.m3u
-    evidence_url: https://www.capital21.cdmx.gob.mx/
-    evidence_summary: 'Automated owner-domain match: stream host video.cdmx.gob.mx is on the broadcaster''s domain cdmx.gob.mx.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: Not 24/7 according to iptv-org.
-    method: automated-domain-match
-  epg_id: Capital21.mx@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''21''] need manual review; broadcaster: ambiguous term(s)
-      [''21''] need manual review'
+    notes: 'Quarantine reviewed: name only matches the ambiguous term ''love''; the channel is rallycross and car programming
+      on 30a-tv.com. Maintainer must confirm the channel is in 30A TV''s free tier (the site also sells Premium) and that
+      the feeds/vidaa path is intended for public use.'
     rejection_reason: ''
 - id: detroit-channel-21-us
   name: Detroit Channel 21
@@ -113,8 +74,9 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''21''] need manual review; broadcaster: ambiguous term(s)
-      [''21''] need manual review'
+    notes: 'Quarantine reviewed: name only matches the ambiguous term ''21''. The evidence page and stream are both on the
+      third-party cablecast.tv platform, not a City of Detroit domain. Maintainer must confirm the platform is the channel
+      owner''s declared host.'
     rejection_reason: ''
 - id: love-tv-mk
   name: Love TV
@@ -151,8 +113,9 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
-      [''love''] need manual review'
+    notes: 'Quarantine reviewed: name only matches the ambiguous term ''love''. stream.nasatv.com.mk/lovetv shows only a player
+      placeholder, with no description of the operator or content. Maintainer must confirm the channel is a family-friendly
+      music channel before approval.'
     rejection_reason: ''
 - id: master-chefs-academy-tv-uk
   name: Master Chefs Academy TV
@@ -193,7 +156,9 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name ''أكاديمية ماستر شيف TV'' matches an NSFW-listed channel name in iptv-org/database'
+    notes: 'Quarantine reviewed: the NSFW-name match comes from the Arabic title. The live page embeds YouTube and says the
+      programme lineup is still to be announced. Maintainer must confirm the content is cooking-related and family-friendly
+      once programming is published.'
     rejection_reason: ''
 - id: ntk-tv-ua
   name: NTK TV
@@ -231,7 +196,10 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name ''TV'' matches an NSFW-listed channel name in iptv-org/database'
+    notes: 'Quarantine reviewed: ntktv.ua links a live broadcast page (https://www.ntktv.ua/web-camery/trkntk/) with no login
+      shown for viewing, the stream host stream.ntktv.ua is the broadcaster''s own domain, and the programming is regional
+      news. The only moderation hit is the name ''TV'' matching an NSFW-listed name in iptv-org/database, which the allowlist
+      cannot override. Maintainer must decide how to clear that name match, then approve as official-broadcaster-stream.'
     rejection_reason: ''
 - id: power-love-tr
   name: Power Love
@@ -268,47 +236,8 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''love''] need manual review; broadcaster: ambiguous term(s)
-      [''love''] need manual review'
-    rejection_reason: ''
-- id: radio-1-ru
-  name: Radio 1
-  alt_names:
-  - Радио 1
-  broadcaster: Radio 1
-  country: ru
-  languages:
-  - ru
-  categories:
-  - general
-  website: https://radio1.ru/
-  stream:
-    url: https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru.m3u
-    evidence_url: https://radio1.ru/
-    evidence_summary: 'Automated owner-domain match: stream host stream.radio1.ru is on the broadcaster''s domain radio1.ru.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: Radio1.ru@SD
-  logo: null
-  geo:
-    restricted: true
-    regions:
-    - ru
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: uncertain
-    notes: 'Quarantined by moderation: name ''Радио 1'' matches an NSFW-listed channel name in iptv-org/database'
+    notes: 'Quarantine reviewed: name only matches the ambiguous term ''love''. The evidence page is a radio listing with
+      no video live page. Maintainer must confirm a free video stream is offered without login before approval.'
     rejection_reason: ''
 - id: s1-ru
   name: S1
@@ -346,45 +275,10 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name ''С1'' matches an NSFW-listed channel name in iptv-org/database'
-    rejection_reason: ''
-- id: stingray-hot-country-ca
-  name: Stingray Hot Country
-  alt_names: []
-  broadcaster: Stingray Hot Country
-  country: ca
-  languages:
-  - en
-  categories:
-  - music
-  website: https://music.stingray.com/en/channels/008/hot-country
-  stream:
-    url: https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ca_stingray.m3u
-    evidence_url: https://music.stingray.com/en/channels/008/hot-country
-    evidence_summary: 'Automated owner-domain match: stream host lotus.stingray.com is on the broadcaster''s domain stingray.com.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: StingrayHotCountry.ca@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: pending
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: none
-    adult_screening: uncertain
-    notes: 'Quarantined by moderation: name: ambiguous term(s) [''hot''] need manual review; broadcaster: ambiguous term(s)
-      [''hot''] need manual review'
+    notes: 'Quarantine reviewed: sitv.ru has a live page (https://sitv.ru/efir/c1/) for the Surgut channel with no login shown,
+      the stream host sitv.ru is the broadcaster''s own domain, and the schedule is regional news and general programming
+      rated 12+ to 16+. The only moderation hit is the name matching an NSFW-listed name in iptv-org/database, which the allowlist
+      cannot override. Maintainer must decide how to clear that name match, then approve as official-broadcaster-stream.'
     rejection_reason: ''
 - id: vergina-tv-gr
   name: Vergina TV
@@ -423,5 +317,7 @@ channels:
     reviewed_at: '2026-10-17'
     authorization_basis: none
     adult_screening: uncertain
-    notes: 'Quarantined by moderation: name ''Βεργίνα TV'' matches an NSFW-listed channel name in iptv-org/database'
+    notes: 'Quarantine reviewed: the NSFW-name match is a false positive on the Greek name. verginanews.gr is a news site
+      with a WEB TV section, but no live player or host was visible. Maintainer must confirm the WEB TV page plays this stream
+      (port 8443) free without login.'
     rejection_reason: ''

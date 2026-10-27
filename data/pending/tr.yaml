@@ -16,7 +16,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.tabii.com/tr/live-tv
-    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Avaz as a free live channel.'
+    evidence_summary: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which
+      conflicts with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find
+      a login-free TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     evidence_checked: null
     notes: ''
   epg_id: TRTAvaz.tr
@@ -32,7 +34,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: confirm that the TRT live TV page lists TRT Avaz as a free live channel.'
+    notes: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which conflicts
+      with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find a login-free
+      TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     rejection_reason: ''
 - id: trt-kurdi
   name: TRT Kurdî
@@ -51,7 +55,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.tabii.com/tr/live-tv
-    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Kurdî as a free live channel.'
+    evidence_summary: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which
+      conflicts with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find
+      a login-free TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     evidence_checked: null
     notes: ''
   epg_id: TRTKurdi.tr
@@ -67,7 +73,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: confirm that the TRT live TV page lists TRT Kurdî as a free live channel.'
+    notes: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which conflicts
+      with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find a login-free
+      TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     rejection_reason: ''
 - id: trt-turk
   name: TRT Türk
@@ -85,7 +93,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.tabii.com/tr/live-tv
-    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Türk as a free live channel.'
+    evidence_summary: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which
+      conflicts with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find
+      a login-free TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     evidence_checked: null
     notes: ''
   epg_id: TRTTurk.tr
@@ -101,7 +111,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: confirm that the TRT live TV page lists TRT Türk as a free live channel.'
+    notes: 'Pending: tabii.com live TV needs a free account (e-mail sign-up) according to press coverage, which conflicts
+      with the no-login rule, and trthaber.com/canli-yayin-izle.html lists only TRT Haber. Maintainer must find a login-free
+      TRT page that plays this channel; the same question applies to approved TRT records that cite tabii.'
     rejection_reason: ''
 - id: trt-eba-ortaokul
   name: TRT EBA Ortaokul
@@ -119,8 +131,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.tabii.com/tr/live-tv
-    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
-      confirm that the education channels are currently live on the TRT platform before approval.'
+    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks,
+      and press coverage names trtizle.com, not tabii.com, as the viewing site. Maintainer must confirm a login-free official
+      page plays this channel and that it is currently live.'
     evidence_checked: null
     notes: ''
   epg_id: null
@@ -136,8 +149,9 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks; confirm
-      that the education channels are currently live on the TRT platform before approval.'
+    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks, and press
+      coverage names trtizle.com, not tabii.com, as the viewing site. Maintainer must confirm a login-free official page plays
+      this channel and that it is currently live.'
     rejection_reason: ''
 - id: trt-eba-lise
   name: TRT EBA Lise
@@ -155,8 +169,9 @@ channels:
   source:
     reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
     evidence_url: https://www.tabii.com/tr/live-tv
-    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
-      confirm that the education channels are currently live on the TRT platform before approval.'
+    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks,
+      and press coverage names trtizle.com, not tabii.com, as the viewing site. Maintainer must confirm a login-free official
+      page plays this channel and that it is currently live.'
     evidence_checked: null
     notes: ''
   epg_id: null
@@ -172,6 +187,7 @@ channels:
     reviewed_at: '2026-10-27'
     authorization_basis: none
     adult_screening: pass
-    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
-      confirm that the education channels are currently live on the TRT platform before approval.'
+    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks, and press
+      coverage names trtizle.com, not tabii.com, as the viewing site. Maintainer must confirm a login-free official page plays
+      this channel and that it is currently live.'
     rejection_reason: ''
