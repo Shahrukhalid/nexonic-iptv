@@ -1,0 +1,38 @@
+# Approved channels for UK. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: s4c
+  name: S4C
+  broadcaster: S4C
+  country: uk
+  languages:
+  - cy
+  - en
+  categories:
+  - general
+  website: https://www.s4c.cymru
+  stream:
+    url: https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.s4c.cymru/clic/live
+    evidence_summary: Welsh-language public broadcaster; live stream on S4C Clic; host on S4C-named CDN domain; UK only.
+    evidence_checked: null
+    notes: ''
+  epg_id: S4C.uk
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - uk
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

@@ -1,0 +1,288 @@
+# Approved channels for IT. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tv2000
+  name: TV2000
+  broadcaster: TV2000
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.tv2000.it
+  stream:
+    url: https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tv2000.it/stream/?media=tv2000_live
+    evidence_summary: Free-to-air Italian channel; live player on tv2000.it; CDN hostname named for TV2000.
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-2
+  name: Rai 2
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - general
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/rai2
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: Rai2.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-5
+  name: Rai 5
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - culture
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/rai5
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: Rai5.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-movie
+  name: Rai Movie
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - movies
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/raimovie
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiMovie.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-premium
+  name: Rai Premium
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - entertainment
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/raipremium
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiPremium.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-yoyo
+  name: Rai YoYo
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - kids
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/raiyoyo
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiYoyo.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-scuola
+  name: Rai Scuola
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - education
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/raiscuola
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiScuola.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rai-sport
+  name: Rai Sport
+  broadcaster: RAI
+  country: it
+  languages:
+  - it
+  categories:
+  - sports
+  website: https://www.rai.it
+  stream:
+    url: https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.raiplay.it/dirette/raisport
+    evidence_summary: Italian public broadcaster; RaiPlay live page; stream on rai.it. Italy only. Same relinker form as the
+      other approved Rai records, without the forceUserAgent parameter.
+    evidence_checked: null
+    notes: ''
+  epg_id: RaiSport.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
