@@ -12,6 +12,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from . import config, health, lifecycle, m3u
+from . import regional as regional_mod
 from .config import QuarantineConfig
 from .dedup import identity_key, stream_key
 from .lifecycle import LifecycleInfo
@@ -37,6 +38,8 @@ class Plan:
     health: dict[str, health.Health] = field(default_factory=dict)
     lifecycle: dict[str, LifecycleInfo] = field(default_factory=dict)
     last_metadata_update: dict[str, str] = field(default_factory=dict)  # channel id -> date, set by the caller
+    works_in: dict[str, list[str]] = field(default_factory=dict)  # restricted channel id -> locations it works from
+    regional: dict[str, dict] = field(default_factory=dict)  # location label -> {"checked": n, "last_checked": ts}
 
 
 def reference_time(history: dict[str, list[CheckResult]], ids: set[str]) -> dt.datetime | None:
@@ -79,6 +82,7 @@ def plan(
     history: dict[str, list[CheckResult]],
     quarantine: QuarantineConfig | None = None,
     previous_restored: dict[str, str] | None = None,
+    regional: dict[str, dict[str, list[CheckResult]]] | None = None,
 ) -> Plan:
     quarantine = quarantine or config.load_pipeline().quarantine
     previous_restored = previous_restored or {}
@@ -141,6 +145,23 @@ def plan(
         [c for c in pub if c.id in p.verified_ids],
         country_group,
     )
+    working = regional_mod.working_from(regional or {}, ref)
+    for label, by_id in sorted((regional or {}).items()):
+        stamps = [r.checked_at for results in by_id.values() for r in results if r.status is not Status.NOT_TESTED]
+        p.regional[label] = {"channels_checked": len(by_id), "last_checked": max(stamps) if stamps else None}
+    for ch in pub:
+        labels = sorted(lb for lb, ids in working.items() if ch.id in ids)
+        if labels and p.lifecycle[ch.id].state is lifecycle.Lifecycle.RESTRICTED:
+            p.works_in[ch.id] = labels
+    for label in sorted(working):
+        add(
+            f"playlists/regions/{label}.m3u",
+            "region",
+            label,
+            f"Verified working from {label} (last 48 h)",
+            [c for c in pub if c.id in working[label]],
+            country_group,
+        )
     for code in sorted({c.country for c in pub}):
         add(
             f"playlists/countries/{code}.m3u",
@@ -177,45 +198,46 @@ def channel_export(p: Plan) -> list[dict]:
     for ch in sorted(p.published, key=sort_key):
         h = p.health[ch.id]
         info = p.lifecycle[ch.id]
-        out.append(
-            {
-                "id": ch.id,
-                "name": ch.name,
-                "broadcaster": ch.broadcaster,
-                "country": ch.country,
-                "country_name": cnames[ch.country]["name"],
-                "flag": cnames[ch.country]["flag"],
-                "languages": ch.languages,
-                "language_names": [LANGUAGES[x] for x in ch.languages],
-                "categories": ch.categories,
-                "website": ch.website,
-                "stream_url": ch.stream.url,
-                "protocol": ch.stream.protocol,
-                "epg_id": ch.epg_id,
-                "geo_restricted": ch.geo.restricted,
-                "geo_regions": ch.geo.regions,
+        entry = {
+            "id": ch.id,
+            "name": ch.name,
+            "broadcaster": ch.broadcaster,
+            "country": ch.country,
+            "country_name": cnames[ch.country]["name"],
+            "flag": cnames[ch.country]["flag"],
+            "languages": ch.languages,
+            "language_names": [LANGUAGES[x] for x in ch.languages],
+            "categories": ch.categories,
+            "website": ch.website,
+            "stream_url": ch.stream.url,
+            "protocol": ch.stream.protocol,
+            "epg_id": ch.epg_id,
+            "geo_restricted": ch.geo.restricted,
+            "geo_regions": ch.geo.regions,
+            "evidence_url": ch.source.evidence_url,
+            "authorization_basis": ch.review.authorization_basis.value,
+            "admission": "automated" if ch.automated else "curated",
+            "in_verified_playlist": ch.id in p.verified_ids,
+            "health": h.to_dict(),
+            "lifecycle": info.state.value,
+            "quarantined": info.quarantined,
+            "restored_at": info.restored_at,
+            "last_validated": info.last_validated,
+            "last_metadata_update": p.last_metadata_update.get(ch.id, ch.review.reviewed_at.isoformat()),
+            "provenance": {
+                "source_reference": ch.source.reference_url,
                 "evidence_url": ch.source.evidence_url,
+                "evidence_summary": ch.source.evidence_summary,
+                "evidence_checked": ch.source.evidence_checked.isoformat() if ch.source.evidence_checked else None,
+                "discovery_method": ch.source.method,
+                "first_discovered": ch.first_discovered.isoformat(),
                 "authorization_basis": ch.review.authorization_basis.value,
-                "admission": "automated" if ch.automated else "curated",
-                "in_verified_playlist": ch.id in p.verified_ids,
-                "health": h.to_dict(),
-                "lifecycle": info.state.value,
-                "quarantined": info.quarantined,
-                "restored_at": info.restored_at,
-                "last_validated": info.last_validated,
-                "last_metadata_update": p.last_metadata_update.get(ch.id, ch.review.reviewed_at.isoformat()),
-                "provenance": {
-                    "source_reference": ch.source.reference_url,
-                    "evidence_url": ch.source.evidence_url,
-                    "evidence_summary": ch.source.evidence_summary,
-                    "evidence_checked": ch.source.evidence_checked.isoformat() if ch.source.evidence_checked else None,
-                    "discovery_method": ch.source.method,
-                    "first_discovered": ch.first_discovered.isoformat(),
-                    "authorization_basis": ch.review.authorization_basis.value,
-                    "reviewed_at": ch.review.reviewed_at.isoformat(),
-                },
-            }
-        )
+                "reviewed_at": ch.review.reviewed_at.isoformat(),
+            },
+        }
+        if ch.id in p.works_in:
+            entry["works_in"] = p.works_in[ch.id]  # restricted from the primary location, verified from these
+        out.append(entry)
     return out
 
 
@@ -248,7 +270,7 @@ def write(p: Plan, root: Path = ROOT) -> list[str]:
     return written
 
 
-_KIND_ORDER = {"global": 0, "verified": 1, "country": 2, "language": 3, "category": 4}
+_KIND_ORDER = {"global": 0, "verified": 1, "country": 2, "language": 3, "category": 4, "region": 5}
 
 
 def playlists_markdown(p: Plan) -> str:
@@ -272,8 +294,9 @@ def playlists_markdown(p: Plan) -> str:
         "country": "By country",
         "language": "By language",
         "category": "By category",
+        "region": "Verified from another location",
     }
-    for kind in ("global", "verified", "country", "language", "category"):
+    for kind in ("global", "verified", "country", "language", "category", "region"):
         items = sorted(by_kind.get(kind, []), key=lambda x: x["key"])
         if not items:
             if kind == "verified":
@@ -284,7 +307,14 @@ def playlists_markdown(p: Plan) -> str:
                     "",
                 ]
             continue
-        lines += [f"## {titles[kind]}", "", "| Playlist | Channels | URL |", "|---|---:|---|"]
+        lines += [f"## {titles[kind]}", ""]
+        if kind == "region":
+            lines += [
+                "Channels that could not be confirmed from the main checker (GitHub-hosted, United States) but passed "
+                "a live check from the named location in the last 48 hours. Reachability from that location only.",
+                "",
+            ]
+        lines += ["| Playlist | Channels | URL |", "|---|---:|---|"]
         for it in items:
             label = it["name"]
             if kind == "country":

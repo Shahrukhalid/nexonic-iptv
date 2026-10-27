@@ -47,7 +47,7 @@ def statistics(records: LoadResult, plan: Plan, history: dict[str, list[CheckRes
         by_status.update(run["by_status"])
     display = Counter(plan.health[c.id].display_status for c in pub)
     cn = countries()
-    return {
+    out = {
         "reference_time": iso(plan.reference) if plan.reference else None,
         "records": {k: len(v) for k, v in records.channels.items()},
         "published_channels": len(pub),
@@ -79,6 +79,17 @@ def statistics(records: LoadResult, plan: Plan, history: dict[str, list[CheckRes
             for ct in sorted({ct for c in pub for ct in c.categories})
         },
     }
+    if plan.regional:  # only present when another location has reported results
+        working = {i["key"]: i["count"] for i in plan.index if i["kind"] == "region"}
+        out["regional"] = {
+            "note": "Results from additional checking locations. They describe reachability from that location only.",
+            "restricted_confirmed_elsewhere": len(plan.works_in),
+            "locations": {
+                label: {**info, "verified_working": working.get(label, 0)}
+                for label, info in sorted(plan.regional.items())
+            },
+        }
+    return out
 
 
 def write_json(name: str, data: dict, root: Path = ROOT) -> Path:
