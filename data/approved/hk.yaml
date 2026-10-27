@@ -1,0 +1,70 @@
+# Approved channels for HK. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: rthk-tv-31
+  name: RTHK TV 31
+  broadcaster: Radio Television Hong Kong
+  country: hk
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.rthk.hk
+  stream:
+    url: https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rthk.hk/tv/dtt31
+    evidence_summary: Hong Kong public broadcaster; RTHK TV page with live player; CDN hostname named for RTHK.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTHKTV31.hk
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: rthk-tv-32
+  name: RTHK TV 32
+  broadcaster: Radio Television Hong Kong
+  country: hk
+  languages:
+  - zh
+  categories:
+  - general
+  website: https://www.rthk.hk
+  stream:
+    url: https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rthk.hk/tv/dtt32
+    evidence_summary: Hong Kong public broadcaster; RTHK TV page with live player; CDN hostname named for RTHK.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTHKTV32.hk
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

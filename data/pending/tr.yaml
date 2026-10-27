@@ -1,0 +1,177 @@
+# Candidates awaiting review for TR. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: trt-avaz
+  name: TRT Avaz
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Avaz as a free live channel.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTAvaz.tr
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: confirm that the TRT live TV page lists TRT Avaz as a free live channel.'
+    rejection_reason: ''
+- id: trt-kurdi
+  name: TRT Kurdî
+  broadcaster: TRT
+  country: tr
+  languages:
+  - ku
+  - tr
+  categories:
+  - general
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Kurdî as a free live channel.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTKurdi.tr
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: confirm that the TRT live TV page lists TRT Kurdî as a free live channel.'
+    rejection_reason: ''
+- id: trt-turk
+  name: TRT Türk
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - general
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-trtturk.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: 'Pending: confirm that the TRT live TV page lists TRT Türk as a free live channel.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TRTTurk.tr
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: confirm that the TRT live TV page lists TRT Türk as a free live channel.'
+    rejection_reason: ''
+- id: trt-eba-ortaokul
+  name: TRT EBA Ortaokul
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - education
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-e-okul01.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
+      confirm that the education channels are currently live on the TRT platform before approval.'
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks; confirm
+      that the education channels are currently live on the TRT platform before approval.'
+    rejection_reason: ''
+- id: trt-eba-lise
+  name: TRT EBA Lise
+  broadcaster: TRT
+  country: tr
+  languages:
+  - tr
+  categories:
+  - education
+  website: https://www.trt.net.tr
+  stream:
+    url: https://tv-e-okul02.medya.trt.com.tr/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.tabii.com/tr/live-tv
+    evidence_summary: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
+      confirm that the education channels are currently live on the TRT platform before approval.'
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: the sibling TRT EBA Ilkokul stream on the same host family fails with HTTP 404 in CI checks;
+      confirm that the education channels are currently live on the TRT platform before approval.'
+    rejection_reason: ''

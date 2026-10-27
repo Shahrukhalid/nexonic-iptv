@@ -1,0 +1,37 @@
+# Approved channels for NL. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: rtv-noord
+  name: RTV Noord
+  broadcaster: RTV Noord
+  country: nl
+  languages:
+  - nl
+  categories:
+  - general
+  - news
+  website: https://www.rtvnoord.nl
+  stream:
+    url: https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtvnoord.nl/tv/tv-noord/live
+    evidence_summary: Regional public broadcaster of Groningen; live TV page on rtvnoord.nl; stream on rtvnoord.nl.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTVNoord.nl
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

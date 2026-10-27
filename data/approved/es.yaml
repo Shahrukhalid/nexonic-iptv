@@ -29,7 +29,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -64,7 +64,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -98,7 +98,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -133,7 +133,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -168,7 +168,7 @@ channels:
   first_discovered: '2026-10-17'
   review:
     status: approved
-    reviewer: initial-curation (AI-assisted; maintainer confirmation pending)
+    reviewer: initial-curation (maintainer confirmation pending)
     reviewed_at: '2026-10-17'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
@@ -512,6 +512,75 @@ channels:
     reviewer: "maintainer curation (web research; official live page and stream checked)"
     reviewed_at: '2026-10-17'
     authorization_basis: public-sector-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: telemadrid
+  name: Telemadrid
+  broadcaster: Telemadrid
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.telemadrid.es
+  stream:
+    url: https://telemadrid-23-secure2.akamaized.net/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.telemadrid.es/emision-en-directo/
+    evidence_summary: Madrid regional public broadcaster; live page on telemadrid.es; CDN hostname named for Telemadrid.
+    evidence_checked: null
+    notes: ''
+  epg_id: Telemadrid.es
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: la-otra
+  name: La Otra
+  broadcaster: Telemadrid
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.telemadrid.es
+  stream:
+    url: https://laotra-1-23-secure2.akamaized.net/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.telemadrid.es/emision-en-directo/
+    evidence_summary: Madrid regional public broadcaster second channel; live page on telemadrid.es; CDN hostname named for
+      the channel.
+    evidence_checked: null
+    notes: ''
+  epg_id: LaOtra.es
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
     adult_screening: pass
     notes: ''
     rejection_reason: ''

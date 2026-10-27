@@ -68,3 +68,177 @@ channels:
     adult_screening: pass
     notes: ''
     rejection_reason: ''
+- id: tvr-1
+  name: TVR 1
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://tvrplus.tvr.ro/live/tvr-1
+    evidence_summary: Romanian public broadcaster; live player on TVR+; CDN hostname named for TVR.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVR1.ro
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ro
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tvr-2
+  name: TVR 2
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://tvrplus.tvr.ro/live/tvr-2
+    evidence_summary: Romanian public broadcaster; live player on TVR+; CDN hostname named for TVR.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVR2.ro
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ro
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tvr-3
+  name: TVR 3
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://tvrplus.tvr.ro/live/tvr-3
+    evidence_summary: Romanian public broadcaster; live player on TVR+; CDN hostname named for TVR.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVR3.ro
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ro
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tvr-info
+  name: TVR Info
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - news
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://tvrplus.tvr.ro/live/tvr-info
+    evidence_summary: Romanian public broadcaster; live player on TVR+; CDN hostname named for TVR.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRInfo.ro
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - ro
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''
+- id: tvr-international
+  name: TVR International
+  broadcaster: Televiziunea Română
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://www.tvr.ro
+  stream:
+    url: https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://tvrplus.tvr.ro/live/tvr-international
+    evidence_summary: Romanian public broadcaster; live player on TVR+; CDN hostname named for TVR.
+    evidence_checked: null
+    notes: ''
+  epg_id: TVRInternational.ro
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: approved
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: official-cdn-stream
+    adult_screening: pass
+    notes: ''
+    rejection_reason: ''

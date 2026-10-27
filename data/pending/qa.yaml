@@ -1,0 +1,72 @@
+# Candidates awaiting review for QA. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: qatar-tv-2
+  name: Qatar Television 2
+  broadcaster: Qatar Media Corporation
+  country: qa
+  languages:
+  - ar
+  categories:
+  - general
+  website: https://www.qmc.qa
+  stream:
+    url: https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.qmc.qa/
+    evidence_summary: 'Pending: need an official page on a QMC domain that plays this stream (same open question as Qatar
+      Television).'
+    evidence_checked: null
+    notes: ''
+  epg_id: QatarTelevision2.qa
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: need an official page on a QMC domain that plays this stream (same open question as Qatar Television).'
+    rejection_reason: ''
+- id: qatar-tv-holy-quran
+  name: Qatar Television The Holy Quran
+  broadcaster: Qatar Media Corporation
+  country: qa
+  languages:
+  - ar
+  categories:
+  - culture
+  website: https://www.qmc.qa
+  stream:
+    url: https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master1080p.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.qmc.qa/
+    evidence_summary: 'Pending: need an official page on a QMC domain that plays this stream (same open question as Qatar
+      Television).'
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: need an official page on a QMC domain that plays this stream (same open question as Qatar Television).'
+    rejection_reason: ''

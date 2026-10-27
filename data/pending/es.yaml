@@ -1,0 +1,141 @@
+# Candidates awaiting review for ES. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: etb1
+  name: ETB1
+  broadcaster: EITB
+  country: es
+  languages:
+  - eu
+  categories:
+  - general
+  website: https://www.eitb.eus
+  stream:
+    url: https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.eitb.eus/es/television/
+    evidence_summary: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB1 must
+      be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: ETB1.es
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB1 must be confirmed.'
+    rejection_reason: ''
+- id: etb2
+  name: ETB2
+  broadcaster: EITB
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.eitb.eus
+  stream:
+    url: https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.eitb.eus/es/television/
+    evidence_summary: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB2 must
+      be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: ETB2.es
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: Basque public broadcaster; stream host is on eitb.eus but the exact live page for ETB2 must be confirmed.'
+    rejection_reason: ''
+- id: aragon-tv
+  name: Aragón TV
+  broadcaster: Corporación Aragonesa de Radio y Televisión
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.cartv.es
+  stream:
+    url: https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.cartv.es/
+    evidence_summary: 'Pending: regional public broadcaster; need the live page and confirmation that aranova.es is its declared
+      CDN.'
+    evidence_checked: null
+    notes: ''
+  epg_id: AragonTV.es
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: regional public broadcaster; need the live page and confirmation that aranova.es is its declared CDN.'
+    rejection_reason: ''
+- id: tve-internacional-europa-asia
+  name: TVE Internacional Europa-Asia
+  broadcaster: RTVE
+  country: es
+  languages:
+  - es
+  categories:
+  - general
+  website: https://www.rtve.es
+  stream:
+    url: https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtve.es/play/
+    evidence_summary: 'Pending: host is on rtve.es but the exact RTVE Play live page for TVE Internacional must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: null
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: host is on rtve.es but the exact RTVE Play live page for TVE Internacional must be confirmed.'
+    rejection_reason: ''

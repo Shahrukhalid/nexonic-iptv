@@ -1,0 +1,73 @@
+# Candidates awaiting review for IT. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: senato-tv
+  name: Senato TV
+  broadcaster: Senato della Repubblica
+  country: it
+  languages:
+  - it
+  categories:
+  - legislative
+  website: https://www.senato.it
+  stream:
+    url: https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://webtv.senato.it/webtv_live?canale=webtv4
+    evidence_summary: 'Pending: Senate WebTV live page exists; the stream host (morescreens.com) is a third-party platform
+      that must be confirmed as the Senate''s own distribution.'
+    evidence_checked: null
+    notes: ''
+  epg_id: SenatoTV.it
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: Senate WebTV live page exists; the stream host (morescreens.com) is a third-party platform that must
+      be confirmed as the Senate''s own distribution.'
+    rejection_reason: ''
+- id: uninettuno-tv
+  name: UniNettuno University TV
+  broadcaster: UniNettuno
+  country: it
+  languages:
+  - it
+  categories:
+  - education
+  website: https://www.uninettunouniversity.net
+  stream:
+    url: https://stream6-rai-it.akamaized.net/live/uninettuno/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.uninettunouniversity.net/
+    evidence_summary: 'Pending: university channel; host is a Rai-named CDN, so the relationship with UniNettuno must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: UniNettunoUniversityTV.it
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - it
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: university channel; host is a Rai-named CDN, so the relationship with UniNettuno must be confirmed.'
+    rejection_reason: ''

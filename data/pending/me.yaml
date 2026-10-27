@@ -1,0 +1,141 @@
+# Candidates awaiting review for ME. See docs/SOURCE_POLICY.md before editing.
+channels:
+- id: tvcg-1
+  name: TVCG 1
+  broadcaster: Radio i Televizija Crne Gore
+  country: me
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://www.rtcg.me
+  stream:
+    url: https://rtcg-live-open-geo.morescreens.com/RTCG_1_001/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtcg.me/
+    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVCG1.me
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - me
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    rejection_reason: ''
+- id: tvcg-2
+  name: TVCG 2
+  broadcaster: Radio i Televizija Crne Gore
+  country: me
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://www.rtcg.me
+  stream:
+    url: https://rtcg-live-open-geo.morescreens.com/RTCG_1_002/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtcg.me/
+    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVCG2.me
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - me
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    rejection_reason: ''
+- id: tvcg-3
+  name: TVCG 3
+  broadcaster: Radio i Televizija Crne Gore
+  country: me
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://www.rtcg.me
+  stream:
+    url: https://rtcg-live-open-geo.morescreens.com/RTCG_1_003/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtcg.me/
+    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVCG3.me
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - me
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    rejection_reason: ''
+- id: tvcg-mne
+  name: TVCG MNE
+  broadcaster: Radio i Televizija Crne Gore
+  country: me
+  languages:
+  - sr
+  categories:
+  - general
+  website: https://www.rtcg.me
+  stream:
+    url: https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtcg.me/
+    evidence_summary: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    evidence_checked: null
+    notes: ''
+  epg_id: TVCGMNE.me
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: pending
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Pending: RTCG-named CDN host, but the RTCG live page must be confirmed.'
+    rejection_reason: ''
