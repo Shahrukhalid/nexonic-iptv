@@ -280,7 +280,9 @@ async def check_channel(fetcher: Fetcher, channel: Channel, location: str) -> Ch
     # Level 2
     parts = urlsplit(url)
     try:
-        await asyncio.to_thread(fetcher.resolver, parts.hostname, parts.port or 443)
+        await asyncio.to_thread(
+            fetcher.resolver, parts.hostname, parts.port or (443 if parts.scheme == "https" else 80)
+        )
     except UnsafeURLError as exc:
         res.status, res.error = Status.INVALID_STREAM, f"unsafe target: {exc}"
         return res
@@ -446,11 +448,15 @@ async def check_all(
     gate = HostGate(limits.per_host_interval)
     fetcher = Fetcher(client, limits, gate, resolver=resolver)
     sem = asyncio.Semaphore(limits.concurrency)
+    # One channel at a time per stream host. Without this, many channels on one CDN take every global slot and
+    # queue behind each other in HostGate, and that queueing time counts against ``channel_timeout`` (false TIMEOUTs).
+    host_slots: dict[str, asyncio.Semaphore] = {}
     location = location_label()
     deadline = time.monotonic() + limits.run_budget
 
     async def one(ch: Channel) -> CheckResult:
-        async with sem:
+        host = (urlsplit(ch.stream.url).hostname or "").lower()
+        async with host_slots.setdefault(host, asyncio.Semaphore(1)), sem:
             if time.monotonic() > deadline:
                 return CheckResult(
                     ch.id, Status.NOT_TESTED, utc_now_iso(), error="run time budget exhausted", location=location

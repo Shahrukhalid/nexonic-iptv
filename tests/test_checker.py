@@ -204,3 +204,21 @@ def test_run_budget_marks_not_tested(record):
     lim = Limits(timeout=2, retries=0, per_host_interval=0, run_budget=-1)
     r = run(happy, record, limits=lim)
     assert r.status is Status.NOT_TESTED and "budget" in r.error
+
+
+def test_channels_on_one_host_do_not_time_out_while_queued(record):
+    """Waiting for a busy host must not count against a channel's own time limit."""
+    chans = [
+        Channel.model_validate(
+            record(id=f"example-news-{i}", name=f"Example News {i}", **{"stream.url": URL.replace("news", f"n{i}")})
+        )
+        for i in range(4)
+    ]
+    lim = Limits(timeout=2, retries=0, per_host_interval=0.15, channel_timeout=0.9, concurrency=4)
+
+    async def go():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(happy), follow_redirects=False) as client:
+            return await check_all(chans, lim, client=client, resolver=resolver)
+
+    results = asyncio.run(go())
+    assert [r.status for r in results] == [Status.VERIFIED_WORKING] * 4
