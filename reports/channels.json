@@ -12074,6 +12074,59 @@
    }
   },
   {
+   "id": "vouli-tv",
+   "name": "Vouli TV",
+   "broadcaster": "Hellenic Parliament",
+   "country": "gr",
+   "country_name": "Greece",
+   "flag": "🇬🇷",
+   "languages": [
+    "el"
+   ],
+   "language_names": [
+    "Greek"
+   ],
+   "categories": [
+    "legislative"
+   ],
+   "website": "https://www.hellenicparliament.gr",
+   "stream_url": "https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8",
+   "protocol": "hls",
+   "epg_id": null,
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.hellenicparliament.gr/enimerosi/vouli-tileorasi",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   },
+   "lifecycle": "unknown",
+   "quarantined": false,
+   "restored_at": null,
+   "last_validated": null,
+   "last_metadata_update": "2026-10-27",
+   "provenance": {
+    "source_reference": "https://github.com/Free-TV/IPTV/tree/master/lists",
+    "evidence_url": "https://www.hellenicparliament.gr/enimerosi/vouli-tileorasi",
+    "evidence_summary": "The Hellenic Parliament's own TV page lists WebTV-1/2/3 with no login and points WebTV-1 to the player on diavlos-cache.cnt.grnet.gr, described on the page as transmitted from the National Infrastructures for Research and Technology (GRNET).",
+    "evidence_checked": null,
+    "discovery_method": "manual",
+    "first_discovered": "2026-10-27",
+    "authorization_basis": "public-sector-stream",
+    "reviewed_at": "2026-10-27"
+   }
+  },
+  {
    "id": "mtv-guyana-gy",
    "name": "MTV Guyana",
    "broadcaster": "Multi Technology Vision Inc.",
@@ -18207,6 +18260,60 @@
     "first_discovered": "2026-10-17",
     "authorization_basis": "official-broadcaster-stream",
     "reviewed_at": "2026-10-17"
+   }
+  },
+  {
+   "id": "capital-21-mx",
+   "name": "Capital 21",
+   "broadcaster": "Capital 21",
+   "country": "mx",
+   "country_name": "Mexico",
+   "flag": "🇲🇽",
+   "languages": [
+    "es"
+   ],
+   "language_names": [
+    "Spanish"
+   ],
+   "categories": [
+    "culture",
+    "entertainment"
+   ],
+   "website": "https://www.capital21.cdmx.gob.mx/",
+   "stream_url": "https://video.cdmx.gob.mx/redes/stream.m3u8",
+   "protocol": "hls",
+   "epg_id": "Capital21.mx@SD",
+   "geo_restricted": "unknown",
+   "geo_regions": [],
+   "evidence_url": "https://www.capital21.cdmx.gob.mx/en-vivo",
+   "authorization_basis": "public-sector-stream",
+   "admission": "curated",
+   "in_verified_playlist": false,
+   "health": {
+    "score": null,
+    "grade": "NOT ENOUGH DATA",
+    "display_status": "not-tested",
+    "last_checked": null,
+    "last_success": null,
+    "last_status": "NOT_TESTED",
+    "checks_in_window": 0,
+    "success_rate": null,
+    "median_latency_ms": null
+   },
+   "lifecycle": "unknown",
+   "quarantined": false,
+   "restored_at": null,
+   "last_validated": null,
+   "last_metadata_update": "2026-10-27",
+   "provenance": {
+    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/mx.m3u",
+    "evidence_url": "https://www.capital21.cdmx.gob.mx/en-vivo",
+    "evidence_summary": "Capital 21 is the public television of Mexico City; its own en-vivo page offers the live transmission with no login shown, and the stream host video.cdmx.gob.mx is on the same government domain.",
+    "evidence_checked": null,
+    "discovery_method": "manual",
+    "first_discovered": "2026-10-17",
+    "authorization_basis": "public-sector-stream",
+    "reviewed_at": "2026-10-27"
    }
   },
   {

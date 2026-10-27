@@ -10,11 +10,11 @@
 
 | Metric | Value |
 |---|---:|
-| Published channels | 545 |
+| Published channels | 547 |
 | In verified playlist | 479 |
 | Quarantined | 152 |
 | Excluded approved records | 195 |
-| Pending authorization | 55 |
+| Pending authorization | 43 |
 
 ## Lifecycle of published channels
 
@@ -22,7 +22,7 @@
 |---|---:|
 | intermittent | 81 |
 | restricted | 43 |
-| unknown | 6 |
+| unknown | 8 |
 | unreachable | 17 |
 | working | 398 |
 

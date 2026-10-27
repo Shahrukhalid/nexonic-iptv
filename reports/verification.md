@@ -765,4 +765,4 @@ Results describe reachability **from the checker's network location at that time
 
 Baseline snapshot created; changes are reported from the next verification run on.
 
-Published 545 · verified playlist 479 · quarantined 152 · pending authorization 55 · integrity OK. Details: `reports/changes.md`.
+Published 547 · verified playlist 479 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
