@@ -1,0 +1,302 @@
+# Rejected candidates for PT kept so they are not re-added. Never published.
+channels:
+- id: rtp-acores
+  name: RTP Açores
+  broadcaster: Rádio e Televisão de Portugal
+  country: pt
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpacores
+    evidence_summary: Rejected candidate. RTP's live streams on streaming-live.rtp.pt are served only with signed, expiring
+      URLs (tk= token) from rtp.pt/play.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPAcores.pt
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-madeira
+  name: RTP Madeira
+  broadcaster: Rádio e Televisão de Portugal
+  country: pt
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpmadeira
+    evidence_summary: Rejected candidate. RTP's live streams on streaming-live.rtp.pt are served only with signed, expiring
+      URLs (tk= token) from rtp.pt/play.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPMadeira.pt
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-27'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-1
+  name: RTP1
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtp1
+    evidence_summary: Portugal's public broadcaster; host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTP1.pt@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-2
+  name: RTP2
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - culture
+  - kids
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtp2
+    evidence_summary: Host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTP2.pt@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - pt
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-noticias
+  name: RTP Notícias
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - news
+  website: https://www.rtp.pt/noticias/
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpnHD.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpnoticias
+    evidence_summary: Host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPNoticias.pt@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-memoria
+  name: RTP Memória
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - entertainment
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpmemoria
+    evidence_summary: Archive programming channel; host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPMemoria.pt@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-mundo
+  name: RTP Mundo
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpinternacional
+    evidence_summary: International channel (formerly RTP Internacional); host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPMundo.pt
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
+- id: rtp-africa
+  name: RTP África
+  broadcaster: RTP
+  country: pt
+  languages:
+  - pt
+  categories:
+  - general
+  website: https://www.rtp.pt
+  stream:
+    url: https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/Free-TV/IPTV/tree/master/lists
+    evidence_url: https://www.rtp.pt/play/direto/rtpafrica
+    evidence_summary: Host rtp.pt.
+    evidence_checked: null
+    notes: ''
+  epg_id: RTPAfrica.pt@SD
+  logo: null
+  geo:
+    restricted: false
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-17'
+  review:
+    status: rejected
+    reviewer: initial-curation (maintainer confirmation pending)
+    reviewed_at: '2026-10-27'
+    authorization_basis: none
+    adult_screening: pass
+    notes: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued by rtp.pt/play;
+      the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section 2).'
+    rejection_reason: 'Signed, expiring URLs: RTP serves its live streams on streaming-live.rtp.pt only with a tk= token issued
+      by rtp.pt/play; the stored untokenized URL returns HTTP 204 and tokenized URLs are not allowed (source policy section
+      2).'
