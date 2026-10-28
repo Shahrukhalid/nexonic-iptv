@@ -59,6 +59,45 @@ TOKEN_PARAMS = {
     "policy",
     "key-pair-id",
 }
+# Query parameter names are split into words (separators and camelCase); any of these words marks a credential.
+CREDENTIAL_WORDS = {
+    "auth",
+    "authkey",
+    "authorization",
+    "token",
+    "tokens",
+    "key",
+    "apikey",
+    "accesskey",
+    "sig",
+    "sign",
+    "signature",
+    "signed",
+    "secret",
+    "jwt",
+    "hash",
+    "hmac",
+    "expire",
+    "expires",
+    "expiry",
+    "policy",
+    "password",
+    "passwd",
+    "pwd",
+    "credential",
+    "credentials",
+    "session",
+    "sessionid",
+}
+# Names written as one run (streamkey, wmsAuthSign, playtoken) are caught by their ending.
+CREDENTIAL_SUFFIXES = ("auth", "token", "key", "sig", "sign", "signature", "secret", "jwt", "hmac", "hash")
+# A JWT, or a base64url-encoded JSON object ("eyJ" is "{\"") long enough to carry a signed payload.
+JWT_RE = re.compile(r"eyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\.|(?<![A-Za-z0-9_-])eyJ[A-Za-z0-9_-]{24,}")
+OPAQUE_RE = re.compile(r"[A-Za-z0-9_+/=-]{32,}")
+UUID_RE = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}", re.IGNORECASE)
+# A long opaque value is only trusted when the parameter is clearly an identifier (serviceid, contentId, ...).
+BENIGN_NAME_END = ("id", "ids")
+_CAMEL_RE = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 # Hosts that are known restreamers / redirect services. Never acceptable for the official tier; the community tier may
 # list (and check) them when ``allow_restream`` is set, because there they carry no claim of being the owner's stream.
 RESTREAM_HOST_PATTERNS = [
@@ -131,9 +170,18 @@ def is_public_ip(ip: str) -> bool:
 
 
 def check_url_policy(
-    url: str, *, allow_ip_literal: bool = False, check_tokens: bool = True, allow_restream: bool = False
+    url: str,
+    *,
+    allow_ip_literal: bool = False,
+    check_tokens: bool = True,
+    allow_restream: bool = False,
+    strict_tokens: bool = False,
 ) -> PolicyResult:
-    """Static policy check of a URL string. Never performs network access."""
+    """Static policy check of a URL string. Never performs network access.
+
+    ``strict_tokens`` adds the pattern-based credential rules (parameter names, JWTs, opaque values) to the fixed
+    ``TOKEN_PARAMS`` list. The community build and generation use it; validation keeps the fixed list for now.
+    """
     if len(url) > 2048:
         return PolicyResult(False, "URL too long")
     if any(ch.isspace() or ord(ch) < 32 for ch in url):
@@ -167,10 +215,46 @@ def check_url_policy(
     for pat in ALWAYS_DENY_HOST_PATTERNS if allow_restream else DENY_HOST_PATTERNS:
         if pat.search(host):
             return PolicyResult(False, f"host {host!r} is a known restream/redirect service")
-    for key, _ in parse_qsl(parts.query, keep_blank_values=True) if check_tokens else []:
-        if key.lower() in TOKEN_PARAMS:
-            return PolicyResult(False, f"tokenized or credentialed query parameter {key!r}")
+    if check_tokens:
+        reason = _token_reason(parts, strict_tokens)
+        if reason:
+            return PolicyResult(False, reason)
     return PolicyResult(True)
+
+
+def _credential_name(name: str) -> bool:
+    words = [w for w in re.split(r"[^a-z0-9]+", _CAMEL_RE.sub("-", name).lower()) if w]
+    squashed = "".join(words)
+    return any(w in CREDENTIAL_WORDS for w in words) or squashed.endswith(CREDENTIAL_SUFFIXES)
+
+
+def _opaque_credential(name: str, value: str) -> bool:
+    value = value.replace(" ", "+")  # a base64 "+" arrives decoded as a space
+    if not OPAQUE_RE.fullmatch(value) or UUID_RE.fullmatch(value):
+        return False
+    if not (any(c.isdigit() for c in value) and any(c.isalpha() for c in value)):
+        return False
+    return not name.lower().endswith(BENIGN_NAME_END)
+
+
+def _token_reason(parts, strict: bool) -> str:
+    """Why the URL looks signed, tokenized or credentialed, or ``""``."""
+    if strict:
+        for segment in parts.path.split("/"):
+            if JWT_RE.search(segment):
+                return "tokenized or credentialed URL: JWT in the path"
+    for name, value in parse_qsl(parts.query, keep_blank_values=True):
+        if name.lower() in TOKEN_PARAMS:
+            return f"tokenized or credentialed query parameter {name!r}"
+        if not strict:
+            continue
+        if _credential_name(name):
+            return f"tokenized or credentialed query parameter {name!r}"
+        if JWT_RE.search(value):
+            return f"tokenized or credentialed query value: JWT in {name!r}"
+        if _opaque_credential(name, value):
+            return f"tokenized or credentialed query value: opaque credential in {name!r}"
+    return ""
 
 
 def resolve_public(host: str, port: int) -> list[str]:

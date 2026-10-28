@@ -47,6 +47,78 @@ def test_policy_accepts(url):
     assert check_url_policy(url).ok
 
 
+TOKENIZED = [
+    "https://infolive.example.cn/live/a.m3u8?auth_key=1-0-0-abc",
+    "https://cdn.example.com/a/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.abcdefgh",
+    "https://cdn.example.com/a.m3u8?authkey=1",
+    "https://cdn.example.com/a.m3u8?streamkey=abc",
+    "https://cdn.example.com/a.m3u8?access_key=abc",
+    "https://cdn.example.com/a.m3u8?accessKey=abc",
+    "https://cdn.example.com/a.m3u8?apiKey=abc",
+    "https://cdn.example.com/a.m3u8?X-Amz-Signature=0123abcd",
+    "https://cdn.example.com/a.m3u8?X-Amz-Expires=300",
+    "https://cdn.example.com/a.m3u8?play_token=abc",
+    "https://cdn.example.com/a.m3u8?playToken=abc",
+    "https://cdn.example.com/a.m3u8?sign=37881ef2e289f062ceff0dca6c24dc58",
+    "https://cdn.example.com/a.m3u8?Policy=abc&Key-Pair-Id=K1",
+    "https://cdn.example.com/a.m3u8?secret=x",
+    "https://cdn.example.com/a.m3u8?client_secret=x",
+    "https://cdn.example.com/a.m3u8?jwt=x",
+    "https://cdn.example.com/a.m3u8?hmac=x",
+    "https://cdn.example.com/a.m3u8?hash=x",
+    "https://cdn.example.com/a.m3u8?expire=1700000000",
+    "https://cdn.example.com/a.m3u8?AV_VAUTH=x",
+    "https://cdn.example.com/a.m3u8?sessionid=abc",
+    "https://cdn.example.com/a.m3u8?x=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.sig",
+    "https://cdn.example.com/eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.sig/index.m3u8",
+    "https://cdn.example.com/bitok/eyJzdGlkIjoiMzUzNGNiZTA0NWYyIn0/index.m3u8",
+    "https://cdn.example.com/a.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z",
+    "https://cdn.example.com/a.m3u8?v=0123456789abcdef0123456789abcdef",
+]
+BENIGN = [
+    "https://cdn.example.com/hls/index.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311",
+    "https://cdn.example.com/hls/index.m3u8?app=fcd5c66b-da9d-44ba-a410-4f34805c397d",
+    "https://cdn.example.com/hls/index.m3u8?id=11&type=hls&format=m3u8",
+    "https://cdn.example.com/hls/index.m3u8?DVR=&offsetSeconds=30",
+    "https://cdn.example.com/hls/index.m3u8?ads.xumo_channelId=99&ads.appname=x",
+    "https://cdn.example.com/hls/index.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD",
+    "https://cdn.example.com/hls/index.m3u8?file=OmroepAssenTV/playlist.m3u8",
+    "https://cdn.example.com/hls/index.m3u8?channel_id=abc&network_id=3",
+    "https://cdn.example.com/hls/ee6b000cee0629411b666ab26cb13e9b/index.m3u8",
+    "https://cdn.example.com/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8",
+    "https://cdn.example.com/hls/LINEAR-680-WORBAUENFAST-WHALETVPLUS.m3u8",
+    "https://cdn.example.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/x/playlist.m3u8",
+    "https://cdn.example.com/monkey/turkey/index.m3u8?monkeys=1",
+    "https://cdn.example.com/live/a.m3u8?contentId=0123456789abcdef0123456789abcdef",
+    "https://cdn.example.com/live/a.m3u8?ref=short&c=us",
+]
+
+
+@pytest.mark.parametrize("url", TOKENIZED)
+def test_policy_rejects_tokenized_urls(url):
+    res = check_url_policy(url, strict_tokens=True)
+    assert not res.ok and res.reason.startswith("tokenized")
+
+
+@pytest.mark.parametrize("url", BENIGN)
+def test_policy_accepts_benign_urls(url):
+    assert check_url_policy(url, strict_tokens=True).ok
+
+
+@pytest.mark.parametrize("url", TOKENIZED[:3])
+def test_token_rules_apply_with_restream_allowed_and_are_skipped_for_derived_urls(url):
+    assert not check_url_policy(url, allow_restream=True, strict_tokens=True).ok
+    assert check_url_policy(url, check_tokens=False).ok
+
+
+def test_strict_tokens_is_off_by_default():
+    url = "https://cdn.example.com/a.m3u8?auth_key=1-0-0-abc"
+    assert check_url_policy(url).ok
+    assert not check_url_policy(url, strict_tokens=True).ok
+    assert not check_url_policy("https://cdn.example.com/a.m3u8?token=1", strict_tokens=True).ok
+    assert not check_url_policy("https://cdn.example.com/a.m3u8?token=1").ok
+
+
 def test_server_issued_tokens_allowed_for_derived_urls():
     assert check_url_policy("https://cdn.example.com/seg.ts?token=1", check_tokens=False).ok
 
