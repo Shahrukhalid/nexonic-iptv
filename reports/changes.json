@@ -1,64 +1,66 @@
 {
-  "reference_time": "2026-10-27T11:10:42Z",
-  "baseline_reference_time": null,
-  "baseline_available": false,
+  "reference_time": "2026-10-28T00:41:30Z",
+  "baseline_reference_time": "2026-10-27T11:10:42Z",
+  "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 547,
-    "verified_playlist": 479,
-    "excluded": 205,
+    "published": 557,
+    "verified_playlist": 487,
+    "excluded": 195,
     "pending_authorization": 43,
-    "quarantined": 151,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
-    "new_candidates": 0,
-    "new_published": 0,
+    "new_candidates": 2,
+    "new_published": 11,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 0,
-    "newly_quarantined": 0,
-    "restored": 0,
+    "newly_failing": 8,
+    "newly_quarantined": 2,
+    "restored": 1,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 81,
-    "restricted": 43,
-    "unknown": 8,
-    "unreachable": 17,
-    "working": 398
+    "intermittent": 88,
+    "restricted": 39,
+    "unknown": 6,
+    "unreachable": 23,
+    "working": 401
   },
   "latest_run": {
-    "run_id": "run-20261027T110427Z",
-    "started_at": "2026-10-27T11:04:27Z",
-    "finished_at": "2026-10-27T11:10:42Z",
+    "run_id": "run-20261028T003503Z",
+    "started_at": "2026-10-28T00:35:03Z",
+    "finished_at": "2026-10-28T00:41:30Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 739,
+    "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
-      "INVALID_STREAM": 8,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 136,
-      "UNKNOWN": 50,
+      "GEO_RESTRICTED": 57,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 32,
+      "UNAVAILABLE": 133,
+      "UNKNOWN": 46,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 451
+      "VERIFIED_WORKING": 472
     }
   },
   "discovery": {
-    "admitted": 599,
-    "aggregator-host": 976,
-    "already-curated": 473,
-    "closed": 89,
-    "excluded-category": 1125,
-    "host-not-owned-by-broadcaster": 7038,
+    "admitted": 603,
+    "aggregator-host": 998,
+    "already-curated": 558,
+    "closed": 98,
+    "duplicate-channel-in-other-source": 119,
+    "duplicate-of-existing": 1,
+    "excluded-category": 1223,
+    "host-not-owned-by-broadcaster": 7739,
     "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 905,
-    "no-database-entry": 2096,
-    "nsfw-or-blocklisted": 3,
-    "sanctions-exclusion": 607,
-    "streams": 18146,
-    "subscription-service": 95,
-    "url-policy": 4069
+    "needs-special-headers": 964,
+    "no-database-entry": 3616,
+    "nsfw-or-blocklisted": 5,
+    "sanctions-exclusion": 621,
+    "streams": 21345,
+    "subscription-service": 101,
+    "url-policy": 4628
   },
   "integrity": {
     "ok": true,
@@ -68,15 +70,165 @@
     "playlist_files": 177,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "2 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
-    "new_candidates": [],
-    "new_published": [],
+    "new_candidates": [
+      {
+        "id": "a2-cnn-al",
+        "name": "A2 CNN",
+        "country": "al",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "yerkir-media-am",
+        "name": "Yerkir Media",
+        "country": "am",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      }
+    ],
+    "new_published": [
+      {
+        "id": "botflix-radioo-us",
+        "name": "Botflix Radioo",
+        "country": "us"
+      },
+      {
+        "id": "botflix-tv-us",
+        "name": "Botflix TV",
+        "country": "us"
+      },
+      {
+        "id": "capital-21-mx",
+        "name": "Capital 21",
+        "country": "mx"
+      },
+      {
+        "id": "elyssa-tv-tn",
+        "name": "Elyssa TV",
+        "country": "tn"
+      },
+      {
+        "id": "ibc-24-in",
+        "name": "IBC 24",
+        "country": "in"
+      },
+      {
+        "id": "lang-son-tv-vn",
+        "name": "Lang Son TV",
+        "country": "vn"
+      },
+      {
+        "id": "luxembourg-global-radio-tv-lu",
+        "name": "Luxembourg Global Radio TV",
+        "country": "lu"
+      },
+      {
+        "id": "tequila-music-tv-ro",
+        "name": "Tequila Music TV",
+        "country": "ro"
+      },
+      {
+        "id": "tv-bozsike-hamburg-hd-de",
+        "name": "TV Bozsike Hamburg HD",
+        "country": "de"
+      },
+      {
+        "id": "vouli-tv",
+        "name": "Vouli TV",
+        "country": "gr"
+      },
+      {
+        "id": "zb-cinema-in",
+        "name": "ZB Cinema",
+        "country": "in"
+      }
+    ],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [],
-    "newly_quarantined": [],
-    "restored": [],
+    "newly_failing": [
+      {
+        "id": "a2-cnn-al",
+        "name": "A2 CNN",
+        "country": "al",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certifica"
+      },
+      {
+        "id": "hunedoara-1-ro",
+        "name": "Hunedoara 1",
+        "country": "ro",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "svt-barn",
+        "name": "SVT Barn",
+        "country": "se",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "svt1",
+        "name": "SVT1",
+        "country": "se",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "svt2",
+        "name": "SVT2",
+        "country": "se",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-spor",
+        "name": "TRT Spor",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "yerkir-media-am",
+        "name": "Yerkir Media",
+        "country": "am",
+        "state": "unreachable",
+        "error": "segment: HTTP 404 (stream not found)"
+      }
+    ],
+    "newly_quarantined": [
+      {
+        "id": "hunedoara-1-ro",
+        "name": "Hunedoara 1",
+        "country": "ro",
+        "since": "2026-10-28T00:37:37Z"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "since": "2026-10-28T00:38:58Z"
+      }
+    ],
+    "restored": [
+      {
+        "id": "cctv-1-cn",
+        "name": "CCTV+ 1",
+        "country": "cn",
+        "restored_at": "2026-10-28T00:35:37Z"
+      }
+    ],
     "removed": []
   },
   "truncated": {}
