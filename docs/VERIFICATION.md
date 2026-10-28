@@ -78,4 +78,4 @@ the label of the source list.
 
 ## Mocked vs live
 `tests/test_checker.py` uses `httpx.MockTransport` and a stub resolver — no real requests. Live results come only from
-`scripts/verify.py`, and are written to `state/history.json` and `reports/verification.md` with real UTC timestamps.
+`scripts/verify.py`, and are written to `state/history.json` and `reports/verification.*` with real UTC timestamps.

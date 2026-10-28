@@ -133,6 +133,40 @@ entries that carry `#EXTHTTP`, `#KODIPROP` or a `|Header=value` suffix are refus
 - Quarantined records that a maintainer annotated ("Quarantine reviewed: ...") stay in
   `data/pending/auto-quarantine.yaml` when discovery re-runs.
 
+## Community and free VOD upkeep
+After the official verification, `scripts/verify.py` runs the community and free VOD upkeep in the same process (skip it
+with `--no-community`). Any failure there is printed as a warning and cannot change the official results or the exit
+code. Details and the meaning of verified/untested: [TIERS.md](TIERS.md).
+
+| Section.key | Default | Used by |
+|---|---:|---|
+| `community.refresh_max_age_hours` | 20 | the catalogue is rebuilt when older |
+| `community.min_catalog_ratio` | 0.5 | a rebuilt catalogue smaller than this share of the last good one is rejected |
+| `community.max_checks_per_run` | 3000 | rotating slice per run (never-checked first, then oldest) |
+| `community.run_budget_seconds` | 1200 | no new community check after this (`--community-budget-seconds` overrides) |
+| `community.total_deadline_minutes` | 44 | ... nor after this many minutes since `verify.py` started |
+| `community.concurrency` / `timeout` / `per_host_interval` | 32 / 8 s / 1 s | check politeness |
+| `community.max_per_host_per_run` | 40 | one CDN cannot use the whole budget |
+| `community.retry_failed_days` / `retry_quarantined_days` | 3 / 14 | waiting time after a failure |
+| `community.verified_days` | 7 | freshness window of `verified.m3u` |
+| `vod.search_pages_per_run` / `metadata_per_run` | 4 / 150 | the daily VOD slice |
+| `vod.run_budget_seconds` / `total_deadline_minutes` | 300 / 48 | VOD time limits |
+| `vod.max_items` | 5000 | cache size |
+
+With the shipped values the official run (40 minute budget) plus the community slice (at most 44 minutes since start)
+plus VOD (at most 48 minutes since start) ends well inside the workflow's 60 minute limit, leaving at least 12 minutes
+for generation, validation and the commit. State stays compact: `state/community/history.json` keeps
+`history_per_stream` results per stream. `docs/workflows/verify-streams.suggested.yml` shows an optional workflow with a
+longer timeout for a larger community slice (it is a suggestion; nothing applies it).
+
+Takedown entries live in `data/community-exclusions.yaml`. Local commands:
+
+```bash
+python scripts/community.py refresh --streams DIR --database DIR   # build the catalogue from local clones
+python scripts/community.py check --budget-seconds 300             # one rotating slice
+python scripts/vod.py refresh --budget-seconds 120                 # one VOD slice
+```
+
 ## Running each step locally
 ```bash
 pip install -r requirements-dev.txt
