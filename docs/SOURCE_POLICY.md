@@ -46,6 +46,22 @@ These records live in `data/approved/auto/`, carry `source.method: automated-dom
 "Auto-admitted" on the website, and are not individually human-reviewed. Anyone can report one; maintainers can promote
 it to the curated tier or reject it. The tier is refreshed monthly by `refresh-catalog.yml`.
 
+## 2b. Tiers
+Three tiers exist and are never mixed ([TIERS.md](TIERS.md)).
+
+- **Official** (sections 1 to 2a) is the only tier with an authorization basis. Nothing below changes it.
+- **Community live** lists streams from public lists (iptv-org and the configured extra M3U sources) with no claim of
+  authorization. It is admitted only when: not on the iptv-org nsfw or dmca blocklist, not closed, adult screening
+  passes, `http`/`https` URL with no credentials, token, signature, expiry parameter or IP-literal host, restream hosts
+  only without tokens, no special headers, not in `data/community-exclusions.yaml`, and not already published in the
+  official tier (by URL or channel identity; official wins). Such streams are listed as **untested** until a check has
+  succeeded, and are never described as working before that.
+- **Free VOD** lists Internet Archive items whose licence is public domain or Creative Commons, recorded per item.
+  Items with access restrictions, unclear rights, or on the exclusion list are dropped.
+
+Removal for community and VOD entries: add the URL, host, channel id or item identifier to
+`data/community-exclusions.yaml`; it is honoured at build and at every generation.
+
 ## 3. Unclear cases
 If ownership of the host, the free-to-view status, or the content classification cannot be established, the record
 goes to `data/pending/` with a note. Pending records are never published.

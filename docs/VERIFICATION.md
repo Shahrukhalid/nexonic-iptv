@@ -70,6 +70,12 @@ score is `NOT ENOUGH DATA`. Display states: verified recently (working, ≤48 h)
 - All other playlists include approved channels except **stale** ones (3+ consecutive failures and no success for 7 days).
 - Automated (auto-admitted) records are published only after at least one `VERIFIED_WORKING` result.
 
+## Community tier
+Community streams use the same multi-level checker with per-host gating and SSRF protection, but without FFprobe, on a
+rotating slice per day (see [TIERS.md](TIERS.md)). A community stream is "verified" only after a check succeeded; every
+other stream is "untested" and labelled so. Quality buckets use the measured resolution when there is one, otherwise
+the label of the source list.
+
 ## Mocked vs live
 `tests/test_checker.py` uses `httpx.MockTransport` and a stub resolver — no real requests. Live results come only from
-`scripts/verify.py`, and are written to `state/history.json` and `reports/verification.*` with real UTC timestamps.
+`scripts/verify.py`, and are written to `state/history.json` and `reports/verification.md` with real UTC timestamps.
