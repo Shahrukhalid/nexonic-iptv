@@ -44,7 +44,7 @@ the public iptv-org data **only when all of these hold**:
 
 These records live in `data/approved/auto/`, carry `source.method: automated-domain-match`, are labelled
 "Auto-admitted" on the website, and are not individually human-reviewed. Anyone can report one; maintainers can promote
-it to the curated tier or reject it. The tier is refreshed monthly by `refresh-catalog.yml`.
+it to the curated tier or reject it. The tier is refreshed daily by `refresh-catalog.yml`.
 
 ## 2b. Tiers
 Three tiers exist and are never mixed ([TIERS.md](TIERS.md)).
