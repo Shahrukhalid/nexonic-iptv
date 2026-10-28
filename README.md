@@ -38,6 +38,9 @@ Copy a playlist URL and add it as a network stream or M3U source in your player.
 |---|---|
 | All approved channels | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
 | **Nexonic Verified** (passed a check in the last 48 hours) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Community live streams, **untested** unless in the verified list | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` and `.../community/verified.m3u` |
+| Free movies and series (Internet Archive, open licences) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/vod/movies.m3u` and `.../vod/series.m3u` |
+| Official channels by measured quality | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` (`4k`, `1080p`, `720p`, `sd`) |
 | One country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u` (replace `de` with a country code) |
 | One language | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u` (replace `ar` with a language code) |
 | One category | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` (replace `news` with a category) |
@@ -76,25 +79,34 @@ channel data. Do not edit them by hand.
 
 | Metric | Value |
 |---|---:|
-| Approved channels published | 557 |
+| Approved channels published | 547 |
 | Countries | 95 |
 | Languages | 65 |
-| In `verified.m3u` (last 48 h) | 487 |
-| Latest run: verified working | 472 |
+| In `verified.m3u` (last 48 h) | 479 |
+| Latest run: verified working | 451 |
 | Latest run: unavailable / failing | 176 |
-| Latest run: geo-restricted from checker | 57 |
-| Latest run: unknown / rate-limited / unsupported | 47 |
-| Latest verification run (UTC) | 2026-10-28T00:41:30Z |
+| Latest run: geo-restricted from checker | 61 |
+| Latest run: unknown / rate-limited / unsupported | 51 |
+| Latest verification run (UTC) | 2026-10-27T11:10:42Z |
 
-**Country playlists:** 🇦🇪 [United Arab Emirates](playlists/countries/ae.m3u) (6) · 🇦🇬 [Antigua and Barbuda](playlists/countries/ag.m3u) (1) · 🇦🇱 [Albania](playlists/countries/al.m3u) (2) · 🇦🇷 [Argentina](playlists/countries/ar.m3u) (5) · 🇦🇹 [Austria](playlists/countries/at.m3u) (6) · 🇦🇺 [Australia](playlists/countries/au.m3u) (1) · 🇦🇿 [Azerbaijan](playlists/countries/az.m3u) (2) · 🇧🇦 [Bosnia and Herzegovina](playlists/countries/ba.m3u) (3) · 🇧🇪 [Belgium](playlists/countries/be.m3u) (2) · 🇧🇬 [Bulgaria](playlists/countries/bg.m3u) (2) · 🇧🇮 [Burundi](playlists/countries/bi.m3u) (2) · 🇧🇯 [Benin](playlists/countries/bj.m3u) (1) · 🇧🇶 [Bonaire](playlists/countries/bq.m3u) (1) · 🇧🇷 [Brazil](playlists/countries/br.m3u) (9) · 🇨🇦 [Canada](playlists/countries/ca.m3u) (22) · 🇨🇭 [Switzerland](playlists/countries/ch.m3u) (1) · 🇨🇱 [Chile](playlists/countries/cl.m3u) (7) · 🇨🇲 [Cameroon](playlists/countries/cm.m3u) (1) · 🇨🇳 [China](playlists/countries/cn.m3u) (14) · 🇨🇴 [Colombia](playlists/countries/co.m3u) (9) · 🇨🇼 [Curacao](playlists/countries/cw.m3u) (1) · 🇨🇾 [Cyprus](playlists/countries/cy.m3u) (1) · 🇨🇿 [Czech Republic](playlists/countries/cz.m3u) (3) · 🇩🇪 [Germany](playlists/countries/de.m3u) (34) · 🇩🇰 [Denmark](playlists/countries/dk.m3u) (1) · 🇩🇴 [Dominican Republic](playlists/countries/do.m3u) (4) · 🇪🇨 [Ecuador](playlists/countries/ec.m3u) (1) · 🇪🇪 [Estonia](playlists/countries/ee.m3u) (7) · 🇪🇸 [Spain](playlists/countries/es.m3u) (30) · 🇫🇮 [Finland](playlists/countries/fi.m3u) (6) · 🇫🇷 [France](playlists/countries/fr.m3u) (36) · 🇬🇪 [Georgia](playlists/countries/ge.m3u) (1) · 🇬🇲 [Gambia](playlists/countries/gm.m3u) (1) · 🇬🇵 [Guadeloupe](playlists/countries/gp.m3u) (1) · 🇬🇶 [Equatorial Guinea](playlists/countries/gq.m3u) (1) · 🇬🇷 [Greece](playlists/countries/gr.m3u) (3) · 🇬🇾 [Guyana](playlists/countries/gy.m3u) (1) · 🇭🇰 [Hong Kong](playlists/countries/hk.m3u) (2) · 🇭🇳 [Honduras](playlists/countries/hn.m3u) (5) · 🇭🇷 [Croatia](playlists/countries/hr.m3u) (1) · 🇭🇺 [Hungary](playlists/countries/hu.m3u) (2) · 🇮🇩 [Indonesia](playlists/countries/id.m3u) (5) · 🇮🇳 [India](playlists/countries/in.m3u) (21) · 🇮🇶 [Iraq](playlists/countries/iq.m3u) (3) · 🇮🇷 [Iran](playlists/countries/ir.m3u) (7) · 🇮🇸 [Iceland](playlists/countries/is.m3u) (2) · 🇮🇹 [Italy](playlists/countries/it.m3u) (15) · 🇯🇵 [Japan](playlists/countries/jp.m3u) (1) · 🇰🇭 [Cambodia](playlists/countries/kh.m3u) (2) · 🇰🇷 [South Korea](playlists/countries/kr.m3u) (16) · 🇰🇿 [Kazakhstan](playlists/countries/kz.m3u) (3) · 🇱🇧 [Lebanon](playlists/countries/lb.m3u) (1) · 🇱🇰 [Sri Lanka](playlists/countries/lk.m3u) (1) · 🇱🇹 [Lithuania](playlists/countries/lt.m3u) (4) · 🇱🇺 [Luxembourg](playlists/countries/lu.m3u) (5) · 🇱🇻 [Latvia](playlists/countries/lv.m3u) (2) · 🇲🇨 [Monaco](playlists/countries/mc.m3u) (1) · 🇲🇩 [Moldova](playlists/countries/md.m3u) (7) · 🇲🇰 [North Macedonia](playlists/countries/mk.m3u) (4) · 🇲🇲 [Myanmar](playlists/countries/mm.m3u) (1) · 🇲🇳 [Mongolia](playlists/countries/mn.m3u) (4) · 🇲🇶 [Martinique](playlists/countries/mq.m3u) (1) · 🇲🇽 [Mexico](playlists/countries/mx.m3u) (2) · 🇲🇾 [Malaysia](playlists/countries/my.m3u) (1) · 🇲🇿 [Mozambique](playlists/countries/mz.m3u) (1) · 🇳🇬 [Nigeria](playlists/countries/ng.m3u) (2) · 🇳🇱 [Netherlands](playlists/countries/nl.m3u) (10) · 🇳🇴 [Norway](playlists/countries/no.m3u) (2) · 🇳🇿 [New Zealand](playlists/countries/nz.m3u) (1) · 🇵🇪 [Peru](playlists/countries/pe.m3u) (5) · 🇵🇰 [Pakistan](playlists/countries/pk.m3u) (1) · 🇵🇱 [Poland](playlists/countries/pl.m3u) (4) · 🇵🇸 [Palestine](playlists/countries/ps.m3u) (1) · 🇵🇾 [Paraguay](playlists/countries/py.m3u) (4) · 🇶🇦 [Qatar](playlists/countries/qa.m3u) (3) · 🇷🇴 [Romania](playlists/countries/ro.m3u) (20) · 🇷🇸 [Serbia](playlists/countries/rs.m3u) (2) · 🇷🇺 [Russia](playlists/countries/ru.m3u) (13) · 🇷🇼 [Rwanda](playlists/countries/rw.m3u) (1) · 🇸🇦 [Saudi Arabia](playlists/countries/sa.m3u) (1) · 🇸🇩 [Sudan](playlists/countries/sd.m3u) (1) · 🇸🇪 [Sweden](playlists/countries/se.m3u) (3) · 🇸🇰 [Slovakia](playlists/countries/sk.m3u) (1) · 🇹🇭 [Thailand](playlists/countries/th.m3u) (20) · 🇹🇳 [Tunisia](playlists/countries/tn.m3u) (2) · 🇹🇷 [Turkiye](playlists/countries/tr.m3u) (24) · 🇹🇹 [Trinidad and Tobago](playlists/countries/tt.m3u) (1) · 🇺🇦 [Ukraine](playlists/countries/ua.m3u) (4) · 🇺🇬 [Uganda](playlists/countries/ug.m3u) (1) · 🇬🇧 [United Kingdom](playlists/countries/uk.m3u) (7) · 🇺🇸 [United States](playlists/countries/us.m3u) (64) · 🇺🇿 [Uzbekistan](playlists/countries/uz.m3u) (2) · 🇻🇪 [Venezuela](playlists/countries/ve.m3u) (3) · 🇻🇳 [Vietnam](playlists/countries/vn.m3u) (4) · 🇿🇦 [South Africa](playlists/countries/za.m3u) (1)
+| Tier | Streams | Of which verified | Not verified |
+|---|---:|---:|---:|
+| Official live channels | 547 | 479 | 68 |
+| Community live streams | not built yet | n/a | n/a |
+| Free VOD (films and TV, open licences) | not built yet | n/a | n/a |
+
+**Country playlists:** 🇦🇪 [United Arab Emirates](playlists/countries/ae.m3u) (6) · 🇦🇬 [Antigua and Barbuda](playlists/countries/ag.m3u) (1) · 🇦🇱 [Albania](playlists/countries/al.m3u) (2) · 🇦🇷 [Argentina](playlists/countries/ar.m3u) (5) · 🇦🇹 [Austria](playlists/countries/at.m3u) (6) · 🇦🇺 [Australia](playlists/countries/au.m3u) (1) · 🇦🇿 [Azerbaijan](playlists/countries/az.m3u) (2) · 🇧🇦 [Bosnia and Herzegovina](playlists/countries/ba.m3u) (3) · 🇧🇪 [Belgium](playlists/countries/be.m3u) (2) · 🇧🇬 [Bulgaria](playlists/countries/bg.m3u) (2) · 🇧🇮 [Burundi](playlists/countries/bi.m3u) (2) · 🇧🇯 [Benin](playlists/countries/bj.m3u) (1) · 🇧🇶 [Bonaire](playlists/countries/bq.m3u) (1) · 🇧🇷 [Brazil](playlists/countries/br.m3u) (9) · 🇨🇦 [Canada](playlists/countries/ca.m3u) (22) · 🇨🇭 [Switzerland](playlists/countries/ch.m3u) (1) · 🇨🇱 [Chile](playlists/countries/cl.m3u) (7) · 🇨🇲 [Cameroon](playlists/countries/cm.m3u) (1) · 🇨🇳 [China](playlists/countries/cn.m3u) (13) · 🇨🇴 [Colombia](playlists/countries/co.m3u) (9) · 🇨🇼 [Curacao](playlists/countries/cw.m3u) (1) · 🇨🇾 [Cyprus](playlists/countries/cy.m3u) (1) · 🇨🇿 [Czech Republic](playlists/countries/cz.m3u) (3) · 🇩🇪 [Germany](playlists/countries/de.m3u) (33) · 🇩🇰 [Denmark](playlists/countries/dk.m3u) (1) · 🇩🇴 [Dominican Republic](playlists/countries/do.m3u) (4) · 🇪🇨 [Ecuador](playlists/countries/ec.m3u) (1) · 🇪🇪 [Estonia](playlists/countries/ee.m3u) (7) · 🇪🇸 [Spain](playlists/countries/es.m3u) (30) · 🇫🇮 [Finland](playlists/countries/fi.m3u) (6) · 🇫🇷 [France](playlists/countries/fr.m3u) (36) · 🇬🇪 [Georgia](playlists/countries/ge.m3u) (1) · 🇬🇲 [Gambia](playlists/countries/gm.m3u) (1) · 🇬🇵 [Guadeloupe](playlists/countries/gp.m3u) (1) · 🇬🇶 [Equatorial Guinea](playlists/countries/gq.m3u) (1) · 🇬🇷 [Greece](playlists/countries/gr.m3u) (3) · 🇬🇾 [Guyana](playlists/countries/gy.m3u) (1) · 🇭🇰 [Hong Kong](playlists/countries/hk.m3u) (2) · 🇭🇳 [Honduras](playlists/countries/hn.m3u) (5) · 🇭🇷 [Croatia](playlists/countries/hr.m3u) (1) · 🇭🇺 [Hungary](playlists/countries/hu.m3u) (2) · 🇮🇩 [Indonesia](playlists/countries/id.m3u) (5) · 🇮🇳 [India](playlists/countries/in.m3u) (19) · 🇮🇶 [Iraq](playlists/countries/iq.m3u) (3) · 🇮🇷 [Iran](playlists/countries/ir.m3u) (7) · 🇮🇸 [Iceland](playlists/countries/is.m3u) (2) · 🇮🇹 [Italy](playlists/countries/it.m3u) (15) · 🇯🇵 [Japan](playlists/countries/jp.m3u) (1) · 🇰🇭 [Cambodia](playlists/countries/kh.m3u) (2) · 🇰🇷 [South Korea](playlists/countries/kr.m3u) (16) · 🇰🇿 [Kazakhstan](playlists/countries/kz.m3u) (3) · 🇱🇧 [Lebanon](playlists/countries/lb.m3u) (1) · 🇱🇰 [Sri Lanka](playlists/countries/lk.m3u) (1) · 🇱🇹 [Lithuania](playlists/countries/lt.m3u) (4) · 🇱🇺 [Luxembourg](playlists/countries/lu.m3u) (4) · 🇱🇻 [Latvia](playlists/countries/lv.m3u) (2) · 🇲🇨 [Monaco](playlists/countries/mc.m3u) (1) · 🇲🇩 [Moldova](playlists/countries/md.m3u) (7) · 🇲🇰 [North Macedonia](playlists/countries/mk.m3u) (4) · 🇲🇲 [Myanmar](playlists/countries/mm.m3u) (1) · 🇲🇳 [Mongolia](playlists/countries/mn.m3u) (4) · 🇲🇶 [Martinique](playlists/countries/mq.m3u) (1) · 🇲🇽 [Mexico](playlists/countries/mx.m3u) (2) · 🇲🇾 [Malaysia](playlists/countries/my.m3u) (1) · 🇲🇿 [Mozambique](playlists/countries/mz.m3u) (1) · 🇳🇬 [Nigeria](playlists/countries/ng.m3u) (2) · 🇳🇱 [Netherlands](playlists/countries/nl.m3u) (10) · 🇳🇴 [Norway](playlists/countries/no.m3u) (2) · 🇳🇿 [New Zealand](playlists/countries/nz.m3u) (1) · 🇵🇪 [Peru](playlists/countries/pe.m3u) (5) · 🇵🇰 [Pakistan](playlists/countries/pk.m3u) (1) · 🇵🇱 [Poland](playlists/countries/pl.m3u) (4) · 🇵🇸 [Palestine](playlists/countries/ps.m3u) (1) · 🇵🇾 [Paraguay](playlists/countries/py.m3u) (4) · 🇶🇦 [Qatar](playlists/countries/qa.m3u) (3) · 🇷🇴 [Romania](playlists/countries/ro.m3u) (19) · 🇷🇸 [Serbia](playlists/countries/rs.m3u) (2) · 🇷🇺 [Russia](playlists/countries/ru.m3u) (13) · 🇷🇼 [Rwanda](playlists/countries/rw.m3u) (1) · 🇸🇦 [Saudi Arabia](playlists/countries/sa.m3u) (1) · 🇸🇩 [Sudan](playlists/countries/sd.m3u) (1) · 🇸🇪 [Sweden](playlists/countries/se.m3u) (3) · 🇸🇰 [Slovakia](playlists/countries/sk.m3u) (1) · 🇹🇭 [Thailand](playlists/countries/th.m3u) (20) · 🇹🇳 [Tunisia](playlists/countries/tn.m3u) (1) · 🇹🇷 [Turkiye](playlists/countries/tr.m3u) (24) · 🇹🇹 [Trinidad and Tobago](playlists/countries/tt.m3u) (1) · 🇺🇦 [Ukraine](playlists/countries/ua.m3u) (4) · 🇺🇬 [Uganda](playlists/countries/ug.m3u) (1) · 🇬🇧 [United Kingdom](playlists/countries/uk.m3u) (7) · 🇺🇸 [United States](playlists/countries/us.m3u) (62) · 🇺🇿 [Uzbekistan](playlists/countries/uz.m3u) (2) · 🇻🇪 [Venezuela](playlists/countries/ve.m3u) (3) · 🇻🇳 [Vietnam](playlists/countries/vn.m3u) (3) · 🇿🇦 [South Africa](playlists/countries/za.m3u) (1)
 
 <!-- nexonic:stats:end -->
 
 ## Features
 
-- **Official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
+- **Three separate tiers:** *Official* channels (above), a *Community* live tier from public lists, and *Free VOD* from
+  open collections. Community streams are labelled untested until a check has succeeded, and are never mixed with the
+  official numbers. See [docs/TIERS.md](docs/TIERS.md) for the rules, legal notes and takedown path.
+- **Official tier, official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
-- **Two tiers:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
+- **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
   iptv-org data whose stream is served from the broadcaster's own domain. Auto-admitted channels appear only after
   they pass a live check. Catalog discovery currently runs monthly.
 - **Nexonic Verified:** a playlist of channels that passed a real check in the last 48 hours.
@@ -128,8 +140,9 @@ in your location.
 
 ## Scope and legal limits
 
-- Nexonic hosts no video. It links only to streams that broadcasters publish free for the public, with a documented
-  basis for each. It does not bypass DRM, paywalls, logins or region limits.
+- Nexonic hosts no video. The official tier links only to streams that broadcasters publish free for the public, with a
+  documented basis for each. The community and free VOD tiers follow the weaker rules in [docs/TIERS.md](docs/TIERS.md)
+  and are labelled as such. It does not bypass DRM, paywalls, logins or region limits.
 - Many public broadcasters limit streams to their own country. Those channels are labelled region-limited and will not
   play elsewhere.
 - Broadcasters can change or end streams at any time; nothing here is guaranteed.
@@ -144,6 +157,10 @@ in your location.
   a programme guide.
 
 ## Contributing
+
+Contributors are wanted: suggest channels, share open playlist or EPG sources, find free VOD collections, clean up
+broken or duplicate entries, or improve the tooling. The short guide is in
+[CONTRIBUTING.md](CONTRIBUTING.md#contributors-wanted).
 
 - **Suggest a channel** with the
   [channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml).

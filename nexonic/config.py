@@ -145,12 +145,84 @@ class DiscoveryConfig:
 
 
 @dataclass
+class CommunityConfig:
+    """Community live tier (nexonic/community.py): catalogue refresh, rotating checks and playlist rules."""
+
+    enabled: bool = True
+    refresh_max_age_hours: float = 20.0  # the catalogue is rebuilt by the daily run when older than this
+    min_catalog_ratio: float = 0.5  # a rebuilt catalogue smaller than this share of the last good one is rejected
+    streams_per_channel: int = 1  # best-ranked streams kept per channel feed (1 = one stream per channel identity)
+    allow_restream_hosts: bool = True  # known restream hosts may be listed and checked in this tier (never tokens)
+    # Rotating, budgeted validation
+    max_checks_per_run: int = 3000
+    run_budget_seconds: float = 1200.0  # no new community check is started after this
+    total_deadline_minutes: float = 44.0  # ... nor after this many minutes since scripts/verify.py started
+    concurrency: int = 32
+    max_concurrency: int = 64
+    timeout: float = 8.0
+    retries: int = 0
+    backoff_base: float = 1.0
+    per_host_interval: float = 1.0  # minimum seconds between requests to the same host
+    max_per_host_per_run: int = 40  # one CDN carrying hundreds of channels cannot use the whole budget
+    channel_timeout: float = 30.0
+    retry_failed_days: int = 3  # a stream whose last check failed is not re-checked before this
+    retry_quarantined_days: int = 14
+    history_per_stream: int = 8
+    # Lifecycle (nexonic/lifecycle.py) with thresholds suited to one check every few days
+    min_recheck_hours: float = 20.0  # a stream checked more recently than this is not due again
+    quarantine_failures: int = 2
+    quarantine_distinct_days: int = 2
+    intermittent_window_days: int = 14
+    # Playlists
+    verified_days: int = 7  # verified.m3u: the stream worked at its latest check within this many days
+    untested_in_dimension_playlists: bool = True  # country/language/category/quality files also list untested streams
+
+
+def _default_vod_collections() -> list[dict]:
+    return [
+        {"id": "feature_films", "kind": "movie"},
+        {"id": "film_noir", "kind": "movie", "genre": "noir"},
+        {"id": "SciFi_Horror", "kind": "movie", "genre": "scifi-horror"},
+        {"id": "comedy_films", "kind": "movie", "genre": "comedy"},
+        {"id": "classic_cartoons", "kind": "movie", "genre": "animation"},
+        {"id": "classic_tv", "kind": "series"},
+    ]
+
+
+@dataclass
+class VodConfig:
+    """Free VOD tier (nexonic/vod.py): Internet Archive public-domain and openly licensed films and TV."""
+
+    enabled: bool = True
+    refresh_max_age_hours: float = 20.0
+    timeout: float = 30.0
+    retries: int = 3
+    backoff_base: float = 2.0
+    request_interval: float = 1.0  # seconds between requests to archive.org
+    rows_per_page: int = 200
+    search_pages_per_run: int = 4  # advancedsearch pages read per run, across all collections
+    metadata_per_run: int = 150  # item metadata documents read per run (the daily slice)
+    run_budget_seconds: float = 300.0
+    max_items: int = 5000  # items kept in state/vod/items.json
+    rescan_days: int = 14  # a finished collection search starts over after this many days
+    allow_weak_terms: bool = False  # titles with words such as "love" or "night" go to manual review unless true
+    total_deadline_minutes: float = 48.0  # no VOD request is made after this many minutes since verify.py started
+    allowed_licences: list = field(
+        default_factory=lambda: ["publicdomain", "by", "by-sa", "by-nc", "by-nc-sa", "by-nd", "by-nc-nd"]
+    )
+    allowed_hosts: list = field(default_factory=lambda: ["archive.org"])
+    collections: list = field(default_factory=_default_vod_collections)
+
+
+@dataclass
 class PipelineConfig:
     verify: VerifyConfig = field(default_factory=VerifyConfig)
     quarantine: QuarantineConfig = field(default_factory=QuarantineConfig)
     guard: GuardConfig = field(default_factory=GuardConfig)
     changes: ChangesConfig = field(default_factory=ChangesConfig)
     discovery: DiscoveryConfig = field(default_factory=DiscoveryConfig)
+    community: CommunityConfig = field(default_factory=CommunityConfig)
+    vod: VodConfig = field(default_factory=VodConfig)
 
 
 class ConfigError(ValueError):
@@ -218,6 +290,31 @@ def _check_extra_m3u(entries: list[dict]) -> None:
                 raise ConfigError(f"[[discovery.extra_m3u]] {name}: unsafe or non-M3U path {rel!r}")
 
 
+VOD_COLLECTION_KEYS = {"id", "kind", "genre"}
+VOD_LICENCES = {"publicdomain", "by", "by-sa", "by-nc", "by-nc-sa", "by-nd", "by-nc-nd"}
+_COLLECTION_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.-]{0,80}$")
+
+
+def _check_vod(v: VodConfig) -> None:
+    seen: set[str] = set()
+    for c in v.collections:
+        if not isinstance(c, dict) or not {"id", "kind"} <= set(c) or not set(c) <= VOD_COLLECTION_KEYS:
+            raise ConfigError("[[vod.collections]] entries need id and kind (and optionally genre)")
+        cid = c["id"]
+        if not isinstance(cid, str) or not _COLLECTION_ID_RE.match(cid) or cid in seen:
+            raise ConfigError(f"[[vod.collections]] id {cid!r} must be a unique Internet Archive collection id")
+        seen.add(cid)
+        if c["kind"] not in ("movie", "series"):
+            raise ConfigError(f"[[vod.collections]] {cid}: kind must be 'movie' or 'series'")
+        genre = c.get("genre", "")
+        if not isinstance(genre, str) or (genre and not _NAME_RE.match(genre)):
+            raise ConfigError(f"[[vod.collections]] {cid}: genre must be a lower-case slug or empty")
+    if not v.allowed_licences or not set(v.allowed_licences) <= VOD_LICENCES:
+        raise ConfigError(f"vod.allowed_licences must be a non-empty subset of {sorted(VOD_LICENCES)}")
+    if not v.allowed_hosts or not all(isinstance(h, str) and "." in h for h in v.allowed_hosts):
+        raise ConfigError("vod.allowed_hosts must list host names")
+
+
 def _check(cfg: PipelineConfig) -> None:
     v, q, g, d = cfg.verify, cfg.quarantine, cfg.guard, cfg.discovery
     positive = {
@@ -257,6 +354,53 @@ def _check(cfg: PipelineConfig) -> None:
     if not d.sources or any(set(s) != {"name", "repo", "ref"} for s in d.sources):
         raise ConfigError("[[discovery.sources]] entries need exactly name, repo and ref")
     _check_extra_m3u(d.extra_m3u)
+    c, vod = cfg.community, cfg.vod
+    for name, value in {
+        "community.refresh_max_age_hours": c.refresh_max_age_hours,
+        "community.streams_per_channel": c.streams_per_channel,
+        "community.max_checks_per_run": c.max_checks_per_run,
+        "community.run_budget_seconds": c.run_budget_seconds,
+        "community.total_deadline_minutes": c.total_deadline_minutes,
+        "community.concurrency": c.concurrency,
+        "community.max_concurrency": c.max_concurrency,
+        "community.timeout": c.timeout,
+        "community.min_recheck_hours": c.min_recheck_hours,
+        "community.max_per_host_per_run": c.max_per_host_per_run,
+        "community.channel_timeout": c.channel_timeout,
+        "community.history_per_stream": c.history_per_stream,
+        "community.quarantine_failures": c.quarantine_failures,
+        "community.quarantine_distinct_days": c.quarantine_distinct_days,
+        "community.intermittent_window_days": c.intermittent_window_days,
+        "community.verified_days": c.verified_days,
+        "vod.refresh_max_age_hours": vod.refresh_max_age_hours,
+        "vod.timeout": vod.timeout,
+        "vod.rows_per_page": vod.rows_per_page,
+        "vod.search_pages_per_run": vod.search_pages_per_run,
+        "vod.metadata_per_run": vod.metadata_per_run,
+        "vod.run_budget_seconds": vod.run_budget_seconds,
+        "vod.max_items": vod.max_items,
+        "vod.rescan_days": vod.rescan_days,
+        "vod.total_deadline_minutes": vod.total_deadline_minutes,
+    }.items():
+        if value <= 0:
+            raise ConfigError(f"{name} must be greater than 0")
+    for name, value in {
+        "community.retries": c.retries,
+        "community.backoff_base": c.backoff_base,
+        "community.per_host_interval": c.per_host_interval,
+        "community.retry_failed_days": c.retry_failed_days,
+        "community.retry_quarantined_days": c.retry_quarantined_days,
+        "vod.retries": vod.retries,
+        "vod.backoff_base": vod.backoff_base,
+        "vod.request_interval": vod.request_interval,
+    }.items():
+        if value < 0:
+            raise ConfigError(f"{name} must not be negative")
+    if not 0 < c.min_catalog_ratio <= 1:
+        raise ConfigError("community.min_catalog_ratio must be between 0 (exclusive) and 1")
+    if c.streams_per_channel > 5:
+        raise ConfigError("community.streams_per_channel must be at most 5")
+    _check_vod(vod)
 
 
 def load_pipeline(path: Path | None = None) -> PipelineConfig:

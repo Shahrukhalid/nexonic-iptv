@@ -59,8 +59,9 @@ TOKEN_PARAMS = {
     "policy",
     "key-pair-id",
 }
-# Hosts that are known restreamers / redirect services and never acceptable as a source of truth.
-DENY_HOST_PATTERNS = [
+# Hosts that are known restreamers / redirect services. Never acceptable for the official tier; the community tier may
+# list (and check) them when ``allow_restream`` is set, because there they carry no claim of being the owner's stream.
+RESTREAM_HOST_PATTERNS = [
     re.compile(p)
     for p in (
         r"(^|\.)pishow\.tv$",
@@ -72,6 +73,12 @@ DENY_HOST_PATTERNS = [
         r"(^|\.)cinerama\.uz$",
         r"(^|\.)mcquack\.net$",
         r"(^|\.)onrender\.com$",
+    )
+]
+# Hosts that are refused in every tier: dynamic DNS (no provenance) and pages that are not stream servers.
+ALWAYS_DENY_HOST_PATTERNS = [
+    re.compile(p)
+    for p in (
         r"(^|\.)ddns\.net$",
         r"(^|\.)duckdns\.org$",
         r"(^|\.)dynu\.net$",
@@ -83,6 +90,7 @@ DENY_HOST_PATTERNS = [
         r"(^|\.)twitch\.tv$",
     )
 ]
+DENY_HOST_PATTERNS = RESTREAM_HOST_PATTERNS + ALWAYS_DENY_HOST_PATTERNS
 
 
 class UnsafeURLError(ValueError):
@@ -122,7 +130,9 @@ def is_public_ip(ip: str) -> bool:
     )
 
 
-def check_url_policy(url: str, *, allow_ip_literal: bool = False, check_tokens: bool = True) -> PolicyResult:
+def check_url_policy(
+    url: str, *, allow_ip_literal: bool = False, check_tokens: bool = True, allow_restream: bool = False
+) -> PolicyResult:
     """Static policy check of a URL string. Never performs network access."""
     if len(url) > 2048:
         return PolicyResult(False, "URL too long")
@@ -154,7 +164,7 @@ def check_url_policy(url: str, *, allow_ip_literal: bool = False, check_tokens: 
             return PolicyResult(False, f"internal hostname {host!r}")
         if not re.fullmatch(r"[a-z0-9.-]+", host) or ".." in host:
             return PolicyResult(False, "hostname has invalid characters")
-    for pat in DENY_HOST_PATTERNS:
+    for pat in ALWAYS_DENY_HOST_PATTERNS if allow_restream else DENY_HOST_PATTERNS:
         if pat.search(host):
             return PolicyResult(False, f"host {host!r} is a known restream/redirect service")
     for key, _ in parse_qsl(parts.query, keep_blank_values=True) if check_tokens else []:

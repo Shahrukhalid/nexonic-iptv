@@ -21,9 +21,11 @@ import sys
 import tempfile
 from pathlib import Path
 
+import yaml
+
 import _bootstrap  # noqa: F401
 
-from nexonic import changes, config, generate, reports, validation
+from nexonic import changes, community, config, generate, reports, validation, vod
 from nexonic import regional as regional_mod
 from nexonic.records import ROOT, load_history, load_records
 
@@ -63,6 +65,21 @@ def build(root: Path) -> int:
         if e.get("restored_at")
     }
     plan = generate.plan(records, history, cfg.quarantine, restored, regional)
+    try:
+        exclusions = community.load_exclusions()
+    except (OSError, ValueError, yaml.YAMLError) as exc:
+        print(f"ERROR data/community-exclusions.yaml: {exc}", file=sys.stderr)
+        return 2
+    cplan = community.plan_community(
+        community.load_catalog(),
+        community.load_history(),
+        community.official_context(records),
+        exclusions,
+        cfg.community,
+    )
+    generate.extend(plan, "community", cplan.files, cplan.index, cplan.stats)
+    vplan = vod.plan_vod(vod.load_items(), exclusions, cfg.vod, vod.load_progress())
+    generate.extend(plan, "vod", vplan.files, vplan.index, vplan.stats)
     current = changes.build_snapshot(records, plan, state.get("current"))
     plan.last_metadata_update = {
         cid: e["meta_changed_at"] for cid, e in current["channels"].items() if "meta_changed_at" in e
@@ -92,6 +109,14 @@ def build(root: Path) -> int:
         f"Published {len(plan.published)} channels in {len(plan.files)} playlist files; "
         f"{len(plan.verified_ids)} in verified.m3u; {len(plan.excluded)} approved records excluded."
     )
+    if cplan.stats:
+        cs = cplan.stats
+        print(
+            f"Community tier: {cs['verified']} verified, {cs['untested']} untested, "
+            f"{cs['failing_held_back']} held back after a failed check ({len(cplan.files)} playlist files)."
+        )
+    if vplan.stats:
+        print(f"Free VOD tier: {vplan.stats['items']} items ({len(vplan.files)} playlist files).")
     for item in report["attention"]:
         print(f"ATTENTION {item}")
     reasons: dict[str, int] = {}

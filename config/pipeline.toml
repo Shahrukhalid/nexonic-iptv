@@ -106,3 +106,85 @@ repo = "CL-Maker283/iptv-ecuador-tv"
 ref = "main"
 paths = ["streamings-ecuador-all.m3u"]
 licence = "Unlicense"
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Community live tier (nexonic/community.py, docs/TIERS.md). Separate playlists under playlists/community/; the catalogue
+# lives in state/community/ because the daily workflow commits state/, reports/ and playlists/ only.
+[community]
+enabled = true
+refresh_max_age_hours = 20.0      # the catalogue is rebuilt by the daily run when it is older than this
+min_catalog_ratio = 0.5           # a rebuilt catalogue smaller than this share of the last good one is rejected
+streams_per_channel = 1           # best-ranked streams kept per channel feed (max 5)
+allow_restream_hosts = true       # known restream hosts may be listed and checked here (never with tokens)
+# Rotating, budgeted validation: never-checked streams first, then the oldest-checked ones.
+max_checks_per_run = 3000
+run_budget_seconds = 1200.0       # no new community check is started after this
+total_deadline_minutes = 44.0     # ... nor after this many minutes since scripts/verify.py started (workflow limit: 60)
+concurrency = 32
+max_concurrency = 64
+timeout = 8.0                     # seconds per request
+retries = 0
+backoff_base = 1.0
+per_host_interval = 1.0           # minimum seconds between requests to the same host
+max_per_host_per_run = 40         # one CDN carrying hundreds of channels cannot use the whole budget
+channel_timeout = 30.0
+min_recheck_hours = 20.0          # a stream checked more recently than this is not due again
+retry_failed_days = 3             # a stream whose last check failed waits this long ...
+retry_quarantined_days = 14       # ... or this long when it is quarantined
+history_per_stream = 8            # results kept per stream in state/community/history.json
+# Lifecycle thresholds (nexonic/lifecycle.py) suited to one check every few days
+quarantine_failures = 2
+quarantine_distinct_days = 2
+intermittent_window_days = 14
+# Playlists
+verified_days = 7                 # verified.m3u: the stream worked at its latest check within this many days
+untested_in_dimension_playlists = true   # country/language/category/quality files also list untested streams, labelled
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Free VOD tier (nexonic/vod.py, docs/TIERS.md): Internet Archive items that record public domain or an open CC licence.
+[vod]
+enabled = true
+refresh_max_age_hours = 20.0
+timeout = 30.0
+retries = 3
+backoff_base = 2.0
+request_interval = 1.0            # seconds between requests to archive.org
+rows_per_page = 200
+search_pages_per_run = 4          # advanced-search pages read per daily run, across all collections
+metadata_per_run = 150            # item metadata documents read per daily run (the daily slice)
+run_budget_seconds = 300.0
+total_deadline_minutes = 48.0     # no VOD request is made after this many minutes since verify.py started
+max_items = 5000
+rescan_days = 14                  # a finished collection search starts over after this many days
+allow_weak_terms = false          # titles with words such as "love" or "night" go to manual review unless true
+allowed_licences = ["publicdomain", "by", "by-sa", "by-nc", "by-nc-sa", "by-nd", "by-nc-nd"]
+allowed_hosts = ["archive.org"]
+
+# Collections searched. kind is "movie" or "series"; genre (optional) is a lower-case slug added to every item.
+[[vod.collections]]
+id = "feature_films"
+kind = "movie"
+
+[[vod.collections]]
+id = "film_noir"
+kind = "movie"
+genre = "noir"
+
+[[vod.collections]]
+id = "SciFi_Horror"
+kind = "movie"
+genre = "scifi-horror"
+
+[[vod.collections]]
+id = "comedy_films"
+kind = "movie"
+genre = "comedy"
+
+[[vod.collections]]
+id = "classic_cartoons"
+kind = "movie"
+genre = "animation"
+
+[[vod.collections]]
+id = "classic_tv"
+kind = "series"

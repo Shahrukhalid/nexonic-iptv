@@ -252,6 +252,7 @@ def build_report(
         "lists": {k: _cap(v, cfg.max_listed) for k, v in lists.items()},
         "truncated": {k: len(v) - cfg.max_listed for k, v in lists.items() if len(v) > cfg.max_listed},
     }
+    report["tiers"] = reports.tier_statistics(plan)
     if plan.regional:  # only present when another location has reported results
         names = {c.id: c for c in plan.published}
         elsewhere = [
@@ -299,6 +300,15 @@ def summary_markdown(rep: dict) -> str:
         f"{'OK' if rep['integrity']['ok'] else 'FAILED'}. Details: `reports/changes.md`.",
         "",
     ]
+    t = rep.get("tiers")
+    if t:
+        parts = [f"official {t['official']['published']} ({t['official']['verified']} verified)"]
+        if t.get("community"):
+            cm = t["community"]
+            parts.append(f"community {cm['verified']} verified / {cm['untested']} untested")
+        if t.get("vod"):
+            parts.append(f"free VOD {t['vod']['items']} items")
+        lines += ["Tiers: " + " · ".join(parts) + ".", ""]
     if "regional" in rep:
         lines += [
             f"Restricted channels confirmed working elsewhere: {c['restricted_confirmed_elsewhere']} "
@@ -308,6 +318,42 @@ def summary_markdown(rep: dict) -> str:
     if rep["attention"]:
         lines += ["**Needs attention:**", ""] + [f"- {a}" for a in rep["attention"]] + [""]
     return "\n".join(lines)
+
+
+def _tier_lines(tiers: dict | None) -> list[str]:
+    """The three tiers side by side (official, community verified / untested, free VOD)."""
+    if not tiers:
+        return []
+    o, c, v = tiers["official"], tiers.get("community"), tiers.get("vod")
+    lines = [
+        "",
+        "## Tiers",
+        "",
+        "Tiers are published separately. Community streams are not limited to the broadcaster's own hosts, and "
+        "*untested* ones have not been confirmed working.",
+        "",
+        "| Tier | Published | Verified | Not verified |",
+        "|---|---:|---:|---:|",
+        f"| Official | {o['published']} | {o['verified']} | {o['not_verified']} |",
+    ]
+    if c:
+        lines += [
+            f"| Community: verified | {c['verified']} | {c['verified']} | 0 |",
+            f"| Community: untested | {c['untested']} | 0 | {c['untested']} |",
+        ]
+    else:
+        lines.append("| Community | not built yet | n/a | n/a |")
+    lines.append(
+        f"| Free VOD (items) | {v['items']} | n/a | n/a |" if v else "| Free VOD | not built yet | n/a | n/a |"
+    )
+    if c:
+        lines += [
+            "",
+            f"Community catalogue: {c['catalog_streams']} streams (built {c['catalog_built_at']}); never checked: "
+            f"{c['never_checked']}; held back after a failed check: {c['held_back_after_failed_check']}; verified means "
+            f"worked at the latest check within {c['verified_days']} days.",
+        ]
+    return lines
 
 
 def to_markdown(rep: dict, rows: int = 25) -> str:
@@ -335,6 +381,7 @@ def to_markdown(rep: dict, rows: int = 25) -> str:
         lines += [f"| {_TITLES[k]} | {c[k]} |" for k in LIST_KEYS]
     if "regional" in rep:
         lines += [f"| Restricted channels confirmed working elsewhere | {c['restricted_confirmed_elsewhere']} |"]
+    lines += _tier_lines(rep.get("tiers"))
     lines += ["", "## Lifecycle of published channels", "", "| State | Channels |", "|---|---:|"]
     lines += [f"| {k} | {v} |" for k, v in rep["lifecycle_counts"].items()]
     lines += ["", "## Integrity", ""]

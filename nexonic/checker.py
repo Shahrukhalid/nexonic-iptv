@@ -64,6 +64,7 @@ class Limits:
     ffprobe_timeout: float = 15.0
     channel_timeout: float = 60.0  # hard cap per channel; exceeded -> TIMEOUT
     run_budget: float = 40 * 60.0  # channels not started within the budget are recorded NOT_TESTED
+    allow_restream: bool = False  # community tier only: known restream hosts are checked instead of refused
 
 
 class Budget:
@@ -191,7 +192,12 @@ class Fetcher:
         current = url
         for hop in range(self.limits.max_redirects + 1):
             server_issued = derived or hop > 0
-            policy = check_url_policy(current, allow_ip_literal=server_issued, check_tokens=not server_issued)
+            policy = check_url_policy(
+                current,
+                allow_ip_literal=server_issued,
+                check_tokens=not server_issued,
+                allow_restream=self.limits.allow_restream,
+            )
             if not policy.ok:
                 raise UnsafeURLError(f"{'redirect target ' if hop else ''}{policy.reason}")
             parts = urlsplit(current)
@@ -316,7 +322,11 @@ async def _ffprobe(url: str, timeout: float) -> tuple[bool, str, dict]:
         return False, "ffprobe returned invalid JSON", {}
     streams = data.get("streams", [])
     kinds = sorted({s.get("codec_type") for s in streams if s.get("codec_type")})
-    return ("video" in kinds or "audio" in kinds), "", {"ffprobe_streams": kinds}
+    info: dict = {"ffprobe_streams": kinds}
+    heights = [s["height"] for s in streams if s.get("codec_type") == "video" and isinstance(s.get("height"), int)]
+    if heights:
+        info["ffprobe_height"] = max(heights)  # of the probed rendition (the lowest-bandwidth variant of a master)
+    return ("video" in kinds or "audio" in kinds), "", info
 
 
 async def check_channel(fetcher: Fetcher, channel: Channel, location: str) -> CheckResult:
@@ -326,7 +336,7 @@ async def check_channel(fetcher: Fetcher, channel: Channel, location: str) -> Ch
     budget = Budget(fetcher.limits)
 
     # Level 1
-    policy = check_url_policy(url)
+    policy = check_url_policy(url, allow_restream=fetcher.limits.allow_restream)
     if not policy.ok:
         res.status, res.error = Status.INVALID_STREAM, f"URL policy: {policy.reason}"
         return res

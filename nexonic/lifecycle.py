@@ -91,9 +91,18 @@ def is_quarantined(results: list[CheckResult], cfg: QuarantineConfig) -> bool:
     return _walk(_tested(results), cfg)[0]
 
 
-def in_verified(results: list[CheckResult], reference: dt.datetime | None, cfg: QuarantineConfig) -> bool:
-    """Membership of verified.m3u: working at the latest check, or a recent success and not yet quarantined."""
-    if is_verified_fresh(results, reference):
+def in_verified(
+    results: list[CheckResult],
+    reference: dt.datetime | None,
+    cfg: QuarantineConfig,
+    fresh_hours: float = VERIFIED_FRESH_HOURS,
+) -> bool:
+    """Membership of verified.m3u: working at the latest check, or a recent success and not yet quarantined.
+
+    ``fresh_hours`` is the freshness window (48 hours for the official tier, longer for the community tier, whose
+    streams are re-checked in rotation).
+    """
+    if is_verified_fresh(results, reference, fresh_hours):
         return True
     tested = _tested(results)
     if not tested or reference is None or tested[-1].status not in FAILURES:
@@ -102,7 +111,7 @@ def in_verified(results: list[CheckResult], reference: dt.datetime | None, cfg: 
     if not successes:
         return False
     age_h = (reference - parse_iso(successes[-1].checked_at)).total_seconds() / 3600
-    return age_h <= VERIFIED_FRESH_HOURS and not is_quarantined(results, cfg)
+    return age_h <= fresh_hours and not is_quarantined(results, cfg)
 
 
 def evaluate(

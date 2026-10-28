@@ -7,6 +7,11 @@
 
 Writes state/history.json, reports/verification.json and reports/verification.md.
 
+After the official channels, a full run also refreshes the community catalogue (when older than
+community.refresh_max_age_hours), checks its rotating slice (community.* in config/pipeline.toml) and reads one daily
+slice of the free VOD cache. Both are bounded by their own budgets and by total_deadline_minutes, and a failure in
+either is reported as a warning without changing the official results or the exit code. --no-community skips them.
+
 Second-location checks (see docs/REGIONAL_CHECKS.md):
 
     python scripts/verify.py --location-label asia-pk --only restricted
@@ -22,10 +27,11 @@ from __future__ import annotations
 import argparse
 import asyncio
 import sys
+import time
 
 import _bootstrap  # noqa: F401
 
-from nexonic import regional
+from nexonic import community, regional, vod
 from nexonic.config import load_pipeline
 from nexonic.checker import Limits, check_all
 from nexonic.records import load_history, load_records, merge_results, save_history
@@ -54,7 +60,12 @@ def main(argv: list[str] | None = None) -> int:
         help="with --location-label: only re-check channels whose primary status (e.g. GEO_RESTRICTED) or lifecycle "
         "state (e.g. restricted) matches; comma or space separated; 'all' selects every channel",
     )
+    ap.add_argument(
+        "--no-community", action="store_true", help="skip the community catalogue, its checks and the VOD slice"
+    )
+    ap.add_argument("--community-budget-seconds", type=float, help="override community.run_budget_seconds for this run")
     args = ap.parse_args(argv)
+    started = time.monotonic()
     label = None
     if args.only and not args.location_label:
         ap.error("--only needs --location-label (the primary history is always checked in full)")
@@ -118,7 +129,34 @@ def main(argv: list[str] | None = None) -> int:
         counts[r.status.value] = counts.get(r.status.value, 0) + 1
     for status, n in sorted(counts.items()):
         print(f"  {status:<18} {n}")
+    if not label and not args.ids and not args.no_community:
+        extra_tiers(cfg_all, records, args, started)
     return 0
+
+
+def extra_tiers(cfg_all, records, args, started: float) -> None:
+    """Community and free VOD upkeep. Nothing here may change the outcome of the official verification above."""
+    try:
+        exclusions = community.load_exclusions()
+    except Exception as exc:  # noqa: BLE001 - a broken takedown file must not stop the run; validate.py reports it
+        print(f"WARNING community tier skipped: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return
+    try:
+        community.run_daily(
+            cfg_all.discovery,
+            cfg_all.community,
+            community.official_context(records),
+            exclusions,
+            elapsed_seconds=time.monotonic() - started,
+            budget_override=args.community_budget_seconds,
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARNING community tier failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+    try:
+        left = cfg_all.vod.total_deadline_minutes * 60 - (time.monotonic() - started)
+        vod.refresh(cfg_all.vod, exclusions, budget_seconds=min(cfg_all.vod.run_budget_seconds, left))
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARNING free VOD refresh failed: {type(exc).__name__}: {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -10,9 +10,11 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from urllib.parse import urlsplit
 
-from . import config, guard, m3u
+from . import community, config, guard, m3u, vod
 from . import regional as regional_mod
+from .dedup import stream_key
 from .moderation import publication_gate
 from .records import ROOT, load_records, normalise_url
 from .safety import check_url_policy
@@ -30,6 +32,77 @@ def check_guard(root, index: dict, cfg) -> tuple[list[dict], list[dict], guard.G
     if verdict.skipped:
         warnings.append({"stage": "publication-guard", "warning": "no committed baseline found; guard skipped"})
     return errors, warnings, verdict
+
+
+class _TierContext:
+    """Rules for the community and free VOD playlists, which are checked against their own state files instead of
+    the approved records. Nothing here relaxes the official rules: official playlists never contain these files."""
+
+    def __init__(self, records, cfg, errors: list[dict]):
+        self.cfg = cfg
+        try:
+            self.exclusions = community.load_exclusions()
+        except (OSError, ValueError) as exc:
+            errors.append({"stage": "community", "error": f"data/community-exclusions.yaml: {exc}"})
+            self.exclusions = community.Exclusions()
+        self.catalog = {stream_key(s.url): s for s in community.catalog_streams(community.load_catalog())}
+        self.official = {stream_key(c.stream.url) for c in records.approved}
+        self.rejected = {stream_key(c.stream.url) for k in ("pending", "rejected") for c in records.channels[k]}
+        self.vod = {r[0]: r for r in vod.load_items()}
+
+    @staticmethod
+    def tier_of(rel: str) -> str:
+        if rel.startswith("playlists/community/"):
+            return "community"
+        if rel.startswith("playlists/vod/"):
+            return "vod"
+        return "official"
+
+    def check(self, tier: str, rel: str, entries: list[m3u.Entry], errors: list[dict]) -> None:
+        def bad(msg: str) -> None:
+            errors.append({"stage": f"{tier}-tier", "file": rel, "error": msg})
+
+        for e in entries:
+            if tier == "community":
+                key = stream_key(e.url)
+                s = self.catalog.get(key)
+                if s is None:
+                    bad(f"URL not in the community catalogue: {e.url}")
+                    continue
+                pol = check_url_policy(e.url, allow_restream=self.cfg.community.allow_restream_hosts)
+                if not pol.ok:
+                    bad(f"URL policy: {pol.reason}: {e.url}")
+                if key in self.official:
+                    bad(f"duplicates an official stream: {e.url}")
+                if key in self.rejected:
+                    bad(f"pending/rejected URL published: {e.url}")
+                if self.exclusions.reason(s.ch, s.id, e.url):
+                    bad(f"on the takedown list: {e.url}")
+                status = e.attrs.get("x-status")
+                if status not in ("verified", "untested"):
+                    bad(f"entry has no verified/untested status: {e.url}")
+                if rel.endswith("/verified.m3u") and status != "verified":
+                    bad(f"non-verified stream in verified.m3u: {e.url}")
+                if rel.endswith("/untested.m3u") and (
+                    status != "untested" or not e.attrs.get("group-title", "").startswith("Untested")
+                ):
+                    bad(f"untested.m3u entry is not labelled untested: {e.url}")
+            else:
+                parts = urlsplit(e.url)
+                ident = parts.path.split("/")[2] if parts.path.count("/") >= 3 else ""
+                row = self.vod.get(ident)
+                if (
+                    parts.scheme != "https"
+                    or parts.hostname != "archive.org"
+                    or not parts.path.startswith("/download/")
+                ):
+                    bad(f"VOD entry is not an archive.org download link: {e.url}")
+                elif row is None:
+                    bad(f"VOD item not in the cache: {e.url}")
+                elif row[4] not in self.cfg.vod.allowed_licences or not e.attrs.get("x-licence"):
+                    bad(f"VOD item without an accepted licence: {e.url}")
+                if ident.lower() in self.exclusions.vod:
+                    bad(f"on the takedown list: {e.url}")
 
 
 def collect(base: Path = ROOT) -> dict:
@@ -73,6 +146,8 @@ def collect(base: Path = ROOT) -> dict:
     index = json.loads(index_path.read_text(encoding="utf-8")) if index_path.exists() else {"playlists": []}
     counts = {item["path"]: item["count"] for item in index["playlists"]}
     files = sorted((base / "playlists").rglob("*.m3u")) if (base / "playlists").exists() else []
+    cfg = config.load_pipeline()
+    tiers = _TierContext(records, cfg, errors)
     for f in files:
         rel = f.relative_to(base).as_posix()
         try:
@@ -85,13 +160,21 @@ def collect(base: Path = ROOT) -> dict:
         urls = [normalise_url(e.url) for e in entries]
         if len(urls) != len(set(urls)):
             errors.append({"stage": "m3u", "file": rel, "error": "duplicate entry inside playlist"})
-        for e, u in zip(entries, urls, strict=True):
-            if u in blocked_urls:
-                errors.append({"stage": "exclusion", "file": rel, "error": f"pending/rejected URL published: {e.url}"})
-            if u not in approved_urls:
-                errors.append({"stage": "exclusion", "file": rel, "error": f"URL not from an approved record: {e.url}"})
-            if approved_urls.get(u) in blocked_ids:
-                errors.append({"stage": "exclusion", "file": rel, "error": f"blocked id published: {e.url}"})
+        tier = tiers.tier_of(rel)
+        if tier != "official":
+            tiers.check(tier, rel, entries, errors)
+        else:
+            for e, u in zip(entries, urls, strict=True):
+                if u in blocked_urls:
+                    errors.append(
+                        {"stage": "exclusion", "file": rel, "error": f"pending/rejected URL published: {e.url}"}
+                    )
+                if u not in approved_urls:
+                    errors.append(
+                        {"stage": "exclusion", "file": rel, "error": f"URL not from an approved record: {e.url}"}
+                    )
+                if approved_urls.get(u) in blocked_ids:
+                    errors.append({"stage": "exclusion", "file": rel, "error": f"blocked id published: {e.url}"})
         if rel not in counts:
             errors.append({"stage": "index", "file": rel, "error": "file not listed in playlists/index.json"})
         elif counts[rel] != len(entries):
@@ -113,7 +196,7 @@ def collect(base: Path = ROOT) -> dict:
     except regional_mod.RegionalError as exc:
         errors.append({"stage": "regional", "error": str(exc)})
 
-    g_errors, g_warnings, verdict = check_guard(ROOT, index, config.load_pipeline().guard)
+    g_errors, g_warnings, verdict = check_guard(ROOT, index, cfg.guard)
     errors.extend(g_errors)
     warnings.extend(g_warnings)
 

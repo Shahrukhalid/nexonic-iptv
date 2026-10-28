@@ -79,6 +79,7 @@ def statistics(records: LoadResult, plan: Plan, history: dict[str, list[CheckRes
             for ct in sorted({ct for c in pub for ct in c.categories})
         },
     }
+    out["tiers"] = tier_statistics(plan)
     if plan.regional:  # only present when another location has reported results
         working = {i["key"]: i["count"] for i in plan.index if i["kind"] == "region"}
         out["regional"] = {
@@ -89,6 +90,45 @@ def statistics(records: LoadResult, plan: Plan, history: dict[str, list[CheckRes
                 for label, info in sorted(plan.regional.items())
             },
         }
+    return out
+
+
+def tier_statistics(plan: Plan) -> dict:
+    """Numbers per tier. Official, community verified and community untested are always reported separately."""
+    out: dict = {
+        "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
+        "official": {
+            "published": len(plan.published),
+            "verified": len(plan.verified_ids),
+            "not_verified": len(plan.published) - len(plan.verified_ids),
+            "with_measured_quality": len(plan.quality),
+            "per_quality": dict(sorted(Counter(plan.quality.values()).items())),
+        },
+        "community": None,
+        "vod": None,
+    }
+    c = plan.tiers.get("community")
+    if c:
+        out["community"] = {
+            "published": c["verified"] + c["untested"],
+            "verified": c["verified"],
+            "untested": c["untested"],
+            "held_back_after_failed_check": c["failing_held_back"],
+            "never_checked": c["never_checked"],
+            "catalog_streams": c["catalog_streams"],
+            "catalog_built_at": c["catalog_built_at"],
+            "verified_days": c["verified_days"],
+            "countries": c["countries"],
+            "languages": c["languages"],
+            "lifecycle": c["lifecycle"],
+            "removed_at_generation": c["removed_at_generation"],
+            "top_countries": c["top_countries"],
+            "playlist_files": c["playlist_files"],
+            "build_report": c["build_report"],
+        }
+    v = plan.tiers.get("vod")
+    if v:
+        out["vod"] = {k: v[k] for k in v}
     return out
 
 
