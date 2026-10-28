@@ -3,17 +3,17 @@
 - Run: `run-20261027T110427Z`
 - Started: 2026-10-27T11:04:27Z (UTC) · Finished: 2026-10-27T11:10:42Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 740
+- Channels checked: 738
 
 Results describe reachability **from the checker's network location at that time** only.
 
 | Status | Count |
 |---|---:|
 | `AUTH_REQUIRED` | 2 |
-| `GEO_RESTRICTED` | 61 |
+| `GEO_RESTRICTED` | 60 |
 | `INVALID_STREAM` | 8 |
 | `TIMEOUT` | 30 |
-| `UNAVAILABLE` | 137 |
+| `UNAVAILABLE` | 136 |
 | `UNKNOWN` | 50 |
 | `UNSUPPORTED` | 1 |
 | `VERIFIED_WORKING` | 451 |
@@ -426,7 +426,6 @@ Results describe reachability **from the checker's network location at that time
 | NickOnline | `INVALID_STREAM` | 3 | 218 | 98 ms | 2026-10-27T11:04:47Z | manifest: body does not start with #EXTM3U |
 | Nopola News | `VERIFIED_WORKING` | 5 | 200 | 1087 ms | 2026-10-27T11:05:35Z | 1080p |
 | NosTV Bonaire 2 | `VERIFIED_WORKING` | 5 | 200 | 394 ms | 2026-10-27T11:04:43Z |  |
-| Novyi Russkii | `UNAVAILABLE` | 1 | – | – | 2026-10-27T11:08:49Z | DNS resolution failed for live.15plusmg.ru: [Errno -2] Name or service not known |
 | NRK Super | `GEO_RESTRICTED` | 2 | 403 | 104 ms | 2026-10-27T11:08:06Z | HTTP 403 for a stream known or hinted to be region-limited |
 | NRWision | `VERIFIED_WORKING` | 5 | 200 | 764 ms | 2026-10-27T11:05:18Z | 1080p |
 | NTD TV Asia-Pacific | `VERIFIED_WORKING` | 5 | 200 | 118 ms | 2026-10-27T11:08:36Z |  |
@@ -682,7 +681,6 @@ Results describe reachability **from the checker's network location at that time
 | TV5Monde Asia | `GEO_RESTRICTED` | 2 | 403 | 81 ms | 2026-10-27T11:05:39Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Europe | `GEO_RESTRICTED` | 2 | 403 | 96 ms | 2026-10-27T11:08:22Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde France Belgium Switzerland Monaco | `GEO_RESTRICTED` | 2 | 403 | 66 ms | 2026-10-27T11:08:43Z | HTTP 403 for a stream known or hinted to be region-limited |
-| TV5Monde Info | `GEO_RESTRICTED` | 2 | 403 | 86 ms | 2026-10-27T11:08:55Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Pacific | `GEO_RESTRICTED` | 2 | 403 | 79 ms | 2026-10-27T11:09:01Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Style | `VERIFIED_WORKING` | 5 | 200 | 534 ms | 2026-10-27T11:09:05Z | 1080p |
 | TV7+ | `UNAVAILABLE` | 2 | 404 | 1195 ms | 2026-10-27T11:07:28Z | HTTP 404 (stream not found) |
@@ -765,4 +763,4 @@ Results describe reachability **from the checker's network location at that time
 
 Baseline snapshot created; changes are reported from the next verification run on.
 
-Published 547 · verified playlist 479 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
+Published 547 · verified playlist 479 · quarantined 151 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.

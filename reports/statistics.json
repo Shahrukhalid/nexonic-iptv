@@ -1,12 +1,12 @@
 {
   "reference_time": "2026-10-27T11:10:42Z",
   "records": {
-    "approved": 742,
+    "approved": 756,
     "pending": 43,
     "rejected": 16
   },
   "published_channels": 547,
-  "excluded_approved": 195,
+  "excluded_approved": 209,
   "countries": 95,
   "languages": 65,
   "categories": 15,
@@ -17,13 +17,13 @@
     "started_at": "2026-10-27T11:04:27Z",
     "finished_at": "2026-10-27T11:10:42Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 740,
+    "checked": 738,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 8,
       "TIMEOUT": 30,
-      "UNAVAILABLE": 137,
+      "UNAVAILABLE": 136,
       "UNKNOWN": 50,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 451
@@ -31,8 +31,8 @@
   },
   "latest_run_status_counts": {
     "VERIFIED_WORKING": 451,
-    "UNAVAILABLE": 137,
-    "GEO_RESTRICTED": 61,
+    "UNAVAILABLE": 136,
+    "GEO_RESTRICTED": 60,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 30,
