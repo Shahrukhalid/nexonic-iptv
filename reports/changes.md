@@ -31,11 +31,11 @@ Tiers are published separately. Community streams are not limited to the broadca
 | Tier | Published | Verified | Not verified |
 |---|---:|---:|---:|
 | Official | 557 | 493 | 64 |
-| Community: verified | 3715 | 3715 | 0 |
-| Community: untested | 1668 | 0 | 1668 |
+| Community: verified | 3700 | 3700 | 0 |
+| Community: untested | 1667 | 0 | 1667 |
 | Free VOD (items) | 55 | n/a | n/a |
 
-Community catalogue: 7227 streams (built 2026-10-28T04:15:13Z); never checked: 1227; held back after a failed check: 1844; verified means worked at the latest check within 7 days.
+Community catalogue: 7227 streams (built 2026-10-28T04:15:13Z); never checked: 1226; held back after a failed check: 1839; verified means worked at the latest check within 7 days.
 
 ## Lifecycle of published channels
 
