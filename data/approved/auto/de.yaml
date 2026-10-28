@@ -375,6 +375,45 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: tv-bozsike-hamburg-hd-de
+  name: TV Bozsike Hamburg HD
+  alt_names:
+  - TV Bözsike Hamburg HD
+  broadcaster: TV Bozsike Hamburg HD
+  country: de
+  languages:
+  - hu
+  - de
+  categories:
+  - music
+  website: https://radiobozsike.com/
+  stream:
+    url: https://rtmp.radiobozsike.com/hls/stream1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/de.m3u
+    evidence_url: https://radiobozsike.com/
+    evidence_summary: 'Automated owner-domain match: stream host rtmp.radiobozsike.com is on the broadcaster''s domain radiobozsike.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TVBozsikeHamburgHD.de@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: yol-tv-de
   name: YOL TV
   alt_names: []
