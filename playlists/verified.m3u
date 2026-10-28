@@ -377,6 +377,8 @@ https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
 https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
 #EXTINF:-1 tvg-id="ImagenFM1051.hn@SD" tvg-name="Imagen FM 105.1" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Imagen FM 105.1
@@ -817,8 +819,6 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-country="TR" tvg-language="English" group-title="Turkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Çocuk
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" tvg-country="TR" tvg-language="Kurdish" group-title="Turkiye",Zarok TV
@@ -859,6 +859,8 @@ https://30a-tv.com/feeds/720p/63.m3u8
 https://30a-tv.com/sidewalks.m3u8
 #EXTINF:-1 tvg-id="30ATelevisionChannel.us@SD" tvg-name="30A Television Channel" tvg-country="US" tvg-language="English" group-title="United States",30A Television Channel
 https://30a-tv.com/feeds/masters/30atv.m3u8
+#EXTINF:-1 tvg-id="30ATVClassicMovies.us@SD" tvg-name="30A TV Classic Movies" tvg-country="US" tvg-language="English" group-title="United States",30A TV Classic Movies
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
 https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-name="Avang TV" tvg-country="US" tvg-language="Persian" group-title="United States",Avang TV
