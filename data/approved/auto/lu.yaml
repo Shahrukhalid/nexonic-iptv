@@ -38,6 +38,44 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: luxembourg-global-radio-tv-lu
+  name: Luxembourg Global Radio TV
+  alt_names:
+  - LGR TV
+  broadcaster: Luxembourg Global Radio TV
+  country: lu
+  languages:
+  - en
+  categories:
+  - lifestyle
+  website: https://globalradio.lu
+  stream:
+    url: https://stream.globalradio.lu/lgr/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/lu.m3u
+    evidence_url: https://globalradio.lu
+    evidence_summary: 'Automated owner-domain match: stream host stream.globalradio.lu is on the broadcaster''s domain globalradio.lu.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LuxembourgGlobalRadioTV.lu@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: rtl-gold-lu
   name: RTL Gold
   alt_names: []

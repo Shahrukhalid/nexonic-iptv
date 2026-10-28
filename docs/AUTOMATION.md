@@ -94,7 +94,9 @@ Command-line flags of `verify.py` (`--timeout`, `--concurrency`, `--budget-minut
 | `discovery.timeout` / `retries` / `backoff_base` | 30 s / 4 / 2.0 s | downloads |
 | `discovery.max_archive_mb` | 300 | download size cap |
 | `discovery.allowed_hosts` | github.com, codeload.github.com, raw.githubusercontent.com | https only |
+| `discovery.max_playlist_mb` | 50 | size cap of each downloaded extra M3U file |
 | `[[discovery.sources]]` | iptv-org/iptv and iptv-org/database, `master` | `name`, `repo`, `ref` |
+| `[[discovery.extra_m3u]]` | the public repositories listed in `config/pipeline.toml` | `name`, `repo`, `ref`, `paths`, `licence` |
 
 ## Discovery without a local clone
 `python scripts/expand_catalog.py` with no arguments downloads the two repositories' archives over HTTPS, extracts only
@@ -104,6 +106,32 @@ and `--database` still work and may be mixed with the download (only the missing
 `python scripts/moderate.py --refresh-remote` refreshes the NSFW lists the same way and refuses to replace a list with
 one less than half its size. Re-running discovery on unchanged input rewrites no file: records keep their dates, files
 are written only when their content changes, and ordering is stable.
+
+## Extra M3U sources from public repositories
+`[[discovery.extra_m3u]]` lists plain M3U files published in public GitHub repositories (`name`, `repo`, `ref`,
+`paths`, `licence`). `python scripts/expand_catalog.py` without `--streams` and `--database` downloads each file from
+`raw.githubusercontent.com` through `nexonic/fetch.py` (https only, allowed hosts only, retries with backoff, size cap
+`discovery.max_playlist_mb`) and treats it exactly like an `--extra-m3u` input. A playlist is only a pointer to
+candidates: an entry is admitted only when its `tvg-id` exists in iptv-org/database **and** every rule of
+[SOURCE_POLICY.md](SOURCE_POLICY.md) section 2a holds, so none of the admission rules differ by source. In addition,
+entries that carry `#EXTHTTP`, `#KODIPROP` or a `|Header=value` suffix are refused as "needs special headers".
+
+- **Order and duplicates.** Sources are read as iptv-org first, then `--extra-m3u` files, then the configured sources
+  in file order. For one channel the first source offering an admissible stream wins; a second entry with the same
+  normalised stream URL or the same channel identity is never admitted (reported as
+  `duplicate-channel-in-other-source` or `duplicate-of-existing`).
+- **Provenance.** `source.reference_url` of an admitted record is the exact file in the source repository
+  (`https://github.com/<repo>/blob/<ref>/<path>`); it is internal and not shown on the website. The licence of each
+  repository is recorded in the config.
+- **Reports.** `state/discovery.json` keeps the same counters per source under `sources`; the script prints the entries
+  read, admitted and quarantined per source.
+- **Failures.** A file that no longer exists (404) is skipped with a warning; any other download failure exits non-zero
+  and changes nothing. `--no-extra-sources` skips the extra downloads; with both `--streams` and `--database` no
+  network access happens at all.
+- **Choosing sources.** Add only repositories with an open licence, plain M3U files and no paid, premium, VOD,
+  restream, Xtream or credential-bearing content. Lists without a licence are not used.
+- Quarantined records that a maintainer annotated ("Quarantine reviewed: ...") stay in
+  `data/pending/auto-quarantine.yaml` when discovery re-runs.
 
 ## Running each step locally
 ```bash

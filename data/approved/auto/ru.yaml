@@ -571,44 +571,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: novyi-russkii-ru
-  name: Novyi Russkii
-  alt_names:
-  - Новый Русский
-  broadcaster: VXDGroup
-  country: ru
-  languages:
-  - ru
-  categories:
-  - movies
-  website: https://15plusmg.ru
-  stream:
-    url: https://live.15plusmg.ru/memfs/f983b507-a170-41a9-85a9-d9afc6cba9c1.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ru_15plusmg.m3u
-    evidence_url: https://15plusmg.ru
-    evidence_summary: 'Automated owner-domain match: stream host live.15plusmg.ru is on the broadcaster''s domain 15plusmg.ru.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: NovyiRusskii.ru@HD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: perviy-otdel-ru
   name: Perviy otdel
   alt_names:
@@ -1020,6 +982,43 @@ channels:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
     reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: world-fashion-channel-ru
+  name: World Fashion Channel
+  alt_names: []
+  broadcaster: World Fashion Channel
+  country: ru
+  languages:
+  - ru
+  categories:
+  - lifestyle
+  website: https://wfc.tv/ru
+  stream:
+    url: https://cdn.wfc.tv/cdn/stream-eng.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/LITUATUI/M3UPT/blob/main/M3U/M3UPT.m3u
+    evidence_url: https://wfc.tv/ru
+    evidence_summary: 'Automated owner-domain match: stream host cdn.wfc.tv is on the broadcaster''s domain wfc.tv. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: WorldFashionChannel.ru
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

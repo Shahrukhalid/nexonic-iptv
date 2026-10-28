@@ -32,6 +32,7 @@ timeout = 30.0
 retries = 4
 backoff_base = 2.0
 max_archive_mb = 300
+max_playlist_mb = 50          # size cap of each downloaded extra M3U file
 allowed_hosts = ["github.com", "codeload.github.com", "raw.githubusercontent.com"]
 
 [[discovery.sources]]
@@ -43,3 +44,65 @@ ref = "master"
 name = "database"
 repo = "iptv-org/database"
 ref = "master"
+
+# Third-party M3U lists published in public GitHub repositories. They are read exactly like `--extra-m3u` inputs: an
+# entry is admitted only when its tvg-id matches iptv-org/database AND every automated admission rule of
+# docs/SOURCE_POLICY.md section 2a holds (owner-domain match, URL policy, no special headers, exclusions, screening,
+# a successful live check before publication). A playlist is only a pointer to candidates, never evidence.
+# Only repositories with an open licence recorded here, plain M3U files, and no paid, premium, VOD, restream or
+# credential-bearing content are listed. Order matters: for one channel the first source wins.
+[[discovery.extra_m3u]]
+name = "m3upt"
+repo = "LITUATUI/M3UPT"
+ref = "main"
+paths = ["M3U/M3UPT.m3u"]
+licence = "MIT"
+
+[[discovery.extra_m3u]]
+name = "iprtl"
+repo = "iprtl/m3u"
+ref = "live"
+paths = ["Freetv.m3u"]
+licence = "Unlicense"
+
+[[discovery.extra_m3u]]
+name = "iptv-com"
+repo = "iptv-com/iptv"
+ref = "main"
+paths = ["lists/world.m3u", "lists/brazil.m3u"]
+licence = "Unlicense"
+
+[[discovery.extra_m3u]]
+name = "openiptvitaly"
+repo = "xN1ckuz/OpenIPTVItaly"
+ref = "main"
+paths = ["OpenIPTVItaly.m3u"]
+licence = "MIT"
+
+[[discovery.extra_m3u]]
+name = "iptv-m3u-tr"
+repo = "omerdenizhan/IPTV-M3U"
+ref = "main"
+paths = ["m3u/turkiye-iptv-org.m3u"]
+licence = "Unlicense"
+
+[[discovery.extra_m3u]]
+name = "iptv-spain"
+repo = "Ignac16/Iptv-spain-m3u-1416"
+ref = "main"
+paths = ["playlist_spain.m3u8"]
+licence = "CC0-1.0"
+
+[[discovery.extra_m3u]]
+name = "ipmx"
+repo = "Osares10/ipmx"
+ref = "main"
+paths = ["Mexico.m3u"]
+licence = "Unlicense"
+
+[[discovery.extra_m3u]]
+name = "iptv-ecuador"
+repo = "CL-Maker283/iptv-ecuador-tv"
+ref = "main"
+paths = ["streamings-ecuador-all.m3u"]
+licence = "Unlicense"

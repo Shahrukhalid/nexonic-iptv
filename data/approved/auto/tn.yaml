@@ -1,6 +1,46 @@
 # Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
 # check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
 channels:
+- id: elyssa-tv-tn
+  name: Elyssa TV
+  alt_names:
+  - عليسة
+  - قناة عليسة الإخبارية
+  - Elyssa News
+  broadcaster: Elyssa TV
+  country: tn
+  languages:
+  - ar
+  categories:
+  - news
+  website: https://elyssatv.com
+  stream:
+    url: https://tv.elyssatv.com/live/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tn.m3u
+    evidence_url: https://elyssatv.com
+    evidence_summary: 'Automated owner-domain match: stream host tv.elyssatv.com is on the broadcaster''s domain elyssatv.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ElyssaTV.tn@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: mosaique-fm-tn
   name: Mosaique FM
   alt_names:
