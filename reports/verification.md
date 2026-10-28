@@ -790,6 +790,8 @@ Compared with the run at 2026-10-27T11:10:42Z (UTC).
 
 Published 557 · verified playlist 487 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
+Tiers: official 557 (487 verified).
+
 **Needs attention:**
 
 - 2 channel(s) newly quarantined (failing repeatedly)
