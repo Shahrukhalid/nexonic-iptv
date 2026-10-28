@@ -167,6 +167,45 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: lang-son-tv-vn
+  name: Lang Son TV
+  alt_names:
+  - LSTV
+  broadcaster: Lang Son TV
+  country: vn
+  languages:
+  - vi
+  categories:
+  - general
+  website: http://www.langsontv.vn/
+  stream:
+    url: https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/playlist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/vn.m3u
+    evidence_url: http://www.langsontv.vn/
+    evidence_summary: 'Automated owner-domain match: stream host stream.langsontv.vn is on the broadcaster''s domain langsontv.vn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LangSonTV.vn@SD
+  logo: null
+  geo:
+    restricted: true
+    regions:
+    - vn
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: qpvn-vn
   name: QPVN
   alt_names: []

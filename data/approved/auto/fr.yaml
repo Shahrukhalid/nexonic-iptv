@@ -787,6 +787,44 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: tv5-monde-fr
+  name: TV5 Monde
+  alt_names:
+  - TV5
+  broadcaster: France Télévisions
+  country: fr
+  languages:
+  - fr
+  categories:
+  - general
+  website: http://www.tv5monde.com/
+  stream:
+    url: https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/LITUATUI/M3UPT/blob/main/M3U/M3UPT.m3u
+    evidence_url: http://www.tv5monde.com/
+    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TV5Monde.fr
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: tv5monde-asia-fr
   name: TV5Monde Asia
   alt_names:
@@ -890,44 +928,6 @@ channels:
     notes: ''
     method: automated-domain-match
   epg_id: TV5MondeFranceBelgiumSwitzerlandMonaco.fr@SD
-  logo: null
-  geo:
-    restricted: true
-    regions:
-    - fr
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: tv5monde-info-fr
-  name: TV5Monde Info
-  alt_names: []
-  broadcaster: TV5Monde Info
-  country: fr
-  languages:
-  - fr
-  categories:
-  - news
-  website: https://maghreb-orient.tv5monde.com/en/direct-tv5monde-info
-  stream:
-    url: https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/fr.m3u
-    evidence_url: https://maghreb-orient.tv5monde.com/en/direct-tv5monde-info
-    evidence_summary: 'Automated owner-domain match: stream host ott.tv5monde.com is on the broadcaster''s domain tv5monde.com.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: TV5MondeInfo.fr@SD
   logo: null
   geo:
     restricted: true

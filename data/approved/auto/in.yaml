@@ -451,6 +451,44 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: zb-cinema-in
+  name: ZB Cinema
+  alt_names: []
+  broadcaster: ZillarBarta Network
+  country: in
+  languages:
+  - bn
+  categories:
+  - entertainment
+  - movies
+  website: https://www.zillarbarta.com/
+  stream:
+    url: https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.zillarbarta.com/
+    evidence_summary: 'Automated owner-domain match: stream host server.zillarbarta.com is on the broadcaster''s domain zillarbarta.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ZBCinema.in@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: zb-music-in
   name: ZB Music
   alt_names: []

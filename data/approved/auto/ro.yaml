@@ -449,3 +449,40 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: tequila-music-tv-ro
+  name: Tequila Music TV
+  alt_names: []
+  broadcaster: Tequila Music TV
+  country: ro
+  languages:
+  - ro
+  categories:
+  - music
+  website: https://tequilamusic.net/
+  stream:
+    url: https://stream.tequilamusic.net/hls/tequila_tv.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://tequilamusic.net/
+    evidence_summary: 'Automated owner-domain match: stream host stream.tequilamusic.net is on the broadcaster''s domain tequilamusic.net.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: TequilaMusicTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

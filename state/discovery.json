@@ -1,0 +1,125 @@
+{
+ "countries_with_admitted_channels": 101,
+ "schema": 1,
+ "sources": {
+  "ipmx": {
+   "aggregator-host": 2,
+   "closed": 2,
+   "host-not-owned-by-broadcaster": 8,
+   "no-database-entry": 5,
+   "streams": 18,
+   "url-policy": 1
+  },
+  "iprtl": {
+   "already-curated": 9,
+   "duplicate-channel-in-other-source": 1,
+   "host-not-owned-by-broadcaster": 6,
+   "needs-special-headers": 23,
+   "no-database-entry": 591,
+   "streams": 636,
+   "url-policy": 6
+  },
+  "iptv-com": {
+   "aggregator-host": 1,
+   "already-curated": 13,
+   "closed": 2,
+   "duplicate-channel-in-other-source": 84,
+   "excluded-category": 103,
+   "host-not-owned-by-broadcaster": 442,
+   "sanctions-exclusion": 7,
+   "streams": 1137,
+   "subscription-service": 3,
+   "url-policy": 482
+  },
+  "iptv-ecuador": {
+   "aggregator-host": 1,
+   "host-not-owned-by-broadcaster": 7,
+   "streams": 36,
+   "url-policy": 28
+  },
+  "iptv-m3u-tr": {
+   "admitted": 2,
+   "aggregator-host": 2,
+   "already-curated": 15,
+   "closed": 2,
+   "duplicate-channel-in-other-source": 16,
+   "excluded-category": 9,
+   "host-not-owned-by-broadcaster": 179,
+   "needs-special-headers": 4,
+   "no-database-entry": 2,
+   "sanctions-exclusion": 2,
+   "streams": 288,
+   "url-policy": 55
+  },
+  "iptv-org": {
+   "admitted": 597,
+   "aggregator-host": 976,
+   "already-curated": 473,
+   "closed": 90,
+   "duplicate-of-existing": 1,
+   "excluded-category": 1103,
+   "host-not-owned-by-broadcaster": 7051,
+   "language-not-supported": 3,
+   "moderation-reject": 4,
+   "needs-special-headers": 910,
+   "no-database-entry": 2098,
+   "nsfw-or-blocklisted": 3,
+   "sanctions-exclusion": 610,
+   "streams": 18079,
+   "subscription-service": 97,
+   "url-policy": 3999
+  },
+  "iptv-spain": {
+   "already-curated": 12,
+   "closed": 1,
+   "duplicate-channel-in-other-source": 4,
+   "host-not-owned-by-broadcaster": 8,
+   "no-database-entry": 20,
+   "streams": 68,
+   "url-policy": 23
+  },
+  "m3upt": {
+   "admitted": 4,
+   "aggregator-host": 16,
+   "already-curated": 34,
+   "closed": 1,
+   "duplicate-channel-in-other-source": 14,
+   "excluded-category": 7,
+   "host-not-owned-by-broadcaster": 38,
+   "needs-special-headers": 13,
+   "no-database-entry": 800,
+   "nsfw-or-blocklisted": 1,
+   "sanctions-exclusion": 2,
+   "streams": 965,
+   "subscription-service": 1,
+   "url-policy": 34
+  },
+  "openiptvitaly": {
+   "already-curated": 2,
+   "excluded-category": 1,
+   "needs-special-headers": 14,
+   "no-database-entry": 100,
+   "nsfw-or-blocklisted": 1,
+   "streams": 118
+  }
+ },
+ "stats": {
+  "admitted": 603,
+  "aggregator-host": 998,
+  "already-curated": 558,
+  "closed": 98,
+  "duplicate-channel-in-other-source": 119,
+  "duplicate-of-existing": 1,
+  "excluded-category": 1223,
+  "host-not-owned-by-broadcaster": 7739,
+  "language-not-supported": 3,
+  "moderation-reject": 4,
+  "needs-special-headers": 964,
+  "no-database-entry": 3616,
+  "nsfw-or-blocklisted": 5,
+  "sanctions-exclusion": 621,
+  "streams": 21345,
+  "subscription-service": 101,
+  "url-policy": 4628
+ }
+}
