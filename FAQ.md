@@ -47,4 +47,4 @@ stream is free without a login or DRM, and that the content is not adult-oriente
 **What is quarantine?** A channel that fails several checks in a row over at least two days is quarantined and removed
 from `verified.m3u` until it works again. Details: [docs/AUTOMATION.md](docs/AUTOMATION.md).
 
-**How often are streams checked?** Every day at 03:17 UTC. Catalog discovery from public data currently runs monthly.
+**How often are streams checked?** Every day at 03:17 UTC. Catalog discovery from public data runs daily at 01:41 UTC.

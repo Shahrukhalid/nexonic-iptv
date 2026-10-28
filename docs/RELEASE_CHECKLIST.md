@@ -31,7 +31,5 @@ Status as of 17 October 2026 (v1.1.0), measured locally and in GitHub Actions.
 1. **Evidence confirmation** — a maintainer should open each `source.evidence_url`, confirm free availability, and set
    `source.evidence_checked` (116 manual records). Records whose evidence cannot be confirmed should move to
    `data/pending/`.
-2. **Regional checks** — GitHub runners are in the US, so channels limited to their home country report
-   `GEO_RESTRICTED`; a self-hosted runner in Europe would measure them properly.
-3. **Pending queue** — RTP (tokenized URLs), ABC News Live and CBS News 24/7 (stored URLs broken) need a current
+2. **Pending queue** — RTP (tokenized URLs), ABC News Live and CBS News 24/7 (stored URLs broken) need a current
    official, untokenized URL before they can return.

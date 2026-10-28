@@ -7,7 +7,7 @@ Everything runs on free GitHub features (Actions on a public repo, Pages). No pa
 |---|---|
 | Daily (automatic) | `verify-streams.yml` checks streams, regenerates playlists, commits signed results, site redeploys |
 | Weekly | Read `reports/verification.md`; investigate channels in "currently failing"; triage issues |
-| Monthly (automatic) | `refresh-catalog.yml` refreshes NSFW lists and the auto-admitted tier from iptv-org, then verification runs |
+| Daily (automatic) | `refresh-catalog.yml` refreshes NSFW lists and the auto-admitted tier from iptv-org, then verification runs |
 | Monthly | Spot-check a sample of auto-admitted channels; promote good ones to `data/approved/<cc>.yaml`. Refresh iptv-org NSFW lists: `python scripts/moderate.py --refresh-blocklist <blocklist.csv> --channels <channels.csv>`; review `data/pending/` |
 | Per new channel | Review a PR or issue against the source policy; set `source.evidence_checked` after opening the evidence page |
 

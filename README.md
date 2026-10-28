@@ -108,7 +108,7 @@ channel data. Do not edit them by hand.
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
 - **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
   iptv-org data whose stream is served from the broadcaster's own domain. Auto-admitted channels appear only after
-  they pass a live check. Catalog discovery currently runs monthly.
+  they pass a live check. Catalog discovery runs daily at 01:41 UTC.
 - **Nexonic Verified:** a playlist of channels that passed a real check in the last 48 hours.
 - **Layered verification:** URL policy, DNS, bounded HTTP, HLS manifest, media bytes (and optional FFprobe), with SSRF
   protection and polite rate limits.
@@ -184,7 +184,6 @@ python scripts/generate.py     # rebuild playlists, reports and the numbers abov
 
 - Confirm every evidence page by hand (`source.evidence_checked`) and grow coverage country by country.
 - Optional EPG URL in the playlist header once a suitable openly licensed guide source is chosen.
-- Checks from more than one region (e.g. community-run self-hosted runners) to measure regional availability.
 - Per-channel history charts on the status page.
 
 ## FAQ
