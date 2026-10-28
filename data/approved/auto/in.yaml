@@ -152,6 +152,43 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: ibc-24-in
+  name: IBC 24
+  alt_names: []
+  broadcaster: IBC 24
+  country: in
+  languages:
+  - hi
+  categories:
+  - news
+  website: https://www.ibc24.in/
+  stream:
+    url: https://ott-prasar.ibc24.in/livestream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://www.ibc24.in/
+    evidence_summary: 'Automated owner-domain match: stream host ott-prasar.ibc24.in is on the broadcaster''s domain ibc24.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: IBC24.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: india-tv-in
   name: India TV
   alt_names:

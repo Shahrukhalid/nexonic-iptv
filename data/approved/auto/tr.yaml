@@ -189,45 +189,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: kudus-tv-tr
-  name: Kudus TV
-  alt_names:
-  - Kudüs TV
-  broadcaster: Kudus TV
-  country: tr
-  languages:
-  - tr
-  categories:
-  - news
-  website: https://www.kudustv.com.tr/
-  stream:
-    url: https://yayin.kudustv.com/981680400/kudustv/playlist.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/omerdenizhan/IPTV-M3U/blob/main/m3u/turkiye-iptv-org.m3u
-    evidence_url: https://www.kudustv.com.tr/
-    evidence_summary: 'Automated owner-domain match: stream host yayin.kudustv.com (kudustv.com) shares the broadcaster''s
-      domain name ''kudustv'' (kudustv.com.tr). Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: KudusTV.tr@SD
-  logo: null
-  geo:
-    restricted: true
-    regions:
-    - tr
-  is_nsfw: false
-  first_discovered: '2026-10-28'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-28'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: power-dance-tr
   name: Power Dance
   alt_names: []
@@ -450,44 +411,6 @@ channels:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
     reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: sports-tv-tr
-  name: Sports TV
-  alt_names: []
-  broadcaster: Sports TV
-  country: tr
-  languages:
-  - tr
-  categories:
-  - sports
-  website: http://www.sportstv.com.tr/
-  stream:
-    url: https://live.sportstv.com.tr/hls/low/sportstv.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/omerdenizhan/IPTV-M3U/blob/main/m3u/turkiye-iptv-org.m3u
-    evidence_url: http://www.sportstv.com.tr/
-    evidence_summary: 'Automated owner-domain match: stream host live.sportstv.com.tr is on the broadcaster''s domain sportstv.com.tr.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: SportsTV.tr@SD
-  logo: null
-  geo:
-    restricted: true
-    regions:
-    - tr
-  is_nsfw: false
-  first_discovered: '2026-10-28'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-28'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

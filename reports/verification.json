@@ -4,10 +4,10 @@
     "started_at": "2026-10-27T11:04:27Z",
     "finished_at": "2026-10-27T11:10:42Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 738,
+    "checked": 739,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 8,
       "TIMEOUT": 30,
       "UNAVAILABLE": 136,
@@ -14237,6 +14237,21 @@
         "level": 2,
         "http_status": 403,
         "latency_ms": 66,
+        "error": "HTTP 403 for a stream known or hinted to be region-limited",
+        "media_readable": null,
+        "details": {
+          "run_id": "run-20261027T110427Z"
+        },
+        "method": "httpx",
+        "location": "github-actions (Linux, GitHub-hosted runner)"
+      },
+      {
+        "channel_id": "tv5monde-info-fr",
+        "status": "GEO_RESTRICTED",
+        "checked_at": "2026-10-27T11:08:55Z",
+        "level": 2,
+        "http_status": 403,
+        "latency_ms": 86,
         "error": "HTTP 403 for a stream known or hinted to be region-limited",
         "media_readable": null,
         "details": {
