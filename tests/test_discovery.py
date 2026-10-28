@@ -42,6 +42,7 @@ def env(tmp_path, monkeypatch):
     (data / "pending").mkdir()
     monkeypatch.setattr(ec, "DATA", data)
     monkeypatch.setattr(ec, "STATE", state)
+    monkeypatch.setattr(ec, "fetch_extra_m3u", lambda *a, **k: [])  # no test touches the network
     streams, db = tmp_path / "streams", tmp_path / "db"
     streams.mkdir()
     db.mkdir()
