@@ -1,44 +1,94 @@
 #EXTM3U x-nexonic-playlist="Community: French" x-nexonic-tier="community"
 #EXTINF:-1 tvg-id="ACTV.be@SD" tvg-name="ACTV" tvg-country="BE" tvg-language="French" tvg-logo="https://files.catbox.moe/8v2y8m.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="sd",ACTV
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/4db788c7/index.m3u8
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="Telesambre.be@SD" tvg-name="Telesambre" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/TuIAkA3.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="sd",Telesambre
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/2f00284b/index.m3u8
+#EXTINF:-1 tvg-id="RTB.bf@SD" tvg-name="RTB" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/BFfLV0y.png" group-title="Burkina Faso | Verified" x-tier="community" x-status="verified" x-quality="sd",RTB
+https://edge12.vedge.infomaniak.com/livecast/ik:rtblive1_8/manifest.m3u8
 #EXTINF:-1 tvg-id="EdenTV.bj@SD" tvg-name="Eden TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/4ClnG0x.png" group-title="Benin | Verified" x-tier="community" x-status="verified" x-quality="sd",Eden TV
 https://rtmp.edentv.bj/hls/stream.m3u8
+#EXTINF:-1 tvg-id="LeNouveauManagerTV.bj@SD" tvg-name="Le Nouveau Manager TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/pEoOtEf.jpeg" group-title="Benin | Verified" x-tier="community" x-status="verified" x-quality="sd",Le Nouveau Manager TV
+https://lnmlive.com/live/lnmtv.m3u8
 #EXTINF:-1 tvg-id="IciRDI.ca@SD" tvg-name="Ici RDI" tvg-country="CA" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png" group-title="Canada | Verified" x-tier="community" x-status="verified" x-quality="720p",Ici RDI
 https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8
+#EXTINF:-1 tvg-id="MontrealGreekTV.ca@SD" tvg-name="Montreal Greek TV" tvg-country="CA" tvg-language="Greek;French;English" tvg-logo="https://i.imgur.com/Y5YnUit.png" group-title="Canada | Verified" x-tier="community" x-status="verified" x-quality="sd",Montreal Greek TV
+http://live.greektv.ca/hls1/greektv.m3u8
 #EXTINF:-1 tvg-id="NatureTime.ca@France" tvg-name="NatureTime (France)" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Canada | Verified" x-tier="community" x-status="verified" x-quality="1080p",NatureTime (France)
 https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTeleEvangileSansLimite.ca@SD" tvg-name="Radio Tele Evangile Sans Limite" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/CL32kFA.png" group-title="Canada | Verified" x-tier="community" x-status="verified" x-quality="1080p",Radio Tele Evangile Sans Limite
+https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
 #EXTINF:-1 tvg-id="EVITV.cd@SD" tvg-name="EVI TV" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/fBc9JSM.png" group-title="Democratic Republic of the Congo | Verified" x-tier="community" x-status="verified" x-quality="720p",EVI TV
 https://mistserver.evi-tv.com/hls/evi_tv_live/index.m3u8
 #EXTINF:-1 tvg-id="LeMondeen24h.cd@SD" tvg-name="Le Monde en 24h" tvg-country="CD" tvg-language="French;English;Spanish" tvg-logo="https://i.imgur.com/2igwi7g.png" group-title="Democratic Republic of the Congo | Verified" x-tier="community" x-status="verified" x-quality="sd",Le Monde en 24h
 https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
+#EXTINF:-1 tvg-id="LollywoodHDTV.cd@SD" tvg-name="Lollywood HD TV" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/fQhrsdr.png" group-title="Democratic Republic of the Congo | Verified" x-tier="community" x-status="verified" x-quality="sd",Lollywood HD TV
+https://stream.berosat.live/hls/lollywood-hd/lollywood-hd.m3u8
 #EXTINF:-1 tvg-id="Esaie45Tele.cg@SD" tvg-name="Esaie 45 Tele" tvg-country="CG" tvg-language="French" tvg-logo="https://i.imgur.com/nc9QBnD.png" group-title="Republic of the Congo | Verified" x-tier="community" x-status="verified" x-quality="sd",Esaie 45 Tele
 https://stream.berosat.live/hls/esaie45-tv/esaie45-tv.m3u8
+#EXTINF:-1 tvg-id="Carac1.ch@SD" tvg-name="Carac 1" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/TSc35U6.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Carac 1
+https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8
 #EXTINF:-1 tvg-id="Carac2.ch@SD" tvg-name="Carac 2" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/hCoIPen.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Carac 2
 https://onefmmd.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8
+#EXTINF:-1 tvg-id="Carac3.ch@SD" tvg-name="Carac 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/C4e8cjt.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Carac 3
+https://lfmmd.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8
 #EXTINF:-1 tvg-id="Carac4.ch@SD" tvg-name="Carac 4" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/Dj5LPy3.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Carac 4
 https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Carac5.ch@SD" tvg-name="Carac 5" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/0D4CvYp.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Carac 5
+https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 #EXTINF:-1 tvg-id="MaxTV.ch@SD" tvg-name="Max TV" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/13PjEk8.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="720p",Max TV
 https://cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8
 #EXTINF:-1 tvg-id="TVM3.ch@SD" tvg-name="TVM 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/zNJlFMg.png" group-title="Switzerland | Verified" x-tier="community" x-status="verified" x-quality="1080p",TVM 3
 https://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
+#EXTINF:-1 tvg-id="BenieTV.ci@SD" tvg-name="Benie TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/7FXi05e.jpeg" group-title="Ivory Coast | Verified" x-tier="community" x-status="verified" x-quality="720p",Benie TV
+https://tv.voozmedia.fun/benietv/index.m3u8
 #EXTINF:-1 tvg-id="ChampionTV.ci@SD" tvg-name="Champion TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/WjHSrHN.png" group-title="Ivory Coast | Verified" x-tier="community" x-status="verified" x-quality="sd",Champion TV
 https://stream.berosat.live/hls/champion-tv/champion-tv.m3u8
+#EXTINF:-1 tvg-id="RefletTV.ci@SD" tvg-name="Reflet TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/EauXR22.png" group-title="Ivory Coast | Verified" x-tier="community" x-status="verified" x-quality="1080p",Reflet TV
+https://edge-a3.evrideo.tv/8f37c9f0-fe22-44f4-b64a-76ad11730daf_1000026630_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="RTVC.ci@SD" tvg-name="RTVC" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/oXuSkHz.png" group-title="Ivory Coast | Verified" x-tier="community" x-status="verified" x-quality="720p",RTVC
+https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
+#EXTINF:-1 tvg-id="CAM10TV.cm@SD" tvg-name="CAM 10 TV" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/xspb9uY.png" group-title="Cameroon | Verified" x-tier="community" x-status="verified" x-quality="720p",CAM 10 TV
+https://stream.it-innov.com/cam10tv/index.m3u8
+#EXTINF:-1 tvg-id="TR24Television.cm@SD" tvg-name="TR24 Television" tvg-country="CM" tvg-language="French" tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" group-title="Cameroon | Verified" x-tier="community" x-status="verified" x-quality="720p",TR24 Television
+https://stream.it-innov.com/tr24/index.m3u8
+#EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-name="AL24 News" tvg-country="DZ" tvg-language="Arabic;French;English" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algeria | Verified" x-tier="community" x-status="verified" x-quality="sd",AL24 News
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-name="20 Minutes TV" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",20 Minutes TV
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="ADNTVPlus.fr@SD" tvg-name="ADN TV+" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="720p",ADN TV+
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
 #EXTINF:-1 tvg-id="Africa24.fr@SD" tvg-name="Africa 24" tvg-country="FR" tvg-language="French" tvg-logo="https://africa24tv.com/wp-content/uploads/2021/09/logo.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Africa 24
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-id="Africa24Sport.fr@SD" tvg-name="Africa 24 Sport" tvg-country="FR" tvg-language="French" tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="AlpedHuezTV.fr@SD" tvg-name="Alpe d'Huez TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/090tCQ5.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Alpe d'Huez TV
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-name="Antenne Reunion" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="720p",Antenne Reunion
 https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
+#EXTINF:-1 tvg-id="BFMLyon.fr@SD" tvg-name="BFM Lyon" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/0uiiZRo.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="sd",BFM Lyon
+https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" tvg-name="BFM2" tvg-country="FR" tvg-language="French" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",BFM2
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
+#EXTINF:-1 tvg-id="BrionnaisTV.fr@SD" tvg-name="Brionnais TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/y94bhqX.jpg" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="720p",Brionnais TV
+https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
+#EXTINF:-1 tvg-id="Caillou.fr@SD" tvg-name="Caillou" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="sd",Caillou
+https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
+#EXTINF:-1 tvg-id="CineNanar.fr@SD" tvg-name="Cine Nanar" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/YnUZd3W.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Cine Nanar
+https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DBMTV.fr@SD" tvg-name="DBM TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/ab6p2SW.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",DBM TV
+https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
 #EXTINF:-1 tvg-id="EmotionL.fr@SD" tvg-name="Emotion L" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/MP34aaj.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Emotion L
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-id="EvandisGospelTV.fr@SD" tvg-name="Evandis Gospel TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/v8TiqhH.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Evandis Gospel TV
+https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",FashionTV Paris L'Original
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-name="Generations TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="720p",Generations TV
+https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="Gong.fr@SD" tvg-name="Gong" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Gong
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 #EXTINF:-1 tvg-id="IntoCrime.fr@SD" tvg-name="Into Crime" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/43at4M2.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Into Crime
@@ -51,36 +101,68 @@ https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
 https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
 #EXTINF:-1 tvg-id="RMCDecouverte.fr@SD" tvg-name="RMC Decouverte" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/b/b3/RMC_D%C3%A9couverte_logo_2017.svg/960px-RMC_D%C3%A9couverte_logo_2017.svg.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",RMC Decouverte
 https://d16zzycxcd0m0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-hixvx5kymecr9/RMC_Decouverte_FR.m3u8
+#EXTINF:-1 tvg-id="RMCLife.fr@SD" tvg-name="RMC Life" tvg-country="FR" tvg-language="French" tvg-logo="https://img1.dc2.oqee.net/channel_pictures/3606/w512" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",RMC Life
+https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8
 #EXTINF:-1 tvg-id="RMCStory.fr@SD" tvg-name="RMC Story" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/4/43/Logo_RMC_Story_2025.png/960px-Logo_RMC_Story_2025.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",RMC Story
 https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
+#EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-name="RT France" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",RT France
+https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
+#EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-name="ScreamIN" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",ScreamIN
+https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneFavoris.fr@HD" tvg-name="Sony One Favoris" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/RO4AM4b.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Sony One Favoris
 https://d21fkiqbljd83t.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyOneHitsComedie.fr@HD" tvg-name="Sony One Hits Comedie" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/8sHuxxS.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Sony One Hits Comedie
+https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr@SD" tvg-name="Trace Gospel" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Trace Gospel
 https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr" tvg-name="Trace Gospel" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="sd",Trace Gospel
 https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8
+#EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" tvg-name="Trace Gospel (Southern Africa)" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Trace Gospel (Southern Africa)
+https://channels.trace.plus/Traceprod/GOSPEL_SA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceIvoire.fr@SD" tvg-name="Trace Ivoire" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/W2l3rVx.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Trace Ivoire
 https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr@SD" tvg-name="TV3V" tvg-country="FR" tvg-language="French" tvg-logo="https://i.ibb.co/X2yd0zL/logo-tv3v.jpg" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="720p",TV3V
 https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
 #EXTINF:-1 tvg-id="TV5MONDEChefs.fr@SD" tvg-name="TV5MONDE Chefs" tvg-country="FR" tvg-language="French" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9adadebc-556e-4510-a632-ee532eb5863b/LOGO_PLEX_CHEFS_1500X1000_WHITE.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",TV5MONDE Chefs
 https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+#EXTINF:-1 tvg-id="TV7Colmar.fr@SD" tvg-name="TV7 Colmar" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="sd",TV7 Colmar
+https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="ViaMatele.fr@SD" tvg-name="ViaMatele" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/XVCV9rj.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",ViaMatele
 https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
+#EXTINF:-1 tvg-id="VosgesTV.fr@SD" tvg-name="Vosges TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/7y7ancc.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="sd",Vosges TV
+https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
+#EXTINF:-1 tvg-id="zenith.fr@HD" tvg-name="zenith" tvg-country="FR" tvg-language="French;English" tvg-logo="https://znth.tv/images/logo.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",zenith
+https://live.azenagroup.com/zenith/index.m3u8
 #EXTINF:-1 tvg-id="TelePeyi.gf@SD" tvg-name="Tele Peyi" tvg-country="GF" tvg-language="French" tvg-logo="https://i.imgur.com/LJ9sXaB.png" group-title="French Guiana | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tele Peyi
 https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8
+#EXTINF:-1 tvg-id="KalacTV.gn@SD" tvg-name="Kalac TV" tvg-country="GN" tvg-language="French" tvg-logo="https://i.imgur.com/FgKJiHZ.png" group-title="Guinea | Verified" x-tier="community" x-status="verified" x-quality="1080p",Kalac TV
+https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8
+#EXTINF:-1 tvg-id="ETV.gp@SD" tvg-name="ETV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/m5E2VP0.png" group-title="Guadeloupe | Verified" x-tier="community" x-status="verified" x-quality="1080p",ETV
+https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
+#EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" tvg-name="Madras FM TV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/spGg1CZ.png" group-title="Guadeloupe | Verified" x-tier="community" x-status="verified" x-quality="1080p",Madras FM TV
+https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
+#EXTINF:-1 tvg-id="RHTGuadeloupe.gp@SD" tvg-name="RHT Guadeloupe" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/hQ0Q6nE.png" group-title="Guadeloupe | Verified" x-tier="community" x-status="verified" x-quality="720p",RHT Guadeloupe
+https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
 #EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" tvg-name="Haiti News Channel" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://m.media-amazon.com/images/I/51bJg+c7vRL.png" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="720p",Haiti News Channel
 https://cdn.haititivi.com/website/haitinews/index.m3u8
 #EXTINF:-1 tvg-id="RadioTele4VEH.ht@SD" tvg-name="Radio Tele 4VEH" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/AnOjqaS.png" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="720p",Radio Tele 4VEH
 https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTeleFullGospel.ht@SD" tvg-name="Radio Tele Full Gospel" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/WbwIp9y.jpeg" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="sd",Radio Tele Full Gospel
+https://f-tx-edge-87.christianworldmedia.com/EJCFG/mp4:EJCFG/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleHit.ht@SD" tvg-name="Radio Tele Hit" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.ibb.co/Gt2QDgf/cropped-transparent2-103x70.png" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="720p",Radio Tele Hit
 https://59d39900ebfb8.streamlock.net/RadioTelehit/RadioTelehit/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht@SD" tvg-name="Radio Tele Planet Compas" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/ddb4lsa.png" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="720p",Radio Tele Planet Compas
 https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleLouange.ht@SD" tvg-name="Tele Louange" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/DjnMUuL.png" group-title="Haiti | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tele Louange
 https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
+#EXTINF:-1 tvg-id="A2iTV.it@SD" tvg-name="A2i TV" tvg-country="IT" tvg-language="English;French" tvg-logo="https://i.imgur.com/YlDFir7.jpg" group-title="Italy | Verified" x-tier="community" x-status="verified" x-quality="1080p",A2i TV
+https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="NauticalChannel.it@SD" tvg-name="Nautical Channel" tvg-country="IT" tvg-language="English;Italian;French" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="Italy | Verified" x-tier="community" x-status="verified" x-quality="720p",Nautical Channel
 https://streams2.sofast.tv/vglive-sk-231198/index.m3u8
+#EXTINF:-1 tvg-id="Telepace2.it@SD" tvg-name="Telepace 2" tvg-country="IT" tvg-language="Italian;English;French" tvg-logo="https://i.imgur.com/qvcf6QC.png" group-title="Italy | Verified" x-tier="community" x-status="verified" x-quality="1080p",Telepace 2
+https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="2MMonde.ma@Plus1" tvg-name="2M Monde (+1)" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Morocco | Verified" x-tier="community" x-status="verified" x-quality="1080p",2M Monde (+1)
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
 #EXTINF:-1 tvg-id="Medi1TVAfrique.ma@SD" tvg-name="Medi1TV Afrique" tvg-country="MA" tvg-language="French" tvg-logo="https://i.imgur.com/a20DHnj.png" group-title="Morocco | Verified" x-tier="community" x-status="verified" x-quality="1080p",Medi1TV Afrique
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="Medi1TVMaghreb.ma@SD" tvg-name="Medi1TV Maghreb" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/F5OFQsp.jpeg" group-title="Morocco | Verified" x-tier="community" x-status="verified" x-quality="1080p",Medi1TV Maghreb
@@ -91,58 +173,56 @@ https://136044159.r.cdnsun.net/storychannel.m3u8
 https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 #EXTINF:-1 tvg-id="TVFamille.mq@SD" tvg-name="TV Famille" tvg-country="MQ" tvg-language="French" tvg-logo="https://i.imgur.com/Kbfihk5.png" group-title="Martinique | Verified" x-tier="community" x-status="verified" x-quality="720p",TV Famille
 https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8
+#EXTINF:-1 tvg-id="TalTV.ne@SD" tvg-name="Tal TV" tvg-country="NE" tvg-language="French;Hausa" tvg-logo="https://i.imgur.com/KWMP0t1.png" group-title="Niger | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tal TV
+https://mediaserver1.castpin.com/hls/taltv/index.m3u8
 #EXTINF:-1 tvg-id="TeleSahel.ne@SD" tvg-name="Tele Sahel" tvg-country="NE" tvg-language="French;Hausa" tvg-logo="https://i.imgur.com/vboq428.png" group-title="Niger | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tele Sahel
 https://mediaserver1.castpin.com/hls/telesahel/index.m3u8
 #EXTINF:-1 tvg-id="ManaEgliseOnline.pt@SD" tvg-name="Mana Eglise Online" tvg-country="PT" tvg-language="French" tvg-logo="https://i.imgur.com/xQYly8O.png" group-title="Portugal | Verified" x-tier="community" x-status="verified" x-quality="1080p",Mana Eglise Online
 https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="KC2.rw@SD" tvg-name="KC2" tvg-country="RW" tvg-language="English;Kinyarwanda;French" tvg-logo="https://i.imgur.com/PsYPzNc.png" group-title="Rwanda | Verified" x-tier="community" x-status="verified" x-quality="sd",KC2
+https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-name="Rwanda TV" tvg-country="RW" tvg-language="English;Kinyarwanda;French" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="Rwanda | Verified" x-tier="community" x-status="verified" x-quality="1080p",Rwanda TV
 https://5c46fa289c89f.streamlock.net/rtv25/rtv/playlist.m3u8
 #EXTINF:-1 tvg-id="IqraaAfricaEurope.sa@SD" tvg-name="Iqraa Africa & Europe" tvg-country="SA" tvg-language="French;English;Arabic" tvg-logo="https://i.imgur.com/nUlZvSe.png" group-title="Saudi Arabia | Verified" x-tier="community" x-status="verified" x-quality="1080p",Iqraa Africa & Europe
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8
+#EXTINF:-1 tvg-id="IqraaQuran.sa@SD" tvg-name="Iqraa Quran" tvg-country="SA" tvg-language="Arabic;French;English" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="Saudi Arabia | Verified" x-tier="community" x-status="verified" x-quality="1080p",Iqraa Quran
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="A2iMusic.sn@SD" tvg-name="A2i Music" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="Senegal | Verified" x-tier="community" x-status="verified" x-quality="720p",A2i Music
+https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iReligion.sn@SD" tvg-name="A2i Religion" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/54WrwyN.jpg" group-title="Senegal | Verified" x-tier="community" x-status="verified" x-quality="1080p",A2i Religion
 https://stream.sen-gt.com/A2iReligion/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="GMSTV.sn@SD" tvg-name="GMS TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/Ue02CIH.png" group-title="Senegal | Verified" x-tier="community" x-status="verified" x-quality="1080p",GMS TV
+https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8
+#EXTINF:-1 tvg-id="LougaTV.sn@SD" tvg-name="Louga TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.ibb.co/xXZ5kFy/unnamed.jpg" group-title="Senegal | Verified" x-tier="community" x-status="verified" x-quality="720p",Louga TV
+https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SenJeunesTV.sn@SD" tvg-name="SenJeunes TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/MeCSPsI.jpg" group-title="Senegal | Verified" x-tier="community" x-status="verified" x-quality="720p",SenJeunes TV
 https://stream.sen-gt.com/senjeunestv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCARiBGospel.sx@SD" tvg-name="TVCARiB Gospel" tvg-country="SX" tvg-language="French;English" tvg-logo="https://i.imgur.com/fvGlwKo.png" group-title="Sint Maarten | Verified" x-tier="community" x-status="verified" x-quality="720p",TVCARiB Gospel
 https://cdn.mycloudstream.io/hls/live/broadcast/wokrhjkd/index.m3u8
 #EXTINF:-1 tvg-id="RTJVA.tg@SD" tvg-name="RT JVA" tvg-country="TG" tvg-language="French" tvg-logo="https://i.imgur.com/Ja3HVLB.jpg" group-title="Togo | Verified" x-tier="community" x-status="verified" x-quality="720p",RT JVA
 https://cdn140m.panaccess.com/HLS/RTVJA/index.m3u8
+#EXTINF:-1 tvg-id="TelevisionEspoir47.tg@SD" tvg-name="Television Espoir 47" tvg-country="TG" tvg-language="French" tvg-logo="https://i.imgur.com/utBh0xL.png" group-title="Togo | Verified" x-tier="community" x-status="verified" x-quality="720p",Television Espoir 47
+https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
+#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-name="Turkmenistan" tvg-country="TM" tvg-language="Turkmen;Russian;English;French;Chinese;Arabic" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="Turkmenistan | Verified" x-tier="community" x-status="verified" x-quality="sd",Turkmenistan
+https://alpha.tv.online.tm/legacyhls/ch007.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-name="FIFA+ (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom | Verified" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (French)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="MTA5Africa.uk@SD" tvg-name="MTA5 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="United Kingdom | Verified" x-tier="community" x-status="verified" x-quality="1080p",MTA5 Africa
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-name="Zee One (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="United Kingdom | Verified" x-tier="community" x-status="verified" x-quality="720p",Zee One (French)
+https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="3ABNFrench.us@SD" tvg-name="3ABN French" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/B5gsM7m.png" group-title="United States | Verified" x-tier="community" x-status="verified" x-quality="720p",3ABN French
 https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleSentinel.us@SD" tvg-name="Radio Tele Sentinel" tvg-country="US" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/hy3BJxj.png" group-title="United States | Verified" x-tier="community" x-status="verified" x-quality="720p",Radio Tele Sentinel
 https://59d39900ebfb8.streamlock.net/radiotelesentinel/radiotelesentinel/playlist.m3u8
 #EXTINF:-1 tvg-id="TelePam.us@SD" tvg-name="Tele Pam" tvg-country="US" tvg-language="French;Haitian Creole;English" tvg-logo="https://i.ibb.co/xMYMyHh/telepammmm.png" group-title="United States | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tele Pam
 https://watch.haitilive.net/app/2020/telepam/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="BAMTV.be@SD" tvg-name="BAM-TV" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/9UmR6cs.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="sd",BAM-TV
-https://belafrikamediatv.vedge.infomaniak.com/livecast/ik:belafrikamediatv/manifest.m3u8
-#EXTINF:-1 tvg-id="BelRTL.be@SD" tvg-name="Bel RTL" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/0DUprIW.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",Bel RTL
-https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8
-#EXTINF:-1 tvg-id="Bouke.be@SD" tvg-name="Bouke" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/STLavel.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="sd",Bouke
-https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/e1ccc6aa/index.m3u8
 #EXTINF:-1 tvg-id="Bruzz.be@SD" tvg-name="Bruzz" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/OYlYidF.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="720p",Bruzz
 https://hls-origin01-bruzz.cdn02.rambla.be/main/adliveorigin-bruzz/_definst_/V3n5YY.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BX1.be@SD" tvg-name="BX1" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/0OkSa6c.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="sd",BX1
-https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/7ec67c8d/index.m3u8
 #EXTINF:-1 tvg-id="CanalZ.be@SD" tvg-name="Canal Z" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/qtiGLzZ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",Canal Z
 https://d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZFR-LIVE/index.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="RadioContact.be@SD" tvg-name="Radio Contact" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/32mmGvB.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",Radio Contact
-https://contact-live-hls.akamaized.net/hls/live/2038650/CONTACT-Live-HLS/master.m3u8
-#EXTINF:-1 tvg-id="Vedia.be@SD" tvg-name="Vedia" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/7LnH6yu.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",Vedia
-https://tvlocales-live.freecaster.com/vedia/95d2f480-b0b0-4027-9f4a-057183312305/95d2f480-b0b0-4027-9f4a-057183312305.isml/master.m3u8
 #EXTINF:-1 tvg-id="Canal3.bf@SD" tvg-name="Canal 3" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/WIrVAa2.png" group-title="Burkina Faso | Untested" x-tier="community" x-status="untested" x-quality="sd",Canal 3
 https://cs2.push2stream.com/CANAL3BENIN/playlist.m3u8
-#EXTINF:-1 tvg-id="RTB.bf@SD" tvg-name="RTB" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/BFfLV0y.png" group-title="Burkina Faso | Untested" x-tier="community" x-status="untested" x-quality="sd",RTB
-https://edge12.vedge.infomaniak.com/livecast/ik:rtblive1_8/manifest.m3u8
-#EXTINF:-1 tvg-id="KassouaTV.bj@SD" tvg-name="KassouaTV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/EfX3HNG.png" group-title="Benin | Untested" x-tier="community" x-status="untested" x-quality="720p",KassouaTV
-https://playtv4k.live/live/kassouatv/index.m3u8
-#EXTINF:-1 tvg-id="LeNouveauManagerTV.bj@SD" tvg-name="Le Nouveau Manager TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/pEoOtEf.jpeg" group-title="Benin | Untested" x-tier="community" x-status="untested" x-quality="sd",Le Nouveau Manager TV
-https://lnmlive.com/live/lnmtv.m3u8
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBAFTDT" tvg-name="Ici Radio-Canada Tele (CBAFT-DT)" tvg-country="CA" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/960px-SRC-TV.svg.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",Ici Radio-Canada Tele (CBAFT-DT)
 https://rcavlive.akamaized.net/hls/live/704014/cancbaft/master.m3u8
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBFTDT" tvg-name="Ici Radio-Canada Tele (CBFT-DT)" tvg-country="CA" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/960px-SRC-TV.svg.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="1080p",Ici Radio-Canada Tele (CBFT-DT)
@@ -169,34 +249,14 @@ https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8
 https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8
 #EXTINF:-1 tvg-id="LCN.ca@SD" tvg-name="LCN" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/iKDLgOG.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",LCN
 https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
-#EXTINF:-1 tvg-id="MontrealGreekTV.ca@SD" tvg-name="Montreal Greek TV" tvg-country="CA" tvg-language="Greek;French;English" tvg-logo="https://i.imgur.com/Y5YnUit.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",Montreal Greek TV
-http://live.greektv.ca/hls1/greektv.m3u8
-#EXTINF:-1 tvg-id="RadioTeleEvangileSansLimite.ca@SD" tvg-name="Radio Tele Evangile Sans Limite" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/CL32kFA.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",Radio Tele Evangile Sans Limite
-https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVA.ca@CFTMDT" tvg-name="TVA (CFTM-DT)" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/BwOzFj7.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",TVA (CFTM-DT)
 https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
-#EXTINF:-1 tvg-id="CongoPlanetTelevision.cd@SD" tvg-name="Congo Planet Television" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/9IIIvPf.png" group-title="Democratic Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="1080p",Congo Planet Television
-https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
-#EXTINF:-1 tvg-id="LBFDRTV.cd@SD" tvg-name="LBFD RTV" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/buMvLJc.jpeg" group-title="Democratic Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="1080p",LBFD RTV
-https://tnt-television.com/LBFD_RTV/index.m3u8
-#EXTINF:-1 tvg-id="LollywoodHDTV.cd@SD" tvg-name="Lollywood HD TV" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/fQhrsdr.png" group-title="Democratic Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="sd",Lollywood HD TV
-https://stream.berosat.live/hls/lollywood-hd/lollywood-hd.m3u8
 #EXTINF:-1 tvg-id="BebTV.cg@SD" tvg-name="Beb TV" tvg-country="CG" tvg-language="French" tvg-logo="https://i.imgur.com/3XOk1lP.jpeg" group-title="Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="720p",Beb TV
 https://live-hls-qunv.livepush.io/live_cdn/em8A-kbzIfHqu73/index.m3u8
-#EXTINF:-1 tvg-id="DRTVInternational.cg@SD" tvg-name="DRTV International" tvg-country="CG" tvg-language="French" tvg-logo="https://i.imgur.com/rGbTvtZ.png" group-title="Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="sd",DRTV International
-https://vps122407.serveur-vps.net/hls/drtv.m3u8
-#EXTINF:-1 tvg-id="Evtele.cg@SD" tvg-name="Ev-tele" tvg-country="CG" tvg-language="French" tvg-logo="https://i.imgur.com/iBlXl2T.png" group-title="Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="720p",Ev-tele
-https://playtv4k.live/live/EVTELE/index.m3u8
 #EXTINF:-1 tvg-id="TeleCongo.cg@SD" tvg-name="Tele Congo" tvg-country="CG" tvg-language="French;Lingala" tvg-logo="https://i.imgur.com/gbFtP14.png" group-title="Republic of the Congo | Untested" x-tier="community" x-status="untested" x-quality="sd",Tele Congo
 http://trn03.bozztv.com/gin-telecongo/index.m3u8
 #EXTINF:-1 tvg-id="Canal9.ch@SD" tvg-name="Canal 9" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/TNciMh2.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="1080p",Canal 9
 https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8
-#EXTINF:-1 tvg-id="Carac1.ch@SD" tvg-name="Carac 1" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/TSc35U6.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="1080p",Carac 1
-https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8
-#EXTINF:-1 tvg-id="Carac3.ch@SD" tvg-name="Carac 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/C4e8cjt.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="1080p",Carac 3
-https://lfmmd.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8
-#EXTINF:-1 tvg-id="Carac5.ch@SD" tvg-name="Carac 5" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/0D4CvYp.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="sd",Carac 5
-https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
 #EXTINF:-1 tvg-id="Couleur3.ch@SD" tvg-name="Couleur 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/VOIwYYd.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="720p",Couleur 3
 https://visualradio-rts-couleur3-d.akamaized.net/out/v1/6a1472634ad745f59a9e63ee8adbbc00/index.m3u8
 #EXTINF:-1 tvg-id="LemanBleu.ch@SD" tvg-name="Leman Bleu" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/6ijbSTr.png" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="1080p",Leman Bleu
@@ -205,22 +265,10 @@ http://livevideo.infomaniak.com/streaming/livecast/naxoo/playlist.m3u8
 https://edge14.vedge.infomaniak.com/livecast/ik:rhonetv/manifest.m3u8
 #EXTINF:-1 tvg-id="RTSInfo.ch@SD" tvg-name="RTS Info" tvg-country="CH" tvg-language="French" group-title="Switzerland | Untested" x-tier="community" x-status="untested" x-quality="1080p",RTS Info
 https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8
-#EXTINF:-1 tvg-id="BenieTV.ci@SD" tvg-name="Benie TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/7FXi05e.jpeg" group-title="Ivory Coast | Untested" x-tier="community" x-status="untested" x-quality="720p",Benie TV
-https://tv.voozmedia.fun/benietv/index.m3u8
-#EXTINF:-1 tvg-id="ExploitsTV.ci@SD" tvg-name="Exploits TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/3wC7tSG.jpeg" group-title="Ivory Coast | Untested" x-tier="community" x-status="untested" x-quality="sd",Exploits TV
-https://stream.berosat.live/hls/exploits-tv/exploits-tv.m3u8
 #EXTINF:-1 tvg-id="MiracleTVPlus.ci@SD" tvg-name="Miracle TV+" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/AQ60OYO.png" group-title="Ivory Coast | Untested" x-tier="community" x-status="untested" x-quality="720p",Miracle TV+
 https://strhlslb01.streamakaci.tv/str_mtv_mtv/str_mtv_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="RefletTV.ci@SD" tvg-name="Reflet TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/EauXR22.png" group-title="Ivory Coast | Untested" x-tier="community" x-status="untested" x-quality="1080p",Reflet TV
-https://edge-a3.evrideo.tv/8f37c9f0-fe22-44f4-b64a-76ad11730daf_1000026630_HLS/manifest.m3u8
-#EXTINF:-1 tvg-id="RTVC.ci@SD" tvg-name="RTVC" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/oXuSkHz.png" group-title="Ivory Coast | Untested" x-tier="community" x-status="untested" x-quality="720p",RTVC
-https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
-#EXTINF:-1 tvg-id="CAM10TV.cm@SD" tvg-name="CAM 10 TV" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/xspb9uY.png" group-title="Cameroon | Untested" x-tier="community" x-status="untested" x-quality="720p",CAM 10 TV
-https://stream.it-innov.com/cam10tv/index.m3u8
 #EXTINF:-1 tvg-id="PanafricanMediaTV.cm@SD" tvg-name="Panafrican Media TV" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/wneSSYM.png" group-title="Cameroon | Untested" x-tier="community" x-status="untested" x-quality="sd",Panafrican Media TV
 https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TR24Television.cm@SD" tvg-name="TR24 Television" tvg-country="CM" tvg-language="French" tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" group-title="Cameroon | Untested" x-tier="community" x-status="untested" x-quality="720p",TR24 Television
-https://stream.it-innov.com/tr24/index.m3u8
 #EXTINF:-1 tvg-id="Cine666byPlutoTV.de@FR" tvg-name="Cine 666 by Pluto TV" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/6823648580b2665220d9e69a/colorLogoPNG-1757404141.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Cine 666 by Pluto TV
 https://jmp2.uk/plu-6823648580b2665220d9e69a.m3u8
 #EXTINF:-1 tvg-id="CineActionbyPlutoTV.de@FR" tvg-name="Cine Action by Pluto TV" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG_1752228138963.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Cine Action by Pluto TV
@@ -269,8 +317,6 @@ https://jmp2.uk/plu-62f3e0522443200008c567d7.m3u8
 https://jmp2.uk/plu-611e771e2f5f180007002224.m3u8
 #EXTINF:-1 tvg-id="PlutoTVInside.de@FR" tvg-name="Pluto TV Inside" tvg-country="DE" tvg-language="French" tvg-logo="https://i.imgur.com/Tb4GNml.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Inside
 https://jmp2.uk/plu-5f8ed3892ed7bb000741a1d2.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@FR" tvg-name="Pluto TV Kids Classics (FR)" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Kids Classics (FR)
-https://jmp2.uk/plu-654a58dbf9cc82000868f0fb.m3u8
 #EXTINF:-1 tvg-id="PlutoTVPolar.de@FR" tvg-name="Pluto TV Polar" tvg-country="DE" tvg-language="French" tvg-logo="https://i.imgur.com/yApGRsb.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Polar
 https://jmp2.uk/plu-5f8ed4dbf6bb0800071ffbcb.m3u8
 #EXTINF:-1 tvg-id="PlutoTVRetroToons.de@FR" tvg-name="Pluto TV Retro Toons" tvg-country="DE" tvg-language="French" tvg-logo="https://i.imgur.com/YUQL0ki.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Retro Toons
@@ -299,44 +345,14 @@ https://jmp2.uk/plu-67b4b4a21a5ca760802d25fd.m3u8
 https://jmp2.uk/plu-5f914f4b36d67d0007a91a04.m3u8
 #EXTINF:-1 tvg-id="Turbo.de@FR" tvg-name="Turbo" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Turbo
 https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8
-#EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-name="AL24 News" tvg-country="DZ" tvg-language="Arabic;French;English" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algeria | Untested" x-tier="community" x-status="untested" x-quality="sd",AL24 News
-https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-id="CNA.dz@SD" tvg-name="CNA" tvg-country="DZ" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Algeria | Untested" x-tier="community" x-status="untested" x-quality="sd",CNA
 https://live.creacast.com/cna/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Africa24Sport.fr@SD" tvg-name="Africa 24 Sport" tvg-country="FR" tvg-language="French" tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Africa 24 Sport
-https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="BFMBusiness.fr@SD" tvg-name="BFM Business" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/psqIHn4.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",BFM Business
-https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="BFMLyon.fr@SD" tvg-name="BFM Lyon" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/0uiiZRo.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",BFM Lyon
-https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="BrionnaisTV.fr@SD" tvg-name="Brionnais TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/y94bhqX.jpg" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="720p",Brionnais TV
-https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
-#EXTINF:-1 tvg-id="Caillou.fr@SD" tvg-name="Caillou" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/RgKaoe4.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",Caillou
-https://do7nccdsswstc.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-1aso0bc668saa/a5233c83-f772-4a81-959a-45ec7877ef61/5.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-name="Canal+ Sport" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Canal+ Sport
 http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
-#EXTINF:-1 tvg-id="CineNanar.fr@SD" tvg-name="Cine Nanar" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/YnUZd3W.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Cine Nanar
-https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CineWestern.fr@SD" tvg-name="Cine Western" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/tteOFkL.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Cine Western
-https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="DBMTV.fr@SD" tvg-name="DBM TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/ab6p2SW.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",DBM TV
-https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="EvandisGospelTV.fr@SD" tvg-name="Evandis Gospel TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/v8TiqhH.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Evandis Gospel TV
-https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",FashionTV Paris L'Original
-https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
-#EXTINF:-1 tvg-id="Francophonie24.fr@SD" tvg-name="Francophonie24" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/uM1v1sd.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Francophonie24
-https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FrequenceNovelas.fr@SD" tvg-name="Frequence Novelas" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/fEjNAps.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Frequence Novelas
-https://d20oth1416y9a1.cloudfront.net/playlist/amg00711-zylofast-frequencenovelas-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-name="Generations TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",Generations TV
-https://event.vedge.infomaniak.com/livecast/ik:generation-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="GolfPlus.fr@SD" tvg-name="Golf +" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/WHnddkg.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Golf +
 http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
 #EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-name="ILTV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="720p",ILTV
 https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="KTO.fr@SD" tvg-name="KTO" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/EY6TsdV.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",KTO
-https://live-kto.akamaized.net/hls/live/2033284/KTO/master.m3u8
 #EXTINF:-1 tvg-id="M6Music.fr@SD" tvg-name="M6 Music" tvg-country="FR" tvg-language="French" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",M6 Music
 https://test.946985.filegear-sg.me/proxy/803c517b325bfafc
 #EXTINF:-1 tvg-id="MoselleTV.fr@SD" tvg-name="Moselle TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/hrm5QnU.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="720p",Moselle TV
@@ -345,116 +361,28 @@ https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-name="MyZen TV" tvg-country="FR" tvg-language="French;English;Russian;Spanish;Turkish;Bulgarian" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",MyZen TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
-#EXTINF:-1 tvg-id="RMCLife.fr@SD" tvg-name="RMC Life" tvg-country="FR" tvg-language="French" tvg-logo="https://img1.dc2.oqee.net/channel_pictures/3606/w512" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",RMC Life
-https://d3dcdjv6dx07iz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-eaaww2dyp3iih/RMC_Life_FR.m3u8
-#EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-name="RT France" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",RT France
-https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
-#EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-name="ScreamIN" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",ScreamIN
-https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="SonyOneHitsAction.fr@HD" tvg-name="Sony One Hits Action" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/pXsZEsR.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Sony One Hits Action
-https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="SonyOneHitsComedie.fr@HD" tvg-name="Sony One Hits Comedie" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/8sHuxxS.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Sony One Hits Comedie
-https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="TiVi5Monde.fr@SD" tvg-name="TiVi5 Monde" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/fVVKpmk.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",TiVi5 Monde
 https://ott.tv5monde.com/Content/HLS/Live/channel(tivi5)/variant.m3u8
 #EXTINF:-1 tvg-id="TMC.fr@HD" tvg-name="TMC" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/960px-TMC_logo.svg.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",TMC
 http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" tvg-name="Trace Gospel (Southern Africa)" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",Trace Gospel (Southern Africa)
-https://channels.trace.plus/Traceprod/GOSPEL_SA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TV7Colmar.fr@SD" tvg-name="TV7 Colmar" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/kSdGi43.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",TV7 Colmar
-https://tv7.live-kd.com/live/tv7/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="ViaOccitanie.fr@SD" tvg-name="ViaOccitanie" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/NzuKt1R.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",ViaOccitanie
-https://streamer01.myvideoplace.tv/streamer02/hls/MDS_VIA_PAD_301117.m3u8
-#EXTINF:-1 tvg-id="VosgesTV.fr@SD" tvg-name="Vosges TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/7y7ancc.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="sd",Vosges TV
-https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" tvg-name="W9" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/reYeMuE.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",W9
 https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd.m3u8
-#EXTINF:-1 tvg-id="zenith.fr@HD" tvg-name="zenith" tvg-country="FR" tvg-language="French;English" tvg-logo="https://znth.tv/images/logo.png" group-title="France | Untested" x-tier="community" x-status="untested" x-quality="1080p",zenith
-https://live.azenagroup.com/zenith/index.m3u8
-#EXTINF:-1 tvg-id="KalacTV.gn@SD" tvg-name="Kalac TV" tvg-country="GN" tvg-language="French" tvg-logo="https://i.imgur.com/FgKJiHZ.png" group-title="Guinea | Untested" x-tier="community" x-status="untested" x-quality="1080p",Kalac TV
-https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8
-#EXTINF:-1 tvg-id="ETV.gp@SD" tvg-name="ETV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/m5E2VP0.png" group-title="Guadeloupe | Untested" x-tier="community" x-status="untested" x-quality="1080p",ETV
-https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
-#EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" tvg-name="Madras FM TV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/spGg1CZ.png" group-title="Guadeloupe | Untested" x-tier="community" x-status="untested" x-quality="1080p",Madras FM TV
-https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
-#EXTINF:-1 tvg-id="RHTGuadeloupe.gp@SD" tvg-name="RHT Guadeloupe" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/hQ0Q6nE.png" group-title="Guadeloupe | Untested" x-tier="community" x-status="untested" x-quality="720p",RHT Guadeloupe
-https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
-#EXTINF:-1 tvg-id="RadioTeleFullGospel.ht@SD" tvg-name="Radio Tele Full Gospel" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/WbwIp9y.jpeg" group-title="Haiti | Untested" x-tier="community" x-status="untested" x-quality="sd",Radio Tele Full Gospel
-https://f-tx-edge-87.christianworldmedia.com/EJCFG/mp4:EJCFG/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTelevisionShilo.ht@SD" tvg-name="Radio Television Shilo" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://cdn.onlineradiobox.com/img/l/0/98960.v3.png" group-title="Haiti | Untested" x-tier="community" x-status="untested" x-quality="720p",Radio Television Shilo
-https://watch.haitilive.net/freehb/rtvs/index.m3u8
 #EXTINF:-1 tvg-id="TNH.ht@SD" tvg-name="TNH" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/8nvCXzt.png" group-title="Haiti | Untested" x-tier="community" x-status="untested" x-quality="720p",TNH
 https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8
-#EXTINF:-1 tvg-id="A2iTV.it@SD" tvg-name="A2i TV" tvg-country="IT" tvg-language="English;French" tvg-logo="https://i.imgur.com/YlDFir7.jpg" group-title="Italy | Untested" x-tier="community" x-status="untested" x-quality="1080p",A2i TV
-https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="Telepace2.it@SD" tvg-name="Telepace 2" tvg-country="IT" tvg-language="Italian;English;French" tvg-logo="https://i.imgur.com/qvcf6QC.png" group-title="Italy | Untested" x-tier="community" x-status="untested" x-quality="1080p",Telepace 2
-https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Telepace4.it@SD" tvg-name="Telepace 4" tvg-country="IT" tvg-language="Italian;French;English" tvg-logo="https://i.imgur.com/JKHEL1H.png" group-title="Italy | Untested" x-tier="community" x-status="untested" x-quality="1080p",Telepace 4
 https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="OTV.lb@SD" tvg-name="OTV" tvg-country="LB" tvg-language="Arabic;French;English;Armenian" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="Lebanon | Untested" x-tier="community" x-status="untested" x-quality="1080p",OTV
 https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="2MMonde.ma@Plus1" tvg-name="2M Monde (+1)" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/MvpntzA.png" group-title="Morocco | Untested" x-tier="community" x-status="untested" x-quality="1080p",2M Monde (+1)
-https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
-#EXTINF:-1 tvg-id="D3TV.ml@SD" tvg-name="D3 TV" tvg-country="ML" tvg-language="French" tvg-logo="https://i.imgur.com/uFEIBtB.png" group-title="Mali | Untested" x-tier="community" x-status="untested" x-quality="720p",D3 TV
-https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8
 #EXTINF:-1 tvg-id="ORTM1.ml@SD" tvg-name="ORTM 1" tvg-country="ML" tvg-language="French" tvg-logo="https://i.imgur.com/eKUpcls.png" group-title="Mali | Untested" x-tier="community" x-status="untested" x-quality="sd",ORTM 1
 https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8
-#EXTINF:-1 tvg-id="ViaATV.mq@SD" tvg-name="ViaATV" tvg-country="MQ" tvg-language="French" tvg-logo="https://i.imgur.com/Ua6rOXo.png" group-title="Martinique | Untested" x-tier="community" x-status="untested" x-quality="1080p",ViaATV
-https://streamer01.myvideoplace.tv/streamer02/hls/ATV_DIRECT_EV_111018.m3u8
 #EXTINF:-1 tvg-id="DouniaTV.ne@SD" tvg-name="Dounia TV" tvg-country="NE" tvg-language="French;Hausa" tvg-logo="https://i.imgur.com/ENBCDaQ.png" group-title="Niger | Untested" x-tier="community" x-status="untested" x-quality="sd",Dounia TV
 https://live20.bozztv.com/dvrfl06/astv/astv-douniatv/index.m3u8
 #EXTINF:-1 tvg-id="SaraouniaTV.ne@SD" tvg-name="Saraounia TV" tvg-country="NE" tvg-language="French" tvg-logo="https://i.imgur.com/O8XIcpH.png" group-title="Niger | Untested" x-tier="community" x-status="untested" x-quality="sd",Saraounia TV
 https://live20.bozztv.com/dvrfl06/astv/astv-saraouna/index.m3u8
-#EXTINF:-1 tvg-id="TalTV.ne@SD" tvg-name="Tal TV" tvg-country="NE" tvg-language="French;Hausa" tvg-logo="https://i.imgur.com/KWMP0t1.png" group-title="Niger | Untested" x-tier="community" x-status="untested" x-quality="1080p",Tal TV
-https://mediaserver1.castpin.com/hls/taltv/index.m3u8
-#EXTINF:-1 tvg-id="FashionTV.ru@SD" tvg-name="FashionTV" tvg-country="RU" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Russia | Untested" x-tier="community" x-status="untested" x-quality="1080p",FashionTV
-http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-#EXTINF:-1 tvg-id="KC2.rw@SD" tvg-name="KC2" tvg-country="RW" tvg-language="English;Kinyarwanda;French" tvg-logo="https://i.imgur.com/PsYPzNc.png" group-title="Rwanda | Untested" x-tier="community" x-status="untested" x-quality="720p",KC2
-https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
-#EXTINF:-1 tvg-id="IqraaQuran.sa@SD" tvg-name="Iqraa Quran" tvg-country="SA" tvg-language="Arabic;French;English" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="Saudi Arabia | Untested" x-tier="community" x-status="untested" x-quality="1080p",Iqraa Quran
-https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
-#EXTINF:-1 tvg-id="A2iMusic.sn@SD" tvg-name="A2i Music" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="720p",A2i Music
-https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="ChabibaTV.sn@SD" tvg-name="Chabiba TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/qVTOklV.png" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="sd",Chabiba TV
-https://endour.net/hls/RUgLAPCbPdF5oPSTX2Hvl/index.m3u8
-#EXTINF:-1 tvg-id="CNMTV.sn@SD" tvg-name="CNM TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.ibb.co/0cfdGKv/1630802325205.jpg" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="720p",CNM TV
-https://stream.sen-gt.com/cnmtv/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="GMSTV.sn@SD" tvg-name="GMS TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/Ue02CIH.png" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="sd",GMS TV
-https://acasmedia6.acangroup.org/gmstv/gmstv_output/playlist.m3u8
-#EXTINF:-1 tvg-id="LougaTV.sn@SD" tvg-name="Louga TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.ibb.co/xXZ5kFy/unnamed.jpg" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="sd",Louga TV
-https://stream.sen-gt.com/Mbacke/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="OneNationTV.sn@SD" tvg-name="One Nation TV" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/RGHbkZU.png" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="720p",One Nation TV
-https://endour.net/hls/One_nationtv/index.m3u8
-#EXTINF:-1 tvg-id="TeleMusikSenegal.sn@SD" tvg-name="TeleMusik Senegal" tvg-country="SN" tvg-language="French" tvg-logo="https://i.imgur.com/dPAPLsd.png" group-title="Senegal | Untested" x-tier="community" x-status="untested" x-quality="720p",TeleMusik Senegal
-https://58c04fb1d143f.streamlock.net/rezopropartner_1_live/rezopropartner_1_live/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCARiB.sx@SD" tvg-name="TVCARiB" tvg-country="SX" tvg-language="French;English" tvg-logo="https://i.imgur.com/fvGlwKo.png" group-title="Sint Maarten | Untested" x-tier="community" x-status="untested" x-quality="720p",TVCARiB
-https://cdn.mycloudstream.io/hls/live/broadcast/s6nitpvn/index.m3u8
 #EXTINF:-1 tvg-id="TeleTchad.td@SD" tvg-name="Tele Tchad" tvg-country="TD" tvg-language="French;Arabic" tvg-logo="https://i.imgur.com/udSzfHD.png" group-title="Chad | Untested" x-tier="community" x-status="untested" x-quality="1080p",Tele Tchad
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="DynamicGospelTV.tg@SD" tvg-name="Dynamic Gospel TV" tvg-country="TG" tvg-language="French" tvg-logo="https://i.imgur.com/e36BNNK.jpg" group-title="Togo | Untested" x-tier="community" x-status="untested" x-quality="sd",Dynamic Gospel TV
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/tvdynamicstream/playlist.m3u8
-#EXTINF:-1 tvg-id="SOSDocteurTV.tg@SD" tvg-name="SOS Docteur TV" tvg-country="TG" tvg-language="French" tvg-logo="https://i.imgur.com/wQpooHw.png" group-title="Togo | Untested" x-tier="community" x-status="untested" x-quality="sd",SOS Docteur TV
-https://wmoy82n4y2a7-hls-live.5centscdn.com/sostv/live.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TelevisionEspoir47.tg@SD" tvg-name="Television Espoir 47" tvg-country="TG" tvg-language="French" tvg-logo="https://i.imgur.com/utBh0xL.png" group-title="Togo | Untested" x-tier="community" x-status="untested" x-quality="720p",Television Espoir 47
-https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
-#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-name="Turkmenistan" tvg-country="TM" tvg-language="Turkmen;Russian;English;French;Chinese;Arabic" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="Turkmenistan | Untested" x-tier="community" x-status="untested" x-quality="sd",Turkmenistan
-https://alpha.tv.online.tm/legacyhls/ch007.m3u8
-#EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-name="Natural TV" tvg-country="TR" tvg-language="English;French" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="Turkiye | Untested" x-tier="community" x-status="untested" x-quality="720p",Natural TV
-https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="MrBeanAnimated.uk@FR" tvg-name="Mr Bean Animated (FR)" tvg-country="UK" tvg-language="French" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="United Kingdom | Untested" x-tier="community" x-status="untested" x-quality="1080p",Mr Bean Animated (FR)
-https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA1World.uk@SD" tvg-name="MTA1 World" tvg-country="UK" tvg-language="Urdu;English;French;German;Arabic;Bengali" tvg-logo="https://i.imgur.com/bYiRfAg.png" group-title="United Kingdom | Untested" x-tier="community" x-status="untested" x-quality="720p",MTA1 World
-https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
-#EXTINF:-1 tvg-id="MTA5Africa.uk@SD" tvg-name="MTA5 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="United Kingdom | Untested" x-tier="community" x-status="untested" x-quality="1080p",MTA5 Africa
-https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-name="Zee One (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="United Kingdom | Untested" x-tier="community" x-status="untested" x-quality="720p",Zee One (French)
-https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="AlerteaMalibu.us@France" tvg-name="Alerte a Malibu" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/hBiB6uk.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Alerte a Malibu
-https://jmp2.uk/plu-60afaa535580be0007ac9ee4.m3u8
 #EXTINF:-1 tvg-id="Bobleponge.us@CA" tvg-name="Bob l'eponge" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/ITwU1yZ.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",Bob l'eponge
 https://jmp2.uk/plu-66588931a3865300085ca800.m3u8
-#EXTINF:-1 tvg-id="ClubbingTV.us@France" tvg-name="Clubbing TV (France)" tvg-country="US" tvg-language="French;English" tvg-logo="https://i.imgur.com/MyiA92q.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Clubbing TV (France)
-https://d1j2csarxnwazk.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-uze1m6xh4fiyr-ssai-prd/master.m3u8
 #EXTINF:-1 tvg-id="DetectiveConan.us@France" tvg-name="Detective Conan (France)" tvg-country="US" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/629a066860ef810008267b70/solidLogoPNG.png?w=512" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",Detective Conan (France)
 https://jmp2.uk/plu-62f3e8ad2a8e8000077b013d.m3u8
 #EXTINF:-1 tvg-id="DossiersFBI.us@France" tvg-name="Dossiers FBI" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/8Zx6dA7.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Dossiers FBI
@@ -475,14 +403,8 @@ https://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@FR" tvg-name="One Piece (FR)" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",One Piece (FR)
 https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8
-#EXTINF:-1 tvg-id="RadioTeleKajou.us@SD" tvg-name="Radio Tele Kajou" tvg-country="US" tvg-language="French" tvg-logo="https://i.ibb.co/1MhvJ3B/logork.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Radio Tele Kajou
-https://59d39900ebfb8.streamlock.net/RadioTelekAJOU/RadioTelekAJOU/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleWisdom.us@SD" tvg-name="Radio Tele Wisdom" tvg-country="US" tvg-language="French" tvg-logo="https://i.ibb.co/DQksC23/unnamed-1.jpg" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Radio Tele Wisdom
-https://59d39900ebfb8.streamlock.net/daniel/daniel/playlist.m3u8
 #EXTINF:-1 tvg-id="RTHTV2Gospel.us@SD" tvg-name="RTH-TV2 Gospel" tvg-country="US" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/4z0FiEA.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",RTH-TV2 Gospel
 https://2-fss-2.streamhoster.com/pl_120/amlst:206708-4202592/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleMIX.us@SD" tvg-name="TeleMIX" tvg-country="US" tvg-language="French" tvg-logo="https://i.ibb.co/HpX99Ks/unnamed.jpg" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",TeleMIX
-https://haititivi.com/haiti/telemix1/index.m3u8
 #EXTINF:-1 tvg-id="WalkerTexasRanger.us@France" tvg-name="Walker Texas Ranger" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/0N7EhuD.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Walker Texas Ranger
 https://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8
 #EXTINF:-1 tvg-id="Yaquelaveritequicompte.us@France" tvg-name="Y'a que la verite qui compte" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/MDHN2Vc.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Y'a que la verite qui compte

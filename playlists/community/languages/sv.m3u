@@ -1,20 +1,22 @@
 #EXTM3U x-nexonic-playlist="Community: Swedish" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="HimlenTV7.fi@SD" tvg-name="Himlen TV7" tvg-country="FI" tvg-language="Swedish" tvg-logo="https://i.imgur.com/k8a7KNn.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Himlen TV7
 https://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MTV3.fi@SD" tvg-name="MTV3" tvg-country="FI" tvg-language="Finnish;Swedish" tvg-logo="https://i.imgur.com/C5rQbBM.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",MTV3
+https://live-fi.tvkaista.net/mtv3/live.m3u8
+#EXTINF:-1 tvg-id="ATGLive.se@SD" tvg-name="ATG Live" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/bPWFXkL.png" group-title="Sweden | Verified" x-tier="community" x-status="verified" x-quality="1080p",ATG Live
+https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
 #EXTINF:-1 tvg-id="DiTV.se@SD" tvg-name="Di TV" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/zApTDWn.png" group-title="Sweden | Verified" x-tier="community" x-status="verified" x-quality="1080p",Di TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="MTV3.fi@SD" tvg-name="MTV3" tvg-country="FI" tvg-language="Finnish;Swedish" tvg-logo="https://i.imgur.com/C5rQbBM.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8
+#EXTINF:-1 tvg-id="ExpressenTV.se@SD" tvg-name="Expressen TV" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/ai0BIci.png" group-title="Sweden | Verified" x-tier="community" x-status="verified" x-quality="1080p",Expressen TV
+https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
 #EXTINF:-1 tvg-id="7thHeaven.se@SE" tvg-name="7th Heaven" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6728c9c85534bb0008b320a4/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",7th Heaven
 https://jmp2.uk/plu-6728cab6e482950008b76d8c.m3u8
 #EXTINF:-1 tvg-id="AreYouTheOne.se@SE" tvg-name="Are You The One?" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://i.imgur.com/cIt8UWE.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Are You The One?
 https://jmp2.uk/plu-61c0ac242bb0cf0007015f89.m3u8
-#EXTINF:-1 tvg-id="ATGLive.se@SD" tvg-name="ATG Live" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/bPWFXkL.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",ATG Live
-https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
 #EXTINF:-1 tvg-id="AuctionHunters.se@SE" tvg-name="Auction Hunters" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/62da73c4ec46c000070f4cb1/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Auction Hunters
 https://jmp2.uk/plu-62da7380478a5b0007e610d9.m3u8
 #EXTINF:-1 tvg-id="BeavisandButtHead.se@SE" tvg-name="Beavis and Butt-Head" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6486e8984cfc2c0008b6844e/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Beavis and Butt-Head
@@ -29,8 +31,6 @@ https://jmp2.uk/plu-65e97d41f7f0af0008da2543.m3u8
 https://jmp2.uk/plu-65b1077e0d9ab40008245b20.m3u8
 #EXTINF:-1 tvg-id="BestofParadiseHotelPandorasAsk.se@SE" tvg-name="Best of Paradise Hotel: Pandoras Ask" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65e97d760d456100082da660/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Best of Paradise Hotel: Pandoras Ask
 https://jmp2.uk/plu-65e97d760d456100082da660.m3u8
-#EXTINF:-1 tvg-id="BestofParadiseHotelSkolveckan.se@SE" tvg-name="Best of Paradise Hotel: Skolveckan" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65e97cd118036500082ed0ce/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Best of Paradise Hotel: Skolveckan
-https://jmp2.uk/plu-65e97cd118036500082ed0ce.m3u8
 #EXTINF:-1 tvg-id="BestofTheDrewBarrymoreShow.se@SE" tvg-name="Best of The Drew Barrymore Show" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/62beb692cda2b10007d5fd76/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Best of The Drew Barrymore Show
 https://jmp2.uk/plu-630483153a21200007f1920f.m3u8
 #EXTINF:-1 tvg-id="BET.se@SE" tvg-name="BET" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c1939b8929e40007ff6382/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",BET
@@ -61,8 +61,6 @@ https://jmp2.uk/plu-668bf9be0642e5000815102d.m3u8
 https://jmp2.uk/plu-62b1e5e77d15410007f798c6.m3u8
 #EXTINF:-1 tvg-id="EverybodyHatesChris.se@SE" tvg-name="Everybody Hates Chris" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/63a1cab19ab2df0007bf1c8b/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Everybody Hates Chris
 https://jmp2.uk/plu-697b5be36dc3c71eb14d728a.m3u8
-#EXTINF:-1 tvg-id="ExpressenTV.se@SD" tvg-name="Expressen TV" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/ai0BIci.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="1080p",Expressen TV
-https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
 #EXTINF:-1 tvg-id="FamilyTies.se@SE" tvg-name="Family Ties" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/654a4a3ef91d250008ac089b/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Family Ties
 https://jmp2.uk/plu-654a510d986ad20008a45874.m3u8
 #EXTINF:-1 tvg-id="FrusnaVagar.se@SE" tvg-name="Frusna Vagar" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c19099bf8c520007a93cff/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Frusna Vagar
@@ -85,8 +83,6 @@ https://jmp2.uk/plu-64424c1be94c380008d0a98c.m3u8
 https://jmp2.uk/plu-6728c8b45534bb0008b31f35.m3u8
 #EXTINF:-1 tvg-id="JudgeJudy.se@SE" tvg-name="Judge Judy" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6380c36389eccc000858c50f/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Judge Judy
 https://jmp2.uk/plu-6380c4ab81c8d2000790fbf3.m3u8
-#EXTINF:-1 tvg-id="Kanal10Asia.se@SD" tvg-name="Kanal 10 Asia" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/tY7IJva.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="sd",Kanal 10 Asia
-https://cdn-kanal10.crossnet.net/kanal10/ngrp:kanal10asia_all/playlist.m3u8
 #EXTINF:-1 tvg-id="KeyPeele.se@SE" tvg-name="Key & Peele" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65cba715dc10a40008034917/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Key & Peele
 https://jmp2.uk/plu-65cba798d77d450008d056e5.m3u8
 #EXTINF:-1 tvg-id="Klovn.se@SE" tvg-name="Klovn" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65a63ff00d9ab400080b101c/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Klovn
@@ -191,14 +187,10 @@ https://jmp2.uk/plu-63a1c9c2847a090007f248da.m3u8
 https://jmp2.uk/plu-643808dce0789d00084797f6.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelSelects.se@SE" tvg-name="Smithsonian Channel Selects" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61fb988e032c0100077d5252/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Smithsonian Channel Selects
 https://jmp2.uk/plu-61fb9907b1b78d000717ed9f.m3u8
-#EXTINF:-1 tvg-id="SouthPark.se@SE" tvg-name="South Park" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c098df897b9d00070375c8/colorLogoPNG_1754471522651.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park
-https://jmp2.uk/plu-61c0b627e3ed94000793c18a.m3u8
 #EXTINF:-1 tvg-id="SouthParkArmageddon.se@SE" tvg-name="South Park Armageddon" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/660bff28516d260008479e23/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park Armageddon
 https://jmp2.uk/plu-660bff7dc8311c0008b4bdb4.m3u8
 #EXTINF:-1 tvg-id="SouthParkRockinOut.se@SE" tvg-name="South Park Rockin' Out" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/664f132c8ea5560008ce4d86/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park Rockin' Out
 https://jmp2.uk/plu-664f13aff9992200084a3532.m3u8
-#EXTINF:-1 tvg-id="SouthParkButtersCollection.se@SE" tvg-name="South Park: Butters Collection" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65d87a66ec9fda0008a5ac11/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park: Butters Collection
-https://jmp2.uk/plu-65d881d566eec8000887f6bb.m3u8
 #EXTINF:-1 tvg-id="SouthParkCartmanCollection.se@SE" tvg-name="South Park: Cartman Collection" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65d87a058145cb0008265c2e/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park: Cartman Collection
 https://jmp2.uk/plu-65d881b1332fec000833a122.m3u8
 #EXTINF:-1 tvg-id="SouthParkIntotheStars.se@SE" tvg-name="South Park: Into the Stars" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/664f0eaa8ce31100088036bd/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",South Park: Into the Stars

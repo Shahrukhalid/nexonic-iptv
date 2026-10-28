@@ -1,4 +1,8 @@
 #EXTM3U x-nexonic-playlist="Community: Lithuanian" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="2TV.lt@SD" tvg-name="2TV" tvg-country="LT" tvg-language="Lithuanian" tvg-logo="https://i.imgur.com/sZUIhGc.png" group-title="Lithuania | Verified" x-tier="community" x-status="verified" x-quality="1080p",2TV
 https://lnk5511.bstrm.net/live/687e3ff1679c8d4d68fab6c5/hd/manifest.mpd
 #EXTINF:-1 tvg-id="InfoTV.lt@SD" tvg-name="Info TV" tvg-country="LT" tvg-language="Lithuanian" tvg-logo="https://i.imgur.com/EjQtIpM.png" group-title="Lithuania | Verified" x-tier="community" x-status="verified" x-quality="1080p",Info TV
@@ -7,9 +11,5 @@ https://lnk5511.bstrm.net/live/687e3fd2679c8d4d68fab65b/hd/manifest.mpd
 https://live.lietuvosryto.tv/live/hls/eteris.m3u8
 #EXTINF:-1 tvg-id="M1.lt@SD" tvg-name="M-1" tvg-country="LT" tvg-language="Lithuanian" tvg-logo="https://i.ibb.co/gb4NmNHT/M1-2025.png" group-title="Lithuania | Verified" x-tier="community" x-status="verified" x-quality="1080p",M-1
 https://m-1.data.lt/m-1/smil:m-1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="PowerHitRadio.lt@SD" tvg-name="Power Hit Radio" tvg-country="LT" tvg-language="Lithuanian" tvg-logo="https://i.imgur.com/GOlQbfC.png" group-title="Lithuania | Untested" x-tier="community" x-status="untested" x-quality="sd",Power Hit Radio
 https://cdnlb.tvplayhome.lt/live/eds/PWR_LTU_Live/GO3_LIVE_HLS/PWR_LTU_Live.m3u8

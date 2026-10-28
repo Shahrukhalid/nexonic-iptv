@@ -1,45 +1,21 @@
 #EXTM3U x-nexonic-playlist="Community: Slovakia" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="LifeTv.sk@SD" tvg-name="LifeTv" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/jO8kAY2.png" group-title="Culture | Verified" x-tier="community" x-status="verified" x-quality="1080p",LifeTv
+https://lifetv.mpks.sk/s.m3u8
 #EXTINF:-1 tvg-id="MTR.sk@SD" tvg-name="MTR" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://www.mtr.sk/img/logo-mtr-0.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",MTR
 https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8
 #EXTINF:-1 tvg-id="Senzi.sk@SD" tvg-name="Senzi" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/1qJMmBu.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Senzi
 http://lb.streaming.sk/senzi/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleviziaMocenok.sk@SD" tvg-name="Televizia Mocenok" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/psb8GxZ.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Televizia Mocenok
 https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVDK.sk@SD" tvg-name="TV DK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/qTOnPXe.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",TV DK
+https://5ca49f2417d90.streamlock.net/live/dolnykubin1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNRSR.sk@SD" tvg-name="TV NRSR" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/hsJsu3I.png" group-title="Legislative | Verified" x-tier="community" x-status="verified" x-quality="720p",TV NRSR
+https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRuzinov.sk@SD" tvg-name="TV Ruzinov" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/bUGuntH.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",TV Ruzinov
+http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVT.sk@SD" tvg-name="TVT" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/QG0iZlG.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="sd",TVT
 https://5ca49f2417d90.streamlock.net/live/turzovka/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalPlusSport2SK.sk@SD" tvg-name="Canal+ Sport 2 SK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/CANAL%2B_SPORT_2.svg/revision/latest?cb=20241028202739" group-title="Sports | Untested" x-tier="community" x-status="untested" x-quality="sd",Canal+ Sport 2 SK
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport2/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="CanalPlusSport4SK.sk@SD" tvg-name="Canal+ Sport 4 SK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/CANAL%2B_SPORT_4.svg/revision/latest?cb=20241028202820" group-title="Sports | Untested" x-tier="community" x-status="untested" x-quality="sd",Canal+ Sport 4 SK
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport4/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="CanalPlusSport5SK.sk@SD" tvg-name="Canal+ Sport 5 SK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/39/CANAL%2B_SPORT_5.svg/revision/latest?cb=20241028202829" group-title="Sports | Untested" x-tier="community" x-status="untested" x-quality="sd",Canal+ Sport 5 SK
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport5/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="CanalPlusSport7SK.sk@SD" tvg-name="Canal+ Sport 7 SK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/03/Canal%2B_Sport_7.svg/revision/latest?cb=20251106141245" group-title="Sports | Untested" x-tier="community" x-status="untested" x-quality="sd",Canal+ Sport 7 SK
-http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport7/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="ducktv.sk@HD" tvg-name="ducktv" tvg-country="SK" tvg-language="English" tvg-logo="https://i.imgur.com/gRFQ35W.png" group-title="Kids | Untested" x-tier="community" x-status="untested" x-quality="1080p",ducktv
-https://dash3.antik.sk/live/duck_tv/index.m3u8
-#EXTINF:-1 tvg-id="ducktvPLUS.sk@SD" tvg-name="ducktv PLUS" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/RFhxfOx.png" group-title="Kids | Untested" x-tier="community" x-status="untested" x-quality="sd",ducktv PLUS
-https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
-#EXTINF:-1 tvg-id="LifeTv.sk@SD" tvg-name="LifeTv" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/jO8kAY2.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="1080p",LifeTv
-https://lifetv.mpks.sk/s.m3u8
-#EXTINF:-1 tvg-id="RegioTV.sk@SD" tvg-name="Regio TV" tvg-country="SK" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/WlF6tlZ.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Regio TV
-https://dash2.antik.sk/live/test_regio_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDK.sk@SD" tvg-name="TV DK" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/qTOnPXe.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",TV DK
-https://5ca49f2417d90.streamlock.net/live/dolnykubin1/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLocAll.sk@SD" tvg-name="TV LocAll" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/xN1CJol.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",TV LocAll
-https://dash3.antik.sk/live/test_locall/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNRSR.sk@SD" tvg-name="TV NRSR" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/hsJsu3I.png" group-title="Legislative | Untested" x-tier="community" x-status="untested" x-quality="720p",TV NRSR
-https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPanorama.sk@SD" tvg-name="TV Panorama" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/0YtCG4Y.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",TV Panorama
 https://public.live.rebit.tv/live/20750f0b-e12d-4915-a4c3-47c5db9ccbf6/main.m3u8
-#EXTINF:-1 tvg-id="TVPovazie.sk@SD" tvg-name="TV Povazie" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/JRD9YIY.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",TV Povazie
-https://dash3.antik.sk/live/test_povazie/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRaj.sk@SD" tvg-name="TV Raj" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/CGckMyx.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",TV Raj
 https://ottst05.flexitv.sk/2827-tv-pc.m3u8
-#EXTINF:-1 tvg-id="TVRuzinov.sk@SD" tvg-name="TV Ruzinov" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/bUGuntH.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",TV Ruzinov
-http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVVita.sk@SD" tvg-name="TV Vita" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/Cx1GLbo.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="sd",TV Vita
-https://dash3.antik.sk/live/test_vita/playlist.m3u8
-#EXTINF:-1 tvg-id="TV9.sk@SD" tvg-name="TV9" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/Sco4x8t.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",TV9
-https://dash4.antik.sk/live/test_tv9/playlist.m3u8
-#EXTINF:-1 tvg-id="ZapadoslovenskaTV.sk@SD" tvg-name="Zapadoslovenska TV" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/D72Y1IB.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Zapadoslovenska TV
-https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8

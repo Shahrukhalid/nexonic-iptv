@@ -1,6 +1,10 @@
 #EXTM3U x-nexonic-playlist="Community: Netherlands" x-nexonic-tier="community"
 #EXTINF:-1 tvg-id="1AlmereTV.nl@SD" tvg-name="1AlmereTV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",1AlmereTV
 https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
+#EXTINF:-1 tvg-id="1TwenteTV.nl@SD" tvg-name="1Twente TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ftiuNK3.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",1Twente TV
+https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8
+#EXTINF:-1 tvg-id="AssenTV.nl@SD" tvg-name="Assen TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/upik15D.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Assen TV
+https://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live
 #EXTINF:-1 tvg-id="AT5.nl@SD" tvg-name="AT5" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/iAiSlEL.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",AT5
 https://takeoff.jetstre.am/?account=atvijf&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="BNRNieuwsradio.nl@SD" tvg-name="BNR Nieuwsradio" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/d0KLwkj.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",BNR Nieuwsradio
@@ -11,12 +15,20 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 https://ms2.mx-cd.net/tv/228-1864150/Omroep_Helmond.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DTVDenBosch.nl@SD" tvg-name="DTV Den Bosch" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/aFBNbsy.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",DTV Den Bosch
 https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv2&output=playlist.m3u8&protocol=https&service=wowza&type=live
+#EXTINF:-1 tvg-id="DTVMaashorst.nl@SD" tvg-name="DTV Maashorst" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/5WaCCAC.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",DTV Maashorst
+https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="DTVOssBernheze.nl@SD" tvg-name="DTV Oss & Bernheze" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/JL1f9Tx.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",DTV Oss & Bernheze
 https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv1&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="Haarlem105TV.nl@SD" tvg-name="Haarlem105 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/xyOVVZ0.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Haarlem105 TV
 https://d2qm50imcbcfqx.cloudfront.net/nlpo/clr-nlpo/haarlem105/index.m3u8
+#EXTINF:-1 tvg-id="HypeVisualRadio.nl@SD" tvg-name="Hype Visual Radio" tvg-country="NL" tvg-language="Dutch;English" tvg-logo="https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png" group-title="Music | Verified" x-tier="community" x-status="verified" x-quality="720p",Hype Visual Radio
+https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
+#EXTINF:-1 tvg-id="INFAST.nl@SD" tvg-name="INFAST" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/1b9c9500-cb43-449b-9eb6-9579640ec904/InFast_portrait-red.png" group-title="Lifestyle | Verified" x-tier="community" x-status="verified" x-quality="1080p",INFAST
+https://lifestyle-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-name="INTRAVEL" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/394f887e-bb39-4228-b126-93914e375b13/-/preview/2000x2000/-/resize/1600/INTRAVEL_PortraitColor.png" group-title="Lifestyle | Verified" x-tier="community" x-status="verified" x-quality="1080p",INTRAVEL
 https://amg00861-terncloud-amg00861c10-samsung-gb-2298.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-intravelsamsunguk-samsunggb/playlist.m3u8
+#EXTINF:-1 tvg-id="INWILD.nl@SD" tvg-name="INWILD" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" group-title="Documentary | Verified" x-tier="community" x-status="verified" x-quality="1080p",INWILD
+https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-name="InWonder" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/1e0b2617-b145-4489-9d63-ba8438489f26/InWonder_portrait-black.png" group-title="Science | Verified" x-tier="community" x-status="verified" x-quality="1080p",InWonder
 https://amg00861-terninternation-inwonderushd-samsungus-gqtpa.amagi.tv/playlist/amg00861-terninternation-inwonderushd-samsungus/playlist.m3u8
 #EXTINF:-1 tvg-id="KempenTV.nl@SD" tvg-name="KempenTV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ZiPL9ar.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",KempenTV
@@ -25,6 +37,8 @@ https://ms2.mx-cd.net/tv/242-2079866/Omroep_de_Kempen.smil/playlist.m3u8
 https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LEOMiddelseTV.nl@SD" tvg-name="LEO Middelse TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/wF3FFZv.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",LEO Middelse TV
 https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="LONTV.nl@SD" tvg-name="LON TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bH4XSGw.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",LON TV
+https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
 #EXTINF:-1 tvg-id="MaLive.nl@SD" tvg-name="MaLive" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/0Vzg2OR.png" group-title="Entertainment | Verified" x-tier="community" x-status="verified" x-quality="1080p",MaLive
 https://live.salto.nl/hls/malive_high.m3u8
 #EXTINF:-1 tvg-id="NH.nl@SD" tvg-name="NH" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/SPkK4md.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",NH
@@ -33,6 +47,8 @@ https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&prot
 https://ms2.mx-cd.net/tv/276-2860564/Omroep_NOOS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepBrabantRadio.nl@SD" tvg-name="Omroep Brabant Radio" tvg-country="NL" tvg-language="Dutch" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Omroep Brabant Radio
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/visualradio/index.m3u8
+#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD" tvg-name="Omroep Dommelland" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/6Tkd9Pv.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Omroep Dommelland
+https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
 #EXTINF:-1 tvg-id="OmroepFlevoland.nl@SD" tvg-name="Omroep Flevoland" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/rF4MTYD.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Omroep Flevoland
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
 #EXTINF:-1 tvg-id="OmroepHoekscheWaard.nl@SD" tvg-name="Omroep Hoeksche Waard" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/pgMwNGV.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="sd",Omroep Hoeksche Waard
@@ -45,18 +61,26 @@ https://ms7.mx-cd.net/dtv-11/208-1258878/Omroep_Peelrand_TV.smil/playlist.m3u8
 https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmroepVenlo.nl@SD" tvg-name="Omroep Venlo" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/zjDZdmM.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Omroep Venlo
 https://d2pqcu7r58rgg1.cloudfront.net/nlpo/clr-nlpo/omroepvenlo/index.m3u8
+#EXTINF:-1 tvg-id="OmroepVenray.nl@SD" tvg-name="Omroep Venray" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/uVqTbi2.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Omroep Venray
+https://d3j015sg8r68y.cloudfront.net/nlpo/clr-nlpo/omroepvenray/index.m3u8
 #EXTINF:-1 tvg-id="OmroepZeeland.nl@SD" tvg-name="Omroep Zeeland" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/3c3QUSn.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Omroep Zeeland
 https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
 #EXTINF:-1 tvg-id="OmropFryslan.nl@SD" tvg-name="Omrop Fryslan" tvg-country="NL" tvg-language="Dutch;Western Frisian" tvg-logo="https://i.imgur.com/khacDTU.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Omrop Fryslan
 https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8
 #EXTINF:-1 tvg-id="OOGTV.nl@SD" tvg-name="OOG TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/WzxY0PL.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",OOG TV
 https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/index.m3u8
+#EXTINF:-1 tvg-id="ORTSTV.nl@SD" tvg-name="ORTS TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/RZM4Myo.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",ORTS TV
+https://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PodiumTV.nl@SD" tvg-name="Podium.TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Podium.TV
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC1&output=playlist.m3u8&service=wowza&type=live
+#EXTINF:-1 tvg-id="PodiumTV2.nl@SD" tvg-name="Podium.TV 2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Podium.TV 2
+https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live
 #EXTINF:-1 tvg-id="PodiumTV3.nl@SD" tvg-name="Podium.TV 3" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Podium.TV 3
 https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live
 #EXTINF:-1 tvg-id="RadioJND.nl@SD" tvg-name="Radio JND" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/nyVlZeL.png" group-title="Music | Verified" x-tier="community" x-status="verified" x-quality="1080p",Radio JND
 https://radiojnd.cdn.hostin.cc/radiojnd/playlist.m3u8
+#EXTINF:-1 tvg-id="Regio90TV.nl@SD" tvg-name="Regio90 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/UGnm1jd.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Regio90 TV
+https://ms2.mx-cd.net/dtv-02/260-2403096/Regio90TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTV1.nl@SD" tvg-name="RTV 1" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/lRCsPWT.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",RTV 1
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
 #EXTINF:-1 tvg-id="RTVPurmerend.nl@SD" tvg-name="RTV Purmerend" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/dLKSpqz.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",RTV Purmerend
@@ -67,10 +91,20 @@ https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8
 https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8
 #EXTINF:-1 tvg-id="RTVVeluwezoomTV.nl@SD" tvg-name="RTV Veluwezoom TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/KeHbJTM.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",RTV Veluwezoom TV
 https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8
+#EXTINF:-1 tvg-id="RTVZulthe.nl@SD" tvg-name="RTV Zulthe" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/Z3zUUsJ.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",RTV Zulthe
+http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Salto2.nl@SD" tvg-name="Salto 2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/6H3ycdL.png" group-title="Culture | Verified" x-tier="community" x-status="verified" x-quality="720p",Salto 2
+https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
+#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD" tvg-name="Sleutelstad TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ljVGMWV.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Sleutelstad TV
+https://video-eu1.streamerr.co/hls/s7fdeb27a49/live.m3u8
+#EXTINF:-1 tvg-id="StudioRheden.nl@SD" tvg-name="Studio Rheden" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/swfxaac.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Studio Rheden
+https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
 #EXTINF:-1 tvg-id="TMF.nl@HDFAST" tvg-name="TMF" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png" group-title="Entertainment | Verified" x-tier="community" x-status="verified" x-quality="1080p",TMF
 https://tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMzUzNGNiZTAtNWY4MS00ZmU4LWE1NGYtYjgyMjJmMTM3ZmZjIiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8
 #EXTINF:-1 tvg-id="TVEllef.nl@SD" tvg-name="TV Ellef" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/FaCd2QY.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",TV Ellef
 http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="VechtdalTV.nl@SD" tvg-name="Vechtdal TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/MhcKEwr.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Vechtdal TV
+https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WeertFMTV.nl@SD" tvg-name="WeertFM TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/8bt6xt2.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",WeertFM TV
 https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WOS.nl@SD" tvg-name="WOS" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/L7MUBIo.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",WOS
@@ -79,113 +113,21 @@ https://ms7.mx-cd.net/tv/99-660295/WOS.smil/playlist.m3u8
 https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
 #EXTINF:-1 tvg-id="XITEHits.nl@Germany" tvg-name="XITE Hits (Germany)" tvg-country="NL" tvg-language="English;German" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music | Verified" x-tier="community" x-status="verified" x-quality="1080p",XITE Hits (Germany)
 https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/XITE_Hits.m3u8
+#EXTINF:-1 tvg-id="XITEHits.nl@UK" tvg-name="XITE Hits (UK)" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music | Verified" x-tier="community" x-status="verified" x-quality="1080p",XITE Hits (UK)
+https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="XITEJustChill.nl@US" tvg-name="XITE Just Chill" tvg-country="NL" tvg-language="English" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png" group-title="Music | Verified" x-tier="community" x-status="verified" x-quality="1080p",XITE Just Chill
 https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
-#EXTINF:-1 tvg-id="1TwenteTV.nl@SD" tvg-name="1Twente TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ftiuNK3.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",1Twente TV
-https://ms7.mx-cd.net/dtv-11/198-989148/1Twente_TV.smil/chunklist_w954512639_b4292608_slNLD.m3u8
-#EXTINF:-1 tvg-id="AssenTV.nl@SD" tvg-name="Assen TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/upik15D.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Assen TV
-https://takeoff.jetstre.am/?account=OmroepAssen&file=OmroepAssenTV/playlist.m3u8&output=playlist.m3u8&protocol=https&service=webdav&type=live
-#EXTINF:-1 tvg-id="BR6TV.nl@SD" tvg-name="BR6 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/NKtAiXu.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",BR6 TV
-https://58c04fb1d143f.streamlock.net/slob/slob/playlist.m3u8
-#EXTINF:-1 tvg-id="DeepHouseDistrict.nl@SD" tvg-name="Deep House District" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/IV2Qvc0.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="1080p",Deep House District
-https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
 #EXTINF:-1 tvg-id="DocuBox.nl@SD" tvg-name="DocuBox" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="Documentary | Untested" x-tier="community" x-status="untested" x-quality="sd",DocuBox
 https://dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="DocuBox.nl@Russia" tvg-name="DocuBox (Russia)" tvg-country="NL" tvg-language="Russian" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="Documentary | Untested" x-tier="community" x-status="untested" x-quality="sd",DocuBox (Russia)
-http://dtv.vol.net.ua/DOCUBOX-HD/index.m3u8
-#EXTINF:-1 tvg-id="DTVMaashorst.nl@SD" tvg-name="DTV Maashorst" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/5WaCCAC.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",DTV Maashorst
-https://rrr.sz.xlcdn.com/?account=dtvmaasland&file=dtv3&output=playlist.m3u8&protocol=https&service=wowza&type=live
 #EXTINF:-1 tvg-id="FastFunBox.nl@SD" tvg-name="Fast&FunBox" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/a9ZtP17.png" group-title="Sports | Untested" x-tier="community" x-status="untested" x-quality="sd",Fast&FunBox
 https://dash3.antik.sk/live/test_fast_and_funbox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="FeelGoodTV.nl@SD" tvg-name="Feel Good TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/qvs1BKr.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Feel Good TV
-https://58c04fb1d143f.streamlock.net/feel_good_radio_1/feel_good_radio_1/playlist.m3u8
-#EXTINF:-1 tvg-id="HTRTV.nl@SD" tvg-name="HTR TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/IlwVHX0.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",HTR TV
-https://ms7.mx-cd.net/tv/286-3043214/HTR_Media_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="HypeVisualRadio.nl@SD" tvg-name="Hype Visual Radio" tvg-country="NL" tvg-language="Dutch;English" tvg-logo="https://cdn.onlineradiobox.com/img/fblogo/1/97371.v21.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="1080p",Hype Visual Radio
-https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IdeaalTV.nl@SD" tvg-name="Ideaal TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/JLYQFoX.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Ideaal TV
-https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="INFAST.nl@SD" tvg-name="INFAST" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/1b9c9500-cb43-449b-9eb6-9579640ec904/InFast_portrait-red.png" group-title="Lifestyle | Untested" x-tier="community" x-status="untested" x-quality="1080p",INFAST
-https://lifestyle-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INWILD.nl@SD" tvg-name="INWILD" tvg-country="NL" tvg-language="English" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" group-title="Documentary | Untested" x-tier="community" x-status="untested" x-quality="1080p",INWILD
-https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="L1TV.nl@SD" tvg-name="L1 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/SDD5KS5.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",L1 TV
-https://d34pj260kw1xmk.cloudfront.net/live/l1/tv/index.m3u8
-#EXTINF:-1 tvg-id="LONTV.nl@SD" tvg-name="LON TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bH4XSGw.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",LON TV
-https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
-#EXTINF:-1 tvg-id="MerweTV.nl@SD" tvg-name="MerweTV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/JjB7U1q.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",MerweTV
-https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
-#EXTINF:-1 tvg-id="ML5TV.nl@SD" tvg-name="ML5 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/knjHdei.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",ML5 TV
-https://ms7.mx-cd.net/dtv-02/204-1147034/3ML_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NPO1.nl@HD" tvg-name="NPO 1" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/HEtJEBa.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",NPO 1
 https://bpm.tv.delta.nl/hls/combined/1/mobile.m3u8
-#EXTINF:-1 tvg-id="NPO2.nl@HD" tvg-name="NPO 2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/wmqaoXS.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",NPO 2
-https://bpm.tv.delta.nl/hls/combined/2/mobile.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabant.nl@SD" tvg-name="Omroep Brabant" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/KLYsKKC.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",Omroep Brabant
-https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepCentraalTV.nl@SD" tvg-name="Omroep Centraal TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/YNUPWbL.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Omroep Centraal TV
-https://ms2.mx-cd.net/tv/208-1258878/Omroep_Centraal_GB.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD" tvg-name="Omroep Dommelland" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/6Tkd9Pv.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Omroep Dommelland
-https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
-#EXTINF:-1 tvg-id="OmroepGelderland.nl@HD" tvg-name="Omroep Gelderland" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/G08hKit.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",Omroep Gelderland
-https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
-#EXTINF:-1 tvg-id="OmroepMeierijstad.nl@SD" tvg-name="Omroep Meierijstad" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/sYzh01C.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Omroep Meierijstad
-https://ms2.mx-cd.net/dtv-09/186-793530/Omroep_Meierij_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepSudwest.nl@SD" tvg-name="Omroep Sudwest" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/XtKLmQS.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Omroep Sudwest
-https://d2ecwd3cgy6wo0.cloudfront.net/nlpo/clr-nlpo/omroepsudwest/index.m3u8
-#EXTINF:-1 tvg-id="OmroepVenray.nl@SD" tvg-name="Omroep Venray" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/uVqTbi2.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Omroep Venray
-https://d3j015sg8r68y.cloudfront.net/nlpo/clr-nlpo/omroepvenray/index.m3u8
 #EXTINF:-1 tvg-id="OPENRotterdamTV.nl@SD" tvg-name="OPEN Rotterdam TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/nWahRAb.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",OPEN Rotterdam TV
 https://ms2.mx-cd.net/tv/141-573555/OPEN_Rotterdam.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ORTSTV.nl@SD" tvg-name="ORTS TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/RZM4Myo.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",ORTS TV
-https://ms7.mx-cd.net/tv/200-1006554/ORTS_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PodiumTV2.nl@SD" tvg-name="Podium.TV 2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bAhMhuz.jpg" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",Podium.TV 2
-https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC2&output=playlist.m3u8&service=wowza&type=live
-#EXTINF:-1 tvg-id="Radio10.nl@SD" tvg-name="Radio 10" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/2oGtj7r.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Radio 10
-https://radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index.m3u8
-#EXTINF:-1 tvg-id="Rararadio.nl@SD" tvg-name="Rararadio" tvg-country="NL" tvg-language="Dutch;English" tvg-logo="https://i.imgur.com/vTpfxUG.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="720p",Rararadio
-https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
-#EXTINF:-1 tvg-id="RegioTVDeBilt.nl@SD" tvg-name="Regio TV De Bilt" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/2jQbmyK.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Regio TV De Bilt
-https://d3ud9qm9b5yby9.cloudfront.net/nlpo/clr-nlpo/76ecd122/index.m3u8
-#EXTINF:-1 tvg-id="Regio90TV.nl@SD" tvg-name="Regio90 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/UGnm1jd.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Regio90 TV
-https://ms2.mx-cd.net/dtv-02/260-2403096/Regio90TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RN7.nl@SD" tvg-name="RN7" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/dYBTrLc.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",RN7
-https://streams.rn7.nl/memfs/49823eea-a17d-4e39-a435-75b6d60df96e.m3u8
-#EXTINF:-1 tvg-id="RTVArnhemTV.nl@SD" tvg-name="RTV Arnhem TV" tvg-country="NL" tvg-language="Dutch" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",RTV Arnhem TV
-https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVNOFAchtkarspelenTytsjerksteradiel.nl@SD" tvg-name="RTV NOF Achtkarspelen & Tytsjerksteradiel" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/VO6wBcD.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",RTV NOF Achtkarspelen & Tytsjerksteradiel
-https://5e6ab219de8f5.streamlock.net/rtvnof/rtvnof/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVNoordExtra.nl@SD" tvg-name="RTV Noord Extra" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/T0UvltB.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",RTV Noord Extra
 https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
-#EXTINF:-1 tvg-id="RTVOost.nl@SD" tvg-name="RTV Oost" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/nTR6q9H.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",RTV Oost
-https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmond.nl@SD" tvg-name="RTV Rijnmond" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/fJTs9xH.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",RTV Rijnmond
-https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmondExtra.nl@SD" tvg-name="RTV Rijnmond Extra" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/mlrd5ia.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",RTV Rijnmond Extra
-http://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv-extra/index.m3u8
-#EXTINF:-1 tvg-id="RTVZulthe.nl@SD" tvg-name="RTV Zulthe" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/Z3zUUsJ.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",RTV Zulthe
-http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Salto2.nl@SD" tvg-name="Salto 2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/6H3ycdL.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="720p",Salto 2
-https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
-#EXTINF:-1 tvg-id="SaltoBrasaMusic.nl@SD" tvg-name="Salto Brasa Music" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.vimeocdn.com/portrait/31947989_640x640" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="1080p",Salto Brasa Music
-https://salto-streams.nl/hls/sotv1.m3u8
-#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD" tvg-name="Sleutelstad TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/ljVGMWV.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Sleutelstad TV
-https://video-eu1.streamerr.co/hls/s7fdeb27a49/live.m3u8
-#EXTINF:-1 tvg-id="SOL2.nl@SD" tvg-name="SOL2" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/VEbhJRA.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",SOL2
-https://live.streamteam.eu:8443/sol2playout/sol2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="StudioRheden.nl@SD" tvg-name="Studio Rheden" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/swfxaac.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="1080p",Studio Rheden
-https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
 #EXTINF:-1 tvg-id="Studio040TV.nl@SD" tvg-name="Studio040 TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/NBludRL.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Studio040 TV
 https://d591ovpa48r6h.cloudfront.net/nlpo/clr-nlpo/studio040tv/index.m3u8
-#EXTINF:-1 tvg-id="VechtdalTV.nl@SD" tvg-name="Vechtdal TV" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/MhcKEwr.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Vechtdal TV
-https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl@SD" tvg-name="XITE" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/jxuwGRi.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="720p",XITE
-https://xite-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEClassicCountry.nl@SD" tvg-name="XITE Classic Country" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/XQrMCkT.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="720p",XITE Classic Country
-https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
-#EXTINF:-1 tvg-id="XITEHits.nl@UK" tvg-name="XITE Hits (UK)" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="1080p",XITE Hits (UK)
-https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-name="XITE Reggae Vibes" tvg-country="NL" tvg-language="English" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png" group-title="Music | Untested" x-tier="community" x-status="untested" x-quality="1080p",XITE Reggae Vibes
 https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-id="XON.nl@SD" tvg-name="XON" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/xEUHgMj.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",XON
-https://ms7.mx-cd.net/tv/113-474263/EdeTV.smil/playlist.m3u8

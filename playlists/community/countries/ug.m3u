@@ -1,6 +1,10 @@
 #EXTM3U x-nexonic-playlist="Community: Uganda" x-nexonic-tier="community"
 #EXTINF:-1 tvg-id="ArkTV.ug@SD" tvg-name="Ark TV" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/yCHNZXD.png" group-title="Culture | Verified" x-tier="community" x-status="verified" x-quality="1080p",Ark TV
 https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Bukedde TV 2
+https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
+#EXTINF:-1 tvg-id="KRCTV.ug@SD" tvg-name="KRC TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/8c9Uqks.jpeg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="sd",KRC TV
+https://channels.ad-ug.com/live/ch03/index.m3u8
 #EXTINF:-1 tvg-id="TayariWestTV.ug@SD" tvg-name="Tayari West TV" tvg-country="UG" tvg-language="Ganda" tvg-logo="https://i.imgur.com/tbnOtUZ.jpeg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",Tayari West TV
 https://stream.hydeinnovations.com/tarari-west/index.m3u8
 #EXTINF:-1 tvg-id="TVWest.ug@SD" tvg-name="TV West" tvg-country="UG" tvg-logo="https://i.imgur.com/EiJzkIz.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",TV West
@@ -9,12 +13,6 @@ https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8
 https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8
 #EXTINF:-1 tvg-id="BukeddeTV1.ug@SD" tvg-name="Bukedde TV 1" tvg-country="UG" tvg-language="Ganda" tvg-logo="https://i.imgur.com/HFq5QlJ.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Bukedde TV 1
 https://stream.hydeinnovations.com/bukedde1flussonic/index.m3u8
-#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",Bukedde TV 2
-https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
-#EXTINF:-1 tvg-id="GuguddeTV.ug@SD" tvg-name="Gugudde TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/XEakc6Q.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="sd",Gugudde TV
-https://jk3lzqq4lw79-hls-live.5centscdn.com/gugudde/c9a1fdac6e082dd89e7173244f34d7b3.sdp/chunks.m3u8
-#EXTINF:-1 tvg-id="KRCTV.ug@SD" tvg-name="KRC TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/8c9Uqks.jpeg" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="sd",KRC TV
-https://channels.ad-ug.com/live/ch03/index.m3u8
 #EXTINF:-1 tvg-id="KSTVUganda.ug@SD" tvg-name="KSTV Uganda" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/MMPzPSl.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="sd",KSTV Uganda
 https://unseenlive.s3.eu-west-1.amazonaws.com/kstv/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="SaltTV.ug@SD" tvg-name="Salt TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/AK9nE6Y.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="sd",Salt TV
