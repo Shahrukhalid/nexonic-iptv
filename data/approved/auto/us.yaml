@@ -561,6 +561,81 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: botflix-radioo-us
+  name: Botflix Radioo
+  alt_names: []
+  broadcaster: Botflix
+  country: us
+  languages:
+  - en
+  categories:
+  - music
+  website: https://botflix.tv/watch/radioo
+  stream:
+    url: https://hls.botflix.tv/radioo/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://botflix.tv/watch/radioo
+    evidence_summary: 'Automated owner-domain match: stream host hls.botflix.tv is on the broadcaster''s domain botflix.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BotflixRadioo.us@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: botflix-tv-us
+  name: Botflix TV
+  alt_names: []
+  broadcaster: Botflix
+  country: us
+  languages:
+  - en
+  categories:
+  - entertainment
+  - kids
+  website: https://botflix.tv/watch/tv
+  stream:
+    url: https://hls.botflix.tv/tv/index.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/us.m3u
+    evidence_url: https://botflix.tv/watch/tv
+    evidence_summary: 'Automated owner-domain match: stream host hls.botflix.tv is on the broadcaster''s domain botflix.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: BotflixTV.us@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-28'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-28'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: cbs-news-detroit-us
   name: CBS News Detroit
   alt_names: []
