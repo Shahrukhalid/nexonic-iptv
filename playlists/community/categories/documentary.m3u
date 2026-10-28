@@ -21,6 +21,8 @@ https://xykt-fix.github.io/Y77.m3u8
 https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="CuriosityNOW.de@EN" tvg-name="Curiosity NOW (EN)" tvg-country="DE" tvg-language="English" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Germany | Verified" x-tier="community" x-status="verified" x-quality="1080p",Curiosity NOW (EN)
 https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Dokusat.de@SD" tvg-name="Dokusat" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/GadfTwF.png" group-title="Germany | Verified" x-tier="community" x-status="verified" x-quality="1080p",Dokusat
+https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-id="kabeleinsDoku.de@SD" tvg-name="kabel eins Doku" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/960px-Kabel_eins_Doku_Logo_2016.svg.png" group-title="Germany | Verified" x-tier="community" x-status="verified" x-quality="sd",kabel eins Doku
 https://s6.hopslan.com/dokuX/index.m3u8
 #EXTINF:-1 tvg-id="IntoCrime.fr@SD" tvg-name="Into Crime" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/43at4M2.png" group-title="France | Verified" x-tier="community" x-status="verified" x-quality="1080p",Into Crime
@@ -79,8 +81,6 @@ https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
 https://stream8.cinerama.uz/1209/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="NatureTime.ca@LATAM" tvg-name="NatureTime (LATAM)" tvg-country="CA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Canada | Untested" x-tier="community" x-status="untested" x-quality="sd",NatureTime (LATAM)
 https://jmp2.uk/plu-681ba2729624e6275efe0044.m3u8
-#EXTINF:-1 tvg-id="Dokusat.de@SD" tvg-name="Dokusat" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/GadfTwF.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="1080p",Dokusat
-https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
 #EXTINF:-1 tvg-id="N24Doku.de@SD" tvg-name="N24 Doku" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="sd",N24 Doku
 https://jmp2.uk/plu-60080e8a4bf36000076a81b1.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAlienInvasion.de@GB" tvg-name="Pluto TV Alien Invasion" tvg-country="DE" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/6462190b7cb4b1000862dd60/colorLogoPNG.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Alien Invasion
@@ -131,14 +131,8 @@ https://jmp2.uk/plu-5dbc2f98777f2e0009934ae7.m3u8
 https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8
 #EXTINF:-1 tvg-id="PlutoTVToughJobs.de@GB" tvg-name="Pluto TV Tough Jobs" tvg-country="DE" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/600acaff5f2d6e000745effb/colorLogoPNG.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Tough Jobs
 https://jmp2.uk/plu-600acaff5f2d6e000745effb.m3u8
-#EXTINF:-1 tvg-id="TerraMaterWILD.de@English" tvg-name="Terra Mater WILD (English)" tvg-country="DE" tvg-language="English" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/terramaterwild_white.png" group-title="Germany | Untested" x-tier="community" x-status="untested" x-quality="1080p",Terra Mater WILD (English)
-https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.fi@SD" tvg-name="National Geographic" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",National Geographic
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
-#EXTINF:-1 tvg-id="AnimalPlanet.in@HD" tvg-name="Animal Planet" tvg-country="IN" tvg-language="English;Hindi;Tamil" tvg-logo="https://dtil.tmsimg.com/assets/s157574_ld_h15_aa.png?lock=720x540" group-title="India | Untested" x-tier="community" x-status="untested" x-quality="720p",Animal Planet
-https://drk6xq0vhn.gpcdn.net/live/animal_planet_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="DocuBox.nl@SD" tvg-name="DocuBox" tvg-country="NL" tvg-language="English" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="Netherlands | Untested" x-tier="community" x-status="untested" x-quality="sd",DocuBox
-https://dash3.antik.sk/live/test_docubox_medium_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa@SD" tvg-name="Al Jazeera Documentary" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Qatar | Untested" x-tier="community" x-status="untested" x-quality="1080p",Al Jazeera Documentary
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAlienInvasion.se@DK" tvg-name="Pluto TV Alien Invasion" tvg-country="SE" tvg-language="Danish" tvg-logo="https://images.pluto.tv/channels/650999b86a841400083bd1ab/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Alien Invasion
@@ -191,8 +185,6 @@ https://jmp2.uk/plu-6806d65e84f24b70109485fa.m3u8
 https://jmp2.uk/plu-6474aa984cfc2c0008883a92.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHistory.us@US" tvg-name="Pluto TV History" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/XkQD5kM.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Pluto TV History
 https://jmp2.uk/plu-5a4d35dfa5c02e717a234f86.m3u8
-#EXTINF:-1 tvg-id="PlutoTVInvestigacao.us@BR" tvg-name="Pluto TV Investigacao" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/JlQq0YJ.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Investigacao
-https://jmp2.uk/plu-5f32cf37c9ff2b00082adbc8.m3u8
 #EXTINF:-1 tvg-id="PlutoTVMiObsesionFavorita.us@LatAm" tvg-name="Pluto TV Mi Obsesion Favorita" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/6109ab25b84d6a0007504886/colorLogoPNG.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Mi Obsesion Favorita
 https://jmp2.uk/plu-6109ab25b84d6a0007504886.m3u8
 #EXTINF:-1 tvg-id="PlutoTVParanormal.us@US" tvg-name="Pluto TV Paranormal" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ApN6nfw.png" group-title="United States | Untested" x-tier="community" x-status="untested" x-quality="sd",Pluto TV Paranormal

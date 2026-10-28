@@ -1,14 +1,14 @@
 {
-  "reference_time": "2026-10-28T04:43:53Z",
-  "baseline_reference_time": "2026-10-28T04:15:06Z",
+  "reference_time": "2026-10-28T09:45:23Z",
+  "baseline_reference_time": "2026-10-28T04:43:53Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 557,
-    "verified_playlist": 493,
-    "excluded": 195,
+    "published": 556,
+    "verified_playlist": 494,
+    "excluded": 196,
     "pending_authorization": 43,
-    "quarantined": 152,
+    "quarantined": 151,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
@@ -16,31 +16,31 @@
     "duplicates_removed": 0,
     "newly_failing": 0,
     "newly_quarantined": 0,
-    "restored": 3,
+    "restored": 1,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 101,
+    "intermittent": 99,
     "restricted": 44,
     "unknown": 6,
-    "unreachable": 13,
-    "working": 393
+    "unreachable": 11,
+    "working": 396
   },
   "latest_run": {
-    "run_id": "run-20261028T043731Z",
-    "started_at": "2026-10-28T04:37:31Z",
-    "finished_at": "2026-10-28T04:43:53Z",
+    "run_id": "run-20261028T093907Z",
+    "started_at": "2026-10-28T09:39:07Z",
+    "finished_at": "2026-10-28T09:45:23Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 62,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 32,
-      "UNAVAILABLE": 121,
-      "UNKNOWN": 52,
+      "INVALID_STREAM": 7,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 148,
+      "UNKNOWN": 46,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 473
+      "VERIFIED_WORKING": 455
     }
   },
   "discovery": {
@@ -80,22 +80,10 @@
     "newly_quarantined": [],
     "restored": [
       {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
+        "id": "30a-tv-classic-movies-us",
+        "name": "30A TV Classic Movies",
         "country": "us",
-        "restored_at": "2026-10-28T04:40:47Z"
-      },
-      {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
-        "restored_at": "2026-10-28T04:39:31Z"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "restored_at": "2026-10-28T04:41:18Z"
+        "restored_at": "2026-10-28T09:44:28Z"
       }
     ],
     "removed": []
@@ -104,34 +92,34 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 557,
-      "verified": 493,
-      "not_verified": 64,
-      "with_measured_quality": 475,
+      "published": 556,
+      "verified": 494,
+      "not_verified": 62,
+      "with_measured_quality": 476,
       "per_quality": {
         "1080p": 239,
         "4k": 1,
-        "720p": 173,
+        "720p": 174,
         "sd": 62
       }
     },
     "community": {
-      "published": 5367,
-      "verified": 3700,
-      "untested": 1667,
-      "held_back_after_failed_check": 1839,
-      "never_checked": 1226,
+      "published": 5280,
+      "verified": 3793,
+      "untested": 1487,
+      "held_back_after_failed_check": 1926,
+      "never_checked": 1034,
       "catalog_streams": 7227,
       "catalog_built_at": "2026-10-28T04:15:13Z",
       "verified_days": 7,
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "invalid": 158,
-        "restricted": 192,
-        "unknown": 1486,
-        "unreachable": 1670,
-        "working": 3700
+        "invalid": 195,
+        "restricted": 196,
+        "unknown": 1302,
+        "unreachable": 1720,
+        "working": 3793
       },
       "removed_at_generation": {
         "url-policy-token": 21
@@ -140,27 +128,27 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 1292
+          "streams": 1264
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 538
+          "streams": 533
         },
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 340
+          "streams": 325
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 289
+          "streams": 278
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 204
+          "streams": 203
         },
         {
           "code": "it",
@@ -170,22 +158,22 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 140
+          "streams": 137
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 125
+          "streams": 124
         },
         {
           "code": "br",
           "name": "Brazil",
-          "streams": 102
+          "streams": 101
         },
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 101
+          "streams": 100
         }
       ],
       "playlist_files": 269,
