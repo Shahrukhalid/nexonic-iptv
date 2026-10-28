@@ -12,7 +12,7 @@ community.refresh_max_age_hours), checks its rotating slice (community.* in conf
 slice of the free VOD cache. Both are bounded by their own budgets and by total_deadline_minutes, and a failure in
 either is reported as a warning without changing the official results or the exit code. --no-community skips them.
 
-Second-location checks (see docs/REGIONAL_CHECKS.md):
+Second-location checks:
 
     python scripts/verify.py --location-label asia-pk --only restricted
     python scripts/verify.py --location-label asia-pk --only GEO_RESTRICTED,UNKNOWN,TIMEOUT,restricted
