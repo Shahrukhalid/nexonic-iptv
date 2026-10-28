@@ -12,8 +12,8 @@
 |---|---:|
 | Published channels | 547 |
 | In verified playlist | 479 |
-| Quarantined | 152 |
-| Excluded approved records | 195 |
+| Quarantined | 151 |
+| Excluded approved records | 209 |
 | Pending authorization | 43 |
 
 ## Lifecycle of published channels
@@ -37,3 +37,25 @@
 ## Needs attention
 
 Nothing.
+
+## Discovery (latest catalogue refresh)
+
+| Outcome | Count |
+|---|---:|
+| admitted | 603 |
+| aggregator-host | 998 |
+| already-curated | 558 |
+| closed | 98 |
+| duplicate-channel-in-other-source | 119 |
+| duplicate-of-existing | 1 |
+| excluded-category | 1223 |
+| host-not-owned-by-broadcaster | 7739 |
+| language-not-supported | 3 |
+| moderation-reject | 4 |
+| needs-special-headers | 964 |
+| no-database-entry | 3616 |
+| nsfw-or-blocklisted | 5 |
+| sanctions-exclusion | 621 |
+| streams | 21345 |
+| subscription-service | 101 |
+| url-policy | 4628 |
