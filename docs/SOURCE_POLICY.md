@@ -55,6 +55,13 @@ Maintainers may *discover* candidates anywhere (broadcaster sites, iptv-org/data
 not evidence. Nothing is copied from sources whose license does not allow it (Free-TV/IPTV has no license; only facts
 such as "broadcaster X runs a free stream" are used, then checked against the broadcaster's own site).
 
+### Public GitHub lists
+Playlists published in public GitHub repositories (`[[discovery.extra_m3u]]` in `config/pipeline.toml`) are read like
+any other discovery source: they name candidates and nothing more. Only repositories with an open licence (recorded in
+the config) and plain M3U files are used; lists without a licence, and lists with paid, premium, VOD, restream, Xtream or
+credential-bearing content, are not. An entry is admitted only under the same automated rules as section 2a, with no
+relaxation for any source.
+
 ## 5. Metadata
 - `tvg-id` values reuse iptv-org/database IDs (public domain) so players can match EPG guides.
 - Logos are **not** included unless the owner permits reuse; the field stays empty.
