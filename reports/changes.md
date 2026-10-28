@@ -24,6 +24,16 @@
 | Restored (verified again after quarantine) | 1 |
 | Removed from publication | 0 |
 
+## Tiers
+
+Tiers are published separately. Community streams are not limited to the broadcaster's own hosts, and *untested* ones have not been confirmed working.
+
+| Tier | Published | Verified | Not verified |
+|---|---:|---:|---:|
+| Official | 557 | 487 | 70 |
+| Community | not built yet | n/a | n/a |
+| Free VOD | not built yet | n/a | n/a |
+
 ## Lifecycle of published channels
 
 | State | Channels |
@@ -50,23 +60,21 @@
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
+| admitted | 599 |
+| aggregator-host | 976 |
+| already-curated | 473 |
+| closed | 89 |
+| excluded-category | 1125 |
+| host-not-owned-by-broadcaster | 7038 |
 | language-not-supported | 3 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 905 |
+| no-database-entry | 2096 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 607 |
+| streams | 18146 |
+| subscription-service | 95 |
+| url-policy | 4069 |
 
 ## New candidates discovered (not published) (2)
 

@@ -11,7 +11,7 @@
   "languages": 65,
   "categories": 15,
   "verified_playlist_channels": 487,
-  "playlist_files": 177,
+  "playlist_files": 180,
   "latest_run": {
     "run_id": "run-20261028T003503Z",
     "started_at": "2026-10-28T00:35:03Z",
@@ -848,5 +848,21 @@
       "name": "Weather",
       "channels": 3
     }
+  },
+  "tiers": {
+    "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
+    "official": {
+      "published": 557,
+      "verified": 487,
+      "not_verified": 70,
+      "with_measured_quality": 307,
+      "per_quality": {
+        "1080p": 180,
+        "720p": 96,
+        "sd": 31
+      }
+    },
+    "community": null,
+    "vod": null
   }
 }
