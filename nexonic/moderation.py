@@ -210,20 +210,63 @@ def clear_caches() -> None:
     _local_lists.cache_clear()
 
 
-def _texts(ch: Channel) -> dict[str, str]:
+@dataclass
+class Subject:
+    """The text and identity fields screening looks at, so records of any tier can be screened the same way."""
+
+    id: str
+    name: str
+    stream_url: str
+    alt_names: list[str] = field(default_factory=list)
+    broadcaster: str = ""
+    website: str = ""
+    description: str = ""
+    categories: list[str] = field(default_factory=list)
+    epg_id: str | None = None
+    source_notes: str = ""
+    evidence_summary: str = ""
+    review_notes: str = ""
+    is_nsfw: bool = False
+    adult_screening: str = "pass"
+
+
+def subject_of(ch: Channel) -> Subject:
+    return Subject(
+        id=ch.id,
+        name=ch.name,
+        stream_url=ch.stream.url,
+        alt_names=list(ch.alt_names),
+        broadcaster=ch.broadcaster,
+        website=ch.website,
+        description=ch.description,
+        categories=list(ch.categories),
+        epg_id=ch.epg_id,
+        source_notes=ch.source.notes,
+        evidence_summary=ch.source.evidence_summary,
+        review_notes=ch.review.notes,
+        is_nsfw=ch.is_nsfw,
+        adult_screening=ch.review.adult_screening,
+    )
+
+
+def _texts(ch: Subject) -> dict[str, str]:
     out = {f: getattr(ch, f) or "" for f in TEXT_FIELDS}
     out["alt_names"] = " | ".join(ch.alt_names)
     out["categories"] = " ".join(ch.categories)
-    out["source.notes"] = ch.source.notes
-    out["source.evidence_summary"] = ch.source.evidence_summary
-    out["review.notes"] = ch.review.notes
+    out["source.notes"] = ch.source_notes
+    out["source.evidence_summary"] = ch.evidence_summary
+    out["review.notes"] = ch.review_notes
     out["epg_id"] = ch.epg_id or ""
-    out["stream.url"] = ch.stream.url
+    out["stream.url"] = ch.stream_url
     return out
 
 
 def screen(ch: Channel) -> ModerationResult:
     """Return the moderation decision for one record (does not consider review status)."""
+    return screen_subject(subject_of(ch))
+
+
+def screen_subject(ch: Subject) -> ModerationResult:
     reasons: list[str] = []
     reject = False
     quarantine = False
@@ -232,10 +275,10 @@ def screen(ch: Channel) -> ModerationResult:
     if ch.is_nsfw:
         reject = True
         reasons.append("record is flagged is_nsfw")
-    if ch.review.adult_screening == "fail":
+    if ch.adult_screening == "fail":
         reject = True
         reasons.append("human adult screening: fail")
-    elif ch.review.adult_screening == "uncertain":
+    elif ch.adult_screening == "uncertain":
         quarantine = True
         reasons.append("human adult screening: uncertain")
 
@@ -255,7 +298,7 @@ def screen(ch: Channel) -> ModerationResult:
             reasons.append(f"name {name!r} matches an NSFW-listed channel name in iptv-org/database")
     from urllib.parse import urlsplit
 
-    host = (urlsplit(ch.stream.url).hostname or "").lower()
+    host = (urlsplit(ch.stream_url).hostname or "").lower()
     for pat in lists["hosts"]:
         if pat.search(host):
             reject = True

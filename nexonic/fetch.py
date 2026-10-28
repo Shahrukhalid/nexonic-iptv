@@ -7,9 +7,13 @@ connection errors, 429 and 5xx are retried (honouring ``Retry-After`` up to 60 s
 
 from __future__ import annotations
 
+import io
+import json
 import tarfile
+import threading
 import time
 from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote, urljoin, urlsplit
@@ -17,11 +21,13 @@ from urllib.parse import quote, urljoin, urlsplit
 import httpx
 
 from .config import DiscoveryConfig
+from .reference import countries
 
 USER_AGENT = "NexonicIPTV-Discovery/1.0 (+https://github.com/Shahrukhalid/nexonic-iptv; catalogue refresh)"
 RETRY_STATUS = {429, 500, 502, 503, 504}
 MAX_REDIRECTS = 5
-DATABASE_FILES = ("channels.csv", "feeds.csv", "blocklist.csv")
+DATABASE_FILES = ("channels.csv", "feeds.csv", "blocklist.csv", "logos.csv")
+REQUIRED_DATABASE_FILES = ("channels.csv", "feeds.csv", "blocklist.csv")  # logos.csv is optional
 
 
 class FetchError(RuntimeError):
@@ -162,6 +168,8 @@ def fetch_iptv_org(
         else:
             if not extract(path, dest, _database):
                 raise FetchError("the database archive contains none of the expected data/*.csv files")
+            if any(not (dest / "database" / f).exists() for f in REQUIRED_DATABASE_FILES):
+                raise FetchError("the database archive lacks channels.csv, feeds.csv or blocklist.csv")
             out["database"] = dest / "database"
         path.unlink()
     return out
@@ -222,3 +230,90 @@ def fetch_extra_m3u(
                 )
             )
     return out
+
+
+def fetch_iptv_org_raw(
+    cfg: DiscoveryConfig,
+    dest: Path,
+    client: httpx.Client | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+    workers: int = 8,
+) -> dict[str, Path]:
+    """Fallback when the repository archives cannot be downloaded: read the database CSVs and one stream file per
+    country (``streams/<code>.m3u``, plus ``int`` and ``undefined``) straight from raw.githubusercontent.com.
+
+    Only files that exist are used (a 404 is skipped); any other failure raises FetchError. The archive download is
+    preferred because it also covers stream files that are not named after a country.
+    """
+    by_name = {s["name"]: s for s in cfg.sources}
+    if "iptv" not in by_name or "database" not in by_name:
+        raise FetchError("the iptv and database sources must be configured")
+    db_dir, st_dir = dest / "database", dest / "streams"
+    db_dir.mkdir(parents=True, exist_ok=True)
+    st_dir.mkdir(parents=True, exist_ok=True)
+    own = client is None
+    client = client or httpx.Client(timeout=cfg.timeout)
+    try:
+        for name in DATABASE_FILES:
+            src = by_name["database"]
+            local = db_dir / name
+            try:
+                with local.open("wb") as fh:
+                    download(
+                        raw_url(src["repo"], src["ref"], f"data/{name}"), fh, cfg, client, sleep, cfg.max_playlist_mb
+                    )
+            except NotFound:
+                local.unlink(missing_ok=True)
+                if name in REQUIRED_DATABASE_FILES:
+                    raise FetchError(f"the database has no data/{name}") from None
+        names = sorted({*countries(), "int", "undefined"})
+        src = by_name["iptv"]
+
+        failed = threading.Event()  # after the first hard failure the remaining files are not requested
+
+        def one(name: str) -> bool:
+            if failed.is_set():
+                return False
+            local = st_dir / f"{name}.m3u"
+            try:
+                with local.open("wb") as fh:
+                    download(
+                        raw_url(src["repo"], src["ref"], f"streams/{name}.m3u"),
+                        fh,
+                        cfg,
+                        client,
+                        sleep,
+                        cfg.max_playlist_mb,
+                    )
+            except NotFound:
+                local.unlink(missing_ok=True)
+                return False
+            except FetchError:
+                failed.set()
+                raise
+            return True
+
+        with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+            found = sum(pool.map(one, names))
+        if not found:
+            raise FetchError("no streams/*.m3u file could be read from the iptv repository")
+    finally:
+        if own:
+            client.close()
+    return {"streams": st_dir, "database": db_dir}
+
+
+def fetch_json(
+    url: str,
+    cfg: DiscoveryConfig,
+    client: httpx.Client | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+    limit_mb: int = 20,
+):
+    """GET ``url`` (https, allowed hosts only, retries with backoff, size cap) and return the decoded JSON."""
+    buf = io.BytesIO()
+    download(url, buf, cfg, client, sleep, limit_mb)
+    try:
+        return json.loads(buf.getvalue().decode("utf-8"))
+    except (UnicodeDecodeError, ValueError) as exc:
+        raise FetchError(f"{url}: not valid JSON ({exc})") from exc
