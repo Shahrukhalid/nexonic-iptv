@@ -1,33 +1,25 @@
 #EXTM3U x-nexonic-playlist="Community: Finnish" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="JRTVJarviradio.fi@SD" tvg-name="JRTV Jarviradio" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="1080p",JRTV Jarviradio
 https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
+#EXTINF:-1 tvg-id="MTVSub.fi@SD" tvg-name="MTV Sub" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/rmV8LO1.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",MTV Sub
+https://live-fi.tvkaista.net/sub/live.m3u8
+#EXTINF:-1 tvg-id="MTV3.fi@SD" tvg-name="MTV3" tvg-country="FI" tvg-language="Finnish;Swedish" tvg-logo="https://i.imgur.com/C5rQbBM.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",MTV3
+https://live-fi.tvkaista.net/mtv3/live.m3u8
 #EXTINF:-1 tvg-id="Nelonen.fi@SD" tvg-name="Nelonen" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/BFbCyfY.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",Nelonen
 https://live-fi.tvkaista.net/nelonen/live.m3u8
 #EXTINF:-1 tvg-id="OnniTV.fi@SD" tvg-name="Onni TV" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/Vba4jUk.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",Onni TV
 https://onnitv.digitacdn.net/live/ott/onnitv/playlist.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
+#EXTINF:-1 tvg-id="STARChannel.fi@SD" tvg-name="STAR Channel" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="720p",STAR Channel
+https://live-fi.tvkaista.net/star-channel/live.m3u8
+#EXTINF:-1 tvg-id="TaivasTV7.fi@SD" tvg-name="Taivas TV7" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/JyJNiXy.png" group-title="Finland | Verified" x-tier="community" x-status="verified" x-quality="1080p",Taivas TV7
+https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Finland" tvg-name="Rakuten TV Family Movies (Finland)" tvg-country="ES" tvg-language="Finnish;English" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Spain | Untested" x-tier="community" x-status="untested" x-quality="1080p",Rakuten TV Family Movies (Finland)
 https://758ee983d61e400381dea6fa8154f4e0.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6227/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVNordicFilms.es@Finland" tvg-name="Rakuten TV Nordic Films" tvg-country="ES" tvg-language="Finnish" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/ff79e878-3eea-45fc-b0cd-55d6acce9b18-width200-quality90.jpeg" group-title="Spain | Untested" x-tier="community" x-status="untested" x-quality="1080p",Rakuten TV Nordic Films
-https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6303/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVTopMovies.es@Finland" tvg-name="Rakuten TV Top Movies (Finland)" tvg-country="ES" tvg-language="Finnish;English" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Spain | Untested" x-tier="community" x-status="untested" x-quality="1080p",Rakuten TV Top Movies (Finland)
-https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8
-#EXTINF:-1 tvg-id="Eveo.fi@SD" tvg-name="Eveo" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/fFIq7tY.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",Eveo
-https://live-fi.tvkaista.net/eveo/live.m3u8?hd=true
-#EXTINF:-1 tvg-id="Jim.fi@SD" tvg-name="Jim" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/PkMgY0K.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?hd=true
-#EXTINF:-1 tvg-id="MTVSub.fi@SD" tvg-name="MTV Sub" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/rmV8LO1.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",MTV Sub
-https://live-fi.tvkaista.net/sub/live.m3u8
-#EXTINF:-1 tvg-id="MTV3.fi@SD" tvg-name="MTV3" tvg-country="FI" tvg-language="Finnish;Swedish" tvg-logo="https://i.imgur.com/C5rQbBM.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.fi@SD" tvg-name="National Geographic" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",National Geographic
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
-#EXTINF:-1 tvg-id="STARChannel.fi@SD" tvg-name="STAR Channel" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",STAR Channel
-https://live-fi.tvkaista.net/star-channel/live.m3u8
-#EXTINF:-1 tvg-id="TaivasTV7.fi@SD" tvg-name="Taivas TV7" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/JyJNiXy.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",Taivas TV7
-https://vod.tv7.fi/tv7-fi/smil:tv7-fi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="YleX.fi@SD" tvg-name="YleX" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/960px-YleX.svg.png" group-title="Finland | Untested" x-tier="community" x-status="untested" x-quality="720p",YleX
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8

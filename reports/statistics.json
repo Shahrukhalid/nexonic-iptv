@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-10-28T04:15:06Z",
+  "reference_time": "2026-10-28T04:43:53Z",
   "records": {
     "approved": 752,
     "pending": 43,
@@ -10,12 +10,12 @@
   "countries": 96,
   "languages": 66,
   "categories": 15,
-  "verified_playlist_channels": 490,
-  "playlist_files": 479,
+  "verified_playlist_channels": 493,
+  "playlist_files": 473,
   "latest_run": {
-    "run_id": "run-20261028T040853Z",
-    "started_at": "2026-10-28T04:08:53Z",
-    "finished_at": "2026-10-28T04:15:06Z",
+    "run_id": "run-20261028T043731Z",
+    "started_at": "2026-10-28T04:37:31Z",
+    "finished_at": "2026-10-28T04:43:53Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 752,
     "by_status": {
@@ -23,30 +23,30 @@
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 9,
       "TIMEOUT": 32,
-      "UNAVAILABLE": 139,
-      "UNKNOWN": 48,
+      "UNAVAILABLE": 121,
+      "UNKNOWN": 52,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 459
+      "VERIFIED_WORKING": 473
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 459,
-    "UNAVAILABLE": 139,
+    "VERIFIED_WORKING": 473,
+    "UNAVAILABLE": 121,
     "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 32,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 48,
+    "UNKNOWN": 52,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 16,
+    "currently-failing": 18,
     "geo-restricted": 44,
-    "previously-working": 32,
+    "previously-working": 16,
     "unknown": 6,
-    "verified-recently": 459
+    "verified-recently": 473
   },
   "per_country": {
     "ae": {
@@ -862,88 +862,88 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 557,
-      "verified": 490,
-      "not_verified": 67,
-      "with_measured_quality": 474,
+      "verified": 493,
+      "not_verified": 64,
+      "with_measured_quality": 475,
       "per_quality": {
-        "1080p": 238,
+        "1080p": 239,
         "4k": 1,
         "720p": 173,
         "sd": 62
       }
     },
     "community": {
-      "published": 6253,
-      "verified": 1842,
-      "untested": 4411,
-      "held_back_after_failed_check": 974,
-      "never_checked": 4227,
+      "published": 5383,
+      "verified": 3715,
+      "untested": 1668,
+      "held_back_after_failed_check": 1844,
+      "never_checked": 1227,
       "catalog_streams": 7227,
       "catalog_built_at": "2026-10-28T04:15:13Z",
       "verified_days": 7,
-      "countries": 161,
-      "languages": 92,
+      "countries": 157,
+      "languages": 90,
       "lifecycle": {
-        "invalid": 74,
-        "restricted": 77,
-        "unknown": 4340,
-        "unreachable": 894,
-        "working": 1842
+        "invalid": 158,
+        "restricted": 193,
+        "unknown": 1487,
+        "unreachable": 1674,
+        "working": 3715
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1457
+          "streams": 1295
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 593
+          "streams": 538
         },
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 357
+          "streams": 340
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 328
+          "streams": 289
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 240
+          "streams": 205
         },
         {
           "code": "it",
           "name": "Italy",
-          "streams": 170
+          "streams": 151
         },
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 163
-        },
-        {
-          "code": "br",
-          "name": "Brazil",
           "streams": 141
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 135
+          "streams": 125
         },
         {
-          "code": "es",
-          "name": "Spain",
-          "streams": 120
+          "code": "br",
+          "name": "Brazil",
+          "streams": 102
+        },
+        {
+          "code": "do",
+          "name": "Dominican Republic",
+          "streams": 101
         }
       ],
-      "playlist_files": 275,
+      "playlist_files": 269,
       "build_report": {
         "read": 21411,
         "after": {

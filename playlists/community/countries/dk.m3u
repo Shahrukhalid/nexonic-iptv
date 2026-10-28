@@ -1,13 +1,11 @@
 #EXTM3U x-nexonic-playlist="Community: Denmark" x-nexonic-tier="community"
 #EXTINF:-1 tvg-id="DRTV.dk@SD" tvg-name="DRTV" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.ibb.co/c6n2vbW/512px-DR-TV-logo-svg.png" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="1080p",DRTV
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
+#EXTINF:-1 tvg-id="KanalHovedstaden.dk@SD" tvg-name="Kanal Hovedstaden" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/afujBQs.jpeg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",Kanal Hovedstaden
+http://khkbh.dk:8080/hls/livestream/index.m3u8
 #EXTINF:-1 tvg-id="TVMarineret.dk@SD" tvg-name="TVMarineret" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/r1Caske.jpg" group-title="General | Verified" x-tier="community" x-status="verified" x-quality="720p",TVMarineret
 http://sdream.info:8080/hls/livestream/index.m3u8
 #EXTINF:-1 tvg-id="DRRamasjang.dk@SD" tvg-name="DR Ramasjang" tvg-country="DK" tvg-language="Danish" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/DR_Ramasjang_2020.svg/960px-DR_Ramasjang_2020.svg.png" group-title="Kids | Untested" x-tier="community" x-status="untested" x-quality="720p",DR Ramasjang
 https://drlive03hls.akamaized.net/hls/live/2014190/drlive03/master.m3u8
 #EXTINF:-1 tvg-id="DR2.dk@SD" tvg-name="DR2" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/7bYtukP.png" group-title="Culture | Untested" x-tier="community" x-status="untested" x-quality="1080p",DR2
 https://drlivedr2hls.akamaized.net/hls/live/2113623/drlivedr2/master.m3u8
-#EXTINF:-1 tvg-id="KanalHovedstaden.dk@SD" tvg-name="Kanal Hovedstaden" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/afujBQs.jpeg" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",Kanal Hovedstaden
-http://khkbh.dk:8080/hls/livestream/index.m3u8
-#EXTINF:-1 tvg-id="TVStorbyen.dk@SD" tvg-name="TV Storbyen" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.ibb.co/X5h3hJL/tvstb.png" group-title="General | Untested" x-tier="community" x-status="untested" x-quality="720p",TV Storbyen
-https://5eeb3940cfaa0.streamlock.net/webtv_live/_definst_/mp4:kanalnordvest/playlist.m3u8

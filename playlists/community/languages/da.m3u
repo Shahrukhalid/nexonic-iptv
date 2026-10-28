@@ -1,20 +1,18 @@
 #EXTM3U x-nexonic-playlist="Community: Danish" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="DRTV.dk@SD" tvg-name="DRTV" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.ibb.co/c6n2vbW/512px-DR-TV-logo-svg.png" group-title="Denmark | Verified" x-tier="community" x-status="verified" x-quality="1080p",DRTV
 https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8
+#EXTINF:-1 tvg-id="KanalHovedstaden.dk@SD" tvg-name="Kanal Hovedstaden" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/afujBQs.jpeg" group-title="Denmark | Verified" x-tier="community" x-status="verified" x-quality="720p",Kanal Hovedstaden
+http://khkbh.dk:8080/hls/livestream/index.m3u8
 #EXTINF:-1 tvg-id="TVMarineret.dk@SD" tvg-name="TVMarineret" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/r1Caske.jpg" group-title="Denmark | Verified" x-tier="community" x-status="verified" x-quality="720p",TVMarineret
 http://sdream.info:8080/hls/livestream/index.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="DRRamasjang.dk@SD" tvg-name="DR Ramasjang" tvg-country="DK" tvg-language="Danish" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/82/DR_Ramasjang_2020.svg/960px-DR_Ramasjang_2020.svg.png" group-title="Denmark | Untested" x-tier="community" x-status="untested" x-quality="720p",DR Ramasjang
 https://drlive03hls.akamaized.net/hls/live/2014190/drlive03/master.m3u8
 #EXTINF:-1 tvg-id="DR2.dk@SD" tvg-name="DR2" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/7bYtukP.png" group-title="Denmark | Untested" x-tier="community" x-status="untested" x-quality="1080p",DR2
 https://drlivedr2hls.akamaized.net/hls/live/2113623/drlivedr2/master.m3u8
-#EXTINF:-1 tvg-id="KanalHovedstaden.dk@SD" tvg-name="Kanal Hovedstaden" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.imgur.com/afujBQs.jpeg" group-title="Denmark | Untested" x-tier="community" x-status="untested" x-quality="720p",Kanal Hovedstaden
-http://khkbh.dk:8080/hls/livestream/index.m3u8
-#EXTINF:-1 tvg-id="TVStorbyen.dk@SD" tvg-name="TV Storbyen" tvg-country="DK" tvg-language="Danish" tvg-logo="https://i.ibb.co/X5h3hJL/tvstb.png" group-title="Denmark | Untested" x-tier="community" x-status="untested" x-quality="720p",TV Storbyen
-https://5eeb3940cfaa0.streamlock.net/webtv_live/_definst_/mp4:kanalnordvest/playlist.m3u8
 #EXTINF:-1 tvg-id="2900Happiness.se@DK" tvg-name="2900 Happiness" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6720bc6cdaad7f000872a6e2/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",2900 Happiness
 https://jmp2.uk/plu-6720bc6cdaad7f000872a6e2.m3u8
 #EXTINF:-1 tvg-id="7thHeaven.se@DK" tvg-name="7th Heaven (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6728c9c85534bb0008b320a4/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",7th Heaven (DK)
@@ -113,8 +111,6 @@ https://jmp2.uk/plu-65cba715dc10a40008034917.m3u8
 https://jmp2.uk/plu-660d667519ca71000849a1e1.m3u8
 #EXTINF:-1 tvg-id="LangtfraBryggen.se@DK" tvg-name="Langt fra Bryggen" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/654a3fe6986ad20008a42add/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Langt fra Bryggen
 https://jmp2.uk/plu-654a3fe6986ad20008a42add.m3u8
-#EXTINF:-1 tvg-id="Luksusfaelden.se@DK" tvg-name="Luksusfaelden" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c19b7785706b00072d421a/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Luksusfaelden
-https://jmp2.uk/plu-61c19b7785706b00072d421a.m3u8
 #EXTINF:-1 tvg-id="MacGyver.se@DK" tvg-name="MacGyver (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/654a59742c1d33000865a797/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",MacGyver (DK)
 https://jmp2.uk/plu-654a59742c1d33000865a797.m3u8
 #EXTINF:-1 tvg-id="ManwithaPlan.se@DK" tvg-name="Man with a Plan (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Man with a Plan (DK)
@@ -129,8 +125,6 @@ https://jmp2.uk/plu-68f0f54ca362b63a8df4d5a9.m3u8
 https://jmp2.uk/plu-63048147b09fd60007847a08.m3u8
 #EXTINF:-1 tvg-id="MissionImpossible.se@DK" tvg-name="Mission Impossible (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Mission Impossible (DK)
 https://jmp2.uk/plu-6478a9e4f77b61000817034b.m3u8
-#EXTINF:-1 tvg-id="Mitplastikmareridt.se@DK" tvg-name="Mit plastikmareridt" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/643814ef479f6400086ff043/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Mit plastikmareridt
-https://jmp2.uk/plu-643814ef479f6400086ff043.m3u8
 #EXTINF:-1 tvg-id="MTVCatfish.se@DK" tvg-name="MTV Catfish (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6177fe76691b2e000702c7fc/colorLogoPNG_1750864554364.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",MTV Catfish (DK)
 https://jmp2.uk/plu-6177fe76691b2e000702c7fc.m3u8
 #EXTINF:-1 tvg-id="MTVExOnTheBeach.se@DK" tvg-name="MTV Ex On The Beach (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c0909b872c650008ed42e4/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",MTV Ex On The Beach (DK)
@@ -145,8 +139,6 @@ https://jmp2.uk/plu-61c092157e1b8b0007372a35.m3u8
 https://jmp2.uk/plu-61c09039ebd75200072587f9.m3u8
 #EXTINF:-1 tvg-id="NCIS.se@DK" tvg-name="NCIS" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6319ec31c62c3f00075c90b1/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",NCIS
 https://jmp2.uk/plu-6319ec31c62c3f00075c90b1.m3u8
-#EXTINF:-1 tvg-id="NCISDetbedstemedGibbs.se@DK" tvg-name="NCIS: Det bedste med Gibbs" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6901d952ec12c3c759fdc7cd/colorLogoPNG_1763121346503.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",NCIS: Det bedste med Gibbs
-https://jmp2.uk/plu-6901d952ec12c3c759fdc7cd.m3u8
 #EXTINF:-1 tvg-id="NCISDetbedstemedTonyZiva.se@DK" tvg-name="NCIS: Det bedste med Tony & Ziva" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/68921b2f4fa995eff24df6c8/colorLogoPNG_1756105299557.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",NCIS: Det bedste med Tony & Ziva
 https://jmp2.uk/plu-68921b2f4fa995eff24df6c8.m3u8
 #EXTINF:-1 tvg-id="NCISLosAngeles.se@DK" tvg-name="NCIS: Los Angeles" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/66fbf4d3d7de140008d41f5b/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",NCIS: Los Angeles
@@ -207,8 +199,6 @@ https://jmp2.uk/plu-68ac55bb3efb41cd979a65ec.m3u8
 https://jmp2.uk/plu-61b86c6ef30f5d0007e4c6d1.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.se@DK" tvg-name="Pluto TV Sport (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6357f3de3643ba0007bc0b50/colorLogoPNG_1746816938506.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Sport (DK)
 https://jmp2.uk/plu-6357f3de3643ba0007bc0b50.m3u8
-#EXTINF:-1 tvg-id="PlutoTVStarTrek.se@DK" tvg-name="Pluto TV Star Trek" tvg-country="SE" tvg-language="Danish" tvg-logo="https://images.pluto.tv/channels/61c1979dfa307000070bbe4d/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Star Trek
-https://jmp2.uk/plu-61c1979dfa307000070bbe4d.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTegnefilm.se@DK" tvg-name="Pluto TV Tegnefilm" tvg-country="SE" tvg-language="Danish" tvg-logo="https://images.pluto.tv/channels/61c09938e0d3a700072b68b1/colorLogoPNG_1749627293329.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Tegnefilm
 https://jmp2.uk/plu-61c09938e0d3a700072b68b1.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTrueCrime.se@DK" tvg-name="Pluto TV True Crime (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png" group-title="Sweden | Untested" x-tier="community" x-status="untested" x-quality="720p",Pluto TV True Crime (DK)

@@ -1,15 +1,13 @@
 #EXTM3U x-nexonic-playlist="Community: Latvian" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Verified" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="LTV1.lv@SD" tvg-name="LTV1" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png" group-title="Latvia | Verified" x-tier="community" x-status="verified" x-quality="1080p",LTV1
 https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv1_pasaule/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS
-https://streams.prd.commavservices.eu/live/ebs/index.m3u8
-#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium | Untested" x-tier="community" x-status="untested" x-quality="1080p",EbS+
-https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
-#EXTINF:-1 tvg-id="LTV1.lv@HD" tvg-name="LTV1" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LTV1_%282022%29.svg/960px-LTV1_%282022%29.svg.png" group-title="Latvia | Untested" x-tier="community" x-status="untested" x-quality="720p",LTV1
-https://ltvlive3167.bstrm.net/ltvlive/_definst_/ltvlive_ltv06_ltv1_g_x44_43186_default_1326_hls.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="RadioSWHTV.lv@SD" tvg-name="Radio SWH TV" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/cFrNsXn.png" group-title="Latvia | Untested" x-tier="community" x-status="untested" x-quality="1080p",Radio SWH TV
+#EXTINF:-1 tvg-id="RadioSWHTV.lv@SD" tvg-name="Radio SWH TV" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/cFrNsXn.png" group-title="Latvia | Verified" x-tier="community" x-status="verified" x-quality="1080p",Radio SWH TV
 https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ReTV.lv@SD" tvg-name="Re TV" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/Z3cre5Xm.png" group-title="Latvia | Untested" x-tier="community" x-status="untested" x-quality="1080p",Re TV
+#EXTINF:-1 tvg-id="ReTV.lv@SD" tvg-name="Re TV" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/Z3cre5Xm.png" group-title="Latvia | Verified" x-tier="community" x-status="verified" x-quality="1080p",Re TV
 https://retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNET.lv@SD" tvg-name="TVNET" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/jzv1ssE.png" group-title="Latvia | Untested" x-tier="community" x-status="untested" x-quality="sd",TVNET
 https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
