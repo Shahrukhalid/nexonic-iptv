@@ -19,6 +19,13 @@ so nothing reaches a playlist on the strength of this script alone.
     python scripts/expand_catalog.py --streams DIR --database DIR [--extra-m3u FILE ...]
     python scripts/expand_catalog.py            # no paths: downloads the iptv-org data over HTTPS (retries, backoff)
 
+Without both ``--streams`` and ``--database`` the M3U files listed under ``[[discovery.extra_m3u]]`` in
+config/pipeline.toml are downloaded too (https, allowed hosts, retries, size cap) and treated exactly like
+``--extra-m3u`` inputs: same rules, no exceptions. Sources are read in a fixed order (iptv-org, ``--extra-m3u`` files,
+configured sources in file order); for one channel the first source that offers an admissible stream wins, and
+duplicates (same normalised URL or same channel identity) are never admitted twice. ``source.reference_url`` points at
+the exact file the stream was read from.
+
 Re-running on unchanged input rewrites nothing: records keep their ``first_discovered`` / ``reviewed_at`` dates, files
 are only written when their content changes, and ordering is stable. A summary of each run (no timestamps) is kept
 in state/discovery.json for the daily change report.
@@ -35,6 +42,7 @@ import sys
 import tempfile
 import unicodedata
 from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -44,7 +52,7 @@ import _bootstrap  # noqa: F401
 
 from nexonic.config import load_pipeline
 from nexonic.dedup import stream_key
-from nexonic.fetch import FetchError, fetch_iptv_org
+from nexonic.fetch import ExtraPlaylist, FetchError, fetch_extra_m3u, fetch_iptv_org
 from nexonic.models import Channel
 from nexonic.moderation import Decision, screen
 from nexonic.records import DATA, STATE, load_records
@@ -194,6 +202,8 @@ CATEGORY_MAP = {
     "weather": "weather",
 }
 EXCLUDED_CATEGORIES = {"xxx", "shop", "religious", "interactive"}
+# Per-stream playlist options that mean the stream needs headers or DRM keys (third-party lists carry these).
+SPECIAL_OPTION_PREFIXES = ("#EXTVLCOPT", "#EXTHTTP", "#KODIPROP")
 # Broadcasters subject to EU/UK/US broadcasting or entity sanctions, outlets of occupation authorities, and
 # countries under comprehensive sanctions. Excluded from automated admission (a maintainer must decide manually).
 SANCTIONED_OWNER_TERMS = (
@@ -338,9 +348,39 @@ def parse_streams(path: Path):
             i += 1
 
 
+@dataclass(frozen=True)
+class Playlist:
+    """One M3U input. ``priority`` orders the sources: a lower number is seen first and wins for the same channel."""
+
+    path: Path
+    source: str
+    reference_url: str
+    priority: int
+
+
+def _iptv_org_reference(name: str) -> str:
+    return f"https://github.com/iptv-org/iptv/blob/master/streams/{name}"
+
+
 def resolution_rank(title: str) -> int:
     m = re.search(r"\((\d{3,4})[pi]\)", title)
     return int(m.group(1)) if m else 0
+
+
+def _reviewed_quarantine(path: Path) -> list[dict]:
+    """Quarantined records a maintainer has annotated ("Quarantine reviewed: ...") stay in the file untouched.
+
+    They are loaded as "existing" records (their notes no longer start with "Quarantined"), so a fresh run would
+    otherwise never regenerate them and would drop the review notes together with the file.
+    """
+    if not path.exists():
+        return []
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return [
+        r
+        for r in data.get("channels", [])
+        if str((r.get("review") or {}).get("notes", "")).startswith("Quarantine reviewed")
+    ]
 
 
 def _write_if_changed(path: Path, text: str) -> bool:
@@ -377,21 +417,32 @@ def main(argv=None) -> int:
     ap.add_argument("--database", type=Path, help="directory with iptv-org/database data/*.csv (default: download)")
     ap.add_argument("--extra-m3u", type=Path, nargs="*", default=[], help="other M3U lists (tvg-id must match)")
     ap.add_argument("--date", default=dt.date.today().isoformat())
+    ap.add_argument(
+        "--no-extra-sources",
+        action="store_true",
+        help="do not download the [[discovery.extra_m3u]] playlists (they are only downloaded when the iptv-org data is)",
+    )
     args = ap.parse_args(argv)
     if args.streams and args.database:
         return run(args, args.streams, args.database)
     cfg = load_pipeline().discovery
     need = tuple(n for n, given in (("iptv", args.streams), ("database", args.database)) if not given)
     with tempfile.TemporaryDirectory() as tmp:
+        extras: list[ExtraPlaylist] = []
         try:
             got = fetch_iptv_org(cfg, Path(tmp), need)
+            if not args.no_extra_sources and cfg.extra_m3u:
+                missing: list[str] = []
+                extras = fetch_extra_m3u(cfg, Path(tmp), missing=missing)
+                for label in missing:
+                    print(f"warning: {label} no longer exists upstream; skipped", file=sys.stderr)
         except FetchError as exc:
-            print(f"Could not download the iptv-org data: {exc}", file=sys.stderr)
+            print(f"Could not download the discovery sources: {exc}", file=sys.stderr)
             return 1
-        return run(args, args.streams or got["streams"], args.database or got["database"])
+        return run(args, args.streams or got["streams"], args.database or got["database"], extras)
 
 
-def run(args, streams_dir: Path, database_dir: Path) -> int:
+def run(args, streams_dir: Path, database_dir: Path, extras: list[ExtraPlaylist] = ()) -> int:
     db = database_dir
     channels = {r["id"]: r for r in csv.DictReader((db / "channels.csv").open(encoding="utf-8"))}
     feeds = {(r["channel"], r["id"]): r for r in csv.DictReader((db / "feeds.csv").open(encoding="utf-8"))}
@@ -411,26 +462,37 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
     known_ids = {c.id for c in existing}
     known_names = {(c.country, c.name.casefold()) for c in existing}
 
-    sources = sorted(streams_dir.glob("*.m3u")) + list(args.extra_m3u)
+    sources = [Playlist(p, "iptv-org", _iptv_org_reference(p.name), 0) for p in sorted(streams_dir.glob("*.m3u"))]
+    sources += [Playlist(p, "local", _iptv_org_reference(p.name), 1) for p in args.extra_m3u]
+    order = {}
+    for ex in extras:
+        order.setdefault(ex.source, len(order) + 2)
+        sources.append(Playlist(ex.path, ex.source, ex.reference_url, order[ex.source]))
     candidates: dict[str, list] = defaultdict(list)
     stats = defaultdict(int)
+    per_source: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+
+    def bump(source: str, key: str) -> None:
+        stats[key] += 1
+        per_source[source][key] += 1
+
     for src in sources:
-        for attrs, title, url, opts in parse_streams(src):
-            stats["streams"] += 1
+        for attrs, title, url, opts in parse_streams(src.path):
+            bump(src.source, "streams")
             tvg = attrs.get("tvg-id", "")
             cid, _, feed = tvg.partition("@")
             ch = channels.get(cid)
             if not ch:
-                stats["no-database-entry"] += 1
+                bump(src.source, "no-database-entry")
                 continue
             if cid in known_epg:
-                stats["already-curated"] += 1
+                bump(src.source, "already-curated")
                 continue
             if ch["is_nsfw"] == "TRUE" or cid in blocked:
-                stats["nsfw-or-blocklisted"] += 1
+                bump(src.source, "nsfw-or-blocklisted")
                 continue
             if ch["closed"]:
-                stats["closed"] += 1
+                bump(src.source, "closed")
                 continue
             owners = f"{ch['owners']} {ch['network']}".lower()
             lname = ch["name"].lower()
@@ -439,39 +501,41 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
                 or any(t in owners for t in SANCTIONED_OWNER_TERMS)
                 or any(re.search(rf"(^|\W){re.escape(t)}(\W|$)", lname) for t in SANCTIONED_NAME_TERMS)
             ):
-                stats["sanctions-exclusion"] += 1
+                bump(src.source, "sanctions-exclusion")
                 continue
             if any(t in lname for t in EXCLUDED_NAME_TERMS):
-                stats["excluded-category"] += 1
+                bump(src.source, "excluded-category")
                 continue
             if any(t in lname for t in PAID_NAME_TERMS):
-                stats["subscription-service"] += 1
+                bump(src.source, "subscription-service")
                 continue
             cats = [c for c in ch["categories"].split(";") if c]
             if set(cats) & EXCLUDED_CATEGORIES:
-                stats["excluded-category"] += 1
+                bump(src.source, "excluded-category")
                 continue
-            if any(k in attrs for k in ("http-referrer", "http-user-agent")) or any(
-                o.startswith("#EXTVLCOPT") for o in opts
+            if (
+                any(k in attrs for k in ("http-referrer", "http-user-agent"))
+                or any(o.startswith(SPECIAL_OPTION_PREFIXES) for o in opts)
+                or "|" in url  # Kodi-style "url|Header=value"
             ):
-                stats["needs-special-headers"] += 1
+                bump(src.source, "needs-special-headers")
                 continue
             pol = check_url_policy(url)
             if not pol.ok:
-                stats["url-policy"] += 1
+                bump(src.source, "url-policy")
                 continue
             host = (urlsplit(url).hostname or "").lower()
             if PAID_HOST_PATTERNS.search(host):
-                stats["subscription-service"] += 1
+                bump(src.source, "subscription-service")
                 continue
             if AGGREGATOR_HOSTS.search(host):
-                stats["aggregator-host"] += 1
+                bump(src.source, "aggregator-host")
                 continue
             why = owner_match(host, ch["website"]) if ch["website"] else None
             if not why:
-                stats["host-not-owned-by-broadcaster"] += 1
+                bump(src.source, "host-not-owned-by-broadcaster")
                 continue
-            candidates[cid].append((feed, title, url, why, src.name))
+            candidates[cid].append((feed, title, url, why, src))
 
     cn = countries()
     out_records: dict[str, list] = defaultdict(list)
@@ -481,13 +545,14 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
         ch = channels[cid]
         country = ch["country"].lower()
         if country not in cn:
-            stats["unknown-country"] += 1
+            bump(items[0][4].source, "unknown-country")
             continue
         mf = main_feed.get(cid, {}).get("id")
 
         def rank(item, mf=mf):
-            feed, title, url, _, _ = item
+            feed, title, url, _, src = item
             return (
+                -src.priority,  # first-seen source wins
                 feed == mf,
                 url.startswith("https"),
                 "Not 24/7" not in title,
@@ -495,9 +560,13 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
                 resolution_rank(title),
             )
 
-        feed, title, url, why, srcname = max(items, key=rank)
+        best = max(items, key=rank)
+        feed, title, url, why, src = best
+        for other in items:
+            if other[4].source != src.source:
+                bump(other[4].source, "duplicate-channel-in-other-source")
         if stream_key(url) in known_urls or (country, ch["name"].casefold()) in known_names:
-            stats["duplicate-of-existing"] += 1
+            bump(src.source, "duplicate-of-existing")
             continue
         known_names.add((country, ch["name"].casefold()))
         known_urls.add(stream_key(url))
@@ -508,7 +577,7 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
             if two and two in LANGUAGES and two not in langs:
                 langs.append(two)
         if not langs:
-            stats["language-not-supported"] += 1
+            bump(src.source, "language-not-supported")
             continue
         cats = []
         for c in ch["categories"].split(";"):
@@ -534,7 +603,7 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
             "website": ch["website"],
             "stream": {"url": url, "protocol": "dash" if ".mpd" in url.split("?")[0] else "hls", "quality": "unknown"},
             "source": {
-                "reference_url": f"https://github.com/iptv-org/iptv/blob/master/streams/{srcname}",
+                "reference_url": src.reference_url,
                 "evidence_url": ch["website"],
                 "evidence_summary": f"Automated owner-domain match: {why}. Channel metadata from iptv-org/database.",
                 "evidence_checked": None,
@@ -559,12 +628,12 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
         try:
             model = Channel.model_validate(rec)
         except Exception as exc:  # schema problems (e.g. invalid website) -> skip honestly
-            stats["schema-invalid"] += 1
+            bump(src.source, "schema-invalid")
             print(f"skip {rid}: {exc}".splitlines()[0], file=sys.stderr)
             continue
         res = screen(model)
         if res.decision is Decision.REJECT:
-            stats["moderation-reject"] += 1
+            bump(src.source, "moderation-reject")
             continue
         if res.decision is Decision.QUARANTINE:
             rec["review"].update(
@@ -575,11 +644,11 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
             )
             _stabilise(rec, prior_quarantine.get(rid))
             pending.append(rec)
-            stats["moderation-quarantine"] += 1
+            bump(src.source, "moderation-quarantine")
             continue
         _stabilise(rec, prior_auto.get(rid))
         out_records[country].append(rec)
-        stats["admitted"] += 1
+        bump(src.source, "admitted")
 
     auto_dir = DATA / "approved" / "auto"
     auto_dir.mkdir(parents=True, exist_ok=True)
@@ -597,6 +666,8 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
         if old.stem not in out_records:
             old.unlink()
     qpath = DATA / "pending" / "auto-quarantine.yaml"
+    kept = _reviewed_quarantine(qpath)
+    pending = kept + [r for r in pending if r["id"] not in {k["id"] for k in kept}]
     if pending:
         _write_if_changed(
             qpath,
@@ -605,11 +676,20 @@ def run(args, streams_dir: Path, database_dir: Path) -> int:
         )
     elif qpath.exists():
         qpath.unlink()
-    summary = {"schema": 1, "stats": dict(sorted(stats.items())), "countries_with_admitted_channels": len(out_records)}
+    summary = {
+        "schema": 1,
+        "stats": dict(sorted(stats.items())),
+        "sources": {name: dict(sorted(c.items())) for name, c in sorted(per_source.items())},
+        "countries_with_admitted_channels": len(out_records),
+    }
     _write_if_changed(STATE / "discovery.json", json.dumps(summary, indent=1, sort_keys=True) + "\n")
     for k, v in sorted(stats.items()):
         print(f"{k:32} {v}")
     print(f"countries with admitted channels: {len(out_records)}")
+    if len(per_source) > 1:
+        print("\nper source: entries read / admitted / quarantined")
+        for name, c in sorted(per_source.items()):
+            print(f"{name:32} {c['streams']:7} {c.get('admitted', 0):7} {c.get('moderation-quarantine', 0):7}")
     return 0
 
 
