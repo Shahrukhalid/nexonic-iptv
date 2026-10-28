@@ -3,14 +3,14 @@
 - Run: `run-20261027T110427Z`
 - Started: 2026-10-27T11:04:27Z (UTC) · Finished: 2026-10-27T11:10:42Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 738
+- Channels checked: 739
 
 Results describe reachability **from the checker's network location at that time** only.
 
 | Status | Count |
 |---|---:|
 | `AUTH_REQUIRED` | 2 |
-| `GEO_RESTRICTED` | 60 |
+| `GEO_RESTRICTED` | 61 |
 | `INVALID_STREAM` | 8 |
 | `TIMEOUT` | 30 |
 | `UNAVAILABLE` | 136 |
@@ -681,6 +681,7 @@ Results describe reachability **from the checker's network location at that time
 | TV5Monde Asia | `GEO_RESTRICTED` | 2 | 403 | 81 ms | 2026-10-27T11:05:39Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Europe | `GEO_RESTRICTED` | 2 | 403 | 96 ms | 2026-10-27T11:08:22Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde France Belgium Switzerland Monaco | `GEO_RESTRICTED` | 2 | 403 | 66 ms | 2026-10-27T11:08:43Z | HTTP 403 for a stream known or hinted to be region-limited |
+| TV5Monde Info | `GEO_RESTRICTED` | 2 | 403 | 86 ms | 2026-10-27T11:08:55Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Pacific | `GEO_RESTRICTED` | 2 | 403 | 79 ms | 2026-10-27T11:09:01Z | HTTP 403 for a stream known or hinted to be region-limited |
 | TV5Monde Style | `VERIFIED_WORKING` | 5 | 200 | 534 ms | 2026-10-27T11:09:05Z | 1080p |
 | TV7+ | `UNAVAILABLE` | 2 | 404 | 1195 ms | 2026-10-27T11:07:28Z | HTTP 404 (stream not found) |

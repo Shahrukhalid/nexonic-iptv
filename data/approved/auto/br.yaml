@@ -225,43 +225,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: tv-brasil-internacional-br
-  name: TV Brasil Internacional
-  alt_names: []
-  broadcaster: Empresa Brasil de Comunicação
-  country: br
-  languages:
-  - pt
-  categories:
-  - general
-  website: https://tvbrasilinternacional.ebc.com.br
-  stream:
-    url: https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/LITUATUI/M3UPT/blob/main/M3U/M3UPT.m3u
-    evidence_url: https://tvbrasilinternacional.ebc.com.br
-    evidence_summary: 'Automated owner-domain match: stream host tvbrasilinternacional-stream.ebc.com.br is on the broadcaster''s
-      domain ebc.com.br. Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: TVBrasilInternacional.br
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-28'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-28'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: tv-cultura-br
   name: TV Cultura
   alt_names:

@@ -29452,14 +29452,6 @@
    "lifecycle": "invalid"
   },
   {
-   "id": "tv-brasil-internacional-br",
-   "name": "TV Brasil Internacional",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
-  },
-  {
    "id": "tv-by",
    "name": "+TV",
    "reasons": [
@@ -29812,14 +29804,6 @@
    "lifecycle": "unreachable"
   },
   {
-   "id": "tv5-monde-fr",
-   "name": "TV5 Monde",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
-  },
-  {
    "id": "tv5monde-asia-fr",
    "name": "TV5Monde Asia",
    "reasons": [
@@ -29838,6 +29822,14 @@
   {
    "id": "tv5monde-france-belgium-switzerland-monaco-fr",
    "name": "TV5Monde France Belgium Switzerland Monaco",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ],
+   "lifecycle": "restricted"
+  },
+  {
+   "id": "tv5monde-info-fr",
+   "name": "TV5Monde Info",
    "reasons": [
     "automated record awaiting its first successful live check"
    ],
@@ -29930,6 +29922,14 @@
     "stale: failed its last 3+ checks and has not worked for 7+ days"
    ],
    "lifecycle": "unreachable"
+  },
+  {
+   "id": "ibc-24-in",
+   "name": "IBC 24",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ],
+   "lifecycle": "unknown"
   },
   {
    "id": "vistaar-news-in",
@@ -30316,14 +30316,6 @@
    "lifecycle": "unreachable"
   },
   {
-   "id": "tvm-internacional-mz",
-   "name": "TVM Internacional",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
-  },
-  {
    "id": "canal-10-ni",
    "name": "Canal 10",
    "reasons": [
@@ -30588,14 +30580,6 @@
    "lifecycle": "unreachable"
   },
   {
-   "id": "world-fashion-channel-ru",
-   "name": "World Fashion Channel",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
-  },
-  {
    "id": "aryen-tv-se",
    "name": "Aryen TV",
    "reasons": [
@@ -30658,22 +30642,6 @@
     "stale: failed its last 3+ checks and has not worked for 7+ days"
    ],
    "lifecycle": "restricted"
-  },
-  {
-   "id": "kudus-tv-tr",
-   "name": "Kudus TV",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
-  },
-  {
-   "id": "sports-tv-tr",
-   "name": "Sports TV",
-   "reasons": [
-    "automated record awaiting its first successful live check"
-   ],
-   "lifecycle": "unknown"
   },
   {
    "id": "tjk-tv-2-tr",

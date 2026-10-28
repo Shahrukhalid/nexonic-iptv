@@ -82,7 +82,7 @@ channel data. Do not edit them by hand.
 | In `verified.m3u` (last 48 h) | 479 |
 | Latest run: verified working | 451 |
 | Latest run: unavailable / failing | 176 |
-| Latest run: geo-restricted from checker | 60 |
+| Latest run: geo-restricted from checker | 61 |
 | Latest run: unknown / rate-limited / unsupported | 51 |
 | Latest verification run (UTC) | 2026-10-27T11:10:42Z |
 
