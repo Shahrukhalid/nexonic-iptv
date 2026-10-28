@@ -3,6 +3,28 @@
 Thank you for helping! Quality and legality come first — please read [docs/SOURCE_POLICY.md](docs/SOURCE_POLICY.md)
 and [docs/CONTENT_POLICY.md](docs/CONTENT_POLICY.md) before suggesting channels.
 
+## Contributors wanted
+Nexonic IPTV is a free, open directory of officially free live TV, organised by country, language and category. Every
+stream is checked automatically every day and the catalogue is growing. Help is welcome (see also
+[issue #10](https://github.com/Shahrukhalid/nexonic-iptv/issues/10)).
+
+- **Suggest channels.** A broadcaster that streams a channel free on its own website: use the
+  [channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml)
+  with a link to the live page.
+- **Share sources.** Public M3U/M3U8 playlists, EPG (XMLTV) guides or country lists that are openly licensed or
+  published by broadcasters. Playlist sources are added as `[[discovery.extra_m3u]]` entries in
+  `config/pipeline.toml` (repository, ref, file paths, licence); they feed the community tier, never the official one.
+- **Expand coverage.** Fill gaps by country, language and category (see `reports/statistics.json`).
+- **Free VOD.** Legitimately free movies and series, such as public-domain collections: propose an Internet Archive
+  collection id for `[[vod.collections]]`, or another open source ([docs/TIERS.md](docs/TIERS.md)).
+- **Clean up.** Report broken streams, duplicates or wrong metadata with the issue forms. Community streams can be
+  removed through `data/community-exclusions.yaml`.
+- **Improve the tooling.** Playlist organisation, EPG matching, verification speed, automation (Python).
+
+Ground rules: free to watch only (no paid subscriptions, logins, DRM, tokens or geo-bypass tricks); search
+[PLAYLISTS.md](PLAYLISTS.md) and `data/` first so there are no duplicates; follow
+[docs/SOURCE_POLICY.md](docs/SOURCE_POLICY.md); and describe your sources and what changed in the pull request.
+
 ## Ways to help
 - **Suggest a channel** with the issue form (evidence required) or a PR that adds a record to `data/pending/`.
 - **Report problems**: broken stream, wrong metadata, adult content, copyright concern — use the issue forms.

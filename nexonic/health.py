@@ -142,13 +142,15 @@ def _consecutive_failures(results: list[CheckResult]) -> int:
     return n
 
 
-def is_verified_fresh(results: list[CheckResult], reference: dt.datetime | None) -> bool:
+def is_verified_fresh(
+    results: list[CheckResult], reference: dt.datetime | None, fresh_hours: float = VERIFIED_FRESH_HOURS
+) -> bool:
     tested = sorted((r for r in results if r.status is not Status.NOT_TESTED), key=lambda r: r.checked_at)
     if not tested or reference is None:
         return False
     last = tested[-1]
     age_h = (reference - parse_iso(last.checked_at)).total_seconds() / 3600
-    return last.status is Status.VERIFIED_WORKING and age_h <= VERIFIED_FRESH_HOURS
+    return last.status is Status.VERIFIED_WORKING and age_h <= fresh_hours
 
 
 def is_stale(results: list[CheckResult], reference: dt.datetime | None, days: int = 7) -> bool:

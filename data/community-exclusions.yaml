@@ -1,0 +1,14 @@
+# Takedown list of the community and free VOD tiers. Entries are honoured when the catalogue is built and again on
+# every playlist generation, so a commit to this file removes the stream from all community playlists within minutes
+# (the "Generate playlists" workflow regenerates on every change under data/). See docs/TIERS.md#takedown.
+#
+#   urls:      full stream URLs (scheme and trailing slash are ignored when matching)
+#   hosts:     host names; a host also covers its sub-domains
+#   channels:  iptv-org channel ids (for example Example.us) or community stream ids
+#   vod:       Internet Archive item identifiers
+#
+# Keep a short reason as a comment next to each entry (an issue number, not personal details).
+urls: []
+hosts: []
+channels: []
+vod: []
