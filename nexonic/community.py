@@ -375,7 +375,7 @@ def build_catalog(
             report["dropped"]["needs-special-headers"] += 1
             continue
         passed["no-special-headers"] += 1
-        pol = check_url_policy(url, allow_restream=cfg.allow_restream_hosts)
+        pol = check_url_policy(url, allow_restream=cfg.allow_restream_hosts, strict_tokens=True)
         if not pol.ok:
             report["dropped"][_policy_key(pol.reason)] += 1
             continue
@@ -654,13 +654,20 @@ def evaluate_streams(
 
 
 def apply_tier_rules(
-    streams: list[CStream], official: OfficialContext, exclusions: Exclusions
+    streams: list[CStream],
+    official: OfficialContext,
+    exclusions: Exclusions,
+    allow_restream: bool = False,
 ) -> tuple[list[CStream], dict[str, int]]:
-    """Generation-time rules: official records and takedown entries win, however the catalogue was built."""
+    """Generation-time rules: the current URL policy, official records and takedown entries win, however (and
+    whenever) the catalogue was built."""
     kept: list[CStream] = []
     removed: Counter = Counter()
     for s in streams:
-        if exclusions.reason(s.ch, s.id, s.url):
+        pol = check_url_policy(s.url, allow_restream=allow_restream, strict_tokens=True)
+        if not pol.ok:
+            removed[_policy_key(pol.reason)] += 1
+        elif exclusions.reason(s.ch, s.id, s.url):
             removed["excluded-by-takedown-list"] += 1
         elif official.overlap(s.ch, s.cc, s.name, s.url):
             removed["official-duplicate"] += 1
@@ -874,7 +881,7 @@ def run_daily(
         log("community: no catalogue available; nothing to check")
         summary["catalog"] = 0
         return summary
-    streams, removed = apply_tier_rules(catalog_streams(catalog), official, exclusions)
+    streams, removed = apply_tier_rules(catalog_streams(catalog), official, exclusions, cfg.allow_restream_hosts)
     summary["catalog"] = len(streams)
     history = load_history(history_path)
     chosen = select_for_check(streams, history, now, cfg)
@@ -954,7 +961,7 @@ def plan_community(
     if not cfg.enabled or not catalog or not catalog.get("streams"):
         return plan
     cn = countries()
-    streams, removed = apply_tier_rules(catalog_streams(catalog), official, exclusions)
+    streams, removed = apply_tier_rules(catalog_streams(catalog), official, exclusions, cfg.allow_restream_hosts)
     ref = reference_time(history)
     evaluated = evaluate_streams(streams, history, cfg, ref)
     published = [e for e in evaluated if e.state in ("verified", "untested")]
