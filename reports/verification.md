@@ -790,4 +790,4 @@ Compared with the run at 2026-10-28T04:15:06Z (UTC).
 
 Published 557 · verified playlist 493 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
-Tiers: official 557 (493 verified) · community 3715 verified / 1668 untested · free VOD 55 items.
+Tiers: official 557 (493 verified) · community 3700 verified / 1667 untested · free VOD 55 items.

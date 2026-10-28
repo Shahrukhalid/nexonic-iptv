@@ -116,11 +116,11 @@
       }
     },
     "community": {
-      "published": 5383,
-      "verified": 3715,
-      "untested": 1668,
-      "held_back_after_failed_check": 1844,
-      "never_checked": 1227,
+      "published": 5367,
+      "verified": 3700,
+      "untested": 1667,
+      "held_back_after_failed_check": 1839,
+      "never_checked": 1226,
       "catalog_streams": 7227,
       "catalog_built_at": "2026-10-28T04:15:13Z",
       "verified_days": 7,
@@ -128,17 +128,19 @@
       "languages": 90,
       "lifecycle": {
         "invalid": 158,
-        "restricted": 193,
-        "unknown": 1487,
-        "unreachable": 1674,
-        "working": 3715
+        "restricted": 192,
+        "unknown": 1486,
+        "unreachable": 1670,
+        "working": 3700
       },
-      "removed_at_generation": {},
+      "removed_at_generation": {
+        "url-policy-token": 21
+      },
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1295
+          "streams": 1292
         },
         {
           "code": "in",
@@ -158,17 +160,17 @@
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 205
+          "streams": 204
         },
         {
           "code": "it",
           "name": "Italy",
-          "streams": 151
+          "streams": 149
         },
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 141
+          "streams": 140
         },
         {
           "code": "cl",
