@@ -10,8 +10,9 @@ from __future__ import annotations
 import tarfile
 import time
 from collections.abc import Callable
+from dataclasses import dataclass
 from pathlib import Path, PurePosixPath
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import quote, urljoin, urlsplit
 
 import httpx
 
@@ -27,6 +28,10 @@ class FetchError(RuntimeError):
     pass
 
 
+class NotFound(FetchError):
+    """The URL answered 404 (a listed file was removed upstream)."""
+
+
 def _check_url(url: str, allowed: list[str]) -> None:
     p = urlsplit(url)
     if p.scheme != "https" or (p.hostname or "").lower() not in {h.lower() for h in allowed}:
@@ -40,8 +45,9 @@ def backoff_delay(attempt: int, base: float, retry_after: str | None = None) -> 
     return delay
 
 
-def _download(client: httpx.Client, url: str, dest, cfg: DiscoveryConfig) -> None:
-    limit = cfg.max_archive_mb * 1024 * 1024
+def _download(client: httpx.Client, url: str, dest, cfg: DiscoveryConfig, limit_mb: int | None = None) -> None:
+    limit_mb = limit_mb or cfg.max_archive_mb
+    limit = limit_mb * 1024 * 1024
     for _hop in range(MAX_REDIRECTS + 1):
         _check_url(url, cfg.allowed_hosts)
         with client.stream("GET", url, headers={"User-Agent": USER_AGENT}, follow_redirects=False) as r:
@@ -50,6 +56,8 @@ def _download(client: httpx.Client, url: str, dest, cfg: DiscoveryConfig) -> Non
                 continue
             if r.status_code in RETRY_STATUS:
                 raise _Retry(f"HTTP {r.status_code}", r.headers.get("retry-after"))
+            if r.status_code == 404:
+                raise NotFound(f"{url}: HTTP 404")
             if r.status_code != 200:
                 raise FetchError(f"{url}: HTTP {r.status_code}")
             size = 0
@@ -58,7 +66,7 @@ def _download(client: httpx.Client, url: str, dest, cfg: DiscoveryConfig) -> Non
             for chunk in r.iter_bytes():
                 size += len(chunk)
                 if size > limit:
-                    raise FetchError(f"{url}: larger than {cfg.max_archive_mb} MB")
+                    raise FetchError(f"{url}: larger than {limit_mb} MB")
                 dest.write(chunk)
             return
     raise FetchError(f"too many redirects fetching {url}")
@@ -76,6 +84,7 @@ def download(
     cfg: DiscoveryConfig,
     client: httpx.Client | None = None,
     sleep: Callable[[float], None] = time.sleep,
+    limit_mb: int | None = None,
 ) -> None:
     """Download ``url`` into the open binary file ``dest``, retrying transient failures with backoff."""
     own = client is None
@@ -83,7 +92,7 @@ def download(
     try:
         for attempt in range(cfg.retries + 1):
             try:
-                return _download(client, url, dest, cfg)
+                return _download(client, url, dest, cfg, limit_mb)
             except (_Retry, httpx.TransportError) as exc:
                 if attempt >= cfg.retries:
                     raise FetchError(f"{url}: giving up after {attempt + 1} attempts ({exc})") from exc
@@ -155,4 +164,61 @@ def fetch_iptv_org(
                 raise FetchError("the database archive contains none of the expected data/*.csv files")
             out["database"] = dest / "database"
         path.unlink()
+    return out
+
+
+@dataclass(frozen=True)
+class ExtraPlaylist:
+    """One downloaded third-party M3U file with the provenance recorded on every record admitted from it."""
+
+    source: str  # configured source name
+    licence: str
+    path: Path  # local copy
+    reference_url: str  # the actual file in the source repository
+    label: str  # "<source>:<repo path>", used in reports
+
+
+def raw_url(repo: str, ref: str, rel: str) -> str:
+    return f"https://raw.githubusercontent.com/{repo}/{quote(ref, safe='/')}/{quote(rel, safe='/')}"
+
+
+def blob_url(repo: str, ref: str, rel: str) -> str:
+    return f"https://github.com/{repo}/blob/{quote(ref, safe='/')}/{quote(rel, safe='/')}"
+
+
+def fetch_extra_m3u(
+    cfg: DiscoveryConfig,
+    dest: Path,
+    client: httpx.Client | None = None,
+    sleep: Callable[[float], None] = time.sleep,
+    missing: list[str] | None = None,
+) -> list[ExtraPlaylist]:
+    """Download the configured ``[[discovery.extra_m3u]]`` playlists (https, allowed hosts, retries, size cap).
+
+    A file that answers 404 is skipped and its label appended to ``missing``; every other failure raises FetchError so
+    that a run with an incomplete input changes nothing.
+    """
+    out: list[ExtraPlaylist] = []
+    for n, src in enumerate(cfg.extra_m3u):
+        for rel in src["paths"]:
+            local = dest / "extra" / f"{n:02d}-{src['name']}" / rel
+            local.parent.mkdir(parents=True, exist_ok=True)
+            url = raw_url(src["repo"], src["ref"], rel)
+            try:
+                with local.open("wb") as fh:
+                    download(url, fh, cfg, client, sleep, limit_mb=cfg.max_playlist_mb)
+            except NotFound:
+                local.unlink(missing_ok=True)
+                if missing is not None:
+                    missing.append(f"{src['name']}:{rel}")
+                continue
+            out.append(
+                ExtraPlaylist(
+                    source=src["name"],
+                    licence=src["licence"],
+                    path=local,
+                    reference_url=blob_url(src["repo"], src["ref"], rel),
+                    label=f"{src['name']}:{rel}",
+                )
+            )
     return out

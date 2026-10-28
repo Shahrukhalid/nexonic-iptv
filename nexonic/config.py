@@ -8,6 +8,7 @@ match the values the scripts used before the file existed.
 from __future__ import annotations
 
 import os
+import re
 import tomllib
 from dataclasses import dataclass, field, fields
 from pathlib import Path
@@ -67,6 +68,68 @@ def _default_sources() -> list[dict]:
     ]
 
 
+def _default_extra_m3u() -> list[dict]:
+    """Public lists shipped by default; config/pipeline.toml shows the same values."""
+    return [
+        {
+            "name": "m3upt",
+            "repo": "LITUATUI/M3UPT",
+            "ref": "main",
+            "paths": ["M3U/M3UPT.m3u"],
+            "licence": "MIT",
+        },
+        {
+            "name": "iprtl",
+            "repo": "iprtl/m3u",
+            "ref": "live",
+            "paths": ["Freetv.m3u"],
+            "licence": "Unlicense",
+        },
+        {
+            "name": "iptv-com",
+            "repo": "iptv-com/iptv",
+            "ref": "main",
+            "paths": ["lists/world.m3u", "lists/brazil.m3u"],
+            "licence": "Unlicense",
+        },
+        {
+            "name": "openiptvitaly",
+            "repo": "xN1ckuz/OpenIPTVItaly",
+            "ref": "main",
+            "paths": ["OpenIPTVItaly.m3u"],
+            "licence": "MIT",
+        },
+        {
+            "name": "iptv-m3u-tr",
+            "repo": "omerdenizhan/IPTV-M3U",
+            "ref": "main",
+            "paths": ["m3u/turkiye-iptv-org.m3u"],
+            "licence": "Unlicense",
+        },
+        {
+            "name": "iptv-spain",
+            "repo": "Ignac16/Iptv-spain-m3u-1416",
+            "ref": "main",
+            "paths": ["playlist_spain.m3u8"],
+            "licence": "CC0-1.0",
+        },
+        {
+            "name": "ipmx",
+            "repo": "Osares10/ipmx",
+            "ref": "main",
+            "paths": ["Mexico.m3u"],
+            "licence": "Unlicense",
+        },
+        {
+            "name": "iptv-ecuador",
+            "repo": "CL-Maker283/iptv-ecuador-tv",
+            "ref": "main",
+            "paths": ["streamings-ecuador-all.m3u"],
+            "licence": "Unlicense",
+        },
+    ]
+
+
 @dataclass
 class DiscoveryConfig:
     timeout: float = 30.0
@@ -77,6 +140,8 @@ class DiscoveryConfig:
         default_factory=lambda: ["github.com", "codeload.github.com", "raw.githubusercontent.com"]
     )
     sources: list[dict] = field(default_factory=_default_sources)
+    max_playlist_mb: int = 50
+    extra_m3u: list[dict] = field(default_factory=_default_extra_m3u)
 
 
 @dataclass
@@ -115,6 +180,44 @@ def _fill(cls, raw: dict, where: str):
     return obj
 
 
+EXTRA_M3U_KEYS = {"name", "repo", "ref", "paths", "licence"}
+_REPO_RE = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
+_REF_RE = re.compile(r"^[A-Za-z0-9_./-]+$")
+_NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+
+
+def _check_extra_m3u(entries: list[dict]) -> None:
+    """Every ``[[discovery.extra_m3u]]`` entry names a public GitHub repo, a branch/tag and plain M3U file paths."""
+    seen: set[str] = set()
+    for e in entries:
+        if not isinstance(e, dict) or set(e) != EXTRA_M3U_KEYS:
+            raise ConfigError("[[discovery.extra_m3u]] entries need exactly name, repo, ref, paths and licence")
+        name = e["name"]
+        if not isinstance(name, str) or not _NAME_RE.match(name) or name in seen:
+            raise ConfigError(f"[[discovery.extra_m3u]] name {name!r} must be a unique lower-case slug")
+        seen.add(name)
+        if not isinstance(e["repo"], str) or not _REPO_RE.match(e["repo"]):
+            raise ConfigError(f"[[discovery.extra_m3u]] {name}: repo must look like owner/name")
+        if not isinstance(e["ref"], str) or not _REF_RE.match(e["ref"]) or ".." in e["ref"]:
+            raise ConfigError(f"[[discovery.extra_m3u]] {name}: invalid ref")
+        if not isinstance(e["licence"], str) or not e["licence"].strip():
+            raise ConfigError(f"[[discovery.extra_m3u]] {name}: the repository licence must be recorded")
+        paths = e["paths"]
+        if not isinstance(paths, list) or not paths or not all(isinstance(x, str) for x in paths):
+            raise ConfigError(f"[[discovery.extra_m3u]] {name}: paths must be a non-empty list of strings")
+        for rel in paths:
+            parts = rel.split("/")
+            if (
+                rel.startswith("/")
+                or any(x in ("", ".", "..") for x in parts)
+                or "\\" in rel
+                or "?" in rel
+                or "#" in rel
+                or not rel.lower().endswith((".m3u", ".m3u8"))
+            ):
+                raise ConfigError(f"[[discovery.extra_m3u]] {name}: unsafe or non-M3U path {rel!r}")
+
+
 def _check(cfg: PipelineConfig) -> None:
     v, q, g, d = cfg.verify, cfg.quarantine, cfg.guard, cfg.discovery
     positive = {
@@ -130,6 +233,7 @@ def _check(cfg: PipelineConfig) -> None:
         "changes.history_days": cfg.changes.history_days,
         "discovery.timeout": d.timeout,
         "discovery.max_archive_mb": d.max_archive_mb,
+        "discovery.max_playlist_mb": d.max_playlist_mb,
     }
     for name, value in positive.items():
         if value <= 0:
@@ -152,6 +256,7 @@ def _check(cfg: PipelineConfig) -> None:
             raise ConfigError(f"{name} must be between 0 and 100")
     if not d.sources or any(set(s) != {"name", "repo", "ref"} for s in d.sources):
         raise ConfigError("[[discovery.sources]] entries need exactly name, repo and ref")
+    _check_extra_m3u(d.extra_m3u)
 
 
 def load_pipeline(path: Path | None = None) -> PipelineConfig:
