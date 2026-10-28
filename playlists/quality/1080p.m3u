@@ -15,6 +15,14 @@ https://live-stream.skynewsarabia.com/c-vertical-channel/vertical-stream/index.m
 https://albportal.net/albkanalemusic.m3u8
 #EXTINF:-1 tvg-id="News24.al@SD" tvg-name="News 24" tvg-country="AL" tvg-language="Albanian" group-title="Albania",News 24
 https://tv.balkanweb.com/news24/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="YerkirMedia.am@SD" tvg-name="Yerkir Media" tvg-country="AM" tvg-language="Armenian" group-title="Armenia",Yerkir Media
+http://yerkirmedia.am/yerkirmedia/live.m3u8
+#EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-name="Mercurio Noticias" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Mercurio Noticias
+https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
+#EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-name="T5 Satelital" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",T5 Satelital
+https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
+#EXTINF:-1 tvg-id="FS1Salzburg.at@SD" tvg-name="FS1 Salzburg" tvg-country="AT" tvg-language="German" group-title="Austria",FS1 Salzburg
+https://stream.fs1.tv/hls/webstream.m3u8
 #EXTINF:-1 tvg-name="Red Bull TV" tvg-country="AT" tvg-language="English" group-title="Austria",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="APATv.az@SD" tvg-name="APA Tv" tvg-country="AZ" tvg-language="Azerbaijani" group-title="Azerbaijan",APA Tv
@@ -27,16 +35,24 @@ https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manif
 https://live.matele.be/hls/live.m3u8
 #EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-name="City TV" tvg-country="BG" tvg-language="Bulgarian" group-title="Bulgaria",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
+#EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-name="TV Spravedliva Bulgariya" tvg-country="BG" tvg-language="Bulgarian" group-title="Bulgaria",TV Spravedliva Bulgariya
+https://tv.tvsb.bg/112.m3u8
+#EXTINF:-1 tvg-id="NosTVBonaire2.bq@SD" tvg-name="NosTV Bonaire 2" tvg-country="BQ" tvg-language="Dutch" group-title="Bonaire",NosTV Bonaire 2
+https://stream2.nostvbonaire.com/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="CanalUOL.br@SD" tvg-name="Canal UOL" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal UOL
 https://video24.mais.uol.com.br/live/6146.m3u8
 #EXTINF:-1 tvg-id="TVCamara.br@SD" tvg-name="TV Câmara" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-name="TV UFOP" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV UFOP
+https://app.tvufop.com.br/hls/tvufop.m3u8
 #EXTINF:-1 tvg-id="TVERS.br@SD" tvg-name="TVE RS" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVE RS
 https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" tvg-name="Az Star TV" tvg-country="CA" tvg-language="Azerbaijani" group-title="Canada",Az Star TV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DoyelTV.ca@SD" tvg-name="Doyel TV" tvg-country="CA" tvg-language="Bengali" group-title="Canada",Doyel TV
 https://3d46w.doyeltv.com/memfs/aa3aa6f7-ec12-41a2-8183-a891e157bbf8.m3u8
+#EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV" tvg-country="CA" tvg-language="Pashto;Tajik;English" group-title="Canada",Pamir TV
+http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
 #EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
 https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayDJAZZ.ca@SD" tvg-name="Stingray DJAZZ" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray DJAZZ
@@ -61,16 +77,30 @@ https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u
 https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="ZenLIFEbyStingray.ca@HD" tvg-name="ZenLIFE by Stingray" tvg-country="CA" tvg-language="English" group-title="Canada",ZenLIFE by Stingray
 https://lotus.stingray.com/manifest/zenlife-zen001-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-name="Meteonews" tvg-country="CH" tvg-language="German" group-title="Switzerland",Meteonews
+https://streaming.meteonews.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RadioSuyaiTV.cl@HD" tvg-name="Radio Suyai TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Radio Suyai TV
 https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8
+#EXTINF:-1 tvg-id="SoloTV.cl@HD" tvg-name="Solo TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Solo TV
+https://sproxy.solotv.cl/hls/live/fhd.m3u8
+#EXTINF:-1 tvg-id="ULosLagosTV.cl@SD" tvg-name="U Los Lagos TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",U Los Lagos TV
+http://tv.ulagos.cl/web/live.m3u8
 #EXTINF:-1 tvg-id="Wapp.cl@SD" tvg-name="Wapp" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Wapp
 https://stream.wapptv.cl/video/index.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-country="CN" tvg-language="English" group-title="China",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-name="CGTN Documentary" tvg-country="CN" tvg-language="English" group-title="China",CGTN Documentary
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-name="Nei Monggol TV" tvg-country="CN" tvg-language="Chinese;Mongolian" group-title="China",Nei Monggol TV
+http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+#EXTINF:-1 tvg-id="NeiMonggolTV2MongolianCultureChannel.cn@SD" tvg-name="Nei Monggol TV 2 Mongolian Culture Channel" tvg-country="CN" tvg-language="Chinese;Mongolian" group-title="China",Nei Monggol TV 2 Mongolian Culture Channel
+http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
+#EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
+https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
 #EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
 https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="JC1.cz@SD" tvg-name="JC1" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",JC1
+https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
 https://stream.polar.cz/polar/polarlive-1/playlist.m3u8
 #EXTINF:-1 tvg-id="ARDalpha.de@SD" tvg-name="ARD-alpha" tvg-country="DE" tvg-language="German" group-title="Germany",ARD-alpha
@@ -105,22 +135,44 @@ https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
 #EXTINF:-1 tvg-id="DR1.dk@SD" tvg-name="DR1" tvg-country="DK" tvg-language="Danish" group-title="Denmark",DR1
 https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8
+#EXTINF:-1 tvg-id="CanaldelSol.do@SD" tvg-name="Canal del Sol" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Canal del Sol
+https://stream.canaldelsol.com/sol26/live_1080.m3u8
+#EXTINF:-1 tvg-id="ElSeis6.do@SD" tvg-name="El Seis 6" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",El Seis 6
+https://stream.elseis.do/canal6/live_1080.m3u8
 #EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-name="3Cat Cameres del temps" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Cameres del temps
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
 #EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-name="3Cat Plats bruts" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Plats bruts
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="3CatInfo.es@SD" tvg-name="3CatInfo" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3CatInfo
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
+#EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-name="Clan Internacional" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Clan Internacional
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
 #EXTINF:-1 tvg-id="ElToroTV.es@SD" tvg-name="El Toro TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
-#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-country="ES" tvg-language="Spanish" group-title="Spain",TVOMIX
-https://cloud.tvomix.com/TVOMIX/index.m3u8
+#EXTINF:-1 tvg-id="InteralmeriaTV.es@SD" tvg-name="Interalmeria TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Interalmeria TV
+https://interalmeria.tv/directo/live.m3u8
+#EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tele Elx
+https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 #EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Nopola News
 https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="4Kurd.fr@SD" tvg-name="4Kurd" tvg-country="FR" tvg-language="Kurdish;Persian" group-title="France",4Kurd
+https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-country="FR" tvg-language="Arabic" group-title="France",France 24 Arabic
+https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-country="FR" tvg-language="English" group-title="France",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-country="FR" tvg-language="Spanish" group-title="France",France 24 Español
+https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="TV5MondeStyle.fr@SD" tvg-name="TV5Monde Style" tvg-country="FR" tvg-language="French" group-title="France",TV5Monde Style
 https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
+#EXTINF:-1 tvg-id="TMA.gp@SD" tvg-name="TMA" tvg-country="GP" tvg-language="French" group-title="Guadeloupe",TMA
+http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 tvg-id="IonianTV.gr@SD" tvg-name="Ionian TV" tvg-country="GR" tvg-language="Greek" group-title="Greece",Ionian TV
 https://stream.ioniantv.gr/ionian/live_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="StarChannelInternational.gr@HD" tvg-name="Star Channel International" tvg-country="GR" tvg-language="Greek" group-title="Greece",Star Channel International
+https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
@@ -133,6 +185,8 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:-1 tvg-id="EpicBharat.in@Digital" tvg-name="Epic Bharat" tvg-country="IN" tvg-language="Hindi" group-title="India",Epic Bharat
 https://epiconvh.akamaized.net/live/nazara/master.m3u8
+#EXTINF:-1 tvg-id="GuaranteeNews.in@SD" tvg-name="Guarantee News" tvg-country="IN" tvg-language="Kannada" group-title="India",Guarantee News
+https://guaranteenews.in:8443/live/gnews/index.m3u8
 #EXTINF:-1 tvg-id="IBC24.in@SD" tvg-name="IBC 24" tvg-country="IN" tvg-language="Hindi" group-title="India",IBC 24
 https://ott-prasar.ibc24.in/livestream.m3u8
 #EXTINF:-1 tvg-id="NDTVProfit.in@SD" tvg-name="NDTV Profit" tvg-country="IN" tvg-language="English" group-title="India",NDTV Profit
@@ -143,10 +197,6 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
-https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-name="Rudaw TV" tvg-country="IQ" tvg-language="Kurdish" group-title="Iraq",Rudaw TV
@@ -155,6 +205,8 @@ https://live.rudaw.net/hls/rudaw-tv/master.m3u8
 https://stream.shams.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Visir.is@SD" tvg-name="Visir" tvg-country="IS" tvg-language="Icelandic" group-title="Iceland",Visir
 https://live.visir.is/hls-live/visir.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleMia.it@SD" tvg-name="TeleMia" tvg-country="IT" tvg-language="Italian" group-title="Italy",TeleMia
+https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8
 #EXTINF:-1 tvg-name="TV2000" tvg-country="IT" tvg-language="Italian" group-title="Italy",TV2000
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-name="Arirang TV" tvg-country="KR" tvg-language="English" group-title="South Korea",Arirang TV
@@ -173,6 +225,8 @@ https://stream-live.lrt.lt/lituanica/master.m3u8
 https://stream-live.lrt.lt/opus/master.m3u8
 #EXTINF:-1 tvg-id="LRTRadijas.lt@SD" tvg-name="LRT Radijas" tvg-country="LT" tvg-language="Lithuanian" group-title="Lithuania",LRT Radijas
 https://stream-live.lrt.lt/radijas/master.m3u8
+#EXTINF:-1 tvg-id="eldoTV.lu@SD" tvg-name="eldo.TV" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",eldo.TV
+https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
 #EXTINF:-1 tvg-id="RTLGold.lu@SD" tvg-name="RTL Gold" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Gold
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLWebRadioTV.lu@SD" tvg-name="RTL Web Radio TV" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Web Radio TV
@@ -181,6 +235,8 @@ https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
 https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
 #EXTINF:-1 tvg-id="LTV7.lv@SD" tvg-name="LTV7" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",LTV7
 https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-name="Monaco Info" tvg-country="MC" tvg-language="French" group-title="Monaco",Monaco Info
+https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-id="Moldova1.md@SD" tvg-name="Moldova 1" tvg-country="MD" tvg-language="Romanian;Russian" group-title="Moldova",Moldova 1
 https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8
 #EXTINF:-1 tvg-id="Moldova2.md@SD" tvg-name="Moldova 2" tvg-country="MD" tvg-language="Romanian;Russian" group-title="Moldova",Moldova 2
@@ -193,8 +249,32 @@ https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
 https://tezaurtv.md/stream/index.m3u8
 #EXTINF:-1 tvg-id="TSV.md@SD" tvg-name="TSV" tvg-country="MD" tvg-language="Russian" group-title="Moldova",TSV
 https://tsv.md/stream/hls/tsv-online/index.m3u8
+#EXTINF:-1 tvg-id="VoceaBasarabieiTV.md@SD" tvg-name="Vocea Basarabiei TV" tvg-country="MD" tvg-language="Romanian" group-title="Moldova",Vocea Basarabiei TV
+https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
+#EXTINF:-1 tvg-id="CoolTV.mk@SD" tvg-name="Cool TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Cool TV
+https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
+#EXTINF:-1 tvg-id="FolkTV.mk@SD" tvg-name="Folk TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Folk TV
+https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+#EXTINF:-1 tvg-id="MNB.mn@SD" tvg-name="MNB" tvg-country="MN" tvg-language="Mongolian" group-title="Mongolia",MNB
+https://live.mnb.mn/hls/mnb.stream.m3u8
+#EXTINF:-1 tvg-id="MNBMongoliinMedee.mn@SD" tvg-name="MNB Mongoliin Medee" tvg-country="MN" tvg-language="Mongolian" group-title="Mongolia",MNB Mongoliin Medee
+https://live.mnb.mn/hls/mn2.stream.m3u8
+#EXTINF:-1 tvg-id="MNBSport.mn@SD" tvg-name="MNB Sport" tvg-country="MN" tvg-language="Mongolian" group-title="Mongolia",MNB Sport
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#EXTINF:-1 tvg-id="MNBWorld.mn@SD" tvg-name="MNB World" tvg-country="MN" tvg-language="English" group-title="Mongolia",MNB World
+https://live.mnb.mn/hls/mnb_world.stream.m3u8
+#EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-name="Zitata TV" tvg-country="MQ" tvg-language="French" group-title="Martinique",Zitata TV
+https://live.zitata.tv/direct-hls/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1 tvg-id="Capital21.mx@SD" tvg-name="Capital 21" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Capital 21
+https://video.cdmx.gob.mx/redes/stream.m3u8
+#EXTINF:-1 tvg-id="TVM.mz@SD" tvg-name="TVM" tvg-country="MZ" tvg-language="Portuguese" group-title="Mozambique",TVM
+https://stream.tvm.co.mz/hls/tvm/playlist.m3u8
+#EXTINF:-1 tvg-id="A1TV.nl@SD" tvg-name="A1 TV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",A1 TV
+https://stream.a1mediagroep.nl/hls/a1tv.m3u8
+#EXTINF:-1 tvg-id="BEATTV.nl@SD" tvg-name="BEATTV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",BEATTV
+https://tv.beatfm.nl/live.m3u8
 #EXTINF:-1 tvg-id="RadioNLTV.nl@SD" tvg-name="RadioNL TV" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",RadioNL TV
 https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVDrenthe.nl@SD" tvg-name="RTV Drenthe" tvg-country="NL" tvg-language="Dutch" group-title="Netherlands",RTV Drenthe
@@ -203,6 +283,10 @@ https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
 https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRain.nl@SD" tvg-name="TV Rain" tvg-country="NL" tvg-language="Russian" group-title="Netherlands",TV Rain
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+#EXTINF:-1 tvg-id="WairarapaTV.nz@SD" tvg-name="Wairarapa TV" tvg-country="NZ" tvg-language="English" group-title="New Zealand",Wairarapa TV
+https://stream.wairarapatv.co.nz/Broadband_High/playlist.m3u8
+#EXTINF:-1 tvg-id="MilenialTV.pe@SD" tvg-name="Milenial TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",Milenial TV
+https://www.milenial.news/salida/milenial.m3u8
 #EXTINF:-1 tvg-id="ONDADIGITAL.pe@SD" tvg-name="ONDA DIGITAL" tvg-country="PE" tvg-language="Spanish" group-title="Peru",ONDA DIGITAL
 https://tv.ondadigital.pe/ondadigital/index.m3u8
 #EXTINF:-1 tvg-id="Trivu.pe@SD" tvg-name="Trivu" tvg-country="PE" tvg-language="Spanish" group-title="Peru",Trivu
@@ -211,6 +295,8 @@ https://stream2.trivutv.com/memfs/1bc8358a-665e-4bc1-a580-e4fcb54b5103.m3u8
 https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-name="Al Najah News" tvg-country="PS" tvg-language="Arabic" group-title="Palestine",Al Najah News
 https://streaming.najah.edu:8443/hls/AlNajah.m3u8
+#EXTINF:-1 tvg-id="Canal5TVMax.py@SD" tvg-name="Canal 5 TV Max" tvg-country="PY" tvg-language="Spanish" group-title="Paraguay",Canal 5 TV Max
+https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8
 #EXTINF:-1 tvg-id="ParaguayTV.py@SD" tvg-name="Paraguay TV" tvg-country="PY" tvg-language="Spanish" group-title="Paraguay",Paraguay TV
 https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera Arabic" tvg-country="QA" tvg-language="Arabic" group-title="Qatar",Al Jazeera Arabic
@@ -219,6 +305,18 @@ https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher.qa@SD" tvg-name="Al Jazeera Mubasher" tvg-country="QA" tvg-language="Arabic" group-title="Qatar",Al Jazeera Mubasher
 https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+#EXTINF:-1 tvg-id="DottoTV.ro@SD" tvg-name="Dotto TV" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Dotto TV
+https://live.dottotv.ro/index.m3u8
+#EXTINF:-1 tvg-id="EMITV.ro@SD" tvg-name="EMI TV" tvg-country="RO" tvg-language="Romanian" group-title="Romania",EMI TV
+https://astra.emitv.ro/hls/emi/index.m3u8
+#EXTINF:-1 tvg-id="ImpactTVDance.ro@SD" tvg-name="Impact TV Dance" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Impact TV Dance
+https://online.tvimpact.live/hls/dancetv.m3u8
+#EXTINF:-1 tvg-id="ImpactTVManele.ro@SD" tvg-name="Impact TV Manele" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Impact TV Manele
+https://online.tvimpact.live/hls/impact_tv.m3u8
+#EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-name="Tele7ABC HD" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Tele7ABC HD
+https://live.tele7abc.ro/hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="TequilaMusicTV.ro@SD" tvg-name="Tequila Music TV" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Tequila Music TV
+https://stream.tequilamusic.net/hls/tequila_tv.m3u8
 #EXTINF:-1 tvg-id="TVR1.ro" tvg-name="TVR 1" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR 1
 https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVR2.ro" tvg-name="TVR 2" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR 2
@@ -229,6 +327,10 @@ https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRInternational.ro" tvg-name="TVR International" tvg-country="RO" tvg-language="Romanian" group-title="Romania",TVR International
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTVNoviPazar.rs@SD" tvg-name="RTV Novi Pazar" tvg-country="RS" tvg-language="Serbian" group-title="Serbia",RTV Novi Pazar
+https://tv.rtvnp.rs/stream.m3u8
+#EXTINF:-1 tvg-id="86.ru@SD" tvg-name="86" tvg-country="RU" tvg-language="Russian" group-title="Russia",86
+https://sitv.ru/hls/s86.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru@SD" tvg-name="Astrahan.Ru Sport" tvg-country="RU" tvg-language="Russian" group-title="Russia",Astrahan.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuTV.ru@SD" tvg-name="Astrahan.Ru TV" tvg-country="RU" tvg-language="Russian" group-title="Russia",Astrahan.Ru TV
@@ -243,6 +345,8 @@ http://stream0.tv41.ru/live.m3u8
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-name="Asharq News" tvg-country="SA" tvg-language="Arabic" group-title="Saudi Arabia",Asharq News
 https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-name="Dabanga TV" tvg-country="SD" tvg-language="Arabic" group-title="Sudan",Dabanga TV
+https://hls.dabangasudan.org/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CharoenCable37TV.th@SD" tvg-name="Charoen Cable 37 TV" tvg-country="TH" tvg-language="Thai" group-title="Thailand",Charoen Cable 37 TV
 http://www5.cabletv.co.th/StreamToCTV/cablechannel/playlist.m3u8
 #EXTINF:-1 tvg-id="DLTV1.th@SD" tvg-name="DLTV 1" tvg-country="TH" tvg-language="Thai;English" group-title="Thailand",DLTV 1
@@ -285,6 +389,8 @@ https://tv.elyssatv.com/live/master.m3u8
 https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GZT.tr@SD" tvg-name="GZT" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",GZT
 https://gzttv-live.lg.mncdn.com/gzttv-live/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-name="Ilke TV" tvg-country="TR" tvg-language="Turkish;Kurdish" group-title="Turkiye",Ilke TV
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="Power Dance" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",Power Dance
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-name="Power TV" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",Power TV
@@ -317,8 +423,14 @@ https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BizzTV.tt@SD" tvg-name="Bizz TV" tvg-country="TT" tvg-language="English" group-title="Trinidad and Tobago",Bizz TV
 https://stream.bizzmedia.biz/bizz_tv/index.m3u8
+#EXTINF:-1 tvg-id="BBSTV.ug@SD" tvg-name="BBS TV" tvg-country="UG" tvg-language="Ganda" group-title="Uganda",BBS TV
+https://bbstv.ug/hls/ch01/index.m3u8
+#EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-name="IraneFarda TV" tvg-country="UK" tvg-language="Persian" group-title="United Kingdom",IraneFarda TV
+https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
 https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
+#EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-name="Avang TV" tvg-country="US" tvg-language="Persian" group-title="United States",Avang TV
+https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Originals
 https://bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 tvg-id="BotflixRadioo.us@HD" tvg-name="Botflix Radioo" tvg-country="US" tvg-language="English" group-title="United States",Botflix Radioo
@@ -329,6 +441,10 @@ https://hls.botflix.tv/tv/index.m3u8
 https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 #EXTINF:-1 tvg-id="CloudflareTV.us@SD" tvg-name="Cloudflare TV" tvg-country="US" tvg-language="English" group-title="United States",Cloudflare TV
 https://cloudflare.tv/hls/live.m3u8
+#EXTINF:-1 tvg-id="DCCouncilHearingRoom120.us@SD" tvg-name="DC Council Hearing Room 120" tvg-country="US" tvg-language="English" group-title="United States",DC Council Hearing Room 120
+https://video.oct.dc.gov/out/u/97_12.m3u8
+#EXTINF:-1 tvg-id="DCC.us@SD" tvg-name="DCC" tvg-country="US" tvg-language="English" group-title="United States",DCC
+https://video.oct.dc.gov/out/u/15_12.m3u8
 #EXTINF:-1 tvg-id="DistrictofColumbiaNetwork.us@SD" tvg-name="District of Columbia Network" tvg-country="US" tvg-language="English" group-title="United States",District of Columbia Network
 https://video.oct.dc.gov/out/u/DCN.m3u8
 #EXTINF:-1 tvg-id="DKN.us@SD" tvg-name="DKN" tvg-country="US" tvg-language="English" group-title="United States",DKN
