@@ -1,29 +1,35 @@
 {
  "counters": {
-  "metadata_read": 60,
+  "metadata_read": 89,
   "rejected": {
-   "adult-screening": 5,
-   "no-open-licence": 181
+   "adult-screening": 10,
+   "no-open-licence": 294
   },
   "searched_pages": 4,
-  "seen": 247
+  "seen": 404
  },
- "last_run": "2026-10-28T04:22:06Z",
+ "last_run": "2026-10-29T07:54:42Z",
  "schema": 1,
  "views": {
   "SciFi_Horror|cc": {
    "done": false,
-   "found": 0,
-   "page": 1,
-   "rejected": {},
-   "seen": 0
+   "found": 383,
+   "page": 2,
+   "rejected": {
+    "adult-screening": 5,
+    "no-open-licence": 141
+   },
+   "seen": 200
   },
   "SciFi_Horror|rights": {
-   "done": false,
-   "found": 0,
+   "done": true,
+   "done_at": "2026-10-29T07:54:42Z",
+   "found": 4,
    "page": 1,
-   "rejected": {},
-   "seen": 0
+   "rejected": {
+    "no-open-licence": 2
+   },
+   "seen": 4
   },
   "classic_cartoons|cc": {
    "done": false,
@@ -54,7 +60,8 @@
    "seen": 0
   },
   "comedy_films|cc": {
-   "done": false,
+   "done": true,
+   "done_at": "2026-10-29T07:54:42Z",
    "found": 0,
    "page": 1,
    "rejected": {},
@@ -70,12 +77,12 @@
   "feature_films|cc": {
    "done": false,
    "found": 9126,
-   "page": 2,
+   "page": 3,
    "rejected": {
-    "adult-screening": 2,
-    "no-open-licence": 170
+    "adult-screening": 7,
+    "no-open-licence": 321
    },
-   "seen": 200
+   "seen": 400
   },
   "feature_films|rights": {
    "done": true,
