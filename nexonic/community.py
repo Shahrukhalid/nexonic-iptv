@@ -922,6 +922,8 @@ class CommunityPlan:
     files: dict = field(default_factory=dict)  # rel path -> content
     index: list = field(default_factory=list)
     stats: dict = field(default_factory=dict)
+    # merge_into_main: main playlist path -> (kind, key, name, entries) of verified streams to add to it
+    merge: dict = field(default_factory=dict)
 
 
 def _entry(ev: Evaluated, group: str, bucket: str | None) -> m3u.Entry:
@@ -991,15 +993,16 @@ def plan_community(
     def country_name(e: Evaluated) -> str:
         return cn[e.stream.cc]["name"]
 
-    add(
-        "playlists/community/verified.m3u",
-        "community-verified",
-        "verified",
-        f"Community verified (worked at the latest check, within {cfg.verified_days} days)",
-        verified,
-        country_name,
-        "community",
-    )
+    if not cfg.merge_into_main:
+        add(
+            "playlists/community/verified.m3u",
+            "community-verified",
+            "verified",
+            f"Community verified (worked at the latest check, within {cfg.verified_days} days)",
+            verified,
+            country_name,
+            "community",
+        )
     add(
         "playlists/community/untested.m3u",
         "community-untested",
@@ -1009,6 +1012,11 @@ def plan_community(
         lambda e: f"Untested | {country_name(e)}",
         "community",
     )
+
+    if cfg.merge_into_main:
+        _plan_merge(plan, verified, cn)
+        _finish_stats(plan, catalog, streams, removed, ref, evaluated, published, cfg, cn)
+        return plan
 
     pool = published if cfg.untested_in_dimension_playlists else verified
 
@@ -1056,6 +1064,11 @@ def plan_community(
             "community",
         )
 
+    _finish_stats(plan, catalog, streams, removed, ref, evaluated, published, cfg, cn)
+    return plan
+
+
+def _finish_stats(plan, catalog, streams, removed, ref, evaluated, published, cfg, cn) -> None:
     states = Counter(e.state for e in evaluated)
     life = Counter(e.lifecycle.state.value for e in evaluated)
     never = sum(1 for e in evaluated if e.last_checked is None)
@@ -1080,4 +1093,54 @@ def plan_community(
         ],
         "build_report": catalog.get("report"),
     }
-    return plan
+    plan.stats["merged_into_main"] = bool(cfg.merge_into_main)
+
+
+def _plan_merge(plan: CommunityPlan, verified: list[Evaluated], cn: dict) -> None:
+    """Verified streams for the main playlists, grouped the same way as the official ones."""
+
+    def country_name(e: Evaluated) -> str:
+        return cn[e.stream.cc]["name"]
+
+    def put(rel: str, kind: str, key: str, name: str, evs: list[Evaluated], group_fn) -> None:
+        if evs:
+            plan.merge[rel] = (kind, key, name, [_entry(e, group_fn(e), _bucket(e)) for e in evs])
+
+    put("playlists/all.m3u", "global", "all", "All channels", verified, country_name)
+    put("playlists/verified.m3u", "verified", "verified", "Nexonic Verified", verified, country_name)
+    for code in sorted({e.stream.cc for e in verified}):
+        put(
+            f"playlists/countries/{code}.m3u",
+            "country",
+            code,
+            cn[code]["name"],
+            [e for e in verified if e.stream.cc == code],
+            lambda e: CATEGORIES[e.stream.ct[0]],
+        )
+    for lang in sorted({lg for e in verified for lg in e.stream.lg}):
+        put(
+            f"playlists/languages/{lang}.m3u",
+            "language",
+            lang,
+            LANGUAGES[lang],
+            [e for e in verified if lang in e.stream.lg],
+            country_name,
+        )
+    for cat in sorted({c for e in verified for c in e.stream.ct}):
+        put(
+            f"playlists/categories/{cat}.m3u",
+            "category",
+            cat,
+            CATEGORIES[cat],
+            [e for e in verified if cat in e.stream.ct],
+            country_name,
+        )
+    for b in QUALITY_BUCKETS:
+        put(
+            f"playlists/quality/{b}.m3u",
+            "quality",
+            b,
+            f"Measured {BUCKET_LABELS[b]}",
+            [e for e in verified if _bucket(e) == b],
+            country_name,
+        )

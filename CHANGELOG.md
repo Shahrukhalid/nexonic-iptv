@@ -1,6 +1,11 @@
 # Changelog
 
 ## Unreleased
+- One playlist with everything that works: verified streams from public lists are now added to `all.m3u`,
+  `verified.m3u` and the country, language, category and quality playlists, after the official channels
+  (`community.merge_into_main`). Each such entry keeps `x-tier="community"` and is validated by the community rules.
+  Streams not checked yet stay in `playlists/community/untested.m3u`. `all.m3u` grows from 556 to 4,349 channels in
+  159 countries. The README and website numbers now count the whole playlist.
 - Pipeline (#4): channel lifecycle states (`working`, `intermittent`, `unreachable`, `invalid`, `restricted`,
   `unknown`), quarantine of repeatedly failing channels with automatic restore, a publication guard in
   `scripts/validate.py`, a daily change report (`reports/changes.md`, `reports/changes.json`), settings in

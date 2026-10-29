@@ -31,12 +31,15 @@ class GuardResult:
 
 
 def counts_from_index(index: dict) -> dict[str, int]:
+    """Official channel counts. Community streams merged into the same files (the "community" field of a row) are
+    left out: they are checked by their own rules and rotate daily, while the guard protects the official tier."""
     out = {"published": 0, "verified": 0}
     for item in index.get("playlists", []):
+        official = item["count"] - int(item.get("community", 0) or 0)
         if item.get("kind") == "global":
-            out["published"] = item["count"]
+            out["published"] = official
         elif item.get("kind") == "verified":
-            out["verified"] = item["count"]
+            out["verified"] = official
     return out
 
 

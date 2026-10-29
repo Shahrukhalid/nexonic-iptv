@@ -87,12 +87,24 @@ export function fmtTime(iso: string | null | undefined): string {
   return `${iso.slice(0, 10)} ${iso.slice(11, 16)} UTC`;
 }
 
+function flagOf(code: string): string {
+  const cc = (code === "uk" ? "gb" : code).toUpperCase();
+  return /^[A-Z]{2}$/.test(cc) ? String.fromCodePoint(...[...cc].map((ch) => 0x1f1e6 + ch.charCodeAt(0) - 65)) : "";
+}
+
+/** Every country with a playlist; the count is the whole country playlist (official plus checked public-list streams). */
 export function countries() {
   const map = new Map<string, { code: string; name: string; flag: string; count: number }>();
   for (const c of channels) {
     const e = map.get(c.country) ?? { code: c.country, name: c.country_name, flag: c.flag, count: 0 };
     e.count++;
     map.set(c.country, e);
+  }
+  for (const p of playlists) {
+    if (p.kind !== "country") continue;
+    const e = map.get(p.key) ?? { code: p.key, name: p.name, flag: flagOf(p.key), count: 0 };
+    e.count = Math.max(e.count, p.count);
+    map.set(p.key, e);
   }
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name));
 }

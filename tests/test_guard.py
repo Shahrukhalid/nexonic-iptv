@@ -122,3 +122,15 @@ def test_validate_main_exit_code_follows_the_guard(n, monkeypatch, tmp_path):
         assert validate.main() == (0 if n else 1)
     finally:
         (root / "reports" / "validation.json").write_bytes(keep)
+
+
+def test_merged_community_streams_do_not_count_as_official_additions():
+    base = {"playlists": [{"kind": "global", "count": 500}, {"kind": "verified", "count": 450}]}
+    merged = {
+        "playlists": [
+            {"kind": "global", "count": 4300, "community": 3800},
+            {"kind": "verified", "count": 4250, "community": 3800},
+        ]
+    }
+    assert guard.counts_from_index(merged) == {"published": 500, "verified": 450}
+    assert guard.evaluate(base, merged, CFG, override=False).ok

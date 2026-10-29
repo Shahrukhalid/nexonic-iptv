@@ -176,6 +176,7 @@ class CommunityConfig:
     # Playlists
     verified_days: int = 7  # verified.m3u: the stream worked at its latest check within this many days
     untested_in_dimension_playlists: bool = True  # country/language/category/quality files also list untested streams
+    merge_into_main: bool = True  # verified community streams join the main playlists (all, verified, countries, ...)
 
 
 def _default_vod_collections() -> list[dict]:
