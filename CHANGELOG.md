@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.2.0 — 2026-10-29
 - One playlist with everything that works: verified streams from public lists are now added to `all.m3u`,
   `verified.m3u` and the country, language, category and quality playlists, after the official channels
   (`community.merge_into_main`). Each such entry keeps `x-tier="community"` and is validated by the community rules.
