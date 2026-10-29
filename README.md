@@ -36,9 +36,9 @@ Copy a playlist URL and add it as a network stream or M3U source in your player.
 
 | Playlist | URL |
 |---|---|
-| **Everything that works, in one playlist** (official channels plus checked streams from public lists) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
+| **Every working channel, in one playlist** | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
 | **Nexonic Verified** (passed a recent check) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
-| Streams from public lists that are **not checked yet** | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
+| Channels **waiting for a check** (may not work yet) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
 | Free movies and series (Internet Archive, open licences) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/vod/movies.m3u` and `.../vod/series.m3u` |
 | Channels by measured quality | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` (`4k`, `1080p`, `720p`, `sd`) |
 | One country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u` (replace `de` with a country code) |
@@ -112,9 +112,10 @@ Counts above are official channels; each country playlist also lists the verifie
 
 ## Features
 
-- **Three separate tiers:** *Official* channels (above), a *Community* live tier from public lists, and *Free VOD* from
-  open collections. Community streams are labelled untested until a check has succeeded, and are never mixed with the
-  official numbers. See [docs/TIERS.md](docs/TIERS.md) for the rules, legal notes and takedown path.
+- **One playlist with everything that works:** channels researched or auto-admitted from broadcasters' own domains,
+  plus streams from public, openly licensed lists, all checked automatically. A channel joins the playlists after its
+  first successful check and leaves while it is failing. Free films and series from open collections are in
+  `playlists/vod/`. See [docs/TIERS.md](docs/TIERS.md) for the source rules, legal notes and takedown path.
 - **Official tier, official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
 - **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
