@@ -178,9 +178,9 @@ python scripts/generate.py     # rebuild playlists, reports and the numbers abov
 
 ## Roadmap
 
-- Confirm every evidence page by hand (`source.evidence_checked`) and grow coverage country by country.
-- Optional EPG URL in the playlist header once a suitable openly licensed guide source is chosen.
-- Per-channel history charts on the status page.
+- [ ] Confirm every evidence page by hand (`source.evidence_checked`) and grow coverage country by country.
+- [ ] Optional EPG URL in the playlist header once a suitable openly licensed guide source is chosen.
+- [ ] Per-channel history charts on the status page.
 
 ## FAQ
 
