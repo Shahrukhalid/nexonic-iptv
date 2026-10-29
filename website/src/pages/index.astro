@@ -41,18 +41,18 @@ const jsonLd = [
   <section aria-labelledby="stats-h">
     <h2 id="stats-h" class="sr-only">Project numbers</h2>
     <div class="grid cols-4">
-      <div class="card stat"><div class="n">{stats.published_channels}</div><div class="l">approved channels</div></div>
-      <div class="card stat"><div class="n">{stats.countries}</div><div class="l">countries</div></div>
-      <div class="card stat"><div class="n">{stats.verified_playlist_channels}</div><div class="l">verified in the last 48 h</div></div>
+      <div class="card stat"><div class="n">{all ? all.count : stats.published_channels}</div><div class="l">channels in one playlist</div></div>
+      <div class="card stat"><div class="n">{cs.length}</div><div class="l">countries</div></div>
+      <div class="card stat"><div class="n">{verified ? verified.count : stats.verified_playlist_channels}</div><div class="l">verified working</div></div>
       <div class="card stat"><div class="n" style="font-size:1.1rem;padding-top:.6rem">{latestRun ? fmtTime(latestRun.finished_at) : "Not yet run"}</div><div class="l">latest verification run</div></div>
     </div>
   </section>
 
   <h2>Start watching</h2>
   <div class="grid cols-2">
-    {all && <PlaylistCard title="Global playlist" path={all.path} count={all.count} description="every approved channel" feature />}
+    {all && <PlaylistCard title="Global playlist" path={all.path} count={all.count} description="every channel that works: official plus checked streams from public lists" feature />}
     {verified ? (
-      <PlaylistCard title="Nexonic Verified" path={verified.path} count={verified.count} description="worked in the last 48 hours" feature />
+      <PlaylistCard title="Nexonic Verified" path={verified.path} count={verified.count} description="passed a recent live check" feature />
     ) : (
       <article class="card">
         <h3>Nexonic Verified</h3>

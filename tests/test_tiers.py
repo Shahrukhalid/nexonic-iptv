@@ -85,6 +85,8 @@ def test_readme_tier_rows_state_untested_honestly(dataset, record):
     rows = "\n".join(generate.tier_rows(p))
     assert "| Community live streams | 7 | 2 | 5 (untested) |" in rows
     assert "| 7 |" in rows
+    total = len(p.published) + 7 + 7
+    assert f"| **All tiers** | **{total}** | **{len(p.verified_ids) + 2}** | |" in rows
 
 
 def raw_cfg():

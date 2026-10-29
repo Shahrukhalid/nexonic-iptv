@@ -36,11 +36,11 @@ Copy a playlist URL and add it as a network stream or M3U source in your player.
 
 | Playlist | URL |
 |---|---|
-| All approved channels | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
-| **Nexonic Verified** (passed a check in the last 48 hours) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
-| Community live streams, **untested** unless in the verified list | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` and `.../community/verified.m3u` |
+| **Everything that works, in one playlist** (official channels plus checked streams from public lists) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
+| **Nexonic Verified** (passed a recent check) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Streams from public lists that are **not checked yet** | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
 | Free movies and series (Internet Archive, open licences) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/vod/movies.m3u` and `.../vod/series.m3u` |
-| Official channels by measured quality | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` (`4k`, `1080p`, `720p`, `sd`) |
+| Channels by measured quality | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` (`4k`, `1080p`, `720p`, `sd`) |
 | One country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u` (replace `de` with a country code) |
 | One language | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u` (replace `ar` with a language code) |
 | One category | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` (replace `news` with a category) |

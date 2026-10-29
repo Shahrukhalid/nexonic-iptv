@@ -78,6 +78,7 @@ def build(root: Path) -> int:
         cfg.community,
     )
     generate.extend(plan, "community", cplan.files, cplan.index, cplan.stats)
+    generate.merge_main(plan, cplan.merge)
     vplan = vod.plan_vod(vod.load_items(), exclusions, cfg.vod, vod.load_progress())
     generate.extend(plan, "vod", vplan.files, vplan.index, vplan.stats)
     current = changes.build_snapshot(records, plan, state.get("current"))

@@ -9,11 +9,13 @@ mixed in one playlist or one number.
 | Source | `data/approved/` (curated and auto-admitted by owner domain) | iptv-org/iptv streams, iptv-org/database, the extra M3U lists in `config/pipeline.toml` | Internet Archive collections (public domain or Creative Commons items) |
 | Authorization basis | Evidence that the rights holder publishes it | None. The stream is listed because it is in a public list and passes the filters below | The item's recorded licence |
 | Verification | Daily, every channel, multi-level | Rotating budgeted slice per day; a stream is **verified** only after a check succeeded | Metadata re-read from the source; the file is not downloaded |
-| Playlists | `playlists/*.m3u` | `playlists/community/` | `playlists/vod/` |
+| Playlists | `playlists/*.m3u` | verified: the same `playlists/*.m3u` files; untested: `playlists/community/untested.m3u` | `playlists/vod/` |
 | Section in reports | `official` | `community` | `vod` |
 
-The Official tier is unchanged by the other two. Community and VOD files are generated from separate state and cannot
-overwrite an official file (the generator refuses a clash).
+Verified community streams are added to the main playlists (`all.m3u`, `verified.m3u` and the country, language,
+category and quality files) after the official channels, so one playlist holds everything that works
+(`community.merge_into_main`). They carry `x-tier="community"` and are validated by the community rules below; official
+entries keep the official rules. Untested and failing community streams never appear in the main playlists.
 
 ## Official
 
@@ -40,14 +42,15 @@ are normalised to the project's set. A logo is used only when the iptv-org datab
 ### What "verified" and "untested" mean
 
 - **Verified**: the latest check of the stream worked, within `community.verified_days` (7), or it worked recently and
-  failed only once without being quarantined. Listed in `playlists/community/verified.m3u`.
+  failed only once without being quarantined. Added to the main playlists.
 - **Untested**: never checked, last check too old, inconclusive, or only reachable from some regions. Listed in
   `playlists/community/untested.m3u` with the group `Untested | <Country>`. These streams have **not** been confirmed
   working and are never described as working.
 - **Failing**: the last check failed. Held back from every playlist until a later check succeeds.
 
-Country, language, category and quality playlists under `playlists/community/` label each entry `| Verified` or
-`| Untested` in its group (`x-status` attribute) and carry `x-tier="community"`.
+In the main playlists every community entry carries `x-tier="community"` and `x-status="verified"`. With
+`merge_into_main = false` the old layout returns: separate files under `playlists/community/` that label each entry
+`| Verified` or `| Untested`.
 
 ### Daily validation
 

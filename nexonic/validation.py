@@ -164,7 +164,21 @@ def collect(base: Path = ROOT) -> dict:
         if tier != "official":
             tiers.check(tier, rel, entries, errors)
         else:
+            merged = [e for e in entries if e.attrs.get("x-tier") == "community"]
+            if merged:
+                tiers.check("community", rel, merged, errors)
+                bad_status = [e.url for e in merged if e.attrs.get("x-status") != "verified"]
+                for url in bad_status:
+                    errors.append(
+                        {
+                            "stage": "community-tier",
+                            "file": rel,
+                            "error": f"unverified stream in a main playlist: {url}",
+                        }
+                    )
             for e, u in zip(entries, urls, strict=True):
+                if e.attrs.get("x-tier") == "community":
+                    continue
                 if u in blocked_urls:
                     errors.append(
                         {"stage": "exclusion", "file": rel, "error": f"pending/rejected URL published: {e.url}"}

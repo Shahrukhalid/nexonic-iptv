@@ -139,6 +139,8 @@ intermittent_window_days = 14
 # Playlists
 verified_days = 7                 # verified.m3u: the stream worked at its latest check within this many days
 untested_in_dimension_playlists = true   # country/language/category/quality files also list untested streams, labelled
+merge_into_main = true            # verified community streams are added to the main playlists, so one playlist has
+                                  # everything that works; untested streams stay in playlists/community/untested.m3u
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Free VOD tier (nexonic/vod.py, docs/TIERS.md): Internet Archive items that record public domain or an open CC licence.

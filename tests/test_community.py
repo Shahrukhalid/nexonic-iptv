@@ -3,6 +3,7 @@ playlist output. All network access is mocked or replaced by local files."""
 
 import asyncio
 import csv
+import dataclasses
 import datetime as dt
 import json
 from pathlib import Path
@@ -784,9 +785,24 @@ def test_verified_window_is_configurable():
 
 
 # --------------------------------------------------------------------------------------------------------- playlists
-def planned(streams, history, cfg=None, exclusions=None):
+def planned(streams, history, cfg=None, exclusions=None, merge=False):
+    """The separate community layout unless merge=True (merge_into_main, the default in config)."""
     cat = {"schema": 1, "built_at": iso(NOW), "columns": c.COLUMNS, "streams": [list(x) for x in streams]}
-    return c.plan_community(cat, history, c.OfficialContext(), exclusions or c.Exclusions(), cfg or CommunityConfig())
+    cfg = dataclasses.replace(cfg or CommunityConfig(), merge_into_main=merge)
+    return c.plan_community(cat, history, c.OfficialContext(), exclusions or c.Exclusions(), cfg)
+
+
+def test_merge_into_main_puts_only_verified_streams_in_the_main_playlists():
+    s = [stream(0, cc="de"), stream(1, cc="de"), stream(2, cc="fr")]
+    history = {s[0].id: rows(({"hours": 2}, "W")), s[2].id: rows(({"hours": 2}, "U"))}
+    p = planned(s, history, merge=True)
+    assert set(p.files) == {"playlists/community/untested.m3u"}
+    assert {e.url for e in m3u.parse(p.files["playlists/community/untested.m3u"])} == {s[1].url}
+    kind, key, _, entries = p.merge["playlists/all.m3u"]
+    assert (kind, key) == ("global", "all") and [e.url for e in entries] == [s[0].url]
+    assert all(e.attrs["x-tier"] == "community" and e.attrs["x-status"] == "verified" for e in entries)
+    assert "playlists/countries/de.m3u" in p.merge and "playlists/countries/fr.m3u" not in p.merge
+    assert p.stats["merged_into_main"] is True
 
 
 def test_verified_untested_and_failing_are_kept_apart():
