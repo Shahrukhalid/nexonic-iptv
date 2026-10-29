@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-10-29T07:47:28Z",
-  "baseline_reference_time": "2026-10-28T09:45:23Z",
+  "reference_time": "2026-10-29T10:03:23Z",
+  "baseline_reference_time": "2026-10-29T07:47:28Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 557,
-    "verified_playlist": 492,
-    "excluded": 196,
+    "published": 556,
+    "verified_playlist": 495,
+    "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 155,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
-    "new_published": 1,
-    "updated": 2,
+    "new_published": 0,
+    "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 5,
-    "newly_quarantined": 6,
-    "restored": 2,
+    "newly_failing": 1,
+    "newly_quarantined": 0,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 97,
-    "restricted": 44,
+    "intermittent": 94,
+    "restricted": 43,
     "unknown": 6,
-    "unreachable": 14,
-    "working": 396
+    "unreachable": 11,
+    "working": 402
   },
   "latest_run": {
-    "run_id": "run-20261029T074128Z",
-    "started_at": "2026-10-29T07:41:28Z",
-    "finished_at": "2026-10-29T07:47:28Z",
+    "run_id": "run-20261029T095713Z",
+    "started_at": "2026-10-29T09:57:13Z",
+    "finished_at": "2026-10-29T10:03:23Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 31,
-      "UNAVAILABLE": 138,
-      "UNKNOWN": 51,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 115,
+      "UNKNOWN": 52,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 459
+      "VERIFIED_WORKING": 483
     }
   },
   "discovery": {
@@ -67,129 +67,43 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 299,
+    "playlist_files": 298,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "6 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
-    "new_published": [
-      {
-        "id": "television-caribe-us",
-        "name": "Television Caribe",
-        "country": "us"
-      }
-    ],
-    "updated": [
-      {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "fields": [
-          "broadcaster"
-        ],
-        "url_changed": false
-      },
-      {
-        "id": "nanduti-py",
-        "name": "Nanduti",
-        "country": "py",
-        "fields": [
-          "broadcaster"
-        ],
-        "url_changed": false
-      }
-    ],
+    "new_published": [],
+    "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "cctv-1-cn",
-        "name": "CCTV+ 1",
-        "country": "cn",
-        "state": "unreachable",
-        "error": "segment: HTTP 404 (stream not found)"
-      },
-      {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "mtv-guyana-gy",
-        "name": "MTV Guyana",
-        "country": "gy",
-        "state": "unreachable",
-        "error": "no response within 10s"
-      },
-      {
-        "id": "nopola-news-fi",
-        "name": "Nopola News",
-        "country": "fi",
-        "state": "unreachable",
-        "error": "variant playlist: HTTP 404 (stream not found)"
-      },
-      {
-        "id": "trt-1",
-        "name": "TRT 1",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "segment: HTTP 400"
       }
     ],
-    "newly_quarantined": [
-      {
-        "id": "a2-cnn-al",
-        "name": "A2 CNN",
-        "country": "al",
-        "since": "2026-10-29T07:41:28Z"
-      },
+    "newly_quarantined": [],
+    "restored": [
       {
         "id": "cctv-1-cn",
         "name": "CCTV+ 1",
         "country": "cn",
-        "since": "2026-10-29T07:41:58Z"
+        "restored_at": "2026-10-29T09:57:45Z"
       },
       {
         "id": "das-erste",
         "name": "Das Erste",
         "country": "de",
-        "since": "2026-10-29T07:44:44Z"
+        "restored_at": "2026-10-29T10:00:40Z"
       },
       {
-        "id": "mtv-guyana-gy",
-        "name": "MTV Guyana",
-        "country": "gy",
-        "since": "2026-10-29T07:42:33Z"
-      },
-      {
-        "id": "nopola-news-fi",
-        "name": "Nopola News",
-        "country": "fi",
-        "since": "2026-10-29T07:42:27Z"
-      },
-      {
-        "id": "trt-1",
-        "name": "TRT 1",
-        "country": "tr",
-        "since": "2026-10-29T07:45:00Z"
-      }
-    ],
-    "restored": [
-      {
-        "id": "arica-tv-cl",
-        "name": "Arica TV",
-        "country": "cl",
-        "restored_at": "2026-10-29T07:41:54Z"
-      },
-      {
-        "id": "gunaz-tv-us",
-        "name": "GunAz TV",
-        "country": "us",
-        "restored_at": "2026-10-29T07:44:28Z"
+        "id": "parlamento-de-navarra-es",
+        "name": "Parlamento de Navarra",
+        "country": "es",
+        "restored_at": "2026-10-29T09:58:19Z"
       }
     ],
     "removed": []
@@ -198,42 +112,42 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 557,
-      "verified": 492,
-      "not_verified": 65,
+      "published": 556,
+      "verified": 495,
+      "not_verified": 61,
       "with_measured_quality": 479,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 241,
         "4k": 1,
-        "720p": 174,
+        "720p": 173,
         "sd": 64
       }
     },
     "community": {
-      "published": 5236,
-      "verified": 3806,
-      "untested": 1430,
-      "held_back_after_failed_check": 1976,
-      "never_checked": 994,
+      "published": 5193,
+      "verified": 3808,
+      "untested": 1385,
+      "held_back_after_failed_check": 2019,
+      "never_checked": 954,
       "catalog_streams": 7212,
       "catalog_built_at": "2026-10-29T07:47:37Z",
       "verified_days": 7,
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 158,
-        "invalid": 235,
-        "restricted": 190,
-        "unknown": 1249,
-        "unreachable": 1730,
-        "working": 3650
+        "intermittent": 200,
+        "invalid": 274,
+        "restricted": 188,
+        "unknown": 1206,
+        "unreachable": 1734,
+        "working": 3610
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1240
+          "streams": 1219
         },
         {
           "code": "in",
@@ -243,12 +157,12 @@
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 307
+          "streams": 296
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 270
+          "streams": 262
         },
         {
           "code": "ru",
