@@ -13,11 +13,11 @@
 | Published channels | 556 |
 | In verified playlist | 494 |
 | Quarantined | 151 |
-| Excluded approved records | 196 |
+| Excluded approved records | 197 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 1 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 2 |
 | Duplicates removed | 0 |
 | Newly failing | 0 |
 | Newly quarantined | 0 |
@@ -63,23 +63,34 @@ Nothing.
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
+| admitted | 600 |
+| aggregator-host | 972 |
+| already-curated | 477 |
+| closed | 93 |
+| excluded-category | 1150 |
+| host-not-owned-by-broadcaster | 7042 |
 | language-not-supported | 3 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1116 |
+| no-database-entry | 2097 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 607 |
+| streams | 18401 |
+| subscription-service | 96 |
+| url-policy | 4077 |
+
+## New candidates discovered (not published) (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Television Caribe (`television-caribe-us`) | us | record: approved, kind: awaiting-first-check |
+
+## Channels updated (metadata or URL) (2)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Farra Play (`farra-play-py`) | py | fields: ['broadcaster'], url_changed: False |
+| Nanduti (`nanduti-py`) | py | fields: ['broadcaster'], url_changed: False |
 
 ## Restored (verified again after quarantine) (1)
 

@@ -20561,7 +20561,7 @@
   {
    "id": "farra-play-py",
    "name": "Farra Play",
-   "broadcaster": "Farra Play",
+   "broadcaster": "Grupo JBB",
    "country": "py",
    "country_name": "Paraguay",
    "flag": "🇵🇾",
@@ -20600,7 +20600,7 @@
    "quarantined": false,
    "restored_at": "2026-10-27T09:01:21Z",
    "last_validated": "2026-10-28T09:41:42Z",
-   "last_metadata_update": "2026-10-17",
+   "last_metadata_update": "2026-10-28",
    "provenance": {
     "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/py.m3u",
     "evidence_url": "http://www.farra.com.py/",
@@ -20609,13 +20609,13 @@
     "discovery_method": "automated-domain-match",
     "first_discovered": "2026-10-17",
     "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
+    "reviewed_at": "2026-10-29"
    }
   },
   {
    "id": "nanduti-py",
    "name": "Nanduti",
-   "broadcaster": "Nanduti",
+   "broadcaster": "Grupo Espínola",
    "country": "py",
    "country_name": "Paraguay",
    "flag": "🇵🇾",
@@ -20654,7 +20654,7 @@
    "quarantined": false,
    "restored_at": null,
    "last_validated": "2026-10-28T09:41:42Z",
-   "last_metadata_update": "2026-10-17",
+   "last_metadata_update": "2026-10-28",
    "provenance": {
     "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/py.m3u",
     "evidence_url": "https://nanduti.com.py/nanduti-tv/",
@@ -20663,7 +20663,7 @@
     "discovery_method": "automated-domain-match",
     "first_discovered": "2026-10-17",
     "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
+    "reviewed_at": "2026-10-29"
    }
   },
   {
@@ -31849,6 +31849,14 @@
     "stale: failed its last 3+ checks and has not worked for 7+ days"
    ],
    "lifecycle": "unreachable"
+  },
+  {
+   "id": "television-caribe-us",
+   "name": "Television Caribe",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ],
+   "lifecycle": "unknown"
   },
   {
    "id": "vsctv-us",
