@@ -1,3 +1,11 @@
 #EXTM3U x-nexonic-playlist="Mozambique"
 #EXTINF:-1 tvg-id="TVM.mz@SD" tvg-name="TVM" tvg-country="MZ" tvg-language="Portuguese" group-title="General",TVM
 https://stream.tvm.co.mz/hls/tvm/playlist.m3u8
+#EXTINF:-1 tvg-id="MNTV.mz@SD" tvg-name="MNTV" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="https://mntv.co.mz/wp-content/uploads/2025/11/Prancheta-4_1-1.png" group-title="Business" x-tier="community" x-status="verified" x-quality="sd",MNTV
+https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8
+#EXTINF:-1 tvg-id="ReinoInfantil.mz@SD" tvg-name="Reino Infantil" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/oAygpDw.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="sd",Reino Infantil
+https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
+#EXTINF:-1 tvg-id="TVManaMocambique.mz@SD" tvg-name="TV Mana Mocambique" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/R5YrV5s.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",TV Mana Mocambique
+https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMInternacional.mz" tvg-name="TVM Internacional" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/fRV6p50.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",TVM Internacional
+https://stream.tvm.co.mz/hls/tvmi/playlist.m3u8

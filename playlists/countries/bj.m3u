@@ -1,3 +1,7 @@
 #EXTM3U x-nexonic-playlist="Benin"
 #EXTINF:-1 tvg-id="TVCBenin.bj@SD" tvg-name="TVC Benin" tvg-country="BJ" tvg-language="French" group-title="General",TVC Benin
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="EdenTV.bj@SD" tvg-name="Eden TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/4ClnG0x.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Eden TV
+https://rtmp.edentv.bj/hls/stream.m3u8
+#EXTINF:-1 tvg-id="LeNouveauManagerTV.bj@SD" tvg-name="Le Nouveau Manager TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/pEoOtEf.jpeg" group-title="Business" x-tier="community" x-status="verified" x-quality="sd",Le Nouveau Manager TV
+https://lnmlive.com/live/lnmtv.m3u8

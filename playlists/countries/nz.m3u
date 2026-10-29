@@ -1,3 +1,9 @@
 #EXTM3U x-nexonic-playlist="New Zealand"
 #EXTINF:-1 tvg-id="WairarapaTV.nz@SD" tvg-name="Wairarapa TV" tvg-country="NZ" tvg-language="English" group-title="General",Wairarapa TV
 https://stream.wairarapatv.co.nz/Broadband_High/playlist.m3u8
+#EXTINF:-1 tvg-id="Firstlight.nz@SD" tvg-name="Firstlight" tvg-country="NZ" tvg-language="English" tvg-logo="https://i.imgur.com/gtDROeT.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",Firstlight
+https://uni01rtmp.tulix.tv/firstlight/firstlight.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TeReo.nz@SD" tvg-name="Te Reo" tvg-country="NZ" tvg-language="Maori" tvg-logo="https://i.imgur.com/3CNvYUN.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Te Reo
+https://i.mjh.nz/.r/te-reo.m3u8
+#EXTINF:-1 tvg-id="WhakaataMaori.nz@SD" tvg-name="Whakaata Maori" tvg-country="NZ" tvg-language="Maori" tvg-logo="https://i.imgur.com/oT3PrHZ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Whakaata Maori
+https://i.mjh.nz/.r/maori-tv.m3u8

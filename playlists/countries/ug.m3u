@@ -1,3 +1,17 @@
 #EXTM3U x-nexonic-playlist="Uganda"
 #EXTINF:-1 tvg-id="BBSTV.ug@SD" tvg-name="BBS TV" tvg-country="UG" tvg-language="Ganda" group-title="General",BBS TV
 https://bbstv.ug/hls/ch01/index.m3u8
+#EXTINF:-1 tvg-id="ArkTV.ug@SD" tvg-name="Ark TV" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/yCHNZXD.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Ark TV
+https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="BukeddeTV1.ug@SD" tvg-name="Bukedde TV 1" tvg-country="UG" tvg-language="Ganda" tvg-logo="https://i.imgur.com/HFq5QlJ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Bukedde TV 1
+https://stream.hydeinnovations.com/bukedde1flussonic/index.m3u8
+#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Bukedde TV 2
+https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
+#EXTINF:-1 tvg-id="KRCTV.ug@SD" tvg-name="KRC TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/8c9Uqks.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="sd",KRC TV
+https://channels.ad-ug.com/live/ch03/index.m3u8
+#EXTINF:-1 tvg-id="TayariWestTV.ug@SD" tvg-name="Tayari West TV" tvg-country="UG" tvg-language="Ganda" tvg-logo="https://i.imgur.com/tbnOtUZ.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Tayari West TV
+https://stream.hydeinnovations.com/tarari-west/index.m3u8
+#EXTINF:-1 tvg-id="TVWest.ug@SD" tvg-name="TV West" tvg-country="UG" tvg-logo="https://i.imgur.com/EiJzkIz.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TV West
+https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8
+#EXTINF:-1 tvg-id="WanLuoTV.ug@SD" tvg-name="Wan Luo TV" tvg-country="UG" tvg-logo="https://i.imgur.com/4PUUp3E.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Wan Luo TV
+https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8

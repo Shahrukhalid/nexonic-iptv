@@ -5,3 +5,11 @@ https://sb.err.ee/live/etv.m3u8
 https://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 tvg-id="ETVPlus.ee@SD" tvg-name="ETV+" tvg-country="EE" tvg-language="Russian;Estonian" group-title="Estonia",ETV+
 https://sb.err.ee/live/etvpluss.m3u8
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
+#EXTINF:-1 tvg-id="TaevasTV7.fi@SD" tvg-name="Taevas TV7" tvg-country="FI" tvg-language="Estonian" tvg-logo="https://i.imgur.com/usXedIj.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="1080p",Taevas TV7
+https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="DelfiTV.lt@SD" tvg-name="Delfi TV" tvg-country="LT" tvg-language="Estonian" tvg-logo="https://i.imgur.com/IFoHP5M.png" group-title="Lithuania" x-tier="community" x-status="verified" x-quality="1080p",Delfi TV
+https://s1.dcdn.lt/live/televizija/playlist.m3u8

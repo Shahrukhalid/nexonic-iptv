@@ -1,3 +1,37 @@
 #EXTM3U x-nexonic-playlist="Switzerland"
 #EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-name="Meteonews" tvg-country="CH" tvg-language="German" group-title="Weather",Meteonews
 https://streaming.meteonews.net/hls/stream.m3u8
+#EXTINF:-1 tvg-id="CanalAlphaJura.ch@SD" tvg-name="Canal Alpha Jura" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Canal Alpha Jura
+https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalAlphaNeuchatel.ch@SD" tvg-name="Canal Alpha Neuchatel" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Canal Alpha Neuchatel
+https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
+#EXTINF:-1 tvg-id="Carac1.ch@SD" tvg-name="Carac 1" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/TSc35U6.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Carac 1
+https://edge13.vedge.infomaniak.com/livecast/ik:event/manifest.m3u8
+#EXTINF:-1 tvg-id="Carac2.ch@SD" tvg-name="Carac 2" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/hCoIPen.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Carac 2
+https://onefmmd.vedge.infomaniak.com/livecast/ik:onefmmd/manifest.m3u8
+#EXTINF:-1 tvg-id="Carac3.ch@SD" tvg-name="Carac 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/C4e8cjt.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Carac 3
+https://lfmmd.vedge.infomaniak.com/livecast/smil:lfmmd.smil/manifest.m3u8
+#EXTINF:-1 tvg-id="Carac4.ch@SD" tvg-name="Carac 4" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/Dj5LPy3.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Carac 4
+https://edge17.vedge.infomaniak.com/livecast/ik:compack_media_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Carac5.ch@SD" tvg-name="Carac 5" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/0D4CvYp.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Carac 5
+https://lfmmd.vedge.infomaniak.com/livecast/ik:carac5/manifest.m3u8
+#EXTINF:-1 tvg-id="ImmaculataTV.ch@SD" tvg-name="Immaculata TV" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/8WsYVpt.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="720p",Immaculata TV
+https://g5nl63z8lpq6-hls-live.5centscdn.com/tvistream/a5586d8ea3b7b021120a05c60dc59876.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="MaxTV.ch@SD" tvg-name="Max TV" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/13PjEk8.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Max TV
+https://cdn.katapy.io/cache/stream/katapytv/dieu/playlist.m3u8
+#EXTINF:-1 tvg-id="MyCinemaEurope.ch@SD" tvg-name="My Cinema Europe" tvg-country="CH" tvg-language="English" tvg-logo="https://i.imgur.com/jz0d8tH.png" group-title="Movies" x-tier="community" x-status="verified" x-quality="720p",My Cinema Europe
+https://op-group1-densxvisionhd-1.dens.tv/h/h18/index.m3u8
+#EXTINF:-1 tvg-id="Radio3i.ch@SD" tvg-name="Radio 3i" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/0Kmh49G.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Radio 3i
+https://vstream-cdn.ch/hls/radio3i.m3u8
+#EXTINF:-1 tvg-id="RADIODISCOuntTV.ch@SD" tvg-name="RADIO DISCOunt TV" tvg-country="CH" tvg-language="Italian" tvg-logo="https://i.imgur.com/ScNYMmx.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",RADIO DISCOunt TV
+https://585b674743bbb.streamlock.net/9030/9030/playlist.m3u8
+#EXTINF:-1 tvg-id="SivanTV.ch@SD" tvg-name="Sivan TV" tvg-country="CH" tvg-language="Tamil" tvg-logo="https://i.ibb.co/b3HG9wm/Logo-site.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Sivan TV
+http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8
+#EXTINF:-1 tvg-id="TeleTicino.ch@SD" tvg-name="TeleTicino" tvg-country="CH" tvg-language="Italian" tvg-logo="https://i.imgur.com/u6dLKa9.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TeleTicino
+https://vstream-cdn.ch/hls/teleticino.m3u8
+#EXTINF:-1 tvg-id="TVM3.ch@SD" tvg-name="TVM 3" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/zNJlFMg.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",TVM 3
+https://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
+#EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-name="WaterBear" tvg-country="CH" tvg-language="English" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" group-title="Documentary" x-tier="community" x-status="verified" x-quality="1080p",WaterBear
+https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-id="WedoBigStories.ch@SD" tvg-name="Wedo Big Stories" tvg-country="CH" tvg-language="English" tvg-logo="https://provider-static.plex.tv/epg/cms/production/49cf6309-0a4a-4d39-bdcc-fa48e4ef84a7/WEDOBIGSTORIES_LIGHTTHEME_-_Sorin_Stoian.png" group-title="Documentary" x-tier="community" x-status="verified" x-quality="1080p",Wedo Big Stories
+https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg00735-videosolutionsa-wedobigdocs-ono/playlist.m3u8

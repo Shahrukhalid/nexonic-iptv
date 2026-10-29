@@ -5,3 +5,35 @@ https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
 https://stream.polar.cz/polar/polarlive-1/playlist.m3u8
+#EXTINF:-1 tvg-id="EbS.be@SD" tvg-name="EbS" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Ukrainian" tvg-logo="https://i.imgur.com/DIIRPNN.png" group-title="Belgium" x-tier="community" x-status="verified" x-quality="1080p",EbS
+https://streams.prd.commavservices.eu/live/ebs/index.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be@SD" tvg-name="EbS+" tvg-country="BE" tvg-language="English;French;German;Italian;Spanish;Greek;Portuguese;Dutch;Danish;Finnish;Swedish;Czech;Estonian;Latvian;Lithuanian;Hungarian;Maltese;Polish;Slovak;Slovenian;Bulgarian;Romanian;Irish;Croatian;Macedonian;Serbian;Albanian;Bosnian" tvg-logo="https://i.imgur.com/7V012zQ.png" group-title="Belgium" x-tier="community" x-status="verified" x-quality="1080p",EbS+
+https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
+#EXTINF:-1 tvg-id="Jihoceskatelevize.cz@SD" tvg-name="Jihoceska televize" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/Hi8hZzl.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",Jihoceska televize
+https://vysilani.zaktv.cz/broadcast/hls/jtv/index.m3u8
+#EXTINF:-1 tvg-id="MnauTV.cz@SD" tvg-name="Mnau TV" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/deVHJKS.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",Mnau TV
+https://5ca49f2417d90.streamlock.net/mnau/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="Ocko.cz@SD" tvg-name="Ocko" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%93%C4%8Dko_logo_2012.png/960px-%C3%93%C4%8Dko_logo_2012.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="sd",Ocko
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist.m3u8
+#EXTINF:-1 tvg-id="OckoExpres.cz@SD" tvg-name="Ocko Expres" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/%C3%93%C4%8Dko_Expres_logo.png/960px-%C3%93%C4%8Dko_Expres_logo.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="sd",Ocko Expres
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist.m3u8
+#EXTINF:-1 tvg-id="OckoGold.cz@SD" tvg-name="Ocko Gold" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/nrWNyLc.jpg" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="sd",Ocko Gold
+https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist.m3u8
+#EXTINF:-1 tvg-id="PlzenTV.cz@SD" tvg-name="Plzen TV" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/TxLKSqL.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",Plzen TV
+https://vysilani.zaktv.cz/broadcast/hls/ptv/index.m3u8
+#EXTINF:-1 tvg-id="RetroMusicTV.cz@SD" tvg-name="Retro Music TV" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/pyOjdZs.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",Retro Music TV
+https://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBrno1.cz@SD" tvg-name="TV Brno 1" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/8Xm3WSn.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",TV Brno 1
+https://stream.polar.cz/tvbrno1/tvbrno1live-1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVNoe.cz@SD" tvg-name="TV Noe" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Noe-logo-2016.png/500px-Noe-logo-2016.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="720p",TV Noe
+https://n105.quickmedia.tv/noetv/live/noetv/Ifd4_1_4/chunks_dvr_timeshift-0-7200.m3u8
+#EXTINF:-1 tvg-id="TVNoePlus.cz@SD" tvg-name="TV Noe+" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/p4FtFUl.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="720p",TV Noe+
+https://n105.quickmedia.tv/noetvplus/live/noetvplus/Shz3_1_1/chunks_dvr_timeshift-0-7200.m3u8
+#EXTINF:-1 tvg-id="UpNetwork.cz@SD" tvg-name="Up Network" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/cwlHDjh.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="sd",Up Network
+https://dash.antik.sk/live/test_upnetwork/playlist.m3u8
+#EXTINF:-1 tvg-id="UTV.cz@SD" tvg-name="UTV" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/ulfeIwM.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",UTV
+https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
+#EXTINF:-1 tvg-id="VychodoceskaTV.cz@SD" tvg-name="Vychodoceska TV" tvg-country="CZ" tvg-language="Czech" tvg-logo="https://i.imgur.com/4Wwptd3.png" group-title="Czech Republic" x-tier="community" x-status="verified" x-quality="1080p",Vychodoceska TV
+https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-name="JimJam Europe" tvg-country="UK" tvg-language="English;Portuguese;Czech;Slovak;Hebrew" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="sd",JimJam Europe
+http://stream.mcquack.net/150/index.m3u8

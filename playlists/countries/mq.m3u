@@ -1,3 +1,7 @@
 #EXTM3U x-nexonic-playlist="Martinique"
 #EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-name="Zitata TV" tvg-country="MQ" tvg-language="French" group-title="General",Zitata TV
 https://live.zitata.tv/direct-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="FUSIONTV.mq@SD" tvg-name="FUSION TV" tvg-country="MQ" tvg-language="French" tvg-logo="https://i.imgur.com/WMrYEgH.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",FUSION TV
+https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
+#EXTINF:-1 tvg-id="TVFamille.mq@SD" tvg-name="TV Famille" tvg-country="MQ" tvg-language="French" tvg-logo="https://i.imgur.com/Kbfihk5.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",TV Famille
+https://streamer1.streamhost.org/salive/GMItvfh/playlist.m3u8

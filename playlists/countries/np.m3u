@@ -1,0 +1,11 @@
+#EXTM3U x-nexonic-playlist="Nepal"
+#EXTINF:-1 tvg-id="DivyaDarshanTV.np@SD" tvg-name="Divya Darshan TV" tvg-country="NP" tvg-language="Nepali" tvg-logo="https://i.imgur.com/EwDQ12F.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="720p",Divya Darshan TV
+http://live.divyadarshantv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DivyaDarshanTV.np@HD" tvg-name="Divya Darshan TV" tvg-country="NP" tvg-language="Nepali" tvg-logo="https://i.imgur.com/EwDQ12F.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Divya Darshan TV
+https://live.divyadarshantv.com/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="KantipurTV.np@HD" tvg-name="Kantipur TV" tvg-country="NP" tvg-language="Nepali;English" tvg-logo="https://i.imgur.com/HEVo2Gc.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kantipur TV
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/kantipurtv/hd_1080/chunks.m3u8
+#EXTINF:-1 tvg-id="KantipurTV.np@SD" tvg-name="Kantipur TV" tvg-country="NP" tvg-language="Nepali" tvg-logo="https://i.imgur.com/HEVo2Gc.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Kantipur TV
+https://ktvhdsg.ekantipur.com:8443/high_quality_85840165/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="TVTodayJanakpur.np@SD" tvg-name="TV Today Janakpur" tvg-country="NP" tvg-language="Nepali;English" tvg-logo="https://i.imgur.com/5fZF69m.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="sd",TV Today Janakpur
+https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8

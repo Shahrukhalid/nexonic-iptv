@@ -1,3 +1,7 @@
 #EXTM3U x-nexonic-playlist="Croatia"
 #EXTINF:-1 tvg-id="ShiftTV.hr@SD" tvg-name="Shift TV" tvg-country="HR" tvg-language="Croatian" group-title="Lifestyle",Shift TV
 https://hls.shift.tv/live/shifttv/playlist.m3u8
+#EXTINF:-1 tvg-id="DiadoraTV.hr@SD" tvg-name="Diadora TV" tvg-country="HR" tvg-language="Croatian" tvg-logo="https://i.imgur.com/qZzsASl.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Diadora TV
+https://diadoratv.stream/live/diadora/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTV.hr@SD" tvg-name="SBTV" tvg-country="HR" tvg-language="Croatian" tvg-logo="https://i.imgur.com/MIampxZ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",SBTV
+https://live.leveex.hr/hls/live.m3u8
