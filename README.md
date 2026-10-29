@@ -8,6 +8,8 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![Data: CC0](https://img.shields.io/badge/data-CC0-lightgrey)](data/LICENSE)
 
+<p align="center"><img src="docs/demo.gif" alt="Browsing Nexonic IPTV: one playlist with thousands of working channels, search and country pages" width="820"></p>
+
 Nexonic IPTV is an open-source **IPTV playlist** collection: **M3U playlists of international TV channels** that
 broadcasters themselves offer free to the public, such as public broadcasters, news channels and parliaments. Use them
 as **free-to-air IPTV** in VLC, Kodi or any IPTV player. There is a playlist for every country, so you can get
