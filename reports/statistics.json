@@ -1,21 +1,21 @@
 {
-  "reference_time": "2026-10-30T07:50:08Z",
+  "reference_time": "2026-10-30T10:05:31Z",
   "records": {
     "approved": 753,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 556,
-  "excluded_approved": 197,
-  "countries": 95,
+  "published_channels": 555,
+  "excluded_approved": 198,
+  "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 493,
-  "playlist_files": 299,
+  "verified_playlist_channels": 489,
+  "playlist_files": 298,
   "latest_run": {
-    "run_id": "run-20261030T074359Z",
-    "started_at": "2026-10-30T07:43:59Z",
-    "finished_at": "2026-10-30T07:50:08Z",
+    "run_id": "run-20261030T095946Z",
+    "started_at": "2026-10-30T09:59:46Z",
+    "finished_at": "2026-10-30T10:05:31Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
@@ -23,30 +23,30 @@
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 140,
-      "UNKNOWN": 52,
+      "UNAVAILABLE": 133,
+      "UNKNOWN": 51,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 458
+      "VERIFIED_WORKING": 466
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 458,
-    "UNAVAILABLE": 140,
+    "VERIFIED_WORKING": 466,
+    "UNAVAILABLE": 133,
     "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 28,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 52,
+    "UNKNOWN": 51,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 11,
+    "currently-failing": 12,
     "geo-restricted": 44,
-    "previously-working": 37,
+    "previously-working": 27,
     "unknown": 6,
-    "verified-recently": 458
+    "verified-recently": 466
   },
   "per_country": {
     "ae": {
@@ -217,11 +217,6 @@
     "gp": {
       "name": "Guadeloupe",
       "flag": "🇬🇵",
-      "channels": 1
-    },
-    "gq": {
-      "name": "Equatorial Guinea",
-      "flag": "🇬🇶",
       "channels": 1
     },
     "gr": {
@@ -584,7 +579,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 73
+      "channels": 72
     },
     "et": {
       "name": "Estonian",
@@ -806,7 +801,7 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 38
+      "channels": 37
     },
     "general": {
       "name": "General",
@@ -852,9 +847,9 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 556,
-      "verified": 493,
-      "not_verified": 63,
+      "published": 555,
+      "verified": 489,
+      "not_verified": 66,
       "with_measured_quality": 479,
       "per_quality": {
         "1080p": 240,
@@ -864,30 +859,30 @@
       }
     },
     "community": {
-      "published": 5152,
-      "verified": 3808,
-      "untested": 1344,
-      "held_back_after_failed_check": 2064,
-      "never_checked": 914,
+      "published": 5107,
+      "verified": 3805,
+      "untested": 1302,
+      "held_back_after_failed_check": 2109,
+      "never_checked": 874,
       "catalog_streams": 7216,
       "catalog_built_at": "2026-10-30T07:50:17Z",
       "verified_days": 7,
-      "countries": 157,
+      "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 269,
-        "invalid": 311,
-        "restricted": 188,
-        "unknown": 1155,
-        "unreachable": 1742,
-        "working": 3551
+        "intermittent": 329,
+        "invalid": 350,
+        "restricted": 185,
+        "unknown": 1112,
+        "unreachable": 1748,
+        "working": 3492
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1190
+          "streams": 1167
         },
         {
           "code": "in",
@@ -897,12 +892,12 @@
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 287
+          "streams": 272
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 257
+          "streams": 253
         },
         {
           "code": "ru",

@@ -1,36 +1,35 @@
 {
-  "reference_time": "2026-10-30T07:50:08Z",
-  "baseline_reference_time": "2026-10-29T10:03:23Z",
+  "reference_time": "2026-10-30T10:05:31Z",
+  "baseline_reference_time": "2026-10-30T07:50:08Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 556,
-    "verified_playlist": 493,
-    "excluded": 197,
+    "published": 555,
+    "verified_playlist": 489,
+    "excluded": 198,
     "pending_authorization": 43,
-    "quarantined": 152,
+    "quarantined": 154,
     "duplicates_excluded_total": 0,
-    "new_candidates": 1,
+    "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 3,
+    "newly_failing": 2,
     "newly_quarantined": 2,
-    "restored": 1,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
     "intermittent": 95,
-    "invalid": 1,
     "restricted": 44,
     "unknown": 6,
-    "unreachable": 10,
-    "working": 400
+    "unreachable": 12,
+    "working": 398
   },
   "latest_run": {
-    "run_id": "run-20261030T074359Z",
-    "started_at": "2026-10-30T07:43:59Z",
-    "finished_at": "2026-10-30T07:50:08Z",
+    "run_id": "run-20261030T095946Z",
+    "started_at": "2026-10-30T09:59:46Z",
+    "finished_at": "2026-10-30T10:05:31Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
@@ -38,10 +37,10 @@
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 140,
-      "UNKNOWN": 52,
+      "UNAVAILABLE": 133,
+      "UNKNOWN": 51,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 458
+      "VERIFIED_WORKING": 466
     }
   },
   "discovery": {
@@ -68,79 +67,57 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 299,
+    "playlist_files": 298,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
     "2 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
-    "new_candidates": [
-      {
-        "id": "jingmen-comprehensive-news-channel-cn",
-        "name": "Jingmen Comprehensive News Channel",
-        "country": "cn",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      }
-    ],
+    "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "jingmen-comprehensive-news-channel-cn",
-        "name": "Jingmen Comprehensive News Channel",
-        "country": "cn",
+        "id": "arica-tv-cl",
+        "name": "Arica TV",
+        "country": "cl",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "HTTP 404 (stream not found)"
       },
       {
-        "id": "trt-haber",
-        "name": "TRT Haber",
-        "country": "tr",
+        "id": "emisora-comunitaria-104-1-fm-co",
+        "name": "Emisora Comunitaria 104.1 FM",
+        "country": "co",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "zas-tv-do",
-        "name": "ZAS TV",
-        "country": "do",
-        "state": "unreachable",
-        "error": "HTTP 521 (server error)"
+        "error": "HTTP 404 (stream not found)"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "trt-haber",
-        "name": "TRT Haber",
-        "country": "tr",
-        "since": "2026-10-30T07:47:37Z"
+        "id": "arica-tv-cl",
+        "name": "Arica TV",
+        "country": "cl",
+        "since": "2026-10-30T10:00:11Z"
       },
       {
-        "id": "zas-tv-do",
-        "name": "ZAS TV",
-        "country": "do",
-        "since": "2026-10-30T07:44:52Z"
+        "id": "emisora-comunitaria-104-1-fm-co",
+        "name": "Emisora Comunitaria 104.1 FM",
+        "country": "co",
+        "since": "2026-10-30T10:00:26Z"
       }
     ],
-    "restored": [
-      {
-        "id": "mtv-guyana-gy",
-        "name": "MTV Guyana",
-        "country": "gy",
-        "restored_at": "2026-10-30T07:45:08Z"
-      }
-    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 556,
-      "verified": 493,
-      "not_verified": 63,
+      "published": 555,
+      "verified": 489,
+      "not_verified": 66,
       "with_measured_quality": 479,
       "per_quality": {
         "1080p": 240,
@@ -150,30 +127,30 @@
       }
     },
     "community": {
-      "published": 5152,
-      "verified": 3808,
-      "untested": 1344,
-      "held_back_after_failed_check": 2064,
-      "never_checked": 914,
+      "published": 5107,
+      "verified": 3805,
+      "untested": 1302,
+      "held_back_after_failed_check": 2109,
+      "never_checked": 874,
       "catalog_streams": 7216,
       "catalog_built_at": "2026-10-30T07:50:17Z",
       "verified_days": 7,
-      "countries": 157,
+      "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 269,
-        "invalid": 311,
-        "restricted": 188,
-        "unknown": 1155,
-        "unreachable": 1742,
-        "working": 3551
+        "intermittent": 329,
+        "invalid": 350,
+        "restricted": 185,
+        "unknown": 1112,
+        "unreachable": 1748,
+        "working": 3492
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1190
+          "streams": 1167
         },
         {
           "code": "in",
@@ -183,12 +160,12 @@
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 287
+          "streams": 272
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 257
+          "streams": 253
         },
         {
           "code": "ru",
