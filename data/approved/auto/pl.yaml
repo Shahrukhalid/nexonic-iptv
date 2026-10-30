@@ -118,43 +118,6 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
-- id: btb-music-pl
-  name: BTB Music
-  alt_names: []
-  broadcaster: Telewizja BTB
-  country: pl
-  languages:
-  - pl
-  categories:
-  - music
-  website: https://btb.j00r.us
-  stream:
-    url: https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pl.m3u
-    evidence_url: https://btb.j00r.us
-    evidence_summary: 'Automated owner-domain match: stream host panel.btb.j00r.us is on the broadcaster''s domain j00r.us.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: BTBMusic.pl@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: euronews-pl
   name: Euronews
   alt_names:

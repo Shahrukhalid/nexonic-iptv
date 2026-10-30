@@ -604,6 +604,44 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: jingmen-comprehensive-news-channel-cn
+  name: Jingmen Comprehensive News Channel
+  alt_names:
+  - 新闻综合频道
+  broadcaster: Jingmen Comprehensive News Channel
+  country: cn
+  languages:
+  - zh
+  categories:
+  - news
+  website: http://www.jmtv.com.cn/folder48/folder50
+  stream:
+    url: https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cn.m3u
+    evidence_url: http://www.jmtv.com.cn/folder48/folder50
+    evidence_summary: 'Automated owner-domain match: stream host stream.jmtv.com.cn is on the broadcaster''s domain jmtv.com.cn.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: JingmenComprehensiveNewsChannel.cn@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-10-30'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-10-30'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: nei-monggol-tv-cn
   name: Nei Monggol TV
   alt_names:

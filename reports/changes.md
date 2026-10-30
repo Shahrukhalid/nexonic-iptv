@@ -12,10 +12,10 @@
 |---|---:|
 | Published channels | 556 |
 | In verified playlist | 495 |
-| Quarantined | 152 |
+| Quarantined | 151 |
 | Excluded approved records | 197 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 1 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,23 +63,27 @@ Nothing.
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
+| admitted | 600 |
+| aggregator-host | 976 |
+| already-curated | 476 |
+| closed | 93 |
+| excluded-category | 1151 |
+| host-not-owned-by-broadcaster | 7043 |
 | language-not-supported | 3 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1114 |
+| no-database-entry | 2101 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 607 |
+| streams | 18410 |
+| subscription-service | 96 |
+| url-policy | 4079 |
+
+## New candidates discovered (not published) (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Jingmen Comprehensive News Channel (`jingmen-comprehensive-news-channel-cn`) | cn | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (1)
 

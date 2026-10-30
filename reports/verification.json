@@ -4,13 +4,13 @@
     "started_at": "2026-10-29T09:57:13Z",
     "finished_at": "2026-10-29T10:03:23Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 9,
       "TIMEOUT": 30,
-      "UNAVAILABLE": 115,
+      "UNAVAILABLE": 114,
       "UNKNOWN": 52,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 483
@@ -2386,21 +2386,6 @@
         "details": {
           "content_type": "video/mp2t",
           "redirected_to_host": "emisja2.btb.j00r.us",
-          "run_id": "run-20261029T095713Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "btb-music-pl",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-29T09:59:35Z",
-        "level": 2,
-        "http_status": 404,
-        "latency_ms": 657,
-        "error": "HTTP 404 (stream not found)",
-        "media_readable": null,
-        "details": {
           "run_id": "run-20261029T095713Z"
         },
         "method": "httpx",

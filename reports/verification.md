@@ -3,7 +3,7 @@
 - Run: `run-20261029T095713Z`
 - Started: 2026-10-29T09:57:13Z (UTC) · Finished: 2026-10-29T10:03:23Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 753
+- Channels checked: 752
 
 Results describe reachability **from the checker's network location at that time** only.
 
@@ -13,7 +13,7 @@ Results describe reachability **from the checker's network location at that time
 | `GEO_RESTRICTED` | 61 |
 | `INVALID_STREAM` | 9 |
 | `TIMEOUT` | 30 |
-| `UNAVAILABLE` | 115 |
+| `UNAVAILABLE` | 114 |
 | `UNKNOWN` | 52 |
 | `UNSUPPORTED` | 1 |
 | `VERIFIED_WORKING` | 483 |
@@ -128,7 +128,6 @@ Results describe reachability **from the checker's network location at that time
 | BR Fernsehen | `UNAVAILABLE` | 2 | – | – | 2026-10-29T10:01:07Z | connection error: ConnectError: All connection attempts failed |
 | BR Fernsehen Süd | `UNAVAILABLE` | 2 | – | – | 2026-10-29T10:01:29Z | connection error: ConnectError: All connection attempts failed |
 | BTB Info | `INVALID_STREAM` | 3 | 200 | 659 ms | 2026-10-29T09:59:34Z | manifest: body does not start with #EXTM3U |
-| BTB Music | `UNAVAILABLE` | 2 | 404 | 657 ms | 2026-10-29T09:59:35Z | HTTP 404 (stream not found) |
 | BTB | `INVALID_STREAM` | 3 | 200 | 498 ms | 2026-10-29T09:59:34Z | manifest: body does not start with #EXTM3U |
 | Buenisima Radio TV | `VERIFIED_WORKING` | 5 | 200 | 217 ms | 2026-10-29T09:57:57Z |  |
 | Buin Somos Todos | `UNAVAILABLE` | 1 | – | – | 2026-10-29T09:57:41Z | DNS resolution failed for bst.buin.cl: [Errno -5] No address associated with hostname |
@@ -780,7 +779,7 @@ Compared with the run at 2026-10-29T07:47:28Z (UTC).
 
 | Change | Count |
 |---|---:|
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 1 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -789,6 +788,6 @@ Compared with the run at 2026-10-29T07:47:28Z (UTC).
 | Restored (verified again after quarantine) | 3 |
 | Removed from publication | 0 |
 
-Published 556 · verified playlist 495 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
+Published 556 · verified playlist 495 · quarantined 151 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
 Tiers: official 556 (495 verified) · community 3808 verified / 1385 untested · free VOD 143 items.
