@@ -319,3 +319,63 @@ class Gateway:
                 return 200, {"Content-Type": "application/xml; charset=utf-8"}, body
             return self._player_api(q)
         return 404, {"Content-Type": "text/plain"}, b"not found\n"
+
+
+# ---------------------------------------------------------------------------------------------- static export
+BUCKETS = 256
+
+
+def export_static(playlists: Path, out: Path) -> dict:
+    """Write the Xtream answers as plain JSON files for the always-on cloud gateway (cloud/xtream-worker.js).
+
+    The cloud gateway only picks the right file for each request and follows redirects, so it stays tiny and fast.
+    Layout (under ``out``): ``live_categories.json``, ``live_streams.json``, ``live/<category_id>.json`` and the same
+    for ``vod``; ``series_categories.json``, ``series.json``, ``series_info/<series_id>.json``,
+    ``vod_info/<vod_id>.json``; ``s/<kind>/<id % 256>.json`` maps stream ids to their URLs; ``m3u.txt`` is the
+    ``get.php`` playlist with ``__BASE__``, ``__USER__`` and ``__PASS__`` placeholders.
+    """
+    gw = Gateway(playlists, "http://__BASE__")
+    cat = gw.catalog
+
+    def write(rel: str, data) -> None:
+        p = out / rel
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    for name, items, fmt in (("live", cat.live, gw._live), ("vod", cat.movies, gw._movies)):
+        cats = Catalog.categories(items)
+        write(f"{name}_categories.json", cats)
+        write(f"{name}_streams.json", fmt(items))
+        for c in cats:
+            write(
+                f"{name}/{c['category_id']}.json",
+                fmt([i for i in items if str(stable_id(i.category)) == c["category_id"]]),
+            )
+    write(
+        "series_categories.json",
+        [{"category_id": str(stable_id("Series")), "category_name": "Series", "parent_id": 0}] if cat.episodes else [],
+    )
+    shows = gw._series_list(cat)
+    write("series.json", shows)
+    for s in shows:
+        write(f"series_info/{s['series_id']}.json", gw._series_info(cat, str(s["series_id"])))
+    for i in cat.movies:
+        write(
+            f"vod_info/{i.id}.json",
+            {
+                "info": {"name": i.name, "movie_image": i.logo, "duration_secs": i.duration, "releasedate": i.year},
+                "movie_data": {"stream_id": i.id, "name": i.name, "container_extension": _ext(i.url, "mp4")},
+            },
+        )
+    for kind, items in (("live", cat.live), ("movie", cat.movies), ("series", cat.episodes)):
+        buckets: dict[int, dict[str, str]] = {}
+        for i in items:
+            buckets.setdefault(i.id % BUCKETS, {})[str(i.id)] = i.url
+        for b, mapping in buckets.items():
+            write(f"s/{kind}/{b}.json", mapping)
+    gw.user, gw.password = "__USER__", "__PASS__"
+    gw.public_url = "__BASE__"
+    (out / "m3u.txt").write_bytes(gw._m3u({})[2])
+    meta = {"live": len(cat.live), "movies": len(cat.movies), "episodes": len(cat.episodes), "buckets": BUCKETS}
+    write("meta.json", meta)
+    return meta

@@ -64,31 +64,32 @@ playlist is listed in [PLAYLISTS.md](PLAYLISTS.md) and on the
 
 ## Login with server, username and password (Xtream Codes)
 
-Some apps only offer an "Xtream Codes" login instead of a playlist URL. Nexonic IPTV includes a small gateway for them.
-It answers the app with the same channels, free films and series, and sends each stream straight to the broadcaster:
-no video passes through it, and only streams in the playlists can be opened.
+Some apps only offer an "Xtream Codes" login instead of a playlist URL. Nexonic IPTV answers those apps too, with the
+same channels (grouped by country), the free films under VOD and the free series under Series. Every stream goes
+straight to the broadcaster: no video passes through the login service, and only streams in the playlists open.
 
-1. Get the repository and start the gateway (Python 3.11 or newer):
+**Always on (cloud):** choose **Xtream Codes** in your app and enter:
 
-   ```bash
-   git clone https://github.com/Shahrukhalid/nexonic-iptv.git && cd nexonic-iptv
-   pip install -r requirements.txt
-   python scripts/xtream_server.py --host 0.0.0.0 --public-url http://<this-computer's-IP>:8080
-   ```
+| Field | Value |
+|---|---|
+| Server URL | *being switched on: the address appears here within a day* |
+| Username | `nexonic` |
+| Password | `free` |
 
-2. In the app choose **Xtream Codes** and enter:
+The login is public on purpose: everything here is free, and the apps simply require one. It runs in the cloud around
+the clock and always shows the latest playlists; nothing has to stay switched on at home. The same login also gives an
+M3U link: `<server URL>/get.php?username=nexonic&password=free&type=m3u_plus`.
 
-   | Field | Value |
-   |---|---|
-   | Server URL | `http://<this-computer's-IP>:8080` |
-   | Username | `nexonic` |
-   | Password | `free` |
+**Run it yourself instead** (on a computer or home server, Python 3.11 or newer):
 
-The login is public on purpose: everything here is free, and the app simply requires one. Channels are grouped by
-country, films and series appear under VOD and Series, and the same login also gives an M3U link
-(`/get.php?username=nexonic&password=free&type=m3u_plus`). Run `git pull` to get the latest channels; the gateway
-reloads them by itself. Without `--host 0.0.0.0` it only answers on the same computer. Change the login with
-`--username` and `--password` if you prefer.
+```bash
+git clone https://github.com/Shahrukhalid/nexonic-iptv.git && cd nexonic-iptv
+pip install -r requirements.txt
+python scripts/xtream_server.py --host 0.0.0.0 --public-url http://<this-computer's-IP>:8080
+```
+
+Then use `http://<this-computer's-IP>:8080` as the server URL with the same login. Run `git pull` for new channels;
+the gateway reloads them by itself. Maintainers: the cloud setup is described in [cloud/README.md](cloud/README.md).
 
 ## How the playlists are organised
 
@@ -153,8 +154,8 @@ Every channel is checked automatically; a channel that stops working leaves the 
 - **Country Hub:** one playlist and one web page per country, plus language and category playlists.
 - **Status page and change report:** public, timestamped results from every run, and a daily
   [change report](reports/changes.md).
-- **Xtream Codes login:** a built-in gateway for apps that ask for a server, username and password
-  (`nexonic` / `free`); streams go straight to the broadcasters.
+- **Xtream Codes login:** an always-on cloud login (and a run-it-yourself version) for apps that ask for a server,
+  username and password (`nexonic` / `free`); streams go straight to the broadcasters.
 - **Zero cost:** no ads, subscriptions, trackers or accounts; runs on free GitHub Actions and Pages.
 
 ## How verification works

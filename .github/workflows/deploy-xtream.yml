@@ -1,0 +1,49 @@
+name: Deploy Xtream login
+# Publishes cloud/xtream-worker.js as a Cloudflare Worker, so apps can log in with a server URL, username and password
+# while no computer is on. Needs the repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see
+# cloud/README.md); without them the job explains what is missing and stops.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cloud/**"
+      - ".github/workflows/deploy-xtream.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: xtream-worker
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.repository_owner == 'Shahrukhalid'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Check the Cloudflare secrets
+        id: secrets
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::notice::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in Settings > Secrets and variables > Actions (see cloud/README.md)."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Deploy the Worker
+        if: steps.secrets.outputs.ready == 'true'
+        working-directory: cloud
+        run: npx --yes wrangler@4.151.1 deploy
+      - name: Smoke test
+        if: steps.secrets.outputs.ready == 'true' && vars.XTREAM_URL != ''
+        env:
+          XTREAM_URL: ${{ vars.XTREAM_URL }}
+        run: curl -fsS --retry 3 "$XTREAM_URL/health" && echo

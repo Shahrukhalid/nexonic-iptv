@@ -95,3 +95,25 @@ def test_reloads_when_playlists_change(gw, tmp_path):
     st = (tmp_path / "all.m3u").stat()
     os.utime(tmp_path / "all.m3u", ns=(st.st_atime_ns, st.st_mtime_ns + 10**9))
     assert len(api(gw, q)) == 1
+
+
+def test_static_export_for_the_cloud_gateway(tmp_path):
+    from nexonic.xtream import BUCKETS, export_static
+
+    src = tmp_path / "playlists"
+    (src / "vod").mkdir(parents=True)
+    (src / "all.m3u").write_text(LIVE)
+    (src / "vod" / "movies.m3u").write_text(MOVIES)
+    (src / "vod" / "series.m3u").write_text(SERIES)
+    out = tmp_path / "xtream"
+    meta = export_static(src, out)
+    assert meta == {"live": 2, "movies": 1, "episodes": 2, "buckets": BUCKETS}
+    live = json.loads((out / "live_streams.json").read_text())
+    sid = live[0]["stream_id"]
+    assert json.loads((out / f"s/live/{sid % BUCKETS}.json").read_text())[str(sid)].startswith("https://live.example")
+    cats = json.loads((out / "live_categories.json").read_text())
+    assert all((out / f"live/{c['category_id']}.json").exists() for c in cats)
+    show = json.loads((out / "series.json").read_text())[0]
+    assert len(json.loads((out / f"series_info/{show['series_id']}.json").read_text())["episodes"]["1"]) == 2
+    m3u_text = (out / "m3u.txt").read_text()
+    assert f"__BASE__/live/__USER__/__PASS__/{sid}.m3u8" in m3u_text and "example-broadcaster" not in m3u_text
