@@ -6,6 +6,7 @@
 
 const BUCKETS = 256;
 const STREAM = /^\/(live|movie|series)\/([^/]+)\/([^/]+)\/(\d+)(?:\.[a-z0-9]{1,5})?$/;
+const SHORT_STREAM = /^\/([^/]+)\/([^/]+)\/(\d+)(?:\.[a-z0-9]{1,5})?$/;
 const CACHE = { cf: { cacheTtl: 600, cacheEverything: true } };
 
 const json = (data, status = 200) =>
@@ -49,7 +50,7 @@ function account(env, url) {
       message: "Nexonic IPTV: free-to-air channels, free for everyone.",
       auth: 1,
       status: "Active",
-      exp_date: null,
+      exp_date: "4102444799",
       is_trial: "0",
       active_cons: "0",
       created_at: "1730419200",
@@ -109,14 +110,28 @@ async function handle(request, env) {
   }
   const user = env.XTREAM_USER;
   const pass = env.XTREAM_PASSWORD;
-  const ok = (u, p) => sameText(u || "", user) && sameText(p || "", pass);
-  const path = url.pathname;
+  // TV keyboards often capitalise the first letter or add a space, so the public login ignores case and spaces.
+  const norm = (v) => (v || "").trim().toLowerCase();
+  const ok = (u, p) => sameText(norm(u), norm(user)) && sameText(norm(p), norm(pass));
+  // "https://server/" + "/player_api.php" gives "//player_api.php"; some apps also put a folder in front.
+  let path = url.pathname.replace(/\/{2,}/g, "/");
+  const api = path.match(/\/(player_api|get|xmltv|panel_api)\.php$/);
+  if (api) path = `/${api[1]}.php`;
 
+  if (request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: { "access-control-allow-origin": "*", "access-control-allow-methods": "GET, POST, HEAD, OPTIONS" },
+    });
+  }
   if (path === "/" || path === "/health") {
     const meta = await file(env, "meta.json");
     return json({ service: "Nexonic IPTV Xtream gateway", ...(meta ? await meta.json() : {}) });
   }
-  const m = STREAM.exec(path);
+  // Some apps leave out "/live" for live channels: /<user>/<pass>/<id>.ts
+  let m = STREAM.exec(path);
+  const short = m ? null : SHORT_STREAM.exec(path);
+  if (short) m = [short[0], "live", short[1], short[2], short[3]];
   if (m) {
     const [, kind, u, p, sid] = m;
     if (!ok(decodeURIComponent(u), decodeURIComponent(p))) return text("invalid login\n", 401);
@@ -127,6 +142,7 @@ async function handle(request, env) {
   }
   if (["/player_api.php", "/get.php", "/xmltv.php", "/panel_api.php"].includes(path)) {
     if (!ok(q.get("username"), q.get("password"))) {
+      console.log(`login refused on ${path} (user length ${(q.get("username") || "").length})`);
       return path === "/player_api.php" ? json({ user_info: { auth: 0 } }) : text("invalid login\n", 401);
     }
     if (path === "/get.php") {
