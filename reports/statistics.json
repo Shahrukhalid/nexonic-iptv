@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-10-31T14:12:18Z",
+  "reference_time": "2026-10-31T22:36:01Z",
   "records": {
     "approved": 751,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 554,
-  "excluded_approved": 197,
+  "published_channels": 559,
+  "excluded_approved": 192,
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 484,
+  "verified_playlist_channels": 490,
   "playlist_files": 301,
   "latest_run": {
-    "run_id": "run-20261031T140633Z",
-    "started_at": "2026-10-31T14:06:34Z",
-    "finished_at": "2026-10-31T14:12:18Z",
+    "run_id": "run-20261031T223037Z",
+    "started_at": "2026-10-31T22:30:37Z",
+    "finished_at": "2026-10-31T22:36:01Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 61,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 130,
-      "UNKNOWN": 51,
+      "INVALID_STREAM": 12,
+      "TIMEOUT": 32,
+      "UNAVAILABLE": 134,
+      "UNKNOWN": 43,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 468
+      "VERIFIED_WORKING": 466
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 468,
-    "UNAVAILABLE": 130,
+    "VERIFIED_WORKING": 466,
+    "UNAVAILABLE": 134,
     "GEO_RESTRICTED": 61,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 29,
-    "INVALID_STREAM": 9,
+    "TIMEOUT": 32,
+    "INVALID_STREAM": 12,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 51,
+    "UNKNOWN": 43,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 22,
-    "geo-restricted": 43,
-    "previously-working": 15,
-    "unknown": 6,
-    "verified-recently": 468
+    "currently-failing": 19,
+    "geo-restricted": 44,
+    "previously-working": 25,
+    "unknown": 5,
+    "verified-recently": 466
   },
   "per_country": {
     "ae": {
@@ -497,7 +497,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 64
+      "channels": 69
     },
     "uz": {
       "name": "Uzbekistan",
@@ -575,7 +575,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 138
+      "channels": 143
     },
     "es": {
       "name": "Spanish",
@@ -797,7 +797,7 @@
     },
     "education": {
       "name": "Education",
-      "channels": 40
+      "channels": 42
     },
     "entertainment": {
       "name": "Entertainment",
@@ -805,7 +805,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 202
+      "channels": 204
     },
     "kids": {
       "name": "Kids",
@@ -813,7 +813,7 @@
     },
     "legislative": {
       "name": "Legislative",
-      "channels": 22
+      "channels": 23
     },
     "lifestyle": {
       "name": "Lifestyle",
@@ -847,23 +847,23 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 554,
-      "verified": 484,
-      "not_verified": 70,
-      "with_measured_quality": 478,
+      "published": 559,
+      "verified": 490,
+      "not_verified": 69,
+      "with_measured_quality": 484,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 244,
         "4k": 1,
-        "720p": 174,
-        "sd": 63
+        "720p": 175,
+        "sd": 64
       }
     },
     "community": {
-      "published": 5193,
+      "published": 5093,
       "verified": 4102,
-      "untested": 1091,
-      "held_back_after_failed_check": 2001,
-      "never_checked": 654,
+      "untested": 991,
+      "held_back_after_failed_check": 2101,
+      "never_checked": 554,
       "catalog_streams": 7194,
       "catalog_built_at": "2026-10-31T07:36:45Z",
       "verified_days": 7,
@@ -871,10 +871,10 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 733,
-        "invalid": 554,
+        "invalid": 648,
         "restricted": 192,
-        "unknown": 877,
-        "unreachable": 1457,
+        "unknown": 777,
+        "unreachable": 1463,
         "working": 3381
       },
       "removed_at_generation": {},
@@ -882,7 +882,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 1178
+          "streams": 1133
         },
         {
           "code": "in",
@@ -890,19 +890,19 @@
           "streams": 571
         },
         {
-          "code": "de",
-          "name": "Germany",
-          "streams": 219
-        },
-        {
           "code": "ru",
           "name": "Russia",
           "streams": 205
         },
         {
+          "code": "de",
+          "name": "Germany",
+          "streams": 198
+        },
+        {
           "code": "se",
           "name": "Sweden",
-          "streams": 199
+          "streams": 167
         },
         {
           "code": "uk",
@@ -917,7 +917,7 @@
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 123
+          "streams": 122
         },
         {
           "code": "br",

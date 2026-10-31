@@ -119,35 +119,33 @@
    "reference_time": "2026-10-30T10:05:31Z"
   },
   {
-   "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
-   ],
+   "attention": [],
    "counts": {
     "duplicates_excluded_total": 0,
     "duplicates_removed": 0,
-    "excluded": 197,
+    "excluded": 192,
     "new_candidates": 0,
-    "new_published": 0,
+    "new_published": 3,
     "newly_failing": 1,
-    "newly_quarantined": 1,
+    "newly_quarantined": 0,
     "pending_authorization": 43,
-    "published": 554,
-    "quarantined": 159,
+    "published": 559,
+    "quarantined": 157,
     "removed": 0,
-    "restored": 0,
+    "restored": 2,
     "updated": 0,
-    "verified_playlist": 484
+    "verified_playlist": 490
    },
    "date": "2026-10-31",
    "integrity_ok": true,
    "lifecycle_counts": {
-    "intermittent": 105,
-    "restricted": 43,
-    "unknown": 6,
-    "unreachable": 17,
-    "working": 383
+    "intermittent": 113,
+    "restricted": 44,
+    "unknown": 5,
+    "unreachable": 16,
+    "working": 381
    },
-   "reference_time": "2026-10-31T14:12:18Z"
+   "reference_time": "2026-10-31T22:36:01Z"
   }
  ],
  "schema": 1
