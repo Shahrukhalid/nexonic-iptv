@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-10-31T12:50:21Z",
-  "baseline_reference_time": "2026-10-31T12:08:20Z",
+  "reference_time": "2026-10-31T14:12:18Z",
+  "baseline_reference_time": "2026-10-31T12:50:21Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 554,
-    "verified_playlist": 483,
+    "verified_playlist": 484,
     "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 158,
+    "quarantined": 159,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 0,
-    "newly_quarantined": 0,
-    "restored": 4,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 104,
-    "restricted": 44,
+    "intermittent": 105,
+    "restricted": 43,
     "unknown": 6,
-    "unreachable": 16,
-    "working": 384
+    "unreachable": 17,
+    "working": 383
   },
   "latest_run": {
-    "run_id": "run-20261031T124420Z",
-    "started_at": "2026-10-31T12:44:20Z",
-    "finished_at": "2026-10-31T12:50:21Z",
+    "run_id": "run-20261031T140633Z",
+    "started_at": "2026-10-31T14:06:34Z",
+    "finished_at": "2026-10-31T14:12:18Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
-      "INVALID_STREAM": 10,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 141,
-      "UNKNOWN": 55,
+      "GEO_RESTRICTED": 61,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 130,
+      "UNKNOWN": 51,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 453
+      "VERIFIED_WORKING": 468
     }
   },
   "discovery": {
@@ -70,40 +70,32 @@
     "playlist_files": 301,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "1 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [],
-    "newly_quarantined": [],
-    "restored": [
+    "newly_failing": [
       {
-        "id": "br-fernsehen-de",
-        "name": "BR Fernsehen",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
-        "restored_at": "2026-10-31T12:47:59Z"
-      },
-      {
-        "id": "br-fernsehen-sued",
-        "name": "BR Fernsehen Süd",
-        "country": "de",
-        "restored_at": "2026-10-31T12:48:24Z"
-      },
-      {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
-        "restored_at": "2026-10-31T12:47:35Z"
-      },
-      {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "restored_at": "2026-10-31T12:45:24Z"
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
+    "newly_quarantined": [
+      {
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
+        "since": "2026-10-31T14:09:42Z"
+      }
+    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -111,8 +103,8 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 554,
-      "verified": 483,
-      "not_verified": 71,
+      "verified": 484,
+      "not_verified": 70,
       "with_measured_quality": 478,
       "per_quality": {
         "1080p": 240,
@@ -122,11 +114,11 @@
       }
     },
     "community": {
-      "published": 5292,
-      "verified": 4101,
-      "untested": 1191,
-      "held_back_after_failed_check": 1902,
-      "never_checked": 754,
+      "published": 5193,
+      "verified": 4102,
+      "untested": 1091,
+      "held_back_after_failed_check": 2001,
+      "never_checked": 654,
       "catalog_streams": 7194,
       "catalog_built_at": "2026-10-31T07:36:45Z",
       "verified_days": 7,
@@ -134,18 +126,18 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 733,
-        "invalid": 459,
+        "invalid": 554,
         "restricted": 192,
-        "unknown": 977,
-        "unreachable": 1453,
-        "working": 3380
+        "unknown": 877,
+        "unreachable": 1457,
+        "working": 3381
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1219
+          "streams": 1178
         },
         {
           "code": "in",
@@ -155,12 +147,7 @@
         {
           "code": "de",
           "name": "Germany",
-          "streams": 243
-        },
-        {
-          "code": "se",
-          "name": "Sweden",
-          "streams": 231
+          "streams": 219
         },
         {
           "code": "ru",
@@ -168,14 +155,19 @@
           "streams": 205
         },
         {
-          "code": "it",
-          "name": "Italy",
-          "streams": 150
+          "code": "se",
+          "name": "Sweden",
+          "streams": 199
         },
         {
           "code": "uk",
           "name": "United Kingdom",
           "streams": 150
+        },
+        {
+          "code": "it",
+          "name": "Italy",
+          "streams": 149
         },
         {
           "code": "cl",
