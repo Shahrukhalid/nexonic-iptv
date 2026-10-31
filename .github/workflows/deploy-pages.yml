@@ -42,11 +42,14 @@ jobs:
         working-directory: website
       - run: npm run check-links
         working-directory: website
+      - name: Static answers for the always-on Xtream login (cloud/xtream-worker.js reads them)
+        run: python scripts/xtream_export.py --out website/dist/xtream
       - name: Expected assets exist
         working-directory: website/dist
         run: |
           for f in index.html countries/index.html channels/index.html status/index.html sitemap.xml robots.txt \
-                   og.png favicon.svg playlists/all.m3u playlists/index.json 404.html; do
+                   og.png favicon.svg playlists/all.m3u playlists/index.json 404.html xtream/meta.json \
+                   xtream/live_streams.json xtream/m3u.txt; do
             test -s "$f" || { echo "missing $f"; exit 1; }
           done
           head -1 playlists/all.m3u | grep -q '^#EXTM3U'
