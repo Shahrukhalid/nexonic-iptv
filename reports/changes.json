@@ -1,64 +1,66 @@
 {
-  "reference_time": "2026-10-31T12:08:20Z",
-  "baseline_reference_time": "2026-10-31T07:36:36Z",
+  "reference_time": "2026-10-31T12:50:21Z",
+  "baseline_reference_time": "2026-10-31T12:08:20Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 554,
-    "verified_playlist": 480,
+    "verified_playlist": 483,
     "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 162,
+    "quarantined": 158,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 5,
-    "newly_quarantined": 4,
-    "restored": 2,
+    "newly_failing": 0,
+    "newly_quarantined": 0,
+    "restored": 4,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 99,
-    "restricted": 43,
+    "intermittent": 104,
+    "restricted": 44,
     "unknown": 6,
-    "unreachable": 21,
-    "working": 385
+    "unreachable": 16,
+    "working": 384
   },
   "latest_run": {
-    "run_id": "run-20261031T120238Z",
-    "started_at": "2026-10-31T12:02:38Z",
-    "finished_at": "2026-10-31T12:08:20Z",
+    "run_id": "run-20261031T124420Z",
+    "started_at": "2026-10-31T12:44:20Z",
+    "finished_at": "2026-10-31T12:50:21Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 135,
-      "UNKNOWN": 51,
+      "TIMEOUT": 27,
+      "UNAVAILABLE": 141,
+      "UNKNOWN": 55,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 463
+      "VERIFIED_WORKING": 453
     }
   },
   "discovery": {
-    "admitted": 598,
-    "aggregator-host": 976,
-    "already-curated": 477,
-    "closed": 93,
-    "excluded-category": 1161,
-    "host-not-owned-by-broadcaster": 7010,
+    "admitted": 603,
+    "aggregator-host": 998,
+    "already-curated": 558,
+    "closed": 98,
+    "duplicate-channel-in-other-source": 119,
+    "duplicate-of-existing": 1,
+    "excluded-category": 1223,
+    "host-not-owned-by-broadcaster": 7739,
     "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 1123,
-    "no-database-entry": 2101,
-    "nsfw-or-blocklisted": 3,
-    "sanctions-exclusion": 608,
-    "streams": 18386,
-    "subscription-service": 97,
-    "url-policy": 4068
+    "needs-special-headers": 964,
+    "no-database-entry": 3616,
+    "nsfw-or-blocklisted": 5,
+    "sanctions-exclusion": 621,
+    "streams": 21345,
+    "subscription-service": 101,
+    "url-policy": 4628
   },
   "integrity": {
     "ok": true,
@@ -68,89 +70,38 @@
     "playlist_files": 301,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "4 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [
-      {
-        "id": "bonce-tv-cw",
-        "name": "Bonce TV",
-        "country": "cw",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "br-fernsehen-de",
-        "name": "BR Fernsehen",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "br-fernsehen-sued",
-        "name": "BR Fernsehen Süd",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError"
-      },
-      {
-        "id": "one-ard",
-        "name": "ONE",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      }
-    ],
-    "newly_quarantined": [
-      {
-        "id": "bonce-tv-cw",
-        "name": "Bonce TV",
-        "country": "cw",
-        "since": "2026-10-31T12:03:20Z"
-      },
-      {
-        "id": "br-fernsehen-de",
-        "name": "BR Fernsehen",
-        "country": "de",
-        "since": "2026-10-31T12:06:03Z"
-      },
-      {
-        "id": "br-fernsehen-sued",
-        "name": "BR Fernsehen Süd",
-        "country": "de",
-        "since": "2026-10-31T12:06:24Z"
-      },
-      {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "since": "2026-10-31T12:03:39Z"
-      }
-    ],
+    "newly_failing": [],
+    "newly_quarantined": [],
     "restored": [
       {
-        "id": "cctv-1-cn",
-        "name": "CCTV+ 1",
-        "country": "cn",
-        "restored_at": "2026-10-31T12:03:06Z"
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
+        "country": "de",
+        "restored_at": "2026-10-31T12:47:59Z"
       },
       {
-        "id": "trt-haber",
-        "name": "TRT Haber",
-        "country": "tr",
-        "restored_at": "2026-10-31T12:05:56Z"
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
+        "country": "de",
+        "restored_at": "2026-10-31T12:48:24Z"
+      },
+      {
+        "id": "das-erste",
+        "name": "Das Erste",
+        "country": "de",
+        "restored_at": "2026-10-31T12:47:35Z"
+      },
+      {
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "restored_at": "2026-10-31T12:45:24Z"
       }
     ],
     "removed": []
@@ -160,22 +111,22 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 554,
-      "verified": 480,
-      "not_verified": 74,
+      "verified": 483,
+      "not_verified": 71,
       "with_measured_quality": 478,
       "per_quality": {
-        "1080p": 241,
+        "1080p": 240,
         "4k": 1,
-        "720p": 173,
+        "720p": 174,
         "sd": 63
       }
     },
     "community": {
-      "published": 5332,
+      "published": 5292,
       "verified": 4101,
-      "untested": 1231,
-      "held_back_after_failed_check": 1862,
-      "never_checked": 794,
+      "untested": 1191,
+      "held_back_after_failed_check": 1902,
+      "never_checked": 754,
       "catalog_streams": 7194,
       "catalog_built_at": "2026-10-31T07:36:45Z",
       "verified_days": 7,
@@ -183,9 +134,9 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 733,
-        "invalid": 419,
+        "invalid": 459,
         "restricted": 192,
-        "unknown": 1017,
+        "unknown": 977,
         "unreachable": 1453,
         "working": 3380
       },
@@ -194,7 +145,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 1239
+          "streams": 1219
         },
         {
           "code": "in",
@@ -202,14 +153,14 @@
           "streams": 571
         },
         {
-          "code": "se",
-          "name": "Sweden",
-          "streams": 247
-        },
-        {
           "code": "de",
           "name": "Germany",
-          "streams": 245
+          "streams": 243
+        },
+        {
+          "code": "se",
+          "name": "Sweden",
+          "streams": 231
         },
         {
           "code": "ru",
@@ -217,13 +168,13 @@
           "streams": 205
         },
         {
-          "code": "uk",
-          "name": "United Kingdom",
-          "streams": 151
-        },
-        {
           "code": "it",
           "name": "Italy",
+          "streams": 150
+        },
+        {
+          "code": "uk",
+          "name": "United Kingdom",
           "streams": 150
         },
         {

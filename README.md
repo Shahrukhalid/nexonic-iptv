@@ -85,11 +85,11 @@ channel data. Do not edit them by hand.
 | Channels in `all.m3u` | 4655 |
 | Countries | 157 |
 | Languages | 91 |
-| Working at the latest check (`verified.m3u`) | 4581 |
-| Waiting for a check (`playlists/community/untested.m3u`) | 1231 |
-| Held back after a failed check (retried automatically) | 1862 |
+| Working at the latest check (`verified.m3u`) | 4584 |
+| Waiting for a check (`playlists/community/untested.m3u`) | 1191 |
+| Held back after a failed check (retried automatically) | 1902 |
 | Free movies and series (VOD) | 350 |
-| Latest check (UTC) | 2026-10-31T12:14:32Z |
+| Latest check (UTC) | 2026-10-31T12:53:03Z |
 
 Every channel is checked automatically; a channel that stops working leaves the playlists until a later check succeeds, and a new one joins after its first successful check.
 
