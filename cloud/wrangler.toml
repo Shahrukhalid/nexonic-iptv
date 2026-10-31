@@ -1,8 +1,13 @@
-# Cloudflare Worker for the always-on Xtream Codes login (deployed by .github/workflows/deploy-xtream.yml).
+# Cloudflare Worker for the always-on Xtream Codes login (Cloudflare deploys it from this folder on every change to main).
 name = "nexonic-iptv"
 main = "xtream-worker.js"
 compatibility_date = "2026-10-01"
 workers_dev = true
+preview_urls = false
+
+# Request logs in the dashboard (Workers & Pages > nexonic-iptv > Observability) help when an app cannot log in.
+[observability]
+enabled = true
 
 [vars]
 DATA_URL = "https://shahrukhalid.github.io/nexonic-iptv"
