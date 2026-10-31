@@ -46,7 +46,7 @@ freshness reference is the timestamp of the latest verification result, never th
 ## Workflows
 - `ci.yml` (PRs, pushes): lint, tests, validation, moderation, determinism check, secret scan, website build + link
   check, actionlint, gitleaks. Read-only token, no secrets, no live network checks.
-- `verify-streams.yml` (daily 03:17 UTC, manual, data changes on `main`): live checks, regenerate, validate, commit via
+- `verify-streams.yml` (03:17, 11:17 and 19:17 UTC, manual, data changes on `main`): live checks, regenerate, validate, commit via
   the GitHub GraphQL API so bot commits are signed.
 - `generate-playlists.yml`: regenerate when data or code changes on `main` (no-op when nothing changes).
 - `deploy-pages.yml`: build site, check links and assets, deploy to GitHub Pages.

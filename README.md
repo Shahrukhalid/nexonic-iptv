@@ -1,6 +1,6 @@
 # Nexonic IPTV: free IPTV playlists of official live TV streams (M3U)
 
-**Free-to-air IPTV and public live TV streams, organised by country, language and category, and verified every day.**
+**Free-to-air IPTV and public live TV streams, organised by country, language and category, discovered automatically and verified three times a day.**
 
 [![CI](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/ci.yml/badge.svg)](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/ci.yml)
 [![Verify streams](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/verify-streams.yml/badge.svg)](https://github.com/Shahrukhalid/nexonic-iptv/actions/workflows/verify-streams.yml)
@@ -18,7 +18,8 @@ Every stream is checked automatically, every channel records its evidence, and a
 
 Website: https://shahrukhalid.github.io/nexonic-iptv/
 
-> Quality over quantity: a short list of official streams that work beats thousands of dead or questionable links.
+> Big and honest: thousands of channels from ten openly licensed sources, and only streams that pass a real check are
+> published. Dead or questionable links never reach the playlists.
 
 ## Contents
 
@@ -104,9 +105,14 @@ Every channel is checked automatically; a channel that stops working leaves the 
   `playlists/vod/`. See [docs/TIERS.md](docs/TIERS.md) for the source rules, legal notes and takedown path.
 - **Official tier, official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
-- **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in public
-  iptv-org data whose stream is served from the broadcaster's own domain. Auto-admitted channels appear only after
-  they pass a live check. Catalog discovery runs daily at 01:41 UTC.
+- **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in a
+  public, public-domain channel database whose stream is served from the broadcaster's own domain. Auto-admitted
+  channels appear only after they pass a live check.
+- **Automatic discovery:** every day at 01:41 UTC new channels are collected from ten openly licensed sources, screened
+  (database entry, URL policy, no special headers, adult screening, exclusions) and queued for a check. Nothing is
+  published until it works.
+- **Checks three times a day** (03:17, 11:17 and 19:17 UTC): new streams are checked first, failing ones are retried
+  later, and results are saved even when GitHub's API has a hiccup.
 - **Nexonic Verified:** a playlist of channels that passed a real check in the last 48 hours.
 - **Layered verification:** URL policy, DNS, bounded HTTP, HLS manifest, media bytes (and optional FFprobe), with SSRF
   protection and polite rate limits.
@@ -122,7 +128,7 @@ Every channel is checked automatically; a channel that stops working leaves the 
 
 ## How verification works
 
-Stream verification runs every day at 03:17 UTC ([verify-streams.yml](.github/workflows/verify-streams.yml)). Each
+Stream verification runs three times a day, at 03:17, 11:17 and 19:17 UTC ([verify-streams.yml](.github/workflows/verify-streams.yml)). Each
 channel goes through the layered check described in [docs/VERIFICATION.md](docs/VERIFICATION.md): URL policy, DNS,
 manifest, playlist parsing and a read of real video bytes. An HTTP 200 alone is never treated as proof.
 
@@ -151,8 +157,8 @@ in your location.
   [copyright form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=5-copyright-concern.yml) or
   privately ([SECURITY.md](SECURITY.md)). See [DISCLAIMER.md](DISCLAIMER.md) and [docs/LEGAL.md](docs/LEGAL.md).
 - Technical details: playlists use standard extended M3U (`tvg-id`, `tvg-name`, `tvg-country`, `tvg-language`,
-  `group-title`) with HLS streams. `tvg-id` values match [iptv-org/epg](https://github.com/iptv-org/epg) so you can add
-  a programme guide.
+  `group-title`) with HLS streams. `tvg-id` values follow the common channel-ID convention, so standard
+  programme-guide (EPG) files match them.
 
 ## Contributing
 
@@ -183,6 +189,7 @@ python scripts/generate.py     # rebuild playlists, reports and the numbers abov
 - [ ] Confirm every evidence page by hand (`source.evidence_checked`) and grow coverage country by country.
 - [ ] Optional EPG URL in the playlist header once a suitable openly licensed guide source is chosen.
 - [ ] Per-channel history charts on the status page.
+- [ ] More openly licensed sources: suggest one in an issue (it needs an open licence file and free-to-air streams only).
 
 ## FAQ
 
@@ -193,8 +200,8 @@ Common questions about cost, legality, verification and playback are answered in
 
 - Code: [MIT](LICENSE). Data, playlists, reports and verification history (`data/`, `playlists/`, `reports/`,
   `state/`): [CC0 1.0](data/LICENSE). Scope table: [NOTICE.md](NOTICE.md#licensing-scope).
-- Channel IDs, country names/flags and NSFW blocklists: [iptv-org/database](https://github.com/iptv-org/database)
-  (public domain). See [NOTICE.md](NOTICE.md).
+- Channel IDs, country names/flags and NSFW blocklists come from a public-domain channel database. Sources and
+  licences are recorded in [NOTICE.md](NOTICE.md) and `config/pipeline.toml`.
 - Channel names and trademarks belong to their owners.
 
 ## About this repository

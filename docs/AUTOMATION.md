@@ -180,7 +180,7 @@ pytest && ruff check . && ruff format --check .
 ```
 
 ## Verifying the next scheduled run
-1. Open the "Verify streams" run for 03:17 UTC; the job summary starts with the change report.
+1. Open the "Verify streams" run for 03:17 UTC (or 11:17 / 19:17); the job summary starts with the change report.
 2. Check the commit "Update verification results and playlists": `reports/changes.md`, `reports/changes.json`,
    `state/lifecycle.json` and `state/change-history.json` should be part of it.
 3. Read the "Needs attention" list. A run that fails at "Validate before publishing" with `publication-guard` means the
@@ -193,7 +193,7 @@ Everything runs on GitHub-hosted Actions runners; no self-hosted runner is used.
 | Workflow | Trigger | What it does |
 |---|---|---|
 | Refresh catalog | daily 01:41 UTC (and manual) | discovery from the iptv-org data, then commits the updated records, reports and playlists |
-| Verify streams | daily 03:17 UTC, after each Refresh catalog run, and manual | live checks, community and VOD upkeep, generation, validation, commit |
+| Verify streams | 03:17, 11:17 and 19:17 UTC, after each Refresh catalog run, and manual | live checks, community and VOD upkeep, generation, validation, commit |
 | Generate playlists | on push to `main` that changes `data/`, `nexonic/` or `scripts/generate.py` (and manual) | regenerates playlists, reports, `PLAYLISTS.md` and `README.md` |
 | Deploy pages | on push to `main`, after Verify streams and Generate playlists finish (and manual) | builds and publishes the website |
 
