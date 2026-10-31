@@ -1,4 +1,6 @@
 #EXTM3U x-nexonic-playlist="Community UNTESTED (never checked, not recently checked or inconclusive; not confirmed working)" x-nexonic-tier="community"
+#EXTINF:-1 tvg-id="AndorraTV.ad@SD" tvg-name="Andorra TV" tvg-country="AD" tvg-language="Catalan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png" group-title="Untested | Andorra" x-tier="community" x-status="untested" x-quality="1080p",Andorra TV
+https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8
 #EXTINF:-1 tvg-id="FujairahTV.ae@SD" tvg-name="Fujairah TV" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/D2tOhbE.png" group-title="Untested | United Arab Emirates" x-tier="community" x-status="untested" x-quality="720p",Fujairah TV
 https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SharjahSports.ae@SD" tvg-name="Sharjah Sports" tvg-country="AE" tvg-language="Arabic;English" tvg-logo="https://i.imgur.com/CsEElsJ.png" group-title="Untested | United Arab Emirates" x-tier="community" x-status="untested" x-quality="1080p",Sharjah Sports
@@ -55,8 +57,6 @@ https://cdn2.invivo.bg/Codefashion_5500/index.m3u8
 https://cdn2.invivo.bg/codehealth_test/index.m3u8
 #EXTINF:-1 tvg-id="Eurocom.bg@SD" tvg-name="Eurocom" tvg-country="BG" tvg-language="Bulgarian" group-title="Untested | Bulgaria" x-tier="community" x-status="untested" x-quality="sd",Eurocom
 https://live.ecomservice.bg/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RTBSukmaindera.bn@SD" tvg-name="RTB Sukmaindera" tvg-country="BN" tvg-language="Malay;English" tvg-logo="https://i.imgur.com/WpMGnTr.png" group-title="Untested | Brunei" x-tier="community" x-status="untested" x-quality="720p",RTB Sukmaindera
-https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
 #EXTINF:-1 tvg-id="BandSports.br@SD" tvg-name="Band Sports" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/EuPvzJe.png" group-title="Untested | Brazil" x-tier="community" x-status="untested" x-quality="1080p",Band Sports
 https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="BandNews.br@SD" tvg-name="BandNews" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.ibb.co/0jVZBFp/u8ya-iw-R-400x400.jpg" group-title="Untested | Brazil" x-tier="community" x-status="untested" x-quality="1080p",BandNews
@@ -163,8 +163,6 @@ https://rcavlive.akamaized.net/hls/live/704016/cancksh/master.m3u8
 https://rcavlive.akamaized.net/hls/live/704021/cancktm/master.m3u8
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CKTVDT" tvg-name="Ici Radio-Canada Tele (CKTV-DT)" tvg-country="CA" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/960px-SRC-TV.svg.png" group-title="Untested | Canada" x-tier="community" x-status="untested" x-quality="sd",Ici Radio-Canada Tele (CKTV-DT)
 https://rcavlive.akamaized.net/hls/live/704023/cancktv/master.m3u8
-#EXTINF:-1 tvg-id="KidoodleTV.ca@SD" tvg-name="Kidoodle.TV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/MaFtbM5.png" group-title="Untested | Canada" x-tier="community" x-status="untested" x-quality="1080p",Kidoodle.TV
-https://amg07653-apmc-amg07653c9-samsung-us-8740.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LCN.ca@SD" tvg-name="LCN" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/iKDLgOG.png" group-title="Untested | Canada" x-tier="community" x-status="untested" x-quality="sd",LCN
 https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
 #EXTINF:-1 tvg-id="NatureTime.ca@LATAM" tvg-name="NatureTime (LATAM)" tvg-country="CA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Untested | Canada" x-tier="community" x-status="untested" x-quality="sd",NatureTime (LATAM)
@@ -187,8 +185,6 @@ https://edge14.vedge.infomaniak.com/livecast/ik:rhonetv/manifest.m3u8
 https://rtsinfo-d.akamaized.net/out/v1/2b7ae2e1ba3f43c6aba15bced153baf5/index.m3u8
 #EXTINF:-1 tvg-id="MiracleTVPlus.ci@SD" tvg-name="Miracle TV+" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/AQ60OYO.png" group-title="Untested | Ivory Coast" x-tier="community" x-status="untested" x-quality="720p",Miracle TV+
 https://strhlslb01.streamakaci.tv/str_mtv_mtv/str_mtv_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="13C.cl@SD" tvg-name="13C" tvg-country="CL" tvg-language="Spanish" group-title="Untested | Chile" x-tier="community" x-status="untested" x-quality="1080p",13C
-https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-id="CanalClaro.cl@SD" tvg-name="Canal Claro" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Kgjfd3J.png" group-title="Untested | Chile" x-tier="community" x-status="untested" x-quality="720p",Canal Claro
 https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8
 #EXTINF:-1 tvg-id="MyRighteousTV.cm@SD" tvg-name="My Righteous TV" tvg-country="CM" tvg-language="English" tvg-logo="https://i.imgur.com/wKSLNHB.png" group-title="Untested | Cameroon" x-tier="community" x-status="untested" x-quality="sd",My Righteous TV
@@ -295,8 +291,6 @@ https://jmp2.uk/plu-65c4960d11ced7000812c433.m3u8
 https://jmp2.uk/plu-6447dea7e94c380008dba94c.m3u8
 #EXTINF:-1 tvg-id="JudgeJudy.de@GB" tvg-name="Judge Judy" tvg-country="DE" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/622f498d119b4c000719c0b7/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Judge Judy
 https://jmp2.uk/plu-622f498d119b4c000719c0b7.m3u8
-#EXTINF:-1 tvg-id="labor14.de@HD" tvg-name="labor14" tvg-country="DE" tvg-language="German" tvg-logo="https://www.tlm.de/assets/uploads/general/Sonstiges/LogoExt/_500xAUTO_crop_center-center_none/21labor14.jpg" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="sd",labor14
-https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="McLeodsTochter.de@DACH" tvg-name="McLeods Tochter" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/66c6fcfc6838ee00085beb1a/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",McLeods Tochter
 https://jmp2.uk/plu-66c6fcfc6838ee00085beb1a.m3u8
 #EXTINF:-1 tvg-id="MDRFernsehen.de@Sachsen" tvg-name="MDR Fernsehen" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/960px-MDR_Logo_2017.svg.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="1080p",MDR Fernsehen
@@ -311,8 +305,6 @@ https://jmp2.uk/plu-639b558c73423d00071ce624.m3u8
 https://jmp2.uk/plu-645e00d5d3fdde000829463a.m3u8
 #EXTINF:-1 tvg-id="MTVCLASSICS.de@FR" tvg-name="MTV CLASSICS" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",MTV CLASSICS
 https://jmp2.uk/plu-5f92b56a367e170007cd43f4.m3u8
-#EXTINF:-1 tvg-id="MTVEmbarazadaalos16.de@ES" tvg-name="MTV Embarazada a los 16" tvg-country="DE" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f98537a5a4341000733aefe/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",MTV Embarazada a los 16
-https://jmp2.uk/plu-5f98537a5a4341000733aefe.m3u8
 #EXTINF:-1 tvg-id="MTVGeordies.de@ES" tvg-name="MTV Geordies" tvg-country="DE" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/627d3176d7dfa500077042f1/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",MTV Geordies
 https://jmp2.uk/plu-627d3176d7dfa500077042f1.m3u8
 #EXTINF:-1 tvg-id="MTVJerseys.de@ES" tvg-name="MTV Jerseys" tvg-country="DE" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/62ac3d7dc23b400008ae5b5a/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",MTV Jerseys
@@ -391,18 +383,12 @@ https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8
 https://jmp2.uk/plu-5c5c31f2f21b553c1f673fb0.m3u8
 #EXTINF:-1 tvg-id="PlutoTVDeutscheComedy.de@DACH" tvg-name="Pluto TV Deutsche Comedy" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/6672f49f61a39900089db68e/colorLogoPNG_1748857141516.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Deutsche Comedy
 https://jmp2.uk/plu-6672f49f61a39900089db68e.m3u8
-#EXTINF:-1 tvg-id="PlutoTVDocumentari.de@IT" tvg-name="Pluto TV Documentari" tvg-country="DE" tvg-language="Italian" tvg-logo="https://i.imgur.com/o7KVAIH.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Documentari
-https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFamilyMovieClub.de@GB" tvg-name="Pluto TV Family Movie Club" tvg-country="DE" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Family Movie Club
 https://jmp2.uk/plu-5dc3fc6b9133f500099c7d98.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFantasyHorror.de@GB" tvg-name="Pluto TV Fantasy & Horror" tvg-country="DE" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/685041d936c9361b1921c26c/colorLogoPNG_1753696741486.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Fantasy & Horror
 https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFerneGalaxien.de@DACH" tvg-name="Pluto TV Ferne Galaxien" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/68ada46d5190a45dc9c45af1/colorLogoPNG_1773754781519.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Ferne Galaxien
-https://jmp2.uk/plu-68ada46d5190a45dc9c45af1.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFilmAncoraPiuRomantici.de@IT" tvg-name="Pluto TV Film Ancora Piu Romantici" tvg-country="DE" tvg-language="Italian" tvg-logo="https://images.pluto.tv/channels/699d87093d5dba980705cca8/colorLogoPNG_1777274173528.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Film Ancora Piu Romantici
 https://jmp2.uk/plu-699d87093d5dba980705cca8.m3u8
-#EXTINF:-1 tvg-id="PlutoTVFilmCommedia.de@IT" tvg-name="Pluto TV Film Commedia" tvg-country="DE" tvg-language="Italian" tvg-logo="https://i.imgur.com/ADNrqKM.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Film Commedia
-https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFilmStorici.de@IT" tvg-name="Pluto TV Film Storici" tvg-country="DE" tvg-language="Italian" tvg-logo="https://images.pluto.tv/channels/68750875759366af05a151ce/colorLogoPNG_1756144116606.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Film Storici
 https://jmp2.uk/plu-68750875759366af05a151ce.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFilmThriller.de@IT" tvg-name="Pluto TV Film Thriller" tvg-country="DE" tvg-language="Italian" tvg-logo="https://i.imgur.com/3SWPIek.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Film Thriller
@@ -481,16 +467,12 @@ https://jmp2.uk/plu-619247c34a270700077c8415.m3u8
 https://jmp2.uk/plu-5dc190f7bfed110009d934c3.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSerieCrime.de@IT" tvg-name="Pluto TV Serie Crime" tvg-country="DE" tvg-language="Italian" tvg-logo="https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG_1750402183051.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Serie Crime
 https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSerieSciFi.de@IT" tvg-name="Pluto TV Serie Sci-Fi" tvg-country="DE" tvg-language="Italian" tvg-logo="https://images.pluto.tv/channels/67ed14aaf7c5d70b9089c3bf/colorLogoPNG_1750259768860.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Serie Sci-Fi
-https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSeriescriminales.de@ES" tvg-name="Pluto TV Series criminales" tvg-country="DE" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/65cf6ab58145cb0008129ca8/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Series criminales
 https://jmp2.uk/plu-65cf6ab58145cb0008129ca8.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSherlock.de@GB" tvg-name="Pluto TV Sherlock" tvg-country="DE" tvg-language="English" tvg-logo="https://i.imgur.com/SL3FNcm.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Sherlock
 https://jmp2.uk/plu-5dc2c00abfed110009d97243.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSitcoms.de@DACH" tvg-name="Pluto TV Sitcoms" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/YzrUL8P.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Sitcoms
 https://jmp2.uk/plu-5d767ab2b456c8cf265ce921.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSitcoms.de@GB" tvg-name="Pluto TV Sitcoms (GB)" tvg-country="DE" tvg-language="English" tvg-logo="https://i.imgur.com/YzrUL8P.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Sitcoms (GB)
-https://jmp2.uk/plu-62f53dc6ee9a0400071dc22b.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSpace.de@DACH" tvg-name="Pluto TV Space" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/hQwS3ui.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Space
 https://jmp2.uk/plu-61409f8d6feb30000766b675.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSpace.de@GB" tvg-name="Pluto TV Space (GB)" tvg-country="DE" tvg-language="English" tvg-logo="https://i.imgur.com/hQwS3ui.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Space (GB)
@@ -555,12 +537,8 @@ https://jmp2.uk/plu-646b1404ee6a2f00082b5d66.m3u8
 https://jmp2.uk/plu-646b150a15939400089e2702.m3u8
 #EXTINF:-1 tvg-id="SouthParkStanCollection.de@DACH" tvg-name="South Park: Stan Collection" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/646b1438e94c3800082a8cff/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",South Park: Stan Collection
 https://jmp2.uk/plu-646b1438e94c3800082a8cff.m3u8
-#EXTINF:-1 tvg-id="SpongeBobSchwammkopf.de@DACH" tvg-name="SpongeBob Schwammkopf" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/NIsgNvI.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",SpongeBob Schwammkopf
-https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
 #EXTINF:-1 tvg-id="StarTrekTheNextGeneration.de@DACH" tvg-name="Star Trek: The Next Generation" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/69776ce979545c21a1220bff/colorLogoPNG_1769434849537.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Star Trek: The Next Generation
 https://jmp2.uk/plu-69776ce979545c21a1220bff.m3u8
-#EXTINF:-1 tvg-id="StarTrekVoyager.de@ES" tvg-name="Star Trek: Voyager" tvg-country="DE" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/65787f2eb228b7000843fa5c/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Star Trek: Voyager
-https://jmp2.uk/plu-65787f2eb228b7000843fa5c.m3u8
 #EXTINF:-1 tvg-id="TakeshisCastle.de@DACH" tvg-name="Takeshi's Castle" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/KuK72kL.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Takeshi's Castle
 https://jmp2.uk/plu-6054a9f4bc8a5f000771504c.m3u8
 #EXTINF:-1 tvg-id="TeenMom.de@FR" tvg-name="Teen Mom (FR)" tvg-country="DE" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/62e7fc8c0d061100083946a9/colorLogoPNG.png" group-title="Untested | Germany" x-tier="community" x-status="untested" x-quality="720p",Teen Mom (FR)
@@ -593,6 +571,8 @@ https://drlive03hls.akamaized.net/hls/live/2014190/drlive03/master.m3u8
 https://drlivedr2hls.akamaized.net/hls/live/2113623/drlivedr2/master.m3u8
 #EXTINF:-1 tvg-id="PortalDigitalTV.do@HD" tvg-name="Portal Digital TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3664-294x165-FFFFFF.jpg" group-title="Untested | Dominican Republic" x-tier="community" x-status="untested" x-quality="720p",Portal Digital TV
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/5ccadd2a-00ad-4a5b-8322-4b5f69464a68/source/index.m3u8
+#EXTINF:-1 tvg-id="CNA.dz@SD" tvg-name="CNA" tvg-country="DZ" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/Ki3ySUE.png" group-title="Untested | Algeria" x-tier="community" x-status="untested" x-quality="sd",CNA
+https://live.creacast.com/cna/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Gamavision.ec@SD" tvg-name="Gamavision" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" group-title="Untested | Ecuador" x-tier="community" x-status="untested" x-quality="sd",Gamavision
 https://stream.esradioecuador.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OndasQuevedenasTV.ec@SD" tvg-name="Ondas Quevedenas TV" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/K9pW0LA.jpeg" group-title="Untested | Ecuador" x-tier="community" x-status="untested" x-quality="720p",Ondas Quevedenas TV
@@ -623,8 +603,6 @@ https://streamer.zapitv.com/PTV-malaga/index.m3u8
 https://streamer.zapitv.com/PTV_sevilla/index.m3u8
 #EXTINF:-1 tvg-id="TV3CAT.es@SD" tvg-name="TV3CAT" tvg-country="ES" tvg-language="Catalan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png" group-title="Untested | Spain" x-tier="community" x-status="untested" x-quality="1080p",TV3CAT
 https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.fi@SD" tvg-name="National Geographic" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Untested | Finland" x-tier="community" x-status="untested" x-quality="720p",National Geographic
-https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
 #EXTINF:-1 tvg-id="YleX.fi@SD" tvg-name="YleX" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/YleX.svg/960px-YleX.svg.png" group-title="Untested | Finland" x-tier="community" x-status="untested" x-quality="720p",YleX
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-name="Canal+ Sport" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Untested | France" x-tier="community" x-status="untested" x-quality="1080p",Canal+ Sport
@@ -701,8 +679,6 @@ https://d33zah5htxvoxb.cloudfront.net/el/live/oirtv/hls.m3u8
 https://d33zah5htxvoxb.cloudfront.net/el/live/dail/hls.m3u8
 #EXTINF:-1 tvg-id="DharsanTV.in@SD" tvg-name="Dharsan TV" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://play-lh.googleusercontent.com/brn76ZzRlqS8ylZVVcc5ZFWcqUp36iJ82WyzwiQ8-Nqi_8pIZZ_gsMCXNn6YiLhOEQ" group-title="Untested | India" x-tier="community" x-status="untested" x-quality="720p",Dharsan TV
 https://cable91tataplay.akamaized.net/live/dharshantv/index.m3u8
-#EXTINF:-1 tvg-id="DivyaBhajan.in@SD" tvg-name="Divya Bhajan" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DivyaBhajan.png" group-title="Untested | India" x-tier="community" x-status="untested" x-quality="1080p",Divya Bhajan
-https://jmp2.uk/stvp-IN1600002IQ
 #EXTINF:-1 tvg-id="DY365.in@SD" tvg-name="DY 365" tvg-country="IN" tvg-language="Assamese" tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540" group-title="Untested | India" x-tier="community" x-status="untested" x-quality="sd",DY 365
 https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8
 #EXTINF:-1 tvg-id="EpicTV.in@Digital" tvg-name="Epic TV (Digital)" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032DV5H.png?lock=720x540" group-title="Untested | India" x-tier="community" x-status="untested" x-quality="1080p",Epic TV (Digital)
@@ -739,8 +715,6 @@ https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperTennis.it@SD" tvg-name="SuperTennis" tvg-country="IT" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png" group-title="Untested | Italy" x-tier="community" x-status="untested" x-quality="1080p",SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-#EXTINF:-1 tvg-id="VideoRola.it@SD" tvg-name="Video Rola" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/9w54eVy.png" group-title="Untested | Italy" x-tier="community" x-status="untested" x-quality="1080p",Video Rola
-https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp@JOJGDTV" tvg-name="NHK General TV (JOJG-DTV)" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="Untested | Japan" x-tier="community" x-status="untested" x-quality="1080p",NHK General TV (JOJG-DTV)
 https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
 #EXTINF:-1 tvg-id="AlaToo24.kg@SD" tvg-name="Ala-Too 24" tvg-country="KG" tvg-language="Kyrgyz;Russian" tvg-logo="https://i.imgur.com/vBPmUQA.png" group-title="Untested | Kyrgyzstan" x-tier="community" x-status="untested" x-quality="sd",Ala-Too 24
@@ -943,8 +917,6 @@ https://shls-live-enc.edgenextcdn.net/out/v1/07a6ab2d57b2453a91bbdd2d46b5865a/in
 https://jmp2.uk/plu-6720bc6cdaad7f000872a6e2.m3u8
 #EXTINF:-1 tvg-id="7thHeaven.se@SE" tvg-name="7th Heaven" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6728c9c85534bb0008b320a4/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",7th Heaven
 https://jmp2.uk/plu-6728cab6e482950008b76d8c.m3u8
-#EXTINF:-1 tvg-id="7thHeaven.se@DK" tvg-name="7th Heaven (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6728c9c85534bb0008b320a4/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",7th Heaven (DK)
-https://jmp2.uk/plu-6728c9c85534bb0008b320a4.m3u8
 #EXTINF:-1 tvg-id="AreYouTheOne.se@DK" tvg-name="Are You The One? (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://i.imgur.com/cIt8UWE.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Are You The One? (DK)
 https://jmp2.uk/plu-61c091c39863900007ac9e8f.m3u8
 #EXTINF:-1 tvg-id="AreYouTheOne.se@NO" tvg-name="Are You The One? (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://i.imgur.com/cIt8UWE.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Are You The One? (NO)
@@ -975,8 +947,6 @@ https://jmp2.uk/plu-632aff5e44111b00076ad9b1.m3u8
 https://jmp2.uk/plu-632afc466699570007ed1106.m3u8
 #EXTINF:-1 tvg-id="BestofParadiseHotelFinalveckan.se@SE" tvg-name="Best of Paradise Hotel: Finalveckan" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65e97d41f7f0af0008da2543/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Best of Paradise Hotel: Finalveckan
 https://jmp2.uk/plu-65e97d41f7f0af0008da2543.m3u8
-#EXTINF:-1 tvg-id="BestofParadiseHotelKyssarkarlek.se@SE" tvg-name="Best of Paradise Hotel: Kyssar & karlek" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65b1077e0d9ab40008245b20/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Best of Paradise Hotel: Kyssar & karlek
-https://jmp2.uk/plu-65b1077e0d9ab40008245b20.m3u8
 #EXTINF:-1 tvg-id="BestofParadiseHotelPandorasAsk.se@SE" tvg-name="Best of Paradise Hotel: Pandoras Ask" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65e97d760d456100082da660/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Best of Paradise Hotel: Pandoras Ask
 https://jmp2.uk/plu-65e97d760d456100082da660.m3u8
 #EXTINF:-1 tvg-id="BestofTheDrewBarrymoreShow.se@SE" tvg-name="Best of The Drew Barrymore Show" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/62beb692cda2b10007d5fd76/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Best of The Drew Barrymore Show
@@ -1015,8 +985,6 @@ https://jmp2.uk/plu-685029cda1e091e16ff57fc8.m3u8
 https://jmp2.uk/plu-6964b982ca459f9b939da8e6.m3u8
 #EXTINF:-1 tvg-id="BuyingBlindDenmark.se@SE" tvg-name="Buying Blind Denmark" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/63c6a7544faf1c0007b496d7/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Buying Blind Denmark
 https://jmp2.uk/plu-63c6a7544faf1c0007b496d7.m3u8
-#EXTINF:-1 tvg-id="CampKulinaris.se@SE" tvg-name="Camp Kulinaris" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c1dce2fb9ae40007d0ac15/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Camp Kulinaris
-https://jmp2.uk/plu-6400bf66dff38e00083f4ee8.m3u8
 #EXTINF:-1 tvg-id="CampKulinaris.se@NO" tvg-name="Camp Kulinaris (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/61c1dce2fb9ae40007d0ac15/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Camp Kulinaris (NO)
 https://jmp2.uk/plu-61c1dce2fb9ae40007d0ac15.m3u8
 #EXTINF:-1 tvg-id="CarChase.se@SE" tvg-name="Car Chase" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65a93b0607e03a000895abda/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Car Chase
@@ -1025,8 +993,6 @@ https://jmp2.uk/plu-65a93be02fac9c00083cbac4.m3u8
 https://jmp2.uk/plu-65a93b0607e03a000895abda.m3u8
 #EXTINF:-1 tvg-id="ChappellesShow.se@SE" tvg-name="Chappelle's Show" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Chappelle's Show
 https://jmp2.uk/plu-65e9783b0d456100082d9e05.m3u8
-#EXTINF:-1 tvg-id="ChappellesShow.se@DK" tvg-name="Chappelle's Show (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Chappelle's Show (DK)
-https://jmp2.uk/plu-65e976ad0d456100082d9b74.m3u8
 #EXTINF:-1 tvg-id="ChappellesShow.se@NO" tvg-name="Chappelle's Show (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/65e976ad0d456100082d9b74/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Chappelle's Show (NO)
 https://jmp2.uk/plu-65e977a618036500082ec972.m3u8
 #EXTINF:-1 tvg-id="ComedyCentral.se@SE" tvg-name="Comedy Central" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c0989431084d0007eab12d/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Comedy Central
@@ -1119,8 +1085,6 @@ https://jmp2.uk/plu-65cba7573ba51e00084d76e1.m3u8
 https://jmp2.uk/plu-65a63ff00d9ab400080b101c.m3u8
 #EXTINF:-1 tvg-id="Kunskapskanalen.se@HD" tvg-name="Kunskapskanalen" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kunskapskanalen_2017.svg/960px-Kunskapskanalen_2017.svg.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="1080p",Kunskapskanalen
 https://svt-live-channel.akamaized.net/l6/se/svtk/master-fmp4.m3u8?defaultSubLang=1&format=hls
-#EXTINF:-1 tvg-id="LangtfraBryggen.se@DK" tvg-name="Langt fra Bryggen" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/654a3fe6986ad20008a42add/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Langt fra Bryggen
-https://jmp2.uk/plu-654a3fe6986ad20008a42add.m3u8
 #EXTINF:-1 tvg-id="Luksusfellen.se@NO" tvg-name="Luksusfellen" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/61c1e060197fe600073c1ffb/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Luksusfellen
 https://jmp2.uk/plu-61c1e060197fe600073c1ffb.m3u8
 #EXTINF:-1 tvg-id="LyxfallanDanmark.se@SE" tvg-name="Lyxfallan Danmark" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c19165decece0007e9b2f3/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Lyxfallan Danmark
@@ -1151,8 +1115,6 @@ https://jmp2.uk/plu-63048147b09fd60007847a08.m3u8
 https://jmp2.uk/plu-63047bd6b0726b000795341d.m3u8
 #EXTINF:-1 tvg-id="MissionImpossible.se@SE" tvg-name="Mission Impossible" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Mission Impossible
 https://jmp2.uk/plu-639b4f14be012600070fe1be.m3u8
-#EXTINF:-1 tvg-id="MissionImpossible.se@DK" tvg-name="Mission Impossible (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Mission Impossible (DK)
-https://jmp2.uk/plu-6478a9e4f77b61000817034b.m3u8
 #EXTINF:-1 tvg-id="MissionImpossible.se@NO" tvg-name="Mission Impossible (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/6478a9e4f77b61000817034b/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Mission Impossible (NO)
 https://jmp2.uk/plu-639b4eb4da3fda0008036f6e.m3u8
 #EXTINF:-1 tvg-id="MTVCatfish.se@SE" tvg-name="MTV Catfish" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/6177fe76691b2e000702c7fc/colorLogoPNG_1750864554364.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",MTV Catfish
@@ -1199,10 +1161,6 @@ https://jmp2.uk/plu-63dbe78051f5d000083e9249.m3u8
 https://jmp2.uk/plu-62bebb3a67307900077a7f9d.m3u8
 #EXTINF:-1 tvg-id="Paradise.se@SE" tvg-name="Paradise" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/629e095e511d4b00070c9f44/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Paradise
 https://jmp2.uk/plu-6380c73f76e43f000721f73b.m3u8
-#EXTINF:-1 tvg-id="Paradise.se@DK" tvg-name="Paradise (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/629e095e511d4b00070c9f44/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Paradise (DK)
-https://jmp2.uk/plu-629e095e511d4b00070c9f44.m3u8
-#EXTINF:-1 tvg-id="ParadiseHotel.se@SE" tvg-name="Paradise Hotel" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c19af83fae0a00078c8918/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Paradise Hotel
-https://jmp2.uk/plu-61c18e1e0cd4cc00076bc4b3.m3u8
 #EXTINF:-1 tvg-id="ParadiseHotel.se@DK" tvg-name="Paradise Hotel (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c19af83fae0a00078c8918/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Paradise Hotel (DK)
 https://jmp2.uk/plu-61c19af83fae0a00078c8918.m3u8
 #EXTINF:-1 tvg-id="ParadiseHotel.se@NO" tvg-name="Paradise Hotel (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/61c19af83fae0a00078c8918/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Paradise Hotel (NO)
@@ -1221,8 +1179,6 @@ https://jmp2.uk/plu-61c0b0688a80a4000703fbcb.m3u8
 https://jmp2.uk/plu-61c095861782bd000780e0ba.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAction.se@NO" tvg-name="Pluto TV Action (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/61c095861782bd000780e0ba/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Action (NO)
 https://jmp2.uk/plu-61c1e270489a9c000874d209.m3u8
-#EXTINF:-1 tvg-id="PlutoTVAlienInvasion.se@DK" tvg-name="Pluto TV Alien Invasion" tvg-country="SE" tvg-language="Danish" tvg-logo="https://images.pluto.tv/channels/650999b86a841400083bd1ab/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Alien Invasion
-https://jmp2.uk/plu-650999b86a841400083bd1ab.m3u8
 #EXTINF:-1 tvg-id="PlutoTVBudTerence.se@SE" tvg-name="Pluto TV Bud & Terence" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/64be7398e4391c0008cdedfe/colorLogoPNG_1776936976930.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Bud & Terence
 https://jmp2.uk/plu-65b917720d9ab4000833f323.m3u8
 #EXTINF:-1 tvg-id="PlutoTVBudTerence.se@DK" tvg-name="Pluto TV Bud & Terence (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/64be7398e4391c0008cdedfe/colorLogoPNG_1776936976930.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Bud & Terence (DK)
@@ -1263,8 +1219,6 @@ https://jmp2.uk/plu-61c0b7eb8929e40007ff5125.m3u8
 https://jmp2.uk/plu-61c09a78bd194c0008decc28.m3u8
 #EXTINF:-1 tvg-id="PlutoTVJuniorklubben.se@NO" tvg-name="Pluto TV Juniorklubben (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/61c09a78bd194c0008decc28/colorLogoPNG_1748329348443.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Juniorklubben (NO)
 https://jmp2.uk/plu-61c1d459fbb4b50007d24647.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKlassisketegnefilm.se@DK" tvg-name="Pluto TV Klassiske tegnefilm" tvg-country="SE" tvg-language="Danish" tvg-logo="https://images.pluto.tv/channels/67f508992ebe80e2929b5c98/colorLogoPNG_1748955041610.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Klassiske tegnefilm
-https://jmp2.uk/plu-67f508992ebe80e2929b5c98.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKlassisketegnefilmer.se@NO" tvg-name="Pluto TV Klassiske tegnefilmer" tvg-country="SE" tvg-language="Norwegian" tvg-logo="https://images.pluto.tv/channels/67f508f68ddd60c57dc44766/colorLogoPNG_1748955225113.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Klassiske tegnefilmer
 https://jmp2.uk/plu-67f508f68ddd60c57dc44766.m3u8
 #EXTINF:-1 tvg-id="PlutoTVKomedie.se@NO" tvg-name="Pluto TV Komedie" tvg-country="SE" tvg-language="Norwegian" tvg-logo="https://images.pluto.tv/channels/61c1e3a679a4390007c78136/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Komedie
@@ -1279,8 +1233,6 @@ https://jmp2.uk/plu-68ac51dede4a734954b5a67a.m3u8
 https://jmp2.uk/plu-68ac52b05190a45dc990ee39.m3u8
 #EXTINF:-1 tvg-id="PlutoTVParanormal.se@SE" tvg-name="Pluto TV Paranormal" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/62b30beb81f89900071fc7b9/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Paranormal
 https://jmp2.uk/plu-62b1e4189f5db20007ff03be.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRomantik.se@SE" tvg-name="Pluto TV Romantik" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/63a1c954d3897300079fcb12/colorLogoPNG_1767773445743.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Romantik
-https://jmp2.uk/plu-63a19da6847a090007f230da.m3u8
 #EXTINF:-1 tvg-id="PlutoTVRomantik.se@DK" tvg-name="Pluto TV Romantik (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/63a1c954d3897300079fcb12/colorLogoPNG_1767773445743.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Romantik (DK)
 https://jmp2.uk/plu-63a1c954d3897300079fcb12.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSciFi.se@SE" tvg-name="Pluto TV Sci-Fi" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Sci-Fi
@@ -1313,8 +1265,6 @@ https://jmp2.uk/plu-61c0b438244e50000758083b.m3u8
 https://jmp2.uk/plu-61c097ec8bb1830008e3f962.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTrueCrime.se@NO" tvg-name="Pluto TV True Crime (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/615333098185f00008715a56/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV True Crime (NO)
 https://jmp2.uk/plu-61c1e51354d923000731bf78.m3u8
-#EXTINF:-1 tvg-id="PlutoTVUngdomsserier.se@SE" tvg-name="Pluto TV Ungdomsserier" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/67f3fb1cdea1c5e0d588ac1b/colorLogoPNG_1748270797322.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Ungdomsserier
-https://jmp2.uk/plu-67f3fc1707d2ba4121bd34a8.m3u8
 #EXTINF:-1 tvg-id="PlutoTVUngdomsserier.se@DK" tvg-name="Pluto TV Ungdomsserier (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/67f3fb1cdea1c5e0d588ac1b/colorLogoPNG_1748270797322.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Ungdomsserier (DK)
 https://jmp2.uk/plu-67f3fb1cdea1c5e0d588ac1b.m3u8
 #EXTINF:-1 tvg-id="PlutoTVVarldskrigen.se@SE" tvg-name="Pluto TV Varldskrigen" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/677d3ad04bd63600082f7c54/colorLogoPNG_1759445391825.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Varldskrigen
@@ -1341,12 +1291,8 @@ https://jmp2.uk/plu-65e9766eec9fda0008cb418a.m3u8
 https://jmp2.uk/plu-65e977874e01740008c9fb4c.m3u8
 #EXTINF:-1 tvg-id="RidiculousnessNyaavsnitt.se@SE" tvg-name="Ridiculousness: Nya avsnitt" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/68dfa1e7fae18f8db6218703/colorLogoPNG_1762543429004.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Ridiculousness: Nya avsnitt
 https://jmp2.uk/plu-68dfa1e7fae18f8db6218703.m3u8
-#EXTINF:-1 tvg-id="RidiculousnessNyeafsnit.se@DK" tvg-name="Ridiculousness: Nye afsnit" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/68dfa160cc3c6cd90404d798/colorLogoPNG_1762543256959.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Ridiculousness: Nye afsnit
-https://jmp2.uk/plu-68dfa160cc3c6cd90404d798.m3u8
 #EXTINF:-1 tvg-id="RidiculousnessNyeepisoder.se@NO" tvg-name="Ridiculousness: Nye episoder" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/68dfa1a7fae18f8db6218222/colorLogoPNG_1762510989212.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Ridiculousness: Nye episoder
 https://jmp2.uk/plu-68dfa1a7fae18f8db6218222.m3u8
-#EXTINF:-1 tvg-id="RobinsonEkspeditionen.se@DK" tvg-name="Robinson Ekspeditionen" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/63a42df60cc44a0007dd47f8/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Robinson Ekspeditionen
-https://jmp2.uk/plu-63a42df60cc44a0007dd47f8.m3u8
 #EXTINF:-1 tvg-id="SabrinatheTeenageWitch.se@DK" tvg-name="Sabrina the Teenage Witch (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6512ecf63a0d700008db506a/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Sabrina the Teenage Witch (DK)
 https://jmp2.uk/plu-6512ecf63a0d700008db506a.m3u8
 #EXTINF:-1 tvg-id="SabrinatheTeenageWitch.se@NO" tvg-name="Sabrina the Teenage Witch (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/6512ecf63a0d700008db506a/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Sabrina the Teenage Witch (NO)
@@ -1437,8 +1383,6 @@ https://jmp2.uk/plu-6964bcf9ae33e24d911d7e1c.m3u8
 https://jmp2.uk/plu-69256bd7db5cc2f81d8a1a08.m3u8
 #EXTINF:-1 tvg-id="TilMiddagHos.se@DK" tvg-name="Til Middag Hos" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c1a05ef30f5d0007e562f3/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Til Middag Hos
 https://jmp2.uk/plu-61c1a05ef30f5d0007e562f3.m3u8
-#EXTINF:-1 tvg-id="Tosh0.se@DK" tvg-name="Tosh.0 (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/65e977042873090008b48be9/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Tosh.0 (DK)
-https://jmp2.uk/plu-65e977042873090008b48be9.m3u8
 #EXTINF:-1 tvg-id="TotallyTurtles.se@SE" tvg-name="Totally Turtles" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://images.pluto.tv/channels/61c0bbd95df1da0007bed5a0/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Totally Turtles
 https://jmp2.uk/plu-61c185e36faf920007f04b6e.m3u8
 #EXTINF:-1 tvg-id="TotallyTurtles.se@DK" tvg-name="Totally Turtles (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c0bbd95df1da0007bed5a0/colorLogoPNG.png" group-title="Untested | Sweden" x-tier="community" x-status="untested" x-quality="720p",Totally Turtles (DK)
@@ -1457,8 +1401,6 @@ https://jmp2.uk/plu-62b9b63d3bbe9000073c0a2d.m3u8
 https://ottst05.flexitv.sk/2827-tv-pc.m3u8
 #EXTINF:-1 tvg-id="TeleTchad.td@SD" tvg-name="Tele Tchad" tvg-country="TD" tvg-language="French;Arabic" tvg-logo="https://i.imgur.com/udSzfHD.png" group-title="Untested | Chad" x-tier="community" x-status="untested" x-quality="1080p",Tele Tchad
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="ALTV.th@SD" tvg-name="ALTV" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/MCbCSWv.png" group-title="Untested | Thailand" x-tier="community" x-status="untested" x-quality="1080p",ALTV
-https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
 #EXTINF:-1 tvg-id="Channel5.th@SD" tvg-name="Channel 5" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/wOIaqg7.png" group-title="Untested | Thailand" x-tier="community" x-status="untested" x-quality="1080p",Channel 5
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel7.th@SD" tvg-name="Channel 7" tvg-country="TH" tvg-language="Thai" tvg-logo="https://i.imgur.com/SBCIwek.png" group-title="Untested | Thailand" x-tier="community" x-status="untested" x-quality="1080p",Channel 7
@@ -1661,20 +1603,14 @@ https://jmp2.uk/plu-5f1acce7f17797000718f9be.m3u8
 https://jmp2.uk/plu-6850335b5965a2fd49f7e36d.m3u8
 #EXTINF:-1 tvg-id="Andromeda.us@Italy" tvg-name="Andromeda (Italy)" tvg-country="US" tvg-language="Italian" tvg-logo="https://i.imgur.com/6ot2lmd.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Andromeda (Italy)
 https://jmp2.uk/plu-60802d37ee238e0007c94e64.m3u8
-#EXTINF:-1 tvg-id="ArchivosForenses.us@Spain" tvg-name="Archivos Forenses" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Pxrl9Ug.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Archivos Forenses
-https://jmp2.uk/plu-5f984f4a09e92d0007d74647.m3u8
 #EXTINF:-1 tvg-id="ARTNTV.us@SD" tvg-name="ARTN TV" tvg-country="US" tvg-language="Russian;Armenian" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",ARTN TV
 https://streamer1.connectto.com/ARTN_mobile/index.m3u8
-#EXTINF:-1 tvg-id="AuroraTV.us@SD" tvg-name="AuroraTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/g8Q1ASR.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",AuroraTV
-https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="AvatarAlendadeAang.us@BR" tvg-name="Avatar: A lenda de Aang" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/6759eeb1bd523200083b4f29/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Avatar: A lenda de Aang
 https://jmp2.uk/plu-6759eeb1bd523200083b4f29.m3u8
 #EXTINF:-1 tvg-id="AvatarLaLeyendadeAang.us@LatAm" tvg-name="Avatar: La Leyenda de Aang" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Avatar: La Leyenda de Aang
 https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8
 #EXTINF:-1 tvg-id="BarRescue.us@SD" tvg-name="Bar Rescue" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/WFgWGPb.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Bar Rescue
 https://jmp2.uk/plu-60a3d889a5b3690008dc7fe8.m3u8
-#EXTINF:-1 tvg-id="BarRescue.us@CA" tvg-name="Bar Rescue (CA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/WFgWGPb.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Bar Rescue (CA)
-https://jmp2.uk/plu-655f2ee6c0fc88000877d26c.m3u8
 #EXTINF:-1 tvg-id="BattlestarGalactica.us@SD" tvg-name="Battlestar Galactica" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/69d7ebff029c431826bd328e/colorLogoPNG_1776982986391.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Battlestar Galactica
 https://jmp2.uk/plu-69d7ebff029c431826bd328e.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us@SD" tvg-name="Bellator MMA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/VBKoLHk.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Bellator MMA
@@ -1711,8 +1647,6 @@ https://jmp2.uk/plu-68e9913c4a666b9054849832.m3u8
 https://jmp2.uk/plu-696e647b07ea70192d49f6a5.m3u8
 #EXTINF:-1 tvg-id="BPTV.us@SD" tvg-name="BPTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ObNBL7L.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",BPTV
 https://buenapark.cablecast.tv/live/stream-1/live.m3u8
-#EXTINF:-1 tvg-id="BXInspire.us@SD" tvg-name="BX Inspire" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/PF71rdZ.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",BX Inspire
-https://reflect-stream-bronxnet.cablecast.tv/live-18/live/stream-7/live.m3u8
 #EXTINF:-1 tvg-id="CapitalCityConnectionMontgomery.us@SD" tvg-name="Capital City Connection Montgomery" tvg-country="US" tvg-language="English" tvg-logo="https://image.roku.com/developer_channels/prod/a2cb55884ff88035ebbbb32ef9c60a228314d0a2ac4c86722aff5ea1cb9abcd8.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Capital City Connection Montgomery
 https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CarChase.us@SD" tvg-name="Car Chase" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/65244c403fd33c0008ffff31/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Car Chase
@@ -1723,14 +1657,10 @@ https://jmp2.uk/plu-6109a9f5531b840007a4a187.m3u8
 https://jmp2.uk/plu-5eb1afb21486df0007abc57c.m3u8
 #EXTINF:-1 tvg-id="CBSNewsBoston.us@SD" tvg-name="CBS News Boston" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/9un7R3N.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS News Boston
 https://jmp2.uk/plu-5eb1af2ad345340008fccd1e.m3u8
-#EXTINF:-1 tvg-id="CBSNewsColorado.us@SD" tvg-name="CBS News Colorado" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/2oyYwBw.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS News Colorado
-https://jmp2.uk/plu-5eb1b12146cba40007aa7e5d.m3u8
 #EXTINF:-1 tvg-id="CBSNewsMinnesota.us@SD" tvg-name="CBS News Minnesota" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ubxwfMY.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS News Minnesota
 https://jmp2.uk/plu-5eb1b0bf2240d8000732a09c.m3u8
 #EXTINF:-1 tvg-id="CBSNewsNewYork.us@SD" tvg-name="CBS News New York" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bpc4v0u.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS News New York
 https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8
-#EXTINF:-1 tvg-id="CBSNewsPittsburgh.us@SD" tvg-name="CBS News Pittsburgh" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Un9IrUh.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS News Pittsburgh
-https://jmp2.uk/plu-5eb1b17aa5277e00083f6521.m3u8
 #EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-name="CBS Sports HQ" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CBS Sports HQ
 https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
 #EXTINF:-1 tvg-id="ChaosCity.us@Germany" tvg-name="Chaos City" tvg-country="US" tvg-language="German" tvg-logo="https://i.imgur.com/1UZNdRH.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Chaos City
@@ -1799,8 +1729,6 @@ https://jmp2.uk/plu-6578875614fbe400086e319e.m3u8
 https://jmp2.uk/plu-65652f7fc0fc88000883537a.m3u8
 #EXTINF:-1 tvg-id="CSI.us@SD" tvg-name="CSI" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/xLLNEfA.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",CSI
 https://jmp2.uk/plu-5efbd29e4aa26700076c0d06.m3u8
-#EXTINF:-1 tvg-id="CSIMiami.us@BR" tvg-name="CSI: Miami (BR)" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CSI: Miami (BR)
-https://jmp2.uk/plu-63eb9c5351f5d000085e8d7e.m3u8
 #EXTINF:-1 tvg-id="CSIMiami.us@LatAm" tvg-name="CSI: Miami (LatAm)" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/63eb9c5351f5d000085e8d7e/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CSI: Miami (LatAm)
 https://jmp2.uk/plu-63eb9255c111bc0008fe6ec4.m3u8
 #EXTINF:-1 tvg-id="CSINYenespanol.us@SD" tvg-name="CSI: NY en espanol" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/632b606e12a67b0007c9e371/colorLogoPNG_1731837281479.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",CSI: NY en espanol
@@ -1815,8 +1743,6 @@ https://jmp2.uk/plu-5d40855b3fb0855028c99b6f.m3u8
 https://jmp2.uk/plu-638df93ae2f2a3000737c168.m3u8
 #EXTINF:-1 tvg-id="DocMartin.us@CA" tvg-name="Doc Martin" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/62e922f6675f71000736db3b/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Doc Martin
 https://jmp2.uk/plu-62e922f6675f71000736db3b.m3u8
-#EXTINF:-1 tvg-id="DoraTV.us@CA" tvg-name="Dora TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/zJuSbmU.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Dora TV
-https://jmp2.uk/plu-62e951258a26d40007b3034c.m3u8
 #EXTINF:-1 tvg-id="DossiersFBI.us@France" tvg-name="Dossiers FBI" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/8Zx6dA7.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Dossiers FBI
 https://jmp2.uk/plu-5f8edad922b10b000753bc37.m3u8
 #EXTINF:-1 tvg-id="ElComisario.us@Spain" tvg-name="El Comisario" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/XYt8utn.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",El Comisario
@@ -1839,8 +1765,6 @@ https://jmp2.uk/plu-699c1c633d27d6da460bbcae.m3u8
 https://jmp2.uk/plu-62bdaa32a1b2fd00076693e8.m3u8
 #EXTINF:-1 tvg-id="FeelGoodDrama.us@SD" tvg-name="Feel Good Drama" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/65775af3b3801200084a3aa4/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Feel Good Drama
 https://jmp2.uk/plu-65775af3b3801200084a3aa4.m3u8
-#EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-name="FilAmTV Network" tvg-country="US" tvg-language="English;Tagalog" tvg-logo="https://i.imgur.com/nRiApdI.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",FilAmTV Network
-https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="FlicksofFury.us@SD" tvg-name="Flicks of Fury" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Flicks of Fury
 https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
 #EXTINF:-1 tvg-id="ForensicFiles.us@SD" tvg-name="Forensic Files" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/V5vvuLK.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Forensic Files
@@ -1849,10 +1773,12 @@ https://jmp2.uk/plu-64ec5cf50f73a800081310a5.m3u8
 https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WHBQTV" tvg-name="Fox (WHBQ-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Fox (WHBQ-TV)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WJBK" tvg-name="Fox (WJBK)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Fox (WJBK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTVT" tvg-name="Fox (WTVT)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Fox (WTVT)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="FunnyAF.us@SD" tvg-name="Funny AF" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/UCwjdtQ.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Funny AF
 https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
-#EXTINF:-1 tvg-id="GameShowCentral.us@SD" tvg-name="Game Show Central" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Uuc5h1s.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Game Show Central
-https://jmp2.uk/plu-5e54187aae660e00093561d6.m3u8
 #EXTINF:-1 tvg-id="GarfieldandFriends.us@US" tvg-name="Garfield and Friends" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/evzfe9C.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Garfield and Friends
 https://jmp2.uk/plu-677f927554f43dad4b3258aa.m3u8
 #EXTINF:-1 tvg-id="GhostDimension.us@UK" tvg-name="Ghost Dimension" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/a0jOxez.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Ghost Dimension
@@ -1935,16 +1861,12 @@ https://jmp2.uk/plu-63d025db4e83e700086eaa96.m3u8
 https://jmp2.uk/plu-5ce5a8954311f992edbe1da2.m3u8
 #EXTINF:-1 tvg-id="LouisLaBrocante.us@France" tvg-name="Louis La Brocante" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/I1w7rFb.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Louis La Brocante
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
-#EXTINF:-1 tvg-id="MacGyver.us@BR" tvg-name="MacGyver" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",MacGyver
-https://jmp2.uk/plu-63eb9dc84e83e70008abea92.m3u8
 #EXTINF:-1 tvg-id="MacGyver.us@LatAm" tvg-name="MacGyver (LatAm)" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/63eb9dc84e83e70008abea92/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",MacGyver (LatAm)
 https://jmp2.uk/plu-63eb95baa99571000898a078.m3u8
 #EXTINF:-1 tvg-id="MasterChef.us@Brazil" tvg-name="MasterChef" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/lOuySbz.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",MasterChef
 https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8
 #EXTINF:-1 tvg-id="Matlock.us@SD" tvg-name="Matlock" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/BGFUQsu.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Matlock
 https://jmp2.uk/plu-60f754f98185580007eb0754.m3u8
-#EXTINF:-1 tvg-id="MiExtranaObsesion.us@Spain" tvg-name="Mi Extrana Obsesion" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VtxO6KI.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Mi Extrana Obsesion
-https://jmp2.uk/plu-60e4573c9f963e00077ecf25.m3u8
 #EXTINF:-1 tvg-id="MissionImpossible.us@SD" tvg-name="Mission Impossible" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/QS5lg0t.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Mission Impossible
 https://jmp2.uk/plu-5f77977bd924d80007eee60c.m3u8
 #EXTINF:-1 tvg-id="MissionImpossible.us@CA" tvg-name="Mission Impossible (CA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/QS5lg0t.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Mission Impossible (CA)
@@ -1955,8 +1877,6 @@ https://jmp2.uk/plu-5f610042272f68000867685b.m3u8
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
 #EXTINF:-1 tvg-id="MontgomeryChannel.us@SD" tvg-name="Montgomery Channel" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/mU1Ixfj.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Montgomery Channel
 https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8
-#EXTINF:-1 tvg-id="MorePlutoTVComedy.us@CA" tvg-name="More Pluto TV Comedy" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/62e91c3add66e00007eeb24c/colorLogoPNG_1759310317971.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",More Pluto TV Comedy
-https://jmp2.uk/plu-62e91c3add66e00007eeb24c.m3u8
 #EXTINF:-1 tvg-id="MoreTrueCrime.us@SD" tvg-name="More True Crime" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/6532e6a9bdf3cf000887ab29/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",More True Crime
 https://jmp2.uk/plu-6532e6a9bdf3cf000887ab29.m3u8
 #EXTINF:-1 tvg-id="MoreTVDrama.us@SD" tvg-name="More TV Drama" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Tw3rTxP.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",More TV Drama
@@ -1967,8 +1887,6 @@ https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8
 https://bozztv.com/dvrfl03/hdirect/hdirect-ovair1-movies!/index.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us@SD" tvg-name="MovieSphere (US)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/0sfk3yp.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",MovieSphere (US)
 https://jmp2.uk/plu-6401d85a49839300087b116c.m3u8
-#EXTINF:-1 tvg-id="MSTV.us@SD" tvg-name="MSTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x0lJqSp.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",MSTV
-https://reflect-mcsb-vod.cablecast.tv/live-16/live/live.m3u8
 #EXTINF:-1 tvg-id="MTVAreyoutheOne.us@BR" tvg-name="MTV Are you the One?" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/kMB42wV.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",MTV Are you the One?
 https://jmp2.uk/plu-5f6108d8cc331900075e98e4.m3u8
 #EXTINF:-1 tvg-id="MTVBiggestPop.us@US" tvg-name="MTV Biggest Pop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/AOaZmlS.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",MTV Biggest Pop
@@ -2033,14 +1951,10 @@ https://jmp2.uk/plu-63eb9fdda995710008991c54.m3u8
 https://jmp2.uk/plu-63eb947c4e83e70008ab877b.m3u8
 #EXTINF:-1 tvg-id="NCISLosAngeles.us@CA" tvg-name="NCIS: Los Angeles" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/66a106c8a79dea0008aa5ef3/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",NCIS: Los Angeles
 https://jmp2.uk/plu-66a106c8a79dea0008aa5ef3.m3u8
-#EXTINF:-1 tvg-id="NCMGovernmentPoliticsChannel.us@SD" tvg-name="NCM Government & Politics Channel" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3YPvfPn.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",NCM Government & Politics Channel
-https://reflect-npa.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="NCMMainChannel.us@SD" tvg-name="NCM Main Channel" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3YPvfPn.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",NCM Main Channel
 https://reflect-npa.cablecast.tv/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="NickJrClub.us@LatAm" tvg-name="Nick Jr. Club (LatAm)" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GCenuyl.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Nick Jr. Club (LatAm)
 https://jmp2.uk/plu-5ddd7cb2cbb9010009b4fe32.m3u8
-#EXTINF:-1 tvg-id="NickJrPlutoTV.us@CA" tvg-name="Nick Jr. Pluto TV (CA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8DAe8wr.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Nick Jr. Pluto TV (CA)
-https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1 tvg-id="NickelodeonClasico.us@LatAm" tvg-name="Nickelodeon Clasico" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5ddd7c348520b40009c347e2/colorLogoPNG_1750157294622.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Nickelodeon Clasico
 https://jmp2.uk/plu-6824cda00101510f9eeaa011.m3u8
 #EXTINF:-1 tvg-id="NickelodeonTeen.us@BR" tvg-name="Nickelodeon Teen" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/60f5fabf0721880007cd50e3/colorLogoPNG_1767888207915.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Nickelodeon Teen
@@ -2051,8 +1965,6 @@ https://jmp2.uk/plu-5fab09a8749b1a00077d35d2.m3u8
 https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8
 #EXTINF:-1 tvg-id="Nosey.us@UK" tvg-name="Nosey (UK)" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsv_KrZtWIiODx5w-aXTru0YMO446I8ukXc5P0rPKrQg&s" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Nosey (UK)
 https://jmp2.uk/plu-5dc2ba1a9c91420009db4858.m3u8
-#EXTINF:-1 tvg-id="Numbers.us@BR" tvg-name="Numbers" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/67f960c5441853fe50e7afc1/colorLogoPNG_1747430170532.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Numbers
-https://jmp2.uk/plu-67f960c5441853fe50e7afc1.m3u8
 #EXTINF:-1 tvg-id="Numeros.us@LatAm" tvg-name="Numeros" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/67f960680072d6b187a0682e/colorLogoPNG_1747415112008.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Numeros
 https://jmp2.uk/plu-67f960680072d6b187a0682e.m3u8
 #EXTINF:-1 tvg-id="OEncantadordeCaes.us@Brazil" tvg-name="O Encantador de Caes" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/sQn6vvh.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",O Encantador de Caes
@@ -2065,8 +1977,6 @@ https://jmp2.uk/plu-62cdad7b5c38c00007f566c2.m3u8
 https://jmp2.uk/plu-69affcad8940750a23a7231a.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@BR" tvg-name="One Piece (BR)" tvg-country="US" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",One Piece (BR)
 https://jmp2.uk/plu-624b1c8d4321e200073ee421.m3u8
-#EXTINF:-1 tvg-id="OnePiece.us@CA" tvg-name="One Piece (CA)" tvg-country="US" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",One Piece (CA)
-https://jmp2.uk/plu-62e94ec74823db0007277a8f.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@FR" tvg-name="One Piece (FR)" tvg-country="US" tvg-language="French" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",One Piece (FR)
 https://jmp2.uk/plu-6380c94947c72b0007ee9a13.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@LatAm" tvg-name="One Piece (LatAm)" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/XsvbAWR.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",One Piece (LatAm)
@@ -2075,8 +1985,6 @@ https://jmp2.uk/plu-5ff4b9ccf938f8000779eb99.m3u8
 https://jmp2.uk/plu-66c638726838ee00085ac20d.m3u8
 #EXTINF:-1 tvg-id="OvercomersTV.us@SD" tvg-name="Overcomers TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ZA44lxn.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Overcomers TV
 https://rumble.com/live-hls/79qjh2/playlist.m3u8
-#EXTINF:-1 tvg-id="PacificIslandNetwork.us@HD" tvg-name="Pacific Island Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/OtT1qYE.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Pacific Island Network
-https://cdn.vegasplus.us/vegas/mpin/playlist.m3u8
 #EXTINF:-1 tvg-id="ParanormalState.us@UK" tvg-name="Paranormal State" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NmxhvAE.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Paranormal State
 https://jmp2.uk/plu-60804d85858bd00007c5d591.m3u8
 #EXTINF:-1 tvg-id="PeppaPig.us@SD" tvg-name="Peppa Pig" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5d14fb6c84dd37df3b4290c5/colorLogoPNG_1730733871298.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Peppa Pig
@@ -2145,8 +2053,6 @@ https://jmp2.uk/plu-5f171f988ab9780007fa95ea.m3u8
 https://jmp2.uk/plu-5dd7ea2aeab5230009986735.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCineSucessos.us@BR" tvg-name="Pluto TV Cine Sucessos" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Tq0SMcl.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Cine Sucessos
 https://jmp2.uk/plu-5f120e94a5714d00074576a1.m3u8
-#EXTINF:-1 tvg-id="PlutoTVCineSuspenso.us@LatAm" tvg-name="Pluto TV Cine Suspenso" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GnUmEZn.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Cine Suspenso
-https://jmp2.uk/plu-5ddc4e8bcbb9010009b4e84f.m3u8
 #EXTINF:-1 tvg-id="PlutoTVComedy.us@US" tvg-name="Pluto TV Comedy" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MTVrbd5.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Pluto TV Comedy
 https://jmp2.uk/plu-5a4d3a00ad95e4718ae8d8db.m3u8
 #EXTINF:-1 tvg-id="PlutoTVComedy.us@CA" tvg-name="Pluto TV Comedy (CA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MTVrbd5.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Pluto TV Comedy (CA)
@@ -2441,8 +2347,6 @@ https://jmp2.uk/plu-6283d51144ad8f0007fa382d.m3u8
 https://jmp2.uk/plu-62e92e536f28870007fa9b3a.m3u8
 #EXTINF:-1 tvg-id="TheNewDetectives.us@US" tvg-name="The New Detectives" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/GLXg9ge.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",The New Detectives
 https://jmp2.uk/plu-5aea40b35126c2157123aa64.m3u8
-#EXTINF:-1 tvg-id="TheNewDetectives.us@LatAm" tvg-name="The New Detectives (LatAm)" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GLXg9ge.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",The New Detectives (LatAm)
-https://jmp2.uk/plu-5ea71d48af1d0b0007d837f4.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Brazil" tvg-name="The Pet Collective (Brazil)" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",The Pet Collective (Brazil)
 https://jmp2.uk/plu-5f515ebac01c0f00080e8439.m3u8
 #EXTINF:-1 tvg-id="ThePriceIsRight.us@CA" tvg-name="The Price Is Right (CA)" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/64c2214c2a7f2200089a0c4b/colorLogoPNG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",The Price Is Right (CA)
@@ -2479,8 +2383,6 @@ https://jmp2.uk/plu-61bb2814ac085a00074309a6.m3u8
 https://jmp2.uk/plu-5bd05b4694d45d266bc951f2.m3u8
 #EXTINF:-1 tvg-id="Vayasemanita.us@Spain" tvg-name="Vaya semanita" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0bCLNUG.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Vaya semanita
 https://jmp2.uk/plu-5f28009b150b2500077766b8.m3u8
-#EXTINF:-1 tvg-id="VegasLifeTV.us@HD" tvg-name="Vegas Life TV" tvg-country="US" tvg-language="English;Tagalog" tvg-logo="https://i.imgur.com/G7lONcu.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Vegas Life TV
-https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
 #EXTINF:-1 tvg-id="Vevo70s.us@SD" tvg-name="Vevo '70s" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f32f26bcd8aea00071240e5/featuredImage.jpg" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Vevo '70s
 https://d341pfs1smb2ef.cloudfront.net/Vevo_70s.m3u8
 #EXTINF:-1 tvg-id="Vevo80s.us@SD" tvg-name="Vevo '80s" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",Vevo '80s
@@ -2505,8 +2407,6 @@ https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
 https://jmp2.uk/plu-635659445b4c4700076d2ad1.m3u8
 #EXTINF:-1 tvg-id="WeedsNurseJackie.us@SD" tvg-name="Weeds & Nurse Jackie" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/688a44cf5d73ec0a3f49718b/colorLogoPNG_1756145413989.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="720p",Weeds & Nurse Jackie
 https://jmp2.uk/plu-688a44cf5d73ec0a3f49718b.m3u8
-#EXTINF:-1 tvg-id="WildNOut.us@SD" tvg-name="Wild 'N Out" tvg-country="US" tvg-language="English" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Wild 'N Out
-https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8
 #EXTINF:-1 tvg-id="WildatHeart.us@UK" tvg-name="Wild at Heart" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/kyVB8Ik.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Wild at Heart
 https://jmp2.uk/plu-60817936fd2d70000763d2b2.m3u8
 #EXTINF:-1 tvg-id="WillametteFallsMediaCenter.us@SD" tvg-name="Willamette Falls Media Center" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/KwlFyem.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Willamette Falls Media Center
@@ -2527,6 +2427,8 @@ https://fl.biztv.media/cheksiz_tv_480_unif7hujidth7f4du83jrhuid3k94j8hfj8d93euby
 https://stmv1.srvstm.com/gproducciones/gproducciones/playlist.m3u8
 #EXTINF:-1 tvg-id="TorococoTV.ve@SD" tvg-name="Torococo TV" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.ibb.co/9N7Scn8/1400-Torococo-TV.png" group-title="Untested | Venezuela" x-tier="community" x-status="untested" x-quality="720p",Torococo TV
 https://us.streaminghd.cl/torococotelevision/video.m3u8
+#EXTINF:-1 tvg-id="TVes.ve@SD" tvg-name="TVes" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QX5DVUB.png" group-title="Untested | Venezuela" x-tier="community" x-status="untested" x-quality="1080p",TVes
+https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8
 #EXTINF:-1 tvg-id="Venevision.ve@SD" tvg-name="Venevision" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/gm1m8hW.png" group-title="Untested | Venezuela" x-tier="community" x-status="untested" x-quality="sd",Venevision
 https://venevision-ioriver-cdn.encoders.immergo.tv/3/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="BinhThuanTV.vn@SD" tvg-name="Binh Thuan TV" tvg-country="VN" tvg-language="Vietnamese" group-title="Untested | Vietnam" x-tier="community" x-status="untested" x-quality="1080p",Binh Thuan TV

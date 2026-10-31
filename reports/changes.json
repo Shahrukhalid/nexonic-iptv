@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-10-31T07:36:36Z",
-  "baseline_reference_time": "2026-10-30T10:05:31Z",
+  "reference_time": "2026-10-31T12:08:20Z",
+  "baseline_reference_time": "2026-10-31T07:36:36Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 554,
-    "verified_playlist": 483,
+    "verified_playlist": 480,
     "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 160,
+    "quarantined": 162,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 8,
-    "newly_quarantined": 9,
-    "restored": 1,
-    "removed": 1
+    "newly_failing": 5,
+    "newly_quarantined": 4,
+    "restored": 2,
+    "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 102,
-    "restricted": 44,
+    "intermittent": 99,
+    "restricted": 43,
     "unknown": 6,
-    "unreachable": 18,
-    "working": 384
+    "unreachable": 21,
+    "working": 385
   },
   "latest_run": {
-    "run_id": "run-20261031T073028Z",
-    "started_at": "2026-10-31T07:30:28Z",
-    "finished_at": "2026-10-31T07:36:36Z",
+    "run_id": "run-20261031T120238Z",
+    "started_at": "2026-10-31T12:02:38Z",
+    "finished_at": "2026-10-31T12:08:20Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 146,
-      "UNKNOWN": 48,
+      "GEO_RESTRICTED": 61,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 135,
+      "UNKNOWN": 51,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 456
+      "VERIFIED_WORKING": 463
     }
   },
   "discovery": {
@@ -67,11 +67,11 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 302,
+    "playlist_files": 301,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "9 channel(s) newly quarantined (failing repeatedly)"
+    "4 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -80,141 +80,90 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "cctv-1-cn",
-        "name": "CCTV+ 1",
-        "country": "cn",
+        "id": "bonce-tv-cw",
+        "name": "Bonce TV",
+        "country": "cw",
         "state": "unreachable",
-        "error": "segment: HTTP 404 (stream not found)"
+        "error": "HTTP 404 (stream not found)"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
-        "country": "us",
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
+        "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "qmusic-nl",
-        "name": "Qmusic",
-        "country": "nl",
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "connection error: ConnectError"
       },
       {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "senal-colombia",
-        "name": "Señal Colombia",
-        "country": "co",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "tele7music-ro",
-        "name": "Tele7music",
-        "country": "ro",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "cctv-1-cn",
-        "name": "CCTV+ 1",
-        "country": "cn",
-        "since": "2026-10-31T07:31:00Z"
+        "id": "bonce-tv-cw",
+        "name": "Bonce TV",
+        "country": "cw",
+        "since": "2026-10-31T12:03:20Z"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
         "country": "de",
-        "since": "2026-10-31T07:33:52Z"
+        "since": "2026-10-31T12:06:03Z"
       },
       {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "since": "2026-10-31T07:32:46Z"
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
+        "country": "de",
+        "since": "2026-10-31T12:06:24Z"
       },
       {
-        "id": "jingmen-comprehensive-news-channel-cn",
-        "name": "Jingmen Comprehensive News Channel",
-        "country": "cn",
-        "since": "2026-10-31T07:31:07Z"
-      },
-      {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
-        "country": "us",
-        "since": "2026-10-31T07:33:38Z"
-      },
-      {
-        "id": "qmusic-nl",
-        "name": "Qmusic",
-        "country": "nl",
-        "since": "2026-10-31T07:32:34Z"
-      },
-      {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
-        "since": "2026-10-31T07:32:19Z"
-      },
-      {
-        "id": "senal-colombia",
-        "name": "Señal Colombia",
-        "country": "co",
-        "since": "2026-10-31T07:33:47Z"
-      },
-      {
-        "id": "tele7music-ro",
-        "name": "Tele7music",
-        "country": "ro",
-        "since": "2026-10-31T07:32:54Z"
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "since": "2026-10-31T12:03:39Z"
       }
     ],
     "restored": [
       {
-        "id": "trt-1",
-        "name": "TRT 1",
+        "id": "cctv-1-cn",
+        "name": "CCTV+ 1",
+        "country": "cn",
+        "restored_at": "2026-10-31T12:03:06Z"
+      },
+      {
+        "id": "trt-haber",
+        "name": "TRT Haber",
         "country": "tr",
-        "restored_at": "2026-10-31T07:34:09Z"
+        "restored_at": "2026-10-31T12:05:56Z"
       }
     ],
-    "removed": [
-      {
-        "id": "arica-tv-cl",
-        "name": "Arica TV",
-        "country": "cl"
-      }
-    ]
+    "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 554,
-      "verified": 483,
-      "not_verified": 71,
+      "verified": 480,
+      "not_verified": 74,
       "with_measured_quality": 478,
       "per_quality": {
         "1080p": 241,
@@ -224,30 +173,30 @@
       }
     },
     "community": {
-      "published": 5377,
-      "verified": 4097,
-      "untested": 1280,
-      "held_back_after_failed_check": 1817,
-      "never_checked": 834,
+      "published": 5332,
+      "verified": 4101,
+      "untested": 1231,
+      "held_back_after_failed_check": 1862,
+      "never_checked": 794,
       "catalog_streams": 7194,
       "catalog_built_at": "2026-10-31T07:36:45Z",
       "verified_days": 7,
-      "countries": 157,
+      "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 664,
-        "invalid": 383,
+        "intermittent": 733,
+        "invalid": 419,
         "restricted": 192,
-        "unknown": 1065,
-        "unreachable": 1444,
-        "working": 3446
+        "unknown": 1017,
+        "unreachable": 1453,
+        "working": 3380
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 1258
+          "streams": 1239
         },
         {
           "code": "in",
@@ -257,12 +206,12 @@
         {
           "code": "se",
           "name": "Sweden",
-          "streams": 262
+          "streams": 247
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 253
+          "streams": 245
         },
         {
           "code": "ru",
@@ -270,14 +219,14 @@
           "streams": 205
         },
         {
-          "code": "it",
-          "name": "Italy",
-          "streams": 151
-        },
-        {
           "code": "uk",
           "name": "United Kingdom",
           "streams": 151
+        },
+        {
+          "code": "it",
+          "name": "Italy",
+          "streams": 150
         },
         {
           "code": "cl",
