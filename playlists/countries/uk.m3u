@@ -13,6 +13,8 @@ https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="TraceUK.uk@HD" tvg-name="Trace UK" tvg-country="UK" tvg-language="English" group-title="Music",Trace UK
 https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
+#EXTINF:-1 tvg-id="AathavanTV.uk@SD" tvg-name="Aathavan TV" tvg-country="UK" tvg-language="Tamil" tvg-logo="https://i.imgur.com/LEVEhTH.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",Aathavan TV
+https://yuppmumfta1.vgcdn.net/211125/athvantv/manifest.mpd
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk@SD" tvg-name="Afrobeat TV Entertainment" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/232ndRK.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",Afrobeat TV Entertainment
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-id="AkaalChannel.uk@SD" tvg-name="Akaal Channel" tvg-country="UK" tvg-language="Punjabi;English" tvg-logo="https://i.imgur.com/K81vNbk.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",Akaal Channel
@@ -25,6 +27,8 @@ https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxI
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCDrama.uk@Spain" tvg-name="BBC Drama" tvg-country="UK" tvg-language="Spanish" tvg-logo="https://i.imgur.com/HctHhLL.png" group-title="Series" x-tier="community" x-status="verified" x-quality="1080p",BBC Drama
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-name="BBC Earth (US)" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/BBC_Earth_2023.svg" group-title="Documentary" x-tier="community" x-status="verified" x-quality="1080p",BBC Earth (US)
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" tvg-country="UK" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" group-title="News" x-tier="community" x-status="verified" x-quality="sd",BBC News
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk@Africa" tvg-name="BBC News (Africa)" tvg-country="UK" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/s158142_ld_h15_aa.png?lock=720x540" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",BBC News (Africa)
@@ -65,12 +69,18 @@ https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-name="FIFA+ (Portuguese)" tvg-country="UK" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="Sports" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (Portuguese)
 https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" tvg-name="FIFA+ (Spain)" tvg-country="UK" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="Sports" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (Spain)
+https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ (United States)" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="Sports" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (United States)
 https://d2w9q46ikgrcwx.cloudfront.net/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlusWomen.uk@English" tvg-name="FIFA+ Women" tvg-country="UK" tvg-language="English" tvg-logo="https://i.ibb.co/LhpwRm8V/GB3800009-F0-20251028-T010335-SQUARE.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="720p",FIFA+ Women
+https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="GBNews.uk@SD" tvg-name="GB News" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",GB News
 https://rakutenaa-lightning-gbnews-rakuten-ccoa9.amagi.tv/playlist/rakutenAA-lightning-gbnews-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="GODTV.uk@SD" tvg-name="GOD TV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",GOD TV
 https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8
+#EXTINF:-1 tvg-id="GODTVAsia.uk@SD" tvg-name="GOD TV Asia" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",GOD TV Asia
+https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8
 #EXTINF:-1 tvg-id="GREATromance.uk@UK" tvg-name="GREAT! romance" tvg-country="UK" tvg-language="English" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" group-title="Movies" x-tier="community" x-status="verified" x-quality="1080p",GREAT! romance
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="HellenicTV.uk@SD" tvg-name="Hellenic TV" tvg-country="UK" tvg-language="Greek" tvg-logo="https://i.imgur.com/NE7ddhC.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Hellenic TV
@@ -81,6 +91,8 @@ https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
 https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestreamFullHD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HorseCountryTV.uk@SD" tvg-name="Horse & Country TV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/1x6zYZr.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",Horse & Country TV
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
+#EXTINF:-1 tvg-id="IqraBangla.uk@SD" tvg-name="Iqra Bangla" tvg-country="UK" tvg-language="Bengali" tvg-logo="https://i.imgur.com/BZBZAeC.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",Iqra Bangla
+https://tvsen3.aynaott.com/EuEy5mBW/index.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk@SD" tvg-name="Iran International" tvg-country="UK" tvg-language="Persian" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Iran International
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-name="JimJam Europe" tvg-country="UK" tvg-language="English;Portuguese;Czech;Slovak;Hebrew" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="sd",JimJam Europe
@@ -97,12 +109,18 @@ https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="1080p",Moonbug Kids
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="MostHaunted.uk@UK" tvg-name="Most Haunted" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/hTDvXxZ.png" group-title="Series" x-tier="community" x-status="verified" x-quality="1080p",Most Haunted
+https://amg00426-lds-amg00426c17-samsung-gb-10157.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@IT" tvg-name="Mr Bean Animated (IT)" tvg-country="UK" tvg-language="Italian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="1080p",Mr Bean Animated (IT)
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+#EXTINF:-1 tvg-id="MrBeanLiveAction.uk@English" tvg-name="Mr Bean Live Action" tvg-country="UK" tvg-language="English" tvg-logo="https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Mr Bean Live Action
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@SD" tvg-name="Mr Bean Live Action" tvg-country="UK" tvg-language="English" tvg-logo="https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Mr Bean Live Action
 https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3AlArabia.uk@SD" tvg-name="MTA3 Al-Arabia" tvg-country="UK" tvg-language="Arabic" tvg-logo="https://i.imgur.com/m3PEldJ.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",MTA3 Al-Arabia
 https://chlivemta1.akamaized.net/hls/live/2010556/mta3alarabia/playlist.m3u8
+#EXTINF:-1 tvg-id="MTA4Africa.uk@SD" tvg-name="MTA4 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/lmVeQQX.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",MTA4 Africa
+https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA5Africa.uk@SD" tvg-name="MTA5 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",MTA5 Africa
 https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA8America.uk@SD" tvg-name="MTA8 America" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/CF6X9wB.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",MTA8 America
@@ -137,6 +155,8 @@ https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8
 https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8
 #EXTINF:-1 tvg-id="RealWild.uk@SD" tvg-name="Real Wild" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/T9HHmAO.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Real Wild
 https://lds-realwild-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SafeerTV.uk@SD" tvg-name="Safeer TV" tvg-country="UK" tvg-language="English;Arabic" tvg-logo="https://image.roku.com/developer_channels/prod/8389e15af8fe49ac7c36d201c24ebf62fbe5b22897c2879ca26ae936e0ed308d.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Safeer TV
+https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SangatTV.uk@SD" tvg-name="Sangat TV" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/Sangat_TV_logo.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Sangat TV
 https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8
 #EXTINF:-1 tvg-id="SetarehTV.uk@HD" tvg-name="Setareh TV" tvg-country="UK" tvg-language="Persian" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Setareh TV
@@ -145,6 +165,10 @@ https://setarehhls.wns.live/hls/stream.m3u8
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="SpaceLivepoweredbysen.uk@SD" tvg-name="Space Live powered by sen" tvg-country="UK" tvg-language="English" tvg-logo="https://static.frequency.com/studio/itv/channels/1224-400x200.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",Space Live powered by sen
 https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SparkTV.uk@SD" tvg-name="Spark TV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/svc98Kg.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Spark TV
+https://candlelightmedia-sparklightlove-4-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="StarPlus.uk@SD" tvg-name="StarPlus" tvg-country="UK" tvg-language="Hindi" tvg-logo="https://i.imgur.com/xWxNy3L.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",StarPlus
+https://d1rc86nwwc9fag.cloudfront.net/260723/starplusuk_2500/chunks.m3u8
 #EXTINF:-1 tvg-id="TalkTV.uk@SD" tvg-name="TalkTV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/KxHWpQB.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",TalkTV
 https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNUK.uk@SD" tvg-name="TBN UK" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/vFllwLd.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",TBN UK
@@ -153,6 +177,8 @@ https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34
 https://dy9gbyiaxw0rb.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="TheChatShowChannel.uk@SD" tvg-name="The Chat Show Channel" tvg-country="UK" tvg-language="English" tvg-logo="https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",The Chat Show Channel
 https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-name="The Graham Norton Show" tvg-country="UK" tvg-language="English" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",The Graham Norton Show
+https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TinyPop.uk@SD" tvg-name="Tiny Pop" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/zCTf71x.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="1080p",Tiny Pop
 https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TJC.uk@SD" tvg-name="TJC" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/fk5rEje.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",TJC
@@ -171,5 +197,7 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/m
 https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="V2BEATTV.uk@SD" tvg-name="V2BEAT TV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/PXGqyLn.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",V2BEAT TV
 https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeOne.uk@UK" tvg-name="Zee One" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Zee One
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-name="Zee One (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",Zee One (French)
 https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
