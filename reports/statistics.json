@@ -1,12 +1,12 @@
 {
   "reference_time": "2026-10-30T10:05:31Z",
   "records": {
-    "approved": 753,
+    "approved": 751,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 555,
-  "excluded_approved": 198,
+  "published_channels": 554,
+  "excluded_approved": 197,
   "countries": 94,
   "languages": 65,
   "categories": 15,
@@ -17,13 +17,13 @@
     "started_at": "2026-10-30T09:59:46Z",
     "finished_at": "2026-10-30T10:05:31Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 133,
+      "UNAVAILABLE": 131,
       "UNKNOWN": 51,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 466
@@ -31,7 +31,7 @@
   },
   "latest_run_status_counts": {
     "VERIFIED_WORKING": 466,
-    "UNAVAILABLE": 133,
+    "UNAVAILABLE": 131,
     "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
@@ -42,7 +42,7 @@
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 12,
+    "currently-failing": 11,
     "geo-restricted": 44,
     "previously-working": 27,
     "unknown": 6,
@@ -137,7 +137,7 @@
     "cl": {
       "name": "Chile",
       "flag": "🇨🇱",
-      "channels": 7
+      "channels": 6
     },
     "cm": {
       "name": "Cameroon",
@@ -579,7 +579,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 72
+      "channels": 71
     },
     "et": {
       "name": "Estonian",
@@ -805,7 +805,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 203
+      "channels": 202
     },
     "kids": {
       "name": "Kids",
@@ -847,15 +847,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 555,
+      "published": 554,
       "verified": 489,
-      "not_verified": 66,
-      "with_measured_quality": 479,
+      "not_verified": 65,
+      "with_measured_quality": 478,
       "per_quality": {
         "1080p": 240,
         "4k": 1,
         "720p": 173,
-        "sd": 65
+        "sd": 64
       }
     },
     "community": {

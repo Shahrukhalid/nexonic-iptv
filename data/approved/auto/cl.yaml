@@ -1,43 +1,6 @@
 # Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
 # check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
 channels:
-- id: arica-tv-cl
-  name: Arica TV
-  alt_names: []
-  broadcaster: Arica TV
-  country: cl
-  languages:
-  - es
-  categories:
-  - general
-  website: https://arica.tv/
-  stream:
-    url: https://envivo.arica.tv/hls/Live2025AricaTV.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
-    evidence_url: https://arica.tv/
-    evidence_summary: 'Automated owner-domain match: stream host envivo.arica.tv is on the broadcaster''s domain arica.tv.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: AricaTV.cl@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
 - id: buin-somos-todos-cl
   name: Buin Somos Todos
   alt_names: []
@@ -61,45 +24,6 @@ channels:
     notes: Not 24/7 according to iptv-org.
     method: automated-domain-match
   epg_id: BuinSomosTodos.cl@SD
-  logo: null
-  geo:
-    restricted: unknown
-    regions: []
-  is_nsfw: false
-  first_discovered: '2026-10-17'
-  review:
-    status: approved
-    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
-    authorization_basis: official-broadcaster-stream
-    adult_screening: pass
-    notes: Published only after passing a live check.
-    rejection_reason: ''
-- id: orbita-chile-tv-cl
-  name: Orbita Chile TV
-  alt_names:
-  - Órbita Chile TV
-  broadcaster: Concepción
-  country: cl
-  languages:
-  - es
-  categories:
-  - movies
-  - music
-  website: https://orbitachiletv.org/
-  stream:
-    url: https://orbitachiletv.org/hls/0/stream.m3u8
-    protocol: hls
-    quality: unknown
-  source:
-    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u
-    evidence_url: https://orbitachiletv.org/
-    evidence_summary: 'Automated owner-domain match: stream host orbitachiletv.org is on the broadcaster''s domain orbitachiletv.org.
-      Channel metadata from iptv-org/database.'
-    evidence_checked: null
-    notes: ''
-    method: automated-domain-match
-  epg_id: OrbitaChileTV.cl@HD
   logo: null
   geo:
     restricted: unknown

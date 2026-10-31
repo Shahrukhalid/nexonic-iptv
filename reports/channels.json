@@ -3659,60 +3659,6 @@
    }
   },
   {
-   "id": "arica-tv-cl",
-   "name": "Arica TV",
-   "broadcaster": "Arica TV",
-   "country": "cl",
-   "country_name": "Chile",
-   "flag": "🇨🇱",
-   "languages": [
-    "es"
-   ],
-   "language_names": [
-    "Spanish"
-   ],
-   "categories": [
-    "general"
-   ],
-   "website": "https://arica.tv/",
-   "stream_url": "https://envivo.arica.tv/hls/Live2025AricaTV.m3u8",
-   "protocol": "hls",
-   "epg_id": "AricaTV.cl@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://arica.tv/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "sd",
-   "health": {
-    "score": 34,
-    "grade": "Poor",
-    "display_status": "currently-failing",
-    "last_checked": "2026-10-30T10:00:11Z",
-    "last_success": "2026-10-29T07:41:54Z",
-    "last_status": "UNAVAILABLE",
-    "checks_in_window": 22,
-    "success_rate": 0.1,
-    "median_latency_ms": 270
-   },
-   "lifecycle": "unreachable",
-   "quarantined": true,
-   "restored_at": "2026-10-29T07:41:54Z",
-   "last_validated": "2026-10-30T10:00:11Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/cl.m3u",
-    "evidence_url": "https://arica.tv/",
-    "evidence_summary": "Automated owner-domain match: stream host envivo.arica.tv is on the broadcaster's domain arica.tv. Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
    "id": "radio-suyai-tv-cl",
    "name": "Radio Suyai TV",
    "broadcaster": "Suyai TV",
@@ -30438,14 +30384,6 @@
   {
    "id": "buin-somos-todos-cl",
    "name": "Buin Somos Todos",
-   "reasons": [
-    "stale: failed its last 3+ checks and has not worked for 7+ days"
-   ],
-   "lifecycle": "unreachable"
-  },
-  {
-   "id": "orbita-chile-tv-cl",
-   "name": "Orbita Chile TV",
    "reasons": [
     "stale: failed its last 3+ checks and has not worked for 7+ days"
    ],

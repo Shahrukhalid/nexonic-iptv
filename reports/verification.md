@@ -3,7 +3,7 @@
 - Run: `run-20261030T095946Z`
 - Started: 2026-10-30T09:59:46Z (UTC) · Finished: 2026-10-30T10:05:31Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 753
+- Channels checked: 751
 
 Results describe reachability **from the checker's network location at that time** only.
 
@@ -13,7 +13,7 @@ Results describe reachability **from the checker's network location at that time
 | `GEO_RESTRICTED` | 62 |
 | `INVALID_STREAM` | 10 |
 | `TIMEOUT` | 28 |
-| `UNAVAILABLE` | 133 |
+| `UNAVAILABLE` | 131 |
 | `UNKNOWN` | 51 |
 | `UNSUPPORTED` | 1 |
 | `VERIFIED_WORKING` | 466 |
@@ -82,7 +82,6 @@ Results describe reachability **from the checker's network location at that time
 | Apsara TV11 | `UNAVAILABLE` | 2 | – | – | 2026-10-30T10:01:13Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |
 | ARD-alpha | `VERIFIED_WORKING` | 5 | 200 | 262 ms | 2026-10-30T10:00:29Z | 1080p |
 | ARDB TV | `VERIFIED_WORKING` | 5 | 200 | 883 ms | 2026-10-30T10:01:13Z |  |
-| Arica TV | `UNAVAILABLE` | 2 | 404 | 217 ms | 2026-10-30T10:00:11Z | HTTP 404 (stream not found) |
 | Arirang TV | `VERIFIED_WORKING` | 5 | 200 | 279 ms | 2026-10-30T10:02:57Z | 1080p |
 | ARTE (Deutsch) | `GEO_RESTRICTED` | 2 | 403 | 261 ms | 2026-10-30T10:02:51Z | HTTP 403 for a stream known or hinted to be region-limited |
 | ARTE (Français) | `GEO_RESTRICTED` | 2 | 403 | 316 ms | 2026-10-30T10:03:31Z | HTTP 403 for a stream known or hinted to be region-limited |
@@ -451,7 +450,6 @@ Results describe reachability **from the checker's network location at that time
 | ONDA DIGITAL | `VERIFIED_WORKING` | 5 | 200 | 264 ms | 2026-10-30T10:01:49Z | 1080p |
 | ONE | `GEO_RESTRICTED` | 2 | 403 | 223 ms | 2026-10-30T10:02:53Z | HTTP 403 for a stream known or hinted to be region-limited |
 | Orange Government Access TV | `VERIFIED_WORKING` | 5 | 200 | 161 ms | 2026-10-30T10:03:51Z | 720p |
-| Orbita Chile TV | `UNAVAILABLE` | 2 | 530 | 30 ms | 2026-10-30T10:00:11Z | HTTP 530 (server error) |
 | Orbita TV | `VERIFIED_WORKING` | 5 | 200 | 775 ms | 2026-10-30T10:02:25Z |  |
 | ORF 2 | `GEO_RESTRICTED` | 2 | 403 | 660 ms | 2026-10-30T09:59:46Z | HTTP 403 for a stream known or hinted to be region-limited |
 | ORF III | `VERIFIED_WORKING` | 5 | 200 | 1142 ms | 2026-10-30T09:59:46Z | 720p |
@@ -784,15 +782,15 @@ Compared with the run at 2026-10-30T07:50:08Z (UTC).
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
-| Newly failing | 2 |
-| Newly quarantined | 2 |
+| Newly failing | 1 |
+| Newly quarantined | 1 |
 | Restored (verified again after quarantine) | 0 |
-| Removed from publication | 0 |
+| Removed from publication | 1 |
 
-Published 555 · verified playlist 489 · quarantined 154 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
+Published 554 · verified playlist 489 · quarantined 152 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
-Tiers: official 555 (489 verified) · community 3805 verified / 1302 untested · free VOD 254 items.
+Tiers: official 554 (489 verified) · community 3805 verified / 1302 untested · free VOD 254 items.
 
 **Needs attention:**
 
-- 2 channel(s) newly quarantined (failing repeatedly)
+- 1 channel(s) newly quarantined (failing repeatedly)

@@ -4,26 +4,26 @@
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 555,
+    "published": 554,
     "verified_playlist": 489,
-    "excluded": 198,
+    "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 154,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 2,
-    "newly_quarantined": 2,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
     "restored": 0,
-    "removed": 0
+    "removed": 1
   },
   "lifecycle_counts": {
     "intermittent": 95,
     "restricted": 44,
     "unknown": 6,
-    "unreachable": 12,
+    "unreachable": 11,
     "working": 398
   },
   "latest_run": {
@@ -31,36 +31,34 @@
     "started_at": "2026-10-30T09:59:46Z",
     "finished_at": "2026-10-30T10:05:31Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 133,
+      "UNAVAILABLE": 131,
       "UNKNOWN": 51,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 466
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
+    "admitted": 598,
+    "aggregator-host": 976,
+    "already-curated": 477,
+    "closed": 93,
+    "excluded-category": 1161,
+    "host-not-owned-by-broadcaster": 7010,
     "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
-    "subscription-service": 101,
-    "url-policy": 4628
+    "needs-special-headers": 1123,
+    "no-database-entry": 2101,
+    "nsfw-or-blocklisted": 3,
+    "sanctions-exclusion": 608,
+    "streams": 18386,
+    "subscription-service": 97,
+    "url-policy": 4068
   },
   "integrity": {
     "ok": true,
@@ -71,7 +69,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "2 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -79,13 +77,6 @@
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
-      {
-        "id": "arica-tv-cl",
-        "name": "Arica TV",
-        "country": "cl",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
       {
         "id": "emisora-comunitaria-104-1-fm-co",
         "name": "Emisora Comunitaria 104.1 FM",
@@ -96,12 +87,6 @@
     ],
     "newly_quarantined": [
       {
-        "id": "arica-tv-cl",
-        "name": "Arica TV",
-        "country": "cl",
-        "since": "2026-10-30T10:00:11Z"
-      },
-      {
         "id": "emisora-comunitaria-104-1-fm-co",
         "name": "Emisora Comunitaria 104.1 FM",
         "country": "co",
@@ -109,21 +94,27 @@
       }
     ],
     "restored": [],
-    "removed": []
+    "removed": [
+      {
+        "id": "arica-tv-cl",
+        "name": "Arica TV",
+        "country": "cl"
+      }
+    ]
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 555,
+      "published": 554,
       "verified": 489,
-      "not_verified": 66,
-      "with_measured_quality": 479,
+      "not_verified": 65,
+      "with_measured_quality": 478,
       "per_quality": {
         "1080p": 240,
         "4k": 1,
         "720p": 173,
-        "sd": 65
+        "sd": 64
       }
     },
     "community": {

@@ -10,19 +10,19 @@
 
 | Metric | Value |
 |---|---:|
-| Published channels | 555 |
+| Published channels | 554 |
 | In verified playlist | 489 |
-| Quarantined | 154 |
-| Excluded approved records | 198 |
+| Quarantined | 152 |
+| Excluded approved records | 197 |
 | Pending authorization | 43 |
 | New candidates discovered (not published) | 0 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
-| Newly failing | 2 |
-| Newly quarantined | 2 |
+| Newly failing | 1 |
+| Newly quarantined | 1 |
 | Restored (verified again after quarantine) | 0 |
-| Removed from publication | 0 |
+| Removed from publication | 1 |
 
 ## Tiers
 
@@ -30,7 +30,7 @@ Tiers are published separately. Community streams are not limited to the broadca
 
 | Tier | Published | Verified | Not verified |
 |---|---:|---:|---:|
-| Official | 555 | 489 | 66 |
+| Official | 554 | 489 | 65 |
 | Community: verified | 3805 | 3805 | 0 |
 | Community: untested | 1302 | 0 | 1302 |
 | Free VOD (items) | 254 | n/a | n/a |
@@ -44,7 +44,7 @@ Community catalogue: 7216 streams (built 2026-10-30T07:50:17Z); never checked: 8
 | intermittent | 95 |
 | restricted | 44 |
 | unknown | 6 |
-| unreachable | 12 |
+| unreachable | 11 |
 | working | 398 |
 
 ## Integrity
@@ -57,40 +57,42 @@ Community catalogue: 7216 streams (built 2026-10-30T07:50:17Z); never checked: 8
 
 ## Needs attention
 
-- 2 channel(s) newly quarantined (failing repeatedly)
+- 1 channel(s) newly quarantined (failing repeatedly)
 
 ## Discovery (latest catalogue refresh)
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
+| admitted | 598 |
+| aggregator-host | 976 |
+| already-curated | 477 |
+| closed | 93 |
+| excluded-category | 1161 |
+| host-not-owned-by-broadcaster | 7010 |
 | language-not-supported | 3 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1123 |
+| no-database-entry | 2101 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 608 |
+| streams | 18386 |
+| subscription-service | 97 |
+| url-policy | 4068 |
 
-## Newly failing (2)
+## Newly failing (1)
 
 | Channel | Country | Detail |
 |---|---|---|
-| Arica TV (`arica-tv-cl`) | cl | state: unreachable, error: HTTP 404 (stream not found) |
 | Emisora Comunitaria 104.1 FM (`emisora-comunitaria-104-1-fm-co`) | co | state: unreachable, error: HTTP 404 (stream not found) |
 
-## Newly quarantined (2)
+## Newly quarantined (1)
 
 | Channel | Country | Detail |
 |---|---|---|
-| Arica TV (`arica-tv-cl`) | cl | since: 2026-10-30T10:00:11Z |
 | Emisora Comunitaria 104.1 FM (`emisora-comunitaria-104-1-fm-co`) | co | since: 2026-10-30T10:00:26Z |
+
+## Removed from publication (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Arica TV (`arica-tv-cl`) | cl |  |

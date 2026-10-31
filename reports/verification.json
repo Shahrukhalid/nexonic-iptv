@@ -4,13 +4,13 @@
     "started_at": "2026-10-30T09:59:46Z",
     "finished_at": "2026-10-30T10:05:31Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 133,
+      "UNAVAILABLE": 131,
       "UNKNOWN": 51,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 466
@@ -1393,21 +1393,6 @@
           "target_duration": 2.0
         },
         "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "arica-tv-cl",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-30T10:00:11Z",
-        "level": 2,
-        "http_status": 404,
-        "latency_ms": 217,
-        "error": "HTTP 404 (stream not found)",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261030T095946Z"
-        },
-        "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
@@ -9644,21 +9629,6 @@
           "variants": 3
         },
         "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "orbita-chile-tv-cl",
-        "status": "UNAVAILABLE",
-        "checked_at": "2026-10-30T10:00:11Z",
-        "level": 2,
-        "http_status": 530,
-        "latency_ms": 30,
-        "error": "HTTP 530 (server error)",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261030T095946Z"
-        },
-        "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
