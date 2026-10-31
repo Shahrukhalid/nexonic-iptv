@@ -504,7 +504,7 @@ def run(tmp_path, checker, **kw):
 def test_run_checks_one_slice_and_records_compact_history(tmp_path):
     checker = FakeChecker()
     summary, hist = run(tmp_path, checker)
-    assert summary["selected"] == 5 and summary["checked"] == 5 and checker.calls == [(5, 1200.0)]
+    assert summary["selected"] == 5 and summary["checked"] == 5 and checker.calls == [(5, 1500.0)]
     data = json.loads(hist.read_text(encoding="utf-8"))
     assert len(data["streams"]) == 5
     row = next(iter(data["streams"].values()))[0]

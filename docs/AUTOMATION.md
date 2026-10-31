@@ -141,16 +141,16 @@ code. Details and the meaning of verified/untested: [TIERS.md](TIERS.md).
 |---|---:|---|
 | `community.refresh_max_age_hours` | 20 | the catalogue is rebuilt when older |
 | `community.min_catalog_ratio` | 0.5 | a rebuilt catalogue smaller than this share of the last good one is rejected |
-| `community.max_checks_per_run` | 3000 | rotating slice per run (never-checked first, then oldest) |
-| `community.run_budget_seconds` | 1200 | no new community check after this (`--community-budget-seconds` overrides) |
+| `community.max_checks_per_run` | 5000 | rotating slice per run (never-checked first, then oldest) |
+| `community.run_budget_seconds` | 1500 | no new community check after this (`--community-budget-seconds` overrides) |
 | `community.total_deadline_minutes` | 44 | ... nor after this many minutes since `verify.py` started |
 | `community.concurrency` / `timeout` / `per_host_interval` | 32 / 8 s / 1 s | check politeness |
-| `community.max_per_host_per_run` | 40 | one CDN cannot use the whole budget |
+| `community.max_per_host_per_run` | 100 | one CDN cannot use the whole budget |
 | `community.retry_failed_days` / `retry_quarantined_days` | 3 / 14 | waiting time after a failure |
 | `community.verified_days` | 7 | freshness window of `verified.m3u` |
-| `vod.search_pages_per_run` / `metadata_per_run` | 4 / 150 | the daily VOD slice |
-| `vod.run_budget_seconds` / `total_deadline_minutes` | 300 / 48 | VOD time limits |
-| `vod.max_items` | 5000 | cache size |
+| `vod.search_pages_per_run` / `metadata_per_run` | 10 / 400 | the VOD slice per run |
+| `vod.run_budget_seconds` / `total_deadline_minutes` | 600 / 48 | VOD time limits |
+| `vod.max_items` | 20000 | cache size |
 
 With the shipped values the official run (40 minute budget) plus the community slice (at most 44 minutes since start)
 plus VOD (at most 48 minutes since start) ends well inside the workflow's 60 minute limit, leaving at least 12 minutes

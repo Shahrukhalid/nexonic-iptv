@@ -181,8 +181,8 @@ class CommunityConfig:
     streams_per_channel: int = 1  # best-ranked streams kept per channel feed (1 = one stream per channel identity)
     allow_restream_hosts: bool = True  # known restream hosts may be listed and checked in this tier (never tokens)
     # Rotating, budgeted validation
-    max_checks_per_run: int = 3000
-    run_budget_seconds: float = 1200.0  # no new community check is started after this
+    max_checks_per_run: int = 5000
+    run_budget_seconds: float = 1500.0  # no new community check is started after this
     total_deadline_minutes: float = 44.0  # ... nor after this many minutes since scripts/verify.py started
     concurrency: int = 32
     max_concurrency: int = 64
@@ -190,7 +190,7 @@ class CommunityConfig:
     retries: int = 0
     backoff_base: float = 1.0
     per_host_interval: float = 1.0  # minimum seconds between requests to the same host
-    max_per_host_per_run: int = 40  # one CDN carrying hundreds of channels cannot use the whole budget
+    max_per_host_per_run: int = 100  # one CDN carrying hundreds of channels cannot use the whole budget
     channel_timeout: float = 30.0
     retry_failed_days: int = 3  # a stream whose last check failed is not re-checked before this
     retry_quarantined_days: int = 14
@@ -209,10 +209,14 @@ class CommunityConfig:
 def _default_vod_collections() -> list[dict]:
     return [
         {"id": "feature_films", "kind": "movie"},
-        {"id": "film_noir", "kind": "movie", "genre": "noir"},
+        {"id": "Film_Noir", "kind": "movie", "genre": "noir"},
         {"id": "SciFi_Horror", "kind": "movie", "genre": "scifi-horror"},
-        {"id": "comedy_films", "kind": "movie", "genre": "comedy"},
+        {"id": "Comedy_Films", "kind": "movie", "genre": "comedy"},
         {"id": "classic_cartoons", "kind": "movie", "genre": "animation"},
+        {"id": "silent_films", "kind": "movie", "genre": "silent"},
+        {"id": "animationandcartoons", "kind": "movie", "genre": "animation"},
+        {"id": "short_films", "kind": "movie", "genre": "short"},
+        {"id": "prelinger", "kind": "movie", "genre": "documentary"},
         {"id": "classic_tv", "kind": "series"},
     ]
 
@@ -228,10 +232,10 @@ class VodConfig:
     backoff_base: float = 2.0
     request_interval: float = 1.0  # seconds between requests to archive.org
     rows_per_page: int = 200
-    search_pages_per_run: int = 4  # advancedsearch pages read per run, across all collections
-    metadata_per_run: int = 150  # item metadata documents read per run (the daily slice)
-    run_budget_seconds: float = 300.0
-    max_items: int = 5000  # items kept in state/vod/items.json
+    search_pages_per_run: int = 10  # advancedsearch pages read per run, across all collections
+    metadata_per_run: int = 400  # item metadata documents read per run (the daily slice)
+    run_budget_seconds: float = 600.0
+    max_items: int = 20000  # items kept in state/vod/items.json
     rescan_days: int = 14  # a finished collection search starts over after this many days
     allow_weak_terms: bool = False  # titles with words such as "love" or "night" go to manual review unless true
     total_deadline_minutes: float = 48.0  # no VOD request is made after this many minutes since verify.py started
