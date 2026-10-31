@@ -24,6 +24,7 @@ Website: https://shahrukhalid.github.io/nexonic-iptv/
 ## Contents
 
 - [Quick start](#quick-start)
+- [Login with server, username and password (Xtream Codes)](#login-with-server-username-and-password-xtream-codes)
 - [How the playlists are organised](#how-the-playlists-are-organised)
 - [Current numbers](#current-numbers)
 - [Features](#features)
@@ -60,6 +61,34 @@ The same files are served from
 `https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists/` if you prefer raw GitHub URLs. Every
 playlist is listed in [PLAYLISTS.md](PLAYLISTS.md) and on the
 [playlists page](https://shahrukhalid.github.io/nexonic-iptv/playlists/).
+
+## Login with server, username and password (Xtream Codes)
+
+Some apps only offer an "Xtream Codes" login instead of a playlist URL. Nexonic IPTV includes a small gateway for them.
+It answers the app with the same channels, free films and series, and sends each stream straight to the broadcaster:
+no video passes through it, and only streams in the playlists can be opened.
+
+1. Get the repository and start the gateway (Python 3.11 or newer):
+
+   ```bash
+   git clone https://github.com/Shahrukhalid/nexonic-iptv.git && cd nexonic-iptv
+   pip install -r requirements.txt
+   python scripts/xtream_server.py --host 0.0.0.0 --public-url http://<this-computer's-IP>:8080
+   ```
+
+2. In the app choose **Xtream Codes** and enter:
+
+   | Field | Value |
+   |---|---|
+   | Server URL | `http://<this-computer's-IP>:8080` |
+   | Username | `nexonic` |
+   | Password | `free` |
+
+The login is public on purpose: everything here is free, and the app simply requires one. Channels are grouped by
+country, films and series appear under VOD and Series, and the same login also gives an M3U link
+(`/get.php?username=nexonic&password=free&type=m3u_plus`). Run `git pull` to get the latest channels; the gateway
+reloads them by itself. Without `--host 0.0.0.0` it only answers on the same computer. Change the login with
+`--username` and `--password` if you prefer.
 
 ## How the playlists are organised
 
@@ -124,6 +153,8 @@ Every channel is checked automatically; a channel that stops working leaves the 
 - **Country Hub:** one playlist and one web page per country, plus language and category playlists.
 - **Status page and change report:** public, timestamped results from every run, and a daily
   [change report](reports/changes.md).
+- **Xtream Codes login:** a built-in gateway for apps that ask for a server, username and password
+  (`nexonic` / `free`); streams go straight to the broadcasters.
 - **Zero cost:** no ads, subscriptions, trackers or accounts; runs on free GitHub Actions and Pages.
 
 ## How verification works
