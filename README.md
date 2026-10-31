@@ -72,13 +72,13 @@ straight to the broadcaster: no video passes through the login service, and only
 
 | Field | Value |
 |---|---|
-| Server URL | *being switched on: the address appears here within a day* |
+| Server URL | `https://nexonic-iptv.shahrukhalid.workers.dev` |
 | Username | `nexonic` |
 | Password | `free` |
 
 The login is public on purpose: everything here is free, and the apps simply require one. It runs in the cloud around
 the clock and always shows the latest playlists; nothing has to stay switched on at home. The same login also gives an
-M3U link: `<server URL>/get.php?username=nexonic&password=free&type=m3u_plus`.
+M3U link: `https://nexonic-iptv.shahrukhalid.workers.dev/get.php?username=nexonic&password=free&type=m3u_plus`.
 
 **Run it yourself instead** (on a computer or home server, Python 3.11 or newer):
 
