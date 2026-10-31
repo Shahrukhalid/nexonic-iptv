@@ -122,7 +122,7 @@ Every channel is checked automatically; a channel that stops working leaves the 
 
 ## How verification works
 
-Stream verification runs every day at 03:17 UTC ([verify-streams.yml](.github/workflows/verify-streams.yml)). Each
+Stream verification runs three times a day, at 03:17, 11:17 and 19:17 UTC ([verify-streams.yml](.github/workflows/verify-streams.yml)). Each
 channel goes through the layered check described in [docs/VERIFICATION.md](docs/VERIFICATION.md): URL policy, DNS,
 manifest, playlist parsing and a read of real video bytes. An HTTP 200 alone is never treated as proof.
 

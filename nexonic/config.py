@@ -127,6 +127,33 @@ def _default_extra_m3u() -> list[dict]:
             "paths": ["streamings-ecuador-all.m3u"],
             "licence": "Unlicense",
         },
+        {
+            "name": "listalibre",
+            "repo": "IamJony/IPTVListaLibre",
+            "ref": "main",
+            "paths": [
+                "ar_canales.m3u",
+                "bo_canales.m3u",
+                "cl_canales.m3u",
+                "co_canales.m3u",
+                "cr_canales.m3u",
+                "do_canales.m3u",
+                "ec_canales.m3u",
+                "es_canales.m3u",
+                "gt_canales.m3u",
+                "hn_canales.m3u",
+                "mx_canales.m3u",
+                "ni_canales.m3u",
+                "pa_canales.m3u",
+                "pe_canales.m3u",
+                "pr_canales.m3u",
+                "py_canales.m3u",
+                "sv_canales.m3u",
+                "uy_canales.m3u",
+                "ve_canales.m3u",
+            ],
+            "licence": "MIT",
+        },
     ]
 
 
