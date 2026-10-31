@@ -496,10 +496,14 @@ def test_vod_and_community_defaults_match_the_shipped_file():
     assert shipped.vod == VodConfig() and shipped.community == CommunityConfig()
     assert [c["id"] for c in shipped.vod.collections] == [
         "feature_films",
-        "film_noir",
+        "Film_Noir",
         "SciFi_Horror",
-        "comedy_films",
+        "Comedy_Films",
         "classic_cartoons",
+        "silent_films",
+        "animationandcartoons",
+        "short_films",
+        "prelinger",
         "classic_tv",
     ]
 

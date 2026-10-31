@@ -144,8 +144,8 @@ min_catalog_ratio = 0.5           # a rebuilt catalogue smaller than this share 
 streams_per_channel = 1           # best-ranked streams kept per channel feed (max 5)
 allow_restream_hosts = true       # known restream hosts may be listed and checked here (never with tokens)
 # Rotating, budgeted validation: never-checked streams first, then the oldest-checked ones.
-max_checks_per_run = 3000
-run_budget_seconds = 1200.0       # no new community check is started after this
+max_checks_per_run = 5000
+run_budget_seconds = 1500.0       # no new community check is started after this
 total_deadline_minutes = 44.0     # ... nor after this many minutes since scripts/verify.py started (workflow limit: 60)
 concurrency = 32
 max_concurrency = 64
@@ -153,7 +153,7 @@ timeout = 8.0                     # seconds per request
 retries = 0
 backoff_base = 1.0
 per_host_interval = 1.0           # minimum seconds between requests to the same host
-max_per_host_per_run = 40         # one CDN carrying hundreds of channels cannot use the whole budget
+max_per_host_per_run = 100        # one CDN carrying hundreds of channels cannot use the whole budget
 channel_timeout = 30.0
 min_recheck_hours = 20.0          # a stream checked more recently than this is not due again
 retry_failed_days = 3             # a stream whose last check failed waits this long ...
@@ -179,11 +179,11 @@ retries = 3
 backoff_base = 2.0
 request_interval = 1.0            # seconds between requests to archive.org
 rows_per_page = 200
-search_pages_per_run = 4          # advanced-search pages read per daily run, across all collections
-metadata_per_run = 150            # item metadata documents read per daily run (the daily slice)
-run_budget_seconds = 300.0
+search_pages_per_run = 10         # advanced-search pages read per daily run, across all collections
+metadata_per_run = 400           # item metadata documents read per daily run (the daily slice)
+run_budget_seconds = 600.0
 total_deadline_minutes = 48.0     # no VOD request is made after this many minutes since verify.py started
-max_items = 5000
+max_items = 20000
 rescan_days = 14                  # a finished collection search starts over after this many days
 allow_weak_terms = false          # titles with words such as "love" or "night" go to manual review unless true
 allowed_licences = ["publicdomain", "by", "by-sa", "by-nc", "by-nc-sa", "by-nd", "by-nc-nd"]
@@ -195,7 +195,7 @@ id = "feature_films"
 kind = "movie"
 
 [[vod.collections]]
-id = "film_noir"
+id = "Film_Noir"
 kind = "movie"
 genre = "noir"
 
@@ -205,7 +205,7 @@ kind = "movie"
 genre = "scifi-horror"
 
 [[vod.collections]]
-id = "comedy_films"
+id = "Comedy_Films"
 kind = "movie"
 genre = "comedy"
 
@@ -213,6 +213,26 @@ genre = "comedy"
 id = "classic_cartoons"
 kind = "movie"
 genre = "animation"
+
+[[vod.collections]]
+id = "silent_films"
+kind = "movie"
+genre = "silent"
+
+[[vod.collections]]
+id = "animationandcartoons"
+kind = "movie"
+genre = "animation"
+
+[[vod.collections]]
+id = "short_films"
+kind = "movie"
+genre = "short"
+
+[[vod.collections]]
+id = "prelinger"
+kind = "movie"
+genre = "documentary"
 
 [[vod.collections]]
 id = "classic_tv"
