@@ -1,25 +1,25 @@
 {
-  "reference_time": "2026-11-01T17:14:02Z",
+  "reference_time": "2026-11-01T22:57:45Z",
   "playlists": [
     {
       "path": "playlists/all.m3u",
       "kind": "global",
       "key": "all",
       "name": "All channels",
-      "count": 4626,
+      "count": 4627,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u",
       "tier": "official",
-      "community": 4069
+      "community": 4070
     },
     {
       "path": "playlists/verified.m3u",
       "kind": "verified",
       "key": "verified",
       "name": "Nexonic Verified (working in the last 48 h)",
-      "count": 4552,
+      "count": 4557,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u",
       "tier": "official",
-      "community": 4069
+      "community": 4070
     },
     {
       "path": "playlists/countries/ad.m3u",
@@ -714,10 +714,10 @@
       "kind": "country",
       "key": "in",
       "name": "India",
-      "count": 573,
+      "count": 574,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/in.m3u",
       "tier": "official",
-      "community": 552
+      "community": 553
     },
     {
       "path": "playlists/countries/iq.m3u",
@@ -1880,10 +1880,10 @@
       "kind": "language",
       "key": "hi",
       "name": "Hindi",
-      "count": 235,
+      "count": 236,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/hi.m3u",
       "tier": "official",
-      "community": 229
+      "community": 230
     },
     {
       "path": "playlists/languages/hr.m3u",
@@ -2598,10 +2598,10 @@
       "kind": "category",
       "key": "movies",
       "name": "Movies",
-      "count": 191,
+      "count": 192,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/movies.m3u",
       "tier": "official",
-      "community": 176
+      "community": 177
     },
     {
       "path": "playlists/categories/music.m3u",
@@ -2668,10 +2668,10 @@
       "kind": "quality",
       "key": "1080p",
       "name": "Measured 1080p",
-      "count": 2043,
+      "count": 2045,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u",
       "tier": "official",
-      "community": 1801
+      "community": 1802
     },
     {
       "path": "playlists/quality/4k.m3u",
@@ -2688,7 +2688,7 @@
       "kind": "quality",
       "key": "720p",
       "name": "Measured 720p",
-      "count": 1677,
+      "count": 1675,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/720p.m3u",
       "tier": "official",
       "community": 1499
@@ -2698,7 +2698,7 @@
       "kind": "quality",
       "key": "sd",
       "name": "Measured SD (below 720p)",
-      "count": 831,
+      "count": 832,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/sd.m3u",
       "tier": "official",
       "community": 767
@@ -2708,11 +2708,11 @@
       "kind": "community-untested",
       "key": "untested",
       "name": "Community UNTESTED (never checked, not recently checked or inconclusive; not confirmed working)",
-      "count": 664,
+      "count": 564,
       "url": "https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u",
       "tier": "community",
       "verified": 0,
-      "untested": 664
+      "untested": 564
     },
     {
       "path": "playlists/vod/movies.m3u",

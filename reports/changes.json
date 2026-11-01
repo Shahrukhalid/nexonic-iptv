@@ -1,14 +1,14 @@
 {
-  "reference_time": "2026-11-01T17:14:02Z",
-  "baseline_reference_time": "2026-11-01T10:33:35Z",
+  "reference_time": "2026-11-01T22:57:45Z",
+  "baseline_reference_time": "2026-11-01T17:14:02Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 557,
-    "verified_playlist": 483,
+    "verified_playlist": 487,
     "excluded": 194,
     "pending_authorization": 43,
-    "quarantined": 158,
+    "quarantined": 155,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
@@ -16,31 +16,31 @@
     "duplicates_removed": 0,
     "newly_failing": 1,
     "newly_quarantined": 0,
-    "restored": 1,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 110,
-    "restricted": 44,
+    "intermittent": 113,
+    "restricted": 43,
     "unknown": 5,
-    "unreachable": 15,
+    "unreachable": 13,
     "working": 383
   },
   "latest_run": {
-    "run_id": "run-20261101T170814Z",
-    "started_at": "2026-11-01T17:08:14Z",
-    "finished_at": "2026-11-01T17:14:02Z",
+    "run_id": "run-20261101T225147Z",
+    "started_at": "2026-11-01T22:51:47Z",
+    "finished_at": "2026-11-01T22:57:45Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
-      "INVALID_STREAM": 8,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 137,
+      "GEO_RESTRICTED": 62,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 27,
+      "UNAVAILABLE": 149,
       "UNKNOWN": 51,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 462
+      "VERIFIED_WORKING": 449
     }
   },
   "discovery": {
@@ -78,20 +78,32 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "9-la-loma-tv-es",
-        "name": "9 la Loma TV",
-        "country": "es",
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
         "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [],
     "restored": [
       {
-        "id": "emisora-comunitaria-104-1-fm-co",
-        "name": "Emisora Comunitaria 104.1 FM",
-        "country": "co",
-        "restored_at": "2026-11-01T17:08:54Z"
+        "id": "asharq-news-sa",
+        "name": "Asharq News",
+        "country": "sa",
+        "restored_at": "2026-11-01T22:54:20Z"
+      },
+      {
+        "id": "yerkir-media-am",
+        "name": "Yerkir Media",
+        "country": "am",
+        "restored_at": "2026-11-01T22:51:49Z"
+      },
+      {
+        "id": "zas-tv-do",
+        "name": "ZAS TV",
+        "country": "do",
+        "restored_at": "2026-11-01T22:52:38Z"
       }
     ],
     "removed": []
@@ -101,22 +113,22 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 557,
-      "verified": 483,
-      "not_verified": 74,
+      "verified": 487,
+      "not_verified": 70,
       "with_measured_quality": 485,
       "per_quality": {
-        "1080p": 242,
+        "1080p": 243,
         "4k": 1,
-        "720p": 178,
-        "sd": 64
+        "720p": 176,
+        "sd": 65
       }
     },
     "community": {
-      "published": 4733,
-      "verified": 4069,
-      "untested": 664,
-      "held_back_after_failed_check": 2493,
-      "never_checked": 254,
+      "published": 4634,
+      "verified": 4070,
+      "untested": 564,
+      "held_back_after_failed_check": 2592,
+      "never_checked": 154,
       "catalog_streams": 7226,
       "catalog_built_at": "2026-11-01T08:15:56Z",
       "verified_days": 7,
@@ -124,18 +136,18 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 744,
-        "invalid": 946,
+        "invalid": 1044,
         "restricted": 184,
-        "unknown": 471,
-        "unreachable": 1544,
-        "working": 3337
+        "unknown": 371,
+        "unreachable": 1545,
+        "working": 3338
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 967
+          "streams": 907
         },
         {
           "code": "in",
@@ -153,14 +165,14 @@
           "streams": 148
         },
         {
-          "code": "de",
-          "name": "Germany",
-          "streams": 146
-        },
-        {
           "code": "uk",
           "name": "United Kingdom",
           "streams": 142
+        },
+        {
+          "code": "de",
+          "name": "Germany",
+          "streams": 130
         },
         {
           "code": "cl",
@@ -170,7 +182,7 @@
         {
           "code": "br",
           "name": "Brazil",
-          "streams": 107
+          "streams": 106
         },
         {
           "code": "do",
