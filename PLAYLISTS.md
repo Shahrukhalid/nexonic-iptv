@@ -4,7 +4,7 @@
 
 Paste any URL below into VLC, Kodi or another IPTV player. Counts come from the generated files. Three tiers are published and never mixed; read [docs/TIERS.md](docs/TIERS.md) for what each one promises.
 
-Freshness reference (latest verification run): **2026-11-01T10:33:35Z**
+Freshness reference (latest verification run): **2026-11-01T17:14:02Z**
 
 ## Main
 
@@ -16,7 +16,7 @@ Freshness reference (latest verification run): **2026-11-01T10:33:35Z**
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Nexonic Verified (working in the last 48 h) | 4551 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Nexonic Verified (working in the last 48 h) | 4552 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
 
 ## By country
 
@@ -317,7 +317,7 @@ Publicly listed free streams from iptv-org/iptv and the other open lists named i
 
 | Playlist | Streams | Verified | Untested | URL |
 |---|---:|---:|---:|---|
-| Community UNTESTED (never checked, not recently checked or inconclusive; not confirmed working) | 764 | 0 | 764 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
+| Community UNTESTED (never checked, not recently checked or inconclusive; not confirmed working) | 664 | 0 | 664 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
 
 ## Free VOD tier
 
