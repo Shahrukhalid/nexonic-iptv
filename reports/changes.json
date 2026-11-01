@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-01T08:15:45Z",
-  "baseline_reference_time": "2026-10-31T22:36:01Z",
+  "reference_time": "2026-11-01T10:33:35Z",
+  "baseline_reference_time": "2026-11-01T08:15:45Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 559,
-    "verified_playlist": 483,
-    "excluded": 192,
+    "published": 557,
+    "verified_playlist": 482,
+    "excluded": 194,
     "pending_authorization": 43,
-    "quarantined": 160,
+    "quarantined": 159,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 6,
-    "newly_quarantined": 6,
+    "newly_failing": 3,
+    "newly_quarantined": 2,
     "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 111,
-    "restricted": 44,
+    "intermittent": 109,
+    "restricted": 43,
     "unknown": 5,
-    "unreachable": 19,
-    "working": 380
+    "unreachable": 17,
+    "working": 383
   },
   "latest_run": {
-    "run_id": "run-20261101T080928Z",
-    "started_at": "2026-11-01T08:09:28Z",
-    "finished_at": "2026-11-01T08:15:45Z",
+    "run_id": "run-20261101T102737Z",
+    "started_at": "2026-11-01T10:27:37Z",
+    "finished_at": "2026-11-01T10:33:35Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 147,
-      "UNKNOWN": 50,
+      "GEO_RESTRICTED": 61,
+      "INVALID_STREAM": 11,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 146,
+      "UNKNOWN": 55,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 453
+      "VERIFIED_WORKING": 447
     }
   },
   "discovery": {
@@ -71,7 +71,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "6 channel(s) newly quarantined (failing repeatedly)"
+    "2 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -80,104 +80,59 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "asharq-news-sa",
-        "name": "Asharq News",
-        "country": "sa",
+        "id": "cctv-1-cn",
+        "name": "CCTV+ 1",
+        "country": "cn",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "segment: HTTP 404 (stream not found)"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
+        "id": "yerkir-media-am",
+        "name": "Yerkir Media",
+        "country": "am",
         "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "pbs-us",
-        "name": "PBS",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "trt-1",
-        "name": "TRT 1",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "segment: HTTP 400"
-      },
-      {
-        "id": "trt-arabi",
-        "name": "TRT Arabi",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "segment: HTTP 404 (stream not found)"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "asharq-news-sa",
-        "name": "Asharq News",
-        "country": "sa",
-        "since": "2026-11-01T08:12:10Z"
+        "id": "cctv-1-cn",
+        "name": "CCTV+ 1",
+        "country": "cn",
+        "since": "2026-11-01T10:28:08Z"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
-        "since": "2026-11-01T08:12:58Z"
-      },
-      {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
-        "since": "2026-11-01T08:10:33Z"
-      },
+        "id": "yerkir-media-am",
+        "name": "Yerkir Media",
+        "country": "am",
+        "since": "2026-11-01T10:27:39Z"
+      }
+    ],
+    "restored": [
       {
         "id": "pbs-us",
         "name": "PBS",
         "country": "us",
-        "since": "2026-11-01T08:12:44Z"
+        "restored_at": "2026-11-01T10:30:37Z"
       },
       {
         "id": "trt-1",
         "name": "TRT 1",
         "country": "tr",
-        "since": "2026-11-01T08:13:14Z"
+        "restored_at": "2026-11-01T10:31:05Z"
       },
       {
         "id": "trt-arabi",
         "name": "TRT Arabi",
         "country": "tr",
-        "since": "2026-11-01T08:13:17Z"
-      }
-    ],
-    "restored": [
-      {
-        "id": "hunedoara-1-ro",
-        "name": "Hunedoara 1",
-        "country": "ro",
-        "restored_at": "2026-11-01T08:11:54Z"
-      },
-      {
-        "id": "qmusic-nl",
-        "name": "Qmusic",
-        "country": "nl",
-        "restored_at": "2026-11-01T08:11:39Z"
-      },
-      {
-        "id": "senal-colombia",
-        "name": "Señal Colombia",
-        "country": "co",
-        "restored_at": "2026-11-01T08:12:52Z"
+        "restored_at": "2026-11-01T10:31:06Z"
       }
     ],
     "removed": []
@@ -186,34 +141,34 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 559,
-      "verified": 483,
-      "not_verified": 76,
+      "published": 557,
+      "verified": 482,
+      "not_verified": 75,
       "with_measured_quality": 485,
       "per_quality": {
-        "1080p": 243,
+        "1080p": 242,
         "4k": 1,
-        "720p": 177,
+        "720p": 178,
         "sd": 64
       }
     },
     "community": {
-      "published": 4950,
-      "verified": 4087,
-      "untested": 863,
-      "held_back_after_failed_check": 2276,
-      "never_checked": 454,
+      "published": 4833,
+      "verified": 4069,
+      "untested": 764,
+      "held_back_after_failed_check": 2393,
+      "never_checked": 354,
       "catalog_streams": 7226,
       "catalog_built_at": "2026-11-01T08:15:56Z",
       "verified_days": 7,
       "countries": 155,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 762,
-        "invalid": 749,
+        "intermittent": 744,
+        "invalid": 849,
         "restricted": 184,
-        "unknown": 671,
-        "unreachable": 1523,
+        "unknown": 571,
+        "unreachable": 1541,
         "working": 3337
       },
       "removed_at_generation": {},
@@ -221,7 +176,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 1074
+          "streams": 1014
         },
         {
           "code": "in",
@@ -231,12 +186,12 @@
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 201
+          "streams": 200
         },
         {
           "code": "de",
           "name": "Germany",
-          "streams": 186
+          "streams": 163
         },
         {
           "code": "it",
@@ -246,17 +201,17 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 145
-        },
-        {
-          "code": "se",
-          "name": "Sweden",
-          "streams": 129
+          "streams": 143
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 123
+          "streams": 122
+        },
+        {
+          "code": "se",
+          "name": "Sweden",
+          "streams": 108
         },
         {
           "code": "br",
