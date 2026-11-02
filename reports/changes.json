@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-02T11:12:33Z",
-  "baseline_reference_time": "2026-11-02T08:25:18Z",
+  "reference_time": "2026-11-02T20:53:09Z",
+  "baseline_reference_time": "2026-11-02T11:12:33Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 558,
-    "verified_playlist": 485,
-    "excluded": 193,
+    "published": 559,
+    "verified_playlist": 486,
+    "excluded": 192,
     "pending_authorization": 43,
-    "quarantined": 156,
+    "quarantined": 154,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
+    "newly_failing": 2,
     "newly_quarantined": 0,
     "restored": 2,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 115,
-    "restricted": 42,
+    "intermittent": 121,
+    "restricted": 41,
     "unknown": 5,
-    "unreachable": 15,
-    "working": 381
+    "unreachable": 16,
+    "working": 376
   },
   "latest_run": {
-    "run_id": "run-20261102T110652Z",
-    "started_at": "2026-11-02T11:06:52Z",
-    "finished_at": "2026-11-02T11:12:33Z",
+    "run_id": "run-20261102T204713Z",
+    "started_at": "2026-11-02T20:47:13Z",
+    "finished_at": "2026-11-02T20:53:09Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 130,
+      "GEO_RESTRICTED": 59,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 32,
+      "UNAVAILABLE": 132,
       "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 468
+      "VERIFIED_WORKING": 462
     }
   },
   "discovery": {
@@ -78,8 +78,15 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "one-ard",
-        "name": "ONE",
+        "id": "servustv",
+        "name": "ServusTV",
+        "country": "at",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "zdf",
+        "name": "ZDF",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
@@ -88,16 +95,16 @@
     "newly_quarantined": [],
     "restored": [
       {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "restored_at": "2026-11-02T11:09:00Z"
+        "id": "jazz-tv-mk",
+        "name": "Jazz TV",
+        "country": "mk",
+        "restored_at": "2026-11-02T20:51:16Z"
       },
       {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
-        "country": "de",
-        "restored_at": "2026-11-02T11:07:40Z"
+        "id": "nopola-news-fi",
+        "name": "Nopola News",
+        "country": "fi",
+        "restored_at": "2026-11-02T20:48:08Z"
       }
     ],
     "removed": []
@@ -106,22 +113,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 558,
-      "verified": 485,
+      "published": 559,
+      "verified": 486,
       "not_verified": 73,
-      "with_measured_quality": 486,
+      "with_measured_quality": 487,
       "per_quality": {
-        "1080p": 242,
+        "1080p": 248,
         "4k": 1,
-        "720p": 178,
-        "sd": 65
+        "720p": 172,
+        "sd": 66
       }
     },
     "community": {
-      "published": 4392,
-      "verified": 3953,
+      "published": 4393,
+      "verified": 3954,
       "untested": 439,
-      "held_back_after_failed_check": 2834,
+      "held_back_after_failed_check": 2833,
       "never_checked": 0,
       "catalog_streams": 7226,
       "catalog_built_at": "2026-11-02T08:25:27Z",
@@ -129,8 +136,8 @@
       "countries": 155,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 711,
-        "invalid": 1193,
+        "intermittent": 712,
+        "invalid": 1192,
         "restricted": 179,
         "unknown": 208,
         "unreachable": 1633,

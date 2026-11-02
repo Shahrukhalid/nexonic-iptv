@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-02T11:12:33Z",
+  "reference_time": "2026-11-02T20:53:09Z",
   "records": {
     "approved": 751,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 558,
-  "excluded_approved": 193,
+  "published_channels": 559,
+  "excluded_approved": 192,
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 485,
+  "verified_playlist_channels": 486,
   "playlist_files": 305,
   "latest_run": {
-    "run_id": "run-20261102T110652Z",
-    "started_at": "2026-11-02T11:06:52Z",
-    "finished_at": "2026-11-02T11:12:33Z",
+    "run_id": "run-20261102T204713Z",
+    "started_at": "2026-11-02T20:47:13Z",
+    "finished_at": "2026-11-02T20:53:09Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 130,
+      "GEO_RESTRICTED": 59,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 32,
+      "UNAVAILABLE": 132,
       "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 468
+      "VERIFIED_WORKING": 462
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 468,
-    "UNAVAILABLE": 130,
-    "GEO_RESTRICTED": 60,
+    "VERIFIED_WORKING": 462,
+    "UNAVAILABLE": 132,
+    "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 28,
-    "INVALID_STREAM": 9,
+    "TIMEOUT": 32,
+    "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
     "UNKNOWN": 53,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 14,
-    "geo-restricted": 42,
-    "previously-working": 29,
+    "currently-failing": 19,
+    "geo-restricted": 41,
+    "previously-working": 32,
     "unknown": 5,
-    "verified-recently": 468
+    "verified-recently": 462
   },
   "per_country": {
     "ae": {
@@ -337,7 +337,7 @@
     "mk": {
       "name": "North Macedonia",
       "flag": "🇲🇰",
-      "channels": 4
+      "channels": 5
     },
     "mm": {
       "name": "Myanmar",
@@ -671,7 +671,7 @@
     },
     "mk": {
       "name": "Macedonian",
-      "channels": 3
+      "channels": 4
     },
     "ml": {
       "name": "Malayalam",
@@ -825,7 +825,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 84
+      "channels": 85
     },
     "news": {
       "name": "News",
@@ -847,22 +847,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 558,
-      "verified": 485,
+      "published": 559,
+      "verified": 486,
       "not_verified": 73,
-      "with_measured_quality": 486,
+      "with_measured_quality": 487,
       "per_quality": {
-        "1080p": 242,
+        "1080p": 248,
         "4k": 1,
-        "720p": 178,
-        "sd": 65
+        "720p": 172,
+        "sd": 66
       }
     },
     "community": {
-      "published": 4392,
-      "verified": 3953,
+      "published": 4393,
+      "verified": 3954,
       "untested": 439,
-      "held_back_after_failed_check": 2834,
+      "held_back_after_failed_check": 2833,
       "never_checked": 0,
       "catalog_streams": 7226,
       "catalog_built_at": "2026-11-02T08:25:27Z",
@@ -870,8 +870,8 @@
       "countries": 155,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 711,
-        "invalid": 1193,
+        "intermittent": 712,
+        "invalid": 1192,
         "restricted": 179,
         "unknown": 208,
         "unreachable": 1633,

@@ -229,8 +229,6 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://rtmp.radiobozsike.com/hls/stream1.m3u8
 #EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-country="DE" tvg-language="Turkish" group-title="Germany",YOL TV
 https://live.yoltv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DR1.dk@SD" tvg-name="DR1" tvg-country="DK" tvg-language="Danish" group-title="Denmark",DR1
-https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8
 #EXTINF:-1 tvg-id="CanaldelSol.do@SD" tvg-name="Canal del Sol" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Canal del Sol
 https://stream.canaldelsol.com/sol26/live_1080.m3u8
 #EXTINF:-1 tvg-id="ElSeis6.do@SD" tvg-name="El Seis 6" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",El Seis 6
@@ -291,6 +289,8 @@ https://cloud.tvomix.com/TVOMIX/index.m3u8
 https://streaming.nartv.fi/live/ngrp:NAR_TV.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi@SD" tvg-name="Navahang TV" tvg-country="FI" tvg-language="Persian" group-title="Finland",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Nopola News
+https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4Music.fr@SD" tvg-name="4 Music" tvg-country="FR" tvg-language="Persian" group-title="France",4 Music
 https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr@SD" tvg-name="4Kurd" tvg-country="FR" tvg-language="Kurdish;Persian" group-title="France",4Kurd
@@ -373,8 +373,6 @@ https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
 https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
 #EXTINF:-1 tvg-id="ImagenFM1051.hn@SD" tvg-name="Imagen FM 105.1" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Imagen FM 105.1
@@ -561,6 +559,8 @@ https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 #EXTINF:-1 tvg-id="FolkTV.mk@SD" tvg-name="Folk TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Folk TV
 https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+#EXTINF:-1 tvg-id="JazzTV.mk@SD" tvg-name="Jazz TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Jazz TV
+https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
 #EXTINF:-1 tvg-id="NasaTV.mk@SD" tvg-name="Nasa TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Nasa TV
 https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 #EXTINF:-1 tvg-id="TopEstradaTV.mk@SD" tvg-name="TopEstrada TV" tvg-country="MK" tvg-language="Albanian" group-title="North Macedonia",TopEstrada TV
@@ -803,6 +803,8 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-country="TR" tvg-language="English" group-title="Turkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" tvg-country="TR" tvg-language="Kurdish" group-title="Turkiye",Zarok TV
@@ -6457,6 +6459,8 @@ https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/play
 https://komhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MiracleChannel.se@SD" tvg-name="Miracle Channel" tvg-country="SE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rc68GZJ.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="1080p",Miracle Channel
 https://live.miracleonline.org/hls/miracle1.m3u8
+#EXTINF:-1 tvg-id="MTVReality.se@NO" tvg-name="MTV Reality (NO)" tvg-country="SE" tvg-language="English;Norwegian" tvg-logo="https://images.pluto.tv/channels/685137f4a1e091e16f2dd471/colorLogoPNG_1780301718240.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",MTV Reality (NO)
+https://jmp2.uk/plu-68513950f212bedacf8ec48f.m3u8
 #EXTINF:-1 tvg-id="AnimaxAsia.sg@India" tvg-name="Animax Asia (India)" tvg-country="SG" tvg-language="Japanese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Animax.png/960px-Animax.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="1080p",Animax Asia (India)
 https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg@Vietnam" tvg-name="Asian Food Network (Vietnam)" tvg-country="SG" tvg-language="English;Vietnamese" tvg-logo="https://i.imgur.com/pux6WN8.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="1080p",Asian Food Network (Vietnam)

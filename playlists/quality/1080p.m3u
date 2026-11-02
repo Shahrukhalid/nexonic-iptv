@@ -97,8 +97,6 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
 https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
-#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
-https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="JC1.cz@SD" tvg-name="JC1" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",JC1
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
@@ -139,6 +137,14 @@ https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8
 https://stream.canaldelsol.com/sol26/live_1080.m3u8
 #EXTINF:-1 tvg-id="ElSeis6.do@SD" tvg-name="El Seis 6" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",El Seis 6
 https://stream.elseis.do/canal6/live_1080.m3u8
+#EXTINF:-1 tvg-id="VantageClassic.ee@HD" tvg-name="Vantage Classic" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Classic
+https://hls.vantagetv.ee/vclassic_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageDance.ee@HD" tvg-name="Vantage Dance" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Dance
+https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageMusic.ee@HD" tvg-name="Vantage Music" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Music
+https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8
+#EXTINF:-1 tvg-id="VantageRock.ee@HD" tvg-name="Vantage Rock" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Rock
+https://hls.vantagetv.ee/vrock_stream/index.m3u8
 #EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-name="3Cat Cameres del temps" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Cameres del temps
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
 #EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-name="3Cat Plats bruts" tvg-country="ES" tvg-language="Catalan" group-title="Spain",3Cat Plats bruts
@@ -197,6 +203,10 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RudawTV.iq@SD" tvg-name="Rudaw TV" tvg-country="IQ" tvg-language="Kurdish" group-title="Iraq",Rudaw TV
@@ -255,6 +265,8 @@ https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
 https://stream.nasatv.com.mk/cooltv/hls/cooltv_live.m3u8
 #EXTINF:-1 tvg-id="FolkTV.mk@SD" tvg-name="Folk TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Folk TV
 https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
+#EXTINF:-1 tvg-id="JazzTV.mk@SD" tvg-name="Jazz TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Jazz TV
+https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
 #EXTINF:-1 tvg-id="MNB.mn@SD" tvg-name="MNB" tvg-country="MN" tvg-language="Mongolian" group-title="Mongolia",MNB
 https://live.mnb.mn/hls/mnb.stream.m3u8
 #EXTINF:-1 tvg-id="MNBMongoliinMedee.mn@SD" tvg-name="MNB Mongoliin Medee" tvg-country="MN" tvg-language="Mongolian" group-title="Mongolia",MNB Mongoliin Medee
