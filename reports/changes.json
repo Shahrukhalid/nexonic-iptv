@@ -12,7 +12,7 @@
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
-    "updated": 0,
+    "updated": 1,
     "duplicates_removed": 0,
     "newly_failing": 1,
     "newly_quarantined": 0,
@@ -44,23 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
+    "admitted": 598,
+    "aggregator-host": 977,
+    "already-curated": 477,
+    "closed": 95,
+    "excluded-category": 1161,
+    "host-not-owned-by-broadcaster": 7014,
     "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
+    "needs-special-headers": 1120,
+    "no-database-entry": 2100,
+    "nsfw-or-blocklisted": 3,
+    "sanctions-exclusion": 608,
+    "streams": 18451,
     "subscription-service": 101,
-    "url-policy": 4628
+    "url-policy": 4125
   },
   "integrity": {
     "ok": true,
@@ -74,7 +72,17 @@
   "lists": {
     "new_candidates": [],
     "new_published": [],
-    "updated": [],
+    "updated": [
+      {
+        "id": "larivision-tv-do",
+        "name": "Larivision TV",
+        "country": "do",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      }
+    ],
     "duplicates_removed": [],
     "newly_failing": [
       {

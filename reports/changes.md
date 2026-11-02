@@ -17,7 +17,7 @@
 | Pending authorization | 43 |
 | New candidates discovered (not published) | 0 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 1 |
 | Duplicates removed | 0 |
 | Newly failing | 1 |
 | Newly quarantined | 0 |
@@ -63,23 +63,27 @@ Nothing.
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
+| admitted | 598 |
+| aggregator-host | 977 |
+| already-curated | 477 |
+| closed | 95 |
+| excluded-category | 1161 |
+| host-not-owned-by-broadcaster | 7014 |
 | language-not-supported | 3 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
+| needs-special-headers | 1120 |
+| no-database-entry | 2100 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 608 |
+| streams | 18451 |
 | subscription-service | 101 |
-| url-policy | 4628 |
+| url-policy | 4125 |
+
+## Channels updated (metadata or URL) (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Larivision TV (`larivision-tv-do`) | do | fields: ['stream_url'], url_changed: True |
 
 ## Newly failing (1)
 

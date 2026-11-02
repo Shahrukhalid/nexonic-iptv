@@ -86,16 +86,16 @@ channels:
   - general
   website: https://www.larivision.com/
   stream:
-    url: https://cloud5.larivision.net/hls/live.m3u8
+    url: https://live.larivision.net/livelan/live.m3u8
     protocol: hls
     quality: unknown
   source:
     reference_url: https://github.com/iptv-org/iptv/blob/master/streams/do.m3u
     evidence_url: https://www.larivision.com/
-    evidence_summary: 'Automated owner-domain match: stream host cloud5.larivision.net (larivision.net) shares the broadcaster''s
+    evidence_summary: 'Automated owner-domain match: stream host live.larivision.net (larivision.net) shares the broadcaster''s
       domain name ''larivision'' (larivision.com). Channel metadata from iptv-org/database.'
     evidence_checked: null
-    notes: ''
+    notes: Not 24/7 according to iptv-org.
     method: automated-domain-match
   epg_id: LarivisionTV.do@HD
   logo: null
@@ -107,7 +107,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-02'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.
