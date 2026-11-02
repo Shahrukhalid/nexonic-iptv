@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-11-02T08:25:18Z",
+  "reference_time": "2026-11-02T11:12:33Z",
   "records": {
     "approved": 751,
     "pending": 43,
@@ -10,43 +10,43 @@
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 484,
+  "verified_playlist_channels": 485,
   "playlist_files": 305,
   "latest_run": {
-    "run_id": "run-20261102T081921Z",
-    "started_at": "2026-11-02T08:19:21Z",
-    "finished_at": "2026-11-02T08:25:18Z",
+    "run_id": "run-20261102T110652Z",
+    "started_at": "2026-11-02T11:06:52Z",
+    "finished_at": "2026-11-02T11:12:33Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 751,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 139,
-      "UNKNOWN": 54,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 130,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 457
+      "VERIFIED_WORKING": 468
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 457,
-    "UNAVAILABLE": 139,
-    "GEO_RESTRICTED": 62,
+    "VERIFIED_WORKING": 468,
+    "UNAVAILABLE": 130,
+    "GEO_RESTRICTED": 60,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 27,
+    "TIMEOUT": 28,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 54,
+    "UNKNOWN": 53,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 16,
-    "geo-restricted": 44,
-    "previously-working": 36,
+    "currently-failing": 14,
+    "geo-restricted": 42,
+    "previously-working": 29,
     "unknown": 5,
-    "verified-recently": 457
+    "verified-recently": 468
   },
   "per_country": {
     "ae": {
@@ -848,33 +848,33 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 558,
-      "verified": 484,
-      "not_verified": 74,
+      "verified": 485,
+      "not_verified": 73,
       "with_measured_quality": 486,
       "per_quality": {
-        "1080p": 243,
+        "1080p": 242,
         "4k": 1,
-        "720p": 177,
+        "720p": 178,
         "sd": 65
       }
     },
     "community": {
-      "published": 4488,
-      "verified": 3995,
-      "untested": 493,
-      "held_back_after_failed_check": 2738,
-      "never_checked": 54,
+      "published": 4392,
+      "verified": 3953,
+      "untested": 439,
+      "held_back_after_failed_check": 2834,
+      "never_checked": 0,
       "catalog_streams": 7226,
       "catalog_built_at": "2026-11-02T08:25:27Z",
       "verified_days": 7,
       "countries": 155,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 753,
-        "invalid": 1140,
+        "intermittent": 711,
+        "invalid": 1193,
         "restricted": 179,
-        "unknown": 262,
-        "unreachable": 1590,
+        "unknown": 208,
+        "unreachable": 1633,
         "working": 3302
       },
       "removed_at_generation": {},
@@ -882,7 +882,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 850
+          "streams": 795
         },
         {
           "code": "in",
@@ -897,12 +897,12 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 148
+          "streams": 145
         },
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 140
+          "streams": 139
         },
         {
           "code": "cl",
@@ -915,19 +915,19 @@
           "streams": 106
         },
         {
-          "code": "de",
-          "name": "Germany",
-          "streams": 105
-        },
-        {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 104
+          "streams": 102
+        },
+        {
+          "code": "ca",
+          "name": "Canada",
+          "streams": 94
         },
         {
           "code": "es",
           "name": "Spain",
-          "streams": 95
+          "streams": 94
         }
       ],
       "playlist_files": 1,
