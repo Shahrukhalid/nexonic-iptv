@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-11-03T08:40:58Z",
+  "reference_time": "2026-11-03T10:58:50Z",
   "records": {
     "approved": 752,
     "pending": 43,
@@ -10,42 +10,43 @@
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 486,
+  "verified_playlist_channels": 484,
   "playlist_files": 305,
   "latest_run": {
-    "run_id": "run-20261103T083451Z",
-    "started_at": "2026-11-03T08:34:51Z",
-    "finished_at": "2026-11-03T08:40:58Z",
+    "run_id": "run-20261103T105239Z",
+    "started_at": "2026-11-03T10:52:39Z",
+    "finished_at": "2026-11-03T10:58:50Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 31,
-      "UNAVAILABLE": 144,
-      "UNKNOWN": 51,
-      "VERIFIED_WORKING": 453
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 139,
+      "UNKNOWN": 52,
+      "UNSUPPORTED": 1,
+      "VERIFIED_WORKING": 458
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 453,
-    "UNAVAILABLE": 144,
-    "GEO_RESTRICTED": 62,
+    "VERIFIED_WORKING": 458,
+    "UNAVAILABLE": 139,
+    "GEO_RESTRICTED": 61,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 31,
+    "TIMEOUT": 30,
     "INVALID_STREAM": 9,
-    "UNSUPPORTED": 0,
-    "UNKNOWN": 51,
+    "UNSUPPORTED": 1,
+    "UNKNOWN": 52,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 17,
-    "geo-restricted": 44,
-    "previously-working": 41,
+    "currently-failing": 20,
+    "geo-restricted": 43,
+    "previously-working": 34,
     "unknown": 5,
-    "verified-recently": 453
+    "verified-recently": 458
   },
   "per_country": {
     "ae": {
@@ -847,14 +848,14 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 560,
-      "verified": 486,
-      "not_verified": 74,
+      "verified": 484,
+      "not_verified": 76,
       "with_measured_quality": 488,
       "per_quality": {
-        "1080p": 249,
+        "1080p": 247,
         "4k": 1,
-        "720p": 173,
-        "sd": 65
+        "720p": 174,
+        "sd": 66
       }
     },
     "community": {
@@ -869,12 +870,12 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 741,
+        "intermittent": 742,
         "invalid": 1194,
         "restricted": 178,
         "unknown": 202,
         "unreachable": 1638,
-        "working": 3267
+        "working": 3266
       },
       "removed_at_generation": {},
       "top_countries": [
