@@ -6,11 +6,11 @@
   "counts": {
     "published": 559,
     "verified_playlist": 486,
-    "excluded": 192,
+    "excluded": 193,
     "pending_authorization": 43,
     "quarantined": 154,
     "duplicates_excluded_total": 0,
-    "new_candidates": 0,
+    "new_candidates": 1,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
@@ -44,23 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
-    "language-not-supported": 3,
+    "admitted": 599,
+    "aggregator-host": 977,
+    "already-curated": 478,
+    "closed": 95,
+    "excluded-category": 1161,
+    "host-not-owned-by-broadcaster": 7005,
+    "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
+    "needs-special-headers": 1118,
+    "no-database-entry": 2100,
+    "nsfw-or-blocklisted": 3,
+    "sanctions-exclusion": 609,
+    "streams": 18457,
     "subscription-service": 101,
-    "url-policy": 4628
+    "url-policy": 4138
   },
   "integrity": {
     "ok": true,
@@ -72,7 +70,15 @@
   },
   "attention": [],
   "lists": {
-    "new_candidates": [],
+    "new_candidates": [
+      {
+        "id": "sens-tv-ro",
+        "name": "Sens TV",
+        "country": "ro",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      }
+    ],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],

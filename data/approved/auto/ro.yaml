@@ -375,6 +375,43 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: sens-tv-ro
+  name: Sens TV
+  alt_names: []
+  broadcaster: Sens TV
+  country: ro
+  languages:
+  - ro
+  categories:
+  - general
+  website: https://senstv.ro/
+  stream:
+    url: https://live.senstv.ro/live/senstv_1080p/chunklist.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/ro.m3u
+    evidence_url: https://senstv.ro/
+    evidence_summary: 'Automated owner-domain match: stream host live.senstv.ro is on the broadcaster''s domain senstv.ro.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SensTV.ro@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-03'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-03'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: tele7abc-hd-ro
   name: Tele7ABC HD
   alt_names: []

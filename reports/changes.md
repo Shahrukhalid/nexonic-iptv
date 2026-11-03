@@ -13,9 +13,9 @@
 | Published channels | 559 |
 | In verified playlist | 486 |
 | Quarantined | 154 |
-| Excluded approved records | 192 |
+| Excluded approved records | 193 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 1 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,23 +63,27 @@ Nothing.
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
-| language-not-supported | 3 |
+| admitted | 599 |
+| aggregator-host | 977 |
+| already-curated | 478 |
+| closed | 95 |
+| excluded-category | 1161 |
+| host-not-owned-by-broadcaster | 7005 |
+| language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
+| needs-special-headers | 1118 |
+| no-database-entry | 2100 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 609 |
+| streams | 18457 |
 | subscription-service | 101 |
-| url-policy | 4628 |
+| url-policy | 4138 |
+
+## New candidates discovered (not published) (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Sens TV (`sens-tv-ro`) | ro | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (2)
 
