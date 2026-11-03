@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-03T10:58:50Z",
-  "baseline_reference_time": "2026-11-03T08:40:58Z",
+  "reference_time": "2026-11-03T18:34:14Z",
+  "baseline_reference_time": "2026-11-03T10:58:50Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 560,
+    "published": 557,
     "verified_playlist": 484,
-    "excluded": 192,
+    "excluded": 195,
     "pending_authorization": 43,
     "quarantined": 160,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
-    "new_published": 0,
+    "new_published": 1,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 4,
-    "newly_quarantined": 3,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
     "restored": 1,
     "removed": 0
   },
   "lifecycle_counts": {
     "intermittent": 119,
-    "restricted": 43,
+    "restricted": 42,
     "unknown": 5,
-    "unreachable": 20,
-    "working": 373
+    "unreachable": 16,
+    "working": 375
   },
   "latest_run": {
-    "run_id": "run-20261103T105239Z",
-    "started_at": "2026-11-03T10:52:39Z",
-    "finished_at": "2026-11-03T10:58:50Z",
+    "run_id": "run-20261103T182823Z",
+    "started_at": "2026-11-03T18:28:23Z",
+    "finished_at": "2026-11-03T18:34:14Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 139,
-      "UNKNOWN": 52,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 144,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 458
+      "VERIFIED_WORKING": 454
     }
   },
   "discovery": {
@@ -71,38 +71,23 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "3 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
-    "new_published": [],
+    "new_published": [
+      {
+        "id": "channel8-iq",
+        "name": "Channel8",
+        "country": "iq"
+      }
+    ],
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "kalu-tv-co",
-        "name": "Kalu TV",
-        "country": "co",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "sheffield-live-tv-uk",
-        "name": "Sheffield Live TV",
-        "country": "uk",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "zdf",
-        "name": "ZDF",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
@@ -110,30 +95,18 @@
     ],
     "newly_quarantined": [
       {
-        "id": "kalu-tv-co",
-        "name": "Kalu TV",
-        "country": "co",
-        "since": "2026-11-03T10:53:21Z"
-      },
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
+        "id": "zdf",
+        "name": "ZDF",
         "country": "de",
-        "since": "2026-11-03T10:53:29Z"
-      },
-      {
-        "id": "sheffield-live-tv-uk",
-        "name": "Sheffield Live TV",
-        "country": "uk",
-        "since": "2026-11-03T10:55:42Z"
+        "since": "2026-11-03T18:31:33Z"
       }
     ],
     "restored": [
       {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
-        "country": "us",
-        "restored_at": "2026-11-03T10:55:50Z"
+        "id": "rock-tv-mk",
+        "name": "Rock TV",
+        "country": "mk",
+        "restored_at": "2026-11-03T18:32:43Z"
       }
     ],
     "removed": []
@@ -142,22 +115,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 560,
+      "published": 557,
       "verified": 484,
-      "not_verified": 76,
-      "with_measured_quality": 488,
+      "not_verified": 73,
+      "with_measured_quality": 490,
       "per_quality": {
-        "1080p": 247,
+        "1080p": 251,
         "4k": 1,
-        "720p": 174,
-        "sd": 66
+        "720p": 173,
+        "sd": 65
       }
     },
     "community": {
-      "published": 4382,
-      "verified": 3948,
-      "untested": 434,
-      "held_back_after_failed_check": 2838,
+      "published": 4386,
+      "verified": 3943,
+      "untested": 443,
+      "held_back_after_failed_check": 2834,
       "never_checked": 0,
       "catalog_streams": 7220,
       "catalog_built_at": "2026-11-03T08:41:08Z",
@@ -165,11 +138,11 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 742,
+        "intermittent": 737,
         "invalid": 1194,
-        "restricted": 178,
+        "restricted": 179,
         "unknown": 202,
-        "unreachable": 1638,
+        "unreachable": 1642,
         "working": 3266
       },
       "removed_at_generation": {},
@@ -177,7 +150,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 793
+          "streams": 796
         },
         {
           "code": "in",
@@ -192,7 +165,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 145
+          "streams": 146
         },
         {
           "code": "uk",
@@ -217,7 +190,7 @@
         {
           "code": "ca",
           "name": "Canada",
-          "streams": 94
+          "streams": 95
         },
         {
           "code": "es",

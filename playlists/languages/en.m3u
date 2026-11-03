@@ -87,6 +87,8 @@ https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
 #EXTINF:-1 tvg-id="SansadTV2.in@HD" tvg-name="Sansad TV 2" tvg-country="IN" tvg-language="Hindi;English" group-title="India",Sansad TV 2
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+#EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-name="Channel8" tvg-country="IQ" tvg-language="Kurdish;Arabic;English" group-title="Iraq",Channel8
+https://live.channel8.com/Channel8-Kurdish/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="PeerTVSouthTyrol.it@SD" tvg-name="Peer TV South Tyrol" tvg-country="IT" tvg-language="English" group-title="Italy",Peer TV South Tyrol
 https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@SD" tvg-name="NHK World-Japan" tvg-country="JP" tvg-language="English" group-title="Japan",NHK World-Japan
@@ -909,7 +911,7 @@ http://stream.mcquack.net/287/index.m3u8
 https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="ArkTV.ug@SD" tvg-name="Ark TV" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/yCHNZXD.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="1080p",Ark TV
 https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="1080p",Bukedde TV 2
+#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="sd",Bukedde TV 2
 https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
 #EXTINF:-1 tvg-id="FORTTV.ug@SD" tvg-name="FORT TV" tvg-country="UG" tvg-language="English" tvg-logo="https://i.ibb.co/4KN5zW9/fort-tv-logo-GENE.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="720p",FORT TV
 https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8
@@ -1701,7 +1703,7 @@ https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8
 #EXTINF:-1 tvg-id="MidnightPulp.us@SD" tvg-name="Midnight Pulp" tvg-country="US" tvg-language="English" tvg-logo="https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Midnight Pulp
 https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD" tvg-name="Midpen Media Center Channel 26" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/aX1GkCD.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Midpen Media Center Channel 26
+#EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD" tvg-name="Midpen Media Center Channel 26" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/aX1GkCD.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Midpen Media Center Channel 26
 https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MidpenMediaCenterChannel28.us@SD" tvg-name="Midpen Media Center Channel 28" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Midpen Media Center Channel 28
 https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
@@ -1793,8 +1795,6 @@ https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 tvg-id="News12LongIsland.us@SD" tvg-name="News12 Long Island" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12 Long Island
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https
-#EXTINF:-1 tvg-id="News12PlusHudsonValley.us@HD" tvg-name="News12+ Hudson Valley" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/cKkdC203/news12plus-HV.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12+ Hudson Valley
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusLongIsland.us@HD" tvg-name="News12+ Long Island" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/p6FPNcCk/news12plus-LI.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12+ Long Island
 https://mdc4.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusNewJersey.us@HD" tvg-name="News12+ New Jersey" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/qYCVcWDV/news12plus-NJ.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12+ New Jersey

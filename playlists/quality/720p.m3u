@@ -69,8 +69,6 @@ https://videos.canal56.com/directe/stream/index.m3u8
 https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
 #EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tito TV
 https://cloud.tvomix.com/TITOTV/index.m3u8
-#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-country="ES" tvg-language="Spanish" group-title="Spain",TVOMIX
-https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi@SD" tvg-name="Navahang TV" tvg-country="FI" tvg-language="Persian" group-title="Finland",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr@SD" tvg-name="4 Music" tvg-country="FR" tvg-language="Persian" group-title="France",4 Music
@@ -713,6 +711,8 @@ https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8
 https://v2.tustreaming.cl/dchtv/index.m3u8
 #EXTINF:-1 tvg-id="DecimaTV.cl@SD" tvg-name="Decima TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/eu8hDDc.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",Decima TV
 https://unlimited2-cl-isp.dps.live/decimatv/decimatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Docevision.cl@SD" tvg-name="Docevision" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://cdn.m3u.cl/logo/1759_Docevision.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",Docevision
+https://live20.bozztv.com/giatvplayout7/giatv-208729/playlist.m3u8
 #EXTINF:-1 tvg-id="ElCentroTV.cl@SD" tvg-name="El Centro TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/2KqGHvA.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",El Centro TV
 https://v1.tustreaming.cl/diarioelcentrotv/index.m3u8
 #EXTINF:-1 tvg-id="EmocionTV.cl@SD" tvg-name="Emocion TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OJ3omla.jpeg" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",Emocion TV
@@ -1073,10 +1073,6 @@ https://live-fi.tvkaista.net/eveo/live.m3u8?hd=true
 https://live-fi.tvkaista.net/jim/live.m3u8?hd=true
 #EXTINF:-1 tvg-id="MTVAva.fi@SD" tvg-name="MTV Ava" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/WxNCiAk.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="720p",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8
-#EXTINF:-1 tvg-id="MTVSub.fi@SD" tvg-name="MTV Sub" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/rmV8LO1.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="720p",MTV Sub
-https://live-fi.tvkaista.net/sub/live.m3u8
-#EXTINF:-1 tvg-id="MTV3.fi@SD" tvg-name="MTV3" tvg-country="FI" tvg-language="Finnish;Swedish" tvg-logo="https://i.imgur.com/C5rQbBM.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="720p",MTV3
-https://live-fi.tvkaista.net/mtv3/live.m3u8
 #EXTINF:-1 tvg-id="Nelonen.fi@SD" tvg-name="Nelonen" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/BFbCyfY.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="720p",Nelonen
 https://live-fi.tvkaista.net/nelonen/live.m3u8
 #EXTINF:-1 tvg-id="OnniTV.fi@SD" tvg-name="Onni TV" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/Vba4jUk.png" group-title="Finland" x-tier="community" x-status="verified" x-quality="720p",Onni TV
@@ -2459,8 +2455,6 @@ https://cdn15.live-tv.cloud/ua_infinitas_tv/nashemus-abr/playlist.m3u8
 https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-name="Rada TV" tvg-country="UA" tvg-language="Russian;English;Ukrainian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/960px-Rada_TV_%282021%29.svg.png" group-title="Ukraine" x-tier="community" x-status="verified" x-quality="720p",Rada TV
 https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="TISTV.ua@SD" tvg-name="TIS TV" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/jDaoUt5.png" group-title="Ukraine" x-tier="community" x-status="verified" x-quality="720p",TIS TV
-https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8
 #EXTINF:-1 tvg-id="TVA.ua@SD" tvg-name="TVA" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/PtTQ5lv.png" group-title="Ukraine" x-tier="community" x-status="verified" x-quality="720p",TVA
 https://rtsp.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="FORTTV.ug@SD" tvg-name="FORT TV" tvg-country="UG" tvg-language="English" tvg-logo="https://i.ibb.co/4KN5zW9/fort-tv-logo-GENE.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="720p",FORT TV
@@ -2845,6 +2839,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-id="MBTV.us@SD" tvg-name="MBTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/LyqFr9E.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",MBTV
 https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8
+#EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD" tvg-name="Midpen Media Center Channel 26" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/aX1GkCD.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Midpen Media Center Channel 26
+https://5c2974786200d.streamlock.net/live-chan26/ngrp:ch26_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MidpenMediaCenterChannel28.us@SD" tvg-name="Midpen Media Center Channel 28" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Midpen Media Center Channel 28
 https://5c2974786200d.streamlock.net/live-chan28/ngrp:ch28_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MidpenMediaCenterChannel29.us@SD" tvg-name="Midpen Media Center Channel 29" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/RPJiolQ.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Midpen Media Center Channel 29

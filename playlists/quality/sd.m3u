@@ -27,8 +27,6 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BonceTV.cw@SD" tvg-name="Bonce TV" tvg-country="CW" tvg-language="Dutch" group-title="Curacao",Bonce TV
 https://seswa.bonce.tv/hls/bonceswa.m3u8
-#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
-https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-name="Alcarria TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Alcarria TV
@@ -323,8 +321,6 @@ https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
 https://stream.berosat.live/hls/esaie45-tv/esaie45-tv.m3u8
 #EXTINF:-1 tvg-id="ChampionTV.ci@SD" tvg-name="Champion TV" tvg-country="CI" tvg-language="French" tvg-logo="https://i.imgur.com/WjHSrHN.png" group-title="Ivory Coast" x-tier="community" x-status="verified" x-quality="sd",Champion TV
 https://stream.berosat.live/hls/champion-tv/champion-tv.m3u8
-#EXTINF:-1 tvg-id="Docevision.cl@SD" tvg-name="Docevision" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://cdn.m3u.cl/logo/1759_Docevision.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="sd",Docevision
-https://live20.bozztv.com/giatvplayout7/giatv-208729/playlist.m3u8
 #EXTINF:-1 tvg-id="MTNATV.cl@SD" tvg-name="MTNA TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/v7SA92F.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="sd",MTNA TV
 https://live.mtna.tv/hls/mtna/mtna.m3u8
 #EXTINF:-1 tvg-id="RadioVidaCurico.cl@SD" tvg-name="Radio Vida Curico" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://cdn.m3u.cl/logo/167_Radio_Vida_Curico.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="sd",Radio Vida Curico
@@ -1031,8 +1027,6 @@ https://livestream.perucast.com/hls/stream.m3u8
 https://video2.lhdserver.es/siscomtv/live.m3u8
 #EXTINF:-1 tvg-id="Vision.pe@SD" tvg-name="Vision" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/gyuoNZk.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="sd",Vision
 https://lbgo.bozztv.com/ssh101/ssh101/visiononline/playlist.m3u8
-#EXTINF:-1 tvg-id="BSFilm.pk@SD" tvg-name="BS Film" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3953-640x360-FFFFFF.jpg" group-title="Pakistan" x-tier="community" x-status="verified" x-quality="sd",BS Film
-https://live20.bozztv.com/akamaissh101/ssh101/bsfilm/playlist.m3u8
 #EXTINF:-1 tvg-id="BSTV.pk@SD" tvg-name="BSTV" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3952-640x360-FFFFFF.jpg" group-title="Pakistan" x-tier="community" x-status="verified" x-quality="sd",BSTV
 https://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8
 #EXTINF:-1 tvg-id="FalakTV.pk@SD" tvg-name="Falak TV" tvg-country="PK" tvg-language="Punjabi;Urdu" tvg-logo="https://i.imgur.com/2TqlNsI.png" group-title="Pakistan" x-tier="community" x-status="verified" x-quality="sd",Falak TV
@@ -1321,6 +1315,8 @@ https://cdn10.live-tv.cloud/izod/izod-abr-lq/playlist.m3u8
 https://stream.otv.ua/memfs/028e5947-073f-4b4e-a47f-70e59ca3ee36.m3u8
 #EXTINF:-1 tvg-id="PTV.ua@SD" tvg-name="PTV" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="Ukraine" x-tier="community" x-status="verified" x-quality="sd",PTV
 https://cdn15.live-tv.cloud/ua_infinitas_tv/hrpl-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-name="Bukedde TV 2" tvg-country="UG" tvg-language="English" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="Uganda" x-tier="community" x-status="verified" x-quality="sd",Bukedde TV 2
+https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
 #EXTINF:-1 tvg-id="KRCTV.ug@SD" tvg-name="KRC TV" tvg-country="UG" tvg-language="English;Ganda" tvg-logo="https://i.imgur.com/8c9Uqks.jpeg" group-title="Uganda" x-tier="community" x-status="verified" x-quality="sd",KRC TV
 https://channels.ad-ug.com/live/ch03/index.m3u8
 #EXTINF:-1 tvg-id="AkaalChannel.uk@SD" tvg-name="Akaal Channel" tvg-country="UK" tvg-language="Punjabi;English" tvg-logo="https://i.imgur.com/K81vNbk.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="sd",Akaal Channel

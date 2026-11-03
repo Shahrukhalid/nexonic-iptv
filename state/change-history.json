@@ -207,18 +207,18 @@
   },
   {
    "attention": [
-    "3 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
    ],
    "counts": {
     "duplicates_excluded_total": 0,
     "duplicates_removed": 0,
-    "excluded": 192,
+    "excluded": 195,
     "new_candidates": 0,
-    "new_published": 0,
-    "newly_failing": 4,
-    "newly_quarantined": 3,
+    "new_published": 1,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
     "pending_authorization": 43,
-    "published": 560,
+    "published": 557,
     "quarantined": 160,
     "removed": 0,
     "restored": 1,
@@ -229,12 +229,12 @@
    "integrity_ok": true,
    "lifecycle_counts": {
     "intermittent": 119,
-    "restricted": 43,
+    "restricted": 42,
     "unknown": 5,
-    "unreachable": 20,
-    "working": 373
+    "unreachable": 16,
+    "working": 375
    },
-   "reference_time": "2026-11-03T10:58:50Z"
+   "reference_time": "2026-11-03T18:34:14Z"
   }
  ],
  "schema": 1
