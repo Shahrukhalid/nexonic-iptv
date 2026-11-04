@@ -1,44 +1,44 @@
 {
-  "reference_time": "2026-11-03T18:34:14Z",
-  "baseline_reference_time": "2026-11-03T10:58:50Z",
+  "reference_time": "2026-11-04T00:05:40Z",
+  "baseline_reference_time": "2026-11-03T18:34:14Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 557,
-    "verified_playlist": 484,
+    "verified_playlist": 470,
     "excluded": 195,
     "pending_authorization": 43,
-    "quarantined": 160,
+    "quarantined": 177,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
-    "new_published": 1,
+    "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
-    "newly_quarantined": 1,
-    "restored": 1,
+    "newly_failing": 17,
+    "newly_quarantined": 17,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 119,
+    "intermittent": 103,
     "restricted": 42,
     "unknown": 5,
-    "unreachable": 16,
-    "working": 375
+    "unreachable": 33,
+    "working": 374
   },
   "latest_run": {
-    "run_id": "run-20261103T182823Z",
-    "started_at": "2026-11-03T18:28:23Z",
-    "finished_at": "2026-11-03T18:34:14Z",
+    "run_id": "run-20261103T235937Z",
+    "started_at": "2026-11-03T23:59:37Z",
+    "finished_at": "2026-11-04T00:05:40Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 752,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 144,
-      "UNKNOWN": 53,
+      "GEO_RESTRICTED": 61,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 145,
+      "UNKNOWN": 51,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 454
     }
@@ -71,44 +71,239 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
+    "17 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
-    "new_published": [
-      {
-        "id": "channel8-iq",
-        "name": "Channel8",
-        "country": "iq"
-      }
-    ],
+    "new_published": [],
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "one-ard",
-        "name": "ONE",
+        "id": "asharq-news-sa",
+        "name": "Asharq News",
+        "country": "sa",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "biz-cinema-uz",
+        "name": "BIZ Cinema",
+        "country": "uz",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer c"
+      },
+      {
+        "id": "biz-tv-uz",
+        "name": "BIZ TV",
+        "country": "uz",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer c"
+      },
+      {
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
         "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-soul-storm-ca",
+        "name": "Stingray Soul Storm",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "zdf",
-        "name": "ZDF",
-        "country": "de",
-        "since": "2026-11-03T18:31:33Z"
-      }
-    ],
-    "restored": [
+        "id": "asharq-news-sa",
+        "name": "Asharq News",
+        "country": "sa",
+        "since": "2026-11-04T00:02:14Z"
+      },
       {
-        "id": "rock-tv-mk",
-        "name": "Rock TV",
-        "country": "mk",
-        "restored_at": "2026-11-03T18:32:43Z"
+        "id": "biz-cinema-uz",
+        "name": "BIZ Cinema",
+        "country": "uz",
+        "since": "2026-11-04T00:02:47Z"
+      },
+      {
+        "id": "biz-tv-uz",
+        "name": "BIZ TV",
+        "country": "uz",
+        "since": "2026-11-04T00:03:39Z"
+      },
+      {
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
+        "country": "de",
+        "since": "2026-11-04T00:03:20Z"
+      },
+      {
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
+        "country": "de",
+        "since": "2026-11-04T00:03:43Z"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "since": "2026-11-04T00:00:02Z"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "since": "2026-11-04T00:03:17Z"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "since": "2026-11-04T00:03:42Z"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "since": "2026-11-04T00:03:54Z"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "since": "2026-11-04T00:04:01Z"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "since": "2026-11-04T00:04:06Z"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "since": "2026-11-04T00:04:09Z"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "since": "2026-11-04T00:04:11Z"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "since": "2026-11-04T00:04:13Z"
+      },
+      {
+        "id": "stingray-soul-storm-ca",
+        "name": "Stingray Soul Storm",
+        "country": "ca",
+        "since": "2026-11-04T00:04:14Z"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "since": "2026-11-04T00:03:11Z"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
+        "since": "2026-11-04T00:03:15Z"
       }
     ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -116,14 +311,14 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 557,
-      "verified": 484,
-      "not_verified": 73,
+      "verified": 470,
+      "not_verified": 87,
       "with_measured_quality": 490,
       "per_quality": {
         "1080p": 251,
         "4k": 1,
-        "720p": 173,
-        "sd": 65
+        "720p": 172,
+        "sd": 66
       }
     },
     "community": {
