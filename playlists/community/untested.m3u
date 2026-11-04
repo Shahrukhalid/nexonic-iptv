@@ -279,6 +279,8 @@ https://live-fi.tvkaista.net/national-geographic/live.m3u8?hd=true
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
 #EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-name="ILTV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/fVhrJHK.png" group-title="Untested | France" x-tier="community" x-status="untested" x-quality="720p",ILTV
 https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MoselleTV.fr@SD" tvg-name="Moselle TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/hrm5QnU.png" group-title="Untested | France" x-tier="community" x-status="untested" x-quality="720p",Moselle TV
+https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MuseumTVFrench.fr@SD" tvg-name="Museum TV French" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/WbjURLo.png" group-title="Untested | France" x-tier="community" x-status="untested" x-quality="sd",Museum TV French
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-name="MyZen TV" tvg-country="FR" tvg-language="French;English;Russian;Spanish;Turkish;Bulgarian" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="Untested | France" x-tier="community" x-status="untested" x-quality="1080p",MyZen TV
@@ -753,6 +755,8 @@ https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbbc_hd/h
 https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:cbeebies_hd/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="MTVGlobal.uk@SD" tvg-name="MTV Global" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/n2BoU7Q.png" group-title="Untested | United Kingdom" x-tier="community" x-status="untested" x-quality="720p",MTV Global
 http://dvr2.kablova.tv/MTV/index.m3u8
+#EXTINF:-1 tvg-id="PopUp.uk@SD" tvg-name="Pop Up" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/GdSotmS.png" group-title="Untested | United Kingdom" x-tier="community" x-status="untested" x-quality="1080p",Pop Up
+https://amg01753-amg01753c9-samsung-gb-8005.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeuk-popup-samsunggb/playlist.m3u8
 #EXTINF:-1 tvg-id="SimayeAzadi.uk@SD" tvg-name="Simaye Azadi" tvg-country="UK" tvg-language="Persian" tvg-logo="https://i.imgur.com/yXcczMq.png" group-title="Untested | United Kingdom" x-tier="community" x-status="untested" x-quality="1080p",Simaye Azadi
 https://simaytv.akamaized.net/hls/live/2043550/simayhls/index.m3u8
 #EXTINF:-1 tvg-id="ARTNTV.us@SD" tvg-name="ARTN TV" tvg-country="US" tvg-language="Russian;Armenian" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",ARTN TV
@@ -781,6 +785,10 @@ https://johnnycarson-vizio.amagi.tv/playlist.m3u8
 https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8
 #EXTINF:-1 tvg-id="LACityView35.us@SD" tvg-name="LA CityView 35" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://i.imgur.com/3PnD83G.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",LA CityView 35
 https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 tvg-id="LA36.us@SD" tvg-name="LA36" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/JxTzUEq.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",LA36
+https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="MontgomeryChannel.us@SD" tvg-name="Montgomery Channel" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/mU1Ixfj.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Montgomery Channel
+https://reflect-montgomerycommunitymedia.cablecast.tv/live-11/live/stream-4/live.m3u8
 #EXTINF:-1 tvg-id="Movies.us@SD" tvg-name="Movies!" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuzUxiA3-WkEAJcL3-VPlUv2lU8jlRnUJhwkHXJvwc39Baksz1-d_ybJXCBJr5qHSi_8&usqp=CAU" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="sd",Movies!
 https://bozztv.com/dvrfl03/hdirect/hdirect-ovair1-movies!/index.m3u8
 #EXTINF:-1 tvg-id="MSTV.us@SD" tvg-name="MSTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x0lJqSp.png" group-title="Untested | United States" x-tier="community" x-status="untested" x-quality="1080p",MSTV

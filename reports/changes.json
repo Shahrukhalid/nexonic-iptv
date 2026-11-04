@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-04T08:07:02Z",
-  "baseline_reference_time": "2026-11-04T00:05:40Z",
+  "reference_time": "2026-11-04T11:02:25Z",
+  "baseline_reference_time": "2026-11-04T08:07:02Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 558,
-    "verified_playlist": 490,
+    "verified_playlist": 478,
     "excluded": 195,
     "pending_authorization": 43,
-    "quarantined": 159,
+    "quarantined": 156,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
-    "new_published": 1,
+    "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 2,
-    "newly_quarantined": 1,
-    "restored": 19,
+    "newly_failing": 0,
+    "newly_quarantined": 0,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 117,
+    "intermittent": 115,
     "restricted": 41,
     "unknown": 4,
-    "unreachable": 16,
-    "working": 380
+    "unreachable": 13,
+    "working": 385
   },
   "latest_run": {
-    "run_id": "run-20261104T080058Z",
-    "started_at": "2026-11-04T08:00:58Z",
-    "finished_at": "2026-11-04T08:07:02Z",
+    "run_id": "run-20261104T105615Z",
+    "started_at": "2026-11-04T10:56:15Z",
+    "finished_at": "2026-11-04T11:02:25Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 123,
-      "UNKNOWN": 52,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 136,
+      "UNKNOWN": 66,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 477
+      "VERIFIED_WORKING": 448
     }
   },
   "discovery": {
@@ -70,158 +70,32 @@
     "playlist_files": 306,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
-    "new_published": [
-      {
-        "id": "kanal-8-mk",
-        "name": "Kanal 8",
-        "country": "mk"
-      }
-    ],
+    "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [
-      {
-        "id": "abai-tv",
-        "name": "Abai TV",
-        "country": "kz",
-        "state": "unreachable",
-        "error": "no response within 10s"
-      },
-      {
-        "id": "rtnb-divertissement-bi",
-        "name": "RTNB Divertissement",
-        "country": "bi",
-        "state": "unreachable",
-        "error": "HTTP 503 (server error)"
-      }
-    ],
-    "newly_quarantined": [
-      {
-        "id": "rtnb-divertissement-bi",
-        "name": "RTNB Divertissement",
-        "country": "bi",
-        "since": "2026-11-04T08:01:08Z"
-      }
-    ],
+    "newly_failing": [],
+    "newly_quarantined": [],
     "restored": [
       {
-        "id": "asharq-news-sa",
-        "name": "Asharq News",
-        "country": "sa",
-        "restored_at": "2026-11-04T08:03:34Z"
-      },
-      {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "br-fernsehen-de",
+        "name": "BR Fernsehen",
         "country": "de",
-        "restored_at": "2026-11-04T08:04:19Z"
+        "restored_at": "2026-11-04T11:00:07Z"
       },
       {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
-        "country": "lu",
-        "restored_at": "2026-11-04T08:02:49Z"
-      },
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
+        "id": "br-fernsehen-sued",
+        "name": "BR Fernsehen Süd",
         "country": "de",
-        "restored_at": "2026-11-04T08:01:45Z"
+        "restored_at": "2026-11-04T11:00:32Z"
       },
       {
-        "id": "qmusic-nl",
-        "name": "Qmusic",
-        "country": "nl",
-        "restored_at": "2026-11-04T08:03:05Z"
-      },
-      {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
-        "restored_at": "2026-11-04T08:02:52Z"
-      },
-      {
-        "id": "senal-colombia",
-        "name": "Señal Colombia",
-        "country": "co",
-        "restored_at": "2026-11-04T08:04:13Z"
-      },
-      {
-        "id": "stingray-classica-ca",
-        "name": "Stingray Classica",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:01:23Z"
-      },
-      {
-        "id": "stingray-djazz-ca",
-        "name": "Stingray DJAZZ",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:04:42Z"
-      },
-      {
-        "id": "stingray-everything-80s-ca",
-        "name": "Stingray Everything '80s",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:06Z"
-      },
-      {
-        "id": "stingray-hit-list-ca",
-        "name": "Stingray Hit List",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:19Z"
-      },
-      {
-        "id": "stingray-holidayscapes-ca",
-        "name": "Stingray Holidayscapes",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:26Z"
-      },
-      {
-        "id": "stingray-karaoke-ca",
-        "name": "Stingray Karaoke",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:31Z"
-      },
-      {
-        "id": "stingray-naturescape-ca",
-        "name": "Stingray Naturescape",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:34Z"
-      },
-      {
-        "id": "stingray-nothin-but-90s-ca",
-        "name": "Stingray Nothin' But 90s",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:37Z"
-      },
-      {
-        "id": "stingray-smooth-jazz-ca",
-        "name": "Stingray Smooth Jazz",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:41Z"
-      },
-      {
-        "id": "stingray-soul-storm-ca",
-        "name": "Stingray Soul Storm",
-        "country": "ca",
-        "restored_at": "2026-11-04T08:05:44Z"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "restored_at": "2026-11-04T08:04:35Z"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "restored_at": "2026-11-04T08:04:40Z"
+        "id": "zas-tv-do",
+        "name": "ZAS TV",
+        "country": "do",
+        "restored_at": "2026-11-04T10:57:06Z"
       }
     ],
     "removed": []
@@ -231,21 +105,21 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 558,
-      "verified": 490,
-      "not_verified": 68,
+      "verified": 478,
+      "not_verified": 80,
       "with_measured_quality": 491,
       "per_quality": {
         "1080p": 252,
         "4k": 1,
-        "720p": 173,
-        "sd": 65
+        "720p": 172,
+        "sd": 66
       }
     },
     "community": {
-      "published": 4376,
-      "verified": 3950,
-      "untested": 426,
-      "held_back_after_failed_check": 2844,
+      "published": 4306,
+      "verified": 3876,
+      "untested": 430,
+      "held_back_after_failed_check": 2914,
       "never_checked": 0,
       "catalog_streams": 7220,
       "catalog_built_at": "2026-11-04T08:07:11Z",
@@ -253,11 +127,11 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 795,
-        "invalid": 1200,
-        "restricted": 176,
+        "intermittent": 722,
+        "invalid": 1199,
+        "restricted": 177,
         "unknown": 193,
-        "unreachable": 1643,
+        "unreachable": 1716,
         "working": 3213
       },
       "removed_at_generation": {},
@@ -265,12 +139,12 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 792
+          "streams": 776
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 560
+          "streams": 552
         },
         {
           "code": "ru",
@@ -280,22 +154,22 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 146
+          "streams": 145
         },
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 138
+          "streams": 136
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 121
+          "streams": 120
         },
         {
           "code": "br",
           "name": "Brazil",
-          "streams": 106
+          "streams": 103
         },
         {
           "code": "do",
@@ -303,14 +177,14 @@
           "streams": 102
         },
         {
-          "code": "ca",
-          "name": "Canada",
-          "streams": 95
-        },
-        {
           "code": "es",
           "name": "Spain",
-          "streams": 94
+          "streams": 93
+        },
+        {
+          "code": "de",
+          "name": "Germany",
+          "streams": 91
         }
       ],
       "playlist_files": 1,

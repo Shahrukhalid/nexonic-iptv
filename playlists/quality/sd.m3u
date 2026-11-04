@@ -27,6 +27,8 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="BonceTV.cw@SD" tvg-name="Bonce TV" tvg-country="CW" tvg-language="Dutch" group-title="Curacao",Bonce TV
 https://seswa.bonce.tv/hls/bonceswa.m3u8
+#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
+https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-name="Alcarria TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Alcarria TV
@@ -259,8 +261,6 @@ https://stmv2.srvif.com/gafeab/gafeab/playlist.m3u8
 https://stmv1.srvsite.com/ely/ely/playlist.m3u8
 #EXTINF:-1 tvg-id="FonteTV.br@SD" tvg-name="Fonte TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="sd",Fonte TV
 https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
-#EXTINF:-1 tvg-id="ForaTedioTV.br" tvg-name="Fora Tedio TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/R9ul4T1.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="sd",Fora Tedio TV
-https://stmv2.srvif.com/foratedio/foratedio/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelCartoon.br@SD" tvg-name="Gospel Cartoon" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/yxjPno5.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="sd",Gospel Cartoon
 https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelMovieTV.br@SD" tvg-name="Gospel Movie TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/cQN3nWt.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="sd",Gospel Movie TV
@@ -317,8 +317,6 @@ https://icnet2hls.wns.live/hls/stream.m3u8
 http://live.greektv.ca/hls1/greektv.m3u8
 #EXTINF:-1 tvg-id="NACTV.ca@SD" tvg-name="NACTV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/FzM95rH.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="sd",NACTV
 https://stream2.pivotalelements.com/memfs/2d2e1038-9eb2-44df-a9b9-109de5752f3b_output_0.m3u8
-#EXTINF:-1 tvg-id="StingrayRememberthe80s.ca@SD" tvg-name="Stingray Remember the 80s" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/duwc8E8.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="sd",Stingray Remember the 80s
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/68cc5f97-cf6c-4ff7-9125-f56f272dbcb6/1.m3u8
 #EXTINF:-1 tvg-id="LeMondeen24h.cd@SD" tvg-name="Le Monde en 24h" tvg-country="CD" tvg-language="French;English;Spanish" tvg-logo="https://i.imgur.com/2igwi7g.png" group-title="Democratic Republic of the Congo" x-tier="community" x-status="verified" x-quality="sd",Le Monde en 24h
 https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
 #EXTINF:-1 tvg-id="Esaie45Tele.cg@SD" tvg-name="Esaie 45 Tele" tvg-country="CG" tvg-language="French" tvg-logo="https://i.imgur.com/nc9QBnD.png" group-title="Republic of the Congo" x-tier="community" x-status="verified" x-quality="sd",Esaie 45 Tele
@@ -383,8 +381,6 @@ https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8
 https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" tvg-name="TV Golfo Uraba" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Nd5axnS.png" group-title="Colombia" x-tier="community" x-status="verified" x-quality="sd",TV Golfo Uraba
 https://stmv7.voxtvhd.com.br/golfo/golfo/playlist.m3u8
-#EXTINF:-1 tvg-id="TVGracia.co@SD" tvg-name="TVGracia" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/tMl4ISO.png" group-title="Colombia" x-tier="community" x-status="verified" x-quality="sd",TVGracia
-https://vs20.live.opencaster.com/diego_57244803/index.m3u8
 #EXTINF:-1 tvg-id="CristoVisionCanal31.cr@SD" tvg-name="Cristo Vision Canal 31" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CFXZ8j0.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="sd",Cristo Vision Canal 31
 https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8
 #EXTINF:-1 tvg-id="HopeChannelPROYECTOJA.cr@SD" tvg-name="Hope Channel PROYECTO JA" tvg-country="CR" tvg-language="Spanish;English" tvg-logo="https://i.imgur.com/VDyf36C.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="sd",Hope Channel PROYECTO JA
@@ -409,8 +405,6 @@ https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
 https://s6.hopslan.com/disneyX/index.m3u8
 #EXTINF:-1 tvg-id="ErzTVStollberg.de@SD" tvg-name="Erz-TV Stollberg" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/6FHl9B1.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Erz-TV Stollberg
 https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="FolxMusicTelevision.de@SD" tvg-name="Folx Music Television" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/ze04puX.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Folx Music Television
-https://folxapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="Handystar.de@SD" tvg-name="Handystar" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/oMIygVf.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Handystar
 https://sparhandytv.cdn.ses-ps.com/live/channel01/hls/index.m3u8
 #EXTINF:-1 tvg-id="HSETrend.de@SD" tvg-name="HSE Trend" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/qwh2urX.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",HSE Trend
@@ -425,8 +419,6 @@ https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
 https://live-cdn.oksh.de/play/hls/flensburgtv/index.m3u8
 #EXTINF:-1 tvg-id="OneMusicTelevision.de@SD" tvg-name="One Music Television" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/dLgoKJ0.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",One Music Television
 https://oneapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 tvg-id="Parlamentsfernsehen1.de@SD" tvg-name="Parlamentsfernsehen 1" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/mksEgwx.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Parlamentsfernsehen 1
-https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8
 #EXTINF:-1 tvg-id="QVC.de@SD" tvg-name="QVC" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/EybRtsI.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",QVC
 https://qvcde-live.akamaized.net/hls/live/2097104/qvc/master.m3u8
 #EXTINF:-1 tvg-id="RTLSuper.de@HD" tvg-name="RTL Super" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/KbdK8t9.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",RTL Super
@@ -813,10 +805,6 @@ https://live1.ottlive.co.in/vtvgujarati/vtvgujarati/index.m3u8
 https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8
 #EXTINF:-1 tvg-id="ZainabiaChannel.in@SD" tvg-name="Zainabia Channel" tvg-country="IN" tvg-language="Urdu;English" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Zainabia Channel
 https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
-#EXTINF:-1 tvg-id="ZeeBanglaSonar.in@SD" tvg-name="Zee Bangla Sonar" tvg-country="IN" tvg-language="Bengali" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Zee Bangla Sonar
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@SD" tvg-name="Zee Cinema" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022HVX3.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Zee Cinema
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8
 #EXTINF:-1 tvg-id="AlJanoubTV.iq@SD" tvg-name="Al Janoub TV" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rxDh6W1.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="sd",Al Janoub TV
 https://live.alissahost.net/hls/test.m3u8
 #EXTINF:-1 tvg-id="AmozhgaryTV.iq@SD" tvg-name="Amozhgary TV" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/sseqFsO.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="sd",Amozhgary TV
@@ -1047,6 +1035,8 @@ https://cdn-globecast.akamaized.net/live/eds/palestinian_satellite_channel/hls_r
 https://live.paltodaytv.com/paltv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RFPtv.pt" tvg-name="RFPtv" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/I60nQuR.png" group-title="Portugal" x-tier="community" x-status="verified" x-quality="sd",RFPtv
 https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalPro.py@SD" tvg-name="Canal Pro" tvg-country="PY" tvg-language="Spanish" tvg-logo="https://i.imgur.com/h7qelDq.png" group-title="Paraguay" x-tier="community" x-status="verified" x-quality="sd",Canal Pro
+https://www.desde-paraguay.com/pro.m3u8
 #EXTINF:-1 tvg-id="LosAngelesTVRadio.py@SD" tvg-name="Los Angeles TV Radio" tvg-country="PY" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CaNdkpJ.jpeg" group-title="Paraguay" x-tier="community" x-status="verified" x-quality="sd",Los Angeles TV Radio
 https://stmv6.voxtvhd.com.br/losangeles/losangeles/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroTV.ro@SD" tvg-name="Agro TV" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/S7X1PiC.png" group-title="Romania" x-tier="community" x-status="verified" x-quality="sd",Agro TV
@@ -1229,6 +1219,8 @@ http://stream.mcquack.net/83/index.m3u8
 https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KC2.rw@SD" tvg-name="KC2" tvg-country="RW" tvg-language="English;Kinyarwanda;French" tvg-logo="https://i.imgur.com/PsYPzNc.png" group-title="Rwanda" x-tier="community" x-status="verified" x-quality="sd",KC2
 https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
+#EXTINF:-1 tvg-id="TV10.rw@SD" tvg-name="TV10" tvg-country="RW" tvg-language="English;Kinyarwanda" tvg-logo="https://i.imgur.com/DeaWC1N.png" group-title="Rwanda" x-tier="community" x-status="verified" x-quality="sd",TV10
+https://5c46fa289c89f.streamlock.net/pub1live/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa@SD" tvg-name="Al Quran Al Kareem TV" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png" group-title="Saudi Arabia" x-tier="community" x-status="verified" x-quality="sd",Al Quran Al Kareem TV
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa@SD" tvg-name="Al Sunnah Al Nabawiyah TV" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png" group-title="Saudi Arabia" x-tier="community" x-status="verified" x-quality="sd",Al Sunnah Al Nabawiyah TV
@@ -1485,8 +1477,6 @@ https://sh7hls.wns.live/hls/stream.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
 #EXTINF:-1 tvg-id="SPTV.us@SD" tvg-name="SPTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/fl8I3cg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",SPTV
 https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/stpete/G0187_003/playlist.m3u8
-#EXTINF:-1 tvg-id="StingrayGreatestHolidayHits.us@SD" tvg-name="Stingray Greatest Holiday Hits" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Hz2d6og.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Stingray Greatest Holiday Hits
-https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/54947915-6504-4548-aaef-eabd451f8607/1.m3u8
 #EXTINF:-1 tvg-id="StoryTelevision.us@KPVMLD" tvg-name="Story Television (KPVM-LD)" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3QupOVusAJypnFOHgU1M0n11iajO5wq5lvg&s" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Story Television (KPVM-LD)
 https://2-fss-1.streamhoster.com/pl_122/206858-4412976-1/playlist.m3u8
 #EXTINF:-1 tvg-id="StoryTelevision.us@WCIUTV" tvg-name="Story Television (WCIU-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3QupOVusAJypnFOHgU1M0n11iajO5wq5lvg&s" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Story Television (WCIU-TV)
