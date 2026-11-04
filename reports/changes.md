@@ -13,9 +13,9 @@
 | Published channels | 557 |
 | In verified playlist | 470 |
 | Quarantined | 177 |
-| Excluded approved records | 195 |
+| Excluded approved records | 196 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 1 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,23 +63,27 @@ Community catalogue: 7220 streams (built 2026-11-03T08:41:08Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
-| language-not-supported | 3 |
+| admitted | 600 |
+| aggregator-host | 974 |
+| already-curated | 478 |
+| closed | 94 |
+| excluded-category | 1161 |
+| host-not-owned-by-broadcaster | 7008 |
+| language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1118 |
+| no-database-entry | 2097 |
+| nsfw-or-blocklisted | 3 |
+| sanctions-exclusion | 609 |
+| streams | 18454 |
+| subscription-service | 95 |
+| url-policy | 4144 |
+
+## New candidates discovered (not published) (1)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Kanal 8 (`kanal-8-mk`) | mk | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (17)
 
