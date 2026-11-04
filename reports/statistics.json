@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-04T11:02:25Z",
+  "reference_time": "2026-11-04T18:44:55Z",
   "records": {
     "approved": 753,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 558,
-  "excluded_approved": 195,
+  "published_channels": 559,
+  "excluded_approved": 194,
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 478,
+  "verified_playlist_channels": 476,
   "playlist_files": 306,
   "latest_run": {
-    "run_id": "run-20261104T105615Z",
-    "started_at": "2026-11-04T10:56:15Z",
-    "finished_at": "2026-11-04T11:02:25Z",
+    "run_id": "run-20261104T183846Z",
+    "started_at": "2026-11-04T18:38:46Z",
+    "finished_at": "2026-11-04T18:44:55Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 136,
-      "UNKNOWN": 66,
+      "GEO_RESTRICTED": 62,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 27,
+      "UNAVAILABLE": 114,
+      "UNKNOWN": 71,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 448
+      "VERIFIED_WORKING": 466
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 448,
-    "UNAVAILABLE": 136,
-    "GEO_RESTRICTED": 61,
+    "VERIFIED_WORKING": 466,
+    "UNAVAILABLE": 114,
+    "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
-    "INVALID_STREAM": 9,
+    "TIMEOUT": 27,
+    "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 66,
+    "UNKNOWN": 71,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 14,
-    "geo-restricted": 41,
-    "previously-working": 50,
+    "currently-failing": 11,
+    "geo-restricted": 42,
+    "previously-working": 35,
     "unknown": 5,
-    "verified-recently": 448
+    "verified-recently": 466
   },
   "per_country": {
     "ae": {
@@ -152,7 +152,7 @@
     "co": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "channels": 8
+      "channels": 9
     },
     "cw": {
       "name": "Curacao",
@@ -579,7 +579,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 69
+      "channels": 70
     },
     "et": {
       "name": "Estonian",
@@ -805,7 +805,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 202
+      "channels": 203
     },
     "kids": {
       "name": "Kids",
@@ -847,14 +847,14 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 558,
-      "verified": 478,
-      "not_verified": 80,
-      "with_measured_quality": 491,
+      "published": 559,
+      "verified": 476,
+      "not_verified": 83,
+      "with_measured_quality": 492,
       "per_quality": {
-        "1080p": 252,
+        "1080p": 254,
         "4k": 1,
-        "720p": 172,
+        "720p": 171,
         "sd": 66
       }
     },
@@ -871,10 +871,10 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 722,
-        "invalid": 1199,
+        "invalid": 1198,
         "restricted": 177,
         "unknown": 193,
-        "unreachable": 1716,
+        "unreachable": 1717,
         "working": 3213
       },
       "removed_at_generation": {},

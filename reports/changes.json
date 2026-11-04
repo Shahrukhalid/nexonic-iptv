@@ -1,14 +1,14 @@
 {
-  "reference_time": "2026-11-04T11:02:25Z",
-  "baseline_reference_time": "2026-11-04T08:07:02Z",
+  "reference_time": "2026-11-04T18:44:55Z",
+  "baseline_reference_time": "2026-11-04T11:02:25Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 558,
-    "verified_playlist": 478,
-    "excluded": 195,
+    "published": 559,
+    "verified_playlist": 476,
+    "excluded": 194,
     "pending_authorization": 43,
-    "quarantined": 156,
+    "quarantined": 154,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
@@ -16,31 +16,31 @@
     "duplicates_removed": 0,
     "newly_failing": 0,
     "newly_quarantined": 0,
-    "restored": 3,
+    "restored": 2,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 115,
-    "restricted": 41,
+    "intermittent": 117,
+    "restricted": 42,
     "unknown": 4,
-    "unreachable": 13,
-    "working": 385
+    "unreachable": 12,
+    "working": 384
   },
   "latest_run": {
-    "run_id": "run-20261104T105615Z",
-    "started_at": "2026-11-04T10:56:15Z",
-    "finished_at": "2026-11-04T11:02:25Z",
+    "run_id": "run-20261104T183846Z",
+    "started_at": "2026-11-04T18:38:46Z",
+    "finished_at": "2026-11-04T18:44:55Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
-      "INVALID_STREAM": 9,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 136,
-      "UNKNOWN": 66,
+      "GEO_RESTRICTED": 62,
+      "INVALID_STREAM": 10,
+      "TIMEOUT": 27,
+      "UNAVAILABLE": 114,
+      "UNKNOWN": 71,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 448
+      "VERIFIED_WORKING": 466
     }
   },
   "discovery": {
@@ -80,22 +80,16 @@
     "newly_quarantined": [],
     "restored": [
       {
-        "id": "br-fernsehen-de",
-        "name": "BR Fernsehen",
-        "country": "de",
-        "restored_at": "2026-11-04T11:00:07Z"
+        "id": "mas-norte-tv-co",
+        "name": "Mas Norte TV",
+        "country": "co",
+        "restored_at": "2026-11-04T18:39:27Z"
       },
       {
-        "id": "br-fernsehen-sued",
-        "name": "BR Fernsehen Süd",
-        "country": "de",
-        "restored_at": "2026-11-04T11:00:32Z"
-      },
-      {
-        "id": "zas-tv-do",
-        "name": "ZAS TV",
-        "country": "do",
-        "restored_at": "2026-11-04T10:57:06Z"
+        "id": "trt-haber",
+        "name": "TRT Haber",
+        "country": "tr",
+        "restored_at": "2026-11-04T18:42:30Z"
       }
     ],
     "removed": []
@@ -104,14 +98,14 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 558,
-      "verified": 478,
-      "not_verified": 80,
-      "with_measured_quality": 491,
+      "published": 559,
+      "verified": 476,
+      "not_verified": 83,
+      "with_measured_quality": 492,
       "per_quality": {
-        "1080p": 252,
+        "1080p": 254,
         "4k": 1,
-        "720p": 172,
+        "720p": 171,
         "sd": 66
       }
     },
@@ -128,10 +122,10 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 722,
-        "invalid": 1199,
+        "invalid": 1198,
         "restricted": 177,
         "unknown": 193,
-        "unreachable": 1716,
+        "unreachable": 1717,
         "working": 3213
       },
       "removed_at_generation": {},
