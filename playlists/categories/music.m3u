@@ -293,7 +293,7 @@ https://rtmp.info/iqtv/envivo/playlist.m3u8
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
 #EXTINF:-1 tvg-id="UrbanoTV.cr@SD" tvg-name="Urbano TV" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KVVU9PI.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="720p",Urbano TV
 https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
-#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" tvg-name="Video Tour Channel" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zEi8eMC.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="1080p",Video Tour Channel
+#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" tvg-name="Video Tour Channel" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zEi8eMC.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="sd",Video Tour Channel
 https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="VintageMusic.cr@SD" tvg-name="Vintage Music" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KImqYnN.jpeg" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="720p",Vintage Music
 https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
@@ -323,8 +323,6 @@ https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2
 https://oneapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="VolksmusikTV.de@SD" tvg-name="Volksmusik TV" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/EsWuCJ3.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="1080p",Volksmusik TV
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-id="ZweiMusicTelevision.de@SD" tvg-name="Zwei Music Television" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/RbdpCNf.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Zwei Music Television
-https://zweiapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="MakaoTV.do@SD" tvg-name="Makao TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/asD5y7i.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Makao TV
 https://live.obslivestream.com/makaomux/index.m3u8
 #EXTINF:-1 tvg-id="MontonesTV.do@HD" tvg-name="Montones TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://montonestv.com/wp-content/uploads/2025/11/montones-logo.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="720p",Montones TV
@@ -365,18 +363,6 @@ https://noshls.persiana.live/hls/stream.m3u8
 https://raphls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr@SD" tvg-name="Qwest TV Jazz & Beyond" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/89yWH5L.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Qwest TV Jazz & Beyond
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@SD" tvg-name="Trace Gospel" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Gospel
-https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr" tvg-name="Trace Gospel" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France" x-tier="community" x-status="verified" x-quality="sd",Trace Gospel
-https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@NigeriaandEastAfrica" tvg-name="Trace Gospel (Nigeria and East Africa)" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Gospel (Nigeria and East Africa)
-https://channels.trace.plus/Traceprod/GOSPEL_ROA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@SouthernAfrica" tvg-name="Trace Gospel (Southern Africa)" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Gospel (Southern Africa)
-https://channels.trace.plus/Traceprod/GOSPEL_SA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceIvoire.fr@SD" tvg-name="Trace Ivoire" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/W2l3rVx.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Ivoire
-https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceNgoma.fr@SD" tvg-name="Trace Ngoma" tvg-country="FR" tvg-language="English" tvg-logo="https://www.hypresslive.com/wp-content/uploads/2025/12/9cf0931b-5e1e-16da-515a-bd203ca3c928-1536x1074.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Ngoma
-https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" tvg-name="Madras FM TV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/spGg1CZ.png" group-title="Guadeloupe" x-tier="community" x-status="verified" x-quality="1080p",Madras FM TV
 https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
 #EXTINF:-1 tvg-id="RHTGuadeloupe.gp@SD" tvg-name="RHT Guadeloupe" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/hQ0Q6nE.png" group-title="Guadeloupe" x-tier="community" x-status="verified" x-quality="720p",RHT Guadeloupe
@@ -439,6 +425,8 @@ https://samitaorigin.tangotv.in/PANKH/SAMITAORIGIN/index.m3u8
 https://cdn.pishow.tv/ott/live/1383/master.m3u8
 #EXTINF:-1 tvg-id="PTCChakde.in@SD" tvg-name="PTC Chakde" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://dtil.tmsimg.com/assets/s143681_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",PTC Chakde
 https://cdn.pishow.tv/ott/live/449/master.m3u8
+#EXTINF:-1 tvg-id="PunjabiBeatsHD.in@HD" tvg-name="Punjabi Beats HD" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://i.imgur.com/1Za9gNQ.jpg" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Punjabi Beats HD
+https://mumt01.tangotv.in/O5aw8Zn3PUNJABIBEATSHD/index.m3u8
 #EXTINF:-1 tvg-id="PunjabiHits.in@SD" tvg-name="Punjabi Hits" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://dtil.tmsimg.com/assets/s143691_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Punjabi Hits
 https://stream.ottlive.co.in/punjabihits/index.m3u8
 #EXTINF:-1 tvg-id="PunjabiMusicHD.in@SD" tvg-name="Punjabi Music HD" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://papaji.freetvindia.com/media/Punjabi_Music_HD.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Punjabi Music HD
@@ -582,7 +570,7 @@ https://sistemastr.tropicalmoonmedia.com/live/7C452409423F57ADC960F6405635267F/7
 #EXTINF:-1 tvg-id="Planet1009FM.pa@SD" tvg-name="Planet 100.9 FM" tvg-country="PA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8ZIBs8l.png" group-title="Panama" x-tier="community" x-status="verified" x-quality="1080p",Planet 100.9 FM
 https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" tvg-name="Tropical Moon Urban TV" tvg-country="PA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/WcM7BP5.png" group-title="Panama" x-tier="community" x-status="verified" x-quality="sd",Tropical Moon Urban TV
-https://sistemastr.tropicalmoonmedia.com:443/live/D8E123ACA054EF85B153C354A481A406/4.m3u8
+https://sistemastr.tropicalmoonmedia.com/live/D8E123ACA054EF85B153C354A481A406/4.m3u8
 #EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-name="Karibena" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="720p",Karibena
 https://iptv-pe-x-7-g3s-video.egostreaming.pe/karibenatv_685a-pe-a5676-584412/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="MielTV.pe@SD" tvg-name="Miel TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/dPSFrCs.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",Miel TV
@@ -609,8 +597,6 @@ https://w2.manasat.com/kmusic/kmusic.smil/playlist.m3u8
 https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="RFPtv.pt" tvg-name="RFPtv" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/I60nQuR.png" group-title="Portugal" x-tier="community" x-status="verified" x-quality="sd",RFPtv
 https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
-#EXTINF:-1 tvg-id="DismarRadioTV.py@SD" tvg-name="Dismar Radio TV" tvg-country="PY" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KOuxdMD.png" group-title="Paraguay" x-tier="community" x-status="verified" x-quality="720p",Dismar Radio TV
-https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
 #EXTINF:-1 tvg-id="E40.py@SD" tvg-name="E40" tvg-country="PY" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0RypDUY.png" group-title="Paraguay" x-tier="community" x-status="verified" x-quality="1080p",E40
 https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
 #EXTINF:-1 tvg-id="GOTV.py@SD" tvg-name="GO TV" tvg-country="PY" tvg-language="Spanish" tvg-logo="https://i.ibb.co/jkvYVyz/Captura.png" group-title="Paraguay" x-tier="community" x-status="verified" x-quality="1080p",GO TV
@@ -703,8 +689,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-panorama-fm/ea22f3856a1b772f7
 https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8
 #EXTINF:-1 tvg-id="Tarab.sa@SD" tvg-name="Tarab" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png" group-title="Saudi Arabia" x-tier="community" x-status="verified" x-quality="1080p",Tarab
 https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8
-#EXTINF:-1 tvg-id="FolxSlovenija.si@SD" tvg-name="Folx Slovenija" tvg-country="SI" tvg-language="German" tvg-logo="https://i.imgur.com/RK1IASU.png" group-title="Slovenia" x-tier="community" x-status="verified" x-quality="sd",Folx Slovenija
-https://folxsloapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="A2iMusic.sn@SD" tvg-name="A2i Music" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="Senegal" x-tier="community" x-status="verified" x-quality="720p",A2i Music
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="981PearlFM.sx@SD" tvg-name="98.1 Pearl FM" tvg-country="SX" tvg-language="English" tvg-logo="https://i.imgur.com/GY750xh.jpg" group-title="Sint Maarten" x-tier="community" x-status="verified" x-quality="720p",98.1 Pearl FM
@@ -801,8 +785,6 @@ https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 #EXTINF:-1 tvg-id="LaElegidaTelevision.uy@SD" tvg-name="La Elegida Television" tvg-country="UY" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zdrbjDc.png" group-title="Uruguay" x-tier="community" x-status="verified" x-quality="sd",La Elegida Television
 https://stmv.gmpro.top/laelegidatv/laelegidatv/playlist.m3u8
-#EXTINF:-1 tvg-id="BIZMusic.uz@SD" tvg-name="BIZ Music" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://i.ibb.co/DfsCJwk/Uz-biz-music-5462.jpg" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="720p",BIZ Music
-https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
 #EXTINF:-1 tvg-id="FTV.uz@SD" tvg-name="FTV" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://i.imgur.com/7lpISyN.jpg" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="1080p",FTV
 https://stream8.cinerama.uz/1018/playlist.m3u8
 #EXTINF:-1 tvg-id="MuzTVUzbekistan.uz@SD" tvg-name="Muz TV Uzbekistan" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="sd",Muz TV Uzbekistan
