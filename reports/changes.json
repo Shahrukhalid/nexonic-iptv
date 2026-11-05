@@ -1,6 +1,6 @@
 {
-  "reference_time": "2026-11-04T18:44:55Z",
-  "baseline_reference_time": "2026-11-04T11:02:25Z",
+  "reference_time": "2026-11-05T00:29:25Z",
+  "baseline_reference_time": "2026-11-04T18:44:55Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
@@ -8,39 +8,39 @@
     "verified_playlist": 476,
     "excluded": 194,
     "pending_authorization": 43,
-    "quarantined": 154,
+    "quarantined": 156,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 0,
-    "newly_quarantined": 0,
-    "restored": 2,
+    "newly_failing": 5,
+    "newly_quarantined": 2,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
     "intermittent": 117,
-    "restricted": 42,
+    "restricted": 39,
     "unknown": 4,
-    "unreachable": 12,
-    "working": 384
+    "unreachable": 16,
+    "working": 383
   },
   "latest_run": {
-    "run_id": "run-20261104T183846Z",
-    "started_at": "2026-11-04T18:38:46Z",
-    "finished_at": "2026-11-04T18:44:55Z",
+    "run_id": "run-20261105T002314Z",
+    "started_at": "2026-11-05T00:23:14Z",
+    "finished_at": "2026-11-05T00:29:25Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 58,
       "INVALID_STREAM": 10,
       "TIMEOUT": 27,
-      "UNAVAILABLE": 114,
-      "UNKNOWN": 71,
+      "UNAVAILABLE": 133,
+      "UNKNOWN": 63,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 466
+      "VERIFIED_WORKING": 459
     }
   },
   "discovery": {
@@ -70,28 +70,66 @@
     "playlist_files": 306,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "2 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [],
-    "newly_quarantined": [],
-    "restored": [
+    "newly_failing": [
       {
-        "id": "mas-norte-tv-co",
-        "name": "Mas Norte TV",
-        "country": "co",
-        "restored_at": "2026-11-04T18:39:27Z"
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "trt-haber",
-        "name": "TRT Haber",
+        "id": "svt-barn",
+        "name": "SVT Barn",
+        "country": "se",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-2",
+        "name": "TRT 2",
         "country": "tr",
-        "restored_at": "2026-11-04T18:42:30Z"
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-spor",
+        "name": "TRT Spor",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
+    "newly_quarantined": [
+      {
+        "id": "trt-2",
+        "name": "TRT 2",
+        "country": "tr",
+        "since": "2026-11-05T00:27:00Z"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "since": "2026-11-05T00:26:58Z"
+      }
+    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -103,17 +141,17 @@
       "not_verified": 83,
       "with_measured_quality": 492,
       "per_quality": {
-        "1080p": 254,
+        "1080p": 251,
         "4k": 1,
-        "720p": 171,
-        "sd": 66
+        "720p": 172,
+        "sd": 68
       }
     },
     "community": {
-      "published": 4306,
-      "verified": 3876,
+      "published": 4307,
+      "verified": 3877,
       "untested": 430,
-      "held_back_after_failed_check": 2914,
+      "held_back_after_failed_check": 2913,
       "never_checked": 0,
       "catalog_streams": 7220,
       "catalog_built_at": "2026-11-04T08:07:11Z",
@@ -121,8 +159,8 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 722,
-        "invalid": 1198,
+        "intermittent": 723,
+        "invalid": 1197,
         "restricted": 177,
         "unknown": 193,
         "unreachable": 1717,
@@ -133,7 +171,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 776
+          "streams": 777
         },
         {
           "code": "in",
