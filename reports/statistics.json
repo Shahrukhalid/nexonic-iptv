@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-05T08:38:29Z",
+  "reference_time": "2026-11-05T11:02:29Z",
   "records": {
     "approved": 753,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 559,
-  "excluded_approved": 194,
-  "countries": 94,
-  "languages": 65,
+  "published_channels": 556,
+  "excluded_approved": 197,
+  "countries": 93,
+  "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 476,
+  "verified_playlist_channels": 477,
   "playlist_files": 306,
   "latest_run": {
-    "run_id": "run-20261105T083204Z",
-    "started_at": "2026-11-05T08:32:04Z",
-    "finished_at": "2026-11-05T08:38:29Z",
+    "run_id": "run-20261105T105621Z",
+    "started_at": "2026-11-05T10:56:21Z",
+    "finished_at": "2026-11-05T11:02:29Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 137,
-      "UNKNOWN": 63,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 154,
+      "UNKNOWN": 62,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 448
+      "VERIFIED_WORKING": 435
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 448,
-    "UNAVAILABLE": 137,
-    "GEO_RESTRICTED": 62,
+    "VERIFIED_WORKING": 435,
+    "UNAVAILABLE": 154,
+    "GEO_RESTRICTED": 61,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
+    "TIMEOUT": 28,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 63,
+    "UNKNOWN": 62,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 14,
-    "geo-restricted": 42,
-    "previously-working": 50,
+    "currently-failing": 15,
+    "geo-restricted": 41,
+    "previously-working": 60,
     "unknown": 5,
-    "verified-recently": 448
+    "verified-recently": 435
   },
   "per_country": {
     "ae": {
@@ -422,7 +422,7 @@
     "ro": {
       "name": "Romania",
       "flag": "🇷🇴",
-      "channels": 21
+      "channels": 20
     },
     "rs": {
       "name": "Serbia",
@@ -498,11 +498,6 @@
       "name": "United States",
       "flag": "🇺🇸",
       "channels": 69
-    },
-    "uz": {
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "channels": 2
     },
     "ve": {
       "name": "Venezuela",
@@ -715,7 +710,7 @@
     },
     "ro": {
       "name": "Romanian",
-      "channels": 27
+      "channels": 26
     },
     "ru": {
       "name": "Russian",
@@ -769,10 +764,6 @@
       "name": "Urdu",
       "channels": 2
     },
-    "uz": {
-      "name": "Uzbek",
-      "channels": 2
-    },
     "vi": {
       "name": "Vietnamese",
       "channels": 4
@@ -801,7 +792,7 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 36
+      "channels": 35
     },
     "general": {
       "name": "General",
@@ -821,11 +812,11 @@
     },
     "movies": {
       "name": "Movies",
-      "channels": 15
+      "channels": 14
     },
     "music": {
       "name": "Music",
-      "channels": 86
+      "channels": 85
     },
     "news": {
       "name": "News",
@@ -847,22 +838,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 559,
-      "verified": 476,
-      "not_verified": 83,
-      "with_measured_quality": 492,
+      "published": 556,
+      "verified": 477,
+      "not_verified": 79,
+      "with_measured_quality": 489,
       "per_quality": {
-        "1080p": 253,
+        "1080p": 251,
         "4k": 1,
         "720p": 172,
-        "sd": 66
+        "sd": 65
       }
     },
     "community": {
-      "published": 4277,
-      "verified": 3841,
+      "published": 4274,
+      "verified": 3838,
       "untested": 436,
-      "held_back_after_failed_check": 2941,
+      "held_back_after_failed_check": 2944,
       "never_checked": 0,
       "catalog_streams": 7218,
       "catalog_built_at": "2026-11-05T08:38:38Z",
@@ -870,12 +861,12 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 735,
+        "intermittent": 737,
         "invalid": 1194,
         "restricted": 176,
         "unknown": 189,
         "unreachable": 1747,
-        "working": 3177
+        "working": 3175
       },
       "removed_at_generation": {},
       "top_countries": [
@@ -887,7 +878,7 @@
         {
           "code": "in",
           "name": "India",
-          "streams": 550
+          "streams": 548
         },
         {
           "code": "ru",

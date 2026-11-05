@@ -225,6 +225,8 @@ https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master
 https://rtmp.radiobozsike.com/hls/stream1.m3u8
 #EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-country="DE" tvg-language="Turkish" group-title="Germany",YOL TV
 https://live.yoltv.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="DR1.dk@SD" tvg-name="DR1" tvg-country="DK" tvg-language="Danish" group-title="Denmark",DR1
+https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8
 #EXTINF:-1 tvg-id="CanaldelSol.do@SD" tvg-name="Canal del Sol" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Canal del Sol
 https://stream.canaldelsol.com/sol26/live_1080.m3u8
 #EXTINF:-1 tvg-id="ElSeis6.do@SD" tvg-name="El Seis 6" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",El Seis 6
@@ -3841,10 +3843,6 @@ https://jmp2.uk/stvp-IN460001373
 https://d3arbp6l7f096k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-gv6wgpbb4mgwk/playlist.m3u8?ads.ads_cdn=cf&ads.app_domain=APP_DOMAIN&ads.cdn=cf
 #EXTINF:-1 tvg-id="NireekshanaTV.in@SD" tvg-name="Nireekshana TV" tvg-country="IN" tvg-language="Telugu" tvg-logo="https://i.imgur.com/nGJv6QR.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Nireekshana TV
 https://cdn.pishow.tv/ott/live/965/master.m3u8
-#EXTINF:-1 tvg-id="NKTV24x7.in@SD" tvg-name="NK TV 24x7" tvg-country="IN" tvg-language="Assamese" tvg-logo="https://i.imgur.com/xMJ2bv9.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",NK TV 24x7
-https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8
-#EXTINF:-1 tvg-id="NKTVBangla.in@SD" tvg-name="NK TV Bangla" tvg-country="IN" tvg-language="Bengali" tvg-logo="https://www.nktvbangla.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-12-at-2.59.18-PM.jpg" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",NK TV Bangla
-https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8
 #EXTINF:-1 tvg-id="NKRTVKannada.in@SD" tvg-name="NKR TV Kannada" tvg-country="IN" tvg-language="Kannada" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NKRTV.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",NKR TV Kannada
 https://stream.ottlive.co.in/nkrtv/index.m3u8
 #EXTINF:-1 tvg-id="NSC9News.in@SD" tvg-name="NSC9 News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/nsc9.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",NSC9 News
@@ -8357,8 +8355,6 @@ https://stream.universal.org.uy/hls/0/stream.m3u8
 https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Bolajon.uz@SD" tvg-name="Bolajon" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://i.imgur.com/s7o0ifu.png" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="sd",Bolajon
 https://stream8.cinerama.uz/1007/playlist.m3u8
-#EXTINF:-1 tvg-id="CheksizTV.uz@SD" tvg-name="Cheksiz TV" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://i.imgur.com/f7hHmmR.jpeg" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="sd",Cheksiz TV
-https://fl.biztv.media/cheksiz_tv_480_unif7hujidth7f4du83jrhuid3k94j8hfj8d93eubych8eju93n4ubt/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="DasturxonTV.uz@SD" tvg-name="Dasturxon TV" tvg-country="UZ" tvg-language="Uzbek;Russian" tvg-logo="https://i.imgur.com/APM2ej5.jpeg" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="sd",Dasturxon TV
 https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="Dunyoboylab.uz@SD" tvg-name="Dunyo bo'ylab" tvg-country="UZ" tvg-language="Uzbek" tvg-logo="https://i.imgur.com/KArB5U6.png" group-title="Uzbekistan" x-tier="community" x-status="verified" x-quality="1080p",Dunyo bo'ylab

@@ -4,19 +4,19 @@
 
 Paste any URL below into VLC, Kodi or another IPTV player. Counts come from the generated files. Three tiers are published and never mixed; read [docs/TIERS.md](docs/TIERS.md) for what each one promises.
 
-Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
+Freshness reference (latest verification run): **2026-11-05T11:02:29Z**
 
 ## Main
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| All channels | 4400 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
+| All channels | 4394 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
 
 ## Nexonic Verified
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Nexonic Verified (working in the last 48 h) | 4317 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Nexonic Verified (working in the last 48 h) | 4315 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
 
 ## By country
 
@@ -91,7 +91,7 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | 🇭🇺 Hungary | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/hu.m3u` |
 | 🇮🇩 Indonesia | 35 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/id.m3u` |
 | 🇮🇱 Israel | 12 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/il.m3u` |
-| 🇮🇳 India | 521 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/in.m3u` |
+| 🇮🇳 India | 519 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/in.m3u` |
 | 🇮🇶 Iraq | 49 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/iq.m3u` |
 | 🇮🇷 Iran | 29 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ir.m3u` |
 | 🇮🇸 Iceland | 4 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/is.m3u` |
@@ -145,7 +145,7 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | 🇵🇹 Portugal | 31 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/pt.m3u` |
 | 🇵🇾 Paraguay | 24 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/py.m3u` |
 | 🇶🇦 Qatar | 10 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/qa.m3u` |
-| 🇷🇴 Romania | 62 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ro.m3u` |
+| 🇷🇴 Romania | 61 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ro.m3u` |
 | 🇷🇸 Serbia | 9 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/rs.m3u` |
 | 🇷🇺 Russia | 204 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ru.m3u` |
 | 🇷🇼 Rwanda | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/rw.m3u` |
@@ -172,7 +172,7 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | 🇬🇧 United Kingdom | 92 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uk.m3u` |
 | 🇺🇸 United States | 808 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/us.m3u` |
 | 🇺🇾 Uruguay | 7 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uy.m3u` |
-| 🇺🇿 Uzbekistan | 33 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uz.m3u` |
+| 🇺🇿 Uzbekistan | 30 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/uz.m3u` |
 | 🇻🇪 Venezuela | 26 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/ve.m3u` |
 | 🇻🇬 British Virgin Islands | 2 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/vg.m3u` |
 | 🇻🇳 Vietnam | 70 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/vn.m3u` |
@@ -188,11 +188,11 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | Afrikaans | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/af.m3u` |
 | Amharic | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/am.m3u` |
 | Arabic | 216 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u` |
-| Assamese | 10 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/as.m3u` |
+| Assamese | 9 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/as.m3u` |
 | Azerbaijani | 8 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/az.m3u` |
 | Belarusian | 7 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/be.m3u` |
 | Bulgarian | 17 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bg.m3u` |
-| Bengali | 64 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bn.m3u` |
+| Bengali | 63 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bn.m3u` |
 | Bosnian | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/bs.m3u` |
 | Catalan | 17 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ca.m3u` |
 | Czech | 19 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/cs.m3u` |
@@ -249,7 +249,7 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | Polish | 33 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/pl.m3u` |
 | Pashto | 13 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ps.m3u` |
 | Portuguese | 136 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/pt.m3u` |
-| Romanian | 74 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ro.m3u` |
+| Romanian | 73 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ro.m3u` |
 | Russian | 251 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ru.m3u` |
 | Kinyarwanda | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/rw.m3u` |
 | Sinhala | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/si.m3u` |
@@ -270,7 +270,7 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | Tatar | 1 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/tt.m3u` |
 | Ukrainian | 42 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/uk.m3u` |
 | Urdu | 34 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ur.m3u` |
-| Uzbek | 33 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/uz.m3u` |
+| Uzbek | 30 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/uz.m3u` |
 | Vietnamese | 81 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/vi.m3u` |
 | Wolof | 2 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/wo.m3u` |
 | Yoruba | 2 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/yo.m3u` |
@@ -285,14 +285,14 @@ Freshness reference (latest verification run): **2026-11-05T08:38:29Z**
 | Culture | 582 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/culture.m3u` |
 | Documentary | 55 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/documentary.m3u` |
 | Education | 101 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/education.m3u` |
-| Entertainment | 372 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
+| Entertainment | 370 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
 | General | 1663 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/general.m3u` |
 | Kids | 125 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/kids.m3u` |
 | Legislative | 76 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/legislative.m3u` |
 | Lifestyle | 212 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/lifestyle.m3u` |
-| Movies | 179 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/movies.m3u` |
-| Music | 400 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/music.m3u` |
-| News | 563 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` |
+| Movies | 178 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/movies.m3u` |
+| Music | 399 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/music.m3u` |
+| News | 561 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/news.m3u` |
 | Science | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/science.m3u` |
 | Series | 73 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/series.m3u` |
 | Sports | 150 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/sports.m3u` |
@@ -304,10 +304,10 @@ Official channels grouped by the resolution the checker measured (best variant o
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Measured 1080p | 1966 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` |
+| Measured 1080p | 1962 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` |
 | Measured 4K / 2160p | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/4k.m3u` |
 | Measured 720p | 1559 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/720p.m3u` |
-| Measured SD (below 720p) | 805 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/sd.m3u` |
+| Measured SD (below 720p) | 803 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/sd.m3u` |
 
 ## Community tier
 

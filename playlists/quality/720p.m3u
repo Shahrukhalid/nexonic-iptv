@@ -17,6 +17,8 @@ https://stream.rtvze.ba/live/123/123.m3u8
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-name="Canal Gov" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal Gov
 https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" tvg-name="TV Brasil" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Brasil
 https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-name="TVLatinaSat" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVLatinaSat
@@ -69,6 +71,8 @@ https://videos.canal56.com/directe/stream/index.m3u8
 https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
 #EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tito TV
 https://cloud.tvomix.com/TITOTV/index.m3u8
+#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-country="ES" tvg-language="Spanish" group-title="Spain",TVOMIX
+https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi@SD" tvg-name="Navahang TV" tvg-country="FI" tvg-language="Persian" group-title="Finland",Navahang TV
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr@SD" tvg-name="4 Music" tvg-country="FR" tvg-language="Persian" group-title="France",4 Music
@@ -239,8 +243,6 @@ https://stream1.kanald.ro/iphone/knd-live.m3u8
 https://live.nasul.tv/live/stream.m3u8
 #EXTINF:-1 tvg-id="RealitateaPlus.ro@SD" tvg-name="Realitatea Plus" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Realitatea Plus
 https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
-#EXTINF:-1 tvg-id="Tele7music.ro@SD" tvg-name="Tele7music" tvg-country="RO" tvg-language="Romanian" group-title="Romania",Tele7music
-https://live.tele7music.ro/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="TDIRadioTV.rs@SD" tvg-name="TDI Radio TV" tvg-country="RS" tvg-language="Serbian" group-title="Serbia",TDI Radio TV
 https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
 #EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-name="Govorit Moskva" tvg-country="RU" tvg-language="Russian" group-title="Russia",Govorit Moskva
@@ -261,6 +263,8 @@ https://canli.tgrthaber.com/tgrt.m3u8
 https://hls.simon.ua/live-HD/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-name="Afghanistan International" tvg-country="UK" tvg-language="Pashto;Arabic;English" group-title="United Kingdom",Afghanistan International
 https://hls.afintl.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AnandTV.uk@SD" tvg-name="Anand TV" tvg-country="UK" tvg-language="Malayalam" group-title="United Kingdom",Anand TV
+https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
 #EXTINF:-1 tvg-id="DunyaNewsUK.uk@SD" tvg-name="Dunya News UK" tvg-country="UK" tvg-language="Urdu;English" group-title="United Kingdom",Dunya News UK
 https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceUK.uk@HD" tvg-name="Trace UK" tvg-country="UK" tvg-language="English" group-title="United Kingdom",Trace UK
@@ -335,10 +339,6 @@ https://cdn.whiplash.cc/whiplash/index.m3u8
 https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
 #EXTINF:-1 tvg-id="WindowTV.us@SD" tvg-name="Window TV" tvg-country="US" tvg-language="English" group-title="United States",Window TV
 https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8
-#EXTINF:-1 tvg-id="BIZCinema.uz@SD" tvg-name="BIZ Cinema" tvg-country="UZ" tvg-language="Uzbek" group-title="Uzbekistan",BIZ Cinema
-https://fl.biztv.media/cinema_720_EMfSyXgoRdiIHgldXTZICucKTIeCKO/index.m3u8
-#EXTINF:-1 tvg-id="BIZTV.uz@SD" tvg-name="BIZ TV" tvg-country="UZ" tvg-language="Uzbek" group-title="Uzbekistan",BIZ TV
-https://fl.biztv.media/biz_tv_720_uni8jhub4h8fub4idejswh8dh3j94finbu4nidj39inwsj92in3d/index.m3u8
 #EXTINF:-1 tvg-id="TAMTV.ve@SD" tvg-name="TAM TV" tvg-country="VE" tvg-language="Spanish" group-title="Venezuela",TAM TV
 https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="ThaiNguyenTV.vn@SD" tvg-name="Thai Nguyen TV" tvg-country="VN" tvg-language="Vietnamese" group-title="Vietnam",Thai Nguyen TV

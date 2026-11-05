@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-05T08:38:29Z",
-  "baseline_reference_time": "2026-11-05T00:29:25Z",
+  "reference_time": "2026-11-05T11:02:29Z",
+  "baseline_reference_time": "2026-11-05T08:38:29Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 559,
-    "verified_playlist": 476,
-    "excluded": 194,
+    "published": 556,
+    "verified_playlist": 477,
+    "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 157,
+    "quarantined": 158,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 3,
-    "newly_quarantined": 3,
-    "restored": 2,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
     "intermittent": 117,
-    "restricted": 42,
+    "restricted": 41,
     "unknown": 4,
-    "unreachable": 15,
+    "unreachable": 13,
     "working": 381
   },
   "latest_run": {
-    "run_id": "run-20261105T083204Z",
-    "started_at": "2026-11-05T08:32:04Z",
-    "finished_at": "2026-11-05T08:38:29Z",
+    "run_id": "run-20261105T105621Z",
+    "started_at": "2026-11-05T10:56:21Z",
+    "finished_at": "2026-11-05T11:02:29Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 137,
-      "UNKNOWN": 63,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 154,
+      "UNKNOWN": 62,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 448
+      "VERIFIED_WORKING": 435
     }
   },
   "discovery": {
@@ -71,7 +71,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "3 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -80,83 +80,44 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "cctv-2-cn",
-        "name": "CCTV+ 2",
-        "country": "cn",
+        "id": "st-lucie-public-schools",
+        "name": "St Lucie Public Schools",
+        "country": "us",
         "state": "unreachable",
-        "error": "segment: HTTP 404 (stream not found)"
-      },
-      {
-        "id": "emisora-comunitaria-104-1-fm-co",
-        "name": "Emisora Comunitaria 104.1 FM",
-        "country": "co",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "rtnb-tv-bi",
-        "name": "RTNB TV",
-        "country": "bi",
-        "state": "unreachable",
-        "error": "HTTP 503 (server error)"
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "cctv-2-cn",
-        "name": "CCTV+ 2",
-        "country": "cn",
-        "since": "2026-11-05T08:36:07Z"
-      },
-      {
-        "id": "emisora-comunitaria-104-1-fm-co",
-        "name": "Emisora Comunitaria 104.1 FM",
-        "country": "co",
-        "since": "2026-11-05T08:32:49Z"
-      },
-      {
-        "id": "rtnb-tv-bi",
-        "name": "RTNB TV",
-        "country": "bi",
-        "since": "2026-11-05T08:32:17Z"
+        "id": "st-lucie-public-schools",
+        "name": "St Lucie Public Schools",
+        "country": "us",
+        "since": "2026-11-05T11:00:07Z"
       }
     ],
-    "restored": [
-      {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
-        "restored_at": "2026-11-05T08:33:10Z"
-      },
-      {
-        "id": "trt-2",
-        "name": "TRT 2",
-        "country": "tr",
-        "restored_at": "2026-11-05T08:36:03Z"
-      }
-    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 559,
-      "verified": 476,
-      "not_verified": 83,
-      "with_measured_quality": 492,
+      "published": 556,
+      "verified": 477,
+      "not_verified": 79,
+      "with_measured_quality": 489,
       "per_quality": {
-        "1080p": 253,
+        "1080p": 251,
         "4k": 1,
         "720p": 172,
-        "sd": 66
+        "sd": 65
       }
     },
     "community": {
-      "published": 4277,
-      "verified": 3841,
+      "published": 4274,
+      "verified": 3838,
       "untested": 436,
-      "held_back_after_failed_check": 2941,
+      "held_back_after_failed_check": 2944,
       "never_checked": 0,
       "catalog_streams": 7218,
       "catalog_built_at": "2026-11-05T08:38:38Z",
@@ -164,12 +125,12 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 735,
+        "intermittent": 737,
         "invalid": 1194,
         "restricted": 176,
         "unknown": 189,
         "unreachable": 1747,
-        "working": 3177
+        "working": 3175
       },
       "removed_at_generation": {},
       "top_countries": [
@@ -181,7 +142,7 @@
         {
           "code": "in",
           "name": "India",
-          "streams": 550
+          "streams": 548
         },
         {
           "code": "ru",
