@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-05T11:02:29Z",
+  "reference_time": "2026-11-05T19:26:08Z",
   "records": {
     "approved": 753,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 556,
-  "excluded_approved": 197,
-  "countries": 93,
-  "languages": 64,
+  "published_channels": 557,
+  "excluded_approved": 196,
+  "countries": 94,
+  "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 477,
-  "playlist_files": 306,
+  "verified_playlist_channels": 492,
+  "playlist_files": 307,
   "latest_run": {
-    "run_id": "run-20261105T105621Z",
-    "started_at": "2026-11-05T10:56:21Z",
-    "finished_at": "2026-11-05T11:02:29Z",
+    "run_id": "run-20261105T191943Z",
+    "started_at": "2026-11-05T19:19:43Z",
+    "finished_at": "2026-11-05T19:26:08Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 154,
-      "UNKNOWN": 62,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 129,
+      "UNKNOWN": 50,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 435
+      "VERIFIED_WORKING": 470
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 435,
-    "UNAVAILABLE": 154,
-    "GEO_RESTRICTED": 61,
+    "VERIFIED_WORKING": 470,
+    "UNAVAILABLE": 129,
+    "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 28,
+    "TIMEOUT": 29,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 62,
+    "UNKNOWN": 50,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 15,
-    "geo-restricted": 41,
-    "previously-working": 60,
+    "currently-failing": 19,
+    "geo-restricted": 42,
+    "previously-working": 21,
     "unknown": 5,
-    "verified-recently": 435
+    "verified-recently": 470
   },
   "per_country": {
     "ae": {
@@ -212,6 +212,11 @@
     "ge": {
       "name": "Georgia",
       "flag": "🇬🇪",
+      "channels": 1
+    },
+    "gm": {
+      "name": "Gambia",
+      "flag": "🇬🇲",
       "channels": 1
     },
     "gp": {
@@ -570,7 +575,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 144
+      "channels": 145
     },
     "es": {
       "name": "Spanish",
@@ -768,6 +773,10 @@
       "name": "Vietnamese",
       "channels": 4
     },
+    "wo": {
+      "name": "Wolof",
+      "channels": 1
+    },
     "zh": {
       "name": "Chinese",
       "channels": 18
@@ -796,7 +805,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 203
+      "channels": 204
     },
     "kids": {
       "name": "Kids",
@@ -838,22 +847,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 556,
-      "verified": 477,
-      "not_verified": 79,
-      "with_measured_quality": 489,
+      "published": 557,
+      "verified": 492,
+      "not_verified": 65,
+      "with_measured_quality": 490,
       "per_quality": {
-        "1080p": 251,
+        "1080p": 255,
         "4k": 1,
-        "720p": 172,
-        "sd": 65
+        "720p": 168,
+        "sd": 66
       }
     },
     "community": {
-      "published": 4274,
+      "published": 4271,
       "verified": 3838,
-      "untested": 436,
-      "held_back_after_failed_check": 2944,
+      "untested": 433,
+      "held_back_after_failed_check": 2947,
       "never_checked": 0,
       "catalog_streams": 7218,
       "catalog_built_at": "2026-11-05T08:38:38Z",
@@ -861,8 +870,8 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 737,
-        "invalid": 1194,
+        "intermittent": 738,
+        "invalid": 1193,
         "restricted": 176,
         "unknown": 189,
         "unreachable": 1747,
@@ -873,7 +882,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 767
+          "streams": 764
         },
         {
           "code": "in",
@@ -888,7 +897,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 145
+          "streams": 144
         },
         {
           "code": "uk",

@@ -27,8 +27,6 @@ https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https:/
 https://live.arnoproducciones.com/hls/norte.m3u8
 #EXTINF:-1 tvg-id="BonceTV.cw@SD" tvg-name="Bonce TV" tvg-country="CW" tvg-language="Dutch" group-title="Curacao",Bonce TV
 https://seswa.bonce.tv/hls/bonceswa.m3u8
-#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
-https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-name="Alcarria TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Alcarria TV
@@ -79,6 +77,8 @@ https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8
 https://cast.talenttv.lk/hls/mcrlo1ygwpu8x4bj/index.m3u8
 #EXTINF:-1 tvg-id="VidusdaugavasTelevizija.lv@SD" tvg-name="Vidusdaugavas Televizija" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",Vidusdaugavas Televizija
 https://straume.vdtv.lv/vdtv2/index.m3u8
+#EXTINF:-1 tvg-id="NasaTV.mk@SD" tvg-name="Nasa TV" tvg-country="MK" tvg-language="Macedonian" group-title="North Macedonia",Nasa TV
+https://stream.nasatv.com.mk/hls/nasatv_live.m3u8
 #EXTINF:-1 tvg-id="BialogardzkaTelewizjaKablowa.pl@HD" tvg-name="Bialogardzka Telewizja Kablowa" tvg-country="PL" tvg-language="Polish" group-title="Poland",Bialogardzka Telewizja Kablowa
 https://bsmbialogard.pl/live/index.m3u8
 #EXTINF:-1 tvg-id="TVKStella.pl@SD" tvg-name="TVK Stella" tvg-country="PL" tvg-language="Polish" group-title="Poland",TVK Stella
@@ -117,6 +117,8 @@ http://ftp.orbita.dn.ua/hls/orbita.m3u8
 https://stream.rai.ua/rai/stream.m3u8
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk@SD" tvg-name="Sheffield Live TV" tvg-country="UK" tvg-language="English" group-title="United Kingdom",Sheffield Live TV
 http://tv.sheffieldlive.org/hls/main.m3u8
+#EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
 #EXTINF:-1 tvg-id="CTNCourtFeed.us@SD" tvg-name="CT-N Court Feed" tvg-country="US" tvg-language="English" group-title="United States",CT-N Court Feed
 http://video.ct-n.com/live/ctnSupreme/playlist_DVR.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-name="Metaleitor TV" tvg-country="US" tvg-language="Spanish" group-title="United States",Metaleitor TV

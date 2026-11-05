@@ -41,6 +41,8 @@ https://tv.tvsb.bg/112.m3u8
 https://stream2.nostvbonaire.com/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="CanalUOL.br@SD" tvg-name="Canal UOL" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal UOL
 https://video24.mais.uol.com.br/live/6146.m3u8
+#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCamara.br@SD" tvg-name="TV Câmara" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-name="TV UFOP" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV UFOP
@@ -97,6 +99,8 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
 https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
+#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
+https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="JC1.cz@SD" tvg-name="JC1" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",JC1
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
@@ -159,6 +163,8 @@ https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 https://interalmeria.tv/directo/live.m3u8
 #EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Tele Elx
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
+#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-country="ES" tvg-language="Spanish" group-title="Spain",TVOMIX
+https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="NopolaNews.fi@SD" tvg-name="Nopola News" tvg-country="FI" tvg-language="Finnish" group-title="Finland",Nopola News
 https://virta2.nopolanews.fi:8443/live/smil:Stream1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr@SD" tvg-name="4Kurd" tvg-country="FR" tvg-language="Kurdish;Persian" group-title="France",4Kurd
@@ -203,6 +209,10 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-name="Channel8" tvg-country="IQ" tvg-language="Kurdish;Arabic;English" group-title="Iraq",Channel8
@@ -443,8 +453,6 @@ https://stream.bizzmedia.biz/bizz_tv/index.m3u8
 https://bbstv.ug/hls/ch01/index.m3u8
 #EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-name="IraneFarda TV" tvg-country="UK" tvg-language="Persian" group-title="United Kingdom",IraneFarda TV
 https://iranefardalive.com/stream/live.m3u8
-#EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
-https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-name="Avang TV" tvg-country="US" tvg-language="Persian" group-title="United States",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BIGCivicChannel.us@SD" tvg-name="BIG Civic Channel" tvg-country="US" tvg-language="English" group-title="United States",BIG Civic Channel
@@ -3845,8 +3853,6 @@ https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u
 https://freem3u.xyz/api/live/play.m3u8?vid=53
 #EXTINF:-1 tvg-id="DongNaiTV2.vn@SD" tvg-name="Dong Nai TV 2" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/tNKPSkO.png" group-title="Vietnam" x-tier="community" x-status="verified" x-quality="1080p",Dong Nai TV 2
 https://freem3u.xyz/api/live/play.m3u8?vid=255
-#EXTINF:-1 tvg-id="HTVSports.vn@SD" tvg-name="HTV Sports" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" group-title="Vietnam" x-tier="community" x-status="verified" x-quality="1080p",HTV Sports
-https://vmttv.dpdns.org/tv360?id=htv-the-thao
 #EXTINF:-1 tvg-id="HTV1.vn@SD" tvg-name="HTV1" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/HTV1.png/960px-HTV1.png" group-title="Vietnam" x-tier="community" x-status="verified" x-quality="1080p",HTV1
 https://dethich.pw/htv1/index.m3u8
 #EXTINF:-1 tvg-id="HTV2.vn@SD" tvg-name="HTV2" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png" group-title="Vietnam" x-tier="community" x-status="verified" x-quality="1080p",HTV2

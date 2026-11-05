@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-05T11:02:29Z",
-  "baseline_reference_time": "2026-11-05T08:38:29Z",
+  "reference_time": "2026-11-05T19:26:08Z",
+  "baseline_reference_time": "2026-11-05T11:02:29Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 556,
-    "verified_playlist": 477,
-    "excluded": 197,
+    "published": 557,
+    "verified_playlist": 492,
+    "excluded": 196,
     "pending_authorization": 43,
-    "quarantined": 158,
+    "quarantined": 155,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
-    "newly_quarantined": 1,
-    "restored": 0,
+    "newly_failing": 0,
+    "newly_quarantined": 0,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 117,
-    "restricted": 41,
+    "intermittent": 123,
+    "restricted": 42,
     "unknown": 4,
-    "unreachable": 13,
-    "working": 381
+    "unreachable": 11,
+    "working": 377
   },
   "latest_run": {
-    "run_id": "run-20261105T105621Z",
-    "started_at": "2026-11-05T10:56:21Z",
-    "finished_at": "2026-11-05T11:02:29Z",
+    "run_id": "run-20261105T191943Z",
+    "started_at": "2026-11-05T19:19:43Z",
+    "finished_at": "2026-11-05T19:26:08Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 154,
-      "UNKNOWN": 62,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 129,
+      "UNKNOWN": 50,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 435
+      "VERIFIED_WORKING": 470
     }
   },
   "discovery": {
@@ -67,57 +67,59 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 306,
+    "playlist_files": 307,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [
+    "newly_failing": [],
+    "newly_quarantined": [],
+    "restored": [
       {
-        "id": "st-lucie-public-schools",
-        "name": "St Lucie Public Schools",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "id": "kalu-tv-co",
+        "name": "Kalu TV",
+        "country": "co",
+        "restored_at": "2026-11-05T19:20:26Z"
+      },
+      {
+        "id": "qtv-gambia-gm",
+        "name": "QTV Gambia",
+        "country": "gm",
+        "restored_at": "2026-11-05T19:20:55Z"
+      },
+      {
+        "id": "rtnb-tv-bi",
+        "name": "RTNB TV",
+        "country": "bi",
+        "restored_at": "2026-11-05T19:19:54Z"
       }
     ],
-    "newly_quarantined": [
-      {
-        "id": "st-lucie-public-schools",
-        "name": "St Lucie Public Schools",
-        "country": "us",
-        "since": "2026-11-05T11:00:07Z"
-      }
-    ],
-    "restored": [],
     "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 556,
-      "verified": 477,
-      "not_verified": 79,
-      "with_measured_quality": 489,
+      "published": 557,
+      "verified": 492,
+      "not_verified": 65,
+      "with_measured_quality": 490,
       "per_quality": {
-        "1080p": 251,
+        "1080p": 255,
         "4k": 1,
-        "720p": 172,
-        "sd": 65
+        "720p": 168,
+        "sd": 66
       }
     },
     "community": {
-      "published": 4274,
+      "published": 4271,
       "verified": 3838,
-      "untested": 436,
-      "held_back_after_failed_check": 2944,
+      "untested": 433,
+      "held_back_after_failed_check": 2947,
       "never_checked": 0,
       "catalog_streams": 7218,
       "catalog_built_at": "2026-11-05T08:38:38Z",
@@ -125,8 +127,8 @@
       "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 737,
-        "invalid": 1194,
+        "intermittent": 738,
+        "invalid": 1193,
         "restricted": 176,
         "unknown": 189,
         "unreachable": 1747,
@@ -137,7 +139,7 @@
         {
           "code": "us",
           "name": "United States",
-          "streams": 767
+          "streams": 764
         },
         {
           "code": "in",
@@ -152,7 +154,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 145
+          "streams": 144
         },
         {
           "code": "uk",
