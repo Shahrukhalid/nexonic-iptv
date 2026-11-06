@@ -1,35 +1,35 @@
 {
-  "reference_time": "2026-11-05T19:26:08Z",
-  "baseline_reference_time": "2026-11-05T11:02:29Z",
+  "reference_time": "2026-11-06T00:23:11Z",
+  "baseline_reference_time": "2026-11-05T19:26:08Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 557,
-    "verified_playlist": 492,
+    "verified_playlist": 487,
     "excluded": 196,
     "pending_authorization": 43,
-    "quarantined": 155,
+    "quarantined": 164,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 0,
-    "newly_quarantined": 0,
-    "restored": 3,
+    "newly_failing": 9,
+    "newly_quarantined": 9,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 123,
+    "intermittent": 119,
     "restricted": 42,
     "unknown": 4,
-    "unreachable": 11,
-    "working": 377
+    "unreachable": 20,
+    "working": 372
   },
   "latest_run": {
-    "run_id": "run-20261105T191943Z",
-    "started_at": "2026-11-05T19:19:43Z",
-    "finished_at": "2026-11-05T19:26:08Z",
+    "run_id": "run-20261106T001659Z",
+    "started_at": "2026-11-06T00:16:59Z",
+    "finished_at": "2026-11-06T00:23:11Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
@@ -37,10 +37,10 @@
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
-      "UNAVAILABLE": 129,
-      "UNKNOWN": 50,
+      "UNAVAILABLE": 156,
+      "UNKNOWN": 45,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 470
+      "VERIFIED_WORKING": 448
     }
   },
   "discovery": {
@@ -70,34 +70,136 @@
     "playlist_files": 307,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "9 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [],
-    "newly_quarantined": [],
-    "restored": [
+    "newly_failing": [
       {
-        "id": "kalu-tv-co",
-        "name": "Kalu TV",
-        "country": "co",
-        "restored_at": "2026-11-05T19:20:26Z"
+        "id": "das-erste",
+        "name": "Das Erste",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "qtv-gambia-gm",
-        "name": "QTV Gambia",
-        "country": "gm",
-        "restored_at": "2026-11-05T19:20:55Z"
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError"
       },
       {
-        "id": "rtnb-tv-bi",
-        "name": "RTNB TV",
-        "country": "bi",
-        "restored_at": "2026-11-05T19:19:54Z"
+        "id": "livexlive-us",
+        "name": "LIVExLIVE",
+        "country": "us",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "pbs-us",
+        "name": "PBS",
+        "country": "us",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "rtl-gold-lu",
+        "name": "RTL Gold",
+        "country": "lu",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "rtl-web-radio-tv-lu",
+        "name": "RTL Web Radio TV",
+        "country": "lu",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "today-radio-lu",
+        "name": "Today Radio",
+        "country": "lu",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "zas-tv-do",
+        "name": "ZAS TV",
+        "country": "do",
+        "state": "unreachable",
+        "error": "HTTP 523 (server error)"
       }
     ],
+    "newly_quarantined": [
+      {
+        "id": "das-erste",
+        "name": "Das Erste",
+        "country": "de",
+        "since": "2026-11-06T00:20:27Z"
+      },
+      {
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "since": "2026-11-06T00:18:08Z"
+      },
+      {
+        "id": "livexlive-us",
+        "name": "LIVExLIVE",
+        "country": "us",
+        "since": "2026-11-06T00:20:12Z"
+      },
+      {
+        "id": "pbs-us",
+        "name": "PBS",
+        "country": "us",
+        "since": "2026-11-06T00:20:14Z"
+      },
+      {
+        "id": "rtl-gold-lu",
+        "name": "RTL Gold",
+        "country": "lu",
+        "since": "2026-11-06T00:18:55Z"
+      },
+      {
+        "id": "rtl-web-radio-tv-lu",
+        "name": "RTL Web Radio TV",
+        "country": "lu",
+        "since": "2026-11-06T00:18:57Z"
+      },
+      {
+        "id": "today-radio-lu",
+        "name": "Today Radio",
+        "country": "lu",
+        "since": "2026-11-06T00:21:00Z"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
+        "since": "2026-11-06T00:20:46Z"
+      },
+      {
+        "id": "zas-tv-do",
+        "name": "ZAS TV",
+        "country": "do",
+        "since": "2026-11-06T00:17:54Z"
+      }
+    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -105,14 +207,14 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 557,
-      "verified": 492,
-      "not_verified": 65,
+      "verified": 487,
+      "not_verified": 70,
       "with_measured_quality": 490,
       "per_quality": {
         "1080p": 255,
         "4k": 1,
-        "720p": 168,
-        "sd": 66
+        "720p": 167,
+        "sd": 67
       }
     },
     "community": {

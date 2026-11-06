@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-11-05T19:26:08Z",
+  "reference_time": "2026-11-06T00:23:11Z",
   "records": {
     "approved": 753,
     "pending": 43,
@@ -10,12 +10,12 @@
   "countries": 94,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 492,
+  "verified_playlist_channels": 487,
   "playlist_files": 307,
   "latest_run": {
-    "run_id": "run-20261105T191943Z",
-    "started_at": "2026-11-05T19:19:43Z",
-    "finished_at": "2026-11-05T19:26:08Z",
+    "run_id": "run-20261106T001659Z",
+    "started_at": "2026-11-06T00:16:59Z",
+    "finished_at": "2026-11-06T00:23:11Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 753,
     "by_status": {
@@ -23,30 +23,30 @@
       "GEO_RESTRICTED": 62,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
-      "UNAVAILABLE": 129,
-      "UNKNOWN": 50,
+      "UNAVAILABLE": 156,
+      "UNKNOWN": 45,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 470
+      "VERIFIED_WORKING": 448
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 470,
-    "UNAVAILABLE": 129,
+    "VERIFIED_WORKING": 448,
+    "UNAVAILABLE": 156,
     "GEO_RESTRICTED": 62,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 29,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 50,
+    "UNKNOWN": 45,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "currently-failing": 19,
     "geo-restricted": 42,
-    "previously-working": 21,
+    "previously-working": 43,
     "unknown": 5,
-    "verified-recently": 470
+    "verified-recently": 448
   },
   "per_country": {
     "ae": {
@@ -848,14 +848,14 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 557,
-      "verified": 492,
-      "not_verified": 65,
+      "verified": 487,
+      "not_verified": 70,
       "with_measured_quality": 490,
       "per_quality": {
         "1080p": 255,
         "4k": 1,
-        "720p": 168,
-        "sd": 66
+        "720p": 167,
+        "sd": 67
       }
     },
     "community": {

@@ -21,6 +21,8 @@ https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 http://yerkirmedia.am/yerkirmedia/live.m3u8
 #EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
 https://tv.alterna.ar/stream/hls/live.m3u8
+#EXTINF:-1 tvg-id="CanalPulpoTV.ar@SD" tvg-name="Canal Pulpo TV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Canal Pulpo TV
+https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 #EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD" tvg-name="Itel TV Canal 2" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Itel TV Canal 2
 https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-name="Mercurio Noticias" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Mercurio Noticias
@@ -41,6 +43,8 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-name="Baku.TV" tvg-country="AZ" tvg-language="Azerbaijani" group-title="Azerbaijan",Baku.TV
 https://rtmp.baku.tv/hls/bakutv.m3u8
+#EXTINF:-1 tvg-id="RTRSplus.ba@SD" tvg-name="RTRS plus" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS plus
+https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="RTRSTV.ba@SD" tvg-name="RTRS TV" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS TV
 https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-id="RTVZenica.ba@SD" tvg-name="RTV Zenica" tvg-country="BA" tvg-language="Bosnian" group-title="Bosnia and Herzegovina",RTV Zenica
@@ -193,8 +197,6 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8
 #EXTINF:-1 tvg-name="BR Fernsehen Süd" tvg-country="DE" tvg-language="German" group-title="Germany",BR Fernsehen Süd
 https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8
-#EXTINF:-1 tvg-id="DasErste.de@HD" tvg-name="Das Erste" tvg-country="DE" tvg-language="German" group-title="Germany",Das Erste
-https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
 #EXTINF:-1 tvg-id="DASDING908.de@SD" tvg-name="DASDING 90.8" tvg-country="DE" tvg-language="German" group-title="Germany",DASDING 90.8
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
 #EXTINF:-1 tvg-id="DW.de@Arabic" tvg-name="DW Arabic" tvg-country="DE" tvg-language="Arabic" group-title="Germany",DW Arabic
@@ -233,8 +235,6 @@ https://stream.elseis.do/canal6/live_1080.m3u8
 https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
 #EXTINF:-1 tvg-id="LarivisionTV.do@HD" tvg-name="Larivision TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Larivision TV
 https://live.larivision.net/livelan/live.m3u8
-#EXTINF:-1 tvg-id="ZASTV.do@HD" tvg-name="ZAS TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",ZAS TV
-https://cloud5.zastv.net/hls/zastv.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ETV.ee@SD" tvg-name="ETV" tvg-country="EE" tvg-language="Estonian" group-title="Estonia",ETV
@@ -323,8 +323,6 @@ https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-name="Le Figaro TV Ile-de-France" tvg-country="FR" tvg-language="French" group-title="France",Le Figaro TV Ile-de-France
-https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-name="Trace Africa" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Africa
 https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceAfrikora.fr@SD" tvg-name="Trace Afrikora" tvg-country="FR" tvg-language="French" group-title="France",Trace Afrikora
@@ -539,12 +537,6 @@ https://stream-live.lrt.lt/radijas/master.m3u8
 https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
 #EXTINF:-1 tvg-id="LuxembourgGlobalRadioTV.lu@HD" tvg-name="Luxembourg Global Radio TV" tvg-country="LU" tvg-language="English" group-title="Luxembourg",Luxembourg Global Radio TV
 https://stream.globalradio.lu/lgr/index.m3u8
-#EXTINF:-1 tvg-id="RTLGold.lu@SD" tvg-name="RTL Gold" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Gold
-https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLWebRadioTV.lu@SD" tvg-name="RTL Web Radio TV" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Web Radio TV
-https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TodayRadio.lu@SD" tvg-name="Today Radio" tvg-country="LU" tvg-language="English" group-title="Luxembourg",Today Radio
-https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
 #EXTINF:-1 tvg-id="LTV7.lv@SD" tvg-name="LTV7" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",LTV7
 https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="VidusdaugavasTelevizija.lv@SD" tvg-name="Vidusdaugavas Televizija" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",Vidusdaugavas Televizija
@@ -809,6 +801,10 @@ https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-name="TJK TV" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TJK TV
 https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 tvg-id="TRT1.tr@SD" tvg-name="TRT 1" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT 2
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-name="TRT Arabi" tvg-country="TR" tvg-language="Arabic" group-title="Turkiye",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Haber
@@ -905,8 +901,6 @@ https://securestream11.champds.com/LIVE/GilletteWYLIVE2/GilletteWYLIVE2.m3u8
 https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="LawCrime.us@SD" tvg-name="Law & Crime" tvg-country="US" tvg-language="English" group-title="United States",Law & Crime
 https://cdn.lawandcrime.net/rewind/playlist.m3u8
-#EXTINF:-1 tvg-id="LIVExLIVE.us@SD" tvg-name="LIVExLIVE" tvg-country="US" tvg-language="English" group-title="United States",LIVExLIVE
-https://livestream.liveone.com/lc1/p1.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-name="Metaleitor TV" tvg-country="US" tvg-language="Spanish" group-title="United States",Metaleitor TV
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 #EXTINF:-1 tvg-id="MTC.us@SD" tvg-name="MTC" tvg-country="US" tvg-language="Persian" group-title="United States",MTC
@@ -931,8 +925,6 @@ https://live.ntdtv.com/cnlive900/playlist.m3u8
 https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="PalmBeachesTV.us@SD" tvg-name="Palm Beaches TV" tvg-country="US" tvg-language="English" group-title="United States",Palm Beaches TV
 https://live.feed.thepalmbeaches.tv/index.m3u8
-#EXTINF:-1 tvg-id="PBS.us@East" tvg-name="PBS" tvg-country="US" tvg-language="English" group-title="United States",PBS
-https://pbs.lls.cdn.pbs.org/est/index.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
 #EXTINF:-1 tvg-id="PBSKidsAlaska.us@SD" tvg-name="PBS Kids Alaska" tvg-country="US" tvg-language="English" group-title="United States",PBS Kids Alaska
@@ -963,8 +955,6 @@ https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
 https://cdn.whiplash.cc/whiplash-2/index.m3u8
 #EXTINF:-1 tvg-id="WindowTV.us@SD" tvg-name="Window TV" tvg-country="US" tvg-language="English" group-title="United States",Window TV
 https://cdn.whiplash.cc/whiplash-windowtv/index.m3u8
-#EXTINF:-1 tvg-id="WorldChannel.us@SD" tvg-name="World Channel" tvg-country="US" tvg-language="English" group-title="United States",World Channel
-https://world.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="YumaChannel72.us@SD" tvg-name="Yuma Channel 72" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 72
 https://livestream.telvue.com/yumaaz1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="YumaChannel73.us@SD" tvg-name="Yuma Channel 73" tvg-country="US" tvg-language="English;Spanish" group-title="United States",Yuma Channel 73
