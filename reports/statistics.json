@@ -1,12 +1,12 @@
 {
   "reference_time": "2026-11-06T00:23:11Z",
   "records": {
-    "approved": 753,
+    "approved": 755,
     "pending": 43,
     "rejected": 16
   },
   "published_channels": 557,
-  "excluded_approved": 196,
+  "excluded_approved": 198,
   "countries": 94,
   "languages": 65,
   "categories": 15,
@@ -859,9 +859,9 @@
       }
     },
     "community": {
-      "published": 4271,
+      "published": 4270,
       "verified": 3838,
-      "untested": 433,
+      "untested": 432,
       "held_back_after_failed_check": 2947,
       "never_checked": 0,
       "catalog_streams": 7218,
@@ -873,11 +873,13 @@
         "intermittent": 738,
         "invalid": 1193,
         "restricted": 176,
-        "unknown": 189,
+        "unknown": 188,
         "unreachable": 1747,
         "working": 3175
       },
-      "removed_at_generation": {},
+      "removed_at_generation": {
+        "official-duplicate": 1
+      },
       "top_countries": [
         {
           "code": "us",

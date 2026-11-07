@@ -1,6 +1,47 @@
 # Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
 # check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
 channels:
+- id: channel-7-th
+  name: Channel 7
+  alt_names:
+  - CH7 HD
+  - Channel 7 HD
+  - Bangkok Broadcasting & Television Company Limited Channel 7
+  - สถานีโทรทัศน์ช่อง 7 เอชดี
+  broadcaster: Bangkok Broadcasting & Television
+  country: th
+  languages:
+  - th
+  categories:
+  - general
+  website: https://wwww.ch7.com/
+  stream:
+    url: https://live-cdn.ch7.com/out/v1/eafeb02c55b64a15b278b1e66c7fc776/playlist_10.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/th.m3u
+    evidence_url: https://wwww.ch7.com/
+    evidence_summary: 'Automated owner-domain match: stream host live-cdn.ch7.com is on the broadcaster''s domain ch7.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: Channel7.th@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-07'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-07'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: charoen-cable-37-tv-th
   name: Charoen Cable 37 TV
   alt_names: []

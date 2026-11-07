@@ -39,6 +39,43 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: digital-channel-bj
+  name: Digital Channel
+  alt_names: []
+  broadcaster: Sud Media Communication
+  country: bj
+  languages:
+  - fr
+  categories:
+  - general
+  website: https://digitalchannel.bj
+  stream:
+    url: https://stream.digitalchannel.bj/live/ds_64de185c18c9d786a760f01e0e592348.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/bj.m3u
+    evidence_url: https://digitalchannel.bj
+    evidence_summary: 'Automated owner-domain match: stream host stream.digitalchannel.bj is on the broadcaster''s domain
+      digitalchannel.bj. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: DigitalChannel.bj@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-07'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-07'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: hc2-tv-bj
   name: HC2 TV
   alt_names: []

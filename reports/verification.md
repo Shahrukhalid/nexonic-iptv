@@ -780,7 +780,7 @@ Compared with the run at 2026-11-05T19:26:08Z (UTC).
 
 | Change | Count |
 |---|---:|
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 2 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -791,7 +791,7 @@ Compared with the run at 2026-11-05T19:26:08Z (UTC).
 
 Published 557 · verified playlist 487 · quarantined 164 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
-Tiers: official 557 (487 verified) · community 3838 verified / 433 untested · free VOD 2023 items.
+Tiers: official 557 (487 verified) · community 3838 verified / 432 untested · free VOD 2023 items.
 
 **Needs attention:**
 

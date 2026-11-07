@@ -13,9 +13,9 @@
 | Published channels | 557 |
 | In verified playlist | 487 |
 | Quarantined | 164 |
-| Excluded approved records | 196 |
+| Excluded approved records | 198 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 2 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -32,7 +32,7 @@ Tiers are published separately. Community streams are not limited to the broadca
 |---|---:|---:|---:|
 | Official | 557 | 487 | 70 |
 | Community: verified | 3838 | 3838 | 0 |
-| Community: untested | 433 | 0 | 433 |
+| Community: untested | 432 | 0 | 432 |
 | Free VOD (items) | 2023 | n/a | n/a |
 
 Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0; held back after a failed check: 2947; verified means worked at the latest check within 7 days.
@@ -63,21 +63,28 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 600 |
-| aggregator-host | 974 |
+| admitted | 602 |
+| aggregator-host | 977 |
 | already-curated | 478 |
 | closed | 94 |
-| excluded-category | 1162 |
-| host-not-owned-by-broadcaster | 7008 |
+| excluded-category | 1168 |
+| host-not-owned-by-broadcaster | 7077 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 1120 |
+| needs-special-headers | 1118 |
 | no-database-entry | 2096 |
 | nsfw-or-blocklisted | 3 |
 | sanctions-exclusion | 609 |
-| streams | 18456 |
-| subscription-service | 96 |
-| url-policy | 4143 |
+| streams | 18602 |
+| subscription-service | 103 |
+| url-policy | 4204 |
+
+## New candidates discovered (not published) (2)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Channel 7 (`channel-7-th`) | th | record: approved, kind: awaiting-first-check |
+| Digital Channel (`digital-channel-bj`) | bj | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (9)
 

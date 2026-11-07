@@ -6,11 +6,11 @@
   "counts": {
     "published": 557,
     "verified_playlist": 487,
-    "excluded": 196,
+    "excluded": 198,
     "pending_authorization": 43,
     "quarantined": 164,
     "duplicates_excluded_total": 0,
-    "new_candidates": 0,
+    "new_candidates": 2,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
@@ -44,21 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 600,
-    "aggregator-host": 974,
+    "admitted": 602,
+    "aggregator-host": 977,
     "already-curated": 478,
     "closed": 94,
-    "excluded-category": 1162,
-    "host-not-owned-by-broadcaster": 7008,
+    "excluded-category": 1168,
+    "host-not-owned-by-broadcaster": 7077,
     "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 1120,
+    "needs-special-headers": 1118,
     "no-database-entry": 2096,
     "nsfw-or-blocklisted": 3,
     "sanctions-exclusion": 609,
-    "streams": 18456,
-    "subscription-service": 96,
-    "url-policy": 4143
+    "streams": 18602,
+    "subscription-service": 103,
+    "url-policy": 4204
   },
   "integrity": {
     "ok": true,
@@ -72,7 +72,22 @@
     "9 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
-    "new_candidates": [],
+    "new_candidates": [
+      {
+        "id": "channel-7-th",
+        "name": "Channel 7",
+        "country": "th",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "digital-channel-bj",
+        "name": "Digital Channel",
+        "country": "bj",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      }
+    ],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
@@ -216,9 +231,9 @@
       }
     },
     "community": {
-      "published": 4271,
+      "published": 4270,
       "verified": 3838,
-      "untested": 433,
+      "untested": 432,
       "held_back_after_failed_check": 2947,
       "never_checked": 0,
       "catalog_streams": 7218,
@@ -230,11 +245,13 @@
         "intermittent": 738,
         "invalid": 1193,
         "restricted": 176,
-        "unknown": 189,
+        "unknown": 188,
         "unreachable": 1747,
         "working": 3175
       },
-      "removed_at_generation": {},
+      "removed_at_generation": {
+        "official-duplicate": 1
+      },
       "top_countries": [
         {
           "code": "us",
