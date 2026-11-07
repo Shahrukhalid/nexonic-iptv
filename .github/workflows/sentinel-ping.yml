@@ -1,0 +1,35 @@
+# Wakes the maintainer bot right away when someone posts here, instead of waiting for its schedule
+# (GitHub often starts scheduled runs hours late). It only starts the bot's own workflow; nothing here runs code
+# from this repository. Needs the secret SENTINEL_DISPATCH_TOKEN (a fine-grained token limited to the bot's
+# repository with Actions: read and write); without it this does nothing and the bot answers on its schedule.
+name: Sentinel ping
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+  discussion:
+    types: [created]
+  discussion_comment:
+    types: [created]
+
+permissions: {}
+
+concurrency:
+  group: sentinel-ping
+  cancel-in-progress: true
+
+jobs:
+  ping:
+    # Posts by bots and by the owner do not need an answer from the bot.
+    if: ${{ !endsWith(github.actor, '[bot]') && github.actor != github.repository_owner }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Start the bot
+        env:
+          GH_TOKEN: ${{ secrets.SENTINEL_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "No SENTINEL_DISPATCH_TOKEN: the bot answers on its schedule."; exit 0; fi
+          gh workflow run sentinel.yml -R "${{ github.repository_owner }}/nexonic-sentinel" --ref main
