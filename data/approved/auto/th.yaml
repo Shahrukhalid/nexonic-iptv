@@ -30,14 +30,15 @@ channels:
   epg_id: Channel7.th@SD
   logo: null
   geo:
-    restricted: unknown
-    regions: []
+    restricted: true
+    regions:
+    - th
   is_nsfw: false
   first_discovered: '2026-11-07'
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-11-07'
+    reviewed_at: '2026-11-08'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.
