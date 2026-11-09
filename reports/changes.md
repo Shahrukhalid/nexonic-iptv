@@ -64,20 +64,20 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 | Outcome | Count |
 |---|---:|
 | admitted | 602 |
-| aggregator-host | 977 |
+| aggregator-host | 978 |
 | already-curated | 477 |
 | closed | 92 |
-| excluded-category | 1170 |
-| host-not-owned-by-broadcaster | 7079 |
+| excluded-category | 1171 |
+| host-not-owned-by-broadcaster | 7072 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 1145 |
+| needs-special-headers | 1150 |
 | no-database-entry | 2096 |
 | nsfw-or-blocklisted | 3 |
-| sanctions-exclusion | 609 |
-| streams | 18615 |
+| sanctions-exclusion | 608 |
+| streams | 18612 |
 | subscription-service | 105 |
-| url-policy | 4187 |
+| url-policy | 4185 |
 
 ## New candidates discovered (not published) (2)
 
