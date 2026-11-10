@@ -114,6 +114,44 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: la-tremenda-tv-pe
+  name: La Tremenda TV
+  alt_names:
+  - La Tremenda
+  broadcaster: Caracol Comunicaciones
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://latremenda.pe/
+  stream:
+    url: https://iptv.latremenda.pe/LaTremendaTv/tracks-v1a1/mono.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://latremenda.pe/
+    evidence_summary: 'Automated owner-domain match: stream host iptv.latremenda.pe is on the broadcaster''s domain latremenda.pe.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: LaTremendaTV.pe@TDT62
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-10'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-10'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: milenial-tv-pe
   name: Milenial TV
   alt_names: []

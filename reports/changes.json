@@ -6,11 +6,11 @@
   "counts": {
     "published": 557,
     "verified_playlist": 487,
-    "excluded": 198,
+    "excluded": 199,
     "pending_authorization": 43,
     "quarantined": 164,
     "duplicates_excluded_total": 0,
-    "new_candidates": 2,
+    "new_candidates": 3,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
@@ -44,21 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 602,
+    "admitted": 603,
     "aggregator-host": 978,
     "already-curated": 477,
     "closed": 92,
-    "excluded-category": 1171,
-    "host-not-owned-by-broadcaster": 7072,
+    "excluded-category": 1172,
+    "host-not-owned-by-broadcaster": 7076,
     "language-not-supported": 4,
     "moderation-reject": 4,
     "needs-special-headers": 1150,
     "no-database-entry": 2096,
     "nsfw-or-blocklisted": 3,
     "sanctions-exclusion": 608,
-    "streams": 18612,
-    "subscription-service": 105,
-    "url-policy": 4185
+    "streams": 18615,
+    "subscription-service": 107,
+    "url-policy": 4180
   },
   "integrity": {
     "ok": true,
@@ -84,6 +84,13 @@
         "id": "digital-channel-bj",
         "name": "Digital Channel",
         "country": "bj",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "la-tremenda-tv-pe",
+        "name": "La Tremenda TV",
+        "country": "pe",
         "record": "approved",
         "kind": "awaiting-first-check"
       }

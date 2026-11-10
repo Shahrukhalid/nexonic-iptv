@@ -13,9 +13,9 @@
 | Published channels | 557 |
 | In verified playlist | 487 |
 | Quarantined | 164 |
-| Excluded approved records | 198 |
+| Excluded approved records | 199 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 2 |
+| New candidates discovered (not published) | 3 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,28 +63,29 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 602 |
+| admitted | 603 |
 | aggregator-host | 978 |
 | already-curated | 477 |
 | closed | 92 |
-| excluded-category | 1171 |
-| host-not-owned-by-broadcaster | 7072 |
+| excluded-category | 1172 |
+| host-not-owned-by-broadcaster | 7076 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
 | needs-special-headers | 1150 |
 | no-database-entry | 2096 |
 | nsfw-or-blocklisted | 3 |
 | sanctions-exclusion | 608 |
-| streams | 18612 |
-| subscription-service | 105 |
-| url-policy | 4185 |
+| streams | 18615 |
+| subscription-service | 107 |
+| url-policy | 4180 |
 
-## New candidates discovered (not published) (2)
+## New candidates discovered (not published) (3)
 
 | Channel | Country | Detail |
 |---|---|---|
 | Channel 7 (`channel-7-th`) | th | record: approved, kind: awaiting-first-check |
 | Digital Channel (`digital-channel-bj`) | bj | record: approved, kind: awaiting-first-check |
+| La Tremenda TV (`la-tremenda-tv-pe`) | pe | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (9)
 
