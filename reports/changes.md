@@ -13,9 +13,9 @@
 | Published channels | 557 |
 | In verified playlist | 487 |
 | Quarantined | 164 |
-| Excluded approved records | 199 |
+| Excluded approved records | 200 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 3 |
+| New candidates discovered (not published) | 4 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,26 +63,27 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 978 |
-| already-curated | 477 |
+| admitted | 604 |
+| aggregator-host | 979 |
+| already-curated | 473 |
 | closed | 92 |
-| excluded-category | 1172 |
-| host-not-owned-by-broadcaster | 7076 |
+| excluded-category | 1159 |
+| host-not-owned-by-broadcaster | 7055 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 1150 |
+| needs-special-headers | 1162 |
 | no-database-entry | 2096 |
 | nsfw-or-blocklisted | 3 |
 | sanctions-exclusion | 608 |
-| streams | 18615 |
+| streams | 18483 |
 | subscription-service | 107 |
-| url-policy | 4180 |
+| url-policy | 4072 |
 
-## New candidates discovered (not published) (3)
+## New candidates discovered (not published) (4)
 
 | Channel | Country | Detail |
 |---|---|---|
+| America Internacional (`america-internacional-pe`) | pe | record: approved, kind: awaiting-first-check |
 | Channel 7 (`channel-7-th`) | th | record: approved, kind: awaiting-first-check |
 | Digital Channel (`digital-channel-bj`) | bj | record: approved, kind: awaiting-first-check |
 | La Tremenda TV (`la-tremenda-tv-pe`) | pe | record: approved, kind: awaiting-first-check |

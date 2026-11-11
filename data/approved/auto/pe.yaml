@@ -1,6 +1,44 @@
 # Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
 # check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
 channels:
+- id: america-internacional-pe
+  name: America Internacional
+  alt_names:
+  - América Internacional
+  broadcaster: America Multimedia
+  country: pe
+  languages:
+  - es
+  categories:
+  - general
+  website: https://tvgo.americatv.com.pe/
+  stream:
+    url: https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/pe.m3u
+    evidence_url: https://tvgo.americatv.com.pe/
+    evidence_summary: 'Automated owner-domain match: stream host api-ott.americatv.com.pe is on the broadcaster''s domain
+      americatv.com.pe. Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: AmericaInternacional.pe@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-11'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-11'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: eco-television-pe
   name: ECO Television
   alt_names:
