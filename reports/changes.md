@@ -13,9 +13,9 @@
 | Published channels | 557 |
 | In verified playlist | 487 |
 | Quarantined | 164 |
-| Excluded approved records | 200 |
+| Excluded approved records | 202 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 4 |
+| New candidates discovered (not published) | 6 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -35,7 +35,7 @@ Tiers are published separately. Community streams are not limited to the broadca
 | Community: untested | 432 | 0 | 432 |
 | Free VOD (items) | 2023 | n/a | n/a |
 
-Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0; held back after a failed check: 2947; verified means worked at the latest check within 7 days.
+Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0; held back after a failed check: 2946; verified means worked at the latest check within 7 days.
 
 ## Lifecycle of published channels
 
@@ -63,30 +63,32 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 604 |
-| aggregator-host | 979 |
+| admitted | 606 |
+| aggregator-host | 1001 |
 | already-curated | 473 |
 | closed | 92 |
-| excluded-category | 1159 |
-| host-not-owned-by-broadcaster | 7055 |
+| excluded-category | 1178 |
+| host-not-owned-by-broadcaster | 7136 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 1162 |
-| no-database-entry | 2096 |
+| needs-special-headers | 1155 |
+| no-database-entry | 2092 |
 | nsfw-or-blocklisted | 3 |
-| sanctions-exclusion | 608 |
-| streams | 18483 |
+| sanctions-exclusion | 610 |
+| streams | 18605 |
 | subscription-service | 107 |
-| url-policy | 4072 |
+| url-policy | 4078 |
 
-## New candidates discovered (not published) (4)
+## New candidates discovered (not published) (6)
 
 | Channel | Country | Detail |
 |---|---|---|
 | America Internacional (`america-internacional-pe`) | pe | record: approved, kind: awaiting-first-check |
 | Channel 7 (`channel-7-th`) | th | record: approved, kind: awaiting-first-check |
+| Chardikla Time TV (`chardikla-time-tv-in`) | in | record: approved, kind: awaiting-first-check |
 | Digital Channel (`digital-channel-bj`) | bj | record: approved, kind: awaiting-first-check |
 | La Tremenda TV (`la-tremenda-tv-pe`) | pe | record: approved, kind: awaiting-first-check |
+| Raj Pariwar (`raj-pariwar-in`) | in | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (9)
 

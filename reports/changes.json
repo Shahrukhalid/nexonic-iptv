@@ -6,11 +6,11 @@
   "counts": {
     "published": 557,
     "verified_playlist": 487,
-    "excluded": 200,
+    "excluded": 202,
     "pending_authorization": 43,
     "quarantined": 164,
     "duplicates_excluded_total": 0,
-    "new_candidates": 4,
+    "new_candidates": 6,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
@@ -44,21 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 604,
-    "aggregator-host": 979,
+    "admitted": 606,
+    "aggregator-host": 1001,
     "already-curated": 473,
     "closed": 92,
-    "excluded-category": 1159,
-    "host-not-owned-by-broadcaster": 7055,
+    "excluded-category": 1178,
+    "host-not-owned-by-broadcaster": 7136,
     "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 1162,
-    "no-database-entry": 2096,
+    "needs-special-headers": 1155,
+    "no-database-entry": 2092,
     "nsfw-or-blocklisted": 3,
-    "sanctions-exclusion": 608,
-    "streams": 18483,
+    "sanctions-exclusion": 610,
+    "streams": 18605,
     "subscription-service": 107,
-    "url-policy": 4072
+    "url-policy": 4078
   },
   "integrity": {
     "ok": true,
@@ -88,6 +88,13 @@
         "kind": "awaiting-first-check"
       },
       {
+        "id": "chardikla-time-tv-in",
+        "name": "Chardikla Time TV",
+        "country": "in",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
         "id": "digital-channel-bj",
         "name": "Digital Channel",
         "country": "bj",
@@ -98,6 +105,13 @@
         "id": "la-tremenda-tv-pe",
         "name": "La Tremenda TV",
         "country": "pe",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "raj-pariwar-in",
+        "name": "Raj Pariwar",
+        "country": "in",
         "record": "approved",
         "kind": "awaiting-first-check"
       }
@@ -248,7 +262,7 @@
       "published": 4270,
       "verified": 3838,
       "untested": 432,
-      "held_back_after_failed_check": 2947,
+      "held_back_after_failed_check": 2946,
       "never_checked": 0,
       "catalog_streams": 7218,
       "catalog_built_at": "2026-11-05T08:38:38Z",
@@ -260,11 +274,11 @@
         "invalid": 1193,
         "restricted": 176,
         "unknown": 188,
-        "unreachable": 1747,
+        "unreachable": 1746,
         "working": 3175
       },
       "removed_at_generation": {
-        "official-duplicate": 1
+        "official-duplicate": 2
       },
       "top_countries": [
         {

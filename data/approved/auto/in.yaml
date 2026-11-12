@@ -76,6 +76,43 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: chardikla-time-tv-in
+  name: Chardikla Time TV
+  alt_names: []
+  broadcaster: Charhdikala Media Group
+  country: in
+  languages:
+  - pa
+  categories:
+  - news
+  website: https://timetv.news/live-tv/
+  stream:
+    url: https://chardiklatimetv.akamaized.net/chardiklatimetv/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: https://timetv.news/live-tv/
+    evidence_summary: 'Automated owner-domain match: CDN hostname chardiklatimetv.akamaized.net is named for the broadcaster''s
+      domain ''timetv'' (timetv.news). Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: ChardiklaTimeTV.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-12'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-12'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: epic-bharat-in
   name: Epic Bharat
   alt_names:
@@ -297,6 +334,43 @@ channels:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
     reviewed_at: '2026-10-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
+- id: raj-pariwar-in
+  name: Raj Pariwar
+  alt_names: []
+  broadcaster: Raj Television Network
+  country: in
+  languages:
+  - hi
+  categories:
+  - news
+  website: http://www.rajtvnet.in/
+  stream:
+    url: https://livestream.rajtvnet.in/hlslive/Admin/px08241089/live/Raj_Pariwar/master_1.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
+    evidence_url: http://www.rajtvnet.in/
+    evidence_summary: 'Automated owner-domain match: stream host livestream.rajtvnet.in is on the broadcaster''s domain rajtvnet.in.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: RajPariwar.in@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-12'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-12'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

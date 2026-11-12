@@ -117,7 +117,7 @@ channel data. Do not edit them by hand.
 | Languages | 91 |
 | Working at the latest check (`verified.m3u`) | 4325 |
 | Waiting for a check (`playlists/community/untested.m3u`) | 432 |
-| Held back after a failed check (retried automatically) | 2947 |
+| Held back after a failed check (retried automatically) | 2946 |
 | Free movies and series (VOD) | 2023 |
 | Latest check (UTC) | 2026-11-06T00:23:20Z |
 
