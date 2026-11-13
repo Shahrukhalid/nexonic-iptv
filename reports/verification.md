@@ -3,14 +3,14 @@
 - Run: `run-20261106T001659Z`
 - Started: 2026-11-06T00:16:59Z (UTC) · Finished: 2026-11-06T00:23:11Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 753
+- Channels checked: 750
 
 Results describe reachability **from the checker's network location at that time** only.
 
 | Status | Count |
 |---|---:|
 | `AUTH_REQUIRED` | 2 |
-| `GEO_RESTRICTED` | 62 |
+| `GEO_RESTRICTED` | 59 |
 | `INVALID_STREAM` | 10 |
 | `TIMEOUT` | 29 |
 | `UNAVAILABLE` | 156 |
@@ -74,9 +74,6 @@ Results describe reachability **from the checker's network location at that time
 | Alcarria TV | `VERIFIED_WORKING` | 5 | 200 | 794 ms | 2026-11-06T00:17:56Z | 576p |
 | alpha Cinema | `UNAVAILABLE` | 1 | – | – | 2026-11-06T00:21:05Z | DNS resolution failed for live.15plusmg.ru: [Errno -2] Name or service not known |
 | AlternaTV | `VERIFIED_WORKING` | 5 | 200 | 773 ms | 2026-11-06T00:17:01Z |  |
-| An Giang TV 1 | `GEO_RESTRICTED` | 2 | 403 | 1081 ms | 2026-11-06T00:20:18Z | HTTP 403 for a stream known or hinted to be region-limited |
-| An Giang TV 2 | `GEO_RESTRICTED` | 2 | 403 | 804 ms | 2026-11-06T00:21:11Z | HTTP 403 for a stream known or hinted to be region-limited |
-| An Giang TV 3 | `GEO_RESTRICTED` | 2 | 403 | 824 ms | 2026-11-06T00:21:26Z | HTTP 403 for a stream known or hinted to be region-limited |
 | Anand TV | `VERIFIED_WORKING` | 5 | 200 | 976 ms | 2026-11-06T00:20:02Z | 720p |
 | APA Tv | `VERIFIED_WORKING` | 5 | 200 | 418 ms | 2026-11-06T00:17:05Z | 1080p |
 | Apsara TV11 | `UNAVAILABLE` | 2 | – | – | 2026-11-06T00:18:38Z | connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed |

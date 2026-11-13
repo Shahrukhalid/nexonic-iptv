@@ -6,7 +6,7 @@
   "counts": {
     "published": 557,
     "verified_playlist": 487,
-    "excluded": 202,
+    "excluded": 199,
     "pending_authorization": 43,
     "quarantined": 164,
     "duplicates_excluded_total": 0,
@@ -31,10 +31,10 @@
     "started_at": "2026-11-06T00:16:59Z",
     "finished_at": "2026-11-06T00:23:11Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 750,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
       "UNAVAILABLE": 156,
@@ -44,21 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 606,
+    "admitted": 603,
     "aggregator-host": 1001,
     "already-curated": 473,
-    "closed": 92,
+    "closed": 91,
     "excluded-category": 1178,
-    "host-not-owned-by-broadcaster": 7136,
+    "host-not-owned-by-broadcaster": 7144,
     "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 1155,
+    "needs-special-headers": 1151,
     "no-database-entry": 2092,
-    "nsfw-or-blocklisted": 3,
+    "nsfw-or-blocklisted": 4,
     "sanctions-exclusion": 610,
-    "streams": 18605,
-    "subscription-service": 107,
-    "url-policy": 4078
+    "streams": 18622,
+    "subscription-service": 110,
+    "url-policy": 4090
   },
   "integrity": {
     "ok": true,

@@ -13,7 +13,7 @@
 | Published channels | 557 |
 | In verified playlist | 487 |
 | Quarantined | 164 |
-| Excluded approved records | 202 |
+| Excluded approved records | 199 |
 | Pending authorization | 43 |
 | New candidates discovered (not published) | 6 |
 | New channels published | 0 |
@@ -63,21 +63,21 @@ Community catalogue: 7218 streams (built 2026-11-05T08:38:38Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 606 |
+| admitted | 603 |
 | aggregator-host | 1001 |
 | already-curated | 473 |
-| closed | 92 |
+| closed | 91 |
 | excluded-category | 1178 |
-| host-not-owned-by-broadcaster | 7136 |
+| host-not-owned-by-broadcaster | 7144 |
 | language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 1155 |
+| needs-special-headers | 1151 |
 | no-database-entry | 2092 |
-| nsfw-or-blocklisted | 3 |
+| nsfw-or-blocklisted | 4 |
 | sanctions-exclusion | 610 |
-| streams | 18605 |
-| subscription-service | 107 |
-| url-policy | 4078 |
+| streams | 18622 |
+| subscription-service | 110 |
+| url-policy | 4090 |
 
 ## New candidates discovered (not published) (6)
 

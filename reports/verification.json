@@ -4,10 +4,10 @@
     "started_at": "2026-11-06T00:16:59Z",
     "finished_at": "2026-11-06T00:23:11Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 753,
+    "checked": 750,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 62,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
       "UNAVAILABLE": 156,
@@ -1235,51 +1235,6 @@
           "target_duration": 13.0
         },
         "method": "httpx+ffprobe",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "an-giang-tv-1-vn",
-        "status": "GEO_RESTRICTED",
-        "checked_at": "2026-11-06T00:20:18Z",
-        "level": 2,
-        "http_status": 403,
-        "latency_ms": 1081,
-        "error": "HTTP 403 for a stream known or hinted to be region-limited",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261106T001659Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "an-giang-tv-2-vn",
-        "status": "GEO_RESTRICTED",
-        "checked_at": "2026-11-06T00:21:11Z",
-        "level": 2,
-        "http_status": 403,
-        "latency_ms": 804,
-        "error": "HTTP 403 for a stream known or hinted to be region-limited",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261106T001659Z"
-        },
-        "method": "httpx",
-        "location": "github-actions (Linux, GitHub-hosted runner)"
-      },
-      {
-        "channel_id": "an-giang-tv-3-vn",
-        "status": "GEO_RESTRICTED",
-        "checked_at": "2026-11-06T00:21:26Z",
-        "level": 2,
-        "http_status": 403,
-        "latency_ms": 824,
-        "error": "HTTP 403 for a stream known or hinted to be region-limited",
-        "media_readable": null,
-        "details": {
-          "run_id": "run-20261106T001659Z"
-        },
-        "method": "httpx",
         "location": "github-actions (Linux, GitHub-hosted runner)"
       },
       {
