@@ -3,6 +3,8 @@
 https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8
 #EXTINF:-1 tvg-id="Matele.be@SD" tvg-name="Matele" tvg-country="BE" tvg-language="French" group-title="Belgium",Matele
 https://live.matele.be/hls/live.m3u8
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-name="RTNB Divertissement" tvg-country="BI" tvg-language="English;French;Swahili" group-title="Burundi",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
 #EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-name="RTNB TV" tvg-country="BI" tvg-language="French;Swahili;English" group-title="Burundi",RTNB TV
 https://tv1-stream.rtnb.bi/hls/master.m3u8
 #EXTINF:-1 tvg-id="DigitalChannel.bj@SD" tvg-name="Digital Channel" tvg-country="BJ" tvg-language="French" group-title="Benin",Digital Channel
@@ -11,6 +13,8 @@ https://stream.digitalchannel.bj/live/ds_64de185c18c9d786a760f01e0e592348.m3u8
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Savoirmedia.ca@CFTUDT" tvg-name="Savoir media" tvg-country="CA" tvg-language="French" group-title="Canada",Savoir media
 https://hls.savoir.media/live/stream.m3u8
+#EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="LauraDaveMediaTV.cm@SD" tvg-name="Laura Dave Media TV" tvg-country="CM" tvg-language="French" group-title="Cameroon",Laura Dave Media TV
 https://streaming.lauradavemedia.com/ldm/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" tvg-name="Africanews Français" tvg-country="FR" tvg-language="French" group-title="France",Africanews Français
@@ -19,8 +23,6 @@ https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsFrench.fr@SD" tvg-name="Euronews Français" tvg-country="FR" tvg-language="French" group-title="France",Euronews Français
 https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-name="Le Figaro TV Ile-de-France" tvg-country="FR" tvg-language="French" group-title="France",Le Figaro TV Ile-de-France
 https://static.lefigaro.fr/secom/tnt.m3u8
 #EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-name="Trace Africa" tvg-country="FR" tvg-language="English;French" group-title="France",Trace Africa
@@ -49,6 +51,8 @@ https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
 https://ott.tv5monde.com/Content/HLS/Live/channel(style1)/variant.m3u8
 #EXTINF:-1 tvg-id="TMA.gp@SD" tvg-name="TMA" tvg-country="GP" tvg-language="French" group-title="Guadeloupe",TMA
 http://hls.tmacaraibes.com/live/index.m3u8
+#EXTINF:-1 tvg-id="RTLZwee.lu@SD" tvg-name="RTL Zwee" tvg-country="LU" tvg-language="Luxembourgish;French;German" group-title="Luxembourg",RTL Zwee
+https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-name="Monaco Info" tvg-country="MC" tvg-language="French" group-title="Monaco",Monaco Info
 https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-name="Zitata TV" tvg-country="MQ" tvg-language="French" group-title="Martinique",Zitata TV

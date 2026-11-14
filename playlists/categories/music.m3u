@@ -1,14 +1,30 @@
 #EXTM3U x-nexonic-playlist="Music"
 #EXTINF:-1 tvg-id="AlbKanaleMusicTV.al@HD" tvg-name="AlbKanale Music TV" tvg-country="AL" tvg-language="Albanian" group-title="Albania",AlbKanale Music TV
 https://albportal.net/albkanalemusic.m3u8
-#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
-https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="FunVision.be@SD" tvg-name="Fun Vision" tvg-country="BE" tvg-language="French" group-title="Belgium",Fun Vision
 https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8
 #EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-name="City TV" tvg-country="BG" tvg-language="Bulgarian" group-title="Bulgaria",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 #EXTINF:-1 tvg-id="PamirTV.ca@SD" tvg-name="Pamir TV" tvg-country="CA" tvg-language="Pashto;Tajik;English" group-title="Canada",Pamir TV
 http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+#EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayDJAZZ.ca@SD" tvg-name="Stingray DJAZZ" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray DJAZZ
+https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayEverything80s.ca@SD" tvg-name="Stingray Everything '80s" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Everything '80s
+https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayHitList.ca@SD" tvg-name="Stingray Hit List" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Hit List
+https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayHolidayscapes.ca@HD" tvg-name="Stingray Holidayscapes" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Holidayscapes
+https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-name="Stingray Karaoke" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Karaoke
+https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayNaturescape.ca@SD" tvg-name="Stingray Naturescape" tvg-country="CA" tvg-language="English;Turkish" group-title="Canada",Stingray Naturescape
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingrayNothinBut90s.ca@SD" tvg-name="Stingray Nothin' But 90s" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Nothin' But 90s
+https://lotus.stingray.com/manifest/ose-142ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:-1 tvg-id="StingraySmoothJazz.ca@SD" tvg-name="Stingray Smooth Jazz" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Smooth Jazz
+https://lotus.stingray.com/manifest/ose-140ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingraySoulStorm.ca@SD" tvg-name="Stingray Soul Storm" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Soul Storm
 https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayTheSpa.ca@SD" tvg-name="Stingray The Spa" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray The Spa
@@ -315,6 +331,8 @@ https://sonhls.persiana.live/hls/stream.m3u8
 https://noshls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaVibe.fr@HD" tvg-name="Persiana Vibe" tvg-country="FR" tvg-language="Persian" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Persiana Vibe
 https://raphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="QwestTV.fr@SD" tvg-name="Qwest TV" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/DjgNNHK.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Qwest TV
+https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr@SD" tvg-name="Qwest TV Jazz & Beyond" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/89yWH5L.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Qwest TV Jazz & Beyond
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MadrasFMTV.gp@SD" tvg-name="Madras FM TV" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/spGg1CZ.png" group-title="Guadeloupe" x-tier="community" x-status="verified" x-quality="1080p",Madras FM TV
@@ -657,6 +675,8 @@ https://lightning-now70s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning
 https://samsunguk-lightning-now80s-samsunguk-n908q.amagi.tv/playlist/samsunguk-lightning-now80s-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk@Poland" tvg-name="Now 80s" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/YyPnMeB.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",Now 80s
 https://lightning-now80s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now80s-rakuten/CDN/playlist.m3u8
+#EXTINF:-1 tvg-id="Now90s00s.uk@Poland" tvg-name="Now 90s00s" tvg-country="UK" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/660c209e19ca71000846cf38/colorLogoPNG.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",Now 90s00s
+https://amg01076-amg01076c19-samsung-gb-6683.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NOWRock.uk@Poland" tvg-name="NOW Rock" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/GuM4GnX.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",NOW Rock
 https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="NOWRock.uk@SD" tvg-name="NOW Rock" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/GuM4GnX.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",NOW Rock

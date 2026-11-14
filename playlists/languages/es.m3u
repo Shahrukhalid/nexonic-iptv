@@ -1,6 +1,4 @@
 #EXTM3U x-nexonic-playlist="Spanish"
-#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
-https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="CanalPulpoTV.ar@SD" tvg-name="Canal Pulpo TV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Canal Pulpo TV
 https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 #EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD" tvg-name="Itel TV Canal 2" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Itel TV Canal 2
@@ -9,6 +7,8 @@ https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-name="T5 Satelital" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
+#EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
+https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="RadioSuyaiTV.cl@HD" tvg-name="Radio Suyai TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Radio Suyai TV
 https://trun.suyaitv.cl/memfs/d0835165-7fb4-4982-8336-84a7f4522908.m3u8
 #EXTINF:-1 tvg-id="SoloTV.cl@HD" tvg-name="Solo TV" tvg-country="CL" tvg-language="Spanish" group-title="Chile",Solo TV
@@ -25,8 +25,6 @@ https://stream.wapptv.cl/video/index.m3u8
 https://canal.mediaserver.com.co/live/buenisimatv.m3u8
 #EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-name="Canal Dos" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Canal Dos
 https://stream2.micanal2.tv/hls/canal2.m3u8
-#EXTINF:-1 tvg-id="KaluTV.co@SD" tvg-name="Kalu TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Kalu TV
-https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 #EXTINF:-1 tvg-id="MasNorteTV.co@SD" tvg-name="Mas Norte TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Mas Norte TV
 https://live.arnoproducciones.com/hls/norte.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
@@ -45,8 +43,6 @@ https://stream.canaldelsol.com/sol26/live_1080.m3u8
 https://stream.elseis.do/canal6/live_1080.m3u8
 #EXTINF:-1 tvg-id="GiTelevision.do@SD" tvg-name="Gi Television" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Gi Television
 https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
-#EXTINF:-1 tvg-id="LarivisionTV.do@HD" tvg-name="Larivision TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Larivision TV
-https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es@SD" tvg-name="Alcarria TV" tvg-country="ES" tvg-language="Spanish" group-title="Spain",Alcarria TV
@@ -83,8 +79,6 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Español" tvg-country="FR" tvg-language="Spanish" group-title="France",Euronews Español
 https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-country="FR" tvg-language="Spanish" group-title="France",France 24 Español
-https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="SolTV.gq@SD" tvg-name="SolTV" tvg-country="GQ" tvg-language="Spanish" group-title="Equatorial Guinea",SolTV
 https://stream.solmediaeg.com/soltv/soltv.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
@@ -99,12 +93,8 @@ https://www.idealfm104-7.com/hls/0/stream.m3u8
 https://teleceiba.com/stream/tlcb720.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
-#EXTINF:-1 tvg-id="Capital21.mx@SD" tvg-name="Capital 21" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Capital 21
-https://video.cdmx.gob.mx/redes/stream.m3u8
 #EXTINF:-1 tvg-id="AmericaInternacional.pe@SD" tvg-name="America Internacional" tvg-country="PE" tvg-language="Spanish" group-title="Peru",America Internacional
 https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
-#EXTINF:-1 tvg-id="ECOTelevision.pe@SD" tvg-name="ECO Television" tvg-country="PE" tvg-language="Spanish" group-title="Peru",ECO Television
-https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="HuachoPeruTV.pe@SD" tvg-name="Huacho Peru TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",Huacho Peru TV
 https://tv.huachotv.com/stream.m3u8
 #EXTINF:-1 tvg-id="LaTremendaTV.pe@TDT62" tvg-name="La Tremenda TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",La Tremenda TV

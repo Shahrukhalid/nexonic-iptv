@@ -13,14 +13,10 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="RTRSTV.ba@SD" tvg-name="RTRS TV" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS TV
 https://uzivo.rtrs.tv/tv/live/index.m3u8
-#EXTINF:-1 tvg-id="RTVZenica.ba@SD" tvg-name="RTV Zenica" tvg-country="BA" tvg-language="Bosnian" group-title="Bosnia and Herzegovina",RTV Zenica
-https://stream.rtvze.ba/live/123/123.m3u8
 #EXTINF:-1 tvg-id="TVCBenin.bj@SD" tvg-name="TVC Benin" tvg-country="BJ" tvg-language="French" group-title="Benin",TVC Benin
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-name="Canal Gov" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal Gov
 https://canalgov-stream.ebc.com.br/index.m3u8
-#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
-https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" tvg-name="TV Brasil" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Brasil
 https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-name="TVLatinaSat" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVLatinaSat
@@ -33,6 +29,8 @@ https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m
 https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
 #EXTINF:-1 tvg-id="HamdardTV.ca@SD" tvg-name="Hamdard TV" tvg-country="CA" tvg-language="Punjabi" group-title="Canada",Hamdard TV
 https://tv.hamdardtv.com/hamdard/index.m3u8
+#EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-name="Stingray Karaoke" tvg-country="CA" tvg-language="English" group-title="Canada",Stingray Karaoke
+https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="TVSenado.cl@SD" tvg-name="TV Senado" tvg-country="CL" tvg-language="Spanish" group-title="Chile",TV Senado
 https://janus-tv-ply.senado.cl/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="LauraDaveMediaTV.cm@SD" tvg-name="Laura Dave Media TV" tvg-country="CM" tvg-language="French" group-title="Cameroon",Laura Dave Media TV
@@ -43,8 +41,6 @@ https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 #EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-name="Canal Dos" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Canal Dos
 https://stream2.micanal2.tv/hls/canal2.m3u8
-#EXTINF:-1 tvg-id="KaluTV.co@SD" tvg-name="Kalu TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Kalu TV
-https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 #EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" tvg-name="Parranda Vallenata" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Parranda Vallenata
 https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
 #EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-name="Supermusica TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Supermusica TV
@@ -61,8 +57,6 @@ https://rtmp.radiobozsike.com/hls/stream1.m3u8
 https://live.yoltv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GiTelevision.do@SD" tvg-name="Gi Television" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Gi Television
 https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
-#EXTINF:-1 tvg-id="LarivisionTV.do@HD" tvg-name="Larivision TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Larivision TV
-https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="VantageClassic.ee@HD" tvg-name="Vantage Classic" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Classic
 https://hls.vantagetv.ee/vclassic_stream/index.m3u8
 #EXTINF:-1 tvg-id="VantageDance.ee@HD" tvg-name="Vantage Dance" tvg-country="EE" tvg-language="English" group-title="Estonia",Vantage Dance
@@ -199,8 +193,6 @@ https://k100streymi.mbl.is/beint/k100/index.m3u8
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="ARDBTV.kh@SD" tvg-name="ARDB TV" tvg-country="KH" tvg-language="Khmer" group-title="Cambodia",ARDB TV
 https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
-#EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-name="EBC General Education" tvg-country="KH" tvg-language="Khmer" group-title="Cambodia",EBC General Education
-https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
 #EXTINF:-1 tvg-id="ABN.kr@SD" tvg-name="ABN" tvg-country="KR" tvg-language="Korean" group-title="South Korea",ABN
 https://vod2.abn.co.kr/IPHONE/abn.m3u8
 #EXTINF:-1 tvg-id="HLCQDTV.kr@SD" tvg-name="HLCQ-DTV" tvg-country="KR" tvg-language="Korean" group-title="South Korea",HLCQ-DTV
@@ -209,8 +201,6 @@ https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8
 https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HLDPDTV.kr@SD" tvg-name="HLDP-DTV" tvg-country="KR" tvg-language="Korean" group-title="South Korea",HLDP-DTV
 https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
-#EXTINF:-1 tvg-id="Ulytau.kz@SD" tvg-name="Ulytau" tvg-country="KZ" tvg-language="Kazakh;Russian" group-title="Kazakhstan",Ulytau
-https://ulytau.tv/hls/master.m3u8
 #EXTINF:-1 tvg-id="LuxembourgGlobalRadioTV.lu@HD" tvg-name="Luxembourg Global Radio TV" tvg-country="LU" tvg-language="English" group-title="Luxembourg",Luxembourg Global Radio TV
 https://stream.globalradio.lu/lgr/index.m3u8
 #EXTINF:-1 tvg-id="TopEstradaTV.mk@SD" tvg-name="TopEstrada TV" tvg-country="MK" tvg-language="Albanian" group-title="North Macedonia",TopEstrada TV
@@ -231,8 +221,6 @@ https://stream.qmusic.nl/qmusic/videohls.m3u8
 https://stream.radio350.nl/hls/radio350.m3u8
 #EXTINF:-1 tvg-id="AmericaInternacional.pe@SD" tvg-name="America Internacional" tvg-country="PE" tvg-language="Spanish" group-title="Peru",America Internacional
 https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
-#EXTINF:-1 tvg-id="ECOTelevision.pe@SD" tvg-name="ECO Television" tvg-country="PE" tvg-language="Spanish" group-title="Peru",ECO Television
-https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="HuachoPeruTV.pe@SD" tvg-name="Huacho Peru TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",Huacho Peru TV
 https://tv.huachotv.com/stream.m3u8
 #EXTINF:-1 tvg-id="LaTremendaTV.pe@TDT62" tvg-name="La Tremenda TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",La Tremenda TV
@@ -1257,6 +1245,8 @@ https://mumt01.tangotv.in/O5aw8Zn3HOPECHANNELINDIA/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3HORNBILLTV/index.m3u8
 #EXTINF:-1 tvg-id="HosannaTV.in@Tamil" tvg-name="Hosanna TV" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/VYorU1L.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Hosanna TV
 https://asia.mslivestream.net/mslive/bfba54c5c96a6359e2da0ca35f4998af.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="HSTV.in@SD" tvg-name="HSTV" tvg-country="IN" tvg-language="Hindi;English" tvg-logo="https://ibb.co/Ng5nkX6F" group-title="India" x-tier="community" x-status="verified" x-quality="720p",HSTV
+https://live.castmaxcloud.com/live/hstv.m3u8
 #EXTINF:-1 tvg-id="IndiaAhead.in@SD" tvg-name="India Ahead" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/hBkTmf9.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",India Ahead
 https://mumt05.tangotv.in/87NeALx2INDIAAHEAD/index.m3u8
 #EXTINF:-1 tvg-id="IndiaTalkies.in@SD" tvg-name="India Talkies" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://papaji.freetvindia.com/media/FreeTV_India_Talkies.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",India Talkies
@@ -2763,6 +2753,8 @@ https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b
 https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch3/video.m3u8
 #EXTINF:-1 tvg-id="ThePeninsulaChannel.us@SD" tvg-name="The Peninsula Channel" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://i.imgur.com/Ybp6YKD.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",The Peninsula Channel
 https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch5/video.m3u8
+#EXTINF:-1 tvg-id="ThePetCollective.us@Australia" tvg-name="The Pet Collective (Australia)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",The Pet Collective (Australia)
+https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@India" tvg-name="The Pet Collective (India)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",The Pet Collective (India)
 https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us@Italy" tvg-name="The Pet Collective (Italy)" tvg-country="US" tvg-language="Italian" tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",The Pet Collective (Italy)

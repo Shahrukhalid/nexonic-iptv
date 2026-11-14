@@ -31,6 +31,8 @@ https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m
 https://tv.hamdardtv.com/hamdard/index.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-name="CCTV+ 1" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-name="CCTV+ 2" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 2
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-country="CN" tvg-language="English" group-title="China",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-id="DongguanComprehensiveNewsChannel.cn@SD" tvg-name="Dongguan Comprehensive News Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Dongguan Comprehensive News Channel
@@ -81,14 +83,6 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsGreek.fr@SD" tvg-name="Euronews Ελληνικά" tvg-country="FR" tvg-language="Greek" group-title="France",Euronews Ελληνικά
 https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic" tvg-country="FR" tvg-language="Arabic" group-title="France",France 24 Arabic
-https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English" tvg-country="FR" tvg-language="English" group-title="France",France 24 English
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Español" tvg-country="FR" tvg-language="Spanish" group-title="France",France 24 Español
-https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24 Français" tvg-country="FR" tvg-language="French" group-title="France",France 24 Français
-https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="PalitraNews.ge@SD" tvg-name="Palitra News" tvg-country="GE" tvg-language="Georgian" group-title="Georgia",Palitra News
 https://live.palitranews.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
@@ -165,8 +159,6 @@ https://live.dottotv.ro/index.m3u8
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-name="Govorit Moskva" tvg-country="RU" tvg-language="Russian" group-title="Russia",Govorit Moskva
 https://video.govoritmoskva.ru/rufm/index.m3u8
-#EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-name="Asharq News" tvg-country="SA" tvg-language="Arabic" group-title="Saudi Arabia",Asharq News
-https://live-news.asharq.com/asharq.m3u8
 #EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-name="Dabanga TV" tvg-country="SD" tvg-language="Arabic" group-title="Sudan",Dabanga TV
 https://hls.dabangasudan.org/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TopNews.th@SD" tvg-name="Top News" tvg-country="TH" tvg-language="Thai" group-title="Thailand",Top News
@@ -441,6 +433,8 @@ https://cdn.pishow.tv/ott/live/425/master.m3u8
 https://mumt04.tangotv.in/m18aqlK4CVRNEWS/index.m3u8
 #EXTINF:-1 tvg-id="D5ChannelPunjabi.in@SD" tvg-name="D5 Channel Punjabi" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://play-lh.googleusercontent.com/8zcsR5HWFk84RwYkA6r-OXvYzFtVBOmgnicCYMGXPAmMKEozaRQ9Idw4g2dljsIvZ5ES6r8G_lxs19IU9h-ADg" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",D5 Channel Punjabi
 https://d5channel.akamaized.net/D5Channel/master.m3u8
+#EXTINF:-1 tvg-id="DDMizoram.in@SD" tvg-name="DD Mizoram" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/I5zT1DG.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD Mizoram
+https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/index.m3u8
 #EXTINF:-1 tvg-id="DDNews.in@SD" tvg-name="DD News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s158254_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD News
 https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8
 #EXTINF:-1 tvg-id="DNN.in@SD" tvg-name="DNN" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/H5Kd0k6.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DNN

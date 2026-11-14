@@ -3,8 +3,6 @@
 https://tv.pointville.ag/hls/mystream.m3u8
 #EXTINF:-1 tvg-id="YerkirMedia.am@SD" tvg-name="Yerkir Media" tvg-country="AM" tvg-language="Armenian" group-title="Armenia",Yerkir Media
 http://yerkirmedia.am/yerkirmedia/live.m3u8
-#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
-https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="ItelTVCanal2.ar@SD" tvg-name="Itel TV Canal 2" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",Itel TV Canal 2
 https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-name="T5 Satelital" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",T5 Satelital
@@ -19,8 +17,6 @@ https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8
 https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="RTRSTV.ba@SD" tvg-name="RTRS TV" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS TV
 https://uzivo.rtrs.tv/tv/live/index.m3u8
-#EXTINF:-1 tvg-id="RTVZenica.ba@SD" tvg-name="RTV Zenica" tvg-country="BA" tvg-language="Bosnian" group-title="Bosnia and Herzegovina",RTV Zenica
-https://stream.rtvze.ba/live/123/123.m3u8
 #EXTINF:-1 tvg-id="Matele.be@SD" tvg-name="Matele" tvg-country="BE" tvg-language="French" group-title="Belgium",Matele
 https://live.matele.be/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-name="TV Spravedliva Bulgariya" tvg-country="BG" tvg-language="Bulgarian" group-title="Bulgaria",TV Spravedliva Bulgariya
@@ -67,8 +63,6 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-name="Canal Dos" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Canal Dos
 https://stream2.micanal2.tv/hls/canal2.m3u8
-#EXTINF:-1 tvg-id="KaluTV.co@SD" tvg-name="Kalu TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Kalu TV
-https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 #EXTINF:-1 tvg-id="MasNorteTV.co@SD" tvg-name="Mas Norte TV" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Mas Norte TV
 https://live.arnoproducciones.com/hls/norte.m3u8
 #EXTINF:-1 tvg-id="SenalColombia.co@SD" tvg-name="Señal Colombia" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Señal Colombia
@@ -119,8 +113,6 @@ https://drlivedr1hls.akamaized.net/hls/live/2113625/drlivedr1/master.m3u8
 https://stream.canaldelsol.com/sol26/live_1080.m3u8
 #EXTINF:-1 tvg-id="ElSeis6.do@SD" tvg-name="El Seis 6" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",El Seis 6
 https://stream.elseis.do/canal6/live_1080.m3u8
-#EXTINF:-1 tvg-id="LarivisionTV.do@HD" tvg-name="Larivision TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Larivision TV
-https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="ETV.ee@SD" tvg-name="ETV" tvg-country="EE" tvg-language="Estonian" group-title="Estonia",ETV
 https://sb.err.ee/live/etv.m3u8
 #EXTINF:-1 tvg-id="28kanala.es@SD" tvg-name="28 kanala" tvg-country="ES" tvg-language="Basque" group-title="Spain",28 kanala
@@ -205,10 +197,12 @@ https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
 https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
 #EXTINF:-1 tvg-id="TBSTV.kr@SD" tvg-name="TBS TV" tvg-country="KR" tvg-language="Korean" group-title="South Korea",TBS TV
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Ulytau.kz@SD" tvg-name="Ulytau" tvg-country="KZ" tvg-language="Kazakh;Russian" group-title="Kazakhstan",Ulytau
-https://ulytau.tv/hls/master.m3u8
 #EXTINF:-1 tvg-id="LRTLituanica.lt@SD" tvg-name="LRT Lituanica" tvg-country="LT" tvg-language="Lithuanian" group-title="Lithuania",LRT Lituanica
 https://stream-live.lrt.lt/lituanica/master.m3u8
+#EXTINF:-1 tvg-id="RTLTeleLetzebuerg.lu@SD" tvg-name="RTL Tele Letzebuerg" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Tele Letzebuerg
+https://live-edge.rtl.lu/channel1/smil:channel1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTLZwee.lu@SD" tvg-name="RTL Zwee" tvg-country="LU" tvg-language="Luxembourgish;French;German" group-title="Luxembourg",RTL Zwee
+https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-id="LTV7.lv@SD" tvg-name="LTV7" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",LTV7
 https://lsm.eu.cdns-redge.media/livehls/o2/lsm-live/live/ltv7_pasaule/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="VidusdaugavasTelevizija.lv@SD" tvg-name="Vidusdaugavas Televizija" tvg-country="LV" tvg-language="Latvian" group-title="Latvia",Vidusdaugavas Televizija
@@ -257,8 +251,6 @@ https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 https://stream.wairarapatv.co.nz/Broadband_High/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaInternacional.pe@SD" tvg-name="America Internacional" tvg-country="PE" tvg-language="Spanish" group-title="Peru",America Internacional
 https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
-#EXTINF:-1 tvg-id="ECOTelevision.pe@SD" tvg-name="ECO Television" tvg-country="PE" tvg-language="Spanish" group-title="Peru",ECO Television
-https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="HuachoPeruTV.pe@SD" tvg-name="Huacho Peru TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",Huacho Peru TV
 https://tv.huachotv.com/stream.m3u8
 #EXTINF:-1 tvg-id="LaTremendaTV.pe@TDT62" tvg-name="La Tremenda TV" tvg-country="PE" tvg-language="Spanish" group-title="Peru",La Tremenda TV
@@ -1519,6 +1511,8 @@ https://cdn.pishow.tv/ott/live/17/master.m3u8
 https://cdn.pishow.tv/ott/live/21/master.m3u8
 #EXTINF:-1 tvg-id="Fast1.in@SD" tvg-name="Fast1" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://papaji.freetvindia.com/media/channels/fast1.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Fast1
 https://samitaorigin.tangotv.in/FAST1/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="HSTV.in@SD" tvg-name="HSTV" tvg-country="IN" tvg-language="Hindi;English" tvg-logo="https://ibb.co/Ng5nkX6F" group-title="India" x-tier="community" x-status="verified" x-quality="720p",HSTV
+https://live.castmaxcloud.com/live/hstv.m3u8
 #EXTINF:-1 tvg-id="JeevanTV.in@SD" tvg-name="Jeevan TV" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/zKDrzDq.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Jeevan TV
 https://cdn.pishow.tv/ott/live/1467/master.m3u8
 #EXTINF:-1 tvg-id="Jonack.in@SD" tvg-name="Jonack" tvg-country="IN" tvg-language="Assamese" tvg-logo="https://dtil.tmsimg.com/assets/s143238_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Jonack
@@ -2047,6 +2041,8 @@ https://d1893oi5c6e5u0.cloudfront.net/nlpo/clr-nlpo/rpltvwoerden/index.m3u8
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
 #EXTINF:-1 tvg-id="RTVHorizon.nl@SD" tvg-name="RTV Horizon" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/wnRsI8B.png" group-title="Netherlands" x-tier="community" x-status="verified" x-quality="720p",RTV Horizon
 https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8
+#EXTINF:-1 tvg-id="RTVNoordExtra.nl@SD" tvg-name="RTV Noord Extra" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/T0UvltB.png" group-title="Netherlands" x-tier="community" x-status="verified" x-quality="1080p",RTV Noord Extra
+https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
 #EXTINF:-1 tvg-id="RTVOost.nl@SD" tvg-name="RTV Oost" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/nTR6q9H.png" group-title="Netherlands" x-tier="community" x-status="verified" x-quality="1080p",RTV Oost
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
 #EXTINF:-1 tvg-id="RTVPurmerend.nl@SD" tvg-name="RTV Purmerend" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/dLKSpqz.png" group-title="Netherlands" x-tier="community" x-status="verified" x-quality="720p",RTV Purmerend

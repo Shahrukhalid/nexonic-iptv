@@ -1,8 +1,10 @@
 #EXTM3U x-nexonic-playlist="Measured SD (below 720p)"
-#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
-https://tv.alterna.ar/stream/hls/live.m3u8
+#EXTINF:-1 tvg-id="RTNBDivertissement.bi@SD" tvg-name="RTNB Divertissement" tvg-country="BI" tvg-language="English;French;Swahili" group-title="Burundi",RTNB Divertissement
+https://tv2-stream.rtnb.bi/hls/master.m3u8
 #EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-name="RTNB TV" tvg-country="BI" tvg-language="French;Swahili;English" group-title="Burundi",RTNB TV
 https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-name="TV Cultura" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Cultura
 https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
 #EXTINF:-1 tvg-id="CityNewsEdmonton.ca@SD" tvg-name="CityNews Edmonton" tvg-country="CA" tvg-language="English" group-title="Canada",CityNews Edmonton
@@ -13,6 +15,8 @@ https://hls.savoir.media/live/stream.m3u8
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-name="CCTV+ 1" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-name="CCTV+ 2" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 2
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn@SD" tvg-name="Jiangsu Public & News Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Jiangsu Public & News Channel
 https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 tvg-id="SipingTV.cn@SD" tvg-name="Siping TV" tvg-country="CN" tvg-language="Chinese" group-title="China",Siping TV
@@ -619,6 +623,8 @@ https://cdn.pishow.tv/ott/live/16/master.m3u8
 https://mumbai-edge.smartplaytv.in/DDKisan/index.m3u8
 #EXTINF:-1 tvg-id="DDMadhyaPradesh.in@SD" tvg-name="DD Madhya Pradesh" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD Madhya Pradesh
 https://mumbai-edge.smartplaytv.in/ddmadhyapradesh/index.m3u8
+#EXTINF:-1 tvg-id="DDMizoram.in@SD" tvg-name="DD Mizoram" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/I5zT1DG.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD Mizoram
+https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/index.m3u8
 #EXTINF:-1 tvg-id="DDNational.in@HD" tvg-name="DD National" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/MohlE5B.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD National
 https://mumbai-edge.smartplaytv.in/DDNational/index.m3u8
 #EXTINF:-1 tvg-id="DDNational.in@SD" tvg-name="DD National" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/MohlE5B.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD National

@@ -1,6 +1,4 @@
 #EXTM3U x-nexonic-playlist="Culture"
-#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-name="AlternaTV" tvg-country="AR" tvg-language="Spanish" group-title="Argentina",AlternaTV
-https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="ORFIII.at@HD" tvg-name="ORF III" tvg-country="AT" tvg-language="German" group-title="Austria",ORF III
 https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
 #EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-name="TV UFOP" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV UFOP
@@ -45,8 +43,6 @@ http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/pla
 https://abaitv-stream.qazcdn.com/abaitv/abaitv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
-#EXTINF:-1 tvg-id="Capital21.mx@SD" tvg-name="Capital 21" tvg-country="MX" tvg-language="Spanish" group-title="Mexico",Capital 21
-https://video.cdmx.gob.mx/redes/stream.m3u8
 #EXTINF:-1 tvg-id="JinTV.nl@SD" tvg-name="Jin TV" tvg-country="NL" tvg-language="Kurdish" group-title="Netherlands",Jin TV
 https://live.jintv.org/medialive/jintv.m3u8
 #EXTINF:-1 tvg-id="TRT2.tr" tvg-name="TRT 2" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT 2
@@ -417,6 +413,8 @@ https://mumt01.tangotv.in/O5aw8Zn3CVRSPRITUALOM/index.m3u8
 https://mumt05.tangotv.in/87NeALx2DARSHAN24/index.m3u8
 #EXTINF:-1 tvg-id="DDBharati.in@SD" tvg-name="DD Bharati" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s142779_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD Bharati
 https://cdn.pishow.tv/ott/live/10/master.m3u8
+#EXTINF:-1 tvg-id="DDMizoram.in@SD" tvg-name="DD Mizoram" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/I5zT1DG.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",DD Mizoram
+https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/index.m3u8
 #EXTINF:-1 tvg-id="DheeranTV.in@SD" tvg-name="Dheeran TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/jSedjXf.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Dheeran TV
 https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 tvg-id="DivyaBhajan.in@SD" tvg-name="Divya Bhajan" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DivyaBhajan.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Divya Bhajan
