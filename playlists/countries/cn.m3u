@@ -3,8 +3,6 @@
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-name="CCTV+ 1" tvg-country="CN" tvg-language="Chinese" group-title="News",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-name="CCTV+ 2" tvg-country="CN" tvg-language="Chinese" group-title="News",CCTV+ 2
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-country="CN" tvg-language="English" group-title="News",CGTN
 https://english-livebkali.cgtn.com/live/encgtn.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-name="CGTN Documentary" tvg-country="CN" tvg-language="English" group-title="Documentary",CGTN Documentary
@@ -31,12 +29,14 @@ http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-name="Anhui TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Anhui TV
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@HD" tvg-name="Beijing Satellite TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Beijing Satellite TV
+http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-name="CCTV-1" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",CCTV-1
 https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
+#EXTINF:-1 tvg-id="CCTV4America.cn@SD" tvg-name="CCTV-4 America" tvg-country="CN" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",CCTV-4 America
+https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
 #EXTINF:-1 tvg-id="CCTV9.cn@SD" tvg-name="CCTV-9" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="Documentary" x-tier="community" x-status="verified" x-quality="1080p",CCTV-9
 https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-name="CGTN Global Biz" tvg-country="CN" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="Business" x-tier="community" x-status="verified" x-quality="1080p",CGTN Global Biz
-https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 #EXTINF:-1 tvg-id="ChifengComprehensiveNewsChanel.cn@SD" tvg-name="Chifeng Comprehensive News Chanel" tvg-country="CN" tvg-language="Mongolian" tvg-logo="https://www.tvchinese.net/uploads/tv/cfxwzhpd.jpg" group-title="News" x-tier="community" x-status="verified" x-quality="sd",Chifeng Comprehensive News Chanel
 http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 #EXTINF:-1 tvg-id="ChuxiongNewsChannel.cn@SD" tvg-name="Chuxiong News Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/chuxiongtv.jpg" group-title="News" x-tier="community" x-status="verified" x-quality="sd",Chuxiong News Channel
@@ -51,8 +51,6 @@ https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
 https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 #EXTINF:-1 tvg-id="LanzhouCultureTourismChannel.cn@SD" tvg-name="Lanzhou Culture & Tourism Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/lanzhou.jpg" group-title="Culture" x-tier="community" x-status="verified" x-quality="sd",Lanzhou Culture & Tourism Channel
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-name="Qinghai TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Qinghai TV
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" tvg-name="VoA TV China" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",VoA TV China
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="XinjiangTV3.cn@SD" tvg-name="Xinjiang TV 3" tvg-country="CN" tvg-language="Kazakh" tvg-logo="https://i.imgur.com/l8S5qQB.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Xinjiang TV 3
@@ -61,5 +59,7 @@ https://st-video.xjmty.com/fs/livedit/e55abfa37af26e19/8ce9971c2177b3dd.m3u8
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 #EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" tvg-name="Xizang TV Tibetan" tvg-country="CN" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Xizang TV Tibetan
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" tvg-name="Yichang Sanxia Travel & Life Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/ycsxlysh.jpg" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="sd",Yichang Sanxia Travel & Life Channel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" tvg-name="Zhejiang International Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/XOL1Hph.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Zhejiang International Channel
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8

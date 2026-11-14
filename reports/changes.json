@@ -1,64 +1,66 @@
 {
-  "reference_time": "2026-11-06T00:23:11Z",
-  "baseline_reference_time": "2026-11-05T19:26:08Z",
+  "reference_time": "2026-11-14T08:06:51Z",
+  "baseline_reference_time": "2026-11-06T00:23:11Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 557,
-    "verified_playlist": 487,
-    "excluded": 199,
+    "published": 546,
+    "verified_playlist": 438,
+    "excluded": 210,
     "pending_authorization": 43,
-    "quarantined": 164,
+    "quarantined": 159,
     "duplicates_excluded_total": 0,
-    "new_candidates": 6,
-    "new_published": 0,
+    "new_candidates": 3,
+    "new_published": 3,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 9,
-    "newly_quarantined": 9,
-    "restored": 0,
+    "newly_failing": 42,
+    "newly_quarantined": 1,
+    "restored": 6,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 119,
+    "invalid": 1,
     "restricted": 42,
-    "unknown": 4,
-    "unreachable": 20,
-    "working": 372
+    "unknown": 29,
+    "unreachable": 36,
+    "working": 438
   },
   "latest_run": {
-    "run_id": "run-20261106T001659Z",
-    "started_at": "2026-11-06T00:16:59Z",
-    "finished_at": "2026-11-06T00:23:11Z",
+    "run_id": "run-20261114T080057Z",
+    "started_at": "2026-11-14T08:00:57Z",
+    "finished_at": "2026-11-14T08:06:51Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 750,
+    "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 156,
-      "UNKNOWN": 45,
+      "TIMEOUT": 27,
+      "UNAVAILABLE": 152,
+      "UNKNOWN": 67,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 448
+      "VERIFIED_WORKING": 438
     }
   },
   "discovery": {
     "admitted": 603,
-    "aggregator-host": 1001,
-    "already-curated": 474,
-    "closed": 91,
-    "excluded-category": 1178,
-    "host-not-owned-by-broadcaster": 7153,
-    "language-not-supported": 4,
+    "aggregator-host": 998,
+    "already-curated": 558,
+    "closed": 98,
+    "duplicate-channel-in-other-source": 119,
+    "duplicate-of-existing": 1,
+    "excluded-category": 1223,
+    "host-not-owned-by-broadcaster": 7739,
+    "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 1150,
-    "no-database-entry": 2092,
-    "nsfw-or-blocklisted": 4,
-    "sanctions-exclusion": 610,
-    "streams": 18631,
-    "subscription-service": 111,
-    "url-policy": 4089
+    "needs-special-headers": 964,
+    "no-database-entry": 3616,
+    "nsfw-or-blocklisted": 5,
+    "sanctions-exclusion": 621,
+    "streams": 21345,
+    "subscription-service": 101,
+    "url-policy": 4628
   },
   "integrity": {
     "ok": true,
@@ -69,7 +71,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "9 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [
@@ -88,27 +90,6 @@
         "kind": "awaiting-first-check"
       },
       {
-        "id": "chardikla-time-tv-in",
-        "name": "Chardikla Time TV",
-        "country": "in",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      },
-      {
-        "id": "digital-channel-bj",
-        "name": "Digital Channel",
-        "country": "bj",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      },
-      {
-        "id": "la-tremenda-tv-pe",
-        "name": "La Tremenda TV",
-        "country": "pe",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      },
-      {
         "id": "raj-pariwar-in",
         "name": "Raj Pariwar",
         "country": "in",
@@ -116,319 +97,553 @@
         "kind": "awaiting-first-check"
       }
     ],
-    "new_published": [],
+    "new_published": [
+      {
+        "id": "chardikla-time-tv-in",
+        "name": "Chardikla Time TV",
+        "country": "in"
+      },
+      {
+        "id": "digital-channel-bj",
+        "name": "Digital Channel",
+        "country": "bj"
+      },
+      {
+        "id": "la-tremenda-tv-pe",
+        "name": "La Tremenda TV",
+        "country": "pe"
+      }
+    ],
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
+        "id": "alternatv-ar",
+        "name": "AlternaTV",
+        "country": "ar",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "no response within 10s"
       },
       {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
         "state": "unreachable",
         "error": "connection error: ConnectError"
       },
       {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
-        "country": "us",
+        "id": "ard-alpha-de",
+        "name": "ARD-alpha",
+        "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "pbs-us",
-        "name": "PBS",
-        "country": "us",
+        "id": "asharq-news-sa",
+        "name": "Asharq News",
+        "country": "sa",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "rtl-gold-lu",
-        "name": "RTL Gold",
+        "id": "capital-21-mx",
+        "name": "Capital 21",
+        "country": "mx",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "cctv-1-cn",
+        "name": "CCTV+ 1",
+        "country": "cn",
+        "state": "unreachable",
+        "error": "segment: HTTP 404 (stream not found)"
+      },
+      {
+        "id": "channel-7-th",
+        "name": "Channel 7",
+        "country": "th",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "ebc-general-education-kh",
+        "name": "EBC General Education",
+        "country": "kh",
+        "state": "invalid",
+        "error": "manifest: body does not start with #EXTM3U"
+      },
+      {
+        "id": "eco-television-pe",
+        "name": "ECO Television",
+        "country": "pe",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ss"
+      },
+      {
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
         "country": "lu",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
+        "id": "farra-play-py",
+        "name": "Farra Play",
+        "country": "py",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "HTTP 404 (stream not found)"
       },
       {
-        "id": "today-radio-lu",
-        "name": "Today Radio",
-        "country": "lu",
+        "id": "fortis-tv-ng",
+        "name": "Fortis TV",
+        "country": "ng",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "HTTP 404 (stream not found)"
       },
       {
-        "id": "world-channel",
-        "name": "World Channel",
+        "id": "france-24-arabic",
+        "name": "France 24 Arabic",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "france-24-english",
+        "name": "France 24 English",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "france-24-espanol",
+        "name": "France 24 Español",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "france-24-french",
+        "name": "France 24 Français",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "frikanalen-no",
+        "name": "Frikanalen",
+        "country": "no",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certifica"
+      },
+      {
+        "id": "hktv-us",
+        "name": "HKTV",
         "country": "us",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "zas-tv-do",
-        "name": "ZAS TV",
+        "id": "kalu-tv-co",
+        "name": "Kalu TV",
+        "country": "co",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "kanal-8-mk",
+        "name": "Kanal 8",
+        "country": "mk",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "larivision-tv-do",
+        "name": "Larivision TV",
         "country": "do",
         "state": "unreachable",
-        "error": "HTTP 523 (server error)"
+        "error": "HTTP 502 (server error)"
+      },
+      {
+        "id": "mtv-guyana-gy",
+        "name": "MTV Guyana",
+        "country": "gy",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "ndr-fernsehen-de",
+        "name": "NDR Fernsehen",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "ndr-mecklenburg-vorpommern",
+        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "ndr-niedersachsen",
+        "name": "NDR Fernsehen Niedersachsen",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "parlamento-de-navarra-es",
+        "name": "Parlamento de Navarra",
+        "country": "es",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "raj-pariwar-in",
+        "name": "Raj Pariwar",
+        "country": "in",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ss"
+      },
+      {
+        "id": "rtnb-tv-bi",
+        "name": "RTNB TV",
+        "country": "bi",
+        "state": "unreachable",
+        "error": "HTTP 503 (server error)"
+      },
+      {
+        "id": "rtv-zenica-ba",
+        "name": "RTV Zenica",
+        "country": "ba",
+        "state": "unreachable",
+        "error": "HTTP 404 (stream not found)"
+      },
+      {
+        "id": "star-channel-international",
+        "name": "Star Channel International",
+        "country": "gr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-1",
+        "name": "TRT 1",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "segment: HTTP 400"
+      },
+      {
+        "id": "trt-arabi",
+        "name": "TRT Arabi",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "ulytau-kz",
+        "name": "Ulytau",
+        "country": "kz",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
+        "id": "parlamento-de-navarra-es",
+        "name": "Parlamento de Navarra",
+        "country": "es",
+        "since": "2026-11-14T08:01:59Z"
+      }
+    ],
+    "restored": [
+      {
+        "id": "bonce-tv-cw",
+        "name": "Bonce TV",
+        "country": "cw",
+        "restored_at": "2026-11-14T08:01:38Z"
+      },
+      {
         "id": "das-erste",
         "name": "Das Erste",
         "country": "de",
-        "since": "2026-11-06T00:20:27Z"
+        "restored_at": "2026-11-14T08:04:27Z"
       },
       {
         "id": "le-figaro-tv-ile-de-france-fr",
         "name": "Le Figaro TV Ile-de-France",
         "country": "fr",
-        "since": "2026-11-06T00:18:08Z"
+        "restored_at": "2026-11-14T08:02:05Z"
       },
       {
-        "id": "livexlive-us",
-        "name": "LIVExLIVE",
-        "country": "us",
-        "since": "2026-11-06T00:20:12Z"
+        "id": "samara-gis-ru",
+        "name": "Samara-GIS",
+        "country": "ru",
+        "restored_at": "2026-11-14T08:03:36Z"
       },
       {
-        "id": "pbs-us",
-        "name": "PBS",
-        "country": "us",
-        "since": "2026-11-06T00:20:14Z"
+        "id": "soltv-gq",
+        "name": "SolTV",
+        "country": "gq",
+        "restored_at": "2026-11-14T08:02:08Z"
       },
       {
-        "id": "rtl-gold-lu",
-        "name": "RTL Gold",
-        "country": "lu",
-        "since": "2026-11-06T00:18:55Z"
-      },
-      {
-        "id": "rtl-web-radio-tv-lu",
-        "name": "RTL Web Radio TV",
-        "country": "lu",
-        "since": "2026-11-06T00:18:57Z"
-      },
-      {
-        "id": "today-radio-lu",
-        "name": "Today Radio",
-        "country": "lu",
-        "since": "2026-11-06T00:21:00Z"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "since": "2026-11-06T00:20:46Z"
-      },
-      {
-        "id": "zas-tv-do",
-        "name": "ZAS TV",
-        "country": "do",
-        "since": "2026-11-06T00:17:54Z"
+        "id": "tele7music-ro",
+        "name": "Tele7music",
+        "country": "ro",
+        "restored_at": "2026-11-14T08:03:28Z"
       }
     ],
-    "restored": [],
     "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 557,
-      "verified": 487,
-      "not_verified": 70,
-      "with_measured_quality": 490,
+      "published": 546,
+      "verified": 438,
+      "not_verified": 108,
+      "with_measured_quality": 478,
       "per_quality": {
-        "1080p": 255,
+        "1080p": 240,
         "4k": 1,
-        "720p": 167,
-        "sd": 67
+        "720p": 174,
+        "sd": 63
       }
     },
     "community": {
-      "published": 4270,
-      "verified": 3838,
-      "untested": 432,
-      "held_back_after_failed_check": 2946,
+      "published": 4100,
+      "verified": 3010,
+      "untested": 1090,
+      "held_back_after_failed_check": 3175,
       "never_checked": 0,
-      "catalog_streams": 7218,
-      "catalog_built_at": "2026-11-05T08:38:38Z",
+      "catalog_streams": 7275,
+      "catalog_built_at": "2026-11-14T08:07:02Z",
       "verified_days": 7,
-      "countries": 156,
+      "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 738,
-        "invalid": 1193,
-        "restricted": 176,
-        "unknown": 188,
-        "unreachable": 1746,
-        "working": 3175
+        "intermittent": 551,
+        "invalid": 1196,
+        "restricted": 184,
+        "unknown": 189,
+        "unreachable": 1813,
+        "working": 3342
       },
-      "removed_at_generation": {
-        "official-duplicate": 2
-      },
+      "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 764
+          "streams": 711
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 548
+          "streams": 517
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 200
+          "streams": 198
         },
         {
           "code": "it",
           "name": "Italy",
-          "streams": 144
+          "streams": 141
         },
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 133
+          "streams": 123
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 120
-        },
-        {
-          "code": "br",
-          "name": "Brazil",
-          "streams": 101
+          "streams": 117
         },
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 101
+          "streams": 97
+        },
+        {
+          "code": "br",
+          "name": "Brazil",
+          "streams": 95
+        },
+        {
+          "code": "de",
+          "name": "Germany",
+          "streams": 93
         },
         {
           "code": "es",
           "name": "Spain",
           "streams": 93
-        },
-        {
-          "code": "de",
-          "name": "Germany",
-          "streams": 90
         }
       ],
       "playlist_files": 1,
       "build_report": {
-        "read": 23153,
+        "read": 23337,
         "after": {
-          "has-database-entry": 19537,
-          "not-nsfw-or-blocklisted": 19532,
-          "not-closed": 19420,
-          "no-special-headers": 18091,
-          "url-policy": 13148,
-          "hls-or-dash": 13144,
-          "policy-exclusions": 12595,
-          "adult-screening-pass": 12288,
-          "community-exclusions": 12288
+          "has-database-entry": 19719,
+          "not-nsfw-or-blocklisted": 19713,
+          "not-closed": 19604,
+          "no-special-headers": 18241,
+          "url-policy": 13343,
+          "hls-or-dash": 13339,
+          "policy-exclusions": 12772,
+          "adult-screening-pass": 12462,
+          "community-exclusions": 12462
         },
         "dropped": {
-          "adult-screening-quarantine": 278,
-          "adult-screening-reject": 29,
-          "closed": 112,
-          "needs-special-headers": 1329,
-          "no-database-entry": 3616,
+          "adult-screening-quarantine": 280,
+          "adult-screening-reject": 30,
+          "closed": 109,
+          "needs-special-headers": 1363,
+          "no-database-entry": 3618,
           "not-hls-or-dash": 4,
-          "nsfw-or-blocklisted": 5,
-          "policy-exclusion": 549,
-          "url-policy-ip-host": 1104,
+          "nsfw-or-blocklisted": 6,
+          "policy-exclusion": 567,
+          "url-policy-ip-host": 1040,
           "url-policy-other": 2,
-          "url-policy-port": 3446,
+          "url-policy-port": 3468,
           "url-policy-restream-or-dynamic-dns": 64,
-          "url-policy-scheme": 45,
-          "url-policy-token": 282
+          "url-policy-scheme": 46,
+          "url-policy-token": 278
         },
         "sources": {
           "ipmx": 18,
           "iprtl": 636,
-          "iptv-com": 1149,
+          "iptv-com": 1169,
           "iptv-ecuador": 36,
           "iptv-m3u-tr": 288,
-          "iptv-org": 18456,
+          "iptv-org": 18631,
           "iptv-spain": 68,
-          "listalibre": 1425,
-          "m3upt": 959,
-          "openiptvitaly": 118
+          "listalibre": 1408,
+          "m3upt": 958,
+          "openiptvitaly": 125
         },
         "deduplicated": {
-          "duplicate-channel": 2180,
-          "duplicate-url": 1429,
-          "official-duplicate-channel": 503,
+          "duplicate-channel": 2327,
+          "duplicate-url": 1380,
+          "official-duplicate-channel": 520,
           "official-duplicate-name": 14,
-          "official-duplicate-stream": 944
+          "official-duplicate-stream": 946
         },
-        "catalog": 7218,
+        "catalog": 7275,
         "per_country": {
-          "us": 1618,
-          "in": 668,
+          "us": 1628,
+          "in": 685,
+          "de": 372,
           "se": 370,
-          "de": 369,
-          "ru": 260,
-          "uk": 195,
-          "it": 190,
+          "ru": 265,
+          "uk": 194,
+          "it": 188,
           "br": 184,
           "tr": 161,
-          "es": 153,
+          "es": 157,
           "cl": 131,
           "nl": 130,
-          "do": 121,
           "ca": 120,
+          "do": 119,
           "mx": 117,
-          "pe": 113,
-          "fr": 97,
-          "ar": 88,
-          "vn": 83,
+          "pe": 117,
+          "fr": 99,
+          "ar": 91,
+          "vn": 85,
           "ua": 72,
+          "cn": 64,
           "co": 64,
-          "cn": 62,
-          "pl": 58,
-          "ro": 58,
+          "ro": 62,
+          "pl": 56,
           "id": 48,
           "iq": 48,
           "ec": 44,
           "sa": 44,
           "ve": 44,
-          "bo": 41,
+          "bo": 42,
           "hn": 41,
           "ng": 40,
           "cr": 38,
           "pt": 37,
-          "sk": 35,
+          "sk": 37,
           "au": 34,
           "be": 34,
           "ir": 34,
           "kr": 33,
           "th": 33,
           "uz": 32,
-          "pk": 29,
+          "pk": 30,
           "ch": 28,
           "kz": 28,
+          "py": 28,
           "ae": 27,
-          "py": 26,
           "at": 25,
           "hu": 25,
           "bd": 24,
@@ -440,8 +655,8 @@
           "za": 23,
           "tw": 20,
           "il": 19,
+          "pr": 19,
           "bg": 18,
-          "pr": 18,
           "sg": 18,
           "fi": 17,
           "sv": 17,
@@ -462,32 +677,31 @@
           "mk": 11,
           "ni": 11,
           "nz": 11,
+          "ph": 11,
           "si": 11,
           "sn": 11,
-          "ph": 10,
           "gh": 9,
           "hk": 9,
           "ht": 9,
           "la": 9,
           "ps": 9,
+          "qa": 9,
           "uy": 9,
           "dk": 8,
           "hr": 8,
+          "ie": 8,
           "lv": 8,
           "mv": 8,
-          "qa": 8,
           "tm": 8,
           "xk": 8,
           "al": 7,
           "aw": 7,
           "ba": 7,
-          "ie": 7,
-          "my": 7,
+          "jm": 7,
+          "jp": 7,
           "np": 7,
           "ci": 6,
           "ee": 6,
-          "jm": 6,
-          "jp": 6,
           "lt": 6,
           "ma": 6,
           "no": 6,
@@ -495,6 +709,7 @@
           "tz": 6,
           "bf": 5,
           "bh": 5,
+          "bj": 5,
           "cd": 5,
           "cg": 5,
           "cm": 5,
@@ -502,14 +717,13 @@
           "mz": 5,
           "om": 5,
           "tg": 5,
-          "bj": 4,
+          "am": 4,
           "bs": 4,
           "md": 4,
           "ne": 4,
           "rw": 4,
           "tt": 4,
           "ye": 4,
-          "am": 3,
           "ao": 3,
           "bq": 3,
           "cw": 3,
@@ -541,6 +755,7 @@
           "gu": 1,
           "mo": 1,
           "mt": 1,
+          "my": 1,
           "pf": 1,
           "pg": 1,
           "sd": 1,
@@ -554,67 +769,67 @@
       }
     },
     "vod": {
-      "items": 2023,
-      "movies": 1777,
-      "series_items": 246,
-      "cached_items": 3589,
+      "items": 2415,
+      "movies": 2103,
+      "series_items": 312,
+      "cached_items": 3929,
       "not_published": {
-        "no-playable-file": 112,
-        "no-playable-file-yet": 1454
+        "no-playable-file": 120,
+        "no-playable-file-yet": 1394
       },
       "by_licence": {
         "CC BY 2.0": 5,
-        "CC BY 2.5": 17,
-        "CC BY 3.0": 242,
+        "CC BY 2.5": 18,
+        "CC BY 3.0": 258,
         "CC BY 4.0": 2,
-        "CC BY-NC 2.0": 2,
+        "CC BY-NC 2.0": 3,
         "CC BY-NC 2.5": 4,
-        "CC BY-NC 3.0": 15,
+        "CC BY-NC 3.0": 18,
         "CC BY-NC 4.0": 8,
-        "CC BY-NC-ND 2.0": 12,
+        "CC BY-NC-ND 2.0": 17,
         "CC BY-NC-ND 2.1": 1,
-        "CC BY-NC-ND 2.5": 69,
-        "CC BY-NC-ND 3.0": 79,
-        "CC BY-NC-ND 4.0": 14,
+        "CC BY-NC-ND 2.5": 73,
+        "CC BY-NC-ND 3.0": 116,
+        "CC BY-NC-ND 4.0": 21,
         "CC BY-NC-SA 2.0": 16,
-        "CC BY-NC-SA 2.5": 28,
-        "CC BY-NC-SA 3.0": 31,
-        "CC BY-NC-SA 4.0": 20,
-        "CC BY-ND 2.0": 2,
-        "CC BY-ND 2.5": 8,
-        "CC BY-ND 3.0": 26,
+        "CC BY-NC-SA 2.5": 32,
+        "CC BY-NC-SA 3.0": 37,
+        "CC BY-NC-SA 4.0": 26,
+        "CC BY-ND 2.0": 3,
+        "CC BY-ND 2.5": 9,
+        "CC BY-ND 3.0": 29,
         "CC BY-ND 4.0": 8,
         "CC BY-SA 2.0": 3,
-        "CC BY-SA 2.5": 8,
-        "CC BY-SA 3.0": 37,
+        "CC BY-SA 2.5": 9,
+        "CC BY-SA 3.0": 44,
         "CC BY-SA 4.0": 1,
-        "CC0 1.0": 256,
-        "Public Domain Mark 1.0": 1084,
+        "CC0 1.0": 308,
+        "Public Domain Mark 1.0": 1321,
         "Public domain (rights statement)": 25
       },
       "by_collection": {
         "Comedy_Films": 95,
         "Film_Noir": 89,
         "SciFi_Horror": 128,
-        "animationandcartoons": 448,
+        "animationandcartoons": 503,
         "classic_cartoons": 6,
-        "classic_tv": 246,
-        "feature_films": 486,
-        "prelinger": 13,
-        "short_films": 293,
+        "classic_tv": 312,
+        "feature_films": 624,
+        "prelinger": 15,
+        "short_films": 424,
         "silent_films": 219
       },
       "playlist_files": 34,
       "search": {
         "metadata_read": 400,
         "rejected": {
-          "adult-screening": 95,
-          "no-open-licence": 909
+          "adult-screening": 45,
+          "no-open-licence": 617
         },
         "searched_pages": 10,
-        "seen": 1913
+        "seen": 1137
       },
-      "last_run": "2026-11-05T08:50:25Z"
+      "last_run": "2026-11-14T08:17:10Z"
     }
   }
 }

@@ -85,8 +85,6 @@ https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
 #EXTINF:-1 tvg-id="AntenneReunion.fr@SD" tvg-name="Antenne Reunion" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/EPIMMaB.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Antenne Reunion
 https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
-#EXTINF:-1 tvg-id="BFMLyon.fr@SD" tvg-name="BFM Lyon" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/0uiiZRo.png" group-title="News" x-tier="community" x-status="verified" x-quality="sd",BFM Lyon
-https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" tvg-name="BFM2" tvg-country="FR" tvg-language="French" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",BFM2
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
 #EXTINF:-1 tvg-id="BrionnaisTV.fr@SD" tvg-name="Brionnais TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/y94bhqX.jpg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Brionnais TV
@@ -97,12 +95,18 @@ https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
 #EXTINF:-1 tvg-id="EmotionL.fr@SD" tvg-name="Emotion L" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/MP34aaj.png" group-title="Movies" x-tier="community" x-status="verified" x-quality="1080p",Emotion L
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 1
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Russia" tvg-name="Eurosport 1 (Russia)" tvg-country="FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 1 (Russia)
 https://s7.iptv-24.net/1439/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@France" tvg-name="Eurosport 2" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 2
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 (Russia)" tvg-country="FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 2 (Russia)
 https://s7.iptv-24.net/1452/playlist.m3u8
 #EXTINF:-1 tvg-id="EvandisGospelTV.fr@SD" tvg-name="Evandis Gospel TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/v8TiqhH.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Evandis Gospel TV
 https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
+#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-name="FashionTV Europe" tvg-country="FR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",FashionTV Europe
+https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="Lifestyle" x-tier="community" x-status="verified" x-quality="1080p",FashionTV Paris L'Original
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-id="GenerationsTV.fr@SD" tvg-name="Generations TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/NgBrDMe.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Generations TV
@@ -113,8 +117,6 @@ https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-name="Kozoom TV" tvg-country="FR" tvg-language="French;English" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Kozoom TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
-#EXTINF:-1 tvg-id="LittoralFMTV.fr@SD" tvg-name="Littoral FM TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/DCZKAQ1.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",Littoral FM TV
-https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaComedy.fr@SD" tvg-name="Persiana Comedy" tvg-country="FR" tvg-language="Persian" tvg-logo="https://i.imgur.com/DBZ3Pi5.png" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="sd",Persiana Comedy
 https://comedyhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaDocs.fr@HD" tvg-name="Persiana Docs" tvg-country="FR" tvg-language="Persian" group-title="Documentary" x-tier="community" x-status="verified" x-quality="720p",Persiana Docs
@@ -157,8 +159,6 @@ https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 #EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-name="ScreamIN" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="Movies" x-tier="community" x-status="verified" x-quality="1080p",ScreamIN
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="SonyOneHitsComedie.fr@HD" tvg-name="Sony One Hits Comedie" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/8sHuxxS.png" group-title="Movies" x-tier="community" x-status="verified" x-quality="1080p",Sony One Hits Comedie
-https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="TebeoTV.fr@SD" tvg-name="Tebeo TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/WdZWBEd.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Tebeo TV
 https://tebeo.streamakaci.tv/tebeo/tebeo-multi/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr@SD" tvg-name="TV3V" tvg-country="FR" tvg-language="French" tvg-logo="https://i.ibb.co/X2yd0zL/logo-tv3v.jpg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TV3V

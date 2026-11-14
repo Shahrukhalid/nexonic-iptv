@@ -3,8 +3,6 @@
 https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-name="CCTV+ 1" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 1
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-name="CCTV+ 2" tvg-country="CN" tvg-language="Chinese" group-title="China",CCTV+ 2
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DongguanComprehensiveNewsChannel.cn@SD" tvg-name="Dongguan Comprehensive News Channel" tvg-country="CN" tvg-language="Chinese" group-title="China",Dongguan Comprehensive News Channel
 https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-name="Guangzhou TV" tvg-country="CN" tvg-language="Chinese" group-title="China",Guangzhou TV
@@ -41,12 +39,14 @@ https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-name="Anhui TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",Anhui TV
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@HD" tvg-name="Beijing Satellite TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",Beijing Satellite TV
+http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-name="CCTV-1" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",CCTV-1
 https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8
+#EXTINF:-1 tvg-id="CCTV4America.cn@SD" tvg-name="CCTV-4 America" tvg-country="CN" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",CCTV-4 America
+https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
 #EXTINF:-1 tvg-id="CCTV9.cn@SD" tvg-name="CCTV-9" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",CCTV-9
 https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-name="CGTN Global Biz" tvg-country="CN" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",CGTN Global Biz
-https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 #EXTINF:-1 tvg-id="ChuxiongNewsChannel.cn@SD" tvg-name="Chuxiong News Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/chuxiongtv.jpg" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Chuxiong News Channel
 http://hwapi.yntv.net/ew265l/848y54.m3u8
 #EXTINF:-1 tvg-id="CNDFilmMiddleSchoolChannel.cn@SD" tvg-name="CND Film Middle School Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/4uG8HsQ.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",CND Film Middle School Channel
@@ -59,16 +59,14 @@ https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
 https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 #EXTINF:-1 tvg-id="LanzhouCultureTourismChannel.cn@SD" tvg-name="Lanzhou Culture & Tourism Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/lanzhou.jpg" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Lanzhou Culture & Tourism Channel
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-name="Qinghai TV" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Qinghai TV
-https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" tvg-name="VoA TV China" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",VoA TV China
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="XizangTVChinese.cn@SD" tvg-name="Xizang TV Chinese" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/V0v3ST5.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Xizang TV Chinese
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" tvg-name="Yichang Sanxia Travel & Life Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://www.tvchinese.net/uploads/tv/ycsxlysh.jpg" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Yichang Sanxia Travel & Life Channel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" tvg-name="Zhejiang International Channel" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/XOL1Hph.png" group-title="China" x-tier="community" x-status="verified" x-quality="sd",Zhejiang International Channel
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
-#EXTINF:-1 tvg-id="KIX.hk@SD" tvg-name="KIX" tvg-country="HK" tvg-language="English;Chinese;Malay;Indonesian" tvg-logo="https://i.imgur.com/zWcUAdb.png" group-title="Hong Kong" x-tier="community" x-status="verified" x-quality="1080p",KIX
-https://freem3u.xyz/api/live/play.m3u8?vid=9901
 #EXTINF:-1 tvg-id="PetClubTV.hk@SD" tvg-name="Pet Club TV" tvg-country="HK" tvg-language="Chinese" tvg-logo="https://i.imgur.com/ykPNNwQ.png" group-title="Hong Kong" x-tier="community" x-status="verified" x-quality="1080p",Pet Club TV
 https://petclub-samsungaus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DAAITV.id@SD" tvg-name="DAAI TV" tvg-country="ID" tvg-language="Chinese" tvg-logo="https://i.imgur.com/YC7JCHo.png" group-title="Indonesia" x-tier="community" x-status="verified" x-quality="sd",DAAI TV
@@ -81,10 +79,6 @@ https://cdn.qd.je/163189/ch8
 https://cdn.qd.je/163189/chu
 #EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-name="meWATCH LIVE 1" tvg-country="SG" tvg-language="English;Malayalam;Chinese" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="1080p",meWATCH LIVE 1
 https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
-#EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-name="Turkmenistan" tvg-country="TM" tvg-language="Turkmen;Russian;English;French;Chinese;Arabic" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="Turkmenistan" x-tier="community" x-status="verified" x-quality="sd",Turkmenistan
-https://alpha.tv.online.tm/legacyhls/ch007.m3u8
-#EXTINF:-1 tvg-id="DHA.tr@SD" tvg-name="DHA" tvg-country="TR" tvg-language="Turkish;English;German;Chinese" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="Turkiye" x-tier="community" x-status="verified" x-quality="720p",DHA
-https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 tvg-id="BeautifulLifeTV.tw@SD" tvg-name="Beautiful Life TV" tvg-country="TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/hkwcBM9.png" group-title="Taiwan" x-tier="community" x-status="verified" x-quality="720p",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-id="CGNTVChinese.tw@SD" tvg-name="CGNTV Chinese" tvg-country="TW" tvg-language="Chinese" tvg-logo="https://i.imgur.com/bPoPAbR.png" group-title="Taiwan" x-tier="community" x-status="verified" x-quality="1080p",CGNTV Chinese

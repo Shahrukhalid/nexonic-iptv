@@ -324,6 +324,37 @@
     "working": 372
    },
    "reference_time": "2026-11-06T00:23:11Z"
+  },
+  {
+   "attention": [
+    "1 channel(s) newly quarantined (failing repeatedly)"
+   ],
+   "counts": {
+    "duplicates_excluded_total": 0,
+    "duplicates_removed": 0,
+    "excluded": 210,
+    "new_candidates": 3,
+    "new_published": 3,
+    "newly_failing": 42,
+    "newly_quarantined": 1,
+    "pending_authorization": 43,
+    "published": 546,
+    "quarantined": 159,
+    "removed": 0,
+    "restored": 6,
+    "updated": 0,
+    "verified_playlist": 438
+   },
+   "date": "2026-11-14",
+   "integrity_ok": true,
+   "lifecycle_counts": {
+    "invalid": 1,
+    "restricted": 42,
+    "unknown": 29,
+    "unreachable": 36,
+    "working": 438
+   },
+   "reference_time": "2026-11-14T08:06:51Z"
   }
  ],
  "schema": 1
