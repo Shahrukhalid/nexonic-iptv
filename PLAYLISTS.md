@@ -313,7 +313,7 @@ Official channels grouped by the resolution the checker measured (best variant o
 
 ## Community tier
 
-Publicly listed free streams from iptv-org/iptv and the other open lists named in [config/pipeline.toml](config/pipeline.toml), screened and de-duplicated but **not** limited to the broadcaster's own hosts. Quality varies. *Verified* means the stream worked at its latest check within 7 days; *untested* streams have not been confirmed working and may not play. Removal requests: [docs/TIERS.md](docs/TIERS.md#takedown).
+Publicly listed free streams from the open lists named in [config/pipeline.toml](config/pipeline.toml), screened and de-duplicated but **not** limited to the broadcaster's own hosts. Quality varies. *Verified* means the stream worked at its latest check within 7 days; *untested* streams have not been confirmed working and may not play. Removal requests: [docs/TIERS.md](docs/TIERS.md#takedown).
 
 ### Community: Untested
 
