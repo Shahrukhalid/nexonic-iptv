@@ -42,3 +42,26 @@ def test_radio_drops_addresses_that_only_differ_in_case_or_port(tmp_path):
         log=lambda _m: None,
     )
     assert got["stations"] == 1 and got["dropped"] == {"bad-url": 1, "duplicate": 1}
+
+
+def test_radio_never_publishes_keys_or_tokens(tmp_path):
+    base = {"name": "Station One", "countrycode": "DE", "lastcheckok": 1, "tags": ""}
+    rows = [
+        {**base, "stationuuid": "1", "url_resolved": "https://a.example.org/live?token=abc"},
+        {
+            **base,
+            "stationuuid": "2",
+            "url_resolved": "https://b.example.org/live",
+            "favicon": "https://img.example.org/logo.png?auth=xyz",
+        },
+    ]
+    path = tmp_path / "s.json"
+    got = radio.refresh(
+        RadioConfig(),
+        now=dt.datetime(2026, 11, 14, tzinfo=dt.UTC),
+        path=path,
+        fetcher=lambda *a, **k: rows,
+        log=lambda _m: None,
+    )
+    assert got["stations"] == 1 and got["dropped"] == {"credential-in-url": 1}
+    assert radio.load(path)["rows"][0][6] == ""  # the keyed logo is left out, the station stays
