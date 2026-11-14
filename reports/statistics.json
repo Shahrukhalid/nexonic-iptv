@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-14T17:13:59Z",
+  "reference_time": "2026-11-14T23:05:07Z",
   "records": {
     "approved": 756,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 540,
-  "excluded_approved": 216,
-  "countries": 94,
+  "published_channels": 543,
+  "excluded_approved": 213,
+  "countries": 95,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 470,
+  "verified_playlist_channels": 472,
   "playlist_files": 535,
   "latest_run": {
-    "run_id": "run-20261114T170812Z",
-    "started_at": "2026-11-14T17:08:12Z",
-    "finished_at": "2026-11-14T17:13:59Z",
+    "run_id": "run-20261114T225858Z",
+    "started_at": "2026-11-14T22:58:58Z",
+    "finished_at": "2026-11-14T23:05:07Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 58,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 138,
-      "UNKNOWN": 65,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 149,
+      "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 451
+      "VERIFIED_WORKING": 443
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 451,
-    "UNAVAILABLE": 138,
-    "GEO_RESTRICTED": 59,
+    "VERIFIED_WORKING": 443,
+    "UNAVAILABLE": 149,
+    "GEO_RESTRICTED": 58,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
+    "TIMEOUT": 29,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 65,
+    "UNKNOWN": 64,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 3,
+    "currently-failing": 4,
     "geo-restricted": 42,
-    "previously-working": 39,
+    "previously-working": 49,
     "unknown": 5,
-    "verified-recently": 451
+    "verified-recently": 443
   },
   "per_country": {
     "ae": {
@@ -182,7 +182,7 @@
     "do": {
       "name": "Dominican Republic",
       "flag": "🇩🇴",
-      "channels": 3
+      "channels": 4
     },
     "ec": {
       "name": "Ecuador",
@@ -327,7 +327,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 5
+      "channels": 6
     },
     "lv": {
       "name": "Latvia",
@@ -449,6 +449,11 @@
       "flag": "🇷🇼",
       "channels": 1
     },
+    "sa": {
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "channels": 1
+    },
     "sd": {
       "name": "Sudan",
       "flag": "🇸🇩",
@@ -527,7 +532,7 @@
     },
     "ar": {
       "name": "Arabic",
-      "channels": 19
+      "channels": 20
     },
     "as": {
       "name": "Assamese",
@@ -575,7 +580,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 63
+      "channels": 64
     },
     "et": {
       "name": "Estonian",
@@ -651,7 +656,7 @@
     },
     "lb": {
       "name": "Luxembourgish",
-      "channels": 3
+      "channels": 4
     },
     "lg": {
       "name": "Ganda",
@@ -781,7 +786,7 @@
   "per_category": {
     "business": {
       "name": "Business",
-      "channels": 6
+      "channels": 7
     },
     "culture": {
       "name": "Culture",
@@ -797,11 +802,11 @@
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 33
+      "channels": 34
     },
     "general": {
       "name": "General",
-      "channels": 196
+      "channels": 197
     },
     "kids": {
       "name": "Kids",
@@ -825,7 +830,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 96
+      "channels": 97
     },
     "series": {
       "name": "Series",
@@ -843,15 +848,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 540,
-      "verified": 470,
-      "not_verified": 70,
-      "with_measured_quality": 472,
+      "published": 543,
+      "verified": 472,
+      "not_verified": 71,
+      "with_measured_quality": 475,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 243,
         "4k": 1,
-        "720p": 169,
-        "sd": 62
+        "720p": 168,
+        "sd": 63
       }
     },
     "community": {

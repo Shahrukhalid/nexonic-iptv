@@ -95,8 +95,6 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
 https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
-#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
-https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="JC1.cz@SD" tvg-name="JC1" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",JC1
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
@@ -189,6 +187,10 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Channel8.iq@SD" tvg-name="Channel8" tvg-country="IQ" tvg-language="Kurdish;Arabic;English" group-title="Iraq",Channel8
@@ -219,6 +221,8 @@ https://stream-live.lrt.lt/lituanica/master.m3u8
 https://stream-live.lrt.lt/opus/master.m3u8
 #EXTINF:-1 tvg-id="LRTRadijas.lt@SD" tvg-name="LRT Radijas" tvg-country="LT" tvg-language="Lithuanian" group-title="Lithuania",LRT Radijas
 https://stream-live.lrt.lt/radijas/master.m3u8
+#EXTINF:-1 tvg-id="eldoTV.lu@SD" tvg-name="eldo.TV" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",eldo.TV
+https://stream.eldo.lu/data/live/tele/eldotv/1080p.m3u8
 #EXTINF:-1 tvg-id="RTLGold.lu@SD" tvg-name="RTL Gold" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Gold
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLTeleLetzebuerg.lu@SD" tvg-name="RTL Tele Letzebuerg" tvg-country="LU" tvg-language="Luxembourgish" group-title="Luxembourg",RTL Tele Letzebuerg
@@ -343,6 +347,8 @@ https://tv.samaragis.ru/new/new/tracks-v1a1/mono.m3u8
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 tvg-id="UniverTV.ru@SD" tvg-name="Univer TV" tvg-country="RU" tvg-language="Russian" group-title="Russia",Univer TV
 https://cdn.universmotri.ru/live/smil:univer.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-name="Asharq News" tvg-country="SA" tvg-language="Arabic" group-title="Saudi Arabia",Asharq News
+https://live-news.asharq.com/asharq.m3u8
 #EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-name="Dabanga TV" tvg-country="SD" tvg-language="Arabic" group-title="Sudan",Dabanga TV
 https://hls.dabangasudan.org/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CharoenCable37TV.th@SD" tvg-name="Charoen Cable 37 TV" tvg-country="TH" tvg-language="Thai" group-title="Thailand",Charoen Cable 37 TV

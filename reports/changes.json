@@ -1,45 +1,45 @@
 {
-  "reference_time": "2026-11-14T17:13:59Z",
-  "baseline_reference_time": "2026-11-14T13:21:19Z",
+  "reference_time": "2026-11-14T23:05:07Z",
+  "baseline_reference_time": "2026-11-14T17:13:59Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 540,
-    "verified_playlist": 470,
-    "excluded": 216,
+    "published": 543,
+    "verified_playlist": 472,
+    "excluded": 213,
     "pending_authorization": 43,
-    "quarantined": 153,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 4,
+    "newly_failing": 1,
     "newly_quarantined": 0,
-    "restored": 2,
+    "restored": 1,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 75,
+    "intermittent": 93,
     "restricted": 42,
     "unknown": 26,
-    "working": 397
+    "working": 382
   },
   "latest_run": {
-    "run_id": "run-20261114T170812Z",
-    "started_at": "2026-11-14T17:08:12Z",
-    "finished_at": "2026-11-14T17:13:59Z",
+    "run_id": "run-20261114T225858Z",
+    "started_at": "2026-11-14T22:58:58Z",
+    "finished_at": "2026-11-14T23:05:07Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 58,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 138,
-      "UNKNOWN": 65,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 149,
+      "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 451
+      "VERIFIED_WORKING": 443
     }
   },
   "discovery": {
@@ -77,30 +77,9 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "batv-government-tv-us",
-        "name": "BATV Government TV",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "batv-us",
-        "name": "BATV",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "channel-7-th",
-        "name": "Channel 7",
-        "country": "th",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "hktv-us",
-        "name": "HKTV",
-        "country": "us",
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
@@ -108,16 +87,10 @@
     "newly_quarantined": [],
     "restored": [
       {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "restored_at": "2026-11-14T17:11:40Z"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "restored_at": "2026-11-14T17:11:42Z"
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
+        "country": "lu",
+        "restored_at": "2026-11-14T23:00:51Z"
       }
     ],
     "removed": []
@@ -126,15 +99,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 540,
-      "verified": 470,
-      "not_verified": 70,
-      "with_measured_quality": 472,
+      "published": 543,
+      "verified": 472,
+      "not_verified": 71,
+      "with_measured_quality": 475,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 243,
         "4k": 1,
-        "720p": 169,
-        "sd": 62
+        "720p": 168,
+        "sd": 63
       }
     },
     "community": {
