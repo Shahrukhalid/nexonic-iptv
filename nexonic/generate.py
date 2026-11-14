@@ -11,7 +11,7 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from . import config, health, lifecycle, m3u
+from . import config, guide, health, lifecycle, m3u
 from . import regional as regional_mod
 from .config import QuarantineConfig
 from .dedup import identity_key, stream_key
@@ -77,7 +77,10 @@ def _render(channels: list[Channel], group_fn, title: str) -> str:
         seen_ids.add(ch.id)
         seen_urls.add(u)
         entries.append(entry_for(ch, group_fn(ch)))
-    return m3u.render(entries, {"x-nexonic-playlist": title})
+    head = {"x-nexonic-playlist": title}
+    if guide.available():
+        head["x-tvg-url"] = guide.guide_url()
+    return m3u.render(entries, head)
 
 
 def plan(
@@ -357,6 +360,10 @@ _KIND_ORDER = {
     "vod-series": 14,
     "vod-genre": 15,
     "vod-decade": 16,
+    "media-all": 17,
+    "media-genre": 18,
+    "radio-all": 19,
+    "radio-country": 20,
 }
 
 
@@ -430,7 +437,7 @@ def playlists_markdown(p: Plan) -> str:
         lines += [
             "## Community tier",
             "",
-            "Publicly listed free streams from iptv-org/iptv and the other open lists named in "
+            "Publicly listed free streams from the open lists named in "
             "[config/pipeline.toml](config/pipeline.toml), screened and de-duplicated but **not** limited to the "
             "broadcaster's own hosts. Quality varies. *Verified* means the stream worked at its latest check within "
             f"{(p.tiers.get('community') or {}).get('verified_days', 7)} days; *untested* streams have not been "
@@ -474,6 +481,20 @@ def playlists_markdown(p: Plan) -> str:
             lines += [f"### Free VOD: {title}", "", "| Playlist | Items | URL |", "|---|---:|---|"]
             lines += [f"| {it['name']} | {it['count']} | `{it['url']}` |" for it in items]
             lines.append("")
+    extra_kinds = (
+        ("media-all", "Open media", "Free-licensed and public-domain videos; each entry names its licence and author."),
+        ("media-genre", "Open media by genre", ""),
+        ("radio-all", "Free radio", "Working internet radio stations, refreshed daily."),
+        ("radio-country", "Free radio by country", ""),
+    )
+    for kind, title, note in extra_kinds:
+        items = sorted(by_kind.get(kind, []), key=lambda x: x["key"])
+        if not items:
+            continue
+        lines += [f"## {title}", ""] + ([note, ""] if note else [])
+        lines += ["| Playlist | Items | URL |", "|---|---:|---|"]
+        lines += [f"| {it['name']} | {it['count']} | `{it['url']}` |" for it in items]
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -505,6 +526,14 @@ def tier_rows(p: Plan) -> list[str]:
         total += v["items"]
     else:
         lines.append("| Free VOD (films and TV, open licences) | not built yet | n/a | n/a |")
+    m = p.tiers.get("media")
+    if m:
+        lines.append(f"| Open media (documentaries, animation, science) | {m['items']} | n/a | n/a |")
+        total += m["items"]
+    r = p.tiers.get("radio")
+    if r:
+        lines.append(f"| Free radio stations | {r['stations']} | {r['stations']} | 0 |")
+        total, total_ok = total + r["stations"], total_ok + r["stations"]
     lines.append(f"| **All tiers** | **{total}** | **{total_ok}** | |")
     return lines
 
@@ -596,6 +625,10 @@ def _unified_block(p: Plan, stats: dict, c: dict, all_row: dict) -> str:
     ]
     if vod.get("items"):
         lines.append(f"| Free movies and series (VOD) | {vod['items']} |")
+    if (p.tiers.get("media") or {}).get("items"):
+        lines.append(f"| Open media videos (documentaries, animation, science) | {p.tiers['media']['items']} |")
+    if (p.tiers.get("radio") or {}).get("stations"):
+        lines.append(f"| Free radio stations | {p.tiers['radio']['stations']} |")
     lines += [
         f"| Latest check (UTC) | {max(stamps) if stamps else 'not run yet'} |",
         "",
