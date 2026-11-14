@@ -23,7 +23,7 @@ from .config import DiscoveryConfig, playlist_url
 from .extras_config import MediaConfig
 from .fetch import FetchError, fetch_json
 from .moderation import Decision, Subject, screen_subject
-from .records import ROOT
+from .records import ROOT, normalise_url
 from .timeutil import iso, parse_iso, utc_now
 
 STATE_DIR = ROOT / "state" / "media"
@@ -171,6 +171,7 @@ def refresh(
         timeout=cfg.timeout, retries=cfg.retries, backoff_base=cfg.backoff_base, allowed_hosts=list(cfg.allowed_hosts)
     )
     rows = {r[0]: r for r in data["rows"]}
+    urls = {normalise_url(r[2]) for r in data["rows"]}
     prog = data["progress"]
     searches = cfg.searches
     for s in searches:
@@ -198,7 +199,8 @@ def refresh(
                 row, why = None, "takedown-list"
             if row is None:
                 rejected[why] += 1
-            elif row[0] not in rows:
+            elif row[0] not in rows and normalise_url(row[2]) not in urls:
+                urls.add(normalise_url(row[2]))
                 rows[row[0]] = row
                 added += 1
         nxt = ((body or {}).get("continue") or {}).get("gsroffset")
