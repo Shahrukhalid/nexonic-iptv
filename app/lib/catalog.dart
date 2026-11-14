@@ -247,7 +247,7 @@ class Catalog extends ChangeNotifier {
       try {
         final cached = await _cacheFile(path).exists();
         final (status, body, etag) = await _get('$base/$path', cached ? etags['$base/$path'] as String? : null);
-        if (status == 304) return _readCache(path);
+        if (status == 304) return await _readCache(path);
         await _write(path, body!, etag == null ? null : MapEntry('$base/$path', etag));
         return body;
       } catch (_) {
