@@ -29,6 +29,7 @@ from nexonic import (
     changes,
     community,
     config,
+    dashboard,
     extras_config,
     generate,
     openmedia,
@@ -123,6 +124,11 @@ def build(root: Path) -> int:
     readme_src = ROOT / "README.md"
     if readme_src.exists():
         text = generate.update_readme(readme_src.read_text(encoding="utf-8"), generate.readme_block(plan, stats))
+        try:
+            days = json.loads((state_in / changes.HISTORY_FILE).read_text(encoding="utf-8")).get("days", [])
+        except (OSError, ValueError):
+            days = []
+        text = dashboard.insert(text, dashboard.lines(report, days), generate.STATS_END)
         (root / "README.md").write_text(text, encoding="utf-8")
     print(
         f"Published {len(plan.published)} channels in {len(plan.files)} playlist files; "
