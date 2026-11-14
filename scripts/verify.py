@@ -30,9 +30,8 @@ import sys
 import time
 
 import _bootstrap  # noqa: F401
-import find_sources
 
-from nexonic import community, extras_config, guide, openmedia, radio, regional, vod
+from nexonic import community, extras_config, finder, guide, openmedia, radio, regional, vod
 from nexonic.config import load_pipeline
 from nexonic.checker import Limits, check_all
 from nexonic.records import load_history, load_records, merge_results, save_history
@@ -167,7 +166,7 @@ def extra_tiers(cfg_all, records, args, started: float) -> None:
         ("open media", lambda: openmedia.refresh(extras.media, extra_excluded["media"])),
         ("radio", lambda: radio.refresh(extras.radio, extra_excluded["radio"])),
         ("guide", lambda: guide.build(extras.guide, {c.epg_id for c in records.approved if c.epg_id})),
-        ("source finder", lambda: find_sources.due() and find_sources.write(find_sources.find())),
+        ("source finder", lambda: finder.due() and finder.write(finder.find())),
     ):
         if time.monotonic() - started > 52 * 60:
             print(f"WARNING {name} upkeep skipped: the run is near its time limit", file=sys.stderr)

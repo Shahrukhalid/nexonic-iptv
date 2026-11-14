@@ -2,11 +2,8 @@
 
 import datetime as dt
 import gzip
-import importlib.util
-import sys
-from pathlib import Path
 
-from nexonic import guide, m3u, openmedia, radio
+from nexonic import finder, guide, m3u, openmedia, radio
 from nexonic.extras_config import ExtrasConfig, GuideConfig, MediaConfig, RadioConfig, load_extras
 
 NOW = dt.datetime(2026, 11, 14, 12, tzinfo=dt.UTC)
@@ -133,14 +130,10 @@ def test_guide_without_feeds_does_nothing(tmp_path):
 
 
 def test_source_finder_screen():
-    sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
-    spec = importlib.util.spec_from_file_location("fs", Path(__file__).parent.parent / "scripts" / "find_sources.py")
-    fs = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(fs)
     good = "#EXTM3U\n" + "#EXTINF:-1,News\nhttps://a.example/x.m3u8\n" * 25
-    assert fs.screen(good) == (25, [])
-    assert fs.screen(good + "http://x/get.php?username=a&password=b\n")[1]
-    assert fs.screen(good.replace("News", "VIP Sports"))[1]
+    assert finder.screen(good) == (25, [])
+    assert finder.screen(good + "http://x/get.php?username=a&password=b\n")[1]
+    assert finder.screen(good.replace("News", "VIP Sports"))[1]
 
 
 def test_shipped_extras_file_equals_the_defaults():
