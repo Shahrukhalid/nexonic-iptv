@@ -24,6 +24,7 @@ Website: https://shahrukhalid.github.io/nexonic-iptv/
 ## Contents
 
 - [Quick start](#quick-start)
+- [Apps for Windows, macOS and Android](#apps-for-windows-macos-and-android)
 - [Login with server, username and password (Xtream Codes)](#login-with-server-username-and-password-xtream-codes)
 - [How the playlists are organised](#how-the-playlists-are-organised)
 - [Current numbers](#current-numbers)
@@ -63,6 +64,28 @@ The same files are served from
 `https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists/` if you prefer raw GitHub URLs. Every
 playlist is listed in [PLAYLISTS.md](PLAYLISTS.md) and on the
 [playlists page](https://shahrukhalid.github.io/nexonic-iptv/playlists/).
+
+## Apps for Windows, macOS and Android
+
+Prefer an app over a playlist URL? Nexonic IPTV has its own player. It loads the channel catalogue directly, so new
+channels appear without an app update.
+
+| Download | For |
+|---|---|
+| [NexonicIPTV-Windows-Setup.exe](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Windows-Setup.exe) | Windows 10 and 11 (64-bit) |
+| [NexonicIPTV-macOS.dmg](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-macOS.dmg) | macOS on Apple Silicon and Intel |
+| [NexonicIPTV-Android.apk](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Android.apk) | Android phones, tablets and TV boxes |
+
+- Live TV, free films and series, radio and open media, with search, favourites, recently watched and country,
+  language and category filters.
+- The channel list updates at start and every 3 hours, stays available offline and can be refreshed by hand.
+- Playback reconnects by itself when a stream drops. Keys: Space, F, M, Page Up/Down, Esc. Swipe to change channel
+  on Android.
+
+The macOS app is not notarised yet: the first time, right-click it and choose Open. On Android, allow installing apps
+from your browser or file manager. Checksums are in `SHA256SUMS.txt` on the
+[release page](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest). Every build is installed, started and
+made to play a live channel in CI before it is published. The app source is in [`app/`](app/).
 
 ## Login with server, username and password (Xtream Codes)
 
