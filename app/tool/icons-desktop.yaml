@@ -1,0 +1,13 @@
+# App icons for the Windows and macOS builds (Android uses the settings in pubspec.yaml):
+#   dart run flutter_launcher_icons -f tool/icons-desktop.yaml
+flutter_launcher_icons:
+  image_path: "assets/icon.png"
+  android: false
+  ios: false
+  windows:
+    generate: true
+    image_path: "assets/icon.png"
+    icon_size: 256
+  macos:
+    generate: true
+    image_path: "assets/icon.png"

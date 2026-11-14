@@ -17,7 +17,9 @@ done
 echo "$result"
 [ -n "$result" ] || { echo "::error::no self-test result"; exit 1; }
 echo "${result#NEXONIC_SELF_TEST }" | python3 -c "import json,sys; sys.exit(0 if json.load(sys.stdin)['ok'] else 1)"
-adb install -r "$release"
+# The self-test build may be signed differently: replace it instead of updating it.
+adb uninstall "$pkg" >/dev/null || true
+adb install "$release"
 adb shell am start -W -n "$pkg/.MainActivity"
 sleep 20
 adb shell pidof "$pkg" || { echo "::error::the app closed by itself"; adb logcat -d | tail -80; exit 1; }
