@@ -1,0 +1,66 @@
+name: App release
+# Builds and tests the three apps (Apps workflow), then publishes a GitHub Release with the installer (.exe), the
+# disk image (.dmg), the Android app (.apk) and their SHA-256 checksums. Nothing is published if any build or test
+# fails.
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version to release (for example 1.3.0)
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    uses: ./.github/workflows/app.yml
+    with:
+      version: ${{ inputs.version }}
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        with:
+          pattern: app-*
+          merge-multiple: true
+          path: dist
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          cd dist
+          for f in NexonicIPTV-Windows-Setup.exe NexonicIPTV-macOS.dmg NexonicIPTV-Android.apk; do
+            test -s "$f" || { echo "::error::missing $f"; exit 1; }
+          done
+          sha256sum NexonicIPTV-* > SHA256SUMS.txt
+          cat > notes.md <<NOTES
+          Nexonic IPTV apps for Windows, macOS and Android. They load the Nexonic channel catalogue directly, so new
+          channels appear without an app update.
+
+          | Download | For |
+          |---|---|
+          | NexonicIPTV-Windows-Setup.exe | Windows 10 and 11 (64-bit) |
+          | NexonicIPTV-macOS.dmg | macOS on Apple Silicon and Intel |
+          | NexonicIPTV-Android.apk | Android phones, tablets and TV boxes |
+
+          - Live TV, free films and series, radio and open media, with search, favourites, recently watched and
+            country, language and category filters.
+          - The channel list updates at start and every 3 hours, keeps the last copy for offline browsing and can be
+            refreshed by hand.
+          - Playback reconnects by itself when a stream drops. Keys: Space, F, M, Page Up/Down, Esc.
+
+          The macOS app is not notarised yet: the first time, right-click it and choose Open. On Android, allow
+          installing apps from your browser or file manager.
+          NOTES
+          sed -i 's/^          //' notes.md
+          gh release create "v$VERSION" --repo "$GITHUB_REPOSITORY" --target main \
+            --title "Nexonic IPTV $VERSION: apps for Windows, macOS and Android" --notes-file notes.md \
+            NexonicIPTV-Windows-Setup.exe NexonicIPTV-macOS.dmg NexonicIPTV-Android.apk SHA256SUMS.txt

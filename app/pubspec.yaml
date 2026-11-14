@@ -1,0 +1,29 @@
+name: nexonic_iptv
+description: Nexonic IPTV player for Windows, macOS and Android.
+publish_to: none
+version: 1.3.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  image_path: "assets/icon.png"
+  android: true
+  ios: false
+  min_sdk_android: 21
