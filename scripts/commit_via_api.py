@@ -106,8 +106,9 @@ def _batches(adds: list[str]) -> list[list[str]]:
     return groups
 
 
-def _commit(token: str, repo: str, branch: str, message: str, head: str, adds: list[str], dels: list[str],
-            paths: list[str]) -> str | None:
+def _commit(
+    token: str, repo: str, branch: str, message: str, head: str, adds: list[str], dels: list[str], paths: list[str]
+) -> str | None:
     """One createCommitOnBranch call with retries; returns the new head, or None on failure."""
     additions = [{"path": p, "contents": base64.b64encode((ROOT / p).read_bytes()).decode()} for p in adds]
     query = """mutation($input: CreateCommitOnBranchInput!) {
