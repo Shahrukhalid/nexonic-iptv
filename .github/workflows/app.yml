@@ -176,11 +176,15 @@ jobs:
           sleep 20
           kill -0 "$pid" || { echo "::error::the app closed by itself"; exit 1; }
           kill "$pid"
+          sleep 3
           log="$RUNNER_TEMP/selftest.log"
           NEXONIC_SELF_TEST=log "$bin" > "$log" 2>&1 &
           tpid=$!
           for _ in $(seq 1 120); do kill -0 "$tpid" 2>/dev/null || break; sleep 5; done
           kill -0 "$tpid" 2>/dev/null && { kill "$tpid"; echo "::error::self-test timed out"; exit 1; }
+          tail -40 "$log" || true
+          crash=$(ls -t ~/Library/Logs/DiagnosticReports/*.ips 2>/dev/null | head -1 || true)
+          if [ -n "$crash" ]; then head -c 6000 "$crash"; fi
           result=$(grep -o 'NEXONIC_SELF_TEST .*' "$log" | tail -1)
           echo "$result"
           echo "${result#NEXONIC_SELF_TEST }" | python3 -c "import json,sys; sys.exit(0 if json.load(sys.stdin)['ok'] else 1)"
