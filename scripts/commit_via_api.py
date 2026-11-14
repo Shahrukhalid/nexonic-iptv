@@ -26,7 +26,8 @@ from pathlib import Path
 import httpx
 
 ROOT = Path(__file__).resolve().parent.parent
-MAX_BYTES = 40 * 1024 * 1024
+MAX_BYTES = 200 * 1024 * 1024  # the whole change; it is sent in parts of at most BATCH_BYTES
+BATCH_BYTES = 30 * 1024 * 1024  # encoded contents per request (GitHub's limit is 45 MB per request)
 RETRY_STATUS = {500, 502, 503, 504}
 WAITS = (5, 15, 45, 90, 180)  # seconds between attempts after a server or network error
 
@@ -73,16 +74,43 @@ def main() -> int:
     if not adds and not dels:
         print("No changes to commit.")
         return 0
-    total = 0
-    additions = []
-    for p in adds:
-        data = (ROOT / p).read_bytes()
-        total += len(data)
-        additions.append({"path": p, "contents": base64.b64encode(data).decode()})
+    total = sum(len((ROOT / p).read_bytes()) for p in adds)
     if total > MAX_BYTES:
         print("Refusing: commit too large", file=sys.stderr)
         return 1
+    # GitHub refuses a request over 45 MB, and file contents travel base64-encoded (a third larger), so a big
+    # verification run (history, playlists) is committed in several commits, each well under that limit.
     head = _git("rev-parse", "HEAD")
+    batches = _batches(adds)
+    for n, batch in enumerate(batches, 1):
+        last = n == len(batches)
+        message = args.message if len(batches) == 1 else f"{args.message} ({n}/{len(batches)})"
+        result = _commit(token, repo, branch, message, head, batch, dels if last else [], args.paths)
+        if result is None:
+            return 1
+        head = result
+    return 0
+
+
+def _batches(adds: list[str]) -> list[list[str]]:
+    """Groups the changed files so each request's encoded contents stay under BATCH_BYTES (one file per group at least)."""
+    groups: list[list[str]] = [[]]
+    size = 0
+    for p in adds:
+        encoded = len((ROOT / p).read_bytes()) * 4 // 3 + 4
+        if groups[-1] and size + encoded > BATCH_BYTES:
+            groups.append([])
+            size = 0
+        groups[-1].append(p)
+        size += encoded
+    return groups
+
+
+def _commit(
+    token: str, repo: str, branch: str, message: str, head: str, adds: list[str], dels: list[str], paths: list[str]
+) -> str | None:
+    """One createCommitOnBranch call with retries; returns the new head, or None on failure."""
+    additions = [{"path": p, "contents": base64.b64encode((ROOT / p).read_bytes()).decode()} for p in adds]
     query = """mutation($input: CreateCommitOnBranchInput!) {
       createCommitOnBranch(input: $input) { commit { oid url } } }"""
     stale_retries = 0
@@ -91,7 +119,7 @@ def main() -> int:
         variables = {
             "input": {
                 "branch": {"repositoryNameWithOwner": repo, "branchName": branch},
-                "message": {"headline": args.message},
+                "message": {"headline": message},
                 "expectedHeadOid": head,
                 "fileChanges": {"additions": additions, "deletions": [{"path": p} for p in dels]},
             }
@@ -101,18 +129,18 @@ def main() -> int:
                 "https://api.github.com/graphql",
                 json={"query": query, "variables": variables},
                 headers={"Authorization": f"Bearer {token}"},
-                timeout=120,
+                timeout=180,
             )
             problem = f"HTTP {r.status_code}" if r.status_code in RETRY_STATUS else None
         except httpx.TransportError as exc:  # timeouts, resets, DNS hiccups
             r, problem = None, f"{type(exc).__name__}: {exc}"
         if problem:
-            if _already_committed(branch, adds, dels):
+            if _already_committed(branch, adds, dels, head):
                 print(f"GitHub answered {problem}, but the branch already holds these changes; done.")
-                return 0
+                return _remote_head(branch)
             if server_retries >= len(WAITS):
                 print(f"GitHub kept failing ({problem}); giving up after {server_retries} retries.", file=sys.stderr)
-                return 1
+                return None
             wait = WAITS[server_retries]
             server_retries += 1
             print(f"GitHub answered {problem}; retrying in {wait}s ({server_retries}/{len(WAITS)}).")
@@ -125,22 +153,22 @@ def main() -> int:
         if not errors:
             commit = body["data"]["createCommitOnBranch"]["commit"]
             print(f"Committed {len(adds)} added/changed and {len(dels)} deleted file(s): {commit['url']}")
-            return 0
+            return commit["oid"]
         if not any(e.get("type") == "STALE_DATA" for e in errors) or stale_retries == 3:
             print(f"GraphQL errors: {errors}", file=sys.stderr)
-            return 1
+            return None
         stale_retries += 1
         # The branch moved while this job ran. If an earlier attempt that timed out actually landed, we are done.
         # Otherwise retry on the new head only if nobody else changed the files we are about to write; else we
         # would silently overwrite their work.
-        if _already_committed(branch, adds, dels):
+        if _already_committed(branch, adds, dels, head):
             print("An earlier attempt already committed these changes; done.")
-            return 0
+            return _remote_head(branch)
         new_head = _remote_head(branch)
-        touched = _git("diff", "--name-only", head, new_head, "--", *args.paths).split()
+        touched = _git("diff", "--name-only", head, new_head, "--", *paths).split()
         if touched:
             print(f"Branch moved and changed {len(touched)} of our files; refusing to overwrite.", file=sys.stderr)
-            return 1
+            return None
         print(f"Branch moved ({head[:7]} -> {new_head[:7]}) without touching our files; retrying.")
         head = new_head
 
@@ -150,13 +178,13 @@ def _remote_head(branch: str) -> str:
     return _git("rev-parse", "FETCH_HEAD")
 
 
-def _already_committed(branch: str, adds: list[str], dels: list[str]) -> bool:
+def _already_committed(branch: str, adds: list[str], dels: list[str], base: str) -> bool:
     """True when the remote branch already has exactly our version of every changed file."""
     try:
         head = _remote_head(branch)
     except subprocess.CalledProcessError:
         return False
-    if head == _git("rev-parse", "HEAD"):
+    if head == base:
         return False  # nothing landed yet
     for p in adds:
         got = subprocess.run(["git", "show", f"{head}:{p}"], cwd=ROOT, capture_output=True)

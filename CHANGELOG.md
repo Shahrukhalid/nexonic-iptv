@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+- Stream checks were not being published since 6 Nov 2026: the verification results (history, playlists) had grown
+  past GitHub's 45 MB limit for one commit request, so every Verify streams run failed at its last step, and the
+  website and playlists stopped updating with newly found channels. Results are now committed in parts of at most
+  30 MB each. The website also redeploys after each daily catalog refresh.
+
 ## 1.2.0 — 2026-10-29
 - One playlist with everything that works: verified streams from public lists are now added to `all.m3u`,
   `verified.m3u` and the country, language, category and quality playlists, after the official channels
