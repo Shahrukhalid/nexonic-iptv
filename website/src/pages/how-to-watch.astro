@@ -14,7 +14,7 @@ const jsonLd = {
   ],
 };
 ---
-<Base title="How to watch" description="Step-by-step guides for watching Nexonic IPTV playlists in VLC, Kodi, Android, iPhone/iPad and Smart TV IPTV apps." path="/how-to-watch/" jsonLd={jsonLd}>
+<Base title="How to watch" description="Download the Nexonic IPTV apps for Windows, macOS and Android, or watch the playlists in VLC, Kodi, Android, iPhone/iPad and Smart TV IPTV apps." path="/how-to-watch/" jsonLd={jsonLd}>
   <h1>How to watch</h1>
   <p class="lead">Any player that opens an M3U playlist URL works. Copy a playlist URL from the <a href={url("/playlists/")}>playlists page</a>, or use the global one:</p>
   <div class="url-row" style="max-width:760px">
@@ -22,7 +22,16 @@ const jsonLd = {
     <input id="g" type="text" readonly value={allUrl} />
     <button class="btn primary" type="button" data-copy={allUrl}>Copy URL</button>
   </div>
-  <div class="notice info" style="margin-top:16px" role="note"><p>Playback happens in your player, directly from the broadcaster. Nexonic does not play, host or relay video, and this website has no built-in player.</p></div>
+  <div class="notice info" style="margin-top:16px" role="note"><p>Playback always comes directly from the broadcaster. Nexonic does not host or relay video, and this website has no built-in player.</p></div>
+
+  <h2 id="apps">Nexonic IPTV apps (Windows, macOS, Android)</h2>
+  <p>The Nexonic IPTV app loads the channel list by itself, keeps it for offline browsing and updates it every few hours. Streams still play directly from the broadcaster.</p>
+  <ul>
+    <li><a href="https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Windows-Setup.exe">Windows 10 and 11 installer (.exe)</a></li>
+    <li><a href="https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-macOS.dmg">macOS disk image for Apple Silicon and Intel (.dmg)</a>: the first time, right-click the app and choose <strong>Open</strong>.</li>
+    <li><a href="https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Android.apk">Android app (.apk)</a>: allow installing apps from your browser or file manager.</li>
+  </ul>
+  <p>Release notes and checksums are on the <a href="https://github.com/Shahrukhalid/nexonic-iptv/releases/latest">release page</a>.</p>
 
   <h2 id="vlc">VLC Media Player (Windows, macOS, Linux)</h2>
   <ol class="steps">
