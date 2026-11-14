@@ -76,3 +76,19 @@ def test_client_errors_are_not_retried(mod, monkeypatch):
     _replies(monkeypatch, mod, [_resp(401)])
     with pytest.raises(httpx.HTTPStatusError):
         mod.main()
+
+
+def test_large_changes_go_in_several_commits(mod, monkeypatch):
+    # GitHub refuses requests over 45 MB: three 12 MB files (16 MB each once encoded) go one per request.
+    monkeypatch.setattr(mod, "changed", lambda paths: (["a", "b", "c"], ["old"]))
+    monkeypatch.setattr(mod.Path, "read_bytes", lambda self: b"x" * (12 * 1024 * 1024))
+    second = {"data": {"createCommitOnBranch": {"commit": {"oid": "def", "url": "https://example.org/c/def"}}}}
+    calls = _replies(monkeypatch, mod, [_resp(200, OK), _resp(200, OK), _resp(200, second)])
+    assert mod.main() == 0
+    assert len(calls) == 3
+    first, _, last = (c["json"]["variables"]["input"] for c in calls)
+    assert [a["path"] for a in first["fileChanges"]["additions"]] == ["a"]
+    assert first["fileChanges"]["deletions"] == []
+    assert last["expectedHeadOid"] == "abc"  # the second commit builds on the first
+    assert last["fileChanges"]["deletions"] == [{"path": "old"}]
+    assert last["message"]["headline"].endswith("(3/3)")

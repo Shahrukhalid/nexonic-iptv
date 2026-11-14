@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_run:
     # Commits made with GITHUB_TOKEN do not trigger push workflows, so redeploy after data workflows finish.
-    workflows: ["Verify streams", "Generate playlists"]
+    workflows: ["Verify streams", "Generate playlists", "Refresh catalog"]
     types: [completed]
   workflow_dispatch:
 permissions:
