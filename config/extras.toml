@@ -1,0 +1,24 @@
+# Free radio, open media and TV guide settings (nexonic/extras_config.py). Every value shown is the built-in default.
+
+# Free radio (nexonic/radio.py): working stations from an open, public-domain station directory, refreshed daily.
+[radio]
+enabled = true
+max_stations = 30000
+per_country = 1500
+
+# Open media (nexonic/openmedia.py): public-domain, CC0, CC BY and CC BY-SA videos from Wikimedia Commons, read a few
+# pages per day. Searches can be added as q (search words) and genre (a playlist under playlists/media/).
+[media]
+enabled = true
+pages_per_run = 20
+min_seconds = 120
+allowed_licences = ["pd", "cc0", "cc-by", "cc-by-sa"]
+
+# TV guide (nexonic/guide.py): add https XMLTV feeds whose publisher allows reuse, and their hosts. The guide is trimmed
+# to the published channels and served as playlists/guide.xml.gz; with no feeds no guide is built.
+[guide]
+enabled = true
+hours_ahead = 48
+hours_behind = 6
+allowed_hosts = []
+feeds = []
