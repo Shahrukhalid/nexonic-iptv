@@ -25,6 +25,7 @@ from .extras_config import RadioConfig
 from .fetch import FetchError, fetch_json
 from .moderation import Decision, Subject, screen_subject
 from .records import ROOT, normalise_url
+from .safety import _token_reason
 from .timeutil import iso, parse_iso, utc_now
 
 STATE_DIR = ROOT / "state" / "radio"
@@ -54,6 +55,8 @@ def station_ok(s: dict, cfg: RadioConfig) -> str | None:
         parts.port  # noqa: B018 - raises ValueError for a malformed port
     except ValueError:
         return "bad-url"
+    if _token_reason(parts, True):
+        return "credential-in-url"  # signed or keyed addresses are never published
     if str(s.get("lastcheckok", 1)) not in ("1", "True", "true"):
         return "not-working"
     if cfg.min_bitrate and int(s.get("bitrate") or 0) and int(s.get("bitrate") or 0) < cfg.min_bitrate:
@@ -68,6 +71,17 @@ def station_ok(s: dict, cfg: RadioConfig) -> str | None:
     return None
 
 
+def _logo(url: str) -> str:
+    """The station logo, or "" when it is not https or carries a key or token."""
+    url = url.strip()
+    if not url.startswith("https://") or " " in url:
+        return ""
+    try:
+        return "" if _token_reason(urlsplit(url), True) else url
+    except ValueError:
+        return ""
+
+
 def row_of(s: dict) -> list:
     tags = [t.strip() for t in (s.get("tags") or "").split(",") if t.strip()][:6]
     lang = (s.get("language") or "").split(",")[0].strip()
@@ -78,7 +92,7 @@ def row_of(s: dict) -> list:
         (s.get("countrycode") or "").upper()[:2],
         lang[:40],
         tags,
-        (s.get("favicon") or "").strip() if (s.get("favicon") or "").startswith("https://") else "",
+        _logo(s.get("favicon") or ""),
         (s.get("codec") or "")[:12],
         int(s.get("bitrate") or 0),
         int(s.get("clickcount") or 0) + int(s.get("votes") or 0),

@@ -17,7 +17,7 @@ import time
 
 import httpx
 
-from .config import load_pipeline
+from .config import REPO, load_pipeline
 from .records import ROOT
 
 OPEN_LICENCES = {
@@ -78,7 +78,7 @@ def find(
     Stops after ``budget`` seconds or at GitHub's rate limit and reports what it found so far."""
     started = time.monotonic()
     cfg = load_pipeline()
-    known = {s["repo"].lower() for s in cfg.discovery.sources + cfg.discovery.extra_m3u}
+    known = {s["repo"].lower() for s in cfg.discovery.sources + cfg.discovery.extra_m3u} | {REPO.lower()}
     cutoff = dt.datetime.now(dt.UTC) - dt.timedelta(days=days)
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "nexonic-iptv"}
     if token:
