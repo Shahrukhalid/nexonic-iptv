@@ -1,51 +1,52 @@
 {
-  "reference_time": "2026-11-14T13:21:19Z",
+  "reference_time": "2026-11-14T17:13:59Z",
   "records": {
     "approved": 756,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 538,
-  "excluded_approved": 218,
+  "published_channels": 540,
+  "excluded_approved": 216,
   "countries": 94,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 465,
+  "verified_playlist_channels": 470,
   "playlist_files": 535,
   "latest_run": {
-    "run_id": "run-20261114T131547Z",
-    "started_at": "2026-11-14T13:15:47Z",
-    "finished_at": "2026-11-14T13:21:19Z",
+    "run_id": "run-20261114T170812Z",
+    "started_at": "2026-11-14T17:08:12Z",
+    "finished_at": "2026-11-14T17:13:59Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 152,
-      "UNKNOWN": 73,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 138,
+      "UNKNOWN": 65,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 428
+      "VERIFIED_WORKING": 451
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 428,
-    "UNAVAILABLE": 152,
-    "GEO_RESTRICTED": 61,
+    "VERIFIED_WORKING": 451,
+    "UNAVAILABLE": 138,
+    "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 29,
+    "TIMEOUT": 30,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 73,
+    "UNKNOWN": 65,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
+    "currently-failing": 3,
     "geo-restricted": 42,
-    "previously-working": 63,
+    "previously-working": 39,
     "unknown": 5,
-    "verified-recently": 428
+    "verified-recently": 451
   },
   "per_country": {
     "ae": {
@@ -476,7 +477,7 @@
     "tr": {
       "name": "Turkiye",
       "flag": "🇹🇷",
-      "channels": 23
+      "channels": 24
     },
     "tt": {
       "name": "Trinidad and Tobago",
@@ -501,7 +502,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 65
+      "channels": 66
     },
     "ve": {
       "name": "Venezuela",
@@ -570,7 +571,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 138
+      "channels": 140
     },
     "es": {
       "name": "Spanish",
@@ -792,7 +793,7 @@
     },
     "education": {
       "name": "Education",
-      "channels": 39
+      "channels": 40
     },
     "entertainment": {
       "name": "Entertainment",
@@ -824,7 +825,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 95
+      "channels": 96
     },
     "series": {
       "name": "Series",
@@ -842,15 +843,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 538,
-      "verified": 465,
-      "not_verified": 73,
-      "with_measured_quality": 470,
+      "published": 540,
+      "verified": 470,
+      "not_verified": 70,
+      "with_measured_quality": 472,
       "per_quality": {
-        "1080p": 238,
+        "1080p": 240,
         "4k": 1,
-        "720p": 168,
-        "sd": 63
+        "720p": 169,
+        "sd": 62
       }
     },
     "community": {
