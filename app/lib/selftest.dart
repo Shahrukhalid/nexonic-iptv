@@ -12,6 +12,7 @@ import 'package:media_kit_video/media_kit_video.dart';
 
 import 'catalog.dart';
 import 'm3u.dart';
+import 'ui/player.dart' show videoConfiguration;
 
 class SelfTestApp extends StatefulWidget {
   const SelfTestApp({super.key, required this.output});
@@ -25,7 +26,7 @@ class SelfTestApp extends StatefulWidget {
 
 class _SelfTestAppState extends State<SelfTestApp> {
   final player = Player();
-  late final controller = VideoController(player);
+  late final controller = VideoController(player, configuration: videoConfiguration);
   String status = 'Starting self-test…';
 
   @override
