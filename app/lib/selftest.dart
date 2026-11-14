@@ -73,18 +73,19 @@ class _SelfTestAppState extends State<SelfTestApp> {
       result['error'] = '$e';
     }
     final text = jsonEncode(result);
-    if (Platform.isAndroid) {
-      // ignore: avoid_print
-      print('NEXONIC_SELF_TEST $text'); // logcat
-    } else {
-      // Standard output (macOS, where the sandbox blocks other folders), flushed before the process exits.
-      stdout.writeln('NEXONIC_SELF_TEST $text');
-      await stdout.flush();
-    }
     if (widget.output != 'log') {
       try {
         await File(widget.output).writeAsString(text);
       } catch (_) {}
+    }
+    if (Platform.isAndroid) {
+      // ignore: avoid_print
+      print('NEXONIC_SELF_TEST $text'); // logcat
+    } else if (Platform.isMacOS) {
+      // Standard output (the macOS sandbox blocks other folders), flushed before the process exits. Windows apps have
+      // no console, so they only write the file above.
+      stdout.writeln('NEXONIC_SELF_TEST $text');
+      await stdout.flush().timeout(const Duration(seconds: 5), onTimeout: () {});
     }
     await player.dispose();
     exit(result['ok'] == true ? 0 : 1);
