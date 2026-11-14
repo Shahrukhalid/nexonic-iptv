@@ -142,10 +142,16 @@ def test_extra_tiers_never_raise(monkeypatch, capsys):
     monkeypatch.setattr(verify.community, "official_context", lambda r: object())
     monkeypatch.setattr(verify.community, "run_daily", boom)
     monkeypatch.setattr(verify.vod, "refresh", boom)
+    monkeypatch.setattr(verify.openmedia, "refresh", boom)
+    monkeypatch.setattr(verify.radio, "refresh", boom)
+    monkeypatch.setattr(verify.guide, "build", boom)
+    monkeypatch.setattr(verify.finder, "due", boom)
     Cfg.discovery = Cfg.community = None
     verify.extra_tiers(Cfg, None, Args, 0.0)
     err = capsys.readouterr().err
     assert "community tier failed" in err and "free VOD refresh failed" in err
+    for name in ("open media", "radio", "source finder"):
+        assert f"{name} upkeep failed" in err
 
     monkeypatch.setattr(verify.community, "load_exclusions", boom)
     verify.extra_tiers(Cfg, None, Args, 0.0)
