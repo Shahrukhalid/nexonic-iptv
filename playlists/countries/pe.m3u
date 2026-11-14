@@ -1,4 +1,6 @@
 #EXTM3U x-nexonic-playlist="Peru"
+#EXTINF:-1 tvg-id="AmericaInternacional.pe@SD" tvg-name="America Internacional" tvg-country="PE" tvg-language="Spanish" group-title="General",America Internacional
+https://api-ott.americatv.com.pe/loggingmediaurlpassthrough/a.m3u8?version=12&id=10&partner=whaletv&tag_id=139913&app_name=Whale+TV%2B&app_store=Browser&ic=IAB1&url=&wtv_channel_id=0470&content_id=&content_genre=News&content_title=&content_series=&content_season=&content_episode=&language=&dur=&rating=12%2B&content_producer_name=OTTera_AmericaTV_AmericaTelevision&content_categories=IAB19-29%2CIAB12&content_custom_1_param=OTTera&content_custom_2_param=F%2CM&content_custom_3_param=18-20%2C21-24%2C25-29%2C30-34%2C35-39%2C40-44%2C45-49%2C50-54%2C55-59&tv_language=&device_make=&tv_vendor=&brand_name=&device_model=&tv_model=&gdpr=1&gdpr_consent=&did=&ua=&ip=&dnt=&lmt=&coppa=0&us_privacy=1YNN&min_dur=5&max_dur=30&cb=&h=&w=&content_livestream=1&placement=1&ap=1&mute=0&skip=0&ads.gdpr=0
 #EXTINF:-1 tvg-id="ECOTelevision.pe@SD" tvg-name="ECO Television" tvg-country="PE" tvg-language="Spanish" group-title="General",ECO Television
 https://stream.ecoperu.tv/ECOTV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="HuachoPeruTV.pe@SD" tvg-name="Huacho Peru TV" tvg-country="PE" tvg-language="Spanish" group-title="General",Huacho Peru TV
@@ -19,6 +21,8 @@ https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8
 https://live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AndesTelevision.pe@SD" tvg-name="Andes Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CsW4Op8.png" group-title="Culture" x-tier="community" x-status="verified" x-quality="1080p",Andes Television
 https://live-evg7.tv360.bitel.com.pe/bitel/andestvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="Antena1.pe@SD" tvg-name="Antena 1" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Bt0yGtw.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Antena 1
+https://live-evg8.tv360.bitel.com.pe/bitel/aunoSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ArpegioTV.pe@SD" tvg-name="Arpegio TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mxnKK1a.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Arpegio TV
 https://vdo.oyotunserver.com/arpegio/video.m3u8
 #EXTINF:-1 tvg-id="AutenticaTelevision.pe@SD" tvg-name="Autentica Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/bEJK3RN.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Autentica Television
@@ -41,10 +45,16 @@ https://live-evg10.tv360.bitel.com.pe/bitel/cadenatv/playlist.m3u8
 https://live.obslivestream.com/canal8/index.m3u8
 #EXTINF:-1 tvg-id="CANALMTelevision.pe@SD" tvg-name="CANAL M Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/EcdNFuJ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",CANAL M Television
 https://live-evg10.tv360.bitel.com.pe/bitel/anqaratv/playlist.m3u8
+#EXTINF:-1 tvg-id="CasmaTV.pe@SD" tvg-name="Casma TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/42aE0nm.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Casma TV
+https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8
 #EXTINF:-1 tvg-id="Conecta2TV.pe@SD" tvg-name="Conecta2TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cfHaLt2.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Conecta2TV
 https://live.obslivestream.com/conecta2/index.m3u8
 #EXTINF:-1 tvg-id="CRTelevision.pe@SD" tvg-name="CR Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/oxycMeA.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",CR Television
 https://live.obslivestream.com/crtvmux/index.m3u8
+#EXTINF:-1 tvg-id="DacTV.pe@SD" tvg-name="Dac TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/g4pZ3ZW.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Dac TV
+https://live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="DTV.pe@SD" tvg-name="DTV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OSvegAq.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",DTV
+https://live-evg7.tv360.bitel.com.pe/bitel/sabormixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ExitosaTV.pe@SD" tvg-name="Exitosa TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/pu0BSB7.png" group-title="News" x-tier="community" x-status="verified" x-quality="720p",Exitosa TV
 https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8
 #EXTINF:-1 tvg-id="GeniosTV.pe@SD" tvg-name="Genios TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iH2Lx6E.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Genios TV
@@ -69,6 +79,8 @@ https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8
 https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="MonterricoTV.pe@SD" tvg-name="Monterrico TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SuVO9T7.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="sd",Monterrico TV
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
+#EXTINF:-1 tvg-id="NativaTVSatipo.pe@SD" tvg-name="Nativa TV Satipo" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ScCAgGB.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Nativa TV Satipo
+https://live-evg7.tv360.bitel.com.pe/bitel/nativachanchamayoSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="NeoTV.pe@SD" tvg-name="Neo TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/bS5JtYX.jpeg" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="1080p",Neo TV
 https://live-evg7.tv360.bitel.com.pe/bitel/neotvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="OzonoTV.pe@SD" tvg-name="Ozono TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Wkdibpv.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Ozono TV
@@ -81,18 +93,24 @@ https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
 https://live-evg7.tv360.bitel.com.pe/bitel/piuratvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="PlaneaTV.pe@SD" tvg-name="Planea TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/EoLhvBN.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Planea TV
 https://live-evg8.tv360.bitel.com.pe/bitel/planeatvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="QollasuyoTV.pe@SD" tvg-name="Qollasuyo TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/6bi7fGB.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Qollasuyo TV
+https://live-evg5.tv360.bitel.com.pe/bitel/qollasuyotv/playlist.m3u8
 #EXTINF:-1 tvg-id="QosqoTimes.pe@SD" tvg-name="Qosqo Times" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/oWJauwQ.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Qosqo Times
 https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioOndaDigital.pe@SD" tvg-name="Radio Onda Digital" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Lid5RTv.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",Radio Onda Digital
 https://live.ondadigitaltv.com/RADIOODTV/index.m3u8
 #EXTINF:-1 tvg-id="RadioRumbaTV.pe@SD" tvg-name="Radio Rumba TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BYcxI03.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",Radio Rumba TV
 https://tv.sistemasandinos.org/rumbatv/video.m3u8
+#EXTINF:-1 tvg-id="RadioTVOriente.pe@SD" tvg-name="RadioTV Oriente" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iHaFLHX.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",RadioTV Oriente
+https://live.obslivestream.com/tvoriente/index.m3u8
 #EXTINF:-1 tvg-id="RealTelevision.pe@SD" tvg-name="Real Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/7KECyh5.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Real Television
 https://live-evg10.tv360.bitel.com.pe/bitel/realtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RegionTVCallao.pe@SD" tvg-name="Region TV Callao" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/I4grcqk.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Region TV Callao
 https://live-evg7.tv360.bitel.com.pe/bitel/regiontvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="RPPTV.pe@SD" tvg-name="RPP TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/RPP_logo.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",RPP TV
 https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/rpptv/rpptv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RSelvaTV.pe@SD" tvg-name="RSelvaTV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/DAK5ZnD.png" group-title="News" x-tier="community" x-status="verified" x-quality="720p",RSelvaTV
+https://live.obslivestream.com/selvatv/index.m3u8
 #EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-name="RumbaMix TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/rwA3HIp.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",RumbaMix TV
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="RumboMineroTV.pe@SD" tvg-name="Rumbo Minero TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://www.rumbominero.com/wp-content/uploads/2021/05/logo_RM_AM_2.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Rumbo Minero TV
@@ -101,18 +119,30 @@ https://live-evg8.tv360.bitel.com.pe/bitel/minero/playlist.m3u8
 https://livestream.perucast.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SiscomTV.pe@SD" tvg-name="Siscom TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0JUlFZ4.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Siscom TV
 https://video2.lhdserver.es/siscomtv/live.m3u8
+#EXTINF:-1 tvg-id="SolTV.pe@SD" tvg-name="SolTV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GtNkuAc.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",SolTV
+https://5790d294af2dc.streamlock.net/streamtv/streamtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SqalaTV.pe@SD" tvg-name="Sqala TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/DJ05m8s.png" group-title="Sports" x-tier="community" x-status="verified" x-quality="1080p",Sqala TV
 https://live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8
+#EXTINF:-1 tvg-id="StudioPascoTV.pe@SD" tvg-name="Studio Pasco TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zgyNuVE.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Studio Pasco TV
+https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperCanal.pe@SD" tvg-name="Super Canal" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/eotfCMd.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Super Canal
 https://live.obslivestream.com/supercanal/index.m3u8
 #EXTINF:-1 tvg-id="TelecolorYurimaguas.pe@SD" tvg-name="Telecolor Yurimaguas" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Ug6XNIU.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Telecolor Yurimaguas
 https://live.obslivestream.com/telecolormux/index.m3u8
 #EXTINF:-1 tvg-id="Telelima.pe@SD" tvg-name="Telelima" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://telelima.pe/img/logo.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Telelima
 https://live-evg11.tv360.bitel.com.pe/bitel/telelimaSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TelesystemTV.pe@SD" tvg-name="Telesystem TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CI4CNgL.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Telesystem TV
+https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TelevisionTarapoto.pe@SD" tvg-name="Television Tarapoto" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Television Tarapoto
+https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TeveEmpresa.pe@SD" tvg-name="Teve Empresa" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/04/07/02/1775503150878/c34840061c94_480_270.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Teve Empresa
+https://live-evg8.tv360.bitel.com.pe/bitel/tvempresaSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Tevesur.pe@SD" tvg-name="Tevesur" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/LcZ2Hhd.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Tevesur
 https://live-evg11.tv360.bitel.com.pe/bitel/tevesurSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TurboMixRadioTV.pe@SD" tvg-name="Turbo Mix Radio TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/AsdBQa3.png" group-title="Music" x-tier="community" x-status="verified" x-quality="1080p",Turbo Mix Radio TV
 https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMAX.pe@SD" tvg-name="TV MAX" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/JFBpDJ1.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",TV MAX
+https://live-evg8.tv360.bitel.com.pe/bitel/nexSRT_TRA/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlusChincha.pe@SD" tvg-name="TV+ Chincha" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/bjQpQsu.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TV+ Chincha
 https://live-evg11.tv360.bitel.com.pe/bitel/tvchincha/playlist.m3u8
 #EXTINF:-1 tvg-id="UcayalinadeTelevision.pe@SD" tvg-name="Ucayalina de Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/jBhfcqy.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Ucayalina de Television
@@ -129,7 +159,13 @@ https://live.obslivestream.com/viaaltomayomux/index.m3u8
 https://live-evg8.tv360.bitel.com.pe/bitel/visionsur/playlist.m3u8
 #EXTINF:-1 tvg-id="VivaTVYurimaguas.pe@SD" tvg-name="Viva TV Yurimaguas" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GkSoxhx.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Viva TV Yurimaguas
 https://live.obslivestream.com/vivatv/index.m3u8
+#EXTINF:-1 tvg-id="WayraTV.pe@SD" tvg-name="Wayra TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/eQLRVFp.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Wayra TV
+https://live-evg11.tv360.bitel.com.pe/bitel/wayratv/playlist.m3u8
+#EXTINF:-1 tvg-id="Wtv.pe@SD" tvg-name="Wtv" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/V10iVeh.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Wtv
+https://live-evg7.tv360.bitel.com.pe/bitel/ncanalSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="YurimaguasTV.pe@SD" tvg-name="Yurimaguas TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VWC6Pt1.png" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Yurimaguas TV
 https://live-evg7.tv360.bitel.com.pe/bitel/yurimaguastvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Yurivision.pe@SD" tvg-name="Yurivision" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VhWuaER.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Yurivision
 https://live-evg5.tv360.bitel.com.pe/bitel/yurivisionSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeleveTV.pe@SD" tvg-name="Zeleve TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CGWaunJ.jpeg" group-title="General" x-tier="community" x-status="verified" x-quality="720p",Zeleve TV
+https://live-evg11.tv360.bitel.com.pe/bitel/zeleve/playlist.m3u8

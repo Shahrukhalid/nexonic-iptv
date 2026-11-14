@@ -1,49 +1,49 @@
 {
-  "reference_time": "2026-11-14T08:06:51Z",
+  "reference_time": "2026-11-14T10:31:48Z",
   "records": {
     "approved": 756,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 546,
-  "excluded_approved": 210,
+  "published_channels": 538,
+  "excluded_approved": 218,
   "countries": 95,
   "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 438,
-  "playlist_files": 307,
+  "verified_playlist_channels": 453,
+  "playlist_files": 308,
   "latest_run": {
-    "run_id": "run-20261114T080057Z",
-    "started_at": "2026-11-14T08:00:57Z",
-    "finished_at": "2026-11-14T08:06:51Z",
+    "run_id": "run-20261114T102551Z",
+    "started_at": "2026-11-14T10:25:51Z",
+    "finished_at": "2026-11-14T10:31:48Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 152,
-      "UNKNOWN": 67,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 151,
+      "UNKNOWN": 66,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 438
     }
   },
   "latest_run_status_counts": {
     "VERIFIED_WORKING": 438,
-    "UNAVAILABLE": 152,
+    "UNAVAILABLE": 151,
     "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 27,
+    "TIMEOUT": 29,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 67,
+    "UNKNOWN": 66,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "geo-restricted": 42,
-    "previously-working": 61,
+    "previously-working": 53,
     "unknown": 5,
     "verified-recently": 438
   },
@@ -126,7 +126,7 @@
     "ca": {
       "name": "Canada",
       "flag": "🇨🇦",
-      "channels": 22
+      "channels": 13
     },
     "ch": {
       "name": "Switzerland",
@@ -326,7 +326,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 2
+      "channels": 3
     },
     "lv": {
       "name": "Latvia",
@@ -391,7 +391,7 @@
     "no": {
       "name": "Norway",
       "flag": "🇳🇴",
-      "channels": 2
+      "channels": 1
     },
     "nz": {
       "name": "New Zealand",
@@ -401,7 +401,7 @@
     "pe": {
       "name": "Peru",
       "flag": "🇵🇪",
-      "channels": 6
+      "channels": 7
     },
     "pk": {
       "name": "Pakistan",
@@ -421,7 +421,7 @@
     "py": {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "channels": 4
+      "channels": 3
     },
     "qa": {
       "name": "Qatar",
@@ -506,7 +506,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 64
+      "channels": 65
     },
     "ve": {
       "name": "Venezuela",
@@ -571,7 +571,7 @@
     },
     "de": {
       "name": "German",
-      "channels": 36
+      "channels": 35
     },
     "el": {
       "name": "Greek",
@@ -579,11 +579,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 136
+      "channels": 129
     },
     "es": {
       "name": "Spanish",
-      "channels": 69
+      "channels": 68
     },
     "et": {
       "name": "Estonian",
@@ -603,7 +603,7 @@
     },
     "fr": {
       "name": "French",
-      "channels": 28
+      "channels": 27
     },
     "hi": {
       "name": "Hindi",
@@ -695,7 +695,7 @@
     },
     "no": {
       "name": "Norwegian",
-      "channels": 2
+      "channels": 1
     },
     "or": {
       "name": "Odia",
@@ -763,7 +763,7 @@
     },
     "tr": {
       "name": "Turkish",
-      "channels": 21
+      "channels": 20
     },
     "uk": {
       "name": "Ukrainian",
@@ -801,11 +801,11 @@
     },
     "education": {
       "name": "Education",
-      "channels": 39
+      "channels": 40
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 35
+      "channels": 34
     },
     "general": {
       "name": "General",
@@ -829,7 +829,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 83
+      "channels": 75
     },
     "news": {
       "name": "News",
@@ -851,22 +851,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 546,
-      "verified": 438,
-      "not_verified": 108,
-      "with_measured_quality": 478,
+      "published": 538,
+      "verified": 453,
+      "not_verified": 85,
+      "with_measured_quality": 470,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 234,
         "4k": 1,
         "720p": 174,
-        "sd": 63
+        "sd": 61
       }
     },
     "community": {
-      "published": 4100,
-      "verified": 3010,
-      "untested": 1090,
-      "held_back_after_failed_check": 3175,
+      "published": 4104,
+      "verified": 3675,
+      "untested": 429,
+      "held_back_after_failed_check": 3171,
       "never_checked": 0,
       "catalog_streams": 7275,
       "catalog_built_at": "2026-11-14T08:07:02Z",
@@ -874,29 +874,29 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 551,
-        "invalid": 1196,
+        "intermittent": 558,
+        "invalid": 1197,
         "restricted": 184,
-        "unknown": 189,
-        "unreachable": 1813,
-        "working": 3342
+        "unknown": 184,
+        "unreachable": 1826,
+        "working": 3326
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 711
+          "streams": 728
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 517
+          "streams": 520
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 198
+          "streams": 195
         },
         {
           "code": "it",
@@ -906,17 +906,17 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 123
+          "streams": 125
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 117
+          "streams": 114
         },
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 97
+          "streams": 96
         },
         {
           "code": "br",
@@ -924,13 +924,13 @@
           "streams": 95
         },
         {
-          "code": "de",
-          "name": "Germany",
-          "streams": 93
-        },
-        {
           "code": "es",
           "name": "Spain",
+          "streams": 94
+        },
+        {
+          "code": "de",
+          "name": "Germany",
           "streams": 93
         }
       ],

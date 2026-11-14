@@ -9,8 +9,6 @@ https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
 https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd
 #EXTINF:-1 tvg-id="ServusTV.at@SD" tvg-name="ServusTV" tvg-country="AT" tvg-language="German" group-title="Austria",ServusTV
 https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8
-#EXTINF:-1 tvg-id="StingrayClassica.ca@SD" tvg-name="Stingray Classica" tvg-country="CA" tvg-language="English;German;Spanish;French" group-title="Canada",Stingray Classica
-https://lotus.stingray.com/manifest/classica-cla008-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-name="Meteonews" tvg-country="CH" tvg-language="German" group-title="Switzerland",Meteonews
 https://streaming.meteonews.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="3sat.de@SD" tvg-name="3sat" tvg-country="DE" tvg-language="German" group-title="Germany",3sat
@@ -127,6 +125,8 @@ https://bibeltv02.iptv-playoutcenter.de/bibeltv02/bibeltv02.stream_1/playlist.m3
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentral.de@SD" tvg-name="Comedy Central" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Comedy Central
 https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
+#EXTINF:-1 tvg-id="DeluxeLounge.de@SD" tvg-name="Deluxe Lounge" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/pgCA35z.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="720p",Deluxe Lounge
+https://jmp2.uk/stvp-CHAJ0500413A
 #EXTINF:-1 tvg-id="DisneyChannel.de@SD" tvg-name="Disney Channel" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Disney Channel
 https://s6.hopslan.com/disneyX/index.m3u8
 #EXTINF:-1 tvg-id="DMAX.de@HD" tvg-name="DMAX" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/960px-DMAX_BLACK.svg.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",DMAX
@@ -273,3 +273,5 @@ https://968754c2483045c1a9a7f677caec35b6.mediatailor.eu-west-1.amazonaws.com/v1/
 https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8
 #EXTINF:-1 tvg-id="XITEHits.nl@Germany" tvg-name="XITE Hits (Germany)" tvg-country="NL" tvg-language="English;German" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Netherlands" x-tier="community" x-status="verified" x-quality="1080p",XITE Hits (Germany)
 https://d726x48n2pd5h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-skxr1pazhltvp/XITE_Hits.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@German" tvg-name="FIFA+ (German)" tvg-country="UK" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (German)
+https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8

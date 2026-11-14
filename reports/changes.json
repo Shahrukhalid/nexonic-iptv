@@ -1,44 +1,45 @@
 {
-  "reference_time": "2026-11-14T08:06:51Z",
-  "baseline_reference_time": "2026-11-06T00:23:11Z",
+  "reference_time": "2026-11-14T10:31:48Z",
+  "baseline_reference_time": "2026-11-14T08:06:51Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 546,
-    "verified_playlist": 438,
-    "excluded": 210,
+    "published": 538,
+    "verified_playlist": 453,
+    "excluded": 218,
     "pending_authorization": 43,
-    "quarantined": 159,
+    "quarantined": 168,
     "duplicates_excluded_total": 0,
-    "new_candidates": 3,
-    "new_published": 3,
+    "new_candidates": 0,
+    "new_published": 1,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 42,
-    "newly_quarantined": 1,
-    "restored": 6,
+    "newly_failing": 4,
+    "newly_quarantined": 12,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
+    "intermittent": 27,
     "invalid": 1,
     "restricted": 42,
-    "unknown": 29,
-    "unreachable": 36,
-    "working": 438
+    "unknown": 26,
+    "unreachable": 16,
+    "working": 426
   },
   "latest_run": {
-    "run_id": "run-20261114T080057Z",
-    "started_at": "2026-11-14T08:00:57Z",
-    "finished_at": "2026-11-14T08:06:51Z",
+    "run_id": "run-20261114T102551Z",
+    "started_at": "2026-11-14T10:25:51Z",
+    "finished_at": "2026-11-14T10:31:48Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 27,
-      "UNAVAILABLE": 152,
-      "UNKNOWN": 67,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 151,
+      "UNKNOWN": 66,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 438
     }
@@ -67,50 +68,18 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 307,
+    "playlist_files": 308,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
+    "12 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
-    "new_candidates": [
+    "new_candidates": [],
+    "new_published": [
       {
         "id": "america-internacional-pe",
         "name": "America Internacional",
-        "country": "pe",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      },
-      {
-        "id": "channel-7-th",
-        "name": "Channel 7",
-        "country": "th",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      },
-      {
-        "id": "raj-pariwar-in",
-        "name": "Raj Pariwar",
-        "country": "in",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      }
-    ],
-    "new_published": [
-      {
-        "id": "chardikla-time-tv-in",
-        "name": "Chardikla Time TV",
-        "country": "in"
-      },
-      {
-        "id": "digital-channel-bj",
-        "name": "Digital Channel",
-        "country": "bj"
-      },
-      {
-        "id": "la-tremenda-tv-pe",
-        "name": "La Tremenda TV",
         "country": "pe"
       }
     ],
@@ -118,344 +87,126 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "alternatv-ar",
-        "name": "AlternaTV",
-        "country": "ar",
-        "state": "unreachable",
-        "error": "no response within 10s"
-      },
-      {
-        "id": "america-internacional-pe",
-        "name": "America Internacional",
-        "country": "pe",
-        "state": "unreachable",
-        "error": "connection error: ConnectError"
-      },
-      {
-        "id": "ard-alpha-de",
-        "name": "ARD-alpha",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "asharq-news-sa",
-        "name": "Asharq News",
-        "country": "sa",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "capital-21-mx",
-        "name": "Capital 21",
-        "country": "mx",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "cctv-1-cn",
-        "name": "CCTV+ 1",
-        "country": "cn",
-        "state": "unreachable",
-        "error": "segment: HTTP 404 (stream not found)"
-      },
-      {
-        "id": "channel-7-th",
-        "name": "Channel 7",
-        "country": "th",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ebc-general-education-kh",
-        "name": "EBC General Education",
-        "country": "kh",
-        "state": "invalid",
-        "error": "manifest: body does not start with #EXTM3U"
-      },
-      {
-        "id": "eco-television-pe",
-        "name": "ECO Television",
-        "country": "pe",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ss"
-      },
-      {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
-        "country": "lu",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "fortis-tv-ng",
-        "name": "Fortis TV",
-        "country": "ng",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "france-24-arabic",
-        "name": "France 24 Arabic",
-        "country": "fr",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "france-24-english",
-        "name": "France 24 English",
-        "country": "fr",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "france-24-espanol",
-        "name": "France 24 Español",
-        "country": "fr",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "france-24-french",
-        "name": "France 24 Français",
-        "country": "fr",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "frikanalen-no",
-        "name": "Frikanalen",
-        "country": "no",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certifica"
-      },
-      {
-        "id": "hktv-us",
-        "name": "HKTV",
+        "id": "big-civic-channel-us",
+        "name": "BIG Civic Channel",
         "country": "us",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "kalu-tv-co",
-        "name": "Kalu TV",
-        "country": "co",
+        "id": "city-of-loveland-tv-us",
+        "name": "City of Loveland TV",
+        "country": "us",
         "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
+        "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "kanal-8-mk",
-        "name": "Kanal 8",
-        "country": "mk",
+        "id": "hctv-educational-access-channel",
+        "name": "HCTV Educational Access Channel",
+        "country": "us",
         "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
+        "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "larivision-tv-do",
-        "name": "Larivision TV",
-        "country": "do",
-        "state": "unreachable",
-        "error": "HTTP 502 (server error)"
-      },
-      {
-        "id": "mtv-guyana-gy",
-        "name": "MTV Guyana",
-        "country": "gy",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ndr-mecklenburg-vorpommern",
-        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ndr-niedersachsen",
-        "name": "NDR Fernsehen Niedersachsen",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "raj-pariwar-in",
-        "name": "Raj Pariwar",
-        "country": "in",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ss"
-      },
-      {
-        "id": "rtnb-tv-bi",
-        "name": "RTNB TV",
-        "country": "bi",
-        "state": "unreachable",
-        "error": "HTTP 503 (server error)"
-      },
-      {
-        "id": "rtv-zenica-ba",
-        "name": "RTV Zenica",
-        "country": "ba",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "star-channel-international",
-        "name": "Star Channel International",
-        "country": "gr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-classica-ca",
-        "name": "Stingray Classica",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-djazz-ca",
-        "name": "Stingray DJAZZ",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-everything-80s-ca",
-        "name": "Stingray Everything '80s",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-hit-list-ca",
-        "name": "Stingray Hit List",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-holidayscapes-ca",
-        "name": "Stingray Holidayscapes",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-karaoke-ca",
-        "name": "Stingray Karaoke",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-naturescape-ca",
-        "name": "Stingray Naturescape",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-nothin-but-90s-ca",
-        "name": "Stingray Nothin' But 90s",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-smooth-jazz-ca",
-        "name": "Stingray Smooth Jazz",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "trt-1",
-        "name": "TRT 1",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "segment: HTTP 400"
-      },
-      {
-        "id": "trt-arabi",
-        "name": "TRT Arabi",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ulytau-kz",
-        "name": "Ulytau",
-        "country": "kz",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
-        "since": "2026-11-14T08:01:59Z"
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
+        "country": "lu",
+        "since": "2026-11-14T10:27:40Z"
+      },
+      {
+        "id": "farra-play-py",
+        "name": "Farra Play",
+        "country": "py",
+        "since": "2026-11-14T10:28:04Z"
+      },
+      {
+        "id": "frikanalen-no",
+        "name": "Frikanalen",
+        "country": "no",
+        "since": "2026-11-14T10:27:58Z"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "since": "2026-11-14T10:26:12Z"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "since": "2026-11-14T10:29:31Z"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "since": "2026-11-14T10:29:54Z"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "since": "2026-11-14T10:30:06Z"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "since": "2026-11-14T10:30:11Z"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "since": "2026-11-14T10:30:16Z"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "since": "2026-11-14T10:30:18Z"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "since": "2026-11-14T10:30:21Z"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "since": "2026-11-14T10:30:22Z"
       }
     ],
     "restored": [
       {
-        "id": "bonce-tv-cw",
-        "name": "Bonce TV",
-        "country": "cw",
-        "restored_at": "2026-11-14T08:01:38Z"
+        "id": "pbs-us",
+        "name": "PBS",
+        "country": "us",
+        "restored_at": "2026-11-14T10:28:58Z"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
-        "restored_at": "2026-11-14T08:04:27Z"
+        "id": "rtl-gold-lu",
+        "name": "RTL Gold",
+        "country": "lu",
+        "restored_at": "2026-11-14T10:27:40Z"
       },
       {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "restored_at": "2026-11-14T08:02:05Z"
-      },
-      {
-        "id": "samara-gis-ru",
-        "name": "Samara-GIS",
-        "country": "ru",
-        "restored_at": "2026-11-14T08:03:36Z"
-      },
-      {
-        "id": "soltv-gq",
-        "name": "SolTV",
-        "country": "gq",
-        "restored_at": "2026-11-14T08:02:08Z"
-      },
-      {
-        "id": "tele7music-ro",
-        "name": "Tele7music",
-        "country": "ro",
-        "restored_at": "2026-11-14T08:03:28Z"
+        "id": "today-radio-lu",
+        "name": "Today Radio",
+        "country": "lu",
+        "restored_at": "2026-11-14T10:29:41Z"
       }
     ],
     "removed": []
@@ -464,22 +215,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 546,
-      "verified": 438,
-      "not_verified": 108,
-      "with_measured_quality": 478,
+      "published": 538,
+      "verified": 453,
+      "not_verified": 85,
+      "with_measured_quality": 470,
       "per_quality": {
-        "1080p": 240,
+        "1080p": 234,
         "4k": 1,
         "720p": 174,
-        "sd": 63
+        "sd": 61
       }
     },
     "community": {
-      "published": 4100,
-      "verified": 3010,
-      "untested": 1090,
-      "held_back_after_failed_check": 3175,
+      "published": 4104,
+      "verified": 3675,
+      "untested": 429,
+      "held_back_after_failed_check": 3171,
       "never_checked": 0,
       "catalog_streams": 7275,
       "catalog_built_at": "2026-11-14T08:07:02Z",
@@ -487,29 +238,29 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 551,
-        "invalid": 1196,
+        "intermittent": 558,
+        "invalid": 1197,
         "restricted": 184,
-        "unknown": 189,
-        "unreachable": 1813,
-        "working": 3342
+        "unknown": 184,
+        "unreachable": 1826,
+        "working": 3326
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 711
+          "streams": 728
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 517
+          "streams": 520
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 198
+          "streams": 195
         },
         {
           "code": "it",
@@ -519,17 +270,17 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 123
+          "streams": 125
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 117
+          "streams": 114
         },
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 97
+          "streams": 96
         },
         {
           "code": "br",
@@ -537,13 +288,13 @@
           "streams": 95
         },
         {
-          "code": "de",
-          "name": "Germany",
-          "streams": 93
-        },
-        {
           "code": "es",
           "name": "Spain",
+          "streams": 94
+        },
+        {
+          "code": "de",
+          "name": "Germany",
           "streams": 93
         }
       ],
