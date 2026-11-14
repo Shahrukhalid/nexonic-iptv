@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -9,6 +10,11 @@ import '../catalog.dart';
 import '../m3u.dart';
 import 'theme.dart';
 import 'widgets.dart';
+
+/// Video output settings shared by the player and the CI self-test. Hardware decoding stays on, except on macOS,
+/// where the zero-copy path crashed on the test machines; the software path used there is the one CI verifies.
+VideoControllerConfiguration get videoConfiguration =>
+    VideoControllerConfiguration(enableHardwareAcceleration: !Platform.isMacOS);
 
 /// Full-screen capable player for live channels, films and radio, with automatic recovery.
 ///
@@ -27,7 +33,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
   static const maxRetries = 3;
 
   late final Player player = Player(configuration: const PlayerConfiguration(bufferSize: 48 * 1024 * 1024));
-  late final VideoController controller = VideoController(player);
+  late final VideoController controller = VideoController(player, configuration: videoConfiguration);
   final videoKey = GlobalKey<VideoState>();
   final subs = <StreamSubscription<dynamic>>[];
   late int index = widget.index;
