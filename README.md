@@ -44,6 +44,8 @@ Copy a playlist URL and add it as a network stream or M3U source in your player.
 | **Nexonic Verified** (passed a recent check) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
 | Channels **waiting for a check** (may not work yet) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/community/untested.m3u` |
 | Free movies and series (public domain and open licences) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/vod/movies.m3u` and `.../vod/series.m3u` |
+| Free radio (all stations, or one country) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/radio/all.m3u` or `.../radio/countries/de.m3u` |
+| Open media (free films, documentaries, science) | `https://shahrukhalid.github.io/nexonic-iptv/playlists/media/all.m3u` |
 | Channels by measured quality | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` (`4k`, `1080p`, `720p`, `sd`) |
 | One country | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/de.m3u` (replace `de` with a country code) |
 | One language | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ar.m3u` (replace `ar` with a language code) |
@@ -99,6 +101,12 @@ the gateway reloads them by itself. Maintainers: the cloud setup is described in
   whichever country they come from.
 - **Category:** `playlists/categories/<category>.m3u` groups channels by genre, for example `news`, `kids`,
   `documentary` or `series`.
+- **Free radio:** `playlists/radio/all.m3u` holds working internet radio stations, and
+  `playlists/radio/countries/<code>.m3u` one file per country. Refreshed every day.
+- **Open media:** `playlists/media/` holds free-licensed and public-domain films, documentaries, animation, science and
+  history videos, one file per genre. Each entry names its licence and author.
+- **TV guide:** when guide feeds are set in `config/extras.toml`, `playlists/guide.xml.gz` is named in every playlist
+  header, so players fill their programme guide automatically.
 - **All and Verified:** `all.m3u` holds every published channel. `verified.m3u` holds only channels that passed a
   real check in the last 48 hours and are not quarantined.
 
@@ -134,6 +142,10 @@ Every channel is checked automatically; a channel that stops working leaves the 
   first successful check and leaves while it is failing. Free films and series from open collections (feature films, noir, comedy, sci-fi and
   horror, silent films, animation, short films, documentaries and classic TV) are in `playlists/vod/`, with a playlist
   per genre and decade. See [docs/TIERS.md](docs/TIERS.md) for the source rules, legal notes and takedown path.
+- **Free radio, open media and a TV guide:** working radio stations from around the world, free-licensed films and
+  videos, and a programme guide trimmed to the published channels, all updated in the daily run.
+- **New source finder:** once a week a report of newly found, openly licensed playlist lists is written to
+  [reports/source-candidates.md](reports/source-candidates.md) for review. Nothing is added without the owner's approval.
 - **Official tier, official streams only:** the stream host belongs to the broadcaster or its CDN, and an evidence page is recorded
   for every channel ([source policy](docs/SOURCE_POLICY.md)).
 - **Two ways into the official tier:** *curated* channels researched by a maintainer, plus *auto-admitted* channels found in a
@@ -220,7 +232,8 @@ python scripts/generate.py     # rebuild playlists, reports and the numbers abov
 ## Roadmap
 
 - [ ] Confirm every evidence page by hand (`source.evidence_checked`) and grow coverage country by country.
-- [ ] Optional EPG URL in the playlist header once a suitable openly licensed guide source is chosen.
+- [x] TV guide engine: playlists name `playlists/guide.xml.gz` once a guide feed is set in `config/extras.toml`.
+- [ ] Choose an openly licensed guide feed.
 - [ ] Per-channel history charts on the status page.
 - [ ] More openly licensed sources: suggest one in an issue (it needs an open licence file and free-to-air streams only).
 

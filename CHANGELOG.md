@@ -1,6 +1,17 @@
 # Changelog
 
 ## Unreleased
+- Free radio: working internet radio stations from an open, public-domain station directory, refreshed daily, in
+  `playlists/radio/` (all stations and one file per country). Stations reported as not working are dropped each day.
+- Open media: free-licensed and public-domain videos (films, silent films, documentaries, animation, science and
+  history) in `playlists/media/`, each entry with its licence, author and source page. Read a few pages per day.
+- TV guide engine: XMLTV feeds listed under `[guide]` in `config/extras.toml` are merged, trimmed to the published channels and the next 48
+  hours, and served as `playlists/guide.xml.gz`; playlists then name it in their `x-tvg-url` header.
+- New source finder: once a week the daily run reports openly licensed playlist lists that are not configured yet
+  (`reports/source-candidates.md`). It never changes the configured sources.
+- Takedowns for radio stations and open media files go in `data/extra-exclusions.yaml` (`radio`, `media`). Settings
+  for the new tiers are in `config/extras.toml`.
+- The website's playlist page lists the movie, series, open media and radio playlists.
 - Stream checks were not being published since 6 Nov 2026: the verification results (history, playlists) had grown
   past GitHub's 45 MB limit for one commit request, so every Verify streams run failed at its last step, and the
   website and playlists stopped updating with newly found channels. Results are now committed in parts of at most

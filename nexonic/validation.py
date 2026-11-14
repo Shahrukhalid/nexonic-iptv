@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from . import community, config, guard, m3u, vod
+from . import community, config, extras_config, guard, m3u, openmedia, radio, vod
 from . import regional as regional_mod
 from .dedup import stream_key
 from .moderation import publication_gate
@@ -49,6 +49,14 @@ class _TierContext:
         self.official = {stream_key(c.stream.url) for c in records.approved}
         self.rejected = {stream_key(c.stream.url) for k in ("pending", "rejected") for c in records.channels[k]}
         self.vod = {r[0]: r for r in vod.load_items()}
+        self.radio = {r[2] for r in radio.load()["rows"]}
+        self.media = {r[2]: r for r in openmedia.load()["rows"]}
+        self.extras = extras_config.load_extras()
+        try:
+            self.extra_excluded = extras_config.load_exclusions()
+        except (OSError, ValueError) as exc:
+            errors.append({"stage": "extras", "error": f"data/extra-exclusions.yaml: {exc}"})
+            self.extra_excluded = {"radio": frozenset(), "media": frozenset()}
 
     @staticmethod
     def tier_of(rel: str) -> str:
@@ -56,6 +64,10 @@ class _TierContext:
             return "community"
         if rel.startswith("playlists/vod/"):
             return "vod"
+        if rel.startswith("playlists/radio/"):
+            return "radio"
+        if rel.startswith("playlists/media/"):
+            return "media"
         return "official"
 
     def check(self, tier: str, rel: str, entries: list[m3u.Entry], errors: list[dict]) -> None:
@@ -63,6 +75,24 @@ class _TierContext:
             errors.append({"stage": f"{tier}-tier", "file": rel, "error": msg})
 
         for e in entries:
+            if tier == "radio":
+                if e.url not in self.radio:
+                    bad(f"radio station not in the station cache: {e.url}")
+                if e.attrs.get("x-tier") != "radio":
+                    bad(f"radio entry without x-tier: {e.url}")
+                continue
+            if tier == "media":
+                row = self.media.get(e.url)
+                p = urlsplit(e.url)
+                if p.scheme != "https" or p.hostname != "upload.wikimedia.org":
+                    bad(f"open media entry is not an original file link: {e.url}")
+                elif row is None:
+                    bad(f"open media file not in the cache: {e.url}")
+                elif row[4] not in self.extras.media.allowed_licences or not e.attrs.get("x-licence"):
+                    bad(f"open media file without an accepted licence: {e.url}")
+                elif row[0].lower() in self.extra_excluded["media"]:
+                    bad(f"on the takedown list: {e.url}")
+                continue
             if tier == "community":
                 key = stream_key(e.url)
                 s = self.catalog.get(key)

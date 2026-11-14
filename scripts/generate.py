@@ -25,7 +25,19 @@ import yaml
 
 import _bootstrap  # noqa: F401
 
-from nexonic import changes, community, config, generate, reports, validation, vod
+from nexonic import (
+    changes,
+    community,
+    config,
+    extras_config,
+    generate,
+    openmedia,
+    radio,
+    reference,
+    reports,
+    validation,
+    vod,
+)
 from nexonic import regional as regional_mod
 from nexonic.records import ROOT, load_history, load_records
 
@@ -81,6 +93,12 @@ def build(root: Path) -> int:
     generate.merge_main(plan, cplan.merge)
     vplan = vod.plan_vod(vod.load_items(), exclusions, cfg.vod, vod.load_progress())
     generate.extend(plan, "vod", vplan.files, vplan.index, vplan.stats)
+    extras, extra_excluded = extras_config.load_extras(), extras_config.load_exclusions()
+    mplan = openmedia.plan_media(openmedia.load(), extras.media, extra_excluded["media"])
+    generate.extend(plan, "media", mplan.files, mplan.index, mplan.stats)
+    names = {k.upper(): v["name"] for k, v in reference.countries().items()}
+    rplan = radio.plan_radio(radio.load(), extras.radio, extra_excluded["radio"], names)
+    generate.extend(plan, "radio", rplan.files, rplan.index, rplan.stats)
     current = changes.build_snapshot(records, plan, state.get("current"))
     plan.last_metadata_update = {
         cid: e["meta_changed_at"] for cid, e in current["channels"].items() if "meta_changed_at" in e
