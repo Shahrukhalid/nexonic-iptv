@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import os
 import sys
 import time
 
@@ -166,7 +167,7 @@ def extra_tiers(cfg_all, records, args, started: float) -> None:
         ("open media", lambda: openmedia.refresh(extras.media, extra_excluded["media"])),
         ("radio", lambda: radio.refresh(extras.radio, extra_excluded["radio"])),
         ("guide", lambda: guide.build(extras.guide, {c.epg_id for c in records.approved if c.epg_id})),
-        ("source finder", lambda: finder.due() and finder.write(finder.find())),
+        ("source finder", lambda: finder.due() and finder.write(finder.find(os.environ.get("GITHUB_TOKEN")))),
     ):
         if time.monotonic() - started > 52 * 60:
             print(f"WARNING {name} upkeep skipped: the run is near its time limit", file=sys.stderr)

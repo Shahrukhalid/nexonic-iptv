@@ -39,11 +39,17 @@ BAD_WORDS = re.compile(
 BAD_URL = re.compile(r"(username=|password=|/get\.php|/player_api\.php|token=|\bauth=)", re.I)
 
 
+class RateLimited(Exception):
+    pass
+
+
 def gh(client: httpx.Client, url: str, **params):
-    for attempt in range(4):
+    for attempt in range(3):
         r = client.get(url, params=params)
+        if r.status_code in (403, 429) and r.headers.get("x-ratelimit-remaining") == "0":
+            raise RateLimited(url)  # never wait out an hourly limit inside the daily run
         if r.status_code in (403, 429) or r.status_code >= 500:
-            time.sleep(min(60, int(r.headers.get("retry-after", 10 * (attempt + 1)))))
+            time.sleep(min(30, int(r.headers.get("retry-after", 5 * (attempt + 1)))))
             continue
         r.raise_for_status()
         return r.json()
@@ -64,8 +70,13 @@ def screen(text: str) -> tuple[int, list[str]]:
     return entries, problems
 
 
-def find(token: str | None = None, days: int = 180, max_repos: int = 25, pause: float = 7.0) -> dict:
-    """Search, screen and return {"candidates": [...], "skipped": [...]}. Works without a token (lower rate limits)."""
+def find(
+    token: str | None = None, days: int = 180, max_repos: int = 25, pause: float = 7.0, budget: float = 240.0
+) -> dict:
+    """Search, screen and return {"candidates": [...], "skipped": [...]}. Works without a token (lower rate limits).
+
+    Stops after ``budget`` seconds or at GitHub's rate limit and reports what it found so far."""
+    started = time.monotonic()
     cfg = load_pipeline()
     known = {s["repo"].lower() for s in cfg.discovery.sources + cfg.discovery.extra_m3u}
     cutoff = dt.datetime.now(dt.UTC) - dt.timedelta(days=days)
@@ -76,18 +87,22 @@ def find(token: str | None = None, days: int = 180, max_repos: int = 25, pause: 
     candidates, skipped = [], []
     with httpx.Client(base_url="https://api.github.com", headers=headers, timeout=30) as client:
         for q in QUERIES:
+            if time.monotonic() - started > budget:
+                break
             try:
                 body = gh(
                     client, "/search/repositories", q=f"{q} pushed:>{cutoff:%Y-%m-%d}", sort="updated", per_page=50
                 )
-            except httpx.HTTPError as exc:
-                print(f"WARNING repository search failed: {exc}", file=sys.stderr)
-                continue
+            except (httpx.HTTPError, RateLimited) as exc:
+                print(f"WARNING repository search stopped: {exc}", file=sys.stderr)
+                break
             for item in (body or {}).get("items", []):
                 if item["full_name"].lower() not in known:
                     found.setdefault(item["full_name"], item)
             time.sleep(pause)  # the search allows about ten requests a minute
         for repo, meta in sorted(found.items(), key=lambda kv: -kv[1].get("stargazers_count", 0))[:max_repos]:
+            if time.monotonic() - started > budget:
+                break
             lic = ((meta.get("license") or {}).get("spdx_id") or "").lower()
             if meta.get("archived") or meta.get("fork"):
                 skipped.append({"repo": repo, "reason": "archived or fork"})
@@ -98,6 +113,8 @@ def find(token: str | None = None, days: int = 180, max_repos: int = 25, pause: 
             ref = meta.get("default_branch", "main")
             try:
                 tree = gh(client, f"/repos/{repo}/git/trees/{ref}", recursive=1) or {}
+            except RateLimited:
+                break
             except httpx.HTTPError:
                 continue
             paths = [
@@ -107,7 +124,10 @@ def find(token: str | None = None, days: int = 180, max_repos: int = 25, pause: 
             ]
             best = None
             for path in sorted(paths, key=lambda x: (x.count("/"), x))[:5]:
-                raw = client.get(f"https://raw.githubusercontent.com/{repo}/{ref}/{path}", follow_redirects=True)
+                try:
+                    raw = client.get(f"https://raw.githubusercontent.com/{repo}/{ref}/{path}", follow_redirects=True)
+                except httpx.HTTPError:
+                    continue
                 if raw.status_code != 200 or len(raw.content) > 50 * 1024 * 1024:
                     continue
                 entries, problems = screen(raw.text)

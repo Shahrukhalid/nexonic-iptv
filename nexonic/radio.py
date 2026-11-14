@@ -24,7 +24,7 @@ from .config import DiscoveryConfig, playlist_url
 from .extras_config import RadioConfig
 from .fetch import FetchError, fetch_json
 from .moderation import Decision, Subject, screen_subject
-from .records import ROOT
+from .records import ROOT, normalise_url
 from .timeutil import iso, parse_iso, utc_now
 
 STATE_DIR = ROOT / "state" / "radio"
@@ -49,6 +49,10 @@ def station_ok(s: dict, cfg: RadioConfig) -> str | None:
     if cfg.https_only and parts.scheme != "https":
         return "not-https"
     if " " in url or parts.username or parts.password:
+        return "bad-url"
+    try:
+        parts.port  # noqa: B018 - raises ValueError for a malformed port
+    except ValueError:
         return "bad-url"
     if str(s.get("lastcheckok", 1)) not in ("1", "True", "true"):
         return "not-working"
@@ -147,12 +151,13 @@ def refresh(
         r = row_of(s)
         if not why and r[0].lower() in excluded:
             why = "takedown-list"
-        if not why and r[2] in seen:
+        key = normalise_url(r[2]) if not why else ""
+        if not why and key in seen:
             why = "duplicate"
         if why:
             dropped[why] += 1
             continue
-        seen.add(r[2])
+        seen.add(key)
         rows.append(r)
         if len(rows) >= cfg.max_stations:
             break
