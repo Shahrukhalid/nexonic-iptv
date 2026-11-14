@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-11-14T10:31:48Z",
+  "reference_time": "2026-11-14T13:21:19Z",
   "records": {
     "approved": 756,
     "pending": 43,
@@ -7,45 +7,45 @@
   },
   "published_channels": 538,
   "excluded_approved": 218,
-  "countries": 95,
-  "languages": 65,
+  "countries": 94,
+  "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 453,
-  "playlist_files": 308,
+  "verified_playlist_channels": 465,
+  "playlist_files": 535,
   "latest_run": {
-    "run_id": "run-20261114T102551Z",
-    "started_at": "2026-11-14T10:25:51Z",
-    "finished_at": "2026-11-14T10:31:48Z",
+    "run_id": "run-20261114T131547Z",
+    "started_at": "2026-11-14T13:15:47Z",
+    "finished_at": "2026-11-14T13:21:19Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
-      "UNAVAILABLE": 151,
-      "UNKNOWN": 66,
+      "UNAVAILABLE": 152,
+      "UNKNOWN": 73,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 438
+      "VERIFIED_WORKING": 428
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 438,
-    "UNAVAILABLE": 151,
-    "GEO_RESTRICTED": 59,
+    "VERIFIED_WORKING": 428,
+    "UNAVAILABLE": 152,
+    "GEO_RESTRICTED": 61,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 29,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 66,
+    "UNKNOWN": 73,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "geo-restricted": 42,
-    "previously-working": 53,
+    "previously-working": 63,
     "unknown": 5,
-    "verified-recently": 438
+    "verified-recently": 428
   },
   "per_country": {
     "ae": {
@@ -71,7 +71,7 @@
     "ar": {
       "name": "Argentina",
       "flag": "🇦🇷",
-      "channels": 5
+      "channels": 4
     },
     "at": {
       "name": "Austria",
@@ -91,7 +91,7 @@
     "ba": {
       "name": "Bosnia and Herzegovina",
       "flag": "🇧🇦",
-      "channels": 3
+      "channels": 2
     },
     "be": {
       "name": "Belgium",
@@ -106,7 +106,7 @@
     "bi": {
       "name": "Burundi",
       "flag": "🇧🇮",
-      "channels": 1
+      "channels": 2
     },
     "bj": {
       "name": "Benin",
@@ -126,7 +126,7 @@
     "ca": {
       "name": "Canada",
       "flag": "🇨🇦",
-      "channels": 13
+      "channels": 22
     },
     "ch": {
       "name": "Switzerland",
@@ -146,12 +146,12 @@
     "cn": {
       "name": "China",
       "flag": "🇨🇳",
-      "channels": 13
+      "channels": 14
     },
     "co": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "channels": 8
+      "channels": 7
     },
     "cw": {
       "name": "Curacao",
@@ -181,7 +181,7 @@
     "do": {
       "name": "Dominican Republic",
       "flag": "🇩🇴",
-      "channels": 4
+      "channels": 3
     },
     "ec": {
       "name": "Ecuador",
@@ -206,7 +206,7 @@
     "fr": {
       "name": "France",
       "flag": "🇫🇷",
-      "channels": 36
+      "channels": 32
     },
     "ge": {
       "name": "Georgia",
@@ -296,7 +296,7 @@
     "kh": {
       "name": "Cambodia",
       "flag": "🇰🇭",
-      "channels": 2
+      "channels": 1
     },
     "kr": {
       "name": "South Korea",
@@ -306,7 +306,7 @@
     "kz": {
       "name": "Kazakhstan",
       "flag": "🇰🇿",
-      "channels": 3
+      "channels": 2
     },
     "lb": {
       "name": "Lebanon",
@@ -326,7 +326,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 3
+      "channels": 5
     },
     "lv": {
       "name": "Latvia",
@@ -366,7 +366,7 @@
     "mx": {
       "name": "Mexico",
       "flag": "🇲🇽",
-      "channels": 2
+      "channels": 1
     },
     "my": {
       "name": "Malaysia",
@@ -401,7 +401,7 @@
     "pe": {
       "name": "Peru",
       "flag": "🇵🇪",
-      "channels": 7
+      "channels": 6
     },
     "pk": {
       "name": "Pakistan",
@@ -446,11 +446,6 @@
     "rw": {
       "name": "Rwanda",
       "flag": "🇷🇼",
-      "channels": 1
-    },
-    "sa": {
-      "name": "Saudi Arabia",
-      "flag": "🇸🇦",
       "channels": 1
     },
     "sd": {
@@ -531,7 +526,7 @@
     },
     "ar": {
       "name": "Arabic",
-      "channels": 21
+      "channels": 19
     },
     "as": {
       "name": "Assamese",
@@ -548,10 +543,6 @@
     "bn": {
       "name": "Bengali",
       "channels": 5
-    },
-    "bs": {
-      "name": "Bosnian",
-      "channels": 1
     },
     "ca": {
       "name": "Catalan",
@@ -571,7 +562,7 @@
     },
     "de": {
       "name": "German",
-      "channels": 35
+      "channels": 37
     },
     "el": {
       "name": "Greek",
@@ -579,11 +570,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 129
+      "channels": 138
     },
     "es": {
       "name": "Spanish",
-      "channels": 68
+      "channels": 63
     },
     "et": {
       "name": "Estonian",
@@ -603,7 +594,7 @@
     },
     "fr": {
       "name": "French",
-      "channels": 27
+      "channels": 29
     },
     "hi": {
       "name": "Hindi",
@@ -639,11 +630,11 @@
     },
     "kk": {
       "name": "Kazakh",
-      "channels": 3
+      "channels": 2
     },
     "km": {
       "name": "Khmer",
-      "channels": 2
+      "channels": 1
     },
     "kn": {
       "name": "Kannada",
@@ -659,7 +650,7 @@
     },
     "lb": {
       "name": "Luxembourgish",
-      "channels": 1
+      "channels": 3
     },
     "lg": {
       "name": "Ganda",
@@ -723,7 +714,7 @@
     },
     "ru": {
       "name": "Russian",
-      "channels": 21
+      "channels": 20
     },
     "rw": {
       "name": "Kinyarwanda",
@@ -747,7 +738,7 @@
     },
     "sw": {
       "name": "Swahili",
-      "channels": 1
+      "channels": 2
     },
     "ta": {
       "name": "Tamil",
@@ -763,7 +754,7 @@
     },
     "tr": {
       "name": "Turkish",
-      "channels": 20
+      "channels": 21
     },
     "uk": {
       "name": "Ukrainian",
@@ -783,33 +774,33 @@
     },
     "zh": {
       "name": "Chinese",
-      "channels": 17
+      "channels": 18
     }
   },
   "per_category": {
     "business": {
       "name": "Business",
-      "channels": 7
+      "channels": 6
     },
     "culture": {
       "name": "Culture",
-      "channels": 28
+      "channels": 26
     },
     "documentary": {
       "name": "Documentary",
-      "channels": 15
+      "channels": 14
     },
     "education": {
       "name": "Education",
-      "channels": 40
+      "channels": 39
     },
     "entertainment": {
       "name": "Entertainment",
-      "channels": 34
+      "channels": 33
     },
     "general": {
       "name": "General",
-      "channels": 200
+      "channels": 196
     },
     "kids": {
       "name": "Kids",
@@ -825,15 +816,15 @@
     },
     "movies": {
       "name": "Movies",
-      "channels": 14
+      "channels": 13
     },
     "music": {
       "name": "Music",
-      "channels": 75
+      "channels": 83
     },
     "news": {
       "name": "News",
-      "channels": 99
+      "channels": 95
     },
     "series": {
       "name": "Series",
@@ -852,21 +843,21 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 538,
-      "verified": 453,
-      "not_verified": 85,
+      "verified": 465,
+      "not_verified": 73,
       "with_measured_quality": 470,
       "per_quality": {
-        "1080p": 234,
+        "1080p": 238,
         "4k": 1,
-        "720p": 174,
-        "sd": 61
+        "720p": 168,
+        "sd": 63
       }
     },
     "community": {
-      "published": 4104,
-      "verified": 3675,
-      "untested": 429,
-      "held_back_after_failed_check": 3171,
+      "published": 4112,
+      "verified": 3682,
+      "untested": 430,
+      "held_back_after_failed_check": 3163,
       "never_checked": 0,
       "catalog_streams": 7275,
       "catalog_built_at": "2026-11-14T08:07:02Z",
@@ -874,24 +865,24 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 558,
+        "intermittent": 519,
         "invalid": 1197,
         "restricted": 184,
-        "unknown": 184,
-        "unreachable": 1826,
-        "working": 3326
+        "unknown": 189,
+        "unreachable": 1814,
+        "working": 3372
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 728
+          "streams": 730
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 520
+          "streams": 522
         },
         {
           "code": "ru",
@@ -906,7 +897,7 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 125
+          "streams": 127
         },
         {
           "code": "cl",

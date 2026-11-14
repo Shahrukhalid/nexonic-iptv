@@ -1,47 +1,45 @@
 {
-  "reference_time": "2026-11-14T10:31:48Z",
-  "baseline_reference_time": "2026-11-14T08:06:51Z",
+  "reference_time": "2026-11-14T13:21:19Z",
+  "baseline_reference_time": "2026-11-14T10:31:48Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 538,
-    "verified_playlist": 453,
+    "verified_playlist": 465,
     "excluded": 218,
     "pending_authorization": 43,
-    "quarantined": 168,
+    "quarantined": 155,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
-    "new_published": 1,
+    "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 4,
-    "newly_quarantined": 12,
-    "restored": 3,
+    "newly_failing": 0,
+    "newly_quarantined": 0,
+    "restored": 13,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 27,
-    "invalid": 1,
+    "intermittent": 68,
     "restricted": 42,
     "unknown": 26,
-    "unreachable": 16,
-    "working": 426
+    "working": 402
   },
   "latest_run": {
-    "run_id": "run-20261114T102551Z",
-    "started_at": "2026-11-14T10:25:51Z",
-    "finished_at": "2026-11-14T10:31:48Z",
+    "run_id": "run-20261114T131547Z",
+    "started_at": "2026-11-14T13:15:47Z",
+    "finished_at": "2026-11-14T13:21:19Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 61,
       "INVALID_STREAM": 10,
       "TIMEOUT": 29,
-      "UNAVAILABLE": 151,
-      "UNKNOWN": 66,
+      "UNAVAILABLE": 152,
+      "UNKNOWN": 73,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 438
+      "VERIFIED_WORKING": 428
     }
   },
   "discovery": {
@@ -68,145 +66,95 @@
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 308,
+    "playlist_files": 535,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "12 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
-    "new_published": [
-      {
-        "id": "america-internacional-pe",
-        "name": "America Internacional",
-        "country": "pe"
-      }
-    ],
+    "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [
+    "newly_failing": [],
+    "newly_quarantined": [],
+    "restored": [
       {
-        "id": "big-civic-channel-us",
-        "name": "BIG Civic Channel",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "id": "cctv-2-cn",
+        "name": "CCTV+ 2",
+        "country": "cn",
+        "restored_at": "2026-11-14T13:19:07Z"
       },
       {
-        "id": "city-of-loveland-tv-us",
-        "name": "City of Loveland TV",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "hctv-educational-access-channel",
-        "name": "HCTV Educational Access Channel",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "one-ard",
-        "name": "ONE",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      }
-    ],
-    "newly_quarantined": [
-      {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
+        "id": "rtl-tele-letzebuerg-lu",
+        "name": "RTL Tele Letzebuerg",
         "country": "lu",
-        "since": "2026-11-14T10:27:40Z"
+        "restored_at": "2026-11-14T13:17:28Z"
       },
       {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "since": "2026-11-14T10:28:04Z"
+        "id": "rtl-zwee-lu",
+        "name": "RTL Zwee",
+        "country": "lu",
+        "restored_at": "2026-11-14T13:19:17Z"
       },
       {
-        "id": "frikanalen-no",
-        "name": "Frikanalen",
-        "country": "no",
-        "since": "2026-11-14T10:27:58Z"
+        "id": "rtnb-divertissement-bi",
+        "name": "RTNB Divertissement",
+        "country": "bi",
+        "restored_at": "2026-11-14T13:15:56Z"
       },
       {
         "id": "stingray-classica-ca",
         "name": "Stingray Classica",
         "country": "ca",
-        "since": "2026-11-14T10:26:12Z"
+        "restored_at": "2026-11-14T13:16:06Z"
       },
       {
         "id": "stingray-djazz-ca",
         "name": "Stingray DJAZZ",
         "country": "ca",
-        "since": "2026-11-14T10:29:31Z"
+        "restored_at": "2026-11-14T13:19:06Z"
       },
       {
         "id": "stingray-everything-80s-ca",
         "name": "Stingray Everything '80s",
         "country": "ca",
-        "since": "2026-11-14T10:29:54Z"
+        "restored_at": "2026-11-14T13:19:29Z"
       },
       {
         "id": "stingray-hit-list-ca",
         "name": "Stingray Hit List",
         "country": "ca",
-        "since": "2026-11-14T10:30:06Z"
+        "restored_at": "2026-11-14T13:19:40Z"
       },
       {
         "id": "stingray-holidayscapes-ca",
         "name": "Stingray Holidayscapes",
         "country": "ca",
-        "since": "2026-11-14T10:30:11Z"
+        "restored_at": "2026-11-14T13:19:45Z"
       },
       {
         "id": "stingray-karaoke-ca",
         "name": "Stingray Karaoke",
         "country": "ca",
-        "since": "2026-11-14T10:30:16Z"
+        "restored_at": "2026-11-14T13:19:49Z"
       },
       {
         "id": "stingray-naturescape-ca",
         "name": "Stingray Naturescape",
         "country": "ca",
-        "since": "2026-11-14T10:30:18Z"
+        "restored_at": "2026-11-14T13:19:52Z"
       },
       {
         "id": "stingray-nothin-but-90s-ca",
         "name": "Stingray Nothin' But 90s",
         "country": "ca",
-        "since": "2026-11-14T10:30:21Z"
+        "restored_at": "2026-11-14T13:19:55Z"
       },
       {
         "id": "stingray-smooth-jazz-ca",
         "name": "Stingray Smooth Jazz",
         "country": "ca",
-        "since": "2026-11-14T10:30:22Z"
-      }
-    ],
-    "restored": [
-      {
-        "id": "pbs-us",
-        "name": "PBS",
-        "country": "us",
-        "restored_at": "2026-11-14T10:28:58Z"
-      },
-      {
-        "id": "rtl-gold-lu",
-        "name": "RTL Gold",
-        "country": "lu",
-        "restored_at": "2026-11-14T10:27:40Z"
-      },
-      {
-        "id": "today-radio-lu",
-        "name": "Today Radio",
-        "country": "lu",
-        "restored_at": "2026-11-14T10:29:41Z"
+        "restored_at": "2026-11-14T13:19:58Z"
       }
     ],
     "removed": []
@@ -216,21 +164,21 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 538,
-      "verified": 453,
-      "not_verified": 85,
+      "verified": 465,
+      "not_verified": 73,
       "with_measured_quality": 470,
       "per_quality": {
-        "1080p": 234,
+        "1080p": 238,
         "4k": 1,
-        "720p": 174,
-        "sd": 61
+        "720p": 168,
+        "sd": 63
       }
     },
     "community": {
-      "published": 4104,
-      "verified": 3675,
-      "untested": 429,
-      "held_back_after_failed_check": 3171,
+      "published": 4112,
+      "verified": 3682,
+      "untested": 430,
+      "held_back_after_failed_check": 3163,
       "never_checked": 0,
       "catalog_streams": 7275,
       "catalog_built_at": "2026-11-14T08:07:02Z",
@@ -238,24 +186,24 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 558,
+        "intermittent": 519,
         "invalid": 1197,
         "restricted": 184,
-        "unknown": 184,
-        "unreachable": 1826,
-        "working": 3326
+        "unknown": 189,
+        "unreachable": 1814,
+        "working": 3372
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 728
+          "streams": 730
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 520
+          "streams": 522
         },
         {
           "code": "ru",
@@ -270,7 +218,7 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 125
+          "streams": 127
         },
         {
           "code": "cl",
