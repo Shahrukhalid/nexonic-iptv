@@ -72,8 +72,14 @@ class _SelfTestAppState extends State<SelfTestApp> {
       result['error'] = '$e';
     }
     final text = jsonEncode(result);
-    // ignore: avoid_print
-    print('NEXONIC_SELF_TEST $text'); // standard output (macOS, where the sandbox blocks other folders) and logcat
+    if (Platform.isAndroid) {
+      // ignore: avoid_print
+      print('NEXONIC_SELF_TEST $text'); // logcat
+    } else {
+      // Standard output (macOS, where the sandbox blocks other folders), flushed before the process exits.
+      stdout.writeln('NEXONIC_SELF_TEST $text');
+      await stdout.flush();
+    }
     if (widget.output != 'log') {
       try {
         await File(widget.output).writeAsString(text);
