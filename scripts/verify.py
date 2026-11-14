@@ -30,8 +30,9 @@ import sys
 import time
 
 import _bootstrap  # noqa: F401
+import find_sources
 
-from nexonic import community, regional, vod
+from nexonic import community, extras_config, guide, openmedia, radio, regional, vod
 from nexonic.config import load_pipeline
 from nexonic.checker import Limits, check_all
 from nexonic.records import load_history, load_records, merge_results, save_history
@@ -157,6 +158,24 @@ def extra_tiers(cfg_all, records, args, started: float) -> None:
         vod.refresh(cfg_all.vod, exclusions, budget_seconds=min(cfg_all.vod.run_budget_seconds, left))
     except Exception as exc:  # noqa: BLE001
         print(f"WARNING free VOD refresh failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+    try:
+        extras, extra_excluded = extras_config.load_extras(), extras_config.load_exclusions()
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARNING radio, open media and guide skipped: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return
+    for name, job in (
+        ("open media", lambda: openmedia.refresh(extras.media, extra_excluded["media"])),
+        ("radio", lambda: radio.refresh(extras.radio, extra_excluded["radio"])),
+        ("guide", lambda: guide.build(extras.guide, {c.epg_id for c in records.approved if c.epg_id})),
+        ("source finder", lambda: find_sources.due() and find_sources.write(find_sources.find())),
+    ):
+        if time.monotonic() - started > 52 * 60:
+            print(f"WARNING {name} upkeep skipped: the run is near its time limit", file=sys.stderr)
+            continue
+        try:
+            job()
+        except Exception as exc:  # noqa: BLE001 - an extra tier never stops the run
+            print(f"WARNING {name} upkeep failed: {type(exc).__name__}: {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":

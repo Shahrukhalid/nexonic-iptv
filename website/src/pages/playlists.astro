@@ -8,11 +8,17 @@ const groups = [
   ["country", "By country"],
   ["language", "By language"],
   ["category", "By category"],
+  ["vod-movies", "Free movies"],
+  ["vod-series", "Free TV series"],
+  ["media-all", "Open media"],
+  ["media-genre", "Open media by genre"],
+  ["radio-all", "Free radio"],
+  ["radio-country", "Radio by country"],
 ] as const;
 ---
 <Base title="All playlists" description="Every Nexonic IPTV M3U playlist: global, verified, and by country, language and category, with copy and download buttons." path="/playlists/">
   <h1>Playlists</h1>
-  <p class="lead">All files are standard extended M3U. Channel counts come straight from the generated files.</p>
+  <p class="lead">All files are standard extended M3U. Counts come straight from the generated files. Players that read the <code>x-tvg-url</code> header load the TV guide automatically.</p>
   {groups.map(([kind, title]) => {
     const items = playlists.filter((p) => p.kind === kind);
     return (
@@ -23,7 +29,7 @@ const groups = [
         ) : (
           <div class="table-wrap">
             <table>
-              <thead><tr><th scope="col">Playlist</th><th scope="col">Channels</th><th scope="col">URL</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead>
+              <thead><tr><th scope="col">Playlist</th><th scope="col">Entries</th><th scope="col">URL</th><th scope="col"><span class="sr-only">Actions</span></th></tr></thead>
               <tbody>
                 {items.map((p) => (
                   <tr>
