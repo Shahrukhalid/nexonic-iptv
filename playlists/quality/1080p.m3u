@@ -95,6 +95,8 @@ http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-name="Momento24" tvg-country="CO" tvg-language="Spanish" group-title="Colombia",Momento24
 https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
+#EXTINF:-1 tvg-id="ElektrikaTV.cz@SD" tvg-name="Elektrika TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Elektrika TV
+https://rtmp.elektrika.cz/live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="JC1.cz@SD" tvg-name="JC1" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",JC1
 https://stream.jc1.cz/hls/jc1.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-country="CZ" tvg-language="Czech" group-title="Czech Republic",Polar TV
@@ -187,8 +189,6 @@ https://live.olidigital.in/olitv/olitv/index.m3u8
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
 #EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-name="ZB Cartoon" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cartoon
 https://server.zillarbarta.com/zbcatun/video.m3u8
-#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 #EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
 https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-name="Alawla TV" tvg-country="IQ" tvg-language="Arabic" group-title="Iraq",Alawla TV
@@ -431,6 +431,8 @@ https://stream.bizzmedia.biz/bizz_tv/index.m3u8
 https://bbstv.ug/hls/ch01/index.m3u8
 #EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-name="IraneFarda TV" tvg-country="UK" tvg-language="Persian" group-title="United Kingdom",IraneFarda TV
 https://iranefardalive.com/stream/live.m3u8
+#EXTINF:-1 tvg-id="Atlas.us@SD" tvg-name="Atlas" tvg-country="US" tvg-language="English" group-title="United States",Atlas
+https://cdn.whiplash.cc/whiplash-atlas/index.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-name="Avang TV" tvg-country="US" tvg-language="Persian" group-title="United States",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-name="Bloomberg Originals" tvg-country="US" tvg-language="English" group-title="United States",Bloomberg Originals
@@ -541,8 +543,6 @@ https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
 https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 #EXTINF:-1 tvg-id="Armenia2.am@SD" tvg-name="Armenia 2" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/AXmXw9X.png" group-title="Armenia" x-tier="community" x-status="verified" x-quality="1080p",Armenia 2
 https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
-#EXTINF:-1 tvg-id="FastSports.am@SD" tvg-name="Fast Sports" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/VmaYUcq.png" group-title="Armenia" x-tier="community" x-status="verified" x-quality="1080p",Fast Sports
-http://s7.merlive.am/Fastsports/index.m3u8
 #EXTINF:-1 tvg-id="FirstChannelNews.am@SD" tvg-name="First Channel News" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/RlYJUH4.png" group-title="Armenia" x-tier="community" x-status="verified" x-quality="1080p",First Channel News
 https://amtvusdvr.tulix.tv/am3abr/index.m3u8
 #EXTINF:-1 tvg-id="ShantTV.am@SD" tvg-name="Shant TV" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/AyitGj7.png" group-title="Armenia" x-tier="community" x-status="verified" x-quality="1080p",Shant TV
@@ -635,6 +635,8 @@ https://cdn01.setar.aw/Canal23/canal23/playlist.m3u8
 https://cdn01.setar.aw/Telearuba/telearuba/playlist.m3u8
 #EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-name="Ayaz TV" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.ayaztv.com/storage/assets/site_logo.png" group-title="Azerbaijan" x-tier="community" x-status="verified" x-quality="1080p",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
+#EXTINF:-1 tvg-id="MariaPlusVisionMedjugorje.ba@SD" tvg-name="Maria+Vision Medjugorje" tvg-country="BA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/xUOspBx.png" group-title="Bosnia and Herzegovina" x-tier="community" x-status="verified" x-quality="1080p",Maria+Vision Medjugorje
+https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Italiasette/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsmaxBalkans.ba@SD" tvg-name="Newsmax Balkans" tvg-country="BA" tvg-language="Bosnian" tvg-logo="https://i.imgur.com/BXFPz8c.png" group-title="Bosnia and Herzegovina" x-tier="community" x-status="verified" x-quality="1080p",Newsmax Balkans
 https://newsmaxadria.mts-si.tv/newsmaxadria/index.m3u8
 #EXTINF:-1 tvg-id="CBCTV8.bb@SD" tvg-name="CBC TV8" tvg-country="BB" tvg-language="English" tvg-logo="https://i.imgur.com/WsD83lq.png" group-title="Barbados" x-tier="community" x-status="verified" x-quality="1080p",CBC TV8
@@ -681,6 +683,8 @@ https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 https://adylnet.streampool.net/10324/live/hls/Conecta/index.m3u8
 #EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-name="Despertar TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",Despertar TV
 https://br.conectmy.com.br/DespertarTV/index.m3u8
+#EXTINF:-1 tvg-id="PetloversTV.br@SD" tvg-name="Petlovers TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://petloverstv.com.br/storage/357/config/yqP4nOugWRxRFCmgLqXF4gRKyM9ybsAOfHgUaqPt.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",Petlovers TV
+https://video04.logicahost.com.br/petloverstv/petloverstv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlayTV.br@SD" tvg-name="Play TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Ikrj3lk.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",Play TV
 https://isaocorp.cloudecast.com/playtv/index.m3u8
 #EXTINF:-1 tvg-id="PlenitudeTV.br@SD" tvg-name="Plenitude TV" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",Plenitude TV
@@ -701,16 +705,14 @@ https://tvbrasilinternacional-stream.ebc.com.br/index.m3u8
 https://5ad482a77183d.streamlock.net/operacaotbomt.com/operacaotbomt.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVDifusao.br@SD" tvg-name="TV Difusao" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://storage.googleapis.com/soultv-prod-media/media/brand/LOGO_TV_DIFUS%C3%83O_100x100px_doiivZN.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Difusao
 https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVGuara.br@SD" tvg-name="TV Guara" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8PErNBT.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Guara
-https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLitoralRN.br@SD" tvg-name="TV Litoral RN" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/TV_LITORAL_RN.jpg" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Litoral RN
 https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMaisMarica.br@SD" tvg-name="TV Mais Marica" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/lgCRX7q.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Mais Marica
 https://5cf4a2c2512a2.streamlock.net/tvmaismarica/tvmaismarica/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPaiEterno.br@SD" tvg-name="TV Pai Eterno" tvg-country="BR" tvg-language="Portuguese;English" tvg-logo="https://i.imgur.com/iuoXchN.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Pai Eterno
+https://video09.logicahost.com.br/paieterno/paieterno/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPassoFundo.br@SD" tvg-name="TV Passo Fundo" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/QFE6TiV.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Passo Fundo
 https://5a57bda70564a.streamlock.net/tvpasso/tvpasso.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPetropolis.br@SD" tvg-name="TV Petropolis" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://web2.petropolis.rj.gov.br/imc/film-commission/uploads/profissional/perfil/785b645d9c574b4d88504a85dbd6ef37.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Petropolis
-https://video02.logicahost.com.br/tvpetropolis/tvpetropolis/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSimCachoeiro.br@SD" tvg-name="TV Sim Cachoeiro" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/t5oUK3C.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TV Sim Cachoeiro
 https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-id="TVideoNews.br@SD" tvg-name="TVideoNews" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="Brazil" x-tier="community" x-status="verified" x-quality="1080p",TVideoNews
@@ -755,12 +757,16 @@ https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8
 https://stream.ottlive.co.in/primeasia/index.m3u8
 #EXTINF:-1 tvg-id="PTCPunjabiCanada.ca@SD" tvg-name="PTC Punjabi Canada" tvg-country="CA" tvg-language="Punjabi" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",PTC Punjabi Canada
 https://stream.ottlive.co.in/ptccanada/index.m3u8
+#EXTINF:-1 tvg-id="QelloConcertsbyStingray.ca@Poland" tvg-name="Qello Concerts by Stingray" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/IRyFTWq.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",Qello Concerts by Stingray
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052
 #EXTINF:-1 tvg-id="RadioTeleEvangileSansLimite.ca@SD" tvg-name="Radio Tele Evangile Sans Limite" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/CL32kFA.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",Radio Tele Evangile Sans Limite
 https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
 #EXTINF:-1 tvg-id="StingrayCityscapes.ca@HD" tvg-name="Stingray Cityscapes" tvg-country="CA" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZlXPCl4ze9lr2DnadYazKxuyyEEWmgO1O1Q&s" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",Stingray Cityscapes
 https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="StingrayCozyCafe.ca@HD" tvg-name="Stingray Cozy Cafe" tvg-country="CA" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PtqqxxfI0SgHcNO5YJqxdufqnVtPFwpDvQ&s" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",Stingray Cozy Cafe
 https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8
+#EXTINF:-1 tvg-id="StingrayTodaysLatinPop.ca@SD" tvg-name="Stingray Today's Latin Pop" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/Os3kRRP.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",Stingray Today's Latin Pop
+https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="TamilVisionTV.ca@SD" tvg-name="TamilVision-TV" tvg-country="CA" tvg-language="Tamil" tvg-logo="https://i.imgur.com/DodsLuW.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",TamilVision-TV
 https://live.cmr24.fm/TVI/HD/chunks.m3u8
 #EXTINF:-1 tvg-id="TheCowboyChannelCanada.ca@SD" tvg-name="The Cowboy Channel Canada" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/xwntWOP.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="1080p",The Cowboy Channel Canada
@@ -827,6 +833,8 @@ https://freya.mivideo.pro/centraltv/video.m3u8
 https://stream.blserver.cl/hls/ctv/index.m3u8
 #EXTINF:-1 tvg-id="El3deConce.cl@SD" tvg-name="El 3 de Conce" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KvsrWyE.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="1080p",El 3 de Conce
 https://5ff3d9babae13.streamlock.net/xedkektnqj/xedkektnqj/playlist.m3u8
+#EXTINF:-1 tvg-id="ElPinguinoTV.cl@SD" tvg-name="El Pinguino TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ikEs9b8.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="1080p",El Pinguino TV
+https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 #EXTINF:-1 tvg-id="FortalezaTV.cl@SD" tvg-name="Fortaleza TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BJpop5n.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="1080p",Fortaleza TV
 https://multimedia.fortalezatv.cl/video/video.m3u8
 #EXTINF:-1 tvg-id="ISATV.cl@SD" tvg-name="ISA TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/24qGdyn.jpeg" group-title="Chile" x-tier="community" x-status="verified" x-quality="1080p",ISA TV
@@ -905,6 +913,8 @@ https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="CCTV9.cn@SD" tvg-name="CCTV-9" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",CCTV-9
 https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 tvg-id="ChinaTravel.cn@SD" tvg-name="China Travel" tvg-country="CN" tvg-language="Chinese;English" tvg-logo="https://i.imgur.com/vSgY3CD.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",China Travel
+https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" tvg-name="VoA TV China" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="China" x-tier="community" x-status="verified" x-quality="1080p",VoA TV China
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="AupurTelevision.co@SD" tvg-name="Aupur Television" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/FTv7zpJ.jpeg" group-title="Colombia" x-tier="community" x-status="verified" x-quality="1080p",Aupur Television
@@ -955,8 +965,6 @@ https://wowza.ucr.ac.cr/quinceucr/_definst_/quinceucr.stream/playlist.m3u8
 https://rtmp.info/sanjosetv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-id="TicaVision.cr@SD" tvg-name="TicaVision" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mev90pC.jpg" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="1080p",TicaVision
 https://5eac7b031d945.streamlock.net/TICAVISION/TICAVISION/playlist.m3u8
-#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" tvg-name="Video Tour Channel" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zEi8eMC.png" group-title="Costa Rica" x-tier="community" x-status="verified" x-quality="1080p",Video Tour Channel
-https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="TVDirect13.cw@SD" tvg-name="TV Direct 13" tvg-country="CW" tvg-language="Dutch" tvg-logo="https://i.imgur.com/T2IbQqv.png" group-title="Curacao" x-tier="community" x-status="verified" x-quality="1080p",TV Direct 13
 https://oqgdrog4d4rm-hls-live.5centscdn.com/tvdirect/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="ANT1Cyprus.cy@SD" tvg-name="ANT1 Cyprus" tvg-country="CY" tvg-language="Greek" tvg-logo="https://i.imgur.com/2KAObBt.png" group-title="Cyprus" x-tier="community" x-status="verified" x-quality="1080p",ANT1 Cyprus
@@ -1131,6 +1139,8 @@ https://cdnfox.hostlagarto.com/cct49/index.m3u8
 https://2-fss-2.streamhoster.com/pl_138/206532-6829872-1/playlist.m3u8
 #EXTINF:-1 tvg-id="entelevision.do@SD" tvg-name="entelevision" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/gVtLpMD.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",entelevision
 https://stream.haislin.com/entelevision/index.m3u8
+#EXTINF:-1 tvg-id="EnterateRD.do@HD" tvg-name="Enterate RD" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3508-294x165-FFFFFF.jpg" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Enterate RD
+https://5790d294af2dc.streamlock.net/enteraterd/enteraterd/playlist.m3u8
 #EXTINF:-1 tvg-id="Farovision.do@SD" tvg-name="Farovision" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/YtdOXWb.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Farovision
 https://5790d294af2dc.streamlock.net/femeninatv/femeninatv/playlist.m3u8
 #EXTINF:-1 tvg-id="InformeTV.do@HD" tvg-name="Informe TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://imgur.com/TmJaXrO.jpg" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Informe TV
@@ -1141,6 +1151,8 @@ https://5790d294af2dc.streamlock.net/lenaratv/lenaratv/playlist.m3u8
 https://live.obslivestream.com/makaomux/index.m3u8
 #EXTINF:-1 tvg-id="ManaclarTelevision.do@SD" tvg-name="Manaclar Television" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3445-294x165-FFFFFF.jpg" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Manaclar Television
 https://5790d294af2dc.streamlock.net/manaclar/manaclar/playlist.m3u8
+#EXTINF:-1 tvg-id="MegaCineTV.do@HD" tvg-name="Mega Cine TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://canalesdominicanos.live/template/images/radios/small/mega-cine-tv.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Mega Cine TV
+https://cnn.hostlagarto.com/megacinetv/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaVisionTV.do@SD" tvg-name="MegaVision TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/u5ECnZd.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",MegaVision TV
 https://server2grupocam.com/megavision/MV/playlist.m3u8
 #EXTINF:-1 tvg-id="MiavisionTV.do@HD" tvg-name="Miavision TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://imgur.com/Bbcrjvs.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",Miavision TV
@@ -1173,6 +1185,8 @@ https://cnn.hostlagarto.com/televida/playlist.m3u8
 https://edge.essastream.com/televisiondeleste/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVCotuiCanal31.do@SD" tvg-name="TV Cotui Canal 31" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/sMF7JDm.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",TV Cotui Canal 31
 https://183.giatvcdn.com/ssh101/ssh101/tvcotui/playlist.m3u8
+#EXTINF:-1 tvg-id="TVMontanaCanal10.do@SD" tvg-name="TV Montana Canal 10" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/DHyRWc0.png" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",TV Montana Canal 10
+https://183.giatvcdn.com/ssh101/ssh101/tvmontana10tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVN.do@HD" tvg-name="TVN" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4037-294x165-FFFFFF.jpg" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="1080p",TVN
 https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
 #EXTINF:-1 tvg-id="AustralTV.ec@SD" tvg-name="Austral TV" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/zgGuCYL.png" group-title="Ecuador" x-tier="community" x-status="verified" x-quality="1080p",Austral TV
@@ -1211,6 +1225,10 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d4724
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RASDTV.eh@SD" tvg-name="RASD TV" tvg-country="EH" tvg-language="Arabic;Spanish" tvg-logo="https://i.imgur.com/9Pb8806.png" group-title="Western Sahara" x-tier="community" x-status="verified" x-quality="1080p",RASD TV
 https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8
+#EXTINF:-1 tvg-id="Antena3.es@National" tvg-name="Antena 3" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Antena_3_2025_%28Naranja%29.svg" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Antena 3
+https://ignac16.github.io/voxel-tv-streams/a3.mpd
+#EXTINF:-1 tvg-id="Atreseries.es@HD" tvg-name="Atreseries" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Atreseries_2020_logo.svg/960px-Atreseries_2020_logo.svg.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Atreseries
+https://ignac16.github.io/voxel-tv-streams/a3s.mpd
 #EXTINF:-1 tvg-id="BonDiaTV.es@SD" tvg-name="Bon Dia TV" tvg-country="ES" tvg-language="Catalan" tvg-logo="https://i.imgur.com/VgRCu2U.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Bon Dia TV
 https://directes-tv-int.3catdirectes.cat/live-origin/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="CanalExtremaduraSatelite.es" tvg-name="Canal Extremadura Satelite" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/3eWFu7N.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Canal Extremadura Satelite
@@ -1243,6 +1261,8 @@ https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 #EXTINF:-1 tvg-id="HOLAPlay.es@SD" tvg-name="HOLA! Play" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://m.media-amazon.com/images/I/5194tl8duqL.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",HOLA! Play
 https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8
+#EXTINF:-1 tvg-id="Kidz.es@SD" tvg-name="Kidz" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iBgsCOV.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Kidz
+https://c82fe9a663ed758d6c517fb44c28ba73.4gfbw5.channel-assembly.mediatailor.eu-west-1.amazonaws.com/v1/channel/648c271d2bfab0e4177a0d61/648c271d2bfab0e4177a0d61/3.m3u8
 #EXTINF:-1 tvg-id="La8Mediterraneo.es@SD" tvg-name="La 8 Mediterraneo" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://tbsfibra.es/wp-content/uploads/2022/07/17-8-MEDITERRANEO.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",La 8 Mediterraneo
 https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 #EXTINF:-1 tvg-id="LogosTV.es@SD" tvg-name="Logos TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Kr3U3Ub.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Logos TV
@@ -1251,12 +1271,18 @@ https://streamer1.streamhost.org/salive/logosH/master.m3u8
 https://limited2.todostreaming.es/live/m95-livestream.m3u8
 #EXTINF:-1 tvg-id="Mega.es@SD" tvg-name="Mega" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Mega
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/mega.mpd
+#EXTINF:-1 tvg-id="Mega.es@HD" tvg-name="Mega" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Mega
+https://ignac16.github.io/voxel-tv-streams/mega.mpd
 #EXTINF:-1 tvg-id="NegociosTV.es@SD" tvg-name="Negocios TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/yNRipxu.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Negocios TV
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
 #EXTINF:-1 tvg-id="Neox.es@SD" tvg-name="Neox" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Neox
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/neox.mpd
+#EXTINF:-1 tvg-id="Neox.es@HD" tvg-name="Neox" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Neox
+https://ignac16.github.io/voxel-tv-streams/neox.mpd
 #EXTINF:-1 tvg-id="Nova.es@SD" tvg-name="Nova" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Vx1F4o5.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Nova
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/nova.mpd
+#EXTINF:-1 tvg-id="Nova.es@HD" tvg-name="Nova" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Vx1F4o5.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Nova
+https://ignac16.github.io/voxel-tv-streams/nova.mpd
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-name="Rakuten TV Action Movies" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Rakuten TV Action Movies
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/master.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Germany" tvg-name="Rakuten TV Action Movies (Germany)" tvg-country="ES" tvg-language="German" tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="Spain" x-tier="community" x-status="verified" x-quality="1080p",Rakuten TV Action Movies (Germany)
@@ -1343,12 +1369,22 @@ https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3
 https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/GFTAN5Q.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",FashionTV Paris L'Original
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="France2.fr@SD" tvg-name="France 2" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/France_2_2018.svg/960px-France_2_2018.svg.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",France 2
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_2/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="France3.fr@National" tvg-name="France 3" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/France_3_Alsace_-_Logo_2018.svg" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",France 3
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_3/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="France4.fr@SD" tvg-name="France 4" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",France 4
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="France5.fr@SD" tvg-name="France 5" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/France_5_2018.svg/960px-France_5_2018.svg.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",France 5
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_5/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Gong.fr@SD" tvg-name="Gong" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Gong
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
 #EXTINF:-1 tvg-id="IntoCrime.fr@SD" tvg-name="Into Crime" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/43at4M2.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Into Crime
 https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-name="Kozoom TV" tvg-country="FR" tvg-language="French;English" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Kozoom TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
+#EXTINF:-1 tvg-id="LCI.fr@SD" tvg-name="LCI" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/DED8EXs.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",LCI
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/lci/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="PuissanceTV.fr@SD" tvg-name="Puissance TV" tvg-country="FR" tvg-language="French" tvg-logo="https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Puissance TV
 https://event.vedge.infomaniak.com/livecast/ik:puissancetelevision/manifest.m3u8
 #EXTINF:-1 tvg-id="QwestTV.fr@SD" tvg-name="Qwest TV" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/DjgNNHK.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Qwest TV
@@ -1367,6 +1403,8 @@ https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="TebeoTV.fr@SD" tvg-name="Tebeo TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/WdZWBEd.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Tebeo TV
 https://tebeo.streamakaci.tv/tebeo/tebeo-multi/playlist.m3u8
+#EXTINF:-1 tvg-id="TFX.fr@SD" tvg-name="TFX" tvg-country="FR" tvg-language="French;English" tvg-logo="https://i.imgur.com/d91GcVf.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",TFX
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tfx/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TV5MONDEChefs.fr@SD" tvg-name="TV5MONDE Chefs" tvg-country="FR" tvg-language="French" tvg-logo="https://provider-static.plex.tv/epg/cms/production/9adadebc-556e-4510-a632-ee532eb5863b/LOGO_PLEX_CHEFS_1500X1000_WHITE.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",TV5MONDE Chefs
 https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
 #EXTINF:-1 tvg-id="ViaMatele.fr@SD" tvg-name="ViaMatele" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/XVCV9rj.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",ViaMatele
@@ -1505,6 +1543,8 @@ https://asianet-samsung.vgcdn.net/ptnr-monitoring/vglive-sk-906908/playlist.m3u8
 https://asianet-prasarbharati.vgcdn.net/out/v1/bd05c931d9d94d288bbe455cc0f7e229/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UBhojpuri.in@SD" tvg-name="B4U Bhojpuri" tvg-country="IN" tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",B4U Bhojpuri
 https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
+#EXTINF:-1 tvg-id="B4UMusic.in@India" tvg-name="B4U Music" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",B4U Music
+https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8
 #EXTINF:-1 tvg-id="BalleBalle.in@HD" tvg-name="Balle Balle" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/oxkkWH5.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Balle Balle
 https://mcncdndigital.com/balleballetv/index.m3u8
 #EXTINF:-1 tvg-id="BalleBalle.in@SD" tvg-name="Balle Balle" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/oxkkWH5.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Balle Balle
@@ -1543,8 +1583,8 @@ https://livetv.shamon-cable.net:8443/Colors-bangla/index.m3u8
 https://live.legitpro.co.in/ctvnakdplus/index.m3u8
 #EXTINF:-1 tvg-id="D5ChannelPunjabi.in@SD" tvg-name="D5 Channel Punjabi" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://play-lh.googleusercontent.com/8zcsR5HWFk84RwYkA6r-OXvYzFtVBOmgnicCYMGXPAmMKEozaRQ9Idw4g2dljsIvZ5ES6r8G_lxs19IU9h-ADg" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",D5 Channel Punjabi
 https://d5channel.akamaized.net/D5Channel/master.m3u8
-#EXTINF:-1 tvg-id="DDIndia.in@SD" tvg-name="DD India" tvg-country="IN" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD India
-https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8
+#EXTINF:-1 tvg-id="DailyPostTV.in@SD" tvg-name="Daily Post TV" tvg-country="IN" tvg-language="Punjabi" tvg-logo="https://papaji.freetvindia.com/media/Daily_post.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Daily Post TV
+https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/103b8dd3-a888-4d1d-89a5-8a4bc25e48c1/index.m3u8
 #EXTINF:-1 tvg-id="DDNews.in@SD" tvg-name="DD News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s158254_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD News
 https://mumbai-edge.smartplaytv.in/DDNews/index.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@HD" tvg-name="DD Sports" tvg-country="IN" tvg-language="Hindi;English;Tamil;Kannada;Bengali;Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD Sports
@@ -1851,6 +1891,8 @@ https://ktvlive.online/stream/hls/ch1.m3u8
 https://live.beitolabbas.tv/live/beitolabbastv.m3u8
 #EXTINF:-1 tvg-id="DijlahTV.iq@SD" tvg-name="Dijlah TV" tvg-country="IQ" tvg-language="Arabic;English" tvg-logo="https://i.imgur.com/kyzH3G5.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="1080p",Dijlah TV
 https://ghaasiflu.online/Dijlah/index.m3u8
+#EXTINF:-1 tvg-id="INews.iq@SD" tvg-name="I News" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/9lOuzHQ.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="1080p",I News
+https://live.i-news.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV1.iq@SD" tvg-name="Imam Hussein TV 1" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://i.imgur.com/pDdUvz7.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="1080p",Imam Hussein TV 1
 http://fa.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2.iq@SD" tvg-name="Imam Hussein TV 2" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/IXVSPdJ.png" group-title="Iraq" x-tier="community" x-status="verified" x-quality="1080p",Imam Hussein TV 2
@@ -2303,8 +2345,6 @@ https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium3_abr/playlist.m3u8
 https://live-evg8.tv360.bitel.com.pe/bitel/bnbSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="CANALMTelevision.pe@SD" tvg-name="CANAL M Television" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/EcdNFuJ.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",CANAL M Television
 https://live-evg10.tv360.bitel.com.pe/bitel/anqaratv/playlist.m3u8
-#EXTINF:-1 tvg-id="Conecta2TV.pe@SD" tvg-name="Conecta2TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cfHaLt2.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",Conecta2TV
-https://live.obslivestream.com/conecta2/index.m3u8
 #EXTINF:-1 tvg-id="DTV.pe@SD" tvg-name="DTV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OSvegAq.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",DTV
 https://live-evg7.tv360.bitel.com.pe/bitel/sabormixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="GeniosTV.pe@SD" tvg-name="Genios TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iH2Lx6E.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",Genios TV
@@ -2393,8 +2433,6 @@ https://cdn.rabta.stream/M-News/index.m3u8
 https://cdn.rabta.stream/M-Sports/index.m3u8
 #EXTINF:-1 tvg-id="SuchTV.pk@SD" tvg-name="Such TV" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/yYMh3JJ.png" group-title="Pakistan" x-tier="community" x-status="verified" x-quality="1080p",Such TV
 https://video.primexsports.com/suchnews/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ZindagiTV.pk@SD" tvg-name="Zindagi TV" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/XBHvR5J.png" group-title="Pakistan" x-tier="community" x-status="verified" x-quality="1080p",Zindagi TV
-https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8
 #EXTINF:-1 tvg-id="BTB2.pl@SD" tvg-name="BTB 2" tvg-country="PL" tvg-language="Polish" tvg-logo="https://i.imgur.com/C5g0ejM.png" group-title="Poland" x-tier="community" x-status="verified" x-quality="1080p",BTB 2
 https://emisja.btb.j00r.us/iptv/session/2/live.m3u8
 #EXTINF:-1 tvg-id="Puls2.pl@SD" tvg-name="Puls 2" tvg-country="PL" tvg-language="Polish" tvg-logo="https://i.imgur.com/EOnzPiZ.png" group-title="Poland" x-tier="community" x-status="verified" x-quality="1080p",Puls 2
@@ -2567,6 +2605,8 @@ http://stream.mcquack.net/364/index.m3u8
 http://stream.mcquack.net/92/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenAutoGid.ru@HD" tvg-name="City Eden AutoGid" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/qpe8L27.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden AutoGid
 https://cityeden.catcast.tv/content/47515/index.m3u8
+#EXTINF:-1 tvg-id="CityEdenBirmaPlay.ru@HD" tvg-name="City Eden Birma Play" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/38Q5L5W.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden Birma Play
+https://cityeden.catcast.tv/content/34364/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenClassicMusic.ru@HD" tvg-name="City Eden Classic Music" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/l7BE8l6.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden Classic Music
 https://cityeden.catcast.tv/content/47400/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoAction.ru@HD" tvg-name="City Eden KinoAction" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/uuzuvD0.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden KinoAction
@@ -2577,6 +2617,8 @@ https://cityeden.catcast.tv/content/38398/index.m3u8
 https://cityeden.catcast.tv/content/34393/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoDetektiv.ru@HD" tvg-name="City Eden KinoDetektiv" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/9rKHwBV.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden KinoDetektiv
 https://cityeden.catcast.tv/content/41327/index.m3u8
+#EXTINF:-1 tvg-id="CityEdenKinoDok.ru@HD" tvg-name="City Eden KinoDok" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/itRbMX3.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden KinoDok
+https://cityeden.catcast.tv/content/38354/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoDrama.ru@HD" tvg-name="City Eden KinoDrama" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/29ddffh.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden KinoDrama
 https://cityeden.catcast.tv/content/45269/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoFantastika.ru@HD" tvg-name="City Eden KinoFantastika" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/I64FeIO.png" group-title="Russia" x-tier="community" x-status="verified" x-quality="1080p",City Eden KinoFantastika
@@ -2877,6 +2919,8 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="TonTV.tr@SD" tvg-name="Ton TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="Turkiye" x-tier="community" x-status="verified" x-quality="1080p",Ton TV
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 tvg-id="TRTGenc.tr@SD" tvg-name="TRT Genc" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/fCHQYWS.png" group-title="Turkiye" x-tier="community" x-status="verified" x-quality="1080p",TRT Genc
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV264.tr@SD" tvg-name="TV 264" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="Turkiye" x-tier="community" x-status="verified" x-quality="1080p",TV 264
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-name="Urfa Natik TV" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="Turkiye" x-tier="community" x-status="verified" x-quality="1080p",Urfa Natik TV
@@ -3027,6 +3071,8 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/mas
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="TotalmusicDance.uk@HD" tvg-name="Totalmusic Dance" tvg-country="UK" tvg-language="Spanish" tvg-logo="https://static.elektamedia.com/ch/tmc_dance.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",Totalmusic Dance
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="TrueCrime.uk@SD" tvg-name="True Crime" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/LK2NFst.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",True Crime
+https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KGUNTV" tvg-name="ABC (KGUN-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvETpbhVGYqrNLKf-Jh12zQsXVxAWJM-r6HlUG5NmHqNVlvDaWbBcFKRc-7wWaL7DVM0&usqp=CAU" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",ABC (KGUN-TV)
 https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WFTV" tvg-name="ABC (WFTV)" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNvETpbhVGYqrNLKf-Jh12zQsXVxAWJM-r6HlUG5NmHqNVlvDaWbBcFKRc-7wWaL7DVM0&usqp=CAU" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",ABC (WFTV)
@@ -3095,8 +3141,6 @@ https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8
 https://d3v8uchko88gmi.cloudfront.net/PBSART_GB.m3u8
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" tvg-name="Are We There Yet?" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3BJQiHP.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Are We There Yet?
 https://amg00353-lionsgatestudio-arewethereyet-samsunguk-6h2ju.amagi.tv/playlist/amg00353-lionsgatestudio-arewethereyet-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="AsianCultureTV.us@HD" tvg-name="Asian Culture TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/o1icKZu.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Asian Culture TV
-https://cdn.vegasplus.us/vegas/actv/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianCrush.us@SD" tvg-name="AsianCrush" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/hW6z1RG.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",AsianCrush
 https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="AspireTVLife.us@SD" tvg-name="Aspire TV Life" tvg-country="US" tvg-language="English" tvg-logo="https://press.upentertainment.com/wp-content/uploads/2022/03/aspire-tv-life-logo.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Aspire TV Life
@@ -3163,6 +3207,8 @@ https://cantv.streamguys1.com/cantv/cantv27hls/playlist.m3u8
 https://cantv.streamguys1.com/cantv/cantv36hls/playlist.m3u8
 #EXTINF:-1 tvg-id="CanelaTV.us@SD" tvg-name="Canela TV" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8Hllkpk.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Canela TV
 https://d3cx6yargdnl7q.cloudfront.net/canelatv.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Cartoon Network
+https://tvnow.hostless.app/cartoon-network.m3u8
 #EXTINF:-1 tvg-id="CatholicTV.us@SD" tvg-name="Catholic TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/EL0rWD3.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Catholic TV
 https://catholictvhd-lh.akamaized.net/hls/live/2043390/CTVLiveHD/master.m3u8
 #EXTINF:-1 tvg-id="CBS.us@KIROTV" tvg-name="CBS (KIRO-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",CBS (KIRO-TV)
@@ -3173,8 +3219,6 @@ https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb674
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-whiobreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="CBS.us@WJAXTV" tvg-name="CBS (WJAX-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",CBS (WJAX-TV)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
-#EXTINF:-1 tvg-id="ChefRocShow.us@SD" tvg-name="Chef Roc Show" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/vhVnAzE.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Chef Roc Show
-https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8
 #EXTINF:-1 tvg-id="CityTVChannel341.us@SD" tvg-name="City TV Channel 3/41" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://i.imgur.com/L0vaDea.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",City TV Channel 3/41
 https://edge-f.swagit.com/live/chinohillsca/live-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us@Europe" tvg-name="CNN International" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",CNN International
@@ -3225,6 +3269,8 @@ https://linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8
 https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DuckDynasty.us@UK" tvg-name="Duck Dynasty" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/vMcSlwm.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Duck Dynasty
 https://amg00276-amg00276c2-samsung-gb-3485.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="DuckDynasty.us@US" tvg-name="Duck Dynasty (UK)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/vMcSlwm.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Duck Dynasty (UK)
+https://aegis-cloudfront-1.tubi.video/ae3cd8ce-3c41-452b-92a0-78fdb3c5b855/playlist.m3u8
 #EXTINF:-1 tvg-id="DuckHuntingTV.us@SD" tvg-name="Duck Hunting TV" tvg-country="US" tvg-language="English" tvg-logo="https://image.roku.com/developer_channels/prod/b2a80f0a20fc338f22a8289f23d20d19d958470ff1b8df3845c57cbc54ec1245.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Duck Hunting TV
 https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINF:-1 tvg-id="DUST.us@SD" tvg-name="DUST" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/FxYhME9.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",DUST
@@ -3253,8 +3299,6 @@ https://d2y1l0qikd751h.cloudfront.net/Fear_Factor.m3u8
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="FloHockey.us@HD" tvg-name="FloHockey" tvg-country="US" tvg-language="English" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",FloHockey
 https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Fox.us@KDFW" tvg-name="Fox (KDFW)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (KDFW)
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@KRIV" tvg-name="Fox (KRIV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (KRIV)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-kriv-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@KSAZTV" tvg-name="Fox (KSAZ-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (KSAZ-TV)
@@ -3263,10 +3307,16 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ktbc-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@KTTV" tvg-name="Fox (KTTV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (KTTV)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox11losangeleskttv-vizious/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WHBQTV" tvg-name="Fox (WHBQ-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (WHBQ-TV)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WITI" tvg-name="Fox (WITI)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (WITI)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-witi-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WJBK" tvg-name="Fox (WJBK)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (WJBK)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox2detroitwjbk-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WNYW" tvg-name="Fox (WNYW)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (WNYW)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8
+#EXTINF:-1 tvg-id="Fox.us@WTXFTV" tvg-name="Fox (WTXF-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://farm8.staticflickr.com/7915/46516027895_d72f7ee41f_n.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fox (WTXF-TV)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-name="Fubo Sports Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fubo Sports Network
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-name="Gagsnetwork" tvg-country="US" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/ENj5GIp.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Gagsnetwork
@@ -3307,8 +3357,6 @@ https://jstre.am/live/jsl:cZXINbwrFj6.m3u8
 https://bbc-impossible-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsideCrime.us@UK" tvg-name="Inside Crime" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/wvQYWsj.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Inside Crime
 https://amg00841-aenetworksukane-insidecrime-samsunguk-o968i.amagi.tv/playlist/amg00841-aenetworksukane-insidecrime-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Ion_Plus_2024.svg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",ION Plus
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="IONTV.us@East" tvg-name="ION TV" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiSmnYsts3yvFitiy9hspQUKgqp9mThaxVh0f4IDP12KZR52nEzg6UFmnycSjSJvA8kSA&usqp=CAU" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",ION TV
 https://pb-xhb3ic8b61whm.akamaized.net/Ion_US.m3u8
 #EXTINF:-1 tvg-id="JoelOsteenNetwork.us@HD" tvg-name="Joel Osteen Network" tvg-country="US" tvg-language="English" tvg-logo="https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Joel Osteen Network
@@ -3413,6 +3461,8 @@ https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB1700007PK&channel_i
 https://live.nowtelly.com/now_spanish/live/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsoftheWorld.us@USA" tvg-name="News of the World (USA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News of the World (USA)
 https://live.nowtelly.com/now_usa/live_usa/playlist.m3u8
+#EXTINF:-1 tvg-id="News12Bronx.us@SD" tvg-name="News12 Bronx" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/d6xQiaf.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12 Bronx
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 tvg-id="News12HudsonValley.us@SD" tvg-name="News12 Hudson Valley" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12 Hudson Valley
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 tvg-id="News12NewJersey.us@SD" tvg-name="News12 New Jersey" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",News12 New Jersey
@@ -3435,6 +3485,8 @@ https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e290958
 https://nhl-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NHRATV.us@SD" tvg-name="NHRA TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/jZgcm4k.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",NHRA TV
 https://d265y4sk8257lt.cloudfront.net/nh.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-name="Nicktoons" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Nicktoons
+https://tvnow.hostless.app/nicktoons.m3u8
 #EXTINF:-1 tvg-id="NorCastWeather.us@HD" tvg-name="NorCast Weather" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/AfjoZgo.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",NorCast Weather
 https://norcast-weather.streamology.live/api/v1/streams/c1b5b114698e1ad4687153c4402d5ef0/live.m3u8
 #EXTINF:-1 tvg-id="Nosey.us@US" tvg-name="Nosey" tvg-country="US" tvg-language="English" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsv_KrZtWIiODx5w-aXTru0YMO446I8ukXc5P0rPKrQg&s" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Nosey
@@ -3461,8 +3513,6 @@ https://outsidetv-firetv.amagi.tv/playlist.m3u8
 https://rumble.com/live-hls/79qjh2/playlist.m3u8
 #EXTINF:-1 tvg-id="Overtime.us@SD" tvg-name="Overtime" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/9S9k4IK.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Overtime
 https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8
-#EXTINF:-1 tvg-id="PacificIslandNetwork.us@HD" tvg-name="Pacific Island Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/OtT1qYE.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Pacific Island Network
-https://cdn.vegasplus.us/vegas/mpin/playlist.m3u8
 #EXTINF:-1 tvg-id="PayameAfghanTV.us@SD" tvg-name="Payam-e-Afghan TV" tvg-country="US" tvg-language="Pashto" tvg-logo="https://i.imgur.com/t9wYYY9.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Payam-e-Afghan TV
 https://g5nl6xx5lpq6-hls-live.5centscdn.com/live1234/2621b29e501b445fabf227b086123b70.sdp/mono.m3u8
 #EXTINF:-1 tvg-id="PBSNature.us@SD" tvg-name="PBS Nature" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Brry7cZ.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",PBS Nature
@@ -3595,6 +3645,8 @@ https://tgn.bozztv.com/watc57/watc57-2/watc57-2/index.m3u8
 https://amc-twdfanexperience-1-us.xumo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheWordNetwork.us@SD" tvg-name="The Word Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ltFBrrj.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",The Word Network
 https://clouditize.piksel.tech/hls/live/2043070/ClouditizeStream1/playlist.m3u8
+#EXTINF:-1 tvg-id="TheGrioTV.us@FAST" tvg-name="TheGrio TV (FAST)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8nqbi9b.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",TheGrio TV (FAST)
+https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThisOldHouse.us@SD" tvg-name="This Old House" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/nrVLyE6.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",This Old House
 https://thisoldhouse-2-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TODAYAllDay.us@SD" tvg-name="TODAY All Day" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/LhbQ8Mr.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",TODAY All Day
@@ -3603,6 +3655,8 @@ https://d37kx062o4ii0p.cloudfront.net/master.m3u8
 https://amg02507-giantpictures-tribeca-xumo-ey2b7.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TrueCrimeNetwork.us@SD" tvg-name="True Crime Network" tvg-country="US" tvg-language="English" tvg-logo="https://www.truecrimenetworktv.com/sites/all/themes/jntheme/images/tcnetwork-logo-main.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",True Crime Network
 https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TrueCrimeNow.us@SD" tvg-name="True Crime Now" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Y6Hix17.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",True Crime Now
+https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="TUDN.us@SD" tvg-name="TUDN" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/oT5CAvd.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",TUDN
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
 #EXTINF:-1 tvg-id="TUTV.us@SD" tvg-name="TUTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/At0BPeA.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",TUTV
@@ -3633,6 +3687,8 @@ https://streaming-live-fcdn.api.prd.univisionnow.com/uniwest/uniwest.isml/hls/un
 https://streaming-live-fcdn.api.prd.univisionnow.com/wltv/wltv.isml/hls/wltv.m3u8
 #EXTINF:-1 tvg-id="USATODAY.us@SD" tvg-name="USA TODAY" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/37K0AZX.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",USA TODAY
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="VegasLifeTV.us@HD" tvg-name="Vegas Life TV" tvg-country="US" tvg-language="English;Tagalog" tvg-logo="https://i.imgur.com/G7lONcu.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Vegas Life TV
+https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8
 #EXTINF:-1 tvg-id="VICETV.us@SD" tvg-name="VICE TV" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/960px-Vice_TV_logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",VICE TV
 https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="VideoMixTV.us@SD" tvg-name="Video Mix TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/nyLrIPP.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Video Mix TV
@@ -3723,8 +3779,6 @@ https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve@EnglishHD" tvg-name="Telesur (English HD)" tvg-country="VE" tvg-language="English" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="Venezuela" x-tier="community" x-status="verified" x-quality="1080p",Telesur (English HD)
 https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="TVes.ve@SD" tvg-name="TVes" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QX5DVUB.png" group-title="Venezuela" x-tier="community" x-status="verified" x-quality="1080p",TVes
-https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8
 #EXTINF:-1 tvg-id="TVS.ve@SD" tvg-name="TVS" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/J8ztiAN.png" group-title="Venezuela" x-tier="community" x-status="verified" x-quality="1080p",TVS
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="CanThoTV2.vn@SD" tvg-name="Can Tho TV 2" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://i.ibb.co/JjVvkMsf/cantho2-2025.png" group-title="Vietnam" x-tier="community" x-status="verified" x-quality="1080p",Can Tho TV 2

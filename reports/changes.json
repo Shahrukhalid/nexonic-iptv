@@ -1,63 +1,66 @@
 {
-  "reference_time": "2026-11-14T23:05:07Z",
-  "baseline_reference_time": "2026-11-14T17:13:59Z",
+  "reference_time": "2026-11-15T08:33:35Z",
+  "baseline_reference_time": "2026-11-14T23:05:07Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 543,
-    "verified_playlist": 472,
+    "verified_playlist": 466,
     "excluded": 213,
     "pending_authorization": 43,
-    "quarantined": 152,
+    "quarantined": 173,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
-    "newly_quarantined": 0,
-    "restored": 1,
+    "newly_failing": 8,
+    "newly_quarantined": 21,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 93,
+    "intermittent": 91,
     "restricted": 42,
     "unknown": 26,
-    "working": 382
+    "unreachable": 8,
+    "working": 376
   },
   "latest_run": {
-    "run_id": "run-20261114T225858Z",
-    "started_at": "2026-11-14T22:58:58Z",
-    "finished_at": "2026-11-14T23:05:07Z",
+    "run_id": "run-20261115T082752Z",
+    "started_at": "2026-11-15T08:27:52Z",
+    "finished_at": "2026-11-15T08:33:35Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 58,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 149,
+      "TIMEOUT": 31,
+      "UNAVAILABLE": 144,
       "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 443
+      "VERIFIED_WORKING": 445
     }
   },
   "discovery": {
     "admitted": 603,
-    "aggregator-host": 1006,
-    "already-curated": 482,
-    "closed": 89,
-    "excluded-category": 1178,
-    "host-not-owned-by-broadcaster": 7199,
-    "language-not-supported": 4,
+    "aggregator-host": 998,
+    "already-curated": 558,
+    "closed": 98,
+    "duplicate-channel-in-other-source": 119,
+    "duplicate-of-existing": 1,
+    "excluded-category": 1223,
+    "host-not-owned-by-broadcaster": 7739,
+    "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 1146,
-    "no-database-entry": 2092,
-    "nsfw-or-blocklisted": 9,
-    "sanctions-exclusion": 608,
-    "streams": 18689,
-    "subscription-service": 111,
-    "url-policy": 4087
+    "needs-special-headers": 964,
+    "no-database-entry": 3616,
+    "nsfw-or-blocklisted": 5,
+    "sanctions-exclusion": 621,
+    "streams": 21345,
+    "subscription-service": 101,
+    "url-policy": 4628
   },
   "integrity": {
     "ok": true,
@@ -67,7 +70,9 @@
     "playlist_files": 535,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "21 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
@@ -75,22 +80,191 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "one-ard",
-        "name": "ONE",
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "state": "unreachable",
+        "error": "connection error: ConnectError"
+      },
+      {
+        "id": "das-erste",
+        "name": "Das Erste",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
-      }
-    ],
-    "newly_quarantined": [],
-    "restored": [
+      },
       {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError"
+      },
+      {
+        "id": "qmusic-nl",
+        "name": "Qmusic",
+        "country": "nl",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "rtl-tele-letzebuerg-lu",
+        "name": "RTL Tele Letzebuerg",
         "country": "lu",
-        "restored_at": "2026-11-14T23:00:51Z"
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "rtl-zwee-lu",
+        "name": "RTL Zwee",
+        "country": "lu",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "senal-colombia",
+        "name": "Señal Colombia",
+        "country": "co",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-1",
+        "name": "TRT 1",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "segment: HTTP 400"
       }
     ],
+    "newly_quarantined": [
+      {
+        "id": "alternatv-ar",
+        "name": "AlternaTV",
+        "country": "ar",
+        "since": "2026-11-15T08:27:54Z"
+      },
+      {
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "since": "2026-11-15T08:29:54Z"
+      },
+      {
+        "id": "capital-21-mx",
+        "name": "Capital 21",
+        "country": "mx",
+        "since": "2026-11-15T08:31:12Z"
+      },
+      {
+        "id": "channel-7-th",
+        "name": "Channel 7",
+        "country": "th",
+        "since": "2026-11-15T08:30:21Z"
+      },
+      {
+        "id": "das-erste",
+        "name": "Das Erste",
+        "country": "de",
+        "since": "2026-11-15T08:31:02Z"
+      },
+      {
+        "id": "ebc-general-education-kh",
+        "name": "EBC General Education",
+        "country": "kh",
+        "since": "2026-11-15T08:29:19Z"
+      },
+      {
+        "id": "eco-television-pe",
+        "name": "ECO Television",
+        "country": "pe",
+        "since": "2026-11-15T08:29:55Z"
+      },
+      {
+        "id": "france-24-arabic",
+        "name": "France 24 Arabic",
+        "country": "fr",
+        "since": "2026-11-15T08:31:56Z"
+      },
+      {
+        "id": "france-24-english",
+        "name": "France 24 English",
+        "country": "fr",
+        "since": "2026-11-15T08:31:06Z"
+      },
+      {
+        "id": "france-24-espanol",
+        "name": "France 24 Español",
+        "country": "fr",
+        "since": "2026-11-15T08:31:50Z"
+      },
+      {
+        "id": "france-24-french",
+        "name": "France 24 Français",
+        "country": "fr",
+        "since": "2026-11-15T08:31:41Z"
+      },
+      {
+        "id": "kalu-tv-co",
+        "name": "Kalu TV",
+        "country": "co",
+        "since": "2026-11-15T08:28:32Z"
+      },
+      {
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "since": "2026-11-15T08:28:51Z"
+      },
+      {
+        "id": "qmusic-nl",
+        "name": "Qmusic",
+        "country": "nl",
+        "since": "2026-11-15T08:29:48Z"
+      },
+      {
+        "id": "raj-pariwar-in",
+        "name": "Raj Pariwar",
+        "country": "in",
+        "since": "2026-11-15T08:29:07Z"
+      },
+      {
+        "id": "rtl-tele-letzebuerg-lu",
+        "name": "RTL Tele Letzebuerg",
+        "country": "lu",
+        "since": "2026-11-15T08:29:36Z"
+      },
+      {
+        "id": "rtl-zwee-lu",
+        "name": "RTL Zwee",
+        "country": "lu",
+        "since": "2026-11-15T08:31:29Z"
+      },
+      {
+        "id": "rtv-zenica-ba",
+        "name": "RTV Zenica",
+        "country": "ba",
+        "since": "2026-11-15T08:28:00Z"
+      },
+      {
+        "id": "senal-colombia",
+        "name": "Señal Colombia",
+        "country": "co",
+        "since": "2026-11-15T08:30:59Z"
+      },
+      {
+        "id": "trt-1",
+        "name": "TRT 1",
+        "country": "tr",
+        "since": "2026-11-15T08:31:16Z"
+      },
+      {
+        "id": "ulytau-kz",
+        "name": "Ulytau",
+        "country": "kz",
+        "since": "2026-11-15T08:29:31Z"
+      }
+    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -98,51 +272,51 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 543,
-      "verified": 472,
-      "not_verified": 71,
+      "verified": 466,
+      "not_verified": 77,
       "with_measured_quality": 475,
       "per_quality": {
-        "1080p": 243,
+        "1080p": 244,
         "4k": 1,
         "720p": 168,
-        "sd": 63
+        "sd": 62
       }
     },
     "community": {
-      "published": 4112,
-      "verified": 3682,
-      "untested": 430,
-      "held_back_after_failed_check": 3163,
+      "published": 4155,
+      "verified": 3735,
+      "untested": 420,
+      "held_back_after_failed_check": 3158,
       "never_checked": 0,
-      "catalog_streams": 7275,
-      "catalog_built_at": "2026-11-14T08:07:02Z",
+      "catalog_streams": 7313,
+      "catalog_built_at": "2026-11-15T08:33:45Z",
       "verified_days": 7,
-      "countries": 157,
+      "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 519,
-        "invalid": 1197,
-        "restricted": 184,
-        "unknown": 189,
-        "unreachable": 1814,
-        "working": 3372
+        "intermittent": 576,
+        "invalid": 1211,
+        "restricted": 179,
+        "unknown": 211,
+        "unreachable": 1795,
+        "working": 3341
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 730
+          "streams": 742
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 522
+          "streams": 524
         },
         {
           "code": "ru",
           "name": "Russia",
-          "streams": 195
+          "streams": 197
         },
         {
           "code": "it",
@@ -152,27 +326,27 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 127
+          "streams": 128
         },
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 114
+          "streams": 115
+        },
+        {
+          "code": "es",
+          "name": "Spain",
+          "streams": 99
         },
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 96
+          "streams": 98
         },
         {
           "code": "br",
           "name": "Brazil",
           "streams": 95
-        },
-        {
-          "code": "es",
-          "name": "Spain",
-          "streams": 94
         },
         {
           "code": "de",
@@ -182,86 +356,86 @@
       ],
       "playlist_files": 1,
       "build_report": {
-        "read": 23337,
+        "read": 23389,
         "after": {
-          "has-database-entry": 19719,
-          "not-nsfw-or-blocklisted": 19713,
-          "not-closed": 19604,
-          "no-special-headers": 18241,
-          "url-policy": 13343,
-          "hls-or-dash": 13339,
-          "policy-exclusions": 12772,
-          "adult-screening-pass": 12462,
-          "community-exclusions": 12462
+          "has-database-entry": 19770,
+          "not-nsfw-or-blocklisted": 19757,
+          "not-closed": 19650,
+          "no-special-headers": 18289,
+          "url-policy": 13391,
+          "hls-or-dash": 13387,
+          "policy-exclusions": 12819,
+          "adult-screening-pass": 12506,
+          "community-exclusions": 12506
         },
         "dropped": {
-          "adult-screening-quarantine": 280,
-          "adult-screening-reject": 30,
-          "closed": 109,
-          "needs-special-headers": 1363,
-          "no-database-entry": 3618,
+          "adult-screening-quarantine": 281,
+          "adult-screening-reject": 32,
+          "closed": 107,
+          "needs-special-headers": 1361,
+          "no-database-entry": 3619,
           "not-hls-or-dash": 4,
-          "nsfw-or-blocklisted": 6,
-          "policy-exclusion": 567,
-          "url-policy-ip-host": 1040,
+          "nsfw-or-blocklisted": 13,
+          "policy-exclusion": 568,
+          "url-policy-ip-host": 1047,
           "url-policy-other": 2,
-          "url-policy-port": 3468,
-          "url-policy-restream-or-dynamic-dns": 64,
+          "url-policy-port": 3460,
+          "url-policy-restream-or-dynamic-dns": 65,
           "url-policy-scheme": 46,
           "url-policy-token": 278
         },
         "sources": {
           "ipmx": 18,
           "iprtl": 636,
-          "iptv-com": 1169,
+          "iptv-com": 1168,
           "iptv-ecuador": 36,
           "iptv-m3u-tr": 288,
-          "iptv-org": 18631,
+          "iptv-org": 18689,
           "iptv-spain": 68,
-          "listalibre": 1408,
-          "m3upt": 958,
+          "listalibre": 1402,
+          "m3upt": 959,
           "openiptvitaly": 125
         },
         "deduplicated": {
-          "duplicate-channel": 2327,
-          "duplicate-url": 1380,
-          "official-duplicate-channel": 520,
+          "duplicate-channel": 2334,
+          "duplicate-url": 1371,
+          "official-duplicate-channel": 530,
           "official-duplicate-name": 14,
-          "official-duplicate-stream": 946
+          "official-duplicate-stream": 944
         },
-        "catalog": 7275,
+        "catalog": 7313,
         "per_country": {
-          "us": 1628,
-          "in": 685,
+          "us": 1632,
+          "in": 683,
           "de": 372,
           "se": 370,
           "ru": 265,
           "uk": 194,
-          "it": 188,
+          "it": 189,
           "br": 184,
+          "es": 163,
           "tr": 161,
-          "es": 157,
           "cl": 131,
           "nl": 130,
+          "do": 121,
           "ca": 120,
-          "do": 119,
-          "mx": 117,
           "pe": 117,
-          "fr": 99,
+          "fr": 116,
+          "mx": 116,
           "ar": 91,
-          "vn": 85,
+          "vn": 86,
           "ua": 72,
+          "ro": 67,
           "cn": 64,
           "co": 64,
-          "ro": 62,
-          "pl": 56,
+          "pl": 59,
           "id": 48,
           "iq": 48,
           "ec": 44,
           "sa": 44,
           "ve": 44,
           "bo": 42,
-          "hn": 41,
+          "hn": 40,
           "ng": 40,
           "cr": 38,
           "pt": 37,
@@ -286,8 +460,8 @@
           "rs": 24,
           "lb": 23,
           "za": 23,
+          "il": 20,
           "tw": 20,
-          "il": 19,
           "pr": 19,
           "bg": 18,
           "sg": 18,
@@ -313,6 +487,7 @@
           "ph": 11,
           "si": 11,
           "sn": 11,
+          "ba": 10,
           "gh": 9,
           "hk": 9,
           "ht": 9,
@@ -329,7 +504,6 @@
           "xk": 8,
           "al": 7,
           "aw": 7,
-          "ba": 7,
           "jm": 7,
           "jp": 7,
           "np": 7,
@@ -350,13 +524,13 @@
           "mz": 5,
           "om": 5,
           "tg": 5,
-          "am": 4,
           "bs": 4,
           "md": 4,
           "ne": 4,
           "rw": 4,
           "tt": 4,
           "ye": 4,
+          "am": 3,
           "ao": 3,
           "bq": 3,
           "cw": 3,
@@ -402,67 +576,67 @@
       }
     },
     "vod": {
-      "items": 2415,
-      "movies": 2103,
-      "series_items": 312,
-      "cached_items": 3929,
+      "items": 2808,
+      "movies": 2371,
+      "series_items": 437,
+      "cached_items": 4472,
       "not_published": {
-        "no-playable-file": 120,
-        "no-playable-file-yet": 1394
+        "no-playable-file": 127,
+        "no-playable-file-yet": 1537
       },
       "by_licence": {
         "CC BY 2.0": 5,
         "CC BY 2.5": 18,
-        "CC BY 3.0": 258,
+        "CC BY 3.0": 304,
         "CC BY 4.0": 2,
-        "CC BY-NC 2.0": 3,
+        "CC BY-NC 2.0": 4,
         "CC BY-NC 2.5": 4,
-        "CC BY-NC 3.0": 18,
+        "CC BY-NC 3.0": 20,
         "CC BY-NC 4.0": 8,
         "CC BY-NC-ND 2.0": 17,
         "CC BY-NC-ND 2.1": 1,
-        "CC BY-NC-ND 2.5": 73,
-        "CC BY-NC-ND 3.0": 116,
-        "CC BY-NC-ND 4.0": 21,
+        "CC BY-NC-ND 2.5": 74,
+        "CC BY-NC-ND 3.0": 142,
+        "CC BY-NC-ND 4.0": 26,
         "CC BY-NC-SA 2.0": 16,
-        "CC BY-NC-SA 2.5": 32,
-        "CC BY-NC-SA 3.0": 37,
-        "CC BY-NC-SA 4.0": 26,
+        "CC BY-NC-SA 2.5": 34,
+        "CC BY-NC-SA 3.0": 42,
+        "CC BY-NC-SA 4.0": 39,
         "CC BY-ND 2.0": 3,
         "CC BY-ND 2.5": 9,
-        "CC BY-ND 3.0": 29,
+        "CC BY-ND 3.0": 32,
         "CC BY-ND 4.0": 8,
         "CC BY-SA 2.0": 3,
         "CC BY-SA 2.5": 9,
-        "CC BY-SA 3.0": 44,
+        "CC BY-SA 3.0": 47,
         "CC BY-SA 4.0": 1,
-        "CC0 1.0": 308,
-        "Public Domain Mark 1.0": 1321,
+        "CC0 1.0": 376,
+        "Public Domain Mark 1.0": 1539,
         "Public domain (rights statement)": 25
       },
       "by_collection": {
-        "Comedy_Films": 95,
+        "Comedy_Films": 96,
         "Film_Noir": 89,
         "SciFi_Horror": 128,
-        "animationandcartoons": 503,
+        "animationandcartoons": 507,
         "classic_cartoons": 6,
-        "classic_tv": 312,
-        "feature_films": 624,
-        "prelinger": 15,
-        "short_films": 424,
-        "silent_films": 219
+        "classic_tv": 437,
+        "feature_films": 776,
+        "prelinger": 16,
+        "short_films": 532,
+        "silent_films": 221
       },
       "playlist_files": 34,
       "search": {
         "metadata_read": 400,
         "rejected": {
-          "adult-screening": 45,
-          "no-open-licence": 617
+          "adult-screening": 71,
+          "no-open-licence": 332
         },
         "searched_pages": 10,
-        "seen": 1137
+        "seen": 1202
       },
-      "last_run": "2026-11-14T08:17:10Z"
+      "last_run": "2026-11-15T08:44:31Z"
     }
   }
 }

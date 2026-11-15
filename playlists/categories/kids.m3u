@@ -61,7 +61,7 @@ https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
 https://s6.hopslan.com/disneyX/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-name="Nickelodeon" tvg-country="DE" tvg-language="German;English" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Nickelodeon
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
-#EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-name="Tom And Jerry" tvg-country="DO" tvg-language="English" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="sd",Tom And Jerry
+#EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-name="Tom And Jerry" tvg-country="DO" tvg-language="English" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="Dominican Republic" x-tier="community" x-status="verified" x-quality="720p",Tom And Jerry
 https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="KoogiTV.eg@SD" tvg-name="Koogi TV" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/zojMTP9.png" group-title="Egypt" x-tier="community" x-status="verified" x-quality="1080p",Koogi TV
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
@@ -69,8 +69,16 @@ https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 #EXTINF:-1 tvg-id="ADNTVPlus.fr@SD" tvg-name="ADN TV+" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",ADN TV+
 https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
+#EXTINF:-1 tvg-id="France4.fr@SD" tvg-name="France 4" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",France 4
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Gong.fr@SD" tvg-name="Gong" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/lA9UFMG.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Gong
 https://amg01596-gongnetworks-gong-ono-vh5f2.amagi.tv/1080p-vtt/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.fr@SD" tvg-name="Nickelodeon" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Nickelodeon
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="NickelodeonJunior.fr@SD" tvg-name="Nickelodeon Junior" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Nickelodeon Junior
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.fr@SD" tvg-name="Nicktoons" tvg-country="FR" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Nicktoons_Logo_2023.svg" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Nicktoons
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nicktoons/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr@SD" tvg-name="Persiana Junior" tvg-country="FR" tvg-language="Persian" tvg-logo="https://i.imgur.com/zeKHZYG.png" group-title="France" x-tier="community" x-status="verified" x-quality="sd",Persiana Junior
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Hop.il@SD" tvg-name="Hop!" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/bScuilD.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="sd",Hop!
@@ -99,6 +107,8 @@ https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_h
 https://stream8.cinerama.uz/1500/playlist.m3u8
 #EXTINF:-1 tvg-id="TahaTV.lb@SD" tvg-name="Taha TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/hdsrxvX.png" group-title="Lebanon" x-tier="community" x-status="verified" x-quality="sd",Taha TV
 https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8
+#EXTINF:-1 tvg-id="ElChavoTV.mx@HD" tvg-name="El Chavo TV" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://gia.tv/streams/pptv/211465.png" group-title="Mexico" x-tier="community" x-status="verified" x-quality="sd",El Chavo TV
+https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8
 #EXTINF:-1 tvg-id="ReinoInfantil.mz@SD" tvg-name="Reino Infantil" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/oAygpDw.png" group-title="Mozambique" x-tier="community" x-status="verified" x-quality="sd",Reino Infantil
 https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
 #EXTINF:-1 tvg-id="PequesTV.pe@SD" tvg-name="Peques TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/01/06/04/1767647409377/6123aa5e7fc7.png" group-title="Peru" x-tier="community" x-status="verified" x-quality="1080p",Peques TV
@@ -173,10 +183,14 @@ https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
 https://c0c65b821b3542c3a4dca92702f59944.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BabySharkTV/playlist.m3u8
 #EXTINF:-1 tvg-id="CampSpoopy.us@SD" tvg-name="Camp Spoopy" tvg-country="US" tvg-language="English" tvg-logo="https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Camp Spoopy
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
-#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Cartoon Network
-https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-name="Disney Junior" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Disney Junior
-https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-name="Cartoon Network" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Cartoon Network
+https://tvnow.hostless.app/cartoon-network.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-name="Disney Channel" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Disney Channel
+https://tvnow.hostless.app/disney-channel.m3u8
+#EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-name="Disney Junior" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Disney Junior
+https://tvnow.hostless.app/disney-junior.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-name="Disney XD" tvg-country="US" tvg-language="English;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Disney XD
+https://tvnow.hostless.app/disney-xd.m3u8
 #EXTINF:-1 tvg-id="FilmRiseAnime.us@SD" tvg-name="FilmRise Anime (US)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3wqeGXM.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",FilmRise Anime (US)
 https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="GiggleMug.us@SD" tvg-name="Giggle Mug" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NbNHJXo.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Giggle Mug
@@ -201,6 +215,8 @@ https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/in
 https://d21vn5eki5qsdi.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-name="Nick Jr. Latin America" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Nick Jr. Latin America
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-name="Nicktoons" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoPNG_1751457678592.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Nicktoons
+https://tvnow.hostless.app/nicktoons.m3u8
 #EXTINF:-1 tvg-id="Placid.us@EastHD" tvg-name="Placid" tvg-country="US" tvg-language="English" tvg-logo="https://static.wikitide.net/indietvwiki/0/03/Placid_(2026).svg" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Placid
 https://toy.vcdn.fyi/placid/index.m3u8
 #EXTINF:-1 tvg-id="pocketwatch.us@SD" tvg-name="pocket.watch" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/T0V90Lz.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",pocket.watch
@@ -213,7 +229,7 @@ https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71
 #EXTINF:-1 tvg-id="SmurfTV.us@SD" tvg-name="Smurf TV" tvg-country="US" tvg-language="English" tvg-logo="https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Smurf TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4065
-#EXTINF:-1 tvg-id="SonicTV.us@SD" tvg-name="Sonic TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/TKhRlrR.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Sonic TV
+#EXTINF:-1 tvg-id="SonicTV.us@SD" tvg-name="Sonic TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/TKhRlrR.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Sonic TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
 #EXTINF:-1 tvg-id="TGJunior.us@SD" tvg-name="TG Junior" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/aqane40.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TG Junior
 https://d3i6upqaqzosi1.cloudfront.net/tg/jr_us/tg_jr_us.m3u8
@@ -225,7 +241,7 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=771
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
 #EXTINF:-1 tvg-id="TVSPinballNetwork.us@SD" tvg-name="TVS Pinball Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/HHmc14i.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Pinball Network
 https://rpn.bozztv.com/gusa/gusa-TVSCartoonNetwork/index.m3u8
-#EXTINF:-1 tvg-id="WatchitKID.us@SD" tvg-name="Watch it KID!" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/YNx0j1b.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Watch it KID!
+#EXTINF:-1 tvg-id="WatchitKID.us@SD" tvg-name="Watch it KID!" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/YNx0j1b.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",Watch it KID!
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2245
 #EXTINF:-1 tvg-id="YuGiOh.us@SD" tvg-name="Yu-Gi-Oh!" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Tl6aW2u.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Yu-Gi-Oh!
 https://dwgcgcahlni2h.cloudfront.net/playlist.m3u8

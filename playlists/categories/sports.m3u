@@ -25,8 +25,6 @@ https://tjktv-live.tjk.org/tjktv.m3u8
 https://tv-trtspor1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="RallyTV.us@SD" tvg-name="Rally TV" tvg-country="US" tvg-language="English" group-title="United States",Rally TV
 https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
-#EXTINF:-1 tvg-id="FastSports.am@SD" tvg-name="Fast Sports" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/VmaYUcq.png" group-title="Armenia" x-tier="community" x-status="verified" x-quality="1080p",Fast Sports
-http://s7.merlive.am/Fastsports/index.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-name="Canal Showsport" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Argentina" x-tier="community" x-status="verified" x-quality="720p",Canal Showsport
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-name="TyC Sports" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Argentina" x-tier="community" x-status="verified" x-quality="1080p",TyC Sports
@@ -85,18 +83,22 @@ https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 1
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Italy" tvg-name="Eurosport 1 (Italy)" tvg-country="FR" tvg-language="Italian" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Eurosport 1 (Italy)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Russia" tvg-name="Eurosport 1 (Russia)" tvg-country="FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 1 (Russia)
 https://s7.iptv-24.net/1439/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@France" tvg-name="Eurosport 2" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 2
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Italy" tvg-name="Eurosport 2 (Italy)" tvg-country="FR" tvg-language="Italian" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="France" x-tier="community" x-status="verified" x-quality="sd",Eurosport 2 (Italy)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 (Russia)" tvg-country="FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Eurosport 2 (Russia)
 https://s7.iptv-24.net/1452/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@UK" tvg-name="Eurosport 2 (UK)" tvg-country="FR" tvg-language="English" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="France" x-tier="community" x-status="verified" x-quality="sd",Eurosport 2 (UK)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-name="Kozoom TV" tvg-country="FR" tvg-language="French;English" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Kozoom TV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr@HD" tvg-name="Persiana Fight" tvg-country="FR" tvg-language="Persian" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DeportesTVC.hn@SD" tvg-name="Deportes TVC" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Y1t8xkL.png" group-title="Honduras" x-tier="community" x-status="verified" x-quality="720p",Deportes TVC
-https://streaming.onnethn.com/DEPORTES_TVC/playlist.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@HD" tvg-name="DD Sports" tvg-country="IN" tvg-language="Hindi;English;Tamil;Kannada;Bengali;Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD Sports
 https://cdn.pishow.tv/ott/live/1161/master.m3u8
 #EXTINF:-1 tvg-id="Eurosport.in@HD" tvg-name="Eurosport" tvg-country="IN" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Eurosport
@@ -277,7 +279,7 @@ https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 #EXTINF:-1 tvg-id="TVSTurbo.us@SD" tvg-name="TVS Turbo" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7zYIbU1.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Turbo
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-name="TVS Women Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Women Sports
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-name="TVS Women Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Women Sports
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-name="Unbeaten" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Unbeaten
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
