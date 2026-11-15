@@ -15,7 +15,6 @@ import 'package:nexonic_iptv/sources.dart';
 import 'package:nexonic_iptv/ui/guide_page.dart';
 import 'package:nexonic_iptv/ui/live_page.dart';
 import 'package:nexonic_iptv/ui/shell.dart';
-import 'package:nexonic_iptv/ui/sources_page.dart';
 import 'package:nexonic_iptv/ui/theme.dart';
 import 'package:nexonic_iptv/ui/welcome.dart';
 import 'package:nexonic_iptv/ui/widgets.dart';
@@ -117,20 +116,19 @@ Future<Catalog> _catalog() async {
   return c;
 }
 
-/// Rendering problems found while taking the screenshots (for example a row that overflows). They are drawn into
-/// screenshots/00-issues.png instead of stopping the run, so every screen still gets its picture.
-final issues = <String>[];
-
-Future<void> _shot(WidgetTester tester, String name, Size size, Widget child) async {
+Future<void> _shot(WidgetTester tester, String name, Size size, Widget child, {Future<void> Function()? then}) async {
   tester.view.physicalSize = size;
   tester.view.devicePixelRatio = 1;
-  await tester.pumpWidget(MaterialApp(debugShowCheckedModeBanner: false, theme: buildTheme(), home: child));
+  // A fresh app for every picture, so a page never keeps the state of the previous one.
+  await tester.pumpWidget(const SizedBox());
+  await tester.pumpWidget(MaterialApp(key: ValueKey(name), debugShowCheckedModeBanner: false, theme: buildTheme(), home: child));
   for (var i = 0; i < 6; i++) {
     await tester.pump(const Duration(milliseconds: 200));
-    final e = tester.takeException();
-    if (e != null) {
-      final text = '$e'.replaceAll(RegExp(r'\s+'), ' ');
-      issues.add('$name: ${text.length > 700 ? text.substring(0, 700) : text}');
+  }
+  if (then != null) {
+    await then();
+    for (var i = 0; i < 6; i++) {
+      await tester.pump(const Duration(milliseconds: 200));
     }
   }
   await expectLater(find.byType(MaterialApp), matchesGoldenFile('screenshots/$name.png'));
@@ -154,28 +152,13 @@ void main() {
     await _shot(tester, '03-guide', desktop, Scaffold(body: Backdrop(child: GuidePage(catalog: catalog, nav: (_, {group}) {}))));
     await _shot(tester, '04-films', desktop, AppShell(catalog: catalog, initialPage: Nav.movies));
     await _shot(tester, '05-playlists', desktop, AppShell(catalog: catalog, initialPage: Nav.sources));
-    await _shot(tester, '06-add-playlist', desktop, Scaffold(body: Backdrop(child: Center(child: SourceEditor(catalog: catalog)))));
+    await _shot(tester, '06-add-playlist', desktop, AppShell(catalog: catalog, initialPage: Nav.sources), then: () async {
+      await tester.tap(find.text('Add playlist').first);
+    });
     await _shot(tester, '07-settings', desktop, AppShell(catalog: catalog, initialPage: Nav.settings));
     await _shot(tester, '08-welcome', desktop, WelcomePage(catalog: catalog, onDone: () {}));
     await _shot(tester, '09-phone-home', phone, AppShell(catalog: catalog, initialPage: Nav.home));
     await _shot(tester, '10-phone-live', phone, AppShell(catalog: catalog, initialPage: Nav.live));
-    if (issues.isNotEmpty) {
-      await _shot(
-        tester,
-        '00-issues',
-        const Size(1440, 1800),
-        Scaffold(
-          body: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text('${issues.length} rendering issue(s)', style: const TextStyle(fontSize: 22, color: Colors.white)),
-              for (final i in issues.take(12))
-                Padding(padding: const EdgeInsets.only(top: 10), child: Text(i, style: const TextStyle(fontSize: 13, color: Colors.white))),
-            ]),
-          ),
-        ),
-      );
-    }
     addTearDown(tester.view.reset);
   }, skip: !enabled);
 }
