@@ -4,7 +4,6 @@ import '../catalog.dart';
 import '../m3u.dart';
 import 'details.dart';
 import 'player.dart';
-import 'theme.dart';
 import 'widgets.dart';
 
 /// Films, series, radio and open media: category chips, search, sorting and a poster (or station) grid.
