@@ -788,7 +788,7 @@ class PreviewPlayerState extends State<PreviewPlayer> {
       ..add(player.stream.error.listen((_) {
         if (mounted) setState(() => failed = true);
       }));
-    _open();
+    player.open(mediaFor(widget.channel));
   }
 
   @override
