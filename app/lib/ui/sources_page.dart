@@ -130,7 +130,9 @@ class _SourceCard extends StatelessWidget {
             else if (s.error != null && s.enabled)
               Pill(s.error!, icon: Icons.error_outline_rounded, foreground: live)
             else
-              Pill('Updated ${ago(s.lastSync)}', icon: Icons.check_circle_outline_rounded, foreground: success),
+              s.lastSync == null
+                  ? const Pill('Not loaded yet', icon: Icons.schedule_rounded)
+                  : Pill('Updated ${ago(s.lastSync)}', icon: Icons.check_circle_outline_rounded, foreground: success),
             for (final c in counts) Pill(c),
             if (days != null) Pill(days < 0 ? 'Expired' : 'Expires in $days days', icon: Icons.event_outlined, foreground: days < 7 ? warning : textSecondary),
           ]),

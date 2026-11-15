@@ -76,6 +76,21 @@ channels appear without an app update, and it also plays your own IPTV playlists
 | [NexonicIPTV-macOS.dmg](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-macOS.dmg) | macOS on Apple Silicon and Intel |
 | [NexonicIPTV-Android.apk](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Android.apk) | Android phones, tablets and TV boxes |
 
+<p align="center"><img src="docs/app/01-home.png" alt="Nexonic IPTV desktop app: home with a featured channel, continue watching and favourites" width="860"></p>
+
+| Desktop: Live TV with preview | Desktop: TV guide |
+|---|---|
+| <img src="docs/app/02-live.png" alt="Live TV with categories, channel list and live preview" width="420"> | <img src="docs/app/03-guide.png" alt="TV guide grid with a now line" width="420"> |
+| **Desktop: films** | **Desktop: your own playlists** |
+| <img src="docs/app/04-films.png" alt="Films as a poster grid" width="420"> | <img src="docs/app/05-playlists.png" alt="Playlists page with an Xtream Codes login and an M3U link" width="420"> |
+
+<p align="center">
+  <img src="docs/app/09-phone-home.png" alt="Android app: home" width="250">
+  &nbsp;
+  <img src="docs/app/10-phone-live.png" alt="Android app: Live TV with categories" width="250">
+</p>
+<p align="center"><sub>Android app (phone layout) and desktop app. The screenshots show invented sample channels.</sub></p>
+
 - Live TV with categories, channel numbers, what is on now and a live preview; a TV guide grid; films and series with
   posters, details and resume; radio and open media; one search across everything; favourites and recently watched.
 - Bring your own playlist: sign in with an Xtream Codes login (server, username, password), or add an M3U link or an

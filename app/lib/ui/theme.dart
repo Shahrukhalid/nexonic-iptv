@@ -120,7 +120,6 @@ ThemeData buildTheme() {
         backgroundColor: accent,
         foregroundColor: const Color(0xFF00141A),
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
-        textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 14),
         shape: rounded,
       ),
     ),

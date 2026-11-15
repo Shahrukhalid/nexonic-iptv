@@ -591,7 +591,7 @@ class ChipBar extends StatelessWidget {
             return ChoiceChip(
               label: Text(label),
               selected: on,
-              labelStyle: TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: on ? accent : textPrimary),
+              labelStyle: Theme.of(context).textTheme.labelLarge?.copyWith(fontSize: 13, color: on ? accent : textPrimary),
               side: BorderSide(color: on ? accent.withValues(alpha: 0.5) : stroke),
               onSelected: (_) => onSelected(value),
             );

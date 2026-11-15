@@ -119,7 +119,9 @@ Future<Catalog> _catalog() async {
 Future<void> _shot(WidgetTester tester, String name, Size size, Widget child, {Future<void> Function()? then}) async {
   tester.view.physicalSize = size;
   tester.view.devicePixelRatio = 1;
-  await tester.pumpWidget(MaterialApp(debugShowCheckedModeBanner: false, theme: buildTheme(), home: child));
+  // A fresh app for every picture, so a page never keeps the state of the previous one.
+  await tester.pumpWidget(const SizedBox());
+  await tester.pumpWidget(MaterialApp(key: ValueKey(name), debugShowCheckedModeBanner: false, theme: buildTheme(), home: child));
   for (var i = 0; i < 6; i++) {
     await tester.pump(const Duration(milliseconds: 200));
   }

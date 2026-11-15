@@ -152,15 +152,19 @@ class _Group extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 22),
         child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
           Padding(padding: const EdgeInsets.fromLTRB(4, 0, 4, 10), child: Text(title.toUpperCase(), style: Theme.of(context).textTheme.labelSmall?.copyWith(color: textMuted))),
-          Container(
-            decoration: BoxDecoration(color: surface, borderRadius: BorderRadius.circular(radiusL), border: Border.all(color: stroke)),
-            padding: const EdgeInsets.symmetric(vertical: 6),
-            child: Column(children: [
+          Material(
+            color: surface,
+            clipBehavior: Clip.antiAlias,
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(radiusL), side: const BorderSide(color: stroke)),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 6),
+              child: Column(children: [
               for (var i = 0; i < children.length; i++) ...[
                 if (i > 0) const Divider(indent: 16, endIndent: 16),
                 children[i],
               ],
             ]),
+            ),
           ),
         ]),
       );
