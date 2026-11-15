@@ -671,12 +671,23 @@ class Catalog extends ChangeNotifier {
     }
   }
 
-  Future<void> _writeJson(File f, Object value) async {
-    try {
-      await f.parent.create(recursive: true);
-      await f.writeAsString(jsonEncode(value));
-    } catch (_) {}
+  final Map<String, Future<void>> _writes = {};
+
+  /// Writes one file at a time, in order, so quick changes (a favourite, then the history) never overwrite each other.
+  Future<void> _writeJson(File f, Object value) {
+    final text = jsonEncode(value);
+    final next = (_writes[f.path] ?? Future<void>.value()).then((_) async {
+      try {
+        await f.parent.create(recursive: true);
+        await f.writeAsString(text);
+      } catch (_) {}
+    });
+    _writes[f.path] = next;
+    return next;
   }
+
+  /// Waits until every pending save is on disk.
+  Future<void> flush() => Future.wait([..._writes.values]);
 }
 
 // Heavy parsing runs in background isolates. These top-level helpers keep the closures free of `this`.

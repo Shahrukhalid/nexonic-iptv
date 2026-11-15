@@ -111,6 +111,7 @@ void main() {
     expect(catalog.lastChange, contains('2 new, 1 removed'));
     expect(catalog.isRemoved(catalog.recents.first), isTrue); // the French channel left the catalogue
 
+    await catalog.flush();
     final again = Catalog(dir, fetcher: serve({}));
     await again.start(background: false);
     expect(again.items('live').length, 3);
