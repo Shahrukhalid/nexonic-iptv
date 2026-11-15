@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:nexonic_iptv/catalog.dart';
 import 'package:nexonic_iptv/epg.dart';
 import 'package:nexonic_iptv/m3u.dart';
+import 'package:nexonic_iptv/net.dart';
 import 'package:nexonic_iptv/sources.dart';
 import 'package:nexonic_iptv/xtream.dart';
 
