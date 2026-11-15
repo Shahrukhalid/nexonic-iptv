@@ -124,7 +124,6 @@ class Catalog extends ChangeNotifier {
 
   Timer? _timer;
   Map<String, dynamic> _meta = {};
-  int _version = 0;
   final Map<String, List<Channel>> _view = {};
   Guide? _guide;
   bool _disposed = false;
@@ -171,7 +170,6 @@ class Catalog extends ChangeNotifier {
   }
 
   void _changed() {
-    _version++;
     _view.clear();
     _guide = null;
     notifyListeners();
