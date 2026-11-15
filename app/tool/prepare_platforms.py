@@ -55,7 +55,9 @@ def android() -> None:
         if launcher not in text:
             sys.exit(f"{m}: expected {launcher!r}")
         text = text.replace(
-            launcher, launcher + '\n                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>', 1
+            launcher,
+            launcher + '\n                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>',
+            1,
         )
     m.write_text(text, encoding="utf-8")
 
