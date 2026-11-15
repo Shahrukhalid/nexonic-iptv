@@ -127,6 +127,7 @@ class Catalog extends ChangeNotifier {
   final Map<String, List<Channel>> _view = {};
   Guide? _guide;
   bool _disposed = false;
+  String? _netError;
 
   File get _settingsFile => File('${dir.path}/settings.json');
   File get _sourcesFile => File('${dir.path}/sources.json');
@@ -292,7 +293,9 @@ class Catalog extends ChangeNotifier {
       final kind = sec.kind;
       out.addAll(await parseInBackground(text, kind: kind, source: 'nexonic'));
     }
-    if (!any) throw FetchError('Could not download the Nexonic catalogue. Check the internet connection.');
+    if (!any) {
+      throw FetchError('Could not download the Nexonic catalogue. Check the internet connection.${_netError == null ? '' : ' ($_netError)'}');
+    }
     // Categories (news, kids, …) come from the category playlists listed in index.json.
     final tags = <String, List<String>>{};
     final index = await _nexonicFile('index.json');
@@ -355,7 +358,8 @@ class Catalog extends ChangeNotifier {
           _meta['etags'] = etags;
         }
         return text;
-      } catch (_) {
+      } catch (e) {
+        _netError = '$e';
         continue;
       }
     }
