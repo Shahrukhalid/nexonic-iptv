@@ -37,19 +37,28 @@ class _SelfTestAppState extends State<SelfTestApp> {
 
   Future<void> _run() async {
     final result = <String, dynamic>{'ok': false};
+    // Never hang CI: whatever was measured is reported after 8 minutes.
+    final watchdog = Timer(const Duration(minutes: 8), () => _finish({...result, 'error': 'watchdog: took longer than 8 minutes'}));
     try {
       final dir = await Directory.systemTemp.createTemp('nexonic-selftest');
-      final catalog = Catalog(dir);
-      await dir.create(recursive: true);
-      await catalog.refresh(sections: [Section.live]);
-      final live = catalog.lists[Section.live] ?? const <Channel>[];
+      final catalog = Catalog(dir, nexonicSections: {Section.live});
+      await catalog.start(background: false);
+      // The emulator's network can take a moment after boot: try a few times.
+      String? err;
+      for (var attempt = 0; attempt < 4; attempt++) {
+        err = await catalog.refreshSource('nexonic');
+        if (err == null) break;
+        await Future<void>.delayed(const Duration(seconds: 15));
+      }
+      if (err != null) throw StateError(err);
+      final live = catalog.items('live');
       result['channels'] = live.length;
-      result['categories'] = catalog.entries('category').length;
-      result['cached'] = await File('${dir.path}/cache/all.m3u').exists();
-      // Offline start: a fresh catalogue on the same folder must load the cached copy without the network.
-      final offline = Catalog(dir, fetcher: (_) async => null);
-      await offline.refresh(sections: [Section.live]);
-      result['offline_channels'] = (offline.lists[Section.live] ?? const []).length;
+      result['categories'] = groupCounts(live).length;
+      result['cached'] = await File('${dir.path}/sources/nexonic/channels.json').exists();
+      // Offline start: a fresh catalogue on the same folder must load the saved copy without the network.
+      final offline = Catalog(dir, fetcher: (_) async => null, nexonicSections: {Section.live});
+      await offline.start(background: false);
+      result['offline_channels'] = offline.items('live').length;
       if (live.length < 100) throw StateError('catalogue too small: ${live.length}');
       // Verified channels first: they passed a check in the last 48 hours.
       final verifiedText = await _download('$siteBase/verified.m3u') ?? await _download('$mirrorBase/verified.m3u');
@@ -72,6 +81,15 @@ class _SelfTestAppState extends State<SelfTestApp> {
     } catch (e) {
       result['error'] = '$e';
     }
+    watchdog.cancel();
+    await _finish(result);
+  }
+
+  bool _done = false;
+
+  Future<void> _finish(Map<String, dynamic> result) async {
+    if (_done) return;
+    _done = true;
     final text = jsonEncode(result);
     if (widget.output != 'log') {
       try {
@@ -87,13 +105,19 @@ class _SelfTestAppState extends State<SelfTestApp> {
       stdout.writeln('NEXONIC_SELF_TEST $text');
       await stdout.flush().timeout(const Duration(seconds: 5), onTimeout: () {});
     }
-    await player.dispose();
+    try {
+      await player.dispose().timeout(const Duration(seconds: 10));
+    } catch (_) {}
     exit(result['ok'] == true ? 0 : 1);
   }
 
   /// True when the stream decodes pictures (or sound for audio-only streams) and its position advances.
   Future<bool> _plays(String url) async {
-    await player.open(Media(url));
+    try {
+      await player.open(Media(url)).timeout(const Duration(seconds: 20));
+    } catch (_) {
+      return false;
+    }
     final end = DateTime.now().add(const Duration(seconds: 30));
     while (DateTime.now().isBefore(end)) {
       await Future<void>.delayed(const Duration(milliseconds: 500));

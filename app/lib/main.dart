@@ -6,8 +6,9 @@ import 'package:path_provider/path_provider.dart';
 
 import 'catalog.dart';
 import 'selftest.dart';
-import 'ui/home.dart';
+import 'ui/shell.dart';
 import 'ui/theme.dart';
+import 'ui/welcome.dart';
 
 /// Builds with `--dart-define=NEXONIC_SELF_TEST=log` (Android CI) or runs with the environment variable
 /// NEXONIC_SELF_TEST=<result file> (desktop CI) start the self-test instead of the app.
@@ -36,6 +37,51 @@ class NexonicApp extends StatelessWidget {
         title: 'Nexonic IPTV',
         debugShowCheckedModeBanner: false,
         theme: buildTheme(),
-        home: HomeScreen(catalog: catalog),
+        darkTheme: buildTheme(),
+        themeMode: ThemeMode.dark,
+        home: Root(catalog: catalog),
       );
+}
+
+/// Splash while the saved catalogue loads, the welcome screen on first start, then the app.
+class Root extends StatefulWidget {
+  const Root({super.key, required this.catalog});
+  final Catalog catalog;
+
+  @override
+  State<Root> createState() => _RootState();
+}
+
+class _RootState extends State<Root> {
+  bool welcomed = false;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.catalog.addListener(_update);
+  }
+
+  @override
+  void dispose() {
+    widget.catalog.removeListener(_update);
+    super.dispose();
+  }
+
+  void _update() {
+    if (mounted) setState(() {});
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final c = widget.catalog;
+    final Widget child;
+    if (!c.loaded) {
+      child = const Scaffold(key: ValueKey('splash'), body: Backdrop(child: Center(child: NexonicLogo(size: 72))));
+    } else if (!c.settings.welcomed && !welcomed) {
+      child = WelcomePage(key: const ValueKey('welcome'), catalog: c, onDone: () => setState(() => welcomed = true));
+    } else {
+      child = AppShell(key: const ValueKey('app'), catalog: c);
+    }
+    return AnimatedSwitcher(duration: const Duration(milliseconds: 300), child: child);
+  }
 }

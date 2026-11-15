@@ -3,8 +3,10 @@
 
     python tool/prepare_platforms.py android|macos|windows
 
-Android: app name, internet permission, plain-http streams allowed (many broadcasters still use http).
-macOS:   app name and the outgoing-network entitlement the sandbox needs to load playlists and streams.
+Android: app name, internet permission, plain-http streams allowed (many broadcasters still use http), and the
+         Android TV launcher entry (touch screen optional).
+macOS:   app name, the outgoing-network entitlement the sandbox needs to load playlists and streams, and read access
+         to playlist files the user picks.
 Windows: executable name, window title and file details.
 Fails loudly when an expected line is missing, so a template change in Flutter cannot ship an unbranded app.
 """
@@ -41,6 +43,22 @@ def android() -> None:
     text = re.sub(r'android:label="[^"]*"', f'android:label="{NAME}"', text, count=1)
     if "usesCleartextTraffic" not in text:
         text = text.replace("<application", '<application\n        android:usesCleartextTraffic="true"', 1)
+    if "android.software.leanback" not in text:
+        text = text.replace(
+            "<application",
+            '<uses-feature android:name="android.software.leanback" android:required="false"/>\n'
+            '    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>\n    <application',
+            1,
+        )
+    if "LEANBACK_LAUNCHER" not in text:
+        launcher = '<category android:name="android.intent.category.LAUNCHER"/>'
+        if launcher not in text:
+            sys.exit(f"{m}: expected {launcher!r}")
+        text = text.replace(
+            launcher,
+            launcher + '\n                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>',
+            1,
+        )
     m.write_text(text, encoding="utf-8")
 
 
@@ -50,6 +68,7 @@ def macos() -> None:
         p = APP / "macos/Runner" / name
         data = plistlib.loads(p.read_bytes())
         data["com.apple.security.network.client"] = True
+        data["com.apple.security.files.user-selected.read-only"] = True
         p.write_bytes(plistlib.dumps(data))
 
 
