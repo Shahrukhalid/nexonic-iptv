@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-15T10:59:09Z",
+  "reference_time": "2026-11-15T17:49:10Z",
   "records": {
     "approved": 756,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 543,
-  "excluded_approved": 213,
+  "published_channels": 547,
+  "excluded_approved": 209,
   "countries": 95,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 464,
+  "verified_playlist_channels": 472,
   "playlist_files": 532,
   "latest_run": {
-    "run_id": "run-20261115T105314Z",
-    "started_at": "2026-11-15T10:53:14Z",
-    "finished_at": "2026-11-15T10:59:09Z",
+    "run_id": "run-20261115T174312Z",
+    "started_at": "2026-11-15T17:43:12Z",
+    "finished_at": "2026-11-15T17:49:10Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 164,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 156,
       "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 424
+      "VERIFIED_WORKING": 436
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 424,
-    "UNAVAILABLE": 164,
-    "GEO_RESTRICTED": 61,
+    "VERIFIED_WORKING": 436,
+    "UNAVAILABLE": 156,
+    "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
+    "TIMEOUT": 28,
     "INVALID_STREAM": 10,
     "UNSUPPORTED": 1,
     "UNKNOWN": 64,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 9,
-    "geo-restricted": 42,
-    "previously-working": 63,
+    "currently-failing": 15,
+    "geo-restricted": 41,
+    "previously-working": 50,
     "unknown": 5,
-    "verified-recently": 424
+    "verified-recently": 436
   },
   "per_country": {
     "ae": {
@@ -207,7 +207,7 @@
     "fr": {
       "name": "France",
       "flag": "🇫🇷",
-      "channels": 32
+      "channels": 36
     },
     "ge": {
       "name": "Georgia",
@@ -532,7 +532,7 @@
     },
     "ar": {
       "name": "Arabic",
-      "channels": 20
+      "channels": 21
     },
     "as": {
       "name": "Assamese",
@@ -576,11 +576,11 @@
     },
     "en": {
       "name": "English",
-      "channels": 140
+      "channels": 141
     },
     "es": {
       "name": "Spanish",
-      "channels": 64
+      "channels": 65
     },
     "et": {
       "name": "Estonian",
@@ -600,7 +600,7 @@
     },
     "fr": {
       "name": "French",
-      "channels": 29
+      "channels": 30
     },
     "hi": {
       "name": "Hindi",
@@ -830,7 +830,7 @@
     },
     "news": {
       "name": "News",
-      "channels": 97
+      "channels": 101
     },
     "series": {
       "name": "Series",
@@ -848,14 +848,14 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 543,
-      "verified": 464,
-      "not_verified": 79,
-      "with_measured_quality": 475,
+      "published": 547,
+      "verified": 472,
+      "not_verified": 75,
+      "with_measured_quality": 479,
       "per_quality": {
-        "1080p": 243,
+        "1080p": 248,
         "4k": 1,
-        "720p": 168,
+        "720p": 167,
         "sd": 63
       }
     },

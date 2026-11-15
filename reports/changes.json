@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-15T10:59:09Z",
-  "baseline_reference_time": "2026-11-15T08:33:35Z",
+  "reference_time": "2026-11-15T17:49:10Z",
+  "baseline_reference_time": "2026-11-15T10:59:09Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 543,
-    "verified_playlist": 464,
-    "excluded": 213,
+    "published": 547,
+    "verified_playlist": 472,
+    "excluded": 209,
     "pending_authorization": 43,
-    "quarantined": 174,
+    "quarantined": 167,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 2,
-    "newly_quarantined": 2,
-    "restored": 1,
+    "newly_failing": 1,
+    "newly_quarantined": 0,
+    "restored": 7,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 91,
-    "restricted": 42,
+    "intermittent": 99,
+    "restricted": 41,
     "unknown": 26,
-    "unreachable": 9,
+    "unreachable": 6,
     "working": 375
   },
   "latest_run": {
-    "run_id": "run-20261115T105314Z",
-    "started_at": "2026-11-15T10:53:14Z",
-    "finished_at": "2026-11-15T10:59:09Z",
+    "run_id": "run-20261115T174312Z",
+    "started_at": "2026-11-15T17:43:12Z",
+    "finished_at": "2026-11-15T17:49:10Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 61,
+      "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 164,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 156,
       "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 424
+      "VERIFIED_WORKING": 436
     }
   },
   "discovery": {
@@ -70,9 +70,7 @@
     "playlist_files": 532,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "2 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
     "new_published": [],
@@ -80,40 +78,56 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "ndr-mecklenburg-vorpommern",
-        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ndr-niedersachsen",
-        "name": "NDR Fernsehen Niedersachsen",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
-    "newly_quarantined": [
-      {
-        "id": "ndr-mecklenburg-vorpommern",
-        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
-        "country": "de",
-        "since": "2026-11-15T10:56:58Z"
-      },
-      {
-        "id": "ndr-niedersachsen",
-        "name": "NDR Fernsehen Niedersachsen",
-        "country": "de",
-        "since": "2026-11-15T10:57:21Z"
-      }
-    ],
+    "newly_quarantined": [],
     "restored": [
       {
-        "id": "trt-1",
-        "name": "TRT 1",
-        "country": "tr",
-        "restored_at": "2026-11-15T10:56:49Z"
+        "id": "das-erste",
+        "name": "Das Erste",
+        "country": "de",
+        "restored_at": "2026-11-15T17:46:30Z"
+      },
+      {
+        "id": "france-24-arabic",
+        "name": "France 24 Arabic",
+        "country": "fr",
+        "restored_at": "2026-11-15T17:47:37Z"
+      },
+      {
+        "id": "france-24-english",
+        "name": "France 24 English",
+        "country": "fr",
+        "restored_at": "2026-11-15T17:46:35Z"
+      },
+      {
+        "id": "france-24-espanol",
+        "name": "France 24 Español",
+        "country": "fr",
+        "restored_at": "2026-11-15T17:47:31Z"
+      },
+      {
+        "id": "france-24-french",
+        "name": "France 24 Français",
+        "country": "fr",
+        "restored_at": "2026-11-15T17:47:17Z"
+      },
+      {
+        "id": "ndr-mecklenburg-vorpommern",
+        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
+        "country": "de",
+        "restored_at": "2026-11-15T17:46:57Z"
+      },
+      {
+        "id": "ndr-niedersachsen",
+        "name": "NDR Fernsehen Niedersachsen",
+        "country": "de",
+        "restored_at": "2026-11-15T17:47:21Z"
       }
     ],
     "removed": []
@@ -122,14 +136,14 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 543,
-      "verified": 464,
-      "not_verified": 79,
-      "with_measured_quality": 475,
+      "published": 547,
+      "verified": 472,
+      "not_verified": 75,
+      "with_measured_quality": 479,
       "per_quality": {
-        "1080p": 243,
+        "1080p": 248,
         "4k": 1,
-        "720p": 168,
+        "720p": 167,
         "sd": 63
       }
     },
