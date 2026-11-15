@@ -4,7 +4,7 @@
 
 Paste any URL below into VLC, Kodi or another IPTV player. Counts come from the generated files. Three tiers are published and never mixed; read [docs/TIERS.md](docs/TIERS.md) for what each one promises.
 
-Freshness reference (latest verification run): **2026-11-15T17:49:10Z**
+Freshness reference (latest verification run): **2026-11-15T23:29:34Z**
 
 ## Main
 
@@ -16,7 +16,7 @@ Freshness reference (latest verification run): **2026-11-15T17:49:10Z**
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Nexonic Verified (working in the last 48 h) | 4214 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Nexonic Verified (working in the last 48 h) | 4212 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
 
 ## By country
 

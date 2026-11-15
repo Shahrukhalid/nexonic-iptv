@@ -149,13 +149,13 @@ channel data. Do not edit them by hand.
 | Channels in `all.m3u` | 4289 |
 | Countries | 160 |
 | Languages | 91 |
-| Working at the latest check (`verified.m3u`) | 4214 |
+| Working at the latest check (`verified.m3u`) | 4212 |
 | Waiting for a check (`playlists/community/untested.m3u`) | 420 |
 | Held back after a failed check (retried automatically) | 3151 |
 | Free movies and series (VOD) | 2808 |
 | Open media videos (documentaries, animation, science) | 1144 |
 | Free radio stations | 30000 |
-| Latest check (UTC) | 2026-11-15T17:49:10Z |
+| Latest check (UTC) | 2026-11-15T23:29:34Z |
 
 Every channel is checked automatically; a channel that stops working leaves the playlists until a later check succeeds, and a new one joins after its first successful check.
 
@@ -166,7 +166,7 @@ Every channel is checked automatically; a channel that stops working leaves the 
 | Change | Channels | Which |
 |---|---:|---|
 | New channels added | 0 | - |
-| Working again (back in the playlists) | 7 | 🇩🇪 Das Erste, 🇫🇷 France 24 Arabic, 🇫🇷 France 24 English, 🇫🇷 France 24 Español, 🇫🇷 France 24 Français, 🇩🇪 NDR Fernsehen Mecklenburg-Vorpommern, 🇩🇪 NDR Fernsehen Niedersachsen |
+| Working again (back in the playlists) | 0 | - |
 | Stopped working (taken out until they recover) | 0 | - |
 | Removed for good | 0 | - |
 
@@ -174,7 +174,7 @@ Every channel is checked automatically; a channel that stops working leaves the 
 
 | Date | New | Working again | Stopped working | Official channels working |
 |---|---:|---:|---:|---:|
-| 2026-11-15 | 0 | 7 | 0 | 375 |
+| 2026-11-15 | 0 | 0 | 0 | 371 |
 | 2026-11-14 | 0 | 1 | 0 | 382 |
 | 2026-11-06 | 0 | 0 | 9 | 372 |
 | 2026-11-05 | 0 | 3 | 0 | 377 |

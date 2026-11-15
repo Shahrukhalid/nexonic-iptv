@@ -1,11 +1,11 @@
 {
-  "reference_time": "2026-11-15T17:49:10Z",
-  "baseline_reference_time": "2026-11-15T10:59:09Z",
+  "reference_time": "2026-11-15T23:29:34Z",
+  "baseline_reference_time": "2026-11-15T17:49:10Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 547,
-    "verified_playlist": 472,
+    "verified_playlist": 470,
     "excluded": 209,
     "pending_authorization": 43,
     "quarantined": 167,
@@ -14,31 +14,31 @@
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
+    "newly_failing": 0,
     "newly_quarantined": 0,
-    "restored": 7,
+    "restored": 0,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 99,
-    "restricted": 41,
+    "intermittent": 102,
+    "restricted": 42,
     "unknown": 26,
     "unreachable": 6,
-    "working": 375
+    "working": 371
   },
   "latest_run": {
-    "run_id": "run-20261115T174312Z",
-    "started_at": "2026-11-15T17:43:12Z",
-    "finished_at": "2026-11-15T17:49:10Z",
+    "run_id": "run-20261115T232329Z",
+    "started_at": "2026-11-15T23:23:29Z",
+    "finished_at": "2026-11-15T23:29:34Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 10,
-      "TIMEOUT": 28,
-      "UNAVAILABLE": 156,
-      "UNKNOWN": 64,
+      "TIMEOUT": 30,
+      "UNAVAILABLE": 152,
+      "UNKNOWN": 65,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 436
     }
@@ -76,60 +76,9 @@
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [
-      {
-        "id": "one-ard",
-        "name": "ONE",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      }
-    ],
+    "newly_failing": [],
     "newly_quarantined": [],
-    "restored": [
-      {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
-        "restored_at": "2026-11-15T17:46:30Z"
-      },
-      {
-        "id": "france-24-arabic",
-        "name": "France 24 Arabic",
-        "country": "fr",
-        "restored_at": "2026-11-15T17:47:37Z"
-      },
-      {
-        "id": "france-24-english",
-        "name": "France 24 English",
-        "country": "fr",
-        "restored_at": "2026-11-15T17:46:35Z"
-      },
-      {
-        "id": "france-24-espanol",
-        "name": "France 24 Español",
-        "country": "fr",
-        "restored_at": "2026-11-15T17:47:31Z"
-      },
-      {
-        "id": "france-24-french",
-        "name": "France 24 Français",
-        "country": "fr",
-        "restored_at": "2026-11-15T17:47:17Z"
-      },
-      {
-        "id": "ndr-mecklenburg-vorpommern",
-        "name": "NDR Fernsehen Mecklenburg-Vorpommern",
-        "country": "de",
-        "restored_at": "2026-11-15T17:46:57Z"
-      },
-      {
-        "id": "ndr-niedersachsen",
-        "name": "NDR Fernsehen Niedersachsen",
-        "country": "de",
-        "restored_at": "2026-11-15T17:47:21Z"
-      }
-    ],
+    "restored": [],
     "removed": []
   },
   "truncated": {},
@@ -137,8 +86,8 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 547,
-      "verified": 472,
-      "not_verified": 75,
+      "verified": 470,
+      "not_verified": 77,
       "with_measured_quality": 479,
       "per_quality": {
         "1080p": 248,
