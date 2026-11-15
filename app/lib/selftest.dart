@@ -43,7 +43,13 @@ class _SelfTestAppState extends State<SelfTestApp> {
       final dir = await Directory.systemTemp.createTemp('nexonic-selftest');
       final catalog = Catalog(dir, nexonicSections: {Section.live});
       await catalog.start(background: false);
-      final err = await catalog.refreshSource('nexonic');
+      // The emulator's network can take a moment after boot: try a few times.
+      String? err;
+      for (var attempt = 0; attempt < 4; attempt++) {
+        err = await catalog.refreshSource('nexonic');
+        if (err == null) break;
+        await Future<void>.delayed(const Duration(seconds: 15));
+      }
       if (err != null) throw StateError(err);
       final live = catalog.items('live');
       result['channels'] = live.length;
