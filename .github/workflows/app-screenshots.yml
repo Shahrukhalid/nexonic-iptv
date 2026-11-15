@@ -1,0 +1,34 @@
+name: App screenshots
+# Renders the main screens of the app with invented sample data (app/test/screenshots_test.dart) and pushes them to
+# the app-screenshots branch as docs/app/*.png, for the README. Run by hand after a design change.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Flutter
+        run: |
+          git clone --depth 1 -b stable https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+      - name: Render
+        working-directory: app
+        run: |
+          flutter pub get
+          flutter test --update-goldens --dart-define=SCREENSHOTS=true test/screenshots_test.dart
+      - name: Push to the app-screenshots branch
+        run: |
+          mkdir -p docs/app
+          cp app/test/screenshots/*.png docs/app/
+          git config user.name "Shahrukh Khalid"
+          git config user.email "90670731+Shahrukhalid@users.noreply.github.com"
+          git checkout -b app-screenshots
+          git add docs/app
+          git commit -m "Docs: app screenshots"
+          git push -f origin app-screenshots
