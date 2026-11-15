@@ -67,8 +67,8 @@ playlist is listed in [PLAYLISTS.md](PLAYLISTS.md) and on the
 
 ## Apps for Windows, macOS and Android
 
-Prefer an app over a playlist URL? Nexonic IPTV has its own player. It loads the channel catalogue directly, so new
-channels appear without an app update.
+Prefer an app over a playlist URL? Nexonic IPTV has its own player. It loads the free Nexonic channels directly, so new
+channels appear without an app update, and it also plays your own IPTV playlists.
 
 | Download | For |
 |---|---|
@@ -76,11 +76,14 @@ channels appear without an app update.
 | [NexonicIPTV-macOS.dmg](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-macOS.dmg) | macOS on Apple Silicon and Intel |
 | [NexonicIPTV-Android.apk](https://github.com/Shahrukhalid/nexonic-iptv/releases/latest/download/NexonicIPTV-Android.apk) | Android phones, tablets and TV boxes |
 
-- Live TV, free films and series, radio and open media, with search, favourites, recently watched and country,
-  language and category filters.
+- Live TV with categories, channel numbers, what is on now and a live preview; a TV guide grid; films and series with
+  posters, details and resume; radio and open media; one search across everything; favourites and recently watched.
+- Bring your own playlist: sign in with an Xtream Codes login (server, username, password), or add an M3U link or an
+  M3U file, each with an optional TV guide (XMLTV) link. Logins stay on your device. Nexonic does not sell or provide
+  playlists; add only ones you are allowed to use.
 - The channel list updates at start and every 3 hours, stays available offline and can be refreshed by hand.
-- Playback reconnects by itself when a stream drops. Keys: Space, F, M, Page Up/Down, Esc. Swipe to change channel
-  on Android.
+- Playback reconnects by itself when a stream drops. Channel list over the video, number keys to change channel,
+  audio and subtitle tracks and picture fit. Keys: Space, F, M, ↑/↓, 0–9, C, A, Esc. Works with Android TV remotes.
 
 The macOS app is not notarised yet: the first time, right-click it and choose Open. On Android, allow installing apps
 from your browser or file manager. Checksums are in `SHA256SUMS.txt` on the
