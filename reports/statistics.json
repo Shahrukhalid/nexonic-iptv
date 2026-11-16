@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-16T08:41:33Z",
+  "reference_time": "2026-11-16T11:23:01Z",
   "records": {
     "approved": 756,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 548,
-  "excluded_approved": 208,
+  "published_channels": 550,
+  "excluded_approved": 206,
   "countries": 95,
   "languages": 64,
   "categories": 15,
   "verified_playlist_channels": 457,
   "playlist_files": 536,
   "latest_run": {
-    "run_id": "run-20261116T083553Z",
-    "started_at": "2026-11-16T08:35:53Z",
-    "finished_at": "2026-11-16T08:41:33Z",
+    "run_id": "run-20261116T111713Z",
+    "started_at": "2026-11-16T11:17:13Z",
+    "finished_at": "2026-11-16T11:23:01Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 145,
-      "UNKNOWN": 67,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 143,
+      "UNKNOWN": 68,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 444
+      "VERIFIED_WORKING": 445
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 444,
-    "UNAVAILABLE": 145,
-    "GEO_RESTRICTED": 59,
+    "VERIFIED_WORKING": 445,
+    "UNAVAILABLE": 143,
+    "GEO_RESTRICTED": 60,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 29,
+    "TIMEOUT": 28,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 67,
+    "UNKNOWN": 68,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "currently-failing": 23,
-    "geo-restricted": 41,
+    "geo-restricted": 42,
     "previously-working": 35,
     "unknown": 5,
-    "verified-recently": 444
+    "verified-recently": 445
   },
   "per_country": {
     "ae": {
@@ -172,7 +172,7 @@
     "de": {
       "name": "Germany",
       "flag": "🇩🇪",
-      "channels": 31
+      "channels": 32
     },
     "dk": {
       "name": "Denmark",
@@ -422,7 +422,7 @@
     "py": {
       "name": "Paraguay",
       "flag": "🇵🇾",
-      "channels": 3
+      "channels": 4
     },
     "qa": {
       "name": "Qatar",
@@ -568,7 +568,7 @@
     },
     "de": {
       "name": "German",
-      "channels": 37
+      "channels": 38
     },
     "el": {
       "name": "Greek",
@@ -580,7 +580,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 65
+      "channels": 66
     },
     "et": {
       "name": "Estonian",
@@ -806,7 +806,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 197
+      "channels": 198
     },
     "kids": {
       "name": "Kids",
@@ -826,7 +826,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 83
+      "channels": 84
     },
     "news": {
       "name": "News",
@@ -848,22 +848,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 548,
+      "published": 550,
       "verified": 457,
-      "not_verified": 91,
-      "with_measured_quality": 480,
+      "not_verified": 93,
+      "with_measured_quality": 482,
       "per_quality": {
         "1080p": 246,
         "4k": 1,
         "720p": 171,
-        "sd": 62
+        "sd": 64
       }
     },
     "community": {
-      "published": 4166,
-      "verified": 3757,
-      "untested": 409,
-      "held_back_after_failed_check": 3147,
+      "published": 4202,
+      "verified": 3790,
+      "untested": 412,
+      "held_back_after_failed_check": 3111,
       "never_checked": 0,
       "catalog_streams": 7313,
       "catalog_built_at": "2026-11-16T08:41:43Z",
@@ -872,23 +872,23 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 607,
-        "invalid": 1211,
+        "invalid": 1209,
         "restricted": 179,
-        "unknown": 207,
-        "unreachable": 1781,
-        "working": 3328
+        "unknown": 210,
+        "unreachable": 1747,
+        "working": 3361
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 745
+          "streams": 769
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 524
+          "streams": 525
         },
         {
           "code": "ru",
@@ -898,7 +898,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 140
+          "streams": 142
         },
         {
           "code": "uk",
@@ -913,21 +913,21 @@
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 100
+          "streams": 101
         },
         {
           "code": "es",
           "name": "Spain",
-          "streams": 99
-        },
-        {
-          "code": "br",
-          "name": "Brazil",
-          "streams": 95
+          "streams": 100
         },
         {
           "code": "de",
           "name": "Germany",
+          "streams": 97
+        },
+        {
+          "code": "br",
+          "name": "Brazil",
           "streams": 95
         }
       ],

@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-16T08:41:33Z",
-  "baseline_reference_time": "2026-11-15T23:29:34Z",
+  "reference_time": "2026-11-16T11:23:01Z",
+  "baseline_reference_time": "2026-11-16T08:41:33Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 548,
+    "published": 550,
     "verified_playlist": 457,
-    "excluded": 208,
+    "excluded": 206,
     "pending_authorization": 43,
-    "quarantined": 182,
+    "quarantined": 181,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 20,
-    "newly_quarantined": 18,
-    "restored": 3,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
+    "restored": 2,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 89,
-    "restricted": 41,
+    "intermittent": 90,
+    "restricted": 42,
     "unknown": 26,
     "unreachable": 23,
     "working": 369
   },
   "latest_run": {
-    "run_id": "run-20261116T083553Z",
-    "started_at": "2026-11-16T08:35:53Z",
-    "finished_at": "2026-11-16T08:41:33Z",
+    "run_id": "run-20261116T111713Z",
+    "started_at": "2026-11-16T11:17:13Z",
+    "finished_at": "2026-11-16T11:23:01Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 59,
+      "GEO_RESTRICTED": 60,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 145,
-      "UNKNOWN": 67,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 143,
+      "UNKNOWN": 68,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 444
+      "VERIFIED_WORKING": 445
     }
   },
   "discovery": {
@@ -71,7 +71,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "18 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -80,274 +80,33 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
-        "country": "lu",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "hktv-us",
-        "name": "HKTV",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "larivision-tv-do",
-        "name": "Larivision TV",
-        "country": "do",
-        "state": "unreachable",
-        "error": "HTTP 530 (server error)"
-      },
-      {
-        "id": "stingray-classica-ca",
-        "name": "Stingray Classica",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-djazz-ca",
-        "name": "Stingray DJAZZ",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-everything-80s-ca",
-        "name": "Stingray Everything '80s",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-hit-list-ca",
-        "name": "Stingray Hit List",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-holidayscapes-ca",
-        "name": "Stingray Holidayscapes",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-karaoke-ca",
-        "name": "Stingray Karaoke",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-naturescape-ca",
-        "name": "Stingray Naturescape",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-nothin-but-90s-ca",
-        "name": "Stingray Nothin' But 90s",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-smooth-jazz-ca",
-        "name": "Stingray Smooth Jazz",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-soul-storm-ca",
-        "name": "Stingray Soul Storm",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-the-spa-ca",
-        "name": "Stingray The Spa",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "stingray-today-s-k-pop-ca",
-        "name": "Stingray Today's K-Pop",
-        "country": "ca",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "trt-muzik",
-        "name": "TRT Müzik",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "zdfinfo",
-        "name": "ZDFinfo",
+        "id": "ndr-fernsehen-de",
+        "name": "NDR Fernsehen",
         "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "zenlife-by-stingray-ca",
-        "name": "ZenLIFE by Stingray",
-        "country": "ca",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "eldo-tv-lu",
-        "name": "eldo.TV",
-        "country": "lu",
-        "since": "2026-11-16T08:37:38Z"
-      },
-      {
-        "id": "larivision-tv-do",
-        "name": "Larivision TV",
-        "country": "do",
-        "since": "2026-11-16T08:36:42Z"
-      },
-      {
-        "id": "stingray-classica-ca",
-        "name": "Stingray Classica",
-        "country": "ca",
-        "since": "2026-11-16T08:36:14Z"
-      },
-      {
-        "id": "stingray-djazz-ca",
-        "name": "Stingray DJAZZ",
-        "country": "ca",
-        "since": "2026-11-16T08:39:20Z"
-      },
-      {
-        "id": "stingray-everything-80s-ca",
-        "name": "Stingray Everything '80s",
-        "country": "ca",
-        "since": "2026-11-16T08:39:41Z"
-      },
-      {
-        "id": "stingray-hit-list-ca",
-        "name": "Stingray Hit List",
-        "country": "ca",
-        "since": "2026-11-16T08:39:52Z"
-      },
-      {
-        "id": "stingray-holidayscapes-ca",
-        "name": "Stingray Holidayscapes",
-        "country": "ca",
-        "since": "2026-11-16T08:39:58Z"
-      },
-      {
-        "id": "stingray-karaoke-ca",
-        "name": "Stingray Karaoke",
-        "country": "ca",
-        "since": "2026-11-16T08:40:01Z"
-      },
-      {
-        "id": "stingray-naturescape-ca",
-        "name": "Stingray Naturescape",
-        "country": "ca",
-        "since": "2026-11-16T08:40:05Z"
-      },
-      {
-        "id": "stingray-nothin-but-90s-ca",
-        "name": "Stingray Nothin' But 90s",
-        "country": "ca",
-        "since": "2026-11-16T08:40:07Z"
-      },
-      {
-        "id": "stingray-smooth-jazz-ca",
-        "name": "Stingray Smooth Jazz",
-        "country": "ca",
-        "since": "2026-11-16T08:40:08Z"
-      },
-      {
-        "id": "stingray-soul-storm-ca",
-        "name": "Stingray Soul Storm",
-        "country": "ca",
-        "since": "2026-11-16T08:40:10Z"
-      },
-      {
-        "id": "stingray-the-spa-ca",
-        "name": "Stingray The Spa",
-        "country": "ca",
-        "since": "2026-11-16T08:40:12Z"
-      },
-      {
-        "id": "stingray-today-s-k-pop-ca",
-        "name": "Stingray Today's K-Pop",
-        "country": "ca",
-        "since": "2026-11-16T08:40:14Z"
-      },
-      {
-        "id": "trt-muzik",
-        "name": "TRT Müzik",
-        "country": "tr",
-        "since": "2026-11-16T08:39:17Z"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "since": "2026-11-16T08:39:15Z"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "since": "2026-11-16T08:39:18Z"
-      },
-      {
-        "id": "zenlife-by-stingray-ca",
-        "name": "ZenLIFE by Stingray",
-        "country": "ca",
-        "since": "2026-11-16T08:40:17Z"
+        "id": "ndr-fernsehen-de",
+        "name": "NDR Fernsehen",
+        "country": "de",
+        "since": "2026-11-16T11:17:56Z"
       }
     ],
     "restored": [
       {
-        "id": "america-internacional-pe",
-        "name": "America Internacional",
-        "country": "pe",
-        "restored_at": "2026-11-16T08:37:58Z"
+        "id": "farra-play-py",
+        "name": "Farra Play",
+        "country": "py",
+        "restored_at": "2026-11-16T11:19:23Z"
       },
       {
-        "id": "ebc-general-education-kh",
-        "name": "EBC General Education",
-        "country": "kh",
-        "restored_at": "2026-11-16T08:37:23Z"
-      },
-      {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "restored_at": "2026-11-16T08:36:55Z"
+        "id": "wdr-fernsehen",
+        "name": "WDR Fernsehen",
+        "country": "de",
+        "restored_at": "2026-11-16T11:20:24Z"
       }
     ],
     "removed": []
@@ -356,22 +115,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 548,
+      "published": 550,
       "verified": 457,
-      "not_verified": 91,
-      "with_measured_quality": 480,
+      "not_verified": 93,
+      "with_measured_quality": 482,
       "per_quality": {
         "1080p": 246,
         "4k": 1,
         "720p": 171,
-        "sd": 62
+        "sd": 64
       }
     },
     "community": {
-      "published": 4166,
-      "verified": 3757,
-      "untested": 409,
-      "held_back_after_failed_check": 3147,
+      "published": 4202,
+      "verified": 3790,
+      "untested": 412,
+      "held_back_after_failed_check": 3111,
       "never_checked": 0,
       "catalog_streams": 7313,
       "catalog_built_at": "2026-11-16T08:41:43Z",
@@ -380,23 +139,23 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 607,
-        "invalid": 1211,
+        "invalid": 1209,
         "restricted": 179,
-        "unknown": 207,
-        "unreachable": 1781,
-        "working": 3328
+        "unknown": 210,
+        "unreachable": 1747,
+        "working": 3361
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 745
+          "streams": 769
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 524
+          "streams": 525
         },
         {
           "code": "ru",
@@ -406,7 +165,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 140
+          "streams": 142
         },
         {
           "code": "uk",
@@ -421,21 +180,21 @@
         {
           "code": "do",
           "name": "Dominican Republic",
-          "streams": 100
+          "streams": 101
         },
         {
           "code": "es",
           "name": "Spain",
-          "streams": 99
-        },
-        {
-          "code": "br",
-          "name": "Brazil",
-          "streams": 95
+          "streams": 100
         },
         {
           "code": "de",
           "name": "Germany",
+          "streams": 97
+        },
+        {
+          "code": "br",
+          "name": "Brazil",
           "streams": 95
         }
       ],
