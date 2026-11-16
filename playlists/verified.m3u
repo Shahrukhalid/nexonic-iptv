@@ -209,6 +209,8 @@ https://stream.canaldelsol.com/sol26/live_1080.m3u8
 https://stream.elseis.do/canal6/live_1080.m3u8
 #EXTINF:-1 tvg-id="GiTelevision.do@SD" tvg-name="Gi Television" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Gi Television
 https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u8
+#EXTINF:-1 tvg-id="LarivisionTV.do@HD" tvg-name="Larivision TV" tvg-country="DO" tvg-language="Spanish" group-title="Dominican Republic",Larivision TV
+https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-country="EC" tvg-language="Spanish" group-title="Ecuador",TV Legislativa
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ETV.ee@SD" tvg-name="ETV" tvg-country="EE" tvg-language="Estonian" group-title="Estonia",ETV
@@ -315,8 +317,6 @@ https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
 https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
 #EXTINF:-1 tvg-id="ImagenFM1051.hn@SD" tvg-name="Imagen FM 105.1" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Imagen FM 105.1
@@ -753,6 +753,8 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTHaber.tr@SD" tvg-name="TRT Haber" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" tvg-country="TR" tvg-language="Kurdish" group-title="Turkiye",Zarok TV
@@ -6185,8 +6187,12 @@ https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/play
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx2/playlist.m3u8
 #EXTINF:-1 tvg-id="KomalaTV.se@SD" tvg-name="Komala TV" tvg-country="SE" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/D6KBLB8.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="sd",Komala TV
 https://komhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Luksusfaelden.se@DK" tvg-name="Luksusfaelden" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c19b7785706b00072d421a/colorLogoPNG.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",Luksusfaelden
+https://jmp2.uk/plu-61c19b7785706b00072d421a.m3u8
 #EXTINF:-1 tvg-id="MiracleChannel.se@SD" tvg-name="Miracle Channel" tvg-country="SE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rc68GZJ.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="1080p",Miracle Channel
 https://live.miracleonline.org/hls/miracle1.m3u8
+#EXTINF:-1 tvg-id="NCISDetbedstemedGibbs.se@DK" tvg-name="NCIS: Det bedste med Gibbs" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6901d952ec12c3c759fdc7cd/colorLogoPNG_1763121346503.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",NCIS: Det bedste med Gibbs
+https://jmp2.uk/plu-6901d952ec12c3c759fdc7cd.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg@Vietnam" tvg-name="Asian Food Network (Vietnam)" tvg-country="SG" tvg-language="English;Vietnamese" tvg-logo="https://i.imgur.com/pux6WN8.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="1080p",Asian Food Network (Vietnam)
 https://freem3u.xyz/api/live/play.m3u8?vid=215
 #EXTINF:-1 tvg-id="Channel5.sg@SD" tvg-name="Channel 5" tvg-country="SG" tvg-language="English" tvg-logo="https://i.ibb.co/fYdZm7sS/IMG-2459.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="720p",Channel 5
@@ -7243,6 +7249,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox5dcwttg-vizious
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox29philadelphiawtx-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-name="Fox Deportes" tvg-country="US" tvg-language="Spanish;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Fox Deportes
 https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
+#EXTINF:-1 tvg-id="Frasier.us@CA" tvg-name="Frasier" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Frasier
+https://jmp2.uk/plu-62f4f90e39183b000769f12b.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us@SD" tvg-name="Free Speech TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Qq6heRq.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Free Speech TV
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
 #EXTINF:-1 tvg-id="FrightFlix.us@SD" tvg-name="FrightFlix" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/rgNQYAl.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",FrightFlix

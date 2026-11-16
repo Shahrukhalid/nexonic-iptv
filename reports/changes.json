@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-16T11:23:01Z",
-  "baseline_reference_time": "2026-11-16T08:41:33Z",
+  "reference_time": "2026-11-16T21:12:34Z",
+  "baseline_reference_time": "2026-11-16T11:23:01Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 550,
-    "verified_playlist": 457,
+    "verified_playlist": 458,
     "excluded": 206,
     "pending_authorization": 43,
-    "quarantined": 181,
+    "quarantined": 180,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
     "newly_failing": 1,
-    "newly_quarantined": 1,
-    "restored": 2,
+    "newly_quarantined": 0,
+    "restored": 1,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 90,
-    "restricted": 42,
+    "intermittent": 95,
+    "restricted": 41,
     "unknown": 26,
     "unreachable": 23,
-    "working": 369
+    "working": 365
   },
   "latest_run": {
-    "run_id": "run-20261116T111713Z",
-    "started_at": "2026-11-16T11:17:13Z",
-    "finished_at": "2026-11-16T11:23:01Z",
+    "run_id": "run-20261116T210626Z",
+    "started_at": "2026-11-16T21:06:26Z",
+    "finished_at": "2026-11-16T21:12:34Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 60,
-      "INVALID_STREAM": 9,
+      "INVALID_STREAM": 11,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 143,
-      "UNKNOWN": 68,
+      "UNAVAILABLE": 159,
+      "UNKNOWN": 64,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 445
+      "VERIFIED_WORKING": 431
     }
   },
   "discovery": {
@@ -70,9 +70,7 @@
     "playlist_files": 536,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
     "new_candidates": [],
     "new_published": [],
@@ -80,33 +78,20 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
-        "country": "de",
+        "id": "servustv",
+        "name": "ServusTV",
+        "country": "at",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
-    "newly_quarantined": [
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
-        "country": "de",
-        "since": "2026-11-16T11:17:56Z"
-      }
-    ],
+    "newly_quarantined": [],
     "restored": [
       {
-        "id": "farra-play-py",
-        "name": "Farra Play",
-        "country": "py",
-        "restored_at": "2026-11-16T11:19:23Z"
-      },
-      {
-        "id": "wdr-fernsehen",
-        "name": "WDR Fernsehen",
-        "country": "de",
-        "restored_at": "2026-11-16T11:20:24Z"
+        "id": "larivision-tv-do",
+        "name": "Larivision TV",
+        "country": "do",
+        "restored_at": "2026-11-16T21:07:16Z"
       }
     ],
     "removed": []
@@ -116,21 +101,21 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 550,
-      "verified": 457,
-      "not_verified": 93,
+      "verified": 458,
+      "not_verified": 92,
       "with_measured_quality": 482,
       "per_quality": {
-        "1080p": 246,
+        "1080p": 248,
         "4k": 1,
-        "720p": 171,
-        "sd": 64
+        "720p": 170,
+        "sd": 63
       }
     },
     "community": {
-      "published": 4202,
-      "verified": 3790,
+      "published": 4205,
+      "verified": 3793,
       "untested": 412,
-      "held_back_after_failed_check": 3111,
+      "held_back_after_failed_check": 3108,
       "never_checked": 0,
       "catalog_streams": 7313,
       "catalog_built_at": "2026-11-16T08:41:43Z",
@@ -139,18 +124,18 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 607,
-        "invalid": 1209,
+        "invalid": 1206,
         "restricted": 179,
         "unknown": 210,
         "unreachable": 1747,
-        "working": 3361
+        "working": 3364
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 769
+          "streams": 770
         },
         {
           "code": "in",

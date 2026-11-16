@@ -17,6 +17,8 @@ https://uzivo.rtrs.tv/tv/live/index.m3u8
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalGov.br@SD" tvg-name="Canal Gov" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Canal Gov
 https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="ElementalChannel.br@SD" tvg-name="Elemental Channel" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",Elemental Channel
+https://stmv1.samcast.com.br/ricardo2194/ricardo2194/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br@SD" tvg-name="TV Brasil" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TV Brasil
 https://tvbrasil-stream.ebc.com.br/index.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-name="TVLatinaSat" tvg-country="BR" tvg-language="Portuguese" group-title="Brazil",TVLatinaSat
@@ -171,10 +173,6 @@ https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
 https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TarangTV.in@SD" tvg-name="Tarang TV" tvg-country="IN" tvg-language="Odia" group-title="India",Tarang TV
 https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ZBCinema.in@HD" tvg-name="ZB Cinema" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Cinema
-https://server.zillarbarta.com/ZBCINEMA/index.m3u8
-#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-name="ZB Music" tvg-country="IN" tvg-language="Bengali" group-title="India",ZB Music
-https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" tvg-name="ZillarBarta News" tvg-country="IN" tvg-language="Bengali" group-title="India",ZillarBarta News
 https://server.zillarbarta.com/zillarbarta/index.m3u8
 #EXTINF:-1 tvg-id="247BoxTV.ir@SD" tvg-name="247 Box TV" tvg-country="IR" tvg-language="Persian" group-title="Iran",247 Box TV
@@ -2179,6 +2177,10 @@ https://5c46fa289c89f.streamlock.net/pub1live/mystream/playlist.m3u8
 https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8
 #EXTINF:-1 tvg-id="AlkhuzamaRadio.sa@SD" tvg-name="Alkhuzama Radio" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b" group-title="Saudi Arabia" x-tier="community" x-status="verified" x-quality="720p",Alkhuzama Radio
 https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
+#EXTINF:-1 tvg-id="Luksusfaelden.se@DK" tvg-name="Luksusfaelden" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/61c19b7785706b00072d421a/colorLogoPNG.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",Luksusfaelden
+https://jmp2.uk/plu-61c19b7785706b00072d421a.m3u8
+#EXTINF:-1 tvg-id="NCISDetbedstemedGibbs.se@DK" tvg-name="NCIS: Det bedste med Gibbs" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/6901d952ec12c3c759fdc7cd/colorLogoPNG_1763121346503.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",NCIS: Det bedste med Gibbs
+https://jmp2.uk/plu-6901d952ec12c3c759fdc7cd.m3u8
 #EXTINF:-1 tvg-id="Channel5.sg@SD" tvg-name="Channel 5" tvg-country="SG" tvg-language="English" tvg-logo="https://i.ibb.co/fYdZm7sS/IMG-2459.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="720p",Channel 5
 https://cdn.qd.je/163189/ch5
 #EXTINF:-1 tvg-id="Channel8.sg@SD" tvg-name="Channel 8" tvg-country="SG" tvg-language="Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mediacorp_Channel_8_2023.svg/960px-Mediacorp_Channel_8_2023.svg.png" group-title="Singapore" x-tier="community" x-status="verified" x-quality="720p",Channel 8
@@ -2571,6 +2573,8 @@ https://dz05z8iljgvbe.cloudfront.net/master.m3u8
 https://live.field59.com/kbsi/kbsi1/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-name="Fox Deportes" tvg-country="US" tvg-language="Spanish;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Fox Deportes
 https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
+#EXTINF:-1 tvg-id="Frasier.us@CA" tvg-name="Frasier" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Frasier
+https://jmp2.uk/plu-62f4f90e39183b000769f12b.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us@SD" tvg-name="Free Speech TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Qq6heRq.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Free Speech TV
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
 #EXTINF:-1 tvg-id="FrightFlix.us@SD" tvg-name="FrightFlix" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/rgNQYAl.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",FrightFlix
