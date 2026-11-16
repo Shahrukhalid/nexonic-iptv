@@ -2,13 +2,13 @@
  "counters": {
   "metadata_read": 400,
   "rejected": {
-   "adult-screening": 71,
-   "no-open-licence": 332
+   "adult-screening": 91,
+   "no-open-licence": 449
   },
   "searched_pages": 10,
-  "seen": 1202
+  "seen": 1343
  },
- "last_run": "2026-11-15T08:44:31Z",
+ "last_run": "2026-11-16T08:52:25Z",
  "schema": 1,
  "views": {
   "Comedy_Films|cc": {
@@ -32,7 +32,7 @@
   },
   "Film_Noir|cc": {
    "done": true,
-   "done_at": "2026-11-02T08:36:59Z",
+   "done_at": "2026-11-16T08:52:25Z",
    "found": 309,
    "page": 2,
    "rejected": {
@@ -113,12 +113,12 @@
   "classic_tv|cc": {
    "done": false,
    "found": 2520,
-   "page": 10,
+   "page": 11,
    "rejected": {
-    "adult-screening": 41,
-    "no-open-licence": 1214
+    "adult-screening": 49,
+    "no-open-licence": 1228
    },
-   "seen": 1800
+   "seen": 2000
   },
   "classic_tv|rights": {
    "done": true,
@@ -149,12 +149,12 @@
   "feature_films|cc": {
    "done": false,
    "found": 9133,
-   "page": 16,
+   "page": 18,
    "rejected": {
-    "adult-screening": 175,
-    "no-open-licence": 1435
+    "adult-screening": 223,
+    "no-open-licence": 1469
    },
-   "seen": 3000
+   "seen": 3400
   },
   "feature_films|rights": {
    "done": true,
@@ -184,17 +184,19 @@
    "seen": 0
   },
   "prelinger|cc": {
-   "done": false,
+   "done": true,
+   "done_at": "2026-11-16T08:52:25Z",
    "found": 1914,
-   "page": 9,
+   "page": 10,
    "rejected": {
-    "no-open-licence": 1591
+    "adult-screening": 1,
+    "no-open-licence": 1873
    },
-   "seen": 1600
+   "seen": 1914
   },
   "prelinger|rights": {
    "done": true,
-   "done_at": "2026-11-02T08:36:59Z",
+   "done_at": "2026-11-16T08:52:25Z",
    "found": 57,
    "page": 1,
    "rejected": {
@@ -203,18 +205,19 @@
    "seen": 57
   },
   "short_films|cc": {
-   "done": false,
+   "done": true,
+   "done_at": "2026-11-16T08:52:25Z",
    "found": 1858,
    "page": 10,
    "rejected": {
-    "adult-screening": 104,
+    "adult-screening": 106,
     "no-open-licence": 777
    },
-   "seen": 1800
+   "seen": 1858
   },
   "short_films|rights": {
    "done": true,
-   "done_at": "2026-11-02T08:36:59Z",
+   "done_at": "2026-11-16T08:52:25Z",
    "found": 5,
    "page": 1,
    "rejected": {
