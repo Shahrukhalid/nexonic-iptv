@@ -1,124 +1,397 @@
 {
-  "reference_time": "2026-11-15T23:29:34Z",
-  "baseline_reference_time": "2026-11-15T17:49:10Z",
+  "reference_time": "2026-11-16T08:41:33Z",
+  "baseline_reference_time": "2026-11-15T23:29:34Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 547,
-    "verified_playlist": 470,
-    "excluded": 209,
+    "published": 548,
+    "verified_playlist": 457,
+    "excluded": 208,
     "pending_authorization": 43,
-    "quarantined": 167,
+    "quarantined": 182,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 0,
-    "newly_quarantined": 0,
-    "restored": 0,
+    "newly_failing": 20,
+    "newly_quarantined": 18,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 102,
-    "restricted": 42,
+    "intermittent": 89,
+    "restricted": 41,
     "unknown": 26,
-    "unreachable": 6,
-    "working": 371
+    "unreachable": 23,
+    "working": 369
   },
   "latest_run": {
-    "run_id": "run-20261115T232329Z",
-    "started_at": "2026-11-15T23:23:29Z",
-    "finished_at": "2026-11-15T23:29:34Z",
+    "run_id": "run-20261116T083553Z",
+    "started_at": "2026-11-16T08:35:53Z",
+    "finished_at": "2026-11-16T08:41:33Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 756,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 60,
-      "INVALID_STREAM": 10,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 152,
-      "UNKNOWN": 65,
+      "GEO_RESTRICTED": 59,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 145,
+      "UNKNOWN": 67,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 436
+      "VERIFIED_WORKING": 444
     }
   },
   "discovery": {
     "admitted": 603,
-    "aggregator-host": 1006,
-    "already-curated": 482,
-    "closed": 89,
-    "excluded-category": 1178,
-    "host-not-owned-by-broadcaster": 7199,
-    "language-not-supported": 4,
+    "aggregator-host": 998,
+    "already-curated": 558,
+    "closed": 98,
+    "duplicate-channel-in-other-source": 119,
+    "duplicate-of-existing": 1,
+    "excluded-category": 1223,
+    "host-not-owned-by-broadcaster": 7739,
+    "language-not-supported": 3,
     "moderation-reject": 4,
-    "needs-special-headers": 1147,
-    "no-database-entry": 2092,
-    "nsfw-or-blocklisted": 8,
-    "sanctions-exclusion": 608,
-    "streams": 18689,
-    "subscription-service": 111,
-    "url-policy": 4087
+    "needs-special-headers": 964,
+    "no-database-entry": 3616,
+    "nsfw-or-blocklisted": 5,
+    "sanctions-exclusion": 621,
+    "streams": 21345,
+    "subscription-service": 101,
+    "url-policy": 4628
   },
   "integrity": {
     "ok": true,
     "record_errors": 0,
     "playlist_index_matches_files": true,
     "published_streams_unique": true,
-    "playlist_files": 532,
+    "playlist_files": 536,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [],
+  "attention": [
+    "18 channel(s) newly quarantined (failing repeatedly)"
+  ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],
-    "newly_failing": [],
-    "newly_quarantined": [],
-    "restored": [],
+    "newly_failing": [
+      {
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
+        "country": "lu",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "hktv-us",
+        "name": "HKTV",
+        "country": "us",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "larivision-tv-do",
+        "name": "Larivision TV",
+        "country": "do",
+        "state": "unreachable",
+        "error": "HTTP 530 (server error)"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-soul-storm-ca",
+        "name": "Stingray Soul Storm",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-the-spa-ca",
+        "name": "Stingray The Spa",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "stingray-today-s-k-pop-ca",
+        "name": "Stingray Today's K-Pop",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-muzik",
+        "name": "TRT Müzik",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "zdfinfo",
+        "name": "ZDFinfo",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "zenlife-by-stingray-ca",
+        "name": "ZenLIFE by Stingray",
+        "country": "ca",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      }
+    ],
+    "newly_quarantined": [
+      {
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
+        "country": "lu",
+        "since": "2026-11-16T08:37:38Z"
+      },
+      {
+        "id": "larivision-tv-do",
+        "name": "Larivision TV",
+        "country": "do",
+        "since": "2026-11-16T08:36:42Z"
+      },
+      {
+        "id": "stingray-classica-ca",
+        "name": "Stingray Classica",
+        "country": "ca",
+        "since": "2026-11-16T08:36:14Z"
+      },
+      {
+        "id": "stingray-djazz-ca",
+        "name": "Stingray DJAZZ",
+        "country": "ca",
+        "since": "2026-11-16T08:39:20Z"
+      },
+      {
+        "id": "stingray-everything-80s-ca",
+        "name": "Stingray Everything '80s",
+        "country": "ca",
+        "since": "2026-11-16T08:39:41Z"
+      },
+      {
+        "id": "stingray-hit-list-ca",
+        "name": "Stingray Hit List",
+        "country": "ca",
+        "since": "2026-11-16T08:39:52Z"
+      },
+      {
+        "id": "stingray-holidayscapes-ca",
+        "name": "Stingray Holidayscapes",
+        "country": "ca",
+        "since": "2026-11-16T08:39:58Z"
+      },
+      {
+        "id": "stingray-karaoke-ca",
+        "name": "Stingray Karaoke",
+        "country": "ca",
+        "since": "2026-11-16T08:40:01Z"
+      },
+      {
+        "id": "stingray-naturescape-ca",
+        "name": "Stingray Naturescape",
+        "country": "ca",
+        "since": "2026-11-16T08:40:05Z"
+      },
+      {
+        "id": "stingray-nothin-but-90s-ca",
+        "name": "Stingray Nothin' But 90s",
+        "country": "ca",
+        "since": "2026-11-16T08:40:07Z"
+      },
+      {
+        "id": "stingray-smooth-jazz-ca",
+        "name": "Stingray Smooth Jazz",
+        "country": "ca",
+        "since": "2026-11-16T08:40:08Z"
+      },
+      {
+        "id": "stingray-soul-storm-ca",
+        "name": "Stingray Soul Storm",
+        "country": "ca",
+        "since": "2026-11-16T08:40:10Z"
+      },
+      {
+        "id": "stingray-the-spa-ca",
+        "name": "Stingray The Spa",
+        "country": "ca",
+        "since": "2026-11-16T08:40:12Z"
+      },
+      {
+        "id": "stingray-today-s-k-pop-ca",
+        "name": "Stingray Today's K-Pop",
+        "country": "ca",
+        "since": "2026-11-16T08:40:14Z"
+      },
+      {
+        "id": "trt-muzik",
+        "name": "TRT Müzik",
+        "country": "tr",
+        "since": "2026-11-16T08:39:17Z"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "since": "2026-11-16T08:39:15Z"
+      },
+      {
+        "id": "world-channel",
+        "name": "World Channel",
+        "country": "us",
+        "since": "2026-11-16T08:39:18Z"
+      },
+      {
+        "id": "zenlife-by-stingray-ca",
+        "name": "ZenLIFE by Stingray",
+        "country": "ca",
+        "since": "2026-11-16T08:40:17Z"
+      }
+    ],
+    "restored": [
+      {
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "restored_at": "2026-11-16T08:37:58Z"
+      },
+      {
+        "id": "ebc-general-education-kh",
+        "name": "EBC General Education",
+        "country": "kh",
+        "restored_at": "2026-11-16T08:37:23Z"
+      },
+      {
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "restored_at": "2026-11-16T08:36:55Z"
+      }
+    ],
     "removed": []
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 547,
-      "verified": 470,
-      "not_verified": 77,
-      "with_measured_quality": 479,
+      "published": 548,
+      "verified": 457,
+      "not_verified": 91,
+      "with_measured_quality": 480,
       "per_quality": {
-        "1080p": 248,
+        "1080p": 246,
         "4k": 1,
-        "720p": 167,
-        "sd": 63
+        "720p": 171,
+        "sd": 62
       }
     },
     "community": {
-      "published": 4162,
-      "verified": 3742,
-      "untested": 420,
-      "held_back_after_failed_check": 3151,
+      "published": 4166,
+      "verified": 3757,
+      "untested": 409,
+      "held_back_after_failed_check": 3147,
       "never_checked": 0,
       "catalog_streams": 7313,
-      "catalog_built_at": "2026-11-15T08:33:45Z",
+      "catalog_built_at": "2026-11-16T08:41:43Z",
       "verified_days": 7,
-      "countries": 157,
+      "countries": 156,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 581,
+        "intermittent": 607,
         "invalid": 1211,
-        "restricted": 180,
-        "unknown": 210,
-        "unreachable": 1788,
-        "working": 3343
+        "restricted": 179,
+        "unknown": 207,
+        "unreachable": 1781,
+        "working": 3328
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 743
+          "streams": 745
         },
         {
           "code": "in",
@@ -133,7 +406,7 @@
         {
           "code": "it",
           "name": "Italy",
-          "streams": 141
+          "streams": 140
         },
         {
           "code": "uk",
@@ -146,14 +419,14 @@
           "streams": 115
         },
         {
+          "code": "do",
+          "name": "Dominican Republic",
+          "streams": 100
+        },
+        {
           "code": "es",
           "name": "Spain",
           "streams": 99
-        },
-        {
-          "code": "do",
-          "name": "Dominican Republic",
-          "streams": 98
         },
         {
           "code": "br",
@@ -163,35 +436,35 @@
         {
           "code": "de",
           "name": "Germany",
-          "streams": 93
+          "streams": 95
         }
       ],
       "playlist_files": 1,
       "build_report": {
-        "read": 23389,
+        "read": 23394,
         "after": {
-          "has-database-entry": 19770,
-          "not-nsfw-or-blocklisted": 19757,
-          "not-closed": 19650,
-          "no-special-headers": 18289,
-          "url-policy": 13391,
-          "hls-or-dash": 13387,
-          "policy-exclusions": 12819,
-          "adult-screening-pass": 12506,
-          "community-exclusions": 12506
+          "has-database-entry": 19775,
+          "not-nsfw-or-blocklisted": 19763,
+          "not-closed": 19656,
+          "no-special-headers": 18305,
+          "url-policy": 13443,
+          "hls-or-dash": 13439,
+          "policy-exclusions": 12870,
+          "adult-screening-pass": 12554,
+          "community-exclusions": 12554
         },
         "dropped": {
-          "adult-screening-quarantine": 281,
-          "adult-screening-reject": 32,
+          "adult-screening-quarantine": 282,
+          "adult-screening-reject": 34,
           "closed": 107,
-          "needs-special-headers": 1361,
+          "needs-special-headers": 1351,
           "no-database-entry": 3619,
           "not-hls-or-dash": 4,
-          "nsfw-or-blocklisted": 13,
-          "policy-exclusion": 568,
+          "nsfw-or-blocklisted": 12,
+          "policy-exclusion": 569,
           "url-policy-ip-host": 1047,
           "url-policy-other": 2,
-          "url-policy-port": 3460,
+          "url-policy-port": 3424,
           "url-policy-restream-or-dynamic-dns": 65,
           "url-policy-scheme": 46,
           "url-policy-token": 278
@@ -199,21 +472,21 @@
         "sources": {
           "ipmx": 18,
           "iprtl": 636,
-          "iptv-com": 1168,
+          "iptv-com": 1190,
           "iptv-ecuador": 36,
           "iptv-m3u-tr": 288,
           "iptv-org": 18689,
           "iptv-spain": 68,
-          "listalibre": 1402,
+          "listalibre": 1385,
           "m3upt": 959,
           "openiptvitaly": 125
         },
         "deduplicated": {
           "duplicate-channel": 2334,
-          "duplicate-url": 1371,
-          "official-duplicate-channel": 530,
+          "duplicate-url": 1414,
+          "official-duplicate-channel": 533,
           "official-duplicate-name": 14,
-          "official-duplicate-stream": 944
+          "official-duplicate-stream": 946
         },
         "catalog": 7313,
         "per_country": {
@@ -231,9 +504,9 @@
           "nl": 130,
           "do": 121,
           "ca": 120,
+          "mx": 117,
           "pe": 117,
           "fr": 116,
-          "mx": 116,
           "ar": 91,
           "vn": 86,
           "ua": 72,
@@ -246,7 +519,7 @@
           "ec": 44,
           "sa": 44,
           "ve": 44,
-          "bo": 42,
+          "bo": 41,
           "hn": 40,
           "ng": 40,
           "cr": 38,
@@ -388,67 +661,67 @@
       }
     },
     "vod": {
-      "items": 2808,
-      "movies": 2371,
-      "series_items": 437,
-      "cached_items": 4472,
+      "items": 3205,
+      "movies": 2621,
+      "series_items": 584,
+      "cached_items": 4960,
       "not_published": {
-        "no-playable-file": 127,
-        "no-playable-file-yet": 1537
+        "no-playable-file": 130,
+        "no-playable-file-yet": 1625
       },
       "by_licence": {
         "CC BY 2.0": 5,
         "CC BY 2.5": 18,
-        "CC BY 3.0": 304,
+        "CC BY 3.0": 356,
         "CC BY 4.0": 2,
         "CC BY-NC 2.0": 4,
         "CC BY-NC 2.5": 4,
-        "CC BY-NC 3.0": 20,
-        "CC BY-NC 4.0": 8,
-        "CC BY-NC-ND 2.0": 17,
+        "CC BY-NC 3.0": 23,
+        "CC BY-NC 4.0": 9,
+        "CC BY-NC-ND 2.0": 19,
         "CC BY-NC-ND 2.1": 1,
-        "CC BY-NC-ND 2.5": 74,
-        "CC BY-NC-ND 3.0": 142,
-        "CC BY-NC-ND 4.0": 26,
+        "CC BY-NC-ND 2.5": 75,
+        "CC BY-NC-ND 3.0": 165,
+        "CC BY-NC-ND 4.0": 30,
         "CC BY-NC-SA 2.0": 16,
         "CC BY-NC-SA 2.5": 34,
-        "CC BY-NC-SA 3.0": 42,
-        "CC BY-NC-SA 4.0": 39,
+        "CC BY-NC-SA 3.0": 49,
+        "CC BY-NC-SA 4.0": 52,
         "CC BY-ND 2.0": 3,
         "CC BY-ND 2.5": 9,
-        "CC BY-ND 3.0": 32,
+        "CC BY-ND 3.0": 33,
         "CC BY-ND 4.0": 8,
         "CC BY-SA 2.0": 3,
         "CC BY-SA 2.5": 9,
         "CC BY-SA 3.0": 47,
         "CC BY-SA 4.0": 1,
-        "CC0 1.0": 376,
-        "Public Domain Mark 1.0": 1539,
+        "CC0 1.0": 399,
+        "Public Domain Mark 1.0": 1806,
         "Public domain (rights statement)": 25
       },
       "by_collection": {
-        "Comedy_Films": 96,
+        "Comedy_Films": 98,
         "Film_Noir": 89,
         "SciFi_Horror": 128,
-        "animationandcartoons": 507,
+        "animationandcartoons": 514,
         "classic_cartoons": 6,
-        "classic_tv": 437,
-        "feature_films": 776,
-        "prelinger": 16,
-        "short_films": 532,
-        "silent_films": 221
+        "classic_tv": 584,
+        "feature_films": 933,
+        "prelinger": 45,
+        "short_films": 575,
+        "silent_films": 233
       },
       "playlist_files": 34,
       "search": {
         "metadata_read": 400,
         "rejected": {
-          "adult-screening": 71,
-          "no-open-licence": 332
+          "adult-screening": 91,
+          "no-open-licence": 449
         },
         "searched_pages": 10,
-        "seen": 1202
+        "seen": 1343
       },
-      "last_run": "2026-11-15T08:44:31Z"
+      "last_run": "2026-11-16T08:52:25Z"
     }
   }
 }
