@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-17T09:50:59Z",
-  "baseline_reference_time": "2026-11-16T21:12:34Z",
+  "reference_time": "2026-11-17T11:58:02Z",
+  "baseline_reference_time": "2026-11-17T09:50:59Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
     "published": 555,
-    "verified_playlist": 485,
+    "verified_playlist": 477,
     "excluded": 205,
     "pending_authorization": 43,
-    "quarantined": 162,
+    "quarantined": 164,
     "duplicates_excluded_total": 0,
-    "new_candidates": 1,
-    "new_published": 3,
+    "new_candidates": 0,
+    "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 8,
-    "newly_quarantined": 1,
-    "restored": 19,
+    "newly_failing": 5,
+    "newly_quarantined": 4,
+    "restored": 2,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 131,
-    "restricted": 39,
+    "intermittent": 135,
+    "restricted": 42,
     "unknown": 22,
-    "unreachable": 9,
-    "working": 354
+    "unreachable": 8,
+    "working": 348
   },
   "latest_run": {
-    "run_id": "run-20261117T094513Z",
-    "started_at": "2026-11-17T09:45:13Z",
-    "finished_at": "2026-11-17T09:50:59Z",
+    "run_id": "run-20261117T115147Z",
+    "started_at": "2026-11-17T11:51:47Z",
+    "finished_at": "2026-11-17T11:58:02Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 760,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 56,
-      "INVALID_STREAM": 11,
-      "TIMEOUT": 44,
-      "UNAVAILABLE": 138,
-      "UNKNOWN": 54,
+      "GEO_RESTRICTED": 58,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 29,
+      "UNAVAILABLE": 144,
+      "UNKNOWN": 65,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 454
+      "VERIFIED_WORKING": 452
     }
   },
   "discovery": {
@@ -71,217 +71,88 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
+    "4 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
-    "new_candidates": [
-      {
-        "id": "acn-tv-cm",
-        "name": "ACN TV",
-        "country": "cm",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      }
-    ],
-    "new_published": [
-      {
-        "id": "ebc-lifelong-learning-kh",
-        "name": "EBC Lifelong Learning",
-        "country": "kh"
-      },
-      {
-        "id": "novosadska-tv-rs",
-        "name": "Novosadska TV",
-        "country": "rs"
-      },
-      {
-        "id": "smash-radio-tt-tt",
-        "name": "Smash Radio TT",
-        "country": "tt"
-      }
-    ],
+    "new_candidates": [],
+    "new_published": [],
     "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "3sat",
-        "name": "3sat",
-        "country": "de",
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "connection error: ConnectError"
       },
       {
-        "id": "acn-tv-cm",
-        "name": "ACN TV",
-        "country": "cm",
+        "id": "digital-channel-bj",
+        "name": "Digital Channel",
+        "country": "bj",
         "state": "unreachable",
         "error": "HTTP 404 (stream not found)"
       },
       {
-        "id": "channel-7-th",
-        "name": "Channel 7",
-        "country": "th",
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError"
+      },
+      {
+        "id": "ltv7",
+        "name": "LTV7",
+        "country": "lv",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
       },
       {
-        "id": "das-erste",
-        "name": "Das Erste",
+        "id": "one-ard",
+        "name": "ONE",
         "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "hktv-us",
-        "name": "HKTV",
-        "country": "us",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "rbb-berlin",
-        "name": "rbb Fernsehen Berlin",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "ru-tv-kids-ru",
-        "name": "RU.TV Kids",
-        "country": "ru",
-        "state": "unreachable",
-        "error": "no response within 10s"
-      },
-      {
-        "id": "s4c",
-        "name": "S4C",
-        "country": "uk",
-        "state": "unreachable",
-        "error": "variant playlist: HTTP 404 (stream not found)"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "das-erste",
-        "name": "Das Erste",
-        "country": "de",
-        "since": "2026-11-17T09:48:16Z"
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "since": "2026-11-17T11:54:01Z"
+      },
+      {
+        "id": "digital-channel-bj",
+        "name": "Digital Channel",
+        "country": "bj",
+        "since": "2026-11-17T11:51:58Z"
+      },
+      {
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "since": "2026-11-17T11:52:55Z"
+      },
+      {
+        "id": "ltv7",
+        "name": "LTV7",
+        "country": "lv",
+        "since": "2026-11-17T11:55:29Z"
       }
     ],
     "restored": [
       {
-        "id": "big-civic-channel-us",
-        "name": "BIG Civic Channel",
-        "country": "us",
-        "restored_at": "2026-11-17T09:47:58Z"
-      },
-      {
-        "id": "ndr-fernsehen-de",
-        "name": "NDR Fernsehen",
+        "id": "das-erste",
+        "name": "Das Erste",
         "country": "de",
-        "restored_at": "2026-11-17T09:45:53Z"
+        "restored_at": "2026-11-17T11:55:17Z"
       },
       {
-        "id": "st-lucie-public-schools",
-        "name": "St Lucie Public Schools",
-        "country": "us",
-        "restored_at": "2026-11-17T09:48:32Z"
-      },
-      {
-        "id": "stingray-classica-ca",
-        "name": "Stingray Classica",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:45:31Z"
-      },
-      {
-        "id": "stingray-djazz-ca",
-        "name": "Stingray DJAZZ",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:48:34Z"
-      },
-      {
-        "id": "stingray-everything-80s-ca",
-        "name": "Stingray Everything '80s",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:48:58Z"
-      },
-      {
-        "id": "stingray-hit-list-ca",
-        "name": "Stingray Hit List",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:10Z"
-      },
-      {
-        "id": "stingray-holidayscapes-ca",
-        "name": "Stingray Holidayscapes",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:16Z"
-      },
-      {
-        "id": "stingray-karaoke-ca",
-        "name": "Stingray Karaoke",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:22Z"
-      },
-      {
-        "id": "stingray-naturescape-ca",
-        "name": "Stingray Naturescape",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:25Z"
-      },
-      {
-        "id": "stingray-nothin-but-90s-ca",
-        "name": "Stingray Nothin' But 90s",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:28Z"
-      },
-      {
-        "id": "stingray-smooth-jazz-ca",
-        "name": "Stingray Smooth Jazz",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:31Z"
-      },
-      {
-        "id": "stingray-soul-storm-ca",
-        "name": "Stingray Soul Storm",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:34Z"
-      },
-      {
-        "id": "stingray-the-spa-ca",
-        "name": "Stingray The Spa",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:37Z"
-      },
-      {
-        "id": "stingray-today-s-k-pop-ca",
-        "name": "Stingray Today's K-Pop",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:40Z"
-      },
-      {
-        "id": "trt-muzik",
-        "name": "TRT Müzik",
-        "country": "tr",
-        "restored_at": "2026-11-17T09:48:29Z"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "restored_at": "2026-11-17T09:48:27Z"
-      },
-      {
-        "id": "world-channel",
-        "name": "World Channel",
-        "country": "us",
-        "restored_at": "2026-11-17T09:48:31Z"
-      },
-      {
-        "id": "zenlife-by-stingray-ca",
-        "name": "ZenLIFE by Stingray",
-        "country": "ca",
-        "restored_at": "2026-11-17T09:49:43Z"
+        "id": "eldo-tv-lu",
+        "name": "eldo.TV",
+        "country": "lu",
+        "restored_at": "2026-11-17T11:53:40Z"
       }
     ],
     "removed": []
@@ -291,8 +162,8 @@
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
       "published": 555,
-      "verified": 485,
-      "not_verified": 70,
+      "verified": 477,
+      "not_verified": 78,
       "with_measured_quality": 487,
       "per_quality": {
         "1080p": 248,
@@ -302,10 +173,10 @@
       }
     },
     "community": {
-      "published": 4325,
-      "verified": 3916,
+      "published": 4329,
+      "verified": 3920,
       "untested": 409,
-      "held_back_after_failed_check": 3030,
+      "held_back_after_failed_check": 3026,
       "never_checked": 0,
       "catalog_streams": 7355,
       "catalog_built_at": "2026-11-17T09:51:09Z",
@@ -313,12 +184,12 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 636,
-        "invalid": 1209,
+        "intermittent": 620,
+        "invalid": 1211,
         "restricted": 176,
         "unknown": 197,
-        "unreachable": 1789,
-        "working": 3348
+        "unreachable": 1806,
+        "working": 3345
       },
       "removed_at_generation": {},
       "top_countries": [
@@ -350,7 +221,7 @@
         {
           "code": "cl",
           "name": "Chile",
-          "streams": 116
+          "streams": 117
         },
         {
           "code": "fr",
