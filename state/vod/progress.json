@@ -1,26 +1,25 @@
 {
  "counters": {
-  "metadata_read": 400,
+  "metadata_read": 370,
   "rejected": {
-   "adult-screening": 91,
-   "no-open-licence": 449
+   "adult-screening": 205,
+   "no-open-licence": 492
   },
   "searched_pages": 10,
-  "seen": 1343
+  "seen": 2000
  },
- "last_run": "2026-11-16T08:52:25Z",
+ "last_run": "2026-11-17T10:01:29Z",
  "schema": 1,
  "views": {
   "Comedy_Films|cc": {
-   "done": true,
-   "done_at": "2026-11-03T08:52:22Z",
+   "done": false,
    "found": 616,
    "page": 4,
    "rejected": {
-    "adult-screening": 25,
+    "adult-screening": 24,
     "no-open-licence": 299
    },
-   "seen": 616
+   "seen": 600
   },
   "Comedy_Films|rights": {
    "done": true,
@@ -113,12 +112,12 @@
   "classic_tv|cc": {
    "done": false,
    "found": 2520,
-   "page": 11,
+   "page": 13,
    "rejected": {
-    "adult-screening": 49,
-    "no-open-licence": 1228
+    "adult-screening": 80,
+    "no-open-licence": 1232
    },
-   "seen": 2000
+   "seen": 2400
   },
   "classic_tv|rights": {
    "done": true,
@@ -149,12 +148,12 @@
   "feature_films|cc": {
    "done": false,
    "found": 9133,
-   "page": 18,
+   "page": 21,
    "rejected": {
-    "adult-screening": 223,
-    "no-open-licence": 1469
+    "adult-screening": 299,
+    "no-open-licence": 1504
    },
-   "seen": 3400
+   "seen": 4000
   },
   "feature_films|rights": {
    "done": true,
@@ -226,15 +225,14 @@
    "seen": 5
   },
   "silent_films|cc": {
-   "done": true,
-   "done_at": "2026-11-03T08:52:22Z",
+   "done": false,
    "found": 729,
-   "page": 4,
+   "page": 3,
    "rejected": {
-    "adult-screening": 118,
-    "no-open-licence": 176
+    "adult-screening": 74,
+    "no-open-licence": 154
    },
-   "seen": 729
+   "seen": 400
   },
   "silent_films|rights": {
    "done": true,
