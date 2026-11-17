@@ -1,6 +1,44 @@
 # Automatically admitted channels (scripts/expand_catalog.py). Published only after a successful live
 # check. Edit by moving a record to data/approved/<cc>.yaml (human-reviewed) or data/rejected/.
 channels:
+- id: novosadska-tv-rs
+  name: Novosadska TV
+  alt_names:
+  - Новосадска ТВ
+  broadcaster: Srbija danas doo
+  country: rs
+  languages:
+  - sr
+  categories:
+  - general
+  website: http://www.novosadska.tv/
+  stream:
+    url: https://live.novosadska.tv/hls/mystream.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/rs.m3u
+    evidence_url: http://www.novosadska.tv/
+    evidence_summary: 'Automated owner-domain match: stream host live.novosadska.tv is on the broadcaster''s domain novosadska.tv.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: NovosadskaTV.rs@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''
 - id: rtv-novi-pazar-rs
   name: RTV Novi Pazar
   alt_names: []

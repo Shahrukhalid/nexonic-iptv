@@ -113,3 +113,40 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: ebc-lifelong-learning-kh
+  name: EBC Lifelong Learning
+  alt_names: []
+  broadcaster: EBC Lifelong Learning
+  country: kh
+  languages:
+  - km
+  categories:
+  - education
+  website: https://ebc.edu.kh/
+  stream:
+    url: https://iptv.ebc.edu.kh/iptv/channel/2.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/kh.m3u
+    evidence_url: https://ebc.edu.kh/
+    evidence_summary: 'Automated owner-domain match: stream host iptv.ebc.edu.kh is on the broadcaster''s domain edu.kh. Channel
+      metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: EBCLifelongLearning.kh@SD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

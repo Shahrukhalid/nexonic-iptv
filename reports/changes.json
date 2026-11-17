@@ -6,11 +6,11 @@
   "counts": {
     "published": 550,
     "verified_playlist": 458,
-    "excluded": 206,
+    "excluded": 210,
     "pending_authorization": 43,
     "quarantined": 180,
     "duplicates_excluded_total": 0,
-    "new_candidates": 0,
+    "new_candidates": 4,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
@@ -44,23 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
-    "language-not-supported": 3,
+    "admitted": 607,
+    "aggregator-host": 1004,
+    "already-curated": 492,
+    "closed": 90,
+    "excluded-category": 1176,
+    "host-not-owned-by-broadcaster": 7255,
+    "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
-    "subscription-service": 101,
-    "url-policy": 4628
+    "needs-special-headers": 1149,
+    "no-database-entry": 2092,
+    "nsfw-or-blocklisted": 4,
+    "sanctions-exclusion": 608,
+    "streams": 18757,
+    "subscription-service": 114,
+    "url-policy": 4086
   },
   "integrity": {
     "ok": true,
@@ -72,7 +70,36 @@
   },
   "attention": [],
   "lists": {
-    "new_candidates": [],
+    "new_candidates": [
+      {
+        "id": "acn-tv-cm",
+        "name": "ACN TV",
+        "country": "cm",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "ebc-lifelong-learning-kh",
+        "name": "EBC Lifelong Learning",
+        "country": "kh",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "novosadska-tv-rs",
+        "name": "Novosadska TV",
+        "country": "rs",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "smash-radio-tt-tt",
+        "name": "Smash Radio TT",
+        "country": "tt",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      }
+    ],
     "new_published": [],
     "updated": [],
     "duplicates_removed": [],

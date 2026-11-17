@@ -783,7 +783,7 @@ Compared with the run at 2026-11-16T11:23:01Z (UTC).
 
 | Change | Count |
 |---|---:|
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 4 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |

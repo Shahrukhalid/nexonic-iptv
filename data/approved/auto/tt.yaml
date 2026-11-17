@@ -38,3 +38,43 @@ channels:
     adult_screening: pass
     notes: Published only after passing a live check.
     rejection_reason: ''
+- id: smash-radio-tt-tt
+  name: Smash Radio TT
+  alt_names:
+  - Smash Radio Live
+  - Smash Radio WebTV
+  broadcaster: Arnold Lindow
+  country: tt
+  languages:
+  - en
+  categories:
+  - music
+  - entertainment
+  website: https://www.smashradiott.com
+  stream:
+    url: https://nginx.smashradiott.com/hls/program/master.m3u8
+    protocol: hls
+    quality: unknown
+  source:
+    reference_url: https://github.com/iptv-org/iptv/blob/master/streams/tt.m3u
+    evidence_url: https://www.smashradiott.com
+    evidence_summary: 'Automated owner-domain match: stream host nginx.smashradiott.com is on the broadcaster''s domain smashradiott.com.
+      Channel metadata from iptv-org/database.'
+    evidence_checked: null
+    notes: ''
+    method: automated-domain-match
+  epg_id: SmashRadioTT.tt@HD
+  logo: null
+  geo:
+    restricted: unknown
+    regions: []
+  is_nsfw: false
+  first_discovered: '2026-11-17'
+  review:
+    status: approved
+    reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
+    reviewed_at: '2026-11-17'
+    authorization_basis: official-broadcaster-stream
+    adult_screening: pass
+    notes: Published only after passing a live check.
+    rejection_reason: ''

@@ -13,9 +13,9 @@
 | Published channels | 550 |
 | In verified playlist | 458 |
 | Quarantined | 180 |
-| Excluded approved records | 206 |
+| Excluded approved records | 210 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 4 |
 | New channels published | 0 |
 | Channels updated (metadata or URL) | 0 |
 | Duplicates removed | 0 |
@@ -63,23 +63,30 @@ Nothing.
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
-| language-not-supported | 3 |
+| admitted | 607 |
+| aggregator-host | 1004 |
+| already-curated | 492 |
+| closed | 90 |
+| excluded-category | 1176 |
+| host-not-owned-by-broadcaster | 7255 |
+| language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1149 |
+| no-database-entry | 2092 |
+| nsfw-or-blocklisted | 4 |
+| sanctions-exclusion | 608 |
+| streams | 18757 |
+| subscription-service | 114 |
+| url-policy | 4086 |
+
+## New candidates discovered (not published) (4)
+
+| Channel | Country | Detail |
+|---|---|---|
+| ACN TV (`acn-tv-cm`) | cm | record: approved, kind: awaiting-first-check |
+| EBC Lifelong Learning (`ebc-lifelong-learning-kh`) | kh | record: approved, kind: awaiting-first-check |
+| Novosadska TV (`novosadska-tv-rs`) | rs | record: approved, kind: awaiting-first-check |
+| Smash Radio TT (`smash-radio-tt-tt`) | tt | record: approved, kind: awaiting-first-check |
 
 ## Newly failing (1)
 
