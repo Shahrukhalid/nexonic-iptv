@@ -113,12 +113,14 @@ https://streams.prd.commavservices.eu/live/ebs/index.m3u8
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="CanalAlphaJura.ch@SD" tvg-name="Canal Alpha Jura" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="1080p",Canal Alpha Jura
 https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalAlphaNeuchatel.ch@SD" tvg-name="Canal Alpha Neuchatel" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="1080p",Canal Alpha Neuchatel
+#EXTINF:-1 tvg-id="CanalAlphaNeuchatel.ch@SD" tvg-name="Canal Alpha Neuchatel" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/eQ8xHK9.jpg" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="sd",Canal Alpha Neuchatel
 https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
 #EXTINF:-1 tvg-id="ImmaculataTV.ch@SD" tvg-name="Immaculata TV" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/8WsYVpt.png" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="720p",Immaculata TV
 https://g5nl63z8lpq6-hls-live.5centscdn.com/tvistream/a5586d8ea3b7b021120a05c60dc59876.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Radio3i.ch@SD" tvg-name="Radio 3i" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/0Kmh49G.png" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="720p",Radio 3i
 https://vstream-cdn.ch/hls/radio3i.m3u8
+#EXTINF:-1 tvg-id="SRFinfo.ch@SD" tvg-name="SRF info" tvg-country="CH" tvg-language="German;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/960px-Logo_SRF_info.svg.png" group-title="Switzerland" x-tier="community" x-status="verified" x-quality="720p",SRF info
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/srf_info/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="AdriaMusicTelevision.de@SD" tvg-name="Adria Music Television" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/QoDpnKg.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Adria Music Television
 https://adriaapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="AlexBerlin.de@SD" tvg-name="Alex Berlin" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/eTmHk4e.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="1080p",Alex Berlin
@@ -247,6 +249,8 @@ https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SonnenklarTV.de@SD" tvg-name="Sonnenklar TV" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/g4QeXwF.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="1080p",Sonnenklar TV
 http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
+#EXTINF:-1 tvg-id="Sport1.de@SD" tvg-name="Sport1" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/Tsjt7v9.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="sd",Sport1
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/sport1/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="SRFernsehen.de@SD" tvg-name="SR Fernsehen" tvg-country="DE" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/960px-SR_Fernsehen_Logo_2023.svg.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="720p",SR Fernsehen
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8
 #EXTINF:-1 tvg-id="SWR3VisualRadio.de@SD" tvg-name="SWR 3 Visual Radio" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/PxSgxRO.jpg" group-title="Germany" x-tier="community" x-status="verified" x-quality="1080p",SWR 3 Visual Radio

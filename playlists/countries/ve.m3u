@@ -3,10 +3,10 @@
 https://streaming.canal-i.com/canal-i/live/master.m3u8
 #EXTINF:-1 tvg-id="TAMTV.ve@SD" tvg-name="TAM TV" tvg-country="VE" tvg-language="Spanish" group-title="General",TAM TV
 https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="AbejalesTV.ve@HD" tvg-name="AbejalesTV" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800" group-title="Entertainment" x-tier="community" x-status="verified" x-quality="720p",AbejalesTV
+https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8
 #EXTINF:-1 tvg-id="BTATV.ve@SD" tvg-name="BTA TV" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Music" x-tier="community" x-status="verified" x-quality="720p",BTA TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
-#EXTINF:-1 tvg-id="CanalCdelZulia.ve@HD" tvg-name="Canal C del Zulia" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ew44KOZ.png" group-title="General" x-tier="community" x-status="verified" x-quality="1080p",Canal C del Zulia
-https://calm-forest-3478.cristianbracho904.workers.dev/live/index.m3u8
 #EXTINF:-1 tvg-id="CatatumboTV.ve@SD" tvg-name="Catatumbo TV" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/LBI2la0.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Catatumbo TV
 https://cloud.fastchannel.es/manifiest/hls/prog9/catatumbotv.m3u8
 #EXTINF:-1 tvg-id="eSportsMaxTV.ve@SD" tvg-name="eSports Max TV" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Kids" x-tier="community" x-status="verified" x-quality="1080p",eSports Max TV
@@ -31,6 +31,8 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve@EnglishHD" tvg-name="Telesur (English HD)" tvg-country="VE" tvg-language="English" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News" x-tier="community" x-status="verified" x-quality="1080p",Telesur (English HD)
 https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Telesur.ve@English" tvg-name="Telesur (English)" tvg-country="VE" tvg-language="English" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News" x-tier="community" x-status="verified" x-quality="sd",Telesur (English)
+https://mblenmain01.telesur.ultrabase.net/mblivev3/480p/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisoradeOriente.ve@SD" tvg-name="Televisora de Oriente" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/wFC6Xxq.png" group-title="General" x-tier="community" x-status="verified" x-quality="sd",Televisora de Oriente
 https://cloud.fastchannel.es/manifiest/hls/prog9/tvo.m3u8
 #EXTINF:-1 tvg-id="TRT.ve@SD" tvg-name="TRT" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/Canal_trt_logo.PNG" group-title="General" x-tier="community" x-status="verified" x-quality="720p",TRT
