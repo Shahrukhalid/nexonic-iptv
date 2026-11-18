@@ -275,13 +275,13 @@ channels:
   - entertainment
   website: https://olidigital.in/
   stream:
-    url: https://live.olidigital.in/olitv/olitv/index.m3u8
+    url: https://hlslive.olidigital.in/olitv/olitv/index.m3u8
     protocol: hls
     quality: unknown
   source:
     reference_url: https://github.com/iptv-org/iptv/blob/master/streams/in.m3u
     evidence_url: https://olidigital.in/
-    evidence_summary: 'Automated owner-domain match: stream host live.olidigital.in is on the broadcaster''s domain olidigital.in.
+    evidence_summary: 'Automated owner-domain match: stream host hlslive.olidigital.in is on the broadcaster''s domain olidigital.in.
       Channel metadata from iptv-org/database.'
     evidence_checked: null
     notes: ''
@@ -296,7 +296,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-18'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

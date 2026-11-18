@@ -12,7 +12,7 @@
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
-    "updated": 0,
+    "updated": 5,
     "duplicates_removed": 0,
     "newly_failing": 5,
     "newly_quarantined": 4,
@@ -44,23 +44,21 @@
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
-    "language-not-supported": 3,
+    "admitted": 607,
+    "aggregator-host": 1004,
+    "already-curated": 492,
+    "closed": 91,
+    "excluded-category": 1177,
+    "host-not-owned-by-broadcaster": 7266,
+    "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
-    "subscription-service": 101,
-    "url-policy": 4628
+    "needs-special-headers": 1147,
+    "no-database-entry": 2091,
+    "nsfw-or-blocklisted": 4,
+    "sanctions-exclusion": 608,
+    "streams": 18765,
+    "subscription-service": 114,
+    "url-policy": 4084
   },
   "integrity": {
     "ok": true,
@@ -76,7 +74,53 @@
   "lists": {
     "new_candidates": [],
     "new_published": [],
-    "updated": [],
+    "updated": [
+      {
+        "id": "24-horas-canarias-es",
+        "name": "24 Horas Canarias",
+        "country": "es",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      },
+      {
+        "id": "24-horas-catalunya-es",
+        "name": "24 Horas Catalunya",
+        "country": "es",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      },
+      {
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      },
+      {
+        "id": "ctv-bo",
+        "name": "CTV",
+        "country": "bo",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      },
+      {
+        "id": "oli-tv-in",
+        "name": "Oli TV",
+        "country": "in",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      }
+    ],
     "duplicates_removed": [],
     "newly_failing": [
       {

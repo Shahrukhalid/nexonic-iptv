@@ -789,7 +789,7 @@ Compared with the run at 2026-11-17T09:50:59Z (UTC).
 |---|---:|
 | New candidates discovered (not published) | 0 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 5 |
 | Duplicates removed | 0 |
 | Newly failing | 5 |
 | Newly quarantined | 4 |

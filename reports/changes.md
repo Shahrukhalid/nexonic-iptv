@@ -17,7 +17,7 @@
 | Pending authorization | 43 |
 | New candidates discovered (not published) | 0 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 5 |
 | Duplicates removed | 0 |
 | Newly failing | 5 |
 | Newly quarantined | 4 |
@@ -63,23 +63,31 @@ Community catalogue: 7355 streams (built 2026-11-17T09:51:09Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
-| language-not-supported | 3 |
+| admitted | 607 |
+| aggregator-host | 1004 |
+| already-curated | 492 |
+| closed | 91 |
+| excluded-category | 1177 |
+| host-not-owned-by-broadcaster | 7266 |
+| language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1147 |
+| no-database-entry | 2091 |
+| nsfw-or-blocklisted | 4 |
+| sanctions-exclusion | 608 |
+| streams | 18765 |
+| subscription-service | 114 |
+| url-policy | 4084 |
+
+## Channels updated (metadata or URL) (5)
+
+| Channel | Country | Detail |
+|---|---|---|
+| 24 Horas Canarias (`24-horas-canarias-es`) | es | fields: ['stream_url'], url_changed: True |
+| 24 Horas Catalunya (`24-horas-catalunya-es`) | es | fields: ['stream_url'], url_changed: True |
+| America Internacional (`america-internacional-pe`) | pe | fields: ['stream_url'], url_changed: True |
+| CTV (`ctv-bo`) | bo | fields: ['stream_url'], url_changed: True |
+| Oli TV (`oli-tv-in`) | in | fields: ['stream_url'], url_changed: True |
 
 ## Newly failing (5)
 

@@ -14,14 +14,14 @@ channels:
   - general
   website: https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
   stream:
-    url: https://ztnr.rtve.es/ztnr/5473142.m3u8
+    url: https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8
     protocol: hls
     quality: unknown
   source:
     reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
     evidence_url: https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
-    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
-      metadata from iptv-org/database.'
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream.rtve.es is on the broadcaster''s domain rtve.es.
+      Channel metadata from iptv-org/database.'
     evidence_checked: null
     notes: ''
     method: automated-domain-match
@@ -35,7 +35,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-18'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.
@@ -54,14 +54,14 @@ channels:
   - general
   website: https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
   stream:
-    url: https://ztnr.rtve.es/ztnr/4952053.m3u8
+    url: https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8
     protocol: hls
     quality: unknown
   source:
     reference_url: https://github.com/iptv-org/iptv/blob/master/streams/es.m3u
     evidence_url: https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
-    evidence_summary: 'Automated owner-domain match: stream host ztnr.rtve.es is on the broadcaster''s domain rtve.es. Channel
-      metadata from iptv-org/database.'
+    evidence_summary: 'Automated owner-domain match: stream host rtvelivestream.rtve.es is on the broadcaster''s domain rtve.es.
+      Channel metadata from iptv-org/database.'
     evidence_checked: null
     notes: ''
     method: automated-domain-match
@@ -75,7 +75,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-18'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

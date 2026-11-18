@@ -13,7 +13,7 @@ channels:
   - general
   website: https://ctvbolivia.com/
   stream:
-    url: https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
+    url: https://streaming.ctvbolivia.com/app/ctv/ts:master.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -34,7 +34,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-18'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.
