@@ -1,46 +1,46 @@
 {
-  "reference_time": "2026-11-18T09:28:57Z",
-  "baseline_reference_time": "2026-11-17T11:58:02Z",
+  "reference_time": "2026-11-18T11:48:08Z",
+  "baseline_reference_time": "2026-11-18T09:28:57Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 559,
-    "verified_playlist": 489,
-    "excluded": 201,
+    "published": 560,
+    "verified_playlist": 484,
+    "excluded": 200,
     "pending_authorization": 43,
-    "quarantined": 158,
+    "quarantined": 157,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
-    "updated": 5,
+    "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 1,
-    "newly_quarantined": 1,
-    "restored": 7,
+    "newly_failing": 3,
+    "newly_quarantined": 2,
+    "restored": 3,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 146,
-    "restricted": 41,
+    "intermittent": 150,
+    "restricted": 42,
     "unknown": 22,
-    "unreachable": 6,
-    "working": 344
+    "unreachable": 5,
+    "working": 341
   },
   "latest_run": {
-    "run_id": "run-20261118T092303Z",
-    "started_at": "2026-11-18T09:23:03Z",
-    "finished_at": "2026-11-18T09:28:57Z",
+    "run_id": "run-20261118T114203Z",
+    "started_at": "2026-11-18T11:42:03Z",
+    "finished_at": "2026-11-18T11:48:08Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 760,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 58,
-      "INVALID_STREAM": 14,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 136,
-      "UNKNOWN": 56,
+      "GEO_RESTRICTED": 59,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 146,
+      "UNKNOWN": 68,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 463
+      "VERIFIED_WORKING": 447
     }
   },
   "discovery": {
@@ -71,118 +71,68 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "1 channel(s) newly quarantined (failing repeatedly)"
+    "2 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
     "new_published": [],
-    "updated": [
-      {
-        "id": "24-horas-canarias-es",
-        "name": "24 Horas Canarias",
-        "country": "es",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      },
-      {
-        "id": "24-horas-catalunya-es",
-        "name": "24 Horas Catalunya",
-        "country": "es",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      },
-      {
-        "id": "america-internacional-pe",
-        "name": "America Internacional",
-        "country": "pe",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      },
-      {
-        "id": "ctv-bo",
-        "name": "CTV",
-        "country": "bo",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      },
-      {
-        "id": "oli-tv-in",
-        "name": "Oli TV",
-        "country": "in",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      }
-    ],
+    "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "s4c",
-        "name": "S4C",
-        "country": "uk",
+        "id": "big-civic-channel-us",
+        "name": "BIG Civic Channel",
+        "country": "us",
         "state": "unreachable",
-        "error": "variant playlist: HTTP 404 (stream not found)"
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "state": "unreachable",
+        "error": "connection error: ConnectError: All connection attempts failed"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "acn-tv-cm",
-        "name": "ACN TV",
-        "country": "cm",
-        "since": "2026-11-18T09:23:31Z"
+        "id": "big-civic-channel-us",
+        "name": "BIG Civic Channel",
+        "country": "us",
+        "since": "2026-11-18T11:45:05Z"
+      },
+      {
+        "id": "trt-world",
+        "name": "TRT World",
+        "country": "tr",
+        "since": "2026-11-18T11:45:41Z"
       }
     ],
     "restored": [
       {
-        "id": "alternatv-ar",
-        "name": "AlternaTV",
-        "country": "ar",
-        "restored_at": "2026-11-18T09:23:05Z"
+        "id": "america-internacional-pe",
+        "name": "America Internacional",
+        "country": "pe",
+        "restored_at": "2026-11-18T11:44:15Z"
       },
       {
-        "id": "ctv-bo",
-        "name": "CTV",
-        "country": "bo",
-        "restored_at": "2026-11-18T09:23:19Z"
-      },
-      {
-        "id": "digital-channel-bj",
-        "name": "Digital Channel",
-        "country": "bj",
-        "restored_at": "2026-11-18T09:23:16Z"
-      },
-      {
-        "id": "finest-tv-de",
-        "name": "Finest TV",
-        "country": "de",
-        "restored_at": "2026-11-18T09:23:50Z"
-      },
-      {
-        "id": "kalu-tv-co",
-        "name": "Kalu TV",
+        "id": "emisora-comunitaria-104-1-fm-co",
+        "name": "Emisora Comunitaria 104.1 FM",
         "country": "co",
-        "restored_at": "2026-11-18T09:23:43Z"
+        "restored_at": "2026-11-18T11:42:43Z"
       },
       {
-        "id": "qmusic-nl",
-        "name": "Qmusic",
-        "country": "nl",
-        "restored_at": "2026-11-18T09:25:03Z"
-      },
-      {
-        "id": "senal-colombia",
-        "name": "Señal Colombia",
-        "country": "co",
-        "restored_at": "2026-11-18T09:26:24Z"
+        "id": "le-figaro-tv-ile-de-france-fr",
+        "name": "Le Figaro TV Ile-de-France",
+        "country": "fr",
+        "restored_at": "2026-11-18T11:43:08Z"
       }
     ],
     "removed": []
@@ -191,22 +141,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 559,
-      "verified": 489,
-      "not_verified": 70,
-      "with_measured_quality": 491,
+      "published": 560,
+      "verified": 484,
+      "not_verified": 76,
+      "with_measured_quality": 492,
       "per_quality": {
-        "1080p": 249,
+        "1080p": 248,
         "4k": 1,
         "720p": 174,
-        "sd": 67
+        "sd": 69
       }
     },
     "community": {
-      "published": 4270,
-      "verified": 3874,
+      "published": 4281,
+      "verified": 3885,
       "untested": 396,
-      "held_back_after_failed_check": 3095,
+      "held_back_after_failed_check": 3084,
       "never_checked": 0,
       "catalog_streams": 7365,
       "catalog_built_at": "2026-11-18T09:29:05Z",
@@ -214,24 +164,24 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 589,
-        "invalid": 1032,
-        "restricted": 175,
+        "intermittent": 585,
+        "invalid": 1028,
+        "restricted": 174,
         "unknown": 375,
-        "unreachable": 1879,
-        "working": 3315
+        "unreachable": 1873,
+        "working": 3330
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 733
+          "streams": 734
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 548
+          "streams": 549
         },
         {
           "code": "ru",
@@ -246,16 +196,16 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 133
-        },
-        {
-          "code": "cl",
-          "name": "Chile",
-          "streams": 114
+          "streams": 131
         },
         {
           "code": "fr",
           "name": "France",
+          "streams": 116
+        },
+        {
+          "code": "cl",
+          "name": "Chile",
           "streams": 114
         },
         {

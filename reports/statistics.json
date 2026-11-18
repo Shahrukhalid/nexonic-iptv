@@ -1,52 +1,52 @@
 {
-  "reference_time": "2026-11-18T09:28:57Z",
+  "reference_time": "2026-11-18T11:48:08Z",
   "records": {
     "approved": 760,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 559,
-  "excluded_approved": 201,
+  "published_channels": 560,
+  "excluded_approved": 200,
   "countries": 96,
   "languages": 64,
   "categories": 15,
-  "verified_playlist_channels": 489,
+  "verified_playlist_channels": 484,
   "playlist_files": 537,
   "latest_run": {
-    "run_id": "run-20261118T092303Z",
-    "started_at": "2026-11-18T09:23:03Z",
-    "finished_at": "2026-11-18T09:28:57Z",
+    "run_id": "run-20261118T114203Z",
+    "started_at": "2026-11-18T11:42:03Z",
+    "finished_at": "2026-11-18T11:48:08Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 760,
     "by_status": {
       "AUTH_REQUIRED": 2,
-      "GEO_RESTRICTED": 58,
-      "INVALID_STREAM": 14,
-      "TIMEOUT": 30,
-      "UNAVAILABLE": 136,
-      "UNKNOWN": 56,
+      "GEO_RESTRICTED": 59,
+      "INVALID_STREAM": 9,
+      "TIMEOUT": 28,
+      "UNAVAILABLE": 146,
+      "UNKNOWN": 68,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 463
+      "VERIFIED_WORKING": 447
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 463,
-    "UNAVAILABLE": 136,
-    "GEO_RESTRICTED": 58,
+    "VERIFIED_WORKING": 447,
+    "UNAVAILABLE": 146,
+    "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 30,
-    "INVALID_STREAM": 14,
+    "TIMEOUT": 28,
+    "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 56,
+    "UNKNOWN": 68,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 6,
-    "geo-restricted": 41,
-    "previously-working": 44,
+    "currently-failing": 5,
+    "geo-restricted": 42,
+    "previously-working": 61,
     "unknown": 5,
-    "verified-recently": 463
+    "verified-recently": 447
   },
   "per_country": {
     "ae": {
@@ -157,7 +157,7 @@
     "co": {
       "name": "Colombia",
       "flag": "🇨🇴",
-      "channels": 8
+      "channels": 9
     },
     "cw": {
       "name": "Curacao",
@@ -585,7 +585,7 @@
     },
     "es": {
       "name": "Spanish",
-      "channels": 69
+      "channels": 70
     },
     "et": {
       "name": "Estonian",
@@ -811,7 +811,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 203
+      "channels": 204
     },
     "kids": {
       "name": "Kids",
@@ -853,22 +853,22 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 559,
-      "verified": 489,
-      "not_verified": 70,
-      "with_measured_quality": 491,
+      "published": 560,
+      "verified": 484,
+      "not_verified": 76,
+      "with_measured_quality": 492,
       "per_quality": {
-        "1080p": 249,
+        "1080p": 248,
         "4k": 1,
         "720p": 174,
-        "sd": 67
+        "sd": 69
       }
     },
     "community": {
-      "published": 4270,
-      "verified": 3874,
+      "published": 4281,
+      "verified": 3885,
       "untested": 396,
-      "held_back_after_failed_check": 3095,
+      "held_back_after_failed_check": 3084,
       "never_checked": 0,
       "catalog_streams": 7365,
       "catalog_built_at": "2026-11-18T09:29:05Z",
@@ -876,24 +876,24 @@
       "countries": 157,
       "languages": 90,
       "lifecycle": {
-        "intermittent": 589,
-        "invalid": 1032,
-        "restricted": 175,
+        "intermittent": 585,
+        "invalid": 1028,
+        "restricted": 174,
         "unknown": 375,
-        "unreachable": 1879,
-        "working": 3315
+        "unreachable": 1873,
+        "working": 3330
       },
       "removed_at_generation": {},
       "top_countries": [
         {
           "code": "us",
           "name": "United States",
-          "streams": 733
+          "streams": 734
         },
         {
           "code": "in",
           "name": "India",
-          "streams": 548
+          "streams": 549
         },
         {
           "code": "ru",
@@ -908,16 +908,16 @@
         {
           "code": "uk",
           "name": "United Kingdom",
-          "streams": 133
-        },
-        {
-          "code": "cl",
-          "name": "Chile",
-          "streams": 114
+          "streams": 131
         },
         {
           "code": "fr",
           "name": "France",
+          "streams": 116
+        },
+        {
+          "code": "cl",
+          "name": "Chile",
           "streams": 114
         },
         {
