@@ -11,6 +11,8 @@ https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/ind
 https://playhls.media.nic.in/hls/live/lstv/lstv.m3u8
 #EXTINF:-1 tvg-id="SansadTV2.in@HD" tvg-name="Sansad TV 2" tvg-country="IN" tvg-language="Hindi;English" group-title="India",Sansad TV 2
 https://playhls.media.nic.in/hls/live/rstv/rstv.m3u8
+#EXTINF:-1 tvg-id="MBCBollywood.ae@SD" tvg-name="MBC Bollywood" tvg-country="AE" tvg-language="English;Hindi;Arabic" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="United Arab Emirates" x-tier="community" x-status="verified" x-quality="1080p",MBC Bollywood
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
 #EXTINF:-1 tvg-id="ApnaPunjabTV.ca@SD" tvg-name="Apna Punjab TV" tvg-country="CA" tvg-language="Hindi" tvg-logo="https://i.imgur.com/IM4D8Wz.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="720p",Apna Punjab TV
 https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
 #EXTINF:-1 tvg-id="GurSikhSabhaTV.ca@SD" tvg-name="GurSikh Sabha TV" tvg-country="CA" tvg-language="Hindi" tvg-logo="https://i.imgur.com/2EKCtQm.png" group-title="Canada" x-tier="community" x-status="verified" x-quality="720p",GurSikh Sabha TV
@@ -155,8 +157,6 @@ https://samitaorigin.tangotv.in/FGNCHANNEL/SAMITAORIGIN/index.m3u8
 https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
 #EXTINF:-1 tvg-id="GlobalIndia.in@SD" tvg-name="Global India" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_India.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Global India
 https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8
-#EXTINF:-1 tvg-id="Goldmines.in@SD" tvg-name="Goldmines" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Goldmines
-https://tvsen6.aynaott.com/hKrngve2/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" tvg-name="Goldmines Bollywood" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/6mNQ9mM.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Goldmines Bollywood
 https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="GreenGoldTV.in@India" tvg-name="Green Gold TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.ibb.co/TDPsPVkT/Greengoldtv.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Green Gold TV
@@ -203,7 +203,7 @@ https://mumt07.tangotv.in/zHjX9OFlKNEWSINDIA/index.m3u8
 https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="Kadak.in@SD" tvg-name="Kadak" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Kadak.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Kadak
 https://n18syndication.akamaized.net/bpk-tv/Kadak_NW18_MOB/output01/master.m3u8
-#EXTINF:-1 tvg-id="KashishNews.in@SD" tvg-name="Kashish News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/qfINs2r.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Kashish News
+#EXTINF:-1 tvg-id="KashishNews.in@SD" tvg-name="Kashish News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/qfINs2r.png" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Kashish News
 https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
 #EXTINF:-1 tvg-id="KaumudyTV.in@SD" tvg-name="Kaumudy TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s143259_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Kaumudy TV
 https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
@@ -241,7 +241,7 @@ https://streams.tangotv.in/MHONEDILSE/ORIGIN/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3MHONESHRADDHA/index.m3u8
 #EXTINF:-1 tvg-id="MusicIndia.in@SD" tvg-name="Music India" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/s143563_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Music India
 https://streams.tangotv.in/MUSICINDIA/ORIGIN/index.m3u8
-#EXTINF:-1 tvg-id="NationNews.in@SD" tvg-name="Nation News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/nationnews.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Nation News
+#EXTINF:-1 tvg-id="NationNews.in@SD" tvg-name="Nation News" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/nationnews.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Nation News
 https://server.playontv.in/nationnews/index.m3u8
 #EXTINF:-1 tvg-id="NDTVGoodTimes.in@SD" tvg-name="NDTV Good Times" tvg-country="IN" tvg-language="English;Hindi;Tamil" tvg-logo="https://i.imgur.com/7cruYvo.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",NDTV Good Times
 https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
@@ -351,6 +351,10 @@ https://cdn.pishow.tv/ott/live/230/master.m3u8
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
 #EXTINF:-1 tvg-id="SindhTV.in@SD" tvg-name="Sindh TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://papaji.freetvindia.com/media/Sindth_TV.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Sindh TV
 https://samitaorigin.tangotv.in/SINDHTV/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Sony Sports Ten 3 Hindi
+https://r2.amml.in/sony-ten-3-hd/live.m3u8
+#EXTINF:-1 tvg-id="SonyYay.in@SD" tvg-name="Sony Yay!" tvg-country="IN" tvg-language="Hindi;Tamil;Telugu;Bengali;Marathi;Malayalam;Kannada;Odia" tvg-logo="https://dtil.tmsimg.com/assets/s159100_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Sony Yay!
+https://r2.amml.in/sony-yay/live.m3u8
 #EXTINF:-1 tvg-id="SouthStation.in@HD" tvg-name="South Station" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20260325T012316SQUARE.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",South Station
 https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8
 #EXTINF:-1 tvg-id="SRKTV.in@SD" tvg-name="SRK TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://asset.bioscopelive.com/uploads/images/2025/08/11/thumbnail_backgrounds_01b5b56aa2e80823f23cc9d708141d1a_goplay_srk_tv_landscape.jpg" group-title="India" x-tier="community" x-status="verified" x-quality="720p",SRK TV
