@@ -16,8 +16,8 @@ import 'net.dart';
 import 'sources.dart';
 import 'xtream.dart';
 
-const siteBase = 'https://shahrukhalid.github.io/nexonic-iptv/playlists';
-const mirrorBase = 'https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main/playlists';
+const siteBase = 'https://nexonic-technologies.github.io/nexonic-iptv/playlists';
+const mirrorBase = 'https://raw.githubusercontent.com/nexonic-technologies/nexonic-iptv/main/playlists';
 
 /// Item kinds in display order.
 const kinds = ['live', 'movie', 'series', 'radio', 'media'];

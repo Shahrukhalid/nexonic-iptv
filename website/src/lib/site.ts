@@ -5,8 +5,8 @@ import verificationData from "../data/verification.json";
 
 export const SITE_NAME = "Nexonic IPTV";
 export const TAGLINE = "Free Live TV. Verified Streams. Worldwide.";
-export const REPO_URL = "https://github.com/Shahrukhalid/nexonic-iptv";
-export const RAW_BASE = "https://raw.githubusercontent.com/Shahrukhalid/nexonic-iptv/main";
+export const REPO_URL = "https://github.com/nexonic-technologies/nexonic-iptv";
+export const RAW_BASE = "https://raw.githubusercontent.com/nexonic-technologies/nexonic-iptv/main";
 
 export type Health = {
   score: number | null;

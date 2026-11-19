@@ -33,7 +33,7 @@ from .safety import SafeNetworkBackend, UnsafeURLError, check_url_policy, resolv
 from .status import CheckResult, Status
 from .timeutil import utc_now_iso
 
-USER_AGENT = "NexonicIPTV-Verifier/1.0 (+https://github.com/Shahrukhalid/nexonic-iptv; stream health check)"
+USER_AGENT = "NexonicIPTV-Verifier/1.0 (+https://github.com/nexonic-technologies/nexonic-iptv; stream health check)"
 HLS_TYPES = (
     "application/vnd.apple.mpegurl",
     "application/x-mpegurl",

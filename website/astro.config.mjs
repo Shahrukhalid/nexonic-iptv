@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 
 // Public URL of the GitHub Pages site. Override with NEXONIC_SITE / NEXONIC_BASE when forking.
-const site = process.env.NEXONIC_SITE ?? "https://shahrukhalid.github.io";
+const site = process.env.NEXONIC_SITE ?? "https://nexonic-technologies.github.io";
 const base = process.env.NEXONIC_BASE ?? "/nexonic-iptv";
 
 export default defineConfig({

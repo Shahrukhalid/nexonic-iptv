@@ -111,8 +111,8 @@ Streams are direct links to archive.org; Nexonic hosts nothing.
 
 A rights holder, or anyone who sees something inappropriate, can:
 
-1. Open the [copyright form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=5-copyright-concern.yml)
-   (or the [adult content form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=3-report-adult-content.yml))
+1. Open the [copyright form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=5-copyright-concern.yml)
+   (or the [adult content form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=3-report-adult-content.yml))
    with the stream URL, host, channel id or Internet Archive identifier.
 2. Or send a pull request adding it to `data/community-exclusions.yaml` (`urls`, `hosts`, `channels`, `vod`).
 
