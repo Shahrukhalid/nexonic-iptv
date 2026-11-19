@@ -118,7 +118,7 @@ class SettingsPage extends StatelessWidget {
               const ListTile(
                 leading: Icon(Icons.public_rounded),
                 title: Text('Website'),
-                subtitle: SelectableText('shahrukhalid.github.io/nexonic-iptv'),
+                subtitle: SelectableText('https://nexonic-technologies.github.io/nexonic-iptv'),
               ),
             ]),
           ]),

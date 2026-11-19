@@ -23,7 +23,7 @@ import httpx
 from .config import DiscoveryConfig
 from .reference import countries
 
-USER_AGENT = "NexonicIPTV-Discovery/1.0 (+https://github.com/Shahrukhalid/nexonic-iptv; catalogue refresh)"
+USER_AGENT = "NexonicIPTV-Discovery/1.0 (+https://github.com/nexonic-technologies/nexonic-iptv; catalogue refresh)"
 RETRY_STATUS = {429, 500, 502, 503, 504}
 MAX_REDIRECTS = 5
 DATABASE_FILES = ("channels.csv", "feeds.csv", "blocklist.csv", "logos.csv")

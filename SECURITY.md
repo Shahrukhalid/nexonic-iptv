@@ -2,7 +2,7 @@
 
 ## Reporting
 Please report vulnerabilities, leaked secrets, or sensitive copyright/safety matters **privately** using GitHub's
-[private vulnerability reporting](https://github.com/Shahrukhalid/nexonic-iptv/security/advisories/new).
+[private vulnerability reporting](https://github.com/nexonic-technologies/nexonic-iptv/security/advisories/new).
 Do not open a public issue for these. We aim to respond within 7 days.
 
 ## Scope

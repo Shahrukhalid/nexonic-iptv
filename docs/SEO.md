@@ -25,7 +25,7 @@ We never describe pay-TV or premium sports as available; we do not target such q
 - Static HTML, no client framework, no third-party requests — fast and private.
 - Internal linking: home → country hub → country pages → channel evidence; footer links to policies.
 
-**Project-site note:** on `shahrukhalid.github.io/nexonic-iptv/` crawlers read robots.txt from the domain root, which
+**Project-site note:** on `https://nexonic-technologies.github.io/nexonic-iptv/` crawlers read robots.txt from the domain root, which
 this repo does not control. Submit `sitemap.xml` directly in Google Search Console / Bing Webmaster Tools.
 
 ## Launch checklist

@@ -13,8 +13,8 @@ import tomllib
 from dataclasses import dataclass, field, fields
 from pathlib import Path
 
-REPO = os.environ.get("NEXONIC_REPO", "Shahrukhalid/nexonic-iptv")
-SITE_URL = os.environ.get("NEXONIC_SITE_URL", "https://shahrukhalid.github.io/nexonic-iptv").rstrip("/")
+REPO = os.environ.get("NEXONIC_REPO", "nexonic-technologies/nexonic-iptv")
+SITE_URL = os.environ.get("NEXONIC_SITE_URL", "https://nexonic-technologies.github.io/nexonic-iptv").rstrip("/")
 RAW_BASE = os.environ.get("NEXONIC_RAW_BASE", f"https://raw.githubusercontent.com/{REPO}/main").rstrip("/")
 REPO_URL = f"https://github.com/{REPO}"
 

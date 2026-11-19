@@ -6,10 +6,10 @@ and [docs/CONTENT_POLICY.md](docs/CONTENT_POLICY.md) before suggesting channels.
 ## Contributors wanted
 Nexonic IPTV is a free, open directory of officially free live TV, organised by country, language and category. Every
 stream is checked automatically every day and the catalogue is growing. Help is welcome (see also
-[issue #10](https://github.com/Shahrukhalid/nexonic-iptv/issues/10)).
+[issue #10](https://github.com/nexonic-technologies/nexonic-iptv/issues/10)).
 
 - **Suggest channels.** A broadcaster that streams a channel free on its own website: use the
-  [channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml)
+  [channel suggestion form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=2-suggest-channel.yml)
   with a link to the live page.
 - **Share sources.** Public M3U/M3U8 playlists, EPG (XMLTV) guides or country lists that are openly licensed or
   published by broadcasters. Playlist sources are added as `[[discovery.extra_m3u]]` entries in
@@ -36,16 +36,16 @@ website · evidence page showing the broadcaster offers it free · confirmation 
 
 ## How to suggest a channel
 1. Search [PLAYLISTS.md](PLAYLISTS.md) and `data/` to see if it is already listed, pending or rejected.
-2. Open the [channel suggestion form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=2-suggest-channel.yml)
+2. Open the [channel suggestion form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=2-suggest-channel.yml)
    and fill in every field. **Official evidence is required**: the broadcaster's own page that plays the stream free
    of charge. Third-party lists, restreams and screenshots are not evidence.
 3. Or open a pull request that adds a record to `data/pending/` (see below).
 
 ## How to report a broken stream
-Use the [broken channel form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=1-broken-channel.yml).
+Use the [broken channel form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=1-broken-channel.yml).
 Say which country you are in and whether the stream plays on the broadcaster's own site; many streams are limited to
 their home country and are labelled that way. For bugs in the scripts or website use the
-[bug report form](https://github.com/Shahrukhalid/nexonic-iptv/issues/new?template=7-bug-report.yml).
+[bug report form](https://github.com/nexonic-technologies/nexonic-iptv/issues/new?template=7-bug-report.yml).
 
 ## How review and authorization work
 - New channels start in `data/pending/`. A maintainer reviews the evidence page, checks that the stream host belongs
