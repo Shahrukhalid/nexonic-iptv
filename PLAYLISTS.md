@@ -4,19 +4,19 @@
 
 Paste any URL below into VLC, Kodi or another IPTV player. Counts come from the generated files. Three tiers are published and never mixed; read [docs/TIERS.md](docs/TIERS.md) for what each one promises.
 
-Freshness reference (latest verification run): **2026-11-19T09:41:29Z**
+Freshness reference (latest verification run): **2026-11-19T11:46:00Z**
 
 ## Main
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| All channels | 4457 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
+| All channels | 4458 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/all.m3u` |
 
 ## Nexonic Verified
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Nexonic Verified (working in the last 48 h) | 4397 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
+| Nexonic Verified (working in the last 48 h) | 4398 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/verified.m3u` |
 
 ## By country
 
@@ -151,7 +151,7 @@ Freshness reference (latest verification run): **2026-11-19T09:41:29Z**
 | 🇷🇼 Rwanda | 5 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/rw.m3u` |
 | 🇸🇦 Saudi Arabia | 39 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sa.m3u` |
 | 🇸🇩 Sudan | 2 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sd.m3u` |
-| 🇸🇪 Sweden | 11 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/se.m3u` |
+| 🇸🇪 Sweden | 12 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/se.m3u` |
 | 🇸🇬 Singapore | 9 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sg.m3u` |
 | 🇸🇮 Slovenia | 1 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/si.m3u` |
 | 🇸🇰 Slovakia | 9 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/countries/sk.m3u` |
@@ -200,10 +200,10 @@ Freshness reference (latest verification run): **2026-11-19T09:41:29Z**
 | Catalan | 17 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/ca.m3u` |
 | Czech | 19 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/cs.m3u` |
 | Welsh | 1 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/cy.m3u` |
-| Danish | 8 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/da.m3u` |
+| Danish | 9 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/da.m3u` |
 | German | 147 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/de.m3u` |
 | Greek | 28 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/el.m3u` |
-| English | 1109 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/en.m3u` |
+| English | 1110 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/en.m3u` |
 | Spanish | 898 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/es.m3u` |
 | Estonian | 8 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/et.m3u` |
 | Basque | 6 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/languages/eu.m3u` |
@@ -289,7 +289,7 @@ Freshness reference (latest verification run): **2026-11-19T09:41:29Z**
 | Culture | 573 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/culture.m3u` |
 | Documentary | 51 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/documentary.m3u` |
 | Education | 104 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/education.m3u` |
-| Entertainment | 382 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
+| Entertainment | 383 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/entertainment.m3u` |
 | General | 1699 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/general.m3u` |
 | Kids | 130 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/kids.m3u` |
 | Legislative | 76 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/categories/legislative.m3u` |
@@ -308,10 +308,10 @@ Official channels grouped by the resolution the checker measured (best variant o
 
 | Playlist | Channels | URL |
 |---|---:|---|
-| Measured 1080p | 2033 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` |
+| Measured 1080p | 2031 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/1080p.m3u` |
 | Measured 4K / 2160p | 3 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/4k.m3u` |
-| Measured 720p | 1530 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/720p.m3u` |
-| Measured SD (below 720p) | 823 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/sd.m3u` |
+| Measured 720p | 1531 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/720p.m3u` |
+| Measured SD (below 720p) | 825 | `https://shahrukhalid.github.io/nexonic-iptv/playlists/quality/sd.m3u` |
 
 ## Community tier
 

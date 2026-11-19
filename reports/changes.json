@@ -1,6 +1,6 @@
 {
-  "reference_time": "2026-11-19T09:41:29Z",
-  "baseline_reference_time": "2026-11-19T01:20:21Z",
+  "reference_time": "2026-11-19T11:46:00Z",
+  "baseline_reference_time": "2026-11-19T09:41:29Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
@@ -8,39 +8,39 @@
     "verified_playlist": 490,
     "excluded": 195,
     "pending_authorization": 43,
-    "quarantined": 153,
+    "quarantined": 152,
     "duplicates_excluded_total": 0,
-    "new_candidates": 1,
-    "new_published": 1,
-    "updated": 3,
+    "new_candidates": 0,
+    "new_published": 0,
+    "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 4,
-    "newly_quarantined": 2,
-    "restored": 3,
-    "removed": 17
+    "newly_failing": 1,
+    "newly_quarantined": 0,
+    "restored": 1,
+    "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 160,
+    "intermittent": 164,
     "restricted": 42,
     "unknown": 5,
-    "unreachable": 7,
-    "working": 336
+    "unreachable": 6,
+    "working": 333
   },
   "latest_run": {
-    "run_id": "run-20261119T093520Z",
-    "started_at": "2026-11-19T09:35:20Z",
-    "finished_at": "2026-11-19T09:41:29Z",
+    "run_id": "run-20261119T113955Z",
+    "started_at": "2026-11-19T11:39:55Z",
+    "finished_at": "2026-11-19T11:46:00Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 745,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 141,
-      "UNKNOWN": 49,
+      "TIMEOUT": 26,
+      "UNAVAILABLE": 125,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 455
+      "VERIFIED_WORKING": 470
     }
   },
   "discovery": {
@@ -70,207 +70,31 @@
     "playlist_files": 538,
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
-  "attention": [
-    "2 channel(s) newly quarantined (failing repeatedly)"
-  ],
+  "attention": [],
   "lists": {
-    "new_candidates": [
-      {
-        "id": "tv-jefimija-rs",
-        "name": "TV Jefimija",
-        "country": "rs",
-        "record": "approved",
-        "kind": "awaiting-first-check"
-      }
-    ],
-    "new_published": [
-      {
-        "id": "tv-pi-kanal-rs",
-        "name": "TV Pi Kanal",
-        "country": "rs"
-      }
-    ],
-    "updated": [
-      {
-        "id": "novosadska-tv-rs",
-        "name": "Novosadska TV",
-        "country": "rs",
-        "fields": [
-          "website"
-        ],
-        "url_changed": false
-      },
-      {
-        "id": "tdi-radio-tv-rs",
-        "name": "TDI Radio TV",
-        "country": "rs",
-        "fields": [
-          "website"
-        ],
-        "url_changed": false
-      },
-      {
-        "id": "tv-canal-sur-do",
-        "name": "TV Canal Sur",
-        "country": "do",
-        "fields": [
-          "stream_url"
-        ],
-        "url_changed": true
-      }
-    ],
+    "new_candidates": [],
+    "new_published": [],
+    "updated": [],
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "channel-7-th",
-        "name": "Channel 7",
-        "country": "th",
+        "id": "one-ard",
+        "name": "ONE",
+        "country": "de",
         "state": "unreachable",
         "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "digital-channel-bj",
-        "name": "Digital Channel",
-        "country": "bj",
-        "state": "unreachable",
-        "error": "HTTP 404 (stream not found)"
-      },
-      {
-        "id": "finest-tv-de",
-        "name": "Finest TV",
-        "country": "de",
-        "state": "unreachable",
-        "error": "no response within 10s"
-      },
-      {
-        "id": "tv-jefimija-rs",
-        "name": "TV Jefimija",
-        "country": "rs",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)"
       }
     ],
-    "newly_quarantined": [
-      {
-        "id": "digital-channel-bj",
-        "name": "Digital Channel",
-        "country": "bj",
-        "since": "2026-11-19T09:35:35Z"
-      },
-      {
-        "id": "finest-tv-de",
-        "name": "Finest TV",
-        "country": "de",
-        "since": "2026-11-19T09:36:11Z"
-      }
-    ],
+    "newly_quarantined": [],
     "restored": [
       {
-        "id": "parlamento-de-navarra-es",
-        "name": "Parlamento de Navarra",
-        "country": "es",
-        "restored_at": "2026-11-19T09:36:27Z"
-      },
-      {
-        "id": "tv-canal-sur-do",
-        "name": "TV Canal Sur",
-        "country": "do",
-        "restored_at": "2026-11-19T09:36:16Z"
-      },
-      {
-        "id": "ulytau-kz",
-        "name": "Ulytau",
-        "country": "kz",
-        "restored_at": "2026-11-19T09:37:13Z"
+        "id": "digital-channel-bj",
+        "name": "Digital Channel",
+        "country": "bj",
+        "restored_at": "2026-11-19T11:40:07Z"
       }
     ],
-    "removed": [
-      {
-        "id": "trace-africa-fr",
-        "name": "Trace Africa",
-        "country": "fr"
-      },
-      {
-        "id": "trace-afrikora-fr",
-        "name": "Trace Afrikora",
-        "country": "fr"
-      },
-      {
-        "id": "trace-ayiti-fr",
-        "name": "Trace Ayiti",
-        "country": "fr"
-      },
-      {
-        "id": "trace-brazuca-fr",
-        "name": "Trace Brazuca",
-        "country": "fr"
-      },
-      {
-        "id": "trace-caribbean-fr",
-        "name": "Trace Caribbean",
-        "country": "fr"
-      },
-      {
-        "id": "trace-jama-fr",
-        "name": "Trace Jama",
-        "country": "fr"
-      },
-      {
-        "id": "trace-kitoko-fr",
-        "name": "Trace Kitoko",
-        "country": "fr"
-      },
-      {
-        "id": "trace-latina-fr",
-        "name": "Trace Latina",
-        "country": "fr"
-      },
-      {
-        "id": "trace-mboa-fr",
-        "name": "Trace Mboa",
-        "country": "fr"
-      },
-      {
-        "id": "trace-muzika-fr",
-        "name": "Trace Muzika",
-        "country": "fr"
-      },
-      {
-        "id": "trace-mziki-fr",
-        "name": "Trace Mziki",
-        "country": "fr"
-      },
-      {
-        "id": "trace-naija-fr",
-        "name": "Trace Naija",
-        "country": "fr"
-      },
-      {
-        "id": "trace-sport-stars-fr",
-        "name": "Trace Sport Stars",
-        "country": "fr"
-      },
-      {
-        "id": "trace-toca-fr",
-        "name": "Trace Toca",
-        "country": "fr"
-      },
-      {
-        "id": "trace-uk-uk",
-        "name": "Trace UK",
-        "country": "uk"
-      },
-      {
-        "id": "trace-urban-fr",
-        "name": "Trace Urban",
-        "country": "fr"
-      },
-      {
-        "id": "trace-vanilla-islands-fr",
-        "name": "Trace Vanilla Islands",
-        "country": "fr"
-      }
-    ]
+    "removed": []
   },
   "truncated": {},
   "tiers": {
@@ -281,17 +105,17 @@
       "not_verified": 60,
       "with_measured_quality": 482,
       "per_quality": {
-        "1080p": 252,
+        "1080p": 250,
         "4k": 1,
         "720p": 161,
-        "sd": 68
+        "sd": 70
       }
     },
     "community": {
-      "published": 4314,
-      "verified": 3907,
+      "published": 4315,
+      "verified": 3908,
       "untested": 407,
-      "held_back_after_failed_check": 3086,
+      "held_back_after_failed_check": 3085,
       "never_checked": 0,
       "catalog_streams": 7400,
       "catalog_built_at": "2026-11-19T09:41:42Z",
@@ -299,12 +123,12 @@
       "countries": 157,
       "languages": 92,
       "lifecycle": {
-        "intermittent": 588,
-        "invalid": 925,
+        "intermittent": 586,
+        "invalid": 929,
         "restricted": 176,
-        "unknown": 495,
-        "unreachable": 1881,
-        "working": 3335
+        "unknown": 492,
+        "unreachable": 1879,
+        "working": 3338
       },
       "removed_at_generation": {},
       "top_countries": [

@@ -1,5 +1,5 @@
 {
-  "reference_time": "2026-11-19T09:41:29Z",
+  "reference_time": "2026-11-19T11:46:00Z",
   "records": {
     "approved": 745,
     "pending": 43,
@@ -13,40 +13,40 @@
   "verified_playlist_channels": 490,
   "playlist_files": 538,
   "latest_run": {
-    "run_id": "run-20261119T093520Z",
-    "started_at": "2026-11-19T09:35:20Z",
-    "finished_at": "2026-11-19T09:41:29Z",
+    "run_id": "run-20261119T113955Z",
+    "started_at": "2026-11-19T11:39:55Z",
+    "finished_at": "2026-11-19T11:46:00Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 745,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
-      "TIMEOUT": 29,
-      "UNAVAILABLE": 141,
-      "UNKNOWN": 49,
+      "TIMEOUT": 26,
+      "UNAVAILABLE": 125,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 455
+      "VERIFIED_WORKING": 470
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 455,
-    "UNAVAILABLE": 141,
+    "VERIFIED_WORKING": 470,
+    "UNAVAILABLE": 125,
     "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
-    "TIMEOUT": 29,
+    "TIMEOUT": 26,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 49,
+    "UNKNOWN": 53,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 6,
+    "currently-failing": 9,
     "geo-restricted": 42,
-    "previously-working": 42,
+    "previously-working": 24,
     "unknown": 5,
-    "verified-recently": 455
+    "verified-recently": 470
   },
   "per_country": {
     "ae": {
@@ -862,17 +862,17 @@
       "not_verified": 60,
       "with_measured_quality": 482,
       "per_quality": {
-        "1080p": 252,
+        "1080p": 250,
         "4k": 1,
         "720p": 161,
-        "sd": 68
+        "sd": 70
       }
     },
     "community": {
-      "published": 4314,
-      "verified": 3907,
+      "published": 4315,
+      "verified": 3908,
       "untested": 407,
-      "held_back_after_failed_check": 3086,
+      "held_back_after_failed_check": 3085,
       "never_checked": 0,
       "catalog_streams": 7400,
       "catalog_built_at": "2026-11-19T09:41:42Z",
@@ -880,12 +880,12 @@
       "countries": 157,
       "languages": 92,
       "lifecycle": {
-        "intermittent": 588,
-        "invalid": 925,
+        "intermittent": 586,
+        "invalid": 929,
         "restricted": 176,
-        "unknown": 495,
-        "unreachable": 1881,
-        "working": 3335
+        "unknown": 492,
+        "unreachable": 1879,
+        "working": 3338
       },
       "removed_at_generation": {},
       "top_countries": [

@@ -43,6 +43,8 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 http://stream.apa.tv/apastream/index.m3u8
 #EXTINF:-1 tvg-id="BakuTV.az@SD" tvg-name="Baku.TV" tvg-country="AZ" tvg-language="Azerbaijani" group-title="Azerbaijan",Baku.TV
 https://rtmp.baku.tv/hls/bakutv.m3u8
+#EXTINF:-1 tvg-id="RTRSplus.ba@SD" tvg-name="RTRS plus" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS plus
+https://pluslive.rtrs.tv/plus/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="RTRSTV.ba@SD" tvg-name="RTRS TV" tvg-country="BA" tvg-language="Serbian" group-title="Bosnia and Herzegovina",RTRS TV
 https://uzivo.rtrs.tv/tv/live/index.m3u8
 #EXTINF:-1 tvg-id="RTVZenica.ba@SD" tvg-name="RTV Zenica" tvg-country="BA" tvg-language="Bosnian" group-title="Bosnia and Herzegovina",RTV Zenica
@@ -59,6 +61,8 @@ https://tv.tvsb.bg/112.m3u8
 https://tv2-stream.rtnb.bi/hls/master.m3u8
 #EXTINF:-1 tvg-id="RTNBTV.bi@SD" tvg-name="RTNB TV" tvg-country="BI" tvg-language="French;Swahili;English" group-title="Burundi",RTNB TV
 https://tv1-stream.rtnb.bi/hls/master.m3u8
+#EXTINF:-1 tvg-id="DigitalChannel.bj@SD" tvg-name="Digital Channel" tvg-country="BJ" tvg-language="French" group-title="Benin",Digital Channel
+https://stream.digitalchannel.bj/live/ds_64de185c18c9d786a760f01e0e592348.m3u8
 #EXTINF:-1 tvg-id="TVCBenin.bj@SD" tvg-name="TVC Benin" tvg-country="BJ" tvg-language="French" group-title="Benin",TVC Benin
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CTV.bo@SD" tvg-name="CTV" tvg-country="BO" tvg-language="Spanish" group-title="Bolivia",CTV
@@ -355,8 +359,6 @@ https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
 https://diavlos-cache.cnt.grnet.gr/parltv/webtv-1b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGuyana.gy@SD" tvg-name="MTV Guyana" tvg-country="GY" tvg-language="English" group-title="Guyana",MTV Guyana
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk" tvg-name="RTHK TV 31" tvg-country="HK" tvg-language="Chinese" group-title="Hong Kong",RTHK TV 31
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="ICNDigital.hn@SD" tvg-name="ICN Digital" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",ICN Digital
 https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
 #EXTINF:-1 tvg-id="ImagenFM1051.hn@SD" tvg-name="Imagen FM 105.1" tvg-country="HN" tvg-language="Spanish" group-title="Honduras",Imagen FM 105.1
@@ -403,8 +405,6 @@ https://kcltv.livebox.co.in/kclhls/live.m3u8
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
 #EXTINF:-1 tvg-id="NDTVProfit.in@SD" tvg-name="NDTV Profit" tvg-country="IN" tvg-language="English" group-title="India",NDTV Profit
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
-#EXTINF:-1 tvg-id="OliTV.in@SD" tvg-name="Oli TV" tvg-country="IN" tvg-language="Tamil" group-title="India",Oli TV
-https://hlslive.olidigital.in/olitv/olitv/index.m3u8
 #EXTINF:-1 tvg-id="PragNews.in@SD" tvg-name="Prag News" tvg-country="IN" tvg-language="Assamese" group-title="India",Prag News
 https://hls.pragnews.com/master.m3u8
 #EXTINF:-1 tvg-id="SansadTV1.in@SD" tvg-name="Sansad TV 1" tvg-country="IN" tvg-language="Hindi" group-title="India",Sansad TV 1
@@ -811,6 +811,8 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr@SD" tvg-name="TRT World" tvg-country="TR" tvg-language="English" group-title="Turkiye",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-name="TRT Çocuk" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TRT Çocuk
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-name="TV Den" tvg-country="TR" tvg-language="Turkish" group-title="Turkiye",TV Den
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr@SD" tvg-name="Zarok TV" tvg-country="TR" tvg-language="Kurdish" group-title="Turkiye",Zarok TV
@@ -943,8 +945,6 @@ https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
 https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-name="Sound View Community Media" tvg-country="US" tvg-language="English" group-title="United States",Sound View Community Media
 https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="StLuciePublicSchools.us@SD" tvg-name="St Lucie Public Schools" tvg-country="US" tvg-language="English" group-title="United States",St Lucie Public Schools
-https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8
 #EXTINF:-1 tvg-id="TelevisionCaribe.us@HD" tvg-name="Television Caribe" tvg-country="US" tvg-language="Spanish" group-title="United States",Television Caribe
 https://televisioncaribe.com/index.m3u8
 #EXTINF:-1 tvg-id="TheNest.us@SD" tvg-name="The Nest" tvg-country="US" tvg-language="English" group-title="United States",The Nest
@@ -6515,6 +6515,8 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c9627573574
 https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="ATGLive.se@SD" tvg-name="ATG Live" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/bPWFXkL.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="1080p",ATG Live
 https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
+#EXTINF:-1 tvg-id="BestofMTV.se@DK" tvg-name="Best of MTV (DK)" tvg-country="SE" tvg-language="English;Danish" tvg-logo="https://images.pluto.tv/channels/632aff5e44111b00076ad9b1/colorLogoPNG_1767773210944.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="720p",Best of MTV (DK)
+https://jmp2.uk/plu-632aff5e44111b00076ad9b1.m3u8
 #EXTINF:-1 tvg-id="DiTV.se@SD" tvg-name="Di TV" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/zApTDWn.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="1080p",Di TV
 https://cdn0-03837-liveedge0.dna.ip-only.net/03837-liveedge0/smil:03837-tx4/playlist.m3u8
 #EXTINF:-1 tvg-id="ExpressenTV.se@SD" tvg-name="Expressen TV" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/ai0BIci.png" group-title="Sweden" x-tier="community" x-status="verified" x-quality="1080p",Expressen TV
