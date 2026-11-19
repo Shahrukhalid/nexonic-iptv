@@ -10,19 +10,19 @@
 
 | Metric | Value |
 |---|---:|
-| Published channels | 563 |
+| Published channels | 546 |
 | In verified playlist | 487 |
 | Quarantined | 154 |
-| Excluded approved records | 197 |
+| Excluded approved records | 199 |
 | Pending authorization | 43 |
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 2 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 3 |
 | Duplicates removed | 0 |
 | Newly failing | 1 |
 | Newly quarantined | 1 |
 | Restored (verified again after quarantine) | 4 |
-| Removed from publication | 0 |
+| Removed from publication | 17 |
 
 ## Tiers
 
@@ -30,8 +30,8 @@ Tiers are published separately. Community streams are not limited to the broadca
 
 | Tier | Published | Verified | Not verified |
 |---|---:|---:|---:|
-| Official | 563 | 487 | 76 |
-| Community: verified | 3885 | 3885 | 0 |
+| Official | 546 | 487 | 59 |
+| Community: verified | 3884 | 3884 | 0 |
 | Community: untested | 396 | 0 | 396 |
 | Free VOD (items) | 3969 | n/a | n/a |
 
@@ -43,7 +43,7 @@ Community catalogue: 7365 streams (built 2026-11-18T09:29:05Z); never checked: 0
 |---|---:|
 | intermittent | 157 |
 | restricted | 42 |
-| unknown | 22 |
+| unknown | 5 |
 | unreachable | 5 |
 | working | 337 |
 
@@ -63,23 +63,36 @@ Community catalogue: 7365 streams (built 2026-11-18T09:29:05Z); never checked: 0
 
 | Outcome | Count |
 |---|---:|
-| admitted | 603 |
-| aggregator-host | 998 |
-| already-curated | 558 |
-| closed | 98 |
-| duplicate-channel-in-other-source | 119 |
-| duplicate-of-existing | 1 |
-| excluded-category | 1223 |
-| host-not-owned-by-broadcaster | 7739 |
-| language-not-supported | 3 |
+| admitted | 592 |
+| aggregator-host | 1005 |
+| already-curated | 492 |
+| closed | 91 |
+| excluded-category | 1192 |
+| host-not-owned-by-broadcaster | 7319 |
+| language-not-supported | 4 |
 | moderation-reject | 4 |
-| needs-special-headers | 964 |
-| no-database-entry | 3616 |
-| nsfw-or-blocklisted | 5 |
-| sanctions-exclusion | 621 |
-| streams | 21345 |
-| subscription-service | 101 |
-| url-policy | 4628 |
+| needs-special-headers | 1171 |
+| no-database-entry | 2092 |
+| nsfw-or-blocklisted | 4 |
+| sanctions-exclusion | 608 |
+| streams | 18857 |
+| subscription-service | 114 |
+| url-policy | 4103 |
+
+## New candidates discovered (not published) (2)
+
+| Channel | Country | Detail |
+|---|---|---|
+| TV Jefimija (`tv-jefimija-rs`) | rs | record: approved, kind: awaiting-first-check |
+| TV Pi Kanal (`tv-pi-kanal-rs`) | rs | record: approved, kind: awaiting-first-check |
+
+## Channels updated (metadata or URL) (3)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Novosadska TV (`novosadska-tv-rs`) | rs | fields: ['website'], url_changed: False |
+| TDI Radio TV (`tdi-radio-tv-rs`) | rs | fields: ['website'], url_changed: False |
+| TV Canal Sur (`tv-canal-sur-do`) | do | fields: ['stream_url'], url_changed: True |
 
 ## Newly failing (1)
 
@@ -101,3 +114,25 @@ Community catalogue: 7365 streams (built 2026-11-18T09:29:05Z); never checked: 0
 | RTL Web Radio TV (`rtl-web-radio-tv-lu`) | lu | restored_at: 2026-11-19T01:15:56Z |
 | RTV Zenica (`rtv-zenica-ba`) | ba | restored_at: 2026-11-19T01:14:13Z |
 | TRT World (`trt-world`) | tr | restored_at: 2026-11-19T01:17:49Z |
+
+## Removed from publication (17)
+
+| Channel | Country | Detail |
+|---|---|---|
+| Trace Africa (`trace-africa-fr`) | fr |  |
+| Trace Afrikora (`trace-afrikora-fr`) | fr |  |
+| Trace Ayiti (`trace-ayiti-fr`) | fr |  |
+| Trace Brazuca (`trace-brazuca-fr`) | fr |  |
+| Trace Caribbean (`trace-caribbean-fr`) | fr |  |
+| Trace Jama (`trace-jama-fr`) | fr |  |
+| Trace Kitoko (`trace-kitoko-fr`) | fr |  |
+| Trace Latina (`trace-latina-fr`) | fr |  |
+| Trace Mboa (`trace-mboa-fr`) | fr |  |
+| Trace Muzika (`trace-muzika-fr`) | fr |  |
+| Trace Mziki (`trace-mziki-fr`) | fr |  |
+| Trace Naija (`trace-naija-fr`) | fr |  |
+| Trace Sport Stars (`trace-sport-stars-fr`) | fr |  |
+| Trace Toca (`trace-toca-fr`) | fr |  |
+| Trace UK (`trace-uk-uk`) | uk |  |
+| Trace Urban (`trace-urban-fr`) | fr |  |
+| Trace Vanilla Islands (`trace-vanilla-islands-fr`) | fr |  |

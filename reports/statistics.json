@@ -1,12 +1,12 @@
 {
   "reference_time": "2026-11-19T01:20:21Z",
   "records": {
-    "approved": 760,
+    "approved": 745,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 563,
-  "excluded_approved": 197,
+  "published_channels": 546,
+  "excluded_approved": 199,
   "countries": 96,
   "languages": 65,
   "categories": 15,
@@ -17,14 +17,14 @@
     "started_at": "2026-11-19T01:14:03Z",
     "finished_at": "2026-11-19T01:20:21Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 760,
+    "checked": 743,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
       "TIMEOUT": 28,
       "UNAVAILABLE": 122,
-      "UNKNOWN": 70,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 469
     }
@@ -38,13 +38,13 @@
     "TIMEOUT": 28,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 70,
+    "UNKNOWN": 53,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
     "currently-failing": 4,
     "geo-restricted": 42,
-    "previously-working": 43,
+    "previously-working": 26,
     "unknown": 5,
     "verified-recently": 469
   },
@@ -212,7 +212,7 @@
     "fr": {
       "name": "France",
       "flag": "🇫🇷",
-      "channels": 36
+      "channels": 20
     },
     "ge": {
       "name": "Georgia",
@@ -507,7 +507,7 @@
     "uk": {
       "name": "United Kingdom",
       "flag": "🇬🇧",
-      "channels": 6
+      "channels": 5
     },
     "us": {
       "name": "United States",
@@ -585,7 +585,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 145
+      "channels": 139
     },
     "es": {
       "name": "Spanish",
@@ -609,7 +609,7 @@
     },
     "fr": {
       "name": "French",
-      "channels": 30
+      "channels": 19
     },
     "hi": {
       "name": "Hindi",
@@ -721,7 +721,7 @@
     },
     "pt": {
       "name": "Portuguese",
-      "channels": 13
+      "channels": 11
     },
     "ro": {
       "name": "Romanian",
@@ -835,7 +835,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 88
+      "channels": 72
     },
     "news": {
       "name": "News",
@@ -847,7 +847,7 @@
     },
     "sports": {
       "name": "Sports",
-      "channels": 13
+      "channels": 12
     },
     "weather": {
       "name": "Weather",
@@ -857,20 +857,20 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 563,
+      "published": 546,
       "verified": 487,
-      "not_verified": 76,
-      "with_measured_quality": 495,
+      "not_verified": 59,
+      "with_measured_quality": 478,
       "per_quality": {
         "1080p": 256,
         "4k": 1,
-        "720p": 173,
+        "720p": 156,
         "sd": 65
       }
     },
     "community": {
-      "published": 4281,
-      "verified": 3885,
+      "published": 4280,
+      "verified": 3884,
       "untested": 396,
       "held_back_after_failed_check": 3084,
       "never_checked": 0,
@@ -885,9 +885,11 @@
         "restricted": 174,
         "unknown": 474,
         "unreachable": 1873,
-        "working": 3330
+        "working": 3329
       },
-      "removed_at_generation": {},
+      "removed_at_generation": {
+        "official-duplicate": 1
+      },
       "top_countries": [
         {
           "code": "us",

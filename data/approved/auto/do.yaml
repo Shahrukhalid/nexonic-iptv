@@ -124,7 +124,7 @@ channels:
   - entertainment
   website: https://tvcanalsur.com.do/en-vivo/
   stream:
-    url: https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8
+    url: https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8
     protocol: hls
     quality: unknown
   source:
@@ -145,7 +145,7 @@ channels:
   review:
     status: approved
     reviewer: automated (scripts/expand_catalog.py); not individually human-reviewed
-    reviewed_at: '2026-10-17'
+    reviewed_at: '2026-11-19'
     authorization_basis: official-broadcaster-stream
     adult_screening: pass
     notes: Published only after passing a live check.

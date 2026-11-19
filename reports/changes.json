@@ -4,25 +4,25 @@
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 563,
+    "published": 546,
     "verified_playlist": 487,
-    "excluded": 197,
+    "excluded": 199,
     "pending_authorization": 43,
     "quarantined": 154,
     "duplicates_excluded_total": 0,
-    "new_candidates": 0,
+    "new_candidates": 2,
     "new_published": 0,
-    "updated": 0,
+    "updated": 3,
     "duplicates_removed": 0,
     "newly_failing": 1,
     "newly_quarantined": 1,
     "restored": 4,
-    "removed": 0
+    "removed": 17
   },
   "lifecycle_counts": {
     "intermittent": 157,
     "restricted": 42,
-    "unknown": 22,
+    "unknown": 5,
     "unreachable": 5,
     "working": 337
   },
@@ -31,36 +31,34 @@
     "started_at": "2026-11-19T01:14:03Z",
     "finished_at": "2026-11-19T01:20:21Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
-    "checked": 760,
+    "checked": 743,
     "by_status": {
       "AUTH_REQUIRED": 2,
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
       "TIMEOUT": 28,
       "UNAVAILABLE": 122,
-      "UNKNOWN": 70,
+      "UNKNOWN": 53,
       "UNSUPPORTED": 1,
       "VERIFIED_WORKING": 469
     }
   },
   "discovery": {
-    "admitted": 603,
-    "aggregator-host": 998,
-    "already-curated": 558,
-    "closed": 98,
-    "duplicate-channel-in-other-source": 119,
-    "duplicate-of-existing": 1,
-    "excluded-category": 1223,
-    "host-not-owned-by-broadcaster": 7739,
-    "language-not-supported": 3,
+    "admitted": 592,
+    "aggregator-host": 1005,
+    "already-curated": 492,
+    "closed": 91,
+    "excluded-category": 1192,
+    "host-not-owned-by-broadcaster": 7319,
+    "language-not-supported": 4,
     "moderation-reject": 4,
-    "needs-special-headers": 964,
-    "no-database-entry": 3616,
-    "nsfw-or-blocklisted": 5,
-    "sanctions-exclusion": 621,
-    "streams": 21345,
-    "subscription-service": 101,
-    "url-policy": 4628
+    "needs-special-headers": 1171,
+    "no-database-entry": 2092,
+    "nsfw-or-blocklisted": 4,
+    "sanctions-exclusion": 608,
+    "streams": 18857,
+    "subscription-service": 114,
+    "url-policy": 4103
   },
   "integrity": {
     "ok": true,
@@ -74,9 +72,52 @@
     "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
-    "new_candidates": [],
+    "new_candidates": [
+      {
+        "id": "tv-jefimija-rs",
+        "name": "TV Jefimija",
+        "country": "rs",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      },
+      {
+        "id": "tv-pi-kanal-rs",
+        "name": "TV Pi Kanal",
+        "country": "rs",
+        "record": "approved",
+        "kind": "awaiting-first-check"
+      }
+    ],
     "new_published": [],
-    "updated": [],
+    "updated": [
+      {
+        "id": "novosadska-tv-rs",
+        "name": "Novosadska TV",
+        "country": "rs",
+        "fields": [
+          "website"
+        ],
+        "url_changed": false
+      },
+      {
+        "id": "tdi-radio-tv-rs",
+        "name": "TDI Radio TV",
+        "country": "rs",
+        "fields": [
+          "website"
+        ],
+        "url_changed": false
+      },
+      {
+        "id": "tv-canal-sur-do",
+        "name": "TV Canal Sur",
+        "country": "do",
+        "fields": [
+          "stream_url"
+        ],
+        "url_changed": true
+      }
+    ],
     "duplicates_removed": [],
     "newly_failing": [
       {
@@ -121,26 +162,112 @@
         "restored_at": "2026-11-19T01:17:49Z"
       }
     ],
-    "removed": []
+    "removed": [
+      {
+        "id": "trace-africa-fr",
+        "name": "Trace Africa",
+        "country": "fr"
+      },
+      {
+        "id": "trace-afrikora-fr",
+        "name": "Trace Afrikora",
+        "country": "fr"
+      },
+      {
+        "id": "trace-ayiti-fr",
+        "name": "Trace Ayiti",
+        "country": "fr"
+      },
+      {
+        "id": "trace-brazuca-fr",
+        "name": "Trace Brazuca",
+        "country": "fr"
+      },
+      {
+        "id": "trace-caribbean-fr",
+        "name": "Trace Caribbean",
+        "country": "fr"
+      },
+      {
+        "id": "trace-jama-fr",
+        "name": "Trace Jama",
+        "country": "fr"
+      },
+      {
+        "id": "trace-kitoko-fr",
+        "name": "Trace Kitoko",
+        "country": "fr"
+      },
+      {
+        "id": "trace-latina-fr",
+        "name": "Trace Latina",
+        "country": "fr"
+      },
+      {
+        "id": "trace-mboa-fr",
+        "name": "Trace Mboa",
+        "country": "fr"
+      },
+      {
+        "id": "trace-muzika-fr",
+        "name": "Trace Muzika",
+        "country": "fr"
+      },
+      {
+        "id": "trace-mziki-fr",
+        "name": "Trace Mziki",
+        "country": "fr"
+      },
+      {
+        "id": "trace-naija-fr",
+        "name": "Trace Naija",
+        "country": "fr"
+      },
+      {
+        "id": "trace-sport-stars-fr",
+        "name": "Trace Sport Stars",
+        "country": "fr"
+      },
+      {
+        "id": "trace-toca-fr",
+        "name": "Trace Toca",
+        "country": "fr"
+      },
+      {
+        "id": "trace-uk-uk",
+        "name": "Trace UK",
+        "country": "uk"
+      },
+      {
+        "id": "trace-urban-fr",
+        "name": "Trace Urban",
+        "country": "fr"
+      },
+      {
+        "id": "trace-vanilla-islands-fr",
+        "name": "Trace Vanilla Islands",
+        "country": "fr"
+      }
+    ]
   },
   "truncated": {},
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 563,
+      "published": 546,
       "verified": 487,
-      "not_verified": 76,
-      "with_measured_quality": 495,
+      "not_verified": 59,
+      "with_measured_quality": 478,
       "per_quality": {
         "1080p": 256,
         "4k": 1,
-        "720p": 173,
+        "720p": 156,
         "sd": 65
       }
     },
     "community": {
-      "published": 4281,
-      "verified": 3885,
+      "published": 4280,
+      "verified": 3884,
       "untested": 396,
       "held_back_after_failed_check": 3084,
       "never_checked": 0,
@@ -155,9 +282,11 @@
         "restricted": 174,
         "unknown": 474,
         "unreachable": 1873,
-        "working": 3330
+        "working": 3329
       },
-      "removed_at_generation": {},
+      "removed_at_generation": {
+        "official-duplicate": 1
+      },
       "top_countries": [
         {
           "code": "us",

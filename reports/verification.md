@@ -3,7 +3,7 @@
 - Run: `run-20261119T011403Z`
 - Started: 2026-11-19T01:14:03Z (UTC) · Finished: 2026-11-19T01:20:21Z (UTC)
 - Checked from: github-actions (Linux, GitHub-hosted runner)
-- Channels checked: 760
+- Channels checked: 743
 
 Results describe reachability **from the checker's network location at that time** only.
 
@@ -14,7 +14,7 @@ Results describe reachability **from the checker's network location at that time
 | `INVALID_STREAM` | 9 |
 | `TIMEOUT` | 28 |
 | `UNAVAILABLE` | 122 |
-| `UNKNOWN` | 70 |
+| `UNKNOWN` | 53 |
 | `UNSUPPORTED` | 1 |
 | `VERIFIED_WORKING` | 469 |
 
@@ -646,23 +646,6 @@ Results describe reachability **from the checker's network location at that time
 | Top News | `VERIFIED_WORKING` | 5 | 200 | 817 ms | 2026-11-19T01:16:50Z |  |
 | TopEstrada TV | `VERIFIED_WORKING` | 5 | 200 | 373 ms | 2026-11-19T01:16:04Z | 720p |
 | TR Sport | `VERIFIED_WORKING` | 5 | 200 | 1489 ms | 2026-11-19T01:18:04Z | 480p |
-| Trace Africa | `UNKNOWN` | 2 | 403 | 80 ms | 2026-11-19T01:15:10Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Afrikora | `UNKNOWN` | 2 | 403 | 81 ms | 2026-11-19T01:18:01Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Ayiti | `UNKNOWN` | 2 | 403 | 260 ms | 2026-11-19T01:18:25Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Brazuca | `UNKNOWN` | 2 | 403 | 89 ms | 2026-11-19T01:18:36Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Caribbean | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:40Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Jama | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:44Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Kitoko | `UNKNOWN` | 2 | 403 | 264 ms | 2026-11-19T01:18:50Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Latina | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:52Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Mboa | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:53Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Muzika | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:53Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Mziki | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:54Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Naija | `UNKNOWN` | 2 | 403 | 29 ms | 2026-11-19T01:18:55Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Sport Stars | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:56Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Toca | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:57Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace UK | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:19:00Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Urban | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:58Z | HTTP 403 forbidden (could be regional limits or access control) |
-| Trace Vanilla Islands | `UNKNOWN` | 2 | 403 | 25 ms | 2026-11-19T01:18:59Z | HTTP 403 forbidden (could be regional limits or access control) |
 | Trivu | `VERIFIED_WORKING` | 5 | 200 | 915 ms | 2026-11-19T01:16:18Z | 1080p |
 | TRT 1 | `UNAVAILABLE` | 4 | 200 | 634 ms | 2026-11-19T01:17:49Z | segment: HTTP 400 |
 | TRT 2 | `VERIFIED_WORKING` | 5 | 200 | 450 ms | 2026-11-19T01:17:52Z | 1440p |
@@ -787,18 +770,18 @@ Compared with the run at 2026-11-18T11:48:08Z (UTC).
 
 | Change | Count |
 |---|---:|
-| New candidates discovered (not published) | 0 |
+| New candidates discovered (not published) | 2 |
 | New channels published | 0 |
-| Channels updated (metadata or URL) | 0 |
+| Channels updated (metadata or URL) | 3 |
 | Duplicates removed | 0 |
 | Newly failing | 1 |
 | Newly quarantined | 1 |
 | Restored (verified again after quarantine) | 4 |
-| Removed from publication | 0 |
+| Removed from publication | 17 |
 
-Published 563 · verified playlist 487 · quarantined 154 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
+Published 546 · verified playlist 487 · quarantined 154 · pending authorization 43 · integrity OK. Details: `reports/changes.md`.
 
-Tiers: official 563 (487 verified) · community 3885 verified / 396 untested · free VOD 3969 items.
+Tiers: official 546 (487 verified) · community 3884 verified / 396 untested · free VOD 3969 items.
 
 **Needs attention:**
 

@@ -11047,874 +11047,6 @@
    }
   },
   {
-   "id": "trace-africa-fr",
-   "name": "Trace Africa",
-   "broadcaster": "Trace Africa",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "en",
-    "fr"
-   ],
-   "language_names": [
-    "English",
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "http://trace.tv/trace-africa/",
-   "stream_url": "https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceAfrica.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "http://trace.tv/trace-africa/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:15:10Z",
-    "last_success": "2026-11-06T00:18:09Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 456
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:15:10Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "http://trace.tv/trace-africa/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-afrikora-fr",
-   "name": "Trace Afrikora",
-   "broadcaster": "Trace Afrikora",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-afrikora/",
-   "stream_url": "https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceAfrikora.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-afrikora/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:01Z",
-    "last_success": "2026-11-06T00:20:55Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 816
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:01Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-afrikora/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-ayiti-fr",
-   "name": "Trace Ayiti",
-   "broadcaster": "Trace Ayiti",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-ayiti/",
-   "stream_url": "https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceAyiti.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-ayiti/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:25Z",
-    "last_success": "2026-11-06T00:21:18Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 318
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:25Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-ayiti/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-brazuca-fr",
-   "name": "Trace Brazuca",
-   "broadcaster": "Trace Brazuca",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-brazuca/",
-   "stream_url": "https://channels.trace.plus/Traceprod/BRAZIL_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceBrazuca.fr@HD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-brazuca/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:36Z",
-    "last_success": "2026-11-06T00:21:28Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 573
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:36Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-brazuca/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-caribbean-fr",
-   "name": "Trace Caribbean",
-   "broadcaster": "Trace Caribbean",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-caribbean/",
-   "stream_url": "https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceCaribbean.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-caribbean/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:40Z",
-    "last_success": "2026-11-06T00:21:37Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 697
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:40Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-caribbean/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-jama-fr",
-   "name": "Trace Jama",
-   "broadcaster": "Trace Jama",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-jama/",
-   "stream_url": "https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceJama.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-jama/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:44Z",
-    "last_success": "2026-11-06T00:21:43Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 724
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:44Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-jama/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-kitoko-fr",
-   "name": "Trace Kitoko",
-   "broadcaster": "Trace Kitoko",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-kitoko/",
-   "stream_url": "https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceKitoko.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-kitoko/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:50Z",
-    "last_success": "2026-11-06T00:21:50Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 465
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:50Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-kitoko/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-latina-fr",
-   "name": "Trace Latina",
-   "broadcaster": "Trace Latina",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/television/trace-latina",
-   "stream_url": "https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceLatina.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/television/trace-latina",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:52Z",
-    "last_success": "2026-11-06T00:21:56Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 711
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:52Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/television/trace-latina",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-mboa-fr",
-   "name": "Trace Mboa",
-   "broadcaster": "Trace Mboa",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://fr.trace.tv/",
-   "stream_url": "https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceMboa.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://fr.trace.tv/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:53Z",
-    "last_success": "2026-11-06T00:22:02Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 447
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:53Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://fr.trace.tv/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-muzika-fr",
-   "name": "Trace Muzika",
-   "broadcaster": "Trace Muzika",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.tv/traceprime/",
-   "stream_url": "https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceMuzika.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.tv/traceprime/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:53Z",
-    "last_success": "2026-11-06T00:22:06Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 698
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:53Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.tv/traceprime/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-mziki-fr",
-   "name": "Trace Mziki",
-   "broadcaster": "Trace Mziki",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.tv/trace-mziki/",
-   "stream_url": "https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceMziki.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.tv/trace-mziki/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:54Z",
-    "last_success": "2026-11-06T00:22:12Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 687
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:54Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.tv/trace-mziki/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-naija-fr",
-   "name": "Trace Naija",
-   "broadcaster": "Trace Naija",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "http://trace.tv/trace-naija/",
-   "stream_url": "https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceNaija.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "http://trace.tv/trace-naija/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:55Z",
-    "last_success": "2026-11-06T00:22:19Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 298
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:55Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "http://trace.tv/trace-naija/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-sport-stars-fr",
-   "name": "Trace Sport Stars",
-   "broadcaster": "Trace Sport Stars",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "en",
-    "fr"
-   ],
-   "language_names": [
-    "English",
-    "French"
-   ],
-   "categories": [
-    "sports"
-   ],
-   "website": "http://www.trace.tv/fr/tv/sport",
-   "stream_url": "https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceSportStars.fr@HD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "http://www.trace.tv/fr/tv/sport",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:56Z",
-    "last_success": "2026-11-06T00:22:21Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 712
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:56Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "http://www.trace.tv/fr/tv/sport",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-toca-fr",
-   "name": "Trace Toca",
-   "broadcaster": "Trace Toca",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "pt"
-   ],
-   "language_names": [
-    "Portuguese"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://fr.trace.tv/trace-toca/",
-   "stream_url": "https://channels.trace.plus/Traceprod/TOCA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceToca.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://fr.trace.tv/trace-toca/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:57Z",
-    "last_success": "2026-11-06T00:22:28Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 533
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:57Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://fr.trace.tv/trace-toca/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-urban-fr",
-   "name": "Trace Urban",
-   "broadcaster": "TPG Capital Trace Partners",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://fr.trace.tv/trace-urban/",
-   "stream_url": "https://channels.trace.plus/Traceprod/URBAN_AFRIC_FR_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceUrban.fr@AfricaFranco",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://fr.trace.tv/trace-urban/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:58Z",
-    "last_success": "2026-11-06T00:22:34Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 697
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:58Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://fr.trace.tv/trace-urban/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.tv). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
-   "id": "trace-vanilla-islands-fr",
-   "name": "Trace Vanilla Islands",
-   "broadcaster": "Trace Vanilla Islands",
-   "country": "fr",
-   "country_name": "France",
-   "flag": "🇫🇷",
-   "languages": [
-    "fr"
-   ],
-   "language_names": [
-    "French"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.company/activities/television/trace-vanillaislands/",
-   "stream_url": "https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceVanillaIslands.fr@SD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.company/activities/television/trace-vanillaislands/",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:18:59Z",
-    "last_success": "2026-11-06T00:22:40Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 473
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:18:59Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.company/activities/television/trace-vanillaislands/",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus (trace.plus) shares the broadcaster's domain name 'trace' (trace.company). Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
-   }
-  },
-  {
    "id": "tv5monde-style-fr",
    "name": "TV5Monde Style",
    "broadcaster": "TV5Monde Style",
@@ -22095,13 +21227,13 @@
    "categories": [
     "general"
    ],
-   "website": "http://www.novosadska.tv/",
+   "website": "https://www.novosadska.tv/",
    "stream_url": "https://live.novosadska.tv/hls/mystream.m3u8",
    "protocol": "hls",
    "epg_id": "NovosadskaTV.rs@SD",
    "geo_restricted": "unknown",
    "geo_regions": [],
-   "evidence_url": "http://www.novosadska.tv/",
+   "evidence_url": "https://www.novosadska.tv/",
    "authorization_basis": "official-broadcaster-stream",
    "admission": "automated",
    "in_verified_playlist": true,
@@ -22121,16 +21253,16 @@
    "quarantined": false,
    "restored_at": null,
    "last_validated": "2026-11-19T01:16:32Z",
-   "last_metadata_update": "2026-11-17",
+   "last_metadata_update": "2026-11-19",
    "provenance": {
     "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/rs.m3u",
-    "evidence_url": "http://www.novosadska.tv/",
+    "evidence_url": "https://www.novosadska.tv/",
     "evidence_summary": "Automated owner-domain match: stream host live.novosadska.tv is on the broadcaster's domain novosadska.tv. Channel metadata from iptv-org/database.",
     "evidence_checked": null,
     "discovery_method": "automated-domain-match",
     "first_discovered": "2026-11-17",
     "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-11-17"
+    "reviewed_at": "2026-11-19"
    }
   },
   {
@@ -22184,7 +21316,7 @@
     "discovery_method": "automated-domain-match",
     "first_discovered": "2026-10-17",
     "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
+    "reviewed_at": "2026-11-19"
    }
   },
   {
@@ -22203,13 +21335,13 @@
    "categories": [
     "music"
    ],
-   "website": "http://www.tdiradio.com/",
+   "website": "https://www.tdiradio.com/",
    "stream_url": "https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8",
    "protocol": "hls",
    "epg_id": "TDIRadioTV.rs@SD",
    "geo_restricted": "unknown",
    "geo_regions": [],
-   "evidence_url": "http://www.tdiradio.com/",
+   "evidence_url": "https://www.tdiradio.com/",
    "authorization_basis": "official-broadcaster-stream",
    "admission": "automated",
    "in_verified_playlist": true,
@@ -22229,16 +21361,16 @@
    "quarantined": false,
    "restored_at": null,
    "last_validated": "2026-11-19T01:16:33Z",
-   "last_metadata_update": "2026-10-17",
+   "last_metadata_update": "2026-11-19",
    "provenance": {
     "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/rs.m3u",
-    "evidence_url": "http://www.tdiradio.com/",
+    "evidence_url": "https://www.tdiradio.com/",
     "evidence_summary": "Automated owner-domain match: stream host peer2.tdiradio.com is on the broadcaster's domain tdiradio.com. Channel metadata from iptv-org/database.",
     "evidence_checked": null,
     "discovery_method": "automated-domain-match",
     "first_discovered": "2026-10-17",
     "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
+    "reviewed_at": "2026-11-19"
    }
   },
   {
@@ -26518,60 +25650,6 @@
     "first_discovered": "2026-10-27",
     "authorization_basis": "official-cdn-stream",
     "reviewed_at": "2026-10-27"
-   }
-  },
-  {
-   "id": "trace-uk-uk",
-   "name": "Trace UK",
-   "broadcaster": "Trace Plus Inc",
-   "country": "uk",
-   "country_name": "United Kingdom",
-   "flag": "🇬🇧",
-   "languages": [
-    "en"
-   ],
-   "language_names": [
-    "English"
-   ],
-   "categories": [
-    "music"
-   ],
-   "website": "https://trace.plus/app",
-   "stream_url": "https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8",
-   "protocol": "hls",
-   "epg_id": "TraceUK.uk@HD",
-   "geo_restricted": "unknown",
-   "geo_regions": [],
-   "evidence_url": "https://trace.plus/app",
-   "authorization_basis": "official-broadcaster-stream",
-   "admission": "automated",
-   "in_verified_playlist": false,
-   "quality": "720p",
-   "health": {
-    "score": null,
-    "grade": "NOT ENOUGH DATA",
-    "display_status": "previously-working",
-    "last_checked": "2026-11-19T01:19:00Z",
-    "last_success": "2026-11-06T00:22:46Z",
-    "last_status": "UNKNOWN",
-    "checks_in_window": 2,
-    "success_rate": 1.0,
-    "median_latency_ms": 667
-   },
-   "lifecycle": "unknown",
-   "quarantined": false,
-   "restored_at": null,
-   "last_validated": "2026-11-19T01:19:00Z",
-   "last_metadata_update": "2026-10-17",
-   "provenance": {
-    "source_reference": "https://github.com/iptv-org/iptv/blob/master/streams/fr_traceplus.m3u",
-    "evidence_url": "https://trace.plus/app",
-    "evidence_summary": "Automated owner-domain match: stream host channels.trace.plus is on the broadcaster's domain trace.plus. Channel metadata from iptv-org/database.",
-    "evidence_checked": null,
-    "discovery_method": "automated-domain-match",
-    "first_discovered": "2026-10-17",
-    "authorization_basis": "official-broadcaster-stream",
-    "reviewed_at": "2026-10-17"
    }
   },
   {
@@ -31878,6 +30956,22 @@
     "stale: failed its last 3+ checks and has not worked for 7+ days"
    ],
    "lifecycle": "invalid"
+  },
+  {
+   "id": "tv-jefimija-rs",
+   "name": "TV Jefimija",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ],
+   "lifecycle": "unknown"
+  },
+  {
+   "id": "tv-pi-kanal-rs",
+   "name": "TV Pi Kanal",
+   "reasons": [
+    "automated record awaiting its first successful live check"
+   ],
+   "lifecycle": "unknown"
   },
   {
    "id": "15-music-ru",
