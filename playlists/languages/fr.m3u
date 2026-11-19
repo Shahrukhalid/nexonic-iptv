@@ -49,8 +49,6 @@ https://streams.prd.commavservices.eu/live/ebs/index.m3u8
 https://streams.prd.commavservices.eu/live/ebsplus/index.m3u8
 #EXTINF:-1 tvg-id="Telesambre.be@SD" tvg-name="Telesambre" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/TuIAkA3.png" group-title="Belgium" x-tier="community" x-status="verified" x-quality="sd",Telesambre
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/2f00284b/index.m3u8
-#EXTINF:-1 tvg-id="RTB.bf@SD" tvg-name="RTB" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/BFfLV0y.png" group-title="Burkina Faso" x-tier="community" x-status="verified" x-quality="sd",RTB
-https://edge12.vedge.infomaniak.com/livecast/ik:rtblive1_8/manifest.m3u8
 #EXTINF:-1 tvg-id="EdenTV.bj@SD" tvg-name="Eden TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/4ClnG0x.png" group-title="Benin" x-tier="community" x-status="verified" x-quality="sd",Eden TV
 https://rtmp.edentv.bj/hls/stream.m3u8
 #EXTINF:-1 tvg-id="LeNouveauManagerTV.bj@SD" tvg-name="Le Nouveau Manager TV" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/pEoOtEf.jpeg" group-title="Benin" x-tier="community" x-status="verified" x-quality="sd",Le Nouveau Manager TV
@@ -249,6 +247,14 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tmc_fr/live.livx/playlist.m3u8
 http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 #EXTINF:-1 tvg-id="ToutelHistoire.fr@SD" tvg-name="Toute l'Histoire" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/xRfyQYn.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Toute l'Histoire
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/toute_lhistoire/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-name="Trace Latina" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Latina
+https://amg01131-tracetv-tracelatina-glewed-vtnk7.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-name="Trace Latina" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Latina
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01131-tracetv-tracelatinaes-samsungspain/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-name="Trace Sport Stars" tvg-country="FR" tvg-language="English;French" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Sport Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-name="Trace Urban" tvg-country="FR" tvg-language="French;English;Portuguese" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Urban
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBreizh.fr@SD" tvg-name="TV Breizh" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/O8W4yhn.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",TV Breizh
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tv_breizh/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr@SD" tvg-name="TV3V" tvg-country="FR" tvg-language="French" tvg-logo="https://i.ibb.co/X2yd0zL/logo-tv3v.jpg" group-title="France" x-tier="community" x-status="verified" x-quality="720p",TV3V
@@ -283,7 +289,7 @@ https://cdn.haititivi.com/website/haitinews/index.m3u8
 https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleFullGospel.ht@SD" tvg-name="Radio Tele Full Gospel" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/WbwIp9y.jpeg" group-title="Haiti" x-tier="community" x-status="verified" x-quality="sd",Radio Tele Full Gospel
 https://f-tx-edge-87.christianworldmedia.com/EJCFG/mp4:EJCFG/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTeleHit.ht@SD" tvg-name="Radio Tele Hit" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.ibb.co/Gt2QDgf/cropped-transparent2-103x70.png" group-title="Haiti" x-tier="community" x-status="verified" x-quality="sd",Radio Tele Hit
+#EXTINF:-1 tvg-id="RadioTeleHit.ht@SD" tvg-name="Radio Tele Hit" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.ibb.co/Gt2QDgf/cropped-transparent2-103x70.png" group-title="Haiti" x-tier="community" x-status="verified" x-quality="720p",Radio Tele Hit
 https://59d39900ebfb8.streamlock.net/RadioTelehit/RadioTelehit/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleLouange.ht@SD" tvg-name="Tele Louange" tvg-country="HT" tvg-language="French;Haitian Creole" tvg-logo="https://i.imgur.com/DjnMUuL.png" group-title="Haiti" x-tier="community" x-status="verified" x-quality="1080p",Tele Louange
 https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
@@ -345,6 +351,8 @@ https://cdn140m.panaccess.com/HLS/RTVJA/index.m3u8
 https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
 #EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-name="Turkmenistan" tvg-country="TM" tvg-language="Turkmen;Russian;English;French;Chinese;Arabic" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="Turkmenistan" x-tier="community" x-status="verified" x-quality="sd",Turkmenistan
 https://alpha.tv.online.tm/legacyhls/ch007.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-name="FIFA+ (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (French)
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA4Africa.uk@SD" tvg-name="MTA4 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/lmVeQQX.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",MTA4 Africa
 https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA5Africa.uk@SD" tvg-name="MTA5 Africa" tvg-country="UK" tvg-language="English;French;Urdu;Swahili" tvg-logo="https://i.imgur.com/9Cobb2i.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",MTA5 Africa

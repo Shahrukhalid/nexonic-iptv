@@ -63,8 +63,6 @@ https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
 #EXTINF:-1 tvg-id="CRTV.cl@SD" tvg-name="CRTV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i2.paste.pics/bf68b159547597c39574aec9dd7c626a.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",CRTV
 https://stmv2.voxtvhd.com.br/crtvchile/crtvchile/playlist.m3u8
-#EXTINF:-1 tvg-id="TNTSportsPremium.cl@HD" tvg-name="TNT Sports Premium" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/TNT_Sports_Premium_%28Argentina%29.png/960px-TNT_Sports_Premium_%28Argentina%29.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="Chile" x-tier="community" x-status="verified" x-quality="1080p",TNT Sports Premium
-https://play-fulltv.com.ar/playtvpre/tntsportschile.m3u8
 #EXTINF:-1 tvg-id="TurfMovil.cl@SD" tvg-name="Turf Movil" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/TwIe4lK.png" group-title="Chile" x-tier="community" x-status="verified" x-quality="720p",Turf Movil
 https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-name="More Than Sports TV" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="Germany" x-tier="community" x-status="verified" x-quality="1080p",More Than Sports TV
@@ -109,10 +107,16 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fd
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/l_equipe/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr@HD" tvg-name="Persiana Fight" tvg-country="FR" tvg-language="Persian" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-name="Trace Sport Stars" tvg-country="FR" tvg-language="English;French" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="France" x-tier="community" x-status="verified" x-quality="1080p",Trace Sport Stars
+https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-name="Trace Sport Stars (Russia)" tvg-country="FR" tvg-language="Russian" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="France" x-tier="community" x-status="verified" x-quality="720p",Trace Sport Stars (Russia)
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="5Gold.il@SD" tvg-name="5Gold" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/zFLRfXh.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Gold
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_gold/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="5Live.il@SD" tvg-name="5Live" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/0yr3yvd.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Live
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_live/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="5Max.il@SD" tvg-name="5Max" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.postimg.cc/XNmh01pH/5sport-max-il.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Max
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_max/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="5Plus.il@SD" tvg-name="5Plus" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/L3RA9Lv.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Plus
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_plus/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="5Sport.il@SD" tvg-name="5Sport" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/dRVsB89.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Sport
@@ -121,12 +125,14 @@ https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5/live.livx/playlist.
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_4k_avc/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="5Stars.il@SD" tvg-name="5Stars" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/IQtAKIa.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",5Stars
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_starz/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="One2.il@SD" tvg-name="One 2" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/JQLhYEs.png" group-title="Israel" x-tier="community" x-status="verified" x-quality="1080p",One 2
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/one_2/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="DDSports.in@HD" tvg-name="DD Sports" tvg-country="IN" tvg-language="Hindi;English;Tamil;Kannada;Bengali;Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",DD Sports
 https://cdn.pishow.tv/ott/live/1161/master.m3u8
-#EXTINF:-1 tvg-id="Eurosport.in@HD" tvg-name="Eurosport" tvg-country="IN" tvg-language="English" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Eurosport
-https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8
 #EXTINF:-1 tvg-id="Kabaddi24x7.in@SD" tvg-name="Kabaddi 24x7" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png" group-title="India" x-tier="community" x-status="verified" x-quality="720p",Kabaddi 24x7
 https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="PickleballNow.in@SD" tvg-name="Pickleball Now" tvg-country="IN" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pickleball_Now.png" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Pickleball Now
+https://distro-timesgroup.vgcdn.net/vglive-sk-843549/playlist.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" tvg-name="Sony Sports Ten 3 Hindi" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025TCMR.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="1080p",Sony Sports Ten 3 Hindi
 https://r2.amml.in/sony-ten-3-hd/live.m3u8
 #EXTINF:-1 tvg-id="StarSports2Telugu.in@HD" tvg-name="Star Sports 2 Telugu" tvg-country="IN" tvg-language="Telugu" tvg-logo="https://dtil.tmsimg.com/assets/s158351_ld_h15_ab.png?lock=720x540" group-title="India" x-tier="community" x-status="verified" x-quality="sd",Star Sports 2 Telugu
@@ -179,6 +185,10 @@ https://cdn.rabta.stream/M-Sports/index.m3u8
 https://dy4isoelz3s0x.cloudfront.net/0_hd.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@AU" tvg-name="FUEL TV (AU)" tvg-country="PT" tvg-language="English" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="Portugal" x-tier="community" x-status="verified" x-quality="1080p",FUEL TV (AU)
 https://amg01074-fueltv-fueltvnz-samsungnz-i8ani.amagi.tv/playlist/amg01074-fueltv-fueltvnz-samsungnz/playlist.m3u8
+#EXTINF:-1 tvg-id="PrimaSportPPV1.ro@SD" tvg-name="Prima Sport PPV 1" tvg-country="RO" tvg-language="Romanian" group-title="Romania" x-tier="community" x-status="verified" x-quality="720p",Prima Sport PPV 1
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki1%2Fusergendx6kal0r2bsm-got.htm
+#EXTINF:-1 tvg-id="PrimaSportPPV2.ro@SD" tvg-name="Prima Sport PPV 2" tvg-country="RO" tvg-language="Romanian" group-title="Romania" x-tier="community" x-status="verified" x-quality="720p",Prima Sport PPV 2
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki2%2Fusergendxpk2s6utg0l-got.htm
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" tvg-name="Realitatea Sportiva" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/BaEyZto.png" group-title="Romania" x-tier="community" x-status="verified" x-quality="720p",Realitatea Sportiva
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="SportTotalFM.ro@SD" tvg-name="Sport Total FM" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://sptfm.ro/wp-content/uploads/2021/05/logo-sport-total-fm-01.png" group-title="Romania" x-tier="community" x-status="verified" x-quality="720p",Sport Total FM
@@ -217,6 +227,8 @@ http://stream.mcquack.net/487/index.m3u8
 http://stream.mcquack.net/490/index.m3u8
 #EXTINF:-1 tvg-id="EurovisionSport.uk@Europe" tvg-name="Eurovision Sport" tvg-country="UK" tvg-language="English" tvg-logo="https://images.ctfassets.net/2b1dkanupt14/1A1Z8Gcn2NkbJRzTjxuj6h/2c14436cdc5b78e746a256e9f0c11a70/eurovision-icon.png" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="1080p",Eurovision Sport
 https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-name="FIFA+ (French)" tvg-country="UK" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (French)
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Italy" tvg-name="FIFA+ (Italy)" tvg-country="UK" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (Italy)
 https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ (United States)" tvg-country="UK" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" group-title="United Kingdom" x-tier="community" x-status="verified" x-quality="720p",FIFA+ (United States)
@@ -241,8 +253,6 @@ https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
 #EXTINF:-1 tvg-id="FloHockey.us@HD" tvg-name="FloHockey" tvg-country="US" tvg-language="English" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",FloHockey
 https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-name="Fox Deportes" tvg-country="US" tvg-language="Spanish;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",Fox Deportes
-https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
 #EXTINF:-1 tvg-id="FTFSports.us@SD" tvg-name="FTF Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yvUjOI3.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",FTF Sports
 https://a-cdn.klowdtv.com/live2/ftf_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-name="Fubo Sports Network" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Fubo Sports Network
@@ -257,6 +267,8 @@ https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="MarqueeSportsNetwork.us@SD" tvg-name="Marquee Sports Network" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/960px-Marquee_Sports_Network_Logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Marquee Sports Network
 https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
+#EXTINF:-1 tvg-id="NBATV.us@SD" tvg-name="NBA TV" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",NBA TV
+http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",NBC Sports NOW
 https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-name="NFL Network" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",NFL Network
@@ -289,17 +301,17 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlint
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us@SD" tvg-name="TVS Bowling Network" tvg-country="US" tvg-language="English" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Bowling Network
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
-#EXTINF:-1 tvg-id="TVSBoxing.us@SD" tvg-name="TVS Boxing" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/30ZoF75.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Boxing
+#EXTINF:-1 tvg-id="TVSBoxing.us@SD" tvg-name="TVS Boxing" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/30ZoF75.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Boxing
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
 #EXTINF:-1 tvg-id="TVSClassicSports.us@SD" tvg-name="TVS Classic Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/auR0Mi6.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-#EXTINF:-1 tvg-id="TVSSports.us@SD" tvg-name="TVS Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Lwwq62E.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Sports
+#EXTINF:-1 tvg-id="TVSSports.us@SD" tvg-name="TVS Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Lwwq62E.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Sports
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
-#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" tvg-name="TVS Sports Bureau" tvg-country="US" tvg-language="English" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Sports Bureau
+#EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" tvg-name="TVS Sports Bureau" tvg-country="US" tvg-language="English" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Sports Bureau
 https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 #EXTINF:-1 tvg-id="TVSTurbo.us@SD" tvg-name="TVS Turbo" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7zYIbU1.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Turbo
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
-#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-name="TVS Women Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="720p",TVS Women Sports
+#EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-name="TVS Women Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="United States" x-tier="community" x-status="verified" x-quality="sd",TVS Women Sports
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-name="Unbeaten" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="United States" x-tier="community" x-status="verified" x-quality="1080p",Unbeaten
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
