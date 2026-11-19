@@ -1,21 +1,21 @@
 {
-  "reference_time": "2026-11-18T11:48:08Z",
+  "reference_time": "2026-11-19T01:20:21Z",
   "records": {
     "approved": 760,
     "pending": 43,
     "rejected": 16
   },
-  "published_channels": 560,
-  "excluded_approved": 200,
+  "published_channels": 563,
+  "excluded_approved": 197,
   "countries": 96,
-  "languages": 64,
+  "languages": 65,
   "categories": 15,
-  "verified_playlist_channels": 484,
+  "verified_playlist_channels": 487,
   "playlist_files": 537,
   "latest_run": {
-    "run_id": "run-20261118T114203Z",
-    "started_at": "2026-11-18T11:42:03Z",
-    "finished_at": "2026-11-18T11:48:08Z",
+    "run_id": "run-20261119T011403Z",
+    "started_at": "2026-11-19T01:14:03Z",
+    "finished_at": "2026-11-19T01:20:21Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 760,
     "by_status": {
@@ -23,30 +23,30 @@
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 146,
-      "UNKNOWN": 68,
+      "UNAVAILABLE": 122,
+      "UNKNOWN": 70,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 447
+      "VERIFIED_WORKING": 469
     }
   },
   "latest_run_status_counts": {
-    "VERIFIED_WORKING": 447,
-    "UNAVAILABLE": 146,
+    "VERIFIED_WORKING": 469,
+    "UNAVAILABLE": 122,
     "GEO_RESTRICTED": 59,
     "AUTH_REQUIRED": 2,
     "RATE_LIMITED": 0,
     "TIMEOUT": 28,
     "INVALID_STREAM": 9,
     "UNSUPPORTED": 1,
-    "UNKNOWN": 68,
+    "UNKNOWN": 70,
     "NOT_TESTED": 0
   },
   "display_status_counts": {
-    "currently-failing": 5,
+    "currently-failing": 4,
     "geo-restricted": 42,
-    "previously-working": 61,
+    "previously-working": 43,
     "unknown": 5,
-    "verified-recently": 447
+    "verified-recently": 469
   },
   "per_country": {
     "ae": {
@@ -92,7 +92,7 @@
     "ba": {
       "name": "Bosnia and Herzegovina",
       "flag": "🇧🇦",
-      "channels": 2
+      "channels": 3
     },
     "be": {
       "name": "Belgium",
@@ -332,7 +332,7 @@
     "lu": {
       "name": "Luxembourg",
       "flag": "🇱🇺",
-      "channels": 6
+      "channels": 7
     },
     "lv": {
       "name": "Latvia",
@@ -512,7 +512,7 @@
     "us": {
       "name": "United States",
       "flag": "🇺🇸",
-      "channels": 68
+      "channels": 69
     },
     "ve": {
       "name": "Venezuela",
@@ -555,6 +555,10 @@
       "name": "Bengali",
       "channels": 5
     },
+    "bs": {
+      "name": "Bosnian",
+      "channels": 1
+    },
     "ca": {
       "name": "Catalan",
       "channels": 10
@@ -581,7 +585,7 @@
     },
     "en": {
       "name": "English",
-      "channels": 144
+      "channels": 145
     },
     "es": {
       "name": "Spanish",
@@ -661,7 +665,7 @@
     },
     "lb": {
       "name": "Luxembourgish",
-      "channels": 4
+      "channels": 5
     },
     "lg": {
       "name": "Ganda",
@@ -811,7 +815,7 @@
     },
     "general": {
       "name": "General",
-      "channels": 204
+      "channels": 206
     },
     "kids": {
       "name": "Kids",
@@ -831,7 +835,7 @@
     },
     "music": {
       "name": "Music",
-      "channels": 87
+      "channels": 88
     },
     "news": {
       "name": "News",
@@ -853,15 +857,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 560,
-      "verified": 484,
+      "published": 563,
+      "verified": 487,
       "not_verified": 76,
-      "with_measured_quality": 492,
+      "with_measured_quality": 495,
       "per_quality": {
-        "1080p": 248,
+        "1080p": 256,
         "4k": 1,
-        "720p": 174,
-        "sd": 69
+        "720p": 173,
+        "sd": 65
       }
     },
     "community": {
@@ -877,9 +881,9 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 585,
-        "invalid": 1028,
+        "invalid": 929,
         "restricted": 174,
-        "unknown": 375,
+        "unknown": 474,
         "unreachable": 1873,
         "working": 3330
       },

@@ -1,35 +1,35 @@
 {
-  "reference_time": "2026-11-18T11:48:08Z",
-  "baseline_reference_time": "2026-11-18T09:28:57Z",
+  "reference_time": "2026-11-19T01:20:21Z",
+  "baseline_reference_time": "2026-11-18T11:48:08Z",
   "baseline_available": true,
   "note": "Results describe reachability from the checker's network location at the reference time only.",
   "counts": {
-    "published": 560,
-    "verified_playlist": 484,
-    "excluded": 200,
+    "published": 563,
+    "verified_playlist": 487,
+    "excluded": 197,
     "pending_authorization": 43,
-    "quarantined": 157,
+    "quarantined": 154,
     "duplicates_excluded_total": 0,
     "new_candidates": 0,
     "new_published": 0,
     "updated": 0,
     "duplicates_removed": 0,
-    "newly_failing": 3,
-    "newly_quarantined": 2,
-    "restored": 3,
+    "newly_failing": 1,
+    "newly_quarantined": 1,
+    "restored": 4,
     "removed": 0
   },
   "lifecycle_counts": {
-    "intermittent": 150,
+    "intermittent": 157,
     "restricted": 42,
     "unknown": 22,
     "unreachable": 5,
-    "working": 341
+    "working": 337
   },
   "latest_run": {
-    "run_id": "run-20261118T114203Z",
-    "started_at": "2026-11-18T11:42:03Z",
-    "finished_at": "2026-11-18T11:48:08Z",
+    "run_id": "run-20261119T011403Z",
+    "started_at": "2026-11-19T01:14:03Z",
+    "finished_at": "2026-11-19T01:20:21Z",
     "location": "github-actions (Linux, GitHub-hosted runner)",
     "checked": 760,
     "by_status": {
@@ -37,10 +37,10 @@
       "GEO_RESTRICTED": 59,
       "INVALID_STREAM": 9,
       "TIMEOUT": 28,
-      "UNAVAILABLE": 146,
-      "UNKNOWN": 68,
+      "UNAVAILABLE": 122,
+      "UNKNOWN": 70,
       "UNSUPPORTED": 1,
-      "VERIFIED_WORKING": 447
+      "VERIFIED_WORKING": 469
     }
   },
   "discovery": {
@@ -71,7 +71,7 @@
     "note": "Full checks (URL policy, moderation, M3U syntax) run in scripts/validate.py before every commit."
   },
   "attention": [
-    "2 channel(s) newly quarantined (failing repeatedly)"
+    "1 channel(s) newly quarantined (failing repeatedly)"
   ],
   "lists": {
     "new_candidates": [],
@@ -80,59 +80,45 @@
     "duplicates_removed": [],
     "newly_failing": [
       {
-        "id": "big-civic-channel-us",
-        "name": "BIG Civic Channel",
-        "country": "us",
+        "id": "laura-dave-media-tv-cm",
+        "name": "Laura Dave Media TV",
+        "country": "cm",
         "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "one-ard",
-        "name": "ONE",
-        "country": "de",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
-      },
-      {
-        "id": "trt-world",
-        "name": "TRT World",
-        "country": "tr",
-        "state": "unreachable",
-        "error": "connection error: ConnectError: All connection attempts failed"
+        "error": "segment: HTTP 404 (stream not found)"
       }
     ],
     "newly_quarantined": [
       {
-        "id": "big-civic-channel-us",
-        "name": "BIG Civic Channel",
+        "id": "laura-dave-media-tv-cm",
+        "name": "Laura Dave Media TV",
+        "country": "cm",
+        "since": "2026-11-19T01:14:31Z"
+      }
+    ],
+    "restored": [
+      {
+        "id": "livexlive-us",
+        "name": "LIVExLIVE",
         "country": "us",
-        "since": "2026-11-18T11:45:05Z"
+        "restored_at": "2026-11-19T01:17:19Z"
+      },
+      {
+        "id": "rtl-web-radio-tv-lu",
+        "name": "RTL Web Radio TV",
+        "country": "lu",
+        "restored_at": "2026-11-19T01:15:56Z"
+      },
+      {
+        "id": "rtv-zenica-ba",
+        "name": "RTV Zenica",
+        "country": "ba",
+        "restored_at": "2026-11-19T01:14:13Z"
       },
       {
         "id": "trt-world",
         "name": "TRT World",
         "country": "tr",
-        "since": "2026-11-18T11:45:41Z"
-      }
-    ],
-    "restored": [
-      {
-        "id": "america-internacional-pe",
-        "name": "America Internacional",
-        "country": "pe",
-        "restored_at": "2026-11-18T11:44:15Z"
-      },
-      {
-        "id": "emisora-comunitaria-104-1-fm-co",
-        "name": "Emisora Comunitaria 104.1 FM",
-        "country": "co",
-        "restored_at": "2026-11-18T11:42:43Z"
-      },
-      {
-        "id": "le-figaro-tv-ile-de-france-fr",
-        "name": "Le Figaro TV Ile-de-France",
-        "country": "fr",
-        "restored_at": "2026-11-18T11:43:08Z"
+        "restored_at": "2026-11-19T01:17:49Z"
       }
     ],
     "removed": []
@@ -141,15 +127,15 @@
   "tiers": {
     "note": "Tiers are never mixed. 'Untested' community streams have not been confirmed working.",
     "official": {
-      "published": 560,
-      "verified": 484,
+      "published": 563,
+      "verified": 487,
       "not_verified": 76,
-      "with_measured_quality": 492,
+      "with_measured_quality": 495,
       "per_quality": {
-        "1080p": 248,
+        "1080p": 256,
         "4k": 1,
-        "720p": 174,
-        "sd": 69
+        "720p": 173,
+        "sd": 65
       }
     },
     "community": {
@@ -165,9 +151,9 @@
       "languages": 90,
       "lifecycle": {
         "intermittent": 585,
-        "invalid": 1028,
+        "invalid": 929,
         "restricted": 174,
-        "unknown": 375,
+        "unknown": 474,
         "unreachable": 1873,
         "working": 3330
       },
