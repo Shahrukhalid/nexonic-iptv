@@ -9,7 +9,7 @@ Live address: `https://nexonic-iptv.shahrukhalid.workers.dev`
 
 ## How it is deployed
 
-The Cloudflare account is linked to this GitHub repository (Workers & Pages > Create > Import a repository) with
+The Cloudflare account is linked to this GitHub repository (`nexonic-technologies/nexonic-iptv`) (Workers & Pages > Create > Import a repository) with
 **Path** `/cloud`, an empty build command and the deploy command `npx wrangler deploy`. Every push to `main` that
 changes `cloud/` deploys again by itself; channel updates need no deployment, because the Worker reads the latest
 files from the website. Keep "Protect with Cloudflare Access" off, or apps cannot log in.
